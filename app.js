@@ -239,6 +239,41 @@ function nl(value) {
   return escapeHtml(value).replaceAll("\n", "<br>");
 }
 
+function richText(value) {
+  const raw = String(value ?? "").trim();
+  if (!raw) return "";
+  const normalized = raw
+    .replace(/\r\n/g, "\n")
+    .replace(/\s*•\s*/g, "\n• ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+  const lines = normalized
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+  const bulletCount = lines.filter((line) => /^•\s+/.test(line)).length;
+  if (bulletCount < 2) return nl(normalized);
+
+  const blocks = [];
+  let list = [];
+  const flushList = () => {
+    if (!list.length) return;
+    blocks.push(`<ul class="bullet-list">${list.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`);
+    list = [];
+  };
+
+  for (const line of lines) {
+    if (/^•\s+/.test(line)) {
+      list.push(line.replace(/^•\s+/, ""));
+    } else {
+      flushList();
+      blocks.push(`<p>${escapeHtml(line)}</p>`);
+    }
+  }
+  flushList();
+  return `<div class="rich-text">${blocks.join("")}</div>`;
+}
+
 function compact(value, max = 180) {
   const text = String(value ?? "").replace(/\s+/g, " ").trim();
   return text.length <= max ? text : `${text.slice(0, max - 3)}...`;
@@ -633,7 +668,7 @@ function renderInfoLines(rows) {
     .map(
       ([label, value]) => `<div class="info-line">
         <b>${escapeHtml(label)}</b>
-        <span>${nl(value || "-")}</span>
+        <div class="info-value">${richText(value || "-")}</div>
       </div>`,
     )
     .join("");
@@ -797,7 +832,7 @@ function renderCriteria(detail) {
           .map(
             (row) => `<article class="criteria-card">
               <h4>${escapeHtml(textBy(row, "sector", "sectorKo"))} · ${escapeHtml(row.level)}</h4>
-              <p class="text-block">${nl(textBy(row, "criteria", "criteriaKo"))}</p>
+              <div class="text-block">${richText(textBy(row, "criteria", "criteriaKo"))}</div>
             </article>`,
           )
           .join("")
@@ -811,7 +846,7 @@ function renderGuidance(detail) {
     .map(
       (block) => `<article class="guidance-block">
         <h4>${escapeHtml(textBy(block, "type", "typeKo") || "Guidance")}</h4>
-        <p class="text-block">${nl(textBy(block, "text", "textKo"))}</p>
+        <div class="text-block">${richText(textBy(block, "text", "textKo"))}</div>
       </article>`,
     )
     .join("");

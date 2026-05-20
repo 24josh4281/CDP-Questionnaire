@@ -43,8 +43,8 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Assets",
-        "Liabilities",
+        "자산",
+        "부채",
         "매출",
         "자본지출(CAPEX)",
         "운영비용(OPEX)",
@@ -61,7 +61,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Amount of financial metric vulnerable to transition risks for this environmental issue (unit currency as 선택 in 1.2)",
+      "textKo": "Amount of financial metric vulnerable to transition 리스크 for this environmental issue (unit currency as 선택 in 1.2)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -89,7 +89,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% of total financial metric vulnerable to transition risks for this environmental issue",
+      "textKo": "% of total financial metric vulnerable to transition 리스크 for this environmental issue",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -117,7 +117,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Amount of financial metric vulnerable to physical risks for this environmental issue (unit currency as 선택 in 1.2)",
+      "textKo": "Amount of financial metric vulnerable to physical 리스크 for this environmental issue (unit currency as 선택 in 1.2)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -145,7 +145,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% of total financial metric vulnerable to physical risks for this environmental issue",
+      "textKo": "% of total financial metric vulnerable to physical 리스크 for this environmental issue",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -173,7 +173,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Amount of 자본지출(CAPEX) in the 보고연도 deployed towards risks related to this environmental issue",
+      "textKo": "Amount of 자본지출(CAPEX) in the 보고연도 deployed towards 리스크 related to this environmental issue",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -188,7 +188,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Explanation of financial figures",
+      "textKo": "설명 of financial figures",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -207,25 +207,25 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select any of the \"Yes,…\" options in response to column 1 \"Environmental risks identified\" in the \"Climate change\", \"Forests\", or \"Water\" row of 3.1.",
       "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select 하나 이상 의 \"Yes,…\" options in response to 열 1 \"Environmental risks identified\" in the \"기후변화\", \"Forests\", 또는 \"수자원\" 행 of 3.1."
+      "textKo": "This 문항 only appears 만약 you select 하나 이상 의 \"Yes,…\" options in response to 열 1 \"식별된 환경 리스크\" in the \"기후변화\", \"Forests\", 또는 \"수자원\" 행 of 3.1."
     },
     {
       "type": "Requested Content",
       "text": "General \nWhile question 3.1.1 asks for the financial effects of risks identified per specific risk and time horizon, this question enables investors and data users to understand the amount and proportion of your organization's current financial metrics that are vulnerable to financial effects of all environmental risks identified, regardless of when they may occur. This gives context to an organization's risk profile and helps to put the effects of risks in perspective.\nOptions in column 1 \"Environmental issue\" are dependent on selections in column 1 \"Environmental risks identified\" of 3.1.\nYou should report at least one row for each environmental issue presented in column 1 \"Environmental issue\", based on the financial metric in column 2 \"Financial metric\" most relevant to your business. You may choose to add rows to report based on additional financial metrics.\nAs per the TCFD and TNFD LEAP guidance , \"vulnerability encompasses a variety of concepts and elements, including sensitivity or susceptibility to harm and lack of capacity to cope and adapt\" (see Explanation of Terms for definition of vulnerability). For organizations following the LEAP approach, vulnerability is determined in the Assess phase, considering the likelihood of the risk arising and the organization's ability to mitigate the risk.\nEnvironmental risks to which your organization is vulnerable may relate to one or more environmental issues. For example, if you have assessed a particular asset to be vulnerable to climate-change induced flooding risk, you may include the asset in the calculation of vulnerability to both climate and water-related risks.\nConsider the amount and proportion of the financial metric vulnerable to risks which are anticipated to have a substantive effect on the organization in any time horizon. For example, all assets vulnerable to physical risks in any of the short, medium, or long-term time horizons should be included when calculating the option selected in column 5 \"Amount of financial metric vulnerable to physical risks for this environmental issue (unit currency as selected in 1.2)\".\nFinancial metric (column 2) \nSelect the financial metric for which you have assessed your organization's vulnerability to risks related to the environmental issue in column 1.\nIf reporting multiple financial metrics to indicate your organization's vulnerability to risks for each environmental issue, you may add rows to report additional financial metrics.\nYou should report the metrics that are most relevant to your business activities.\n% of total financial metric vulnerable to physical/transition risks for this environmental issue (column 4 & 6) \nOut of the total of the financial metric selected in column 2 \"Financial metric\", indicate the proportion of that metric considered vulnerable to risks relating to this environmental issue.\nCalculate this number by dividing the value provided in column 3 \"Amount of financial metric vulnerable to transition risks for this environmental issue (unit currency as selected in 1.2)\" by the total value of the selected financial metric.\nE.g. If \"Climate change\" is the environmental issue in column 1 \"Environmental issue\" and \"Revenue\" is the financial metric selected in column 2 \"Financial metric\", divide the value of your revenue vulnerable to climate-related risks by your total revenue.\nSelect the closest range to the calculated % and provide an explanation in column 8 \"Explanation of financial figures\".\nAmount of CAPEX in the reporting year deployed towards risks related to this environmental issue (column 7) \nThis column only appears if you select \"CAPEX\" in column 2 \"Financial metric\".\nIndicate the total amount of capital expenditure in the reporting year that was spent towards risks relating to each environmental issue.\nE.g. If you purchased a particular asset in the reporting year as a response to a climate-related risk, the capital expenditure associated with this purchase should be included in the figure reported in row \"Climate change\".\nExplanation of financial figures (column 8) \nThere are differing approaches to the calculation of vulnerability to risk. Describe the methodology used to derive the figures, including:\nThe approach employed for calculation; and\nAny assumptions underlying the figure.",
       "typeKo": "요청 내용",
-      "textKo": "일반 While 문항 3.1.1 asks 에 대한 financial effects of risks identified per specific risk 및 time horizon, this 문항 enables investors 및 데이터 사용자 to understand the amount 및 proportion of 귀사의 current financial metrics that are vulnerable to financial effects of all environmental risks identified, regardless of 경우 they may occur. This gives context to an 조직의 risk profile 및 helps to put the effects of risks in perspective. Options in 열 1 \"Environmental issue\" are dependent on selections in 열 1 \"Environmental risks identified\" of 3.1. You 해야 합니다 report 최소 one 행 for each environmental issue presented in 열 1 \"Environmental issue\", based on the financial metric in 열 2 \"Financial metric\" most relevant to your business. You may choose to add 행 to report based on additional financial metrics. As per the TCFD 및 TNFD LEAP guidance , \"vulnerability encompasses a variety of concepts 및 elements, 포함 sensitivity 또는 susceptibility to harm 및 lack of capacity to cope 및 adapt\" (see Explanation of Terms for definition of vulnerability). For organizations following the LEAP approach, vulnerability is determined in the Assess phase, considering the likelihood 의 risk arising 및 the 조직의 ability to mitigate the risk. Environmental risks to which 귀사 is vulnerable may relate to one 또는 more environmental issues. For example, 만약 you have assessed a particular asset to be vulnerable to climate-change induced flooding risk, you may include the asset in the calculation of vulnerability to both climate 및 수자원-related risks. Consider the amount 및 proportion 의 financial metric vulnerable to risks which are anticipated to have a substantive effect on the organization in 하나 이상 time horizon. For example, all assets vulnerable to physical risks in 하나 이상 의 short, medium, 또는 long-term time horizons 해야 합니다 be included 경우 calculating the option 선택 in 열 5 \"Amount of financial metric vulnerable to physical risks for this environmental issue (unit currency as 선택 in 1.2)\". Financial metric (열 2) Select the financial metric for which you have assessed 귀사의 vulnerability to risks related to the environmental issue in 열 1. 만약 reporting multiple financial metrics to indicate 귀사의 vulnerability to risks for each environmental issue, you may add 행 to report additional financial metrics. You 해야 합니다 report the metrics that are most relevant to your business activities. % of total financial metric vulnerable to physical/transition risks for this environmental issue (열 4 & 6) Out 의 total 의 financial metric 선택 in 열 2 \"Financial metric\", indicate the proportion of that metric considered vulnerable to risks relating to this environmental issue. Calculate this number by dividing the value 입력 in 열 3 \"Amount of financial metric vulnerable to transition risks for this environmental issue (unit currency as 선택 in 1.2)\" by the total value 의 선택 financial metric. E.g. 만약 \"기후변화\" is the environmental issue in 열 1 \"Environmental issue\" 및 \"매출\" is the financial metric 선택 in 열 2 \"Financial metric\", divide the value of your 매출 vulnerable to climate-related risks by your total 매출. Select the closest range to the calculated % 및 provide an explanation in 열 8 \"Explanation of financial figures\". Amount of 자본지출(자본지출(CAPEX)) in the 보고연도 deployed towards risks related to this environmental issue (열 7) This 열 only appears 만약 you select \"자본지출(자본지출(CAPEX))\" in 열 2 \"Financial metric\". Indicate the total amount of 자본지출 in the 보고연도 that was spent towards risks relating to each environmental issue. E.g. 만약 you purchased a particular asset in the 보고연도 as a response to a climate-related risk, the 자본지출 associated with this purchase 해야 합니다 be included in the figure 보고 in 행 \"기후변화\". Explanation of financial figures (열 8) There are differing approaches to the calculation of vulnerability to risk. 설명 the 방법론 used to derive the figures, 포함: The approach employed for calculation; 및 하나 이상 assumptions underlying the figure."
+      "textKo": "일반 While 문항 3.1.1 asks 에 대한 financial effects of 리스크 identified per specific risk 및 time horizon, this 문항 enables investors 및 데이터 사용자 to understand the amount 및 proportion of 귀사의 current financial metrics that are vulnerable to financial effects of all 식별된 환경 리스크, regardless of 경우 they may occur. This gives context to an 조직의 risk profile 및 helps to put the effects of 리스크 in perspective. Options in 열 1 \"Environmental issue\" are dependent on 선택s in 열 1 \"식별된 환경 리스크\" of 3.1. You 해야 합니다 report 최소 one 행 for each environmental issue presented in 열 1 \"Environmental issue\", based on the financial metric in 열 2 \"Financial metric\" most 관련 to your business. You may choose to add 행 to report based on additional financial metrics. As per the TCFD 및 TNFD LEAP guidance, \"vulnerability encompasses a variety of concepts 및 elements, 포함 sensitivity 또는 susceptibility to harm 및 부족 capacity to cope 및 adapt\" (see 설명 of Terms for definition of vulnerability). For organizations following the LEAP approach, vulnerability is determined in the Assess phase, considering the likelihood 의 risk arising 및 the 조직의 ability to mitigate the risk. Environmental 리스크 to which 귀사 is vulnerable may relate to one 또는 more 환경 이슈. For example, 만약 you have assessed a particular asset to be vulnerable to climate-change induced flooding risk, you may include the asset in the 계산 of vulnerability to both climate 및 수자원-related 리스크. Consider the amount 및 proportion 의 financial metric vulnerable to 리스크 which are anticipated to have a substantive effect on the organization in 하나 이상 time horizon. For example, all 자산 vulnerable to physical 리스크 in 하나 이상 의 short, medium, 또는 long-term time horizons 해야 합니다 be included 경우 calculating the option 선택 in 열 5 \"Amount of financial metric vulnerable to physical 리스크 for this environmental issue (unit currency as 선택 in 1.2)\". Financial metric (열 2) Select the financial metric for which you have assessed 귀사의 vulnerability to 리스크 related to the environmental issue in 열 1. 만약 reporting multiple financial metrics to indicate 귀사의 vulnerability to 리스크 for each environmental issue, you may add 행 to report additional financial metrics. You 해야 합니다 report the metrics that are most 관련 to your business activities. % of total financial metric vulnerable to physical/transition 리스크 for this environmental issue (열 4 & 6) Out 의 total 의 financial metric 선택 in 열 2 \"Financial metric\", indicate the proportion of that metric considered vulnerable to 리스크 relating to this environmental issue. Calculate this number by dividing the value 입력 in 열 3 \"Amount of financial metric vulnerable to transition 리스크 for this environmental issue (unit currency as 선택 in 1.2)\" by the total value 의 선택 financial metric. E.g. 만약 \"기후변화\" is the environmental issue in 열 1 \"Environmental issue\" 및 \"매출\" is the financial metric 선택 in 열 2 \"Financial metric\", divide the value of your 매출 vulnerable to climate-related 리스크 by your total 매출. Select the closest range to the calculated % 및 provide an 설명 in 열 8 \"설명 of financial figures\". Amount of 자본지출(자본지출(CAPEX)) in the 보고연도 deployed towards 리스크 related to this environmental issue (열 7) This 열 only appears 만약 you select \"자본지출(자본지출(CAPEX))\" in 열 2 \"Financial metric\". Indicate the total amount of 자본지출 in the 보고연도 that was spent towards 리스크 relating to each environmental issue. E.g. 만약 you purchased a particular asset in the 보고연도 as a response to a climate-related risk, the 자본지출 associated with this purchase 해야 합니다 be included in the figure 보고 in 행 \"기후변화\". 설명 of financial figures (열 8) There are differing approaches to the 계산 of vulnerability to risk. 설명 the 방법론 used to derive the figures, 포함: The approach employed for 계산; 및 하나 이상 assumptions underlying the figure."
     },
     {
       "type": "Ambition",
       "text": "The organization discloses organization-wide information, including:\nAmount and proportion of total annual revenue vulnerable to 1) physical risks and 2) transition risks, \nAmount and proportion of assets vulnerable to 1) physical risks and 2) transition risks, \nAmount of capital expenditure deployed towards risks.",
       "typeKo": "Ambition",
-      "textKo": "The organization discloses organization-wide information, 포함: Amount 및 proportion of total 연간 매출 vulnerable to 1) physical risks 및 2) transition risks, Amount 및 proportion of assets vulnerable to 1) physical risks 및 2) transition risks, Amount of 자본지출 deployed towards risks."
+      "textKo": "The organization discloses organization-wide information, 포함: Amount 및 proportion of total 연간 매출 vulnerable to 1) physical 리스크 및 2) transition 리스크, Amount 및 proportion of 자산 vulnerable to 1) physical 리스크 및 2) transition 리스크, Amount of 자본지출 deployed towards 리스크."
     },
     {
       "type": "Explanation of Terms",
       "text": "Assets: entities functioning as stores of value and over which ownership rights are enforced by institutional units, individually or collectively, and from which economic benefits may be derived by their owners by holding them, or using them, over a period of time (the economic benefits consist of primary incomes derived from the use of the asset and the value, including possible holding gains/losses, that could be realized by disposing of the asset or terminating it). \nCapital expenditure: a measure of the value of purchases of fixed assets such as property, buildings, an industrial plant, technology, or equipment. Put differently, CapEx is any type of expense that an organization capitalizes, or shows on its balance sheet as an investment, rather than on its income statement as an expenditure. \nLiabilities: an obligation which requires one unit (the debtor) to make a payment or a series of payments to the other unit (the creditor) in certain circumstances specified in a contract between them. \nRevenue: gross income arising from the operations of an organization over a period of time. \nVulnerability : the propensity or predisposition to be adversely affected. Vulnerability encompasses a variety of concepts and elements, including sensitivity or susceptibility to harm and lack of capacity to cope and adapt ( Intergovernmental Panel on Climate Change , 2022).",
-      "typeKo": "Explanation of Terms",
-      "textKo": "Assets: entities functioning as stores of value 및 over which ownership rights are enforced by institutional units, individually 또는 collectively, 및 from which economic benefits may be derived by their owners by holding them, 또는 using them, over a period of time (the economic benefits consist of primary incomes derived from the use 의 asset 및 the value, 포함 possible holding gains/losses, that could be realized by disposing 의 asset 또는 terminating it). 자본지출: a measure 의 value of purchases of fixed assets such as property, buildings, an industrial plant, technology, 또는 equipment. Put differently, 자본지출(자본지출(CAPEX)) is 하나 이상 type of expense that an organization capitalizes, 또는 shows on its balance sheet as an investment, rather than on its income statement as an expenditure. Liabilities: an obligation which requires one unit (the debtor) to make a payment 또는 a series of payments to the other unit (the creditor) in certain circumstances specified in a contract between them. 매출: gross income arising from the operations of an organization over a period of time. Vulnerability : the propensity 또는 predisposition to be adversely affected. Vulnerability encompasses a variety of concepts 및 elements, 포함 sensitivity 또는 susceptibility to harm 및 lack of capacity to cope 및 adapt ( Intergovernmental Panel on 기후변화 , 2022)."
+      "typeKo": "설명 of Terms",
+      "textKo": "자산: entities functioning as stores of value 및 over which ownership rights are enforced by institutional units, individually 또는 collectively, 및 from which economic benefits may be derived by their owners by holding them, 또는 using them, over a period of time (the economic benefits consist of primary incomes derived from the use 의 asset 및 the value, 포함 possible holding gains/losses, that could be realized by disposing 의 asset 또는 terminating it). 자본지출: a measure 의 value of purchases of fixed 자산 such as property, buildings, an industrial plant, 기술, 또는 equipment. Put differently, 자본지출(자본지출(CAPEX)) is 하나 이상 type of expense that an organization capitalizes, 또는 shows on its balance sheet as an investment, rather than on its income statement as an expenditure. 부채: an obligation which requires one unit (the debtor) to make a payment 또는 a series of payments to the other unit (the creditor) in certain circumstances specified in a contract between them. 매출: gross income arising from the operations of an organization over a period of time. Vulnerability: the propensity 또는 predisposition to be adversely affected. Vulnerability encompasses a variety of concepts 및 elements, 포함 sensitivity 또는 susceptibility to harm 및 부족 capacity to cope 및 adapt (Intergovernmental Panel on 기후변화, 2022)."
     }
   ],
   "points": [
@@ -1209,7 +1209,7 @@
     "locationEn": "Qualitative PPT",
     "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "the amount 및 proportion of your financial metrics from the 보고연도 that are vulnerable to the substantive effects of environmental risks.을/를 입력하십시오."
+    "q2025_textKo": "the amount 및 proportion of your financial metrics from the 보고연도 that are vulnerable to the substantive effects of environmental 리스크.을/를 입력하십시오."
   },
   "defaultPoints": {
     "D": "7/7",
@@ -1248,7 +1248,7 @@
   "mandatoryKo": "아니요",
   "issueTagsKo": "수자원, Climate Change, 산림",
   "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "This 문항 provides investors 및 데이터 사용자 with more transparency over the vulnerability of an organization to the substantive effects of environmental risks. Quantifying vulnerability can provide an understanding 의 degree to which the organization stands to be affected by their anticipated risks. This can inform how 및 여기서 the organization responds to environmental risk within their 재무계획 및 strategy.",
+  "simpleHelpKo": "This 문항 provides investors 및 데이터 사용자 with more transparency over the vulnerability of an organization to the substantive effects of environmental 리스크. Quantifying vulnerability can provide an understanding 의 degree to which the organization stands to be affected by their anticipated 리스크. This can inform how 및 여기서 the organization responds to environmental risk within their 재무계획 및 전략.",
   "popupHelpKo": "",
   "baseOptionsKo": []
 }
