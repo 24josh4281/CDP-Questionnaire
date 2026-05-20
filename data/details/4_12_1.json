@@ -1,0 +1,1281 @@
+{
+  "code": "4.12.1",
+  "module": "4",
+  "moduleTitle": "Governance",
+  "questionText": "Provide details on the information published about your organization's response to environmental issues for this reporting year in places other than your CDP response. Please attach the publication.",
+  "questionKo": "보고연도에 귀사의 환경이슈와 관련된 정보를 CDP 가 아닌 다른 곳에 공개한 것에 대한 세부 정보를 입력하 십시오 . 관련 문서나 보고서를 첨부하십시오 .",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Ocean, Biodiversity, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "For transparency in corporate environmental reporting, organizations are encouraged to integrate non-financial metrics and data into mainstream financial reports. Data users seek to understand where and how organizations communicate their environmental strategies, their emissions figures, and their dependencies, impacts, risks, and opportunities, as well as whether these communications are in line with environmental disclosure standards or frameworks.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "4.12.1.1",
+      "text": "Publication",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "In mainstream reports",
+        "In other regulatory filings",
+        "In voluntary communications",
+        "In voluntary sustainability reports",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Publication",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "In mainstream reports",
+        "In other regulatory filings",
+        "In voluntary communications",
+        "In voluntary sustainability reports",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.12.1.2",
+      "text": "Is your publication in line with a standard or framework?",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "publication in line with a standard 또는 framework 여부를 선택하십시오.",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "아니요"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.12.1.3",
+      "text": "Standard or framework the publication is in line with",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "ESRS",
+        "GRI",
+        "IFRS",
+        "TCFD",
+        "TNFD",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Standard 또는 framework the publication is in line with",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "ESRS",
+        "GRI",
+        "IFRS",
+        "TCFD",
+        "TNFD",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.12.1.4",
+      "text": "Environmental issues covered in publication",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Climate change",
+        "Water"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Environmental issues covered in publication",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "기후변화",
+        "수자원"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.12.1.5",
+      "text": "Status of the publication",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Complete",
+        "Underway - previous year attached",
+        "Underway - this is our first year"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Status 의 publication",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Complete",
+        "Underway - previous year attached",
+        "Underway - this is our first year"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.12.1.6",
+      "text": "Content elements",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Content of environmental policies",
+        "Governance",
+        "Public policy engagement",
+        "Dependencies & Impacts",
+        "Risks & Opportunities",
+        "Strategy",
+        "Value chain engagement",
+        "Greenhouse gas emissions figures",
+        "Climate-related targets",
+        "Water-related targets",
+        "Water accounting figures",
+        "Water pollution indicators",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Content elements",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Content of environmental policies",
+        "Governance",
+        "Public 정책 engagement",
+        "Dependencies & Impacts",
+        "Risks & Opportunities",
+        "Strategy",
+        "가치사슬 engagement",
+        "온실가스 배출량 figures",
+        "Climate-related 목표",
+        "Water-related 목표",
+        "Water accounting figures",
+        "Water pollution indicators",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.12.1.7",
+      "text": "Page/section reference",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Page/section reference",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.12.1.8",
+      "text": "Attach the relevant publication",
+      "type": "ATTACHMENT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Attach the relevant publication",
+      "typeKo": "파일 첨부",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.12.1.9",
+      "text": "Comment",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Comment",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified question",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified 문항"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in response to 4.12.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"예\" in response to 4.12."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nPrivately held organizations that do not have a legal obligation to produce annual reports should still select \"In mainstream reports\" if they publish any annual sustainability reporting.\nPublication (column 1) \nSelect from the drop-down options the type of publication your organization has published in response to environmental issues outside of its CDP response.\nOther regulatory filings are reports required by regional or national legislation, but not defined as mainstream reports.\nVoluntary communications include optional sustainability/CSR reports, consumer-facing publications, advertising, organization websites, executive speeches and/or presentations.\nIf you select \"Other, please specify\", provide a label for the publication.\nStandard or framework the publication is in line with (column 3) \nThis column is only presented if you select \"Yes\" in column 2 \"Is your publication in line with a standard or framework?\".\nSelect all the standards or frameworks your publication aligns with. This means that your publication adheres to the disclosure requirements of the selected standard or framework.\nSelect \"Other, please specify\" to add any unlisted standard or framework.\nIf you have separate publications for different standards or frameworks, add rows for each publication.\nStatus of the publication (column 5) \nSelect the status of the publication type selected in column 1 \"Publication\".\nThe report should relate to the reporting year although it is acknowledged that it may not be published in the reporting year.\nFor reports not ready for publication at the time of submission of your CDP response, select one of the options that indicates the report is underway.\nIf the previous year's report is available, select \"Underway - previous year attached\" and complete column 6 \"Content elements\" and column 7 \"Page/section reference\".\nFor the first year of publication, select \"Underway - this is our first year\". Column 7 \"Page/section reference\" and column 8 \"Attach the relevant publication\" will not appear in this case.\nIf the publication is available, select \"Complete.\"\nPage/section reference (column 7) \nThis column is only shown if Complete\" or \"Underway - previous year attached\" is selected in column 5 \"Status of the publication\".\nIndicate the page or section where relevant information can be found.\nAttach the relevant publication (column 8) \nThis column is only shown if Complete\" or \"Underway - previous year attached\" is selected in column 5 \"Status of the publication\".",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Privately held organizations that do not have a legal obligation to produce annual reports 해야 합니다 still select \"In mainstream reports\" 만약 they publish 하나 이상 annual sustainability reporting. Publication (열 1) Select from the drop-down options the type of publication 귀사 has published in response to environmental issues outside of its CDP response. Other regulatory filings are reports required by regional 또는 national legislation, but not defined as mainstream reports. Voluntary communications include optional sustainability/CSR reports, consumer-facing publications, advertising, organization websites, executive speeches 및/또는 presentations. 만약 you select \"Other, 직접 입력\", provide a label 에 대한 publication. Standard 또는 framework the publication is in line with (열 3) This 열 is only presented 만약 you select \"예\" in 열 2 \"Is your publication in line with a standard 또는 framework?\". Select all the 기준 또는 frameworks your publication aligns with. This means that your publication adheres to the disclosure requirements 의 선택 standard 또는 framework. Select \"Other, 직접 입력\" to add 하나 이상 unlisted standard 또는 framework. 만약 you have separate publications for different 기준 또는 frameworks, add 행 for each publication. Status 의 publication (열 5) Select the status 의 publication type 선택 in 열 1 \"Publication\". The report 해야 합니다 relate to the 보고연도 although it is acknowledged that it may not be published in the 보고연도. For reports not ready for publication at the time of submission of your CDP response, select one 의 options that indicates the report is underway. 만약 the previous year's report is available, select \"Underway - previous year attached\" 및 complete 열 6 \"Content elements\" 및 열 7 \"Page/section reference\". 에 대한 first year of publication, select \"Underway - this is our first year\". 열 7 \"Page/section reference\" 및 열 8 \"Attach the relevant publication\" will not appear in this case. 만약 the publication is available, select \"Complete.\" Page/section reference (열 7) This 열 is only shown 만약 Complete\" 또는 \"Underway - previous year attached\" is 선택 in 열 5 \"Status 의 publication\". Indicate the page 또는 section 여기서 relevant information can be found. Attach the relevant publication (열 8) This 열 is only shown 만약 Complete\" 또는 \"Underway - previous year attached\" is 선택 in 열 5 \"Status 의 publication\"."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Mainstream reports: in line with CDSB, this refers to the annual reporting packages in which organizations are required to deliver their audited financial results under the corporate, compliance or securities laws of the country/area in which they are incorporated or, if relevant, operate. Mainstream reports are traditionally publicly available. They provide information to existing and prospective investors about the financial position and financial performance of the organization. The exact provisions under which companies are required to deliver mainstream financial reports differ internationally but will generally contain financial statements and other financial reporting, including governance statements and management commentary.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Mainstream reports: in line with CDSB, this refers to the annual reporting packages in which organizations are required to deliver their audited financial results under the corporate, compliance 또는 securities laws 의 country/area in which they are incorporated or, 만약 relevant, operate. Mainstream reports are traditionally publicly available. They provide information to existing 및 prospective investors about the financial position 및 financial performance 의 organization. The exact provisions under which companies are required to deliver mainstream financial reports differ internationally but will generally contain 재무제표 및 other financial reporting, 포함 governance statements 및 management commentary."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "0.5 or 1/1",
+      "M": "1 or 2/2",
+      "L": "1/1",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 7/7 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered in publication' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered in publication' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\nEither 'Complete' OR 'Underway - previous year attached' selected in column 'Status of the publication' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Underway - this is our first year' selected in column 'Status of the publication' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOne row scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) Either 'Complete' 또는 'Underway - previous year attached' 선택 in 열 'Status 의 publication' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway - this is our first year' 선택 in 열 'Status 의 publication' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nROUTE A)\n'In mainstream reports' selected in column 'Publication' AND ‘Yes' selected in column ‘Is your publication in line with a standard or framework?' AND\nAny of the following options selected in column 'Standard or framework the publication is in line with' - 2 points\n- 'ESRS'\n- 'GRI'\n- 'IFRS'\n- 'TCFD'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'In mainstream reports' selected in column 'Publication' AND\n‘Yes' selected in column ‘Is your publication in line with a standard or framework? AND ‘Other, please specify' selected in column 'Standard or framework the publication is in line with' OR\n‘No' selected in column ‘Is your publication in line with a standard or framework? - 1/2 points\nA maximum of 1/2 points is available for this route.\nOne row scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 경로 A) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework?' 그리고 하나 이상 의 following options 선택 in 열 'Standard 또는 framework the publication is in line with' - 2 점 - 'ESRS' - 'GRI' - 'IFRS' - 'TCFD' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'In mainstream reports' 선택 in 열 'Publication' 그리고 ‘예' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? 그리고 ‘Other, 직접 입력' 선택 in 열 'Standard 또는 framework the publication is in line with' 또는 ‘No' 선택 in 열 ‘Is your publication in line with a standard 또는 framework? - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "The following conditions must be met to be eligible for Leadership points:\nFull Management points awarded AND\n'Climate change' selected in column 'Environmental issues covered in publication' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered in publication':\nAt least three of the following options selected in column 'Content elements': - 1 point\n- 'Content of environmental policies'\n- 'Governance'\n- 'Public policy engagement'\n- 'Dependencies & Impacts'\n- 'Risks & Opportunities'\n- 'Strategy'\n- 'Value chain engagement'\n- 'Greenhouse gas emissions figures'\n- 'Climate-related targets'\n- 'Other, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: Management에서 최고점 획득 그리고 '기후변화' 선택 in 열 'Environmental issues covered in publication' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered in publication': 최소 three 의 following options 선택 in 열 'Content elements': - 1 점 - 'Content of environmental policies' - 'Governance' - 'Public 정책 engagement' - 'Dependencies & Impacts' - 'Risks & Opportunities' - 'Strategy' - '가치사슬 engagement' - '온실가스 배출량 figures' - 'Climate-related 목표' - 'Other, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "보고연도에 귀사의 환경이슈와 관련된 정보를 CDP 가 아닌 다른 곳에 공개한 것에 대한 세부 정보를 입력하 십시오 . 관련 문서나 보고서를 첨부하십시오 . M4. Governance",
+    "q2025": "Q4.12.1",
+    "q2025_text": "Provide details on the information published about your organization's response to environmental issues for this reporting year in places other than your CDP response. Please attach the publication.",
+    "change_status": "Modified question; new question for Ocean",
+    "detail_change_types": "Removed dropdown option, New column, New dropdown option, New dropdown option, Modified dropdown option",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": true,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "Option \"In mainstream reports, in line with environmental disclosure standrads or frameworks\" removed.\nNew column to allow organisations to disclose if publication is in line with a standard or framework.\nOcean dropdown added.\nNew Forest, Water and Ocean target options. Climate change targets renamed.",
+    "scoring_change_summary": "CC/F/W All sectors Management • New column ‘Is your publication in line with a standard or framework?' is now scored. Addition of column ‘Is your publication in line with a standard or framework?' better facilitates two scoring routes and organizations selecting ‘No' will be • ROUTE B introduced to award partial points to organizations who either select ‘Other, please specify' in column 'Standard or framework the report publication is in line with' or to organizations whose publication is not in line with a standard or framework. scored down ROUTE B. Furthermore, in 2026 selecting ‘Other, please specify will also be awarded partial points instead of zero as was the case previously.\nCC All sectors Leadership • Options 'Emissions figures' and 'Emission targets' updated to ‘Greenhouse gas emissions figures' and 'Climate-related targets' respectively. Update in accordance with questionnaire change.",
+    "daml_summary": "General: D 7/7 | A 0.5 or 1/1 | M 1 or 2/2 | L 1/1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 수정; 해양 신규 문항",
+    "detail_change_typesKo": "드롭다운 선택지 삭제, 신규 열, 신규 드롭다운 선택지, 신규 드롭다운 선택지, 드롭다운 선택지 수정",
+    "change_summaryKo": "Option \"In mainstream reports, in line with environmental disclosure standrads 또는 frameworks\" removed. New 열 to allow organisations to disclose 만약 publication is in line with a standard 또는 framework. Ocean dropdown added. New Forest, 수자원 및 Ocean 목표 options. 기후변화 목표 renamed.",
+    "scoring_change_summaryKo": "CC/F/W All sectors Management • New 열 ‘Is your publication in line with a standard 또는 framework?' is now scored. Addition of 열 ‘Is your publication in line with a standard 또는 framework?' better facilitates two scoring 경로s 및 organizations selecting ‘No' will be • 경로 B introduced to award partial 점 to organizations who either select ‘Other, 직접 입력' in 열 'Standard 또는 framework the report publication is in line with' 또는 to organizations whose publication is not in line with a standard 또는 framework. scored down 경로 B. Furthermore, in 2026 selecting ‘Other, 직접 입력 will also be awarded partial 점 instead of zero as was the case previously. CC All sectors Leadership • Options 'Emissions figures' 및 'Emission 목표' updated to ‘온실가스 배출량 figures' 및 'Climate-related 목표' respectively. Update in accordance with questionnaire change.",
+    "daml_summaryKo": "일반: D 7/7 | A 0.5 또는 1/1 | M 1 또는 2/2 | L 1/1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "details on the information published about 귀사의 response to environmental issues for this 보고연도 in places other than your CDP response. Please attach the publication.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "7/7",
+    "A": "0.5 or 1/1",
+    "M": "1 or 2/2",
+    "L": "1/1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "지배구조",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 해양, 생물다양성, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "For transparency in corporate environmental reporting, organizations are encouraged to integrate non-financial metrics 및 data into mainstream financial reports. 데이터 사용자 seek to understand 여기서 및 how organizations communicate their environmental strategies, their emissions figures, 및 their dependencies, impacts, risks, 및 opportunities, as well as whether these communications are in line with environmental disclosure 기준 또는 frameworks.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

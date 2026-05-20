@@ -1,0 +1,1138 @@
+{
+  "code": "4.5",
+  "module": "4",
+  "moduleTitle": "Governance",
+  "questionText": "Do you provide monetary incentives for the management of environmental issues, including the attainment of targets?",
+  "questionKo": "목표 달성을 포함하여 , 환경 이슈 관리에 대한 금전적 인센티브를 제공하고 있습니까 ?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Biodiversity, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Biodiversity - Mines, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "Employee incentives linked to sustainability performance send a clear signal about the role that employees are expected to play in achieving the organization's environmental commitments and targets. Data users aim to understand the degree to which organizations encourage their employees to address environmental issues, as well as the mechanisms by which certain behaviours are incentivized in the organization's decision making and business culture.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Climate change",
+      "titleKo": "기후변화"
+    },
+    {
+      "order": 3,
+      "title": "Water",
+      "titleKo": "수자원"
+    }
+  ],
+  "columns": [
+    {
+      "code": "4.5.1",
+      "text": "Provision of monetary incentives related to this environmental issue",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No, but we plan to introduce them in the next two years",
+        "No, and we do not plan to introduce them in the next two years",
+        "No, we cannot provide incentives to executives due to legal restrictions"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Provision of monetary 인센티브 related to this environmental issue",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "No, but we plan to introduce them in the next two years",
+        "No, 및 we do not plan to introduce them in the next two years",
+        "No, we cannot provide 인센티브 to executives due to 법적 제한"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.5.2",
+      "text": "% of total C-suite and board-level monetary incentives linked to the management of this environmental issue",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.5.3",
+      "text": "Please explain",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Please explain",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Minor change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Minor change"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nNote that incentives can be positive, e.g., providing rewards for demonstrating desired behaviors, or they can be negative, e.g., issuing penalties or withholding rewards for not meeting certain standards. \nNote that only monetary incentives should be reported in this question. When assessing whether your organization provides monetary incentives, include all incentives that could have a monetary value equivalent, such as share-based compensation. See Explanation of Terms.\nProvision of monetary incentives related to this environmental issue (column 1) \nOnly select the option \"No, we cannot provide incentives to executives due to legal restrictions\" if you are prevented by national law from providing monetary incentives, e.g. if you are a state-owned organization in certain jurisdictions where this is prohibited.\nIf your incentives cover several environmental issues (for example, environmental, social, and corporate governance (ESG) incentives), select \"Yes\" for all rows where the incentive is tied to outcomes for the environmental issue specified in column \"Environmental issue\".\n% of total C-suite and board-level monetary incentives linked to the management of this environmental issue (column 2) \nThis column is only presented if \"Yes\" is selected in column 1 \"Provision of monetary incentives related to this environmental issue\".\nEnter the percentage of the total amount of C-suite and board-level monetary incentivization provided for the management of each environmental issue in relation to the total amount of all C-suite and board-level monetary incentives provided in the reporting year.\nIf you do not provide monetary incentives for the management of environmental issues for any C-suite or board-level positions, enter 0 in this column. For example, if you do not provide any climate-related incentives, enter 0 in row \"Climate change\".\nYou should only provide a figure for the rows for which outcomes relating to the environmental issue are specified. For example, if you provide an environmental, social, and corporate governance (ESG) incentive that is solely tied to forests and water security outcomes, without incentivizing specific climate change-related outcomes, the same figure should be reported for \"Forests\" and \"Water\", while \"Climate change\" should be reported as 0.\nIf your organization has incentives linked to environment, health and safety (EHS), report only the proportion relating to environmental performance metrics.\nPlease explain (column 3) \nIf you selected \"Yes\" in any row in column 1 \"Provision of monetary incentives related to this environmental issue\", explain the extent to which your monetary incentives related to environmental issues form a part of your total monetary incentivization package for employees.\nIf you selected any \"No\" option in any row in column 1, explain why you do not provide monetary incentives related to the environmental issue.\nExplain each figure provided in column 2. For example, if your organization provides monetary incentives related to climate-change outcomes only at board-level, explain why here.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Note that 인센티브 can be positive, e.g., providing rewards for demonstrating desired behaviors, 또는 they can be negative, e.g., issuing penalties 또는 withholding rewards for not meeting certain 기준. Note that only monetary 인센티브 해야 합니다 be 보고 in this 문항. 경우 assessing whether 귀사 provides monetary 인센티브, include all 인센티브 that could have a monetary value equivalent, such as share-based compensation. See Explanation of Terms. Provision of monetary 인센티브 related to this environmental issue (열 1) Only select the option \"No, we cannot provide 인센티브 to executives due to 법적 제한\" 만약 you are prevented by national law from providing monetary 인센티브, e.g. 만약 you are a state-owned organization in certain jurisdictions 여기서 this is prohibited. 만약 your 인센티브 cover several environmental issues (for example, environmental, social, 및 corporate governance (ESG) 인센티브), select \"예\" for all 행 여기서 the incentive is tied to outcomes 에 대한 environmental issue specified in 열 \"Environmental issue\". % of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue (열 2) This 열 is only presented 만약 \"예\" is 선택 in 열 1 \"Provision of monetary 인센티브 related to this environmental issue\". Enter the percentage 의 total amount of C-suite 및 이사회 수준 monetary incentivization 입력 에 대한 management of each environmental issue in relation to the total amount of all C-suite 및 이사회 수준 monetary 인센티브 입력 in the 보고연도. 만약 you do not provide monetary 인센티브 에 대한 management of environmental issues for 하나 이상 C-suite 또는 이사회 수준 positions, enter 0 in this 열. For example, 만약 you do not provide 하나 이상 climate-related 인센티브, enter 0 in 행 \"기후변화\". You 해야 합니다 only provide a figure 에 대한 행 for which outcomes relating to the environmental issue are specified. For example, 만약 you provide an environmental, social, 및 corporate governance (ESG) incentive that is solely tied to forests 및 수자원 security outcomes, without incentivizing specific 기후변화-related outcomes, the same figure 해야 합니다 be 보고 for \"Forests\" 및 \"수자원\", while \"기후변화\" 해야 합니다 be 보고 as 0. 만약 귀사 has 인센티브 linked to environment, health 및 safety (EHS), report only the proportion relating to environmental performance metrics. Please explain (열 3) 만약 you 선택 \"예\" in 하나 이상 행 in 열 1 \"Provision of monetary 인센티브 related to this environmental issue\", explain the extent to which your monetary 인센티브 related to environmental issues form a part of your total monetary incentivization package for employees. 만약 you 선택 하나 이상 \"No\" option in 하나 이상 행 in 열 1, 그 이유를 설명 you do not provide monetary 인센티브 related to the environmental issue. Explain each figure 입력 in 열 2. For example, 만약 귀사 provides monetary 인센티브 related to climate-change outcomes only at 이사회 수준, 그 이유를 설명 here."
+    },
+    {
+      "type": "Ambition",
+      "text": "The organization includes environmental performance metrics in their monetary incentives policies for at least board and senior management levels.\nThe organization ties a significant proportion of total remuneration to environmental performance, and more specifically to the achievement of environmental targets. This proportion is significant at board and senior management levels.",
+      "typeKo": "Ambition",
+      "textKo": "The organization includes environmental performance metrics in their monetary 인센티브 policies for 최소 이사회 및 고위 경영진 levels. The organization ties a significant proportion of total remuneration to environmental performance, 및 more specifically to the achievement of environmental 목표. This proportion is significant at 이사회 및 고위 경영진 levels."
+    },
+    {
+      "type": "Example Response",
+      "text": "0\n1\n2\n3\nEnvironmental issue \nProvision of monetary incentives related to this environmental issue \n% of total C-suite and board-level monetary incentives linked to the management of this environmental issue \nPlease explain \nClimate change\n· Yes\n10\nThe 10% figure disclosed relates to incentives for the management of climate-related issues specifically. This represents 10% of our total incentives package, which also considers social and governance issues. This incentive is applicable at the board-level and for relevant senior management positions.\nForests\n· Yes\n20\nThe 20% figure disclosed relates to incentives for the management of nature-related issues, of which forests is considered under. This represents 20% of our total incentives package, which also considers social and governance issues. This incentive is applicable at the board-level and for relevant senior management positions.\nWater\n· Yes\n20\nThe 20% figure disclosed relates to incentives for the management of nature-related issues, of which water is considered under. This represents 20% of our total incentives package, which also considers social and governance issues. This incentive is applicable at the board-level and for relevant senior management positions.",
+      "typeKo": "Example Response",
+      "textKo": "0 1 2 3 Environmental issue Provision of monetary 인센티브 related to this environmental issue % of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue Please explain 기후변화 · 예 10 The 10% figure 공개 relates to 인센티브 에 대한 management of 기후 관련 이슈 specifically. This represents 10% of our total 인센티브 package, which also considers social 및 governance issues. This incentive is 해당되는 경우 at the 이사회 수준 및 for relevant 고위 경영진 positions. Forests · 예 20 The 20% figure 공개 relates to 인센티브 에 대한 management of nature-related issues, of which forests is considered under. This represents 20% of our total 인센티브 package, which also considers social 및 governance issues. This incentive is 해당되는 경우 at the 이사회 수준 및 for relevant 고위 경영진 positions. 수자원 · 예 20 The 20% figure 공개 relates to 인센티브 에 대한 management of nature-related issues, of which 수자원 is considered under. This represents 20% of our total 인센티브 package, which also considers social 및 governance issues. This incentive is 해당되는 경우 at the 이사회 수준 및 for relevant 고위 경영진 positions."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "C-suite : a term used to collectively refer to the most senior executive team. \nMonetary incentive :\na bonus, shares, profit share, or other form of positive or negative change in remuneration which has a monetary value equivalent e.g., providing rewards for demonstrating desired behaviors, or issuing penalties or withholding rewards for not meeting certain standards.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "C-suite : a term used to collectively refer to the most senior executive team. Monetary incentive : a bonus, shares, profit share, 또는 other form of positive 또는 negative change in remuneration which has a monetary value equivalent e.g., providing rewards for demonstrating desired behaviors, 또는 issuing penalties 또는 withholding rewards for not meeting certain 기준."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0, 0.5 or 1/0 or 1",
+      "M": "0 or 3/0 or 3",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nAny option selected in column 'Provision of monetary incentives…':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) 선택지가 하나라도 선택된 경우 in 열 'Provision of monetary 인센티브…': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes' selected in column 'Provision of monetary incentives…' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives…' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE D)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Provision of monetary 인센티브…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브…' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 D) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Awareness points must be awarded to be eligible for Management points.\n'Yes' selected in column 'Provision of monetary incentives…' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nROUTE A)\nFull Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Provision of monetary incentives…' AND Figure greater than or equal to 10 provided in column '% of total C-suite and board-level monetary incentives linked to the management of this environmental issue' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to introduce them in the next two years' OR 'No, and we do not plan to introduce them in the next two years' selected in column 'Provision of monetary incentives...' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, we cannot provide incentives to executives due to legal restrictions' selected in column 'Provision of monetary incentives…' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Provision of monetary incentives…' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): 경로 A) Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Provision of monetary 인센티브…' 그리고 Figure 초과 또는 equal to 10 입력 in 열 '% of total C-suite 및 이사회 수준 monetary 인센티브 linked to the management of this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' 선택 in 열 'Provision of monetary 인센티브...' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, we cannot provide 인센티브 to executives due to 법적 제한' 선택 in 열 'Provision of monetary 인센티브…' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Provision of monetary 인센티브…' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "목표 달성을 포함하여 , 환경 이슈 관리에 대한 금전적 인센티브를 제공하고 있습니까 ? 0 1 2 3 환경이슈 환경이슈 관리를 위한 금전적 인센티브 제공 여부 최고 경영진 및 이사회 수준에서 받는 인센티브 가운데 환경이슈 관리에 대한 금전적 인센티브 비율 (%) 설명 물 선택 항목 : 예 아니요 , 하지만 향후 2 년 이내 도입할 계획 아니요 , 향후 2 년 안에 도입할 계획 없음 백분율 입력 [0-100 사이의 백분율 입력 ] 텍스트 입력 [ 최대 1,000 자 ] 기후변화 산림 생물다양성 [M-B only] M4. Governance",
+    "q2025": "Q4.5",
+    "q2025_text": "Do you provide monetary incentives for the management of environmental issues, including the attainment of targets?",
+    "change_status": "Minor change",
+    "detail_change_types": "New dropdown option, New/modified guidance",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": true,
+    "changed_guidance": true,
+    "changed_scoring": true,
+    "change_summary": "New dropdown option added to allow organizations to report when they are legally not able to provide monetary incentives and guidance to explain when this should be selected.",
+    "scoring_change_summary": "CC/F/W All sectors Awareness • ROUTE D added to award 0/0 points for selecting new drop-down option ‘No, we cannot provide incentives to executives due to legal restrictions' New route added to provide a scoring pathway for organizations who are unable to provide monetary incentives for legal reasons. in column 'Provision of monetary incentives…'.\nCC/F/W All sectors Management • ROUTE C added to award 0/0 points for selecting new drop-down option ‘No, we cannot provide incentives to executives due to legal restrictions' in column 'Provision of monetary incentives…'. • Clarification that ROUTE B now only applies to organizations selecting either 'No, but we plan to introduce them in the next two years' or 'No, and we do not plan to introduce them in the next two years' in column 'Provision of monetary incentives...'. New route added to provide a scoring pathway for organizations who are unable to provide monetary incentives for legal reasons.\nCC/F/W All sectors Leadership • ROUTE C added to award 0/0 points for selecting new drop-down option ‘No, we cannot provide incentives to executives due to legal restrictions' in column 'Provision of monetary incentives…'. • Clarification that ROUTE B now only applies to organizations selecting either 'No, but we plan to introduce them in the next two years' or 'No, and we do not plan to introduce them in the next two years' in column 'Provision of monetary incentives...'. New route added to provide a scoring pathway for organizations who are unable to provide monetary incentives for legal reasons.",
+    "daml_summary": "General: D 2/2 | A 0, 0.5 or 1/0 or 1 | M 0 or 3/0 or 3 | L 0 or 1/0 or 1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "경미한 변경",
+    "detail_change_typesKo": "신규 드롭다운 선택지, 신규/수정 가이던스",
+    "change_summaryKo": "New dropdown option added to allow organizations to report 경우 they are legally not able to provide monetary 인센티브 및 guidance to explain 경우 this 해야 합니다 be 선택.",
+    "scoring_change_summaryKo": "CC/F/W All sectors Awareness • 경로 D added to award 0/0 점 for selecting new drop-down option ‘No, we cannot provide 인센티브 to executives due to 법적 제한' New 경로 added to provide a scoring pathway for organizations who are unable to provide monetary 인센티브 for legal reasons. in 열 'Provision of monetary 인센티브…'. CC/F/W All sectors Management • 경로 C added to award 0/0 점 for selecting new drop-down option ‘No, we cannot provide 인센티브 to executives due to 법적 제한' in 열 'Provision of monetary 인센티브…'. • Clarification that 경로 B now only applies to organizations selecting either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' in 열 'Provision of monetary 인센티브...'. New 경로 added to provide a scoring pathway for organizations who are unable to provide monetary 인센티브 for legal reasons. CC/F/W All sectors Leadership • 경로 C added to award 0/0 점 for selecting new drop-down option ‘No, we cannot provide 인센티브 to executives due to 법적 제한' in 열 'Provision of monetary 인센티브…'. • Clarification that 경로 B now only applies to organizations selecting either 'No, but we plan to introduce them in the next two years' 또는 'No, 및 we do not plan to introduce them in the next two years' in 열 'Provision of monetary 인센티브...'. New 경로 added to provide a scoring pathway for organizations who are unable to provide monetary 인센티브 for legal reasons.",
+    "daml_summaryKo": "일반: D 2/2 | A 0, 0.5 또는 1/0 또는 1 | M 0 또는 3/0 또는 3 | L 0 또는 1/0 또는 1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "귀사는 provide monetary 인센티브 에 대한 management of environmental issues, 포함 the attainment of 목표입니까?"
+  },
+  "defaultPoints": {
+    "D": "2/2",
+    "A": "0, 0.5 or 1/0 or 1",
+    "M": "0 or 3/0 or 3",
+    "L": "0 or 1/0 or 1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "지배구조",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 생물다양성, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, Biodiversity - Mines, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "Employee 인센티브 linked to sustainability performance send a clear signal about the role that employees are expected to play in achieving the 조직의 environmental commitments 및 목표. 데이터 사용자 aim to understand the degree to which organizations encourage their employees to address environmental issues, as well as the mechanisms by which certain behaviours are incentivized in the 조직의 decision making 및 business culture.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

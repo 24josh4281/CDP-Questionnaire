@@ -1,0 +1,343 @@
+{
+  "code": "5.7",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Break down, by source, your organization's CAPEX in the reporting year and CAPEX planned over the next 5 years.",
+  "questionKo": "귀사의 자본지출(CAPEX) in the 보고연도 및 자본지출(CAPEX) planned over the next 5 years.을/를 source별로 세분화하여 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Energy utilities & power generators",
+  "simpleHelp": "Understanding an electric utility's planned CAPEX for power generation in the reporting year and over the next 5 years informs the vulnerability of the organization to emerging climate-related risks and opportunities and the flexibility to continue the current technology portfolio at lower financial returns in a transition period to low-carbon technologies.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Coal - Hard",
+      "titleKo": "Coal - Hard"
+    },
+    {
+      "order": 2,
+      "title": "Coal - Brown",
+      "titleKo": "Coal - B행n"
+    },
+    {
+      "order": 3,
+      "title": "Oil",
+      "titleKo": "Oil"
+    },
+    {
+      "order": 4,
+      "title": "Gas",
+      "titleKo": "Gas"
+    },
+    {
+      "order": 5,
+      "title": "Sustainable biomass",
+      "titleKo": "Sustainable biomass"
+    },
+    {
+      "order": 6,
+      "title": "Other biomass",
+      "titleKo": "Other biomass"
+    },
+    {
+      "order": 7,
+      "title": "Waste (non-biomass)",
+      "titleKo": "Waste (non-biomass)"
+    },
+    {
+      "order": 8,
+      "title": "Nuclear",
+      "titleKo": "Nuclear"
+    },
+    {
+      "order": 9,
+      "title": "Geothermal",
+      "titleKo": "Geothermal"
+    },
+    {
+      "order": 10,
+      "title": "Ocean thermal",
+      "titleKo": "Ocean thermal"
+    },
+    {
+      "order": 11,
+      "title": "Hydropower",
+      "titleKo": "Hydropower"
+    },
+    {
+      "order": 12,
+      "title": "Onshore wind",
+      "titleKo": "Onshore wind"
+    },
+    {
+      "order": 13,
+      "title": "Offshore wind",
+      "titleKo": "Offshore wind"
+    },
+    {
+      "order": 14,
+      "title": "Solar",
+      "titleKo": "Solar"
+    },
+    {
+      "order": 15,
+      "title": "Wave",
+      "titleKo": "Wave"
+    },
+    {
+      "order": 16,
+      "title": "Tidal",
+      "titleKo": "Tidal"
+    },
+    {
+      "order": 17,
+      "title": "Fossil-fuel plants fitted with CCS",
+      "titleKo": "Fossil-fuel plants fitted with CCS"
+    },
+    {
+      "order": 18,
+      "title": "Other renewable (e.g. renewable hydrogen)",
+      "titleKo": "Other renewable (e.g. renewable hydrogen)"
+    },
+    {
+      "order": 19,
+      "title": "Other non-renewable (e.g. non-renewable hydrogen)",
+      "titleKo": "Other non-renewable (e.g. non-renewable hydrogen)"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.7.1",
+      "text": "CAPEX in the reporting year for power generation from this source (unit currency as selected in 1.2)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "자본지출(CAPEX) in the 보고연도 for 발전 from this source (unit currency as 선택 in 1.2)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.7.2",
+      "text": "CAPEX in the reporting year for power generation from this source as % of total CAPEX for power generation in the reporting year",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "자본지출(CAPEX) in the 보고연도 for 발전 from this source as % of total 자본지출(CAPEX) for 발전 in the 보고연도",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.7.3",
+      "text": "CAPEX planned over the next 5 years for power generation from this source as % of total CAPEX planned for power generation over the next 5 years",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "자본지출(CAPEX) planned over the next 5 years for 발전 from this source as % of total 자본지출(CAPEX) planned for 발전 over the next 5 years",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.7.4",
+      "text": "Most recent year in which a new power plant using this source was approved for development",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "Column/row appearance is dependent on selections in this or other questions.",
+      "popup_help": "",
+      "textKo": "Most recent year in which a new power plant using this source was approved for development",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "열/행 appearance is dependent on selections in this 또는 other questions.",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.7.5",
+      "text": "Explain your CAPEX calculations, including any assumptions",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Explain your 자본지출(CAPEX) calculations, 포함 하나 이상 assumptions",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified question",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified 문항"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question is only presented if you selected \"Electricity generation\" in C-EU0.7.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 is only presented 만약 you 선택 \"Electricity generation\" in C-EU0.7."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nComplete all the cells within the table.\nPrimary power generation source (column 0) \nPlease refer to the CDP Technical note on Biofuels for guidance on biomass/biofuel sustainability. If you report information in the \"Sustainable biomass\" row, provide the criteria used to classify the biomass as sustainable (e.g. certification) in the \"Explain your CAPEX calculations, including any assumptions\" column (column 5).\nWhen reporting for \"Waste (non-biomass)\", only enter CAPEX associated with the non-biomass fraction. CAPEX associated with the biomass fraction should be reported under either biomass option.\nHydropower does not include pumped storage which CDP regards as a form of managing or storing energy rather than primary generation.\n\"Other renewable\" and \"Other non-renewable\" are aggregations of any other renewable and non-renewable power generation sources you use that are not listed (e.g. renewably derived hydrogen or hydrogen derived from fossil fuels, respectively).\nIf you are using hydrogen for power generation:\nReport CAPEX associated with renewably derived hydrogen in row \n\"Other renewable\". \nReport CAPEX associated with hydrogen derived from fossil fuels in row \n\"Other non-renewable\". \nReport CAPEX associated with hydrogen produced from fossil fuels using carbon capture and storage technology (i.e. blue hydrogen) under row \n\"Fossil-fuel plants fitted with carbon capture and storage\" .\nCAPEX in the reporting year for power generation from this source (unit currency as selected in 1.2) (column 1) \nEnter your organization's CAPEX in the reporting year for each primary power generation source in column 0.\nCAPEX figures should be in the currency you selected in 1.2.\nIf there was no CAPEX associated with a primary power generation source in the reporting year, enter \"0\" for the corresponding row(s).\nCAPEX figures should be based on your company-wide financial statement for the reporting year, consistent with your organizational boundary as disclosed in 1.5.\nCAPEX in the reporting year for power generation from this source as % of total CAPEX for power generation in the reporting year (column 2) \nFor each primary power generation source, enter your organization's CAPEX in the reporting year for that power generation source (as reported in column 1) as a percentage of your organization's \ntotal CAPEX in the reporting year for power generation.\nThe sum of figures entered in this column for all rows should not exceed 100%.\nIf there was no CAPEX associated with a primary power generation source in the reporting year, enter \"0\" for the corresponding row(s).\nCAPEX planned over the next 5 years for power generation from this source as % of total CAPEX planned for power generation over the next 5 years (column 3) \nEnter your organization's CAPEX planned for each primary power generation source as a percentage of your organization's \ntotal CAPEX planned over the next 5 years.\nThe sum of figures entered in this column for all rows should not exceed 100%.\nIf you do not have any CAPEX planned for over the next 5 years for a primary power generation source, enter \"0\" for the corresponding row(s).\nIt is acknowledged that figures entered for this column will be estimates. You may, for example, estimate planned CAPEX for a power generation source based on your organization's strategy, financial planning, and/or climate transition plan. Assumptions underlying these estimates should be disclosed in column 5. \nNote that \"the next 5 years\" start from the end of the reporting year as reported in 1.4 e.g. if your reporting year in 1.4 is from 01/01/2022 to 31/12/2022, then the next 5 years will be from 01/01/2023 to 31/12/2027.\nMost recent year in which a new power plant using this source was approved for development (column 4) \nThis column only appears for rows where a figure greater than 0 is reported in any of columns 1, 2, 3 in the row.\nA power plant can be considered to be approved for development when the final investment decision has been reached for the project.\nInclude details of power plants which have been approved and are still planned/in operation. Do not include details of power plants which were approved but have subsequently been cancelled.\nExplain your CAPEX calculations, including any assumptions (column 5) \nFor each primary power generation source:\nExplain how you calculated the figure reported in column 3 \"CAPEX in the reporting year for power generation from this source as % of total CAPEX for power generation in the reporting year\".\nExplain how you estimated the figure reported in column 4 \"CAPEX planned over the next 5 years for power generation from this source as % of total CAPEX planned for power generation over the next 5 years\". Briefly describe any assumptions on which your estimation is based.\nIf you report information in the \"Sustainable biomass\" row, provide the criteria used to classify the biomass as sustainable (e.g. certification) here.\nIf you report information in either biomass row, specify if the biomass technology refers to bioenergy plants fitted with carbon capture and storage (BECCS)",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Complete all the cells within the table. Primary 발전 source (열 0) Please refer to the CDP Technical note on Biofuels for guidance on biomass/biofuel sustainability. 만약 you report information in the \"Sustainable biomass\" 행, provide the criteria used to classify the biomass as sustainable (e.g. certification) in the \"Explain your 자본지출(CAPEX) calculations, 포함 하나 이상 assumptions\" 열 (열 5). 경우 reporting for \"Waste (non-biomass)\", only enter 자본지출(CAPEX) associated with the non-biomass fraction. 자본지출(CAPEX) associated with the biomass fraction 해야 합니다 be 보고 under either biomass option. Hydropower does not include pumped storage which CDP regards as a form of managing 또는 storing energy rather than primary generation. \"Other renewable\" 및 \"Other non-renewable\" are aggregations of 하나 이상 other renewable 및 non-renewable 발전 sources you use that are not listed (e.g. renewably derived hydrogen 또는 hydrogen derived from fossil fuels, respectively). 만약 you are using hydrogen for 발전: Report 자본지출(CAPEX) associated with renewably derived hydrogen in 행 \"Other renewable\". Report 자본지출(CAPEX) associated with hydrogen derived from fossil fuels in 행 \"Other non-renewable\". Report 자본지출(CAPEX) associated with hydrogen produced from fossil fuels using carbon capture 및 storage technology (i.e. blue hydrogen) under 행 \"Fossil-fuel plants fitted with carbon capture 및 storage\" . 자본지출(CAPEX) in the 보고연도 for 발전 from this source (unit currency as 선택 in 1.2) (열 1) Enter 귀사의 자본지출(CAPEX) in the 보고연도 for each primary 발전 source in 열 0. 자본지출(CAPEX) figures 해야 합니다 be in the currency you 선택 in 1.2. 만약 there was no 자본지출(CAPEX) associated with a primary 발전 source in the 보고연도, enter \"0\" 에 대한 corresponding 행(s). 자본지출(CAPEX) figures 해야 합니다 be based on your company-wide financial statement 에 대한 보고연도, consistent with your 조직경계 as 공개 in 1.5. 자본지출(CAPEX) in the 보고연도 for 발전 from this source as % of total 자본지출(CAPEX) for 발전 in the 보고연도 (열 2) For each primary 발전 source, enter 귀사의 자본지출(CAPEX) in the 보고연도 for that 발전 source (as 보고 in 열 1) as a percentage of 귀사의 total 자본지출(CAPEX) in the 보고연도 for 발전. The sum of figures entered in this 열 for all 행 해야 합니다 not exceed 100%. 만약 there was no 자본지출(CAPEX) associated with a primary 발전 source in the 보고연도, enter \"0\" 에 대한 corresponding 행(s). 자본지출(CAPEX) planned over the next 5 years for 발전 from this source as % of total 자본지출(CAPEX) planned for 발전 over the next 5 years (열 3) Enter 귀사의 자본지출(CAPEX) planned for each primary 발전 source as a percentage of 귀사의 total 자본지출(CAPEX) planned over the next 5 years. The sum of figures entered in this 열 for all 행 해야 합니다 not exceed 100%. 만약 you do not have 하나 이상 자본지출(CAPEX) planned for over the next 5 years for a primary 발전 source, enter \"0\" 에 대한 corresponding 행(s). It is acknowledged that figures entered for this 열 will be estimates. You may, for example, estimate planned 자본지출(CAPEX) for a 발전 source based on 귀사의 strategy, 재무계획, 및/또는 기후 전환계획. Assumptions underlying these estimates 해야 합니다 be 공개 in 열 5. Note that \"the next 5 years\" start from the end 의 보고연도 as 보고 in 1.4 e.g. 만약 your 보고연도 in 1.4 is from 01/01/2022 to 31/12/2022, then the next 5 years will be from 01/01/2023 to 31/12/2027. Most recent year in which a new power plant using this source was approved for development (열 4) This 열 only appears for 행 여기서 a figure 초과 0 is 보고 in 하나 이상 of 열 1, 2, 3 in the 행. A power plant can be considered to be approved for development 경우 the final investment decision has been reached 에 대한 project. Include details of power plants which have been approved 및 are still planned/in operation. Do not include details of power plants which were approved but have subsequently been cancelled. Explain your 자본지출(CAPEX) calculations, 포함 하나 이상 assumptions (열 5) For each primary 발전 source: Explain how you calculated the figure 보고 in 열 3 \"자본지출(CAPEX) in the 보고연도 for 발전 from this source as % of total 자본지출(CAPEX) for 발전 in the 보고연도\". Explain how you estimated the figure 보고 in 열 4 \"자본지출(CAPEX) planned over the next 5 years for 발전 from this source as % of total 자본지출(CAPEX) planned for 발전 over the next 5 years\". Briefly 설명 하나 이상 assumptions on which your estimation is based. 만약 you report information in the \"Sustainable biomass\" 행, provide the criteria used to classify the biomass as sustainable (e.g. certification) here. 만약 you report information in either biomass 행, specify 만약 the biomass technology refers to bioenergy plants fitted with carbon capture 및 storage (BECCS)"
+    },
+    {
+      "type": "Ambition",
+      "text": "There are no new unabated coal plants approved for development from 2021 onwards.",
+      "typeKo": "Ambition",
+      "textKo": "There are no new unabated coal plants approved for development from 2021 onwards."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Capital expenditure (CAPEX): a measure of the value of purchases of fixed assets such as property, buildings, an industrial plant, technology, or equipment. Put differently, CapEx is any type of expense that an organization capitalizes, or shows on its balance sheet as an investment, rather than on its income statement as an expenditure.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "자본지출 (자본지출(CAPEX)): a measure 의 value of purchases of fixed assets such as property, buildings, an industrial plant, technology, 또는 equipment. Put differently, 자본지출(CAPEX) is 하나 이상 type of expense that an organization capitalizes, 또는 shows on its balance sheet as an investment, rather than on its income statement as an expenditure."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "8/8",
+      "A": "2/2",
+      "M": "2 or 3/2 or 3",
+      "L": "1/1",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 8/8 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nSum of figures in column 'CAPEX in the reporting year... as %...' is 100 - 2 points\nOR\nSum of figures in column 'CAPEX planned over the next 5 years for power generation...' is 100 - 2 points\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Sum of figures in 열 '자본지출(CAPEX) in the 보고연도... as %...' is 100 - 2 점 또는 Sum of figures in 열 '자본지출(CAPEX) planned over the next 5 years for 발전...' is 100 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nFigure of 0 provided in column ‘CAPEX in the reporting year... as %...' in both rows ‘Coal - Hard' AND ‘Coal - Brown'.\ni) Sum of figures is greater than 50% in either column 'CAPEX planned over the next 5 years...' OR 'CAPEX in the reporting year... as %...' in the following rows - 1 point\n- 'Sustainable biomass'\n- 'Nuclear'\n- 'Geothermal'\n- 'Hydropower'\n- 'Onshore Wind'\n- 'Offshore wind'\n- 'Solar'\n- 'Wave'\n- 'Tidal'\n- 'Other renewable (e.g. renewable hydrogen)'\n- 'Fossil-fuel plants fitted with CCS'\nii) Sum of figures provided in column 'CAPEX planned over the next 5 years...' is greater than sum of figures provided in column 'CAPEX in the reporting year... as %...' in the following rows - 1 point\n- 'Sustainable biomass'\n- 'Nuclear'\n- 'Geothermal'\n- 'Hydropower'\n- 'Onshore Wind'\n- 'Offshore wind'\n- 'Solar'\n- 'Wave'\n- 'Tidal'\n- 'Other renewable (e.g. renewable hydrogen)'\n- 'Fossil-fuel plants fitted with CCS'\nOR\nSum of figures provided in column 'CAPEX in the reporting year... as %...' is 100% in the following rows - 1 point\n- 'Sustainable biomass'\n- 'Nuclear'\n- 'Geothermal'\n- 'Hydropower'\n- 'Onshore Wind'\n- 'Offshore wind'\n- 'Solar'\n- 'Wave'\n- 'Tidal'\n- 'Other renewable (e.g. renewable hydrogen)'\n- 'Fossil-fuel plants fitted with CCS'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFigure greater than 0 provided in column ‘CAPEX in the reporting year... as %...' in either row ‘Coal - Hard' OR ‘Coal - Brown'.\ni) Sum of figures is greater than 50% in either column 'CAPEX planned over the next 5 years...' OR 'CAPEX in the reporting year... as %...' in the following rows - 1 point\n- 'Sustainable biomass'\n- 'Nuclear'\n- 'Geothermal'\n- 'Hydropower'\n- 'Onshore Wind'\n- 'Offshore wind'\n- 'Solar'\n- 'Wave'\n- 'Tidal'\n- 'Other renewable (e.g. renewable hydrogen)'\n- 'Fossil-fuel plants fitted with CCS'\nii) Sum of figures provided in column 'CAPEX planned over the next 5 years...' is greater than sum of figures provided in column 'CAPEX in the reporting year... as %...' in the following rows - 1 point\n- 'Sustainable biomass'\n- 'Nuclear'\n- 'Geothermal'\n- 'Hydropower'\n- 'Onshore Wind'\n- 'Offshore wind'\n- 'Solar'\n- 'Wave'\n- 'Tidal'\n- 'Other renewable (e.g. renewable hydrogen)'\n- 'Fossil-fuel plants fitted with CCS'\nOR\nSum of figures provided in column 'CAPEX in the reporting year... as %...' is 100% in the following rows - 1 point\n- 'Sustainable biomass'\n- 'Nuclear'\n- 'Geothermal'\n- 'Hydropower'\n- 'Onshore Wind'\n- 'Offshore wind'\n- 'Solar'\n- 'Wave'\n- 'Tidal'\n- 'Other renewable (e.g. renewable hydrogen)'\n- 'Fossil-fuel plants fitted with CCS'\niii) Year provided in column 'Most recent year in which a new power plant using this source was approved for development' is 2021 or earlier in rows 'Coal - hard' OR 'Lignite' - 1 point\nOR\nYear provided in column 'Most recent year in which a new power plant using this source was approved for development' is any year after 2021 in rows 'Coal - hard' OR 'Lignite' - 0 points\nA maximum of 3/3 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) Figure of 0 입력 in 열 ‘자본지출(CAPEX) in the 보고연도... as %...' in both 행 ‘Coal - Hard' 그리고 ‘Coal - B행n'. i) Sum of figures is 초과 50% in either 열 '자본지출(CAPEX) planned over the next 5 years...' 또는 '자본지출(CAPEX) in the 보고연도... as %...' in the following 행 - 1 점 - 'Sustainable biomass' - 'Nuclear' - 'Geothermal' - 'Hydropower' - 'Onshore Wind' - 'Offshore wind' - 'Solar' - 'Wave' - 'Tidal' - 'Other renewable (e.g. renewable hydrogen)' - 'Fossil-fuel plants fitted with CCS' ii) Sum of figures 입력 in 열 '자본지출(CAPEX) planned over the next 5 years...' is 초과 sum of figures 입력 in 열 '자본지출(CAPEX) in the 보고연도... as %...' in the following 행 - 1 점 - 'Sustainable biomass' - 'Nuclear' - 'Geothermal' - 'Hydropower' - 'Onshore Wind' - 'Offshore wind' - 'Solar' - 'Wave' - 'Tidal' - 'Other renewable (e.g. renewable hydrogen)' - 'Fossil-fuel plants fitted with CCS' 또는 Sum of figures 입력 in 열 '자본지출(CAPEX) in the 보고연도... as %...' is 100% in the following 행 - 1 점 - 'Sustainable biomass' - 'Nuclear' - 'Geothermal' - 'Hydropower' - 'Onshore Wind' - 'Offshore wind' - 'Solar' - 'Wave' - 'Tidal' - 'Other renewable (e.g. renewable hydrogen)' - 'Fossil-fuel plants fitted with CCS' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in 열 ‘자본지출(CAPEX) in the 보고연도... as %...' in either 행 ‘Coal - Hard' 또는 ‘Coal - B행n'. i) Sum of figures is 초과 50% in either 열 '자본지출(CAPEX) planned over the next 5 years...' 또는 '자본지출(CAPEX) in the 보고연도... as %...' in the following 행 - 1 점 - 'Sustainable biomass' - 'Nuclear' - 'Geothermal' - 'Hydropower' - 'Onshore Wind' - 'Offshore wind' - 'Solar' - 'Wave' - 'Tidal' - 'Other renewable (e.g. renewable hydrogen)' - 'Fossil-fuel plants fitted with CCS' ii) Sum of figures 입력 in 열 '자본지출(CAPEX) planned over the next 5 years...' is 초과 sum of figures 입력 in 열 '자본지출(CAPEX) in the 보고연도... as %...' in the following 행 - 1 점 - 'Sustainable biomass' - 'Nuclear' - 'Geothermal' - 'Hydropower' - 'Onshore Wind' - 'Offshore wind' - 'Solar' - 'Wave' - 'Tidal' - 'Other renewable (e.g. renewable hydrogen)' - 'Fossil-fuel plants fitted with CCS' 또는 Sum of figures 입력 in 열 '자본지출(CAPEX) in the 보고연도... as %...' is 100% in the following 행 - 1 점 - 'Sustainable biomass' - 'Nuclear' - 'Geothermal' - 'Hydropower' - 'Onshore Wind' - 'Offshore wind' - 'Solar' - 'Wave' - 'Tidal' - 'Other renewable (e.g. renewable hydrogen)' - 'Fossil-fuel plants fitted with CCS' iii) Year 입력 in 열 'Most recent year in which a new power plant using this source was approved for development' is 2021 또는 earlier in 행 'Coal - hard' 또는 'Lignite' - 1 점 또는 Year 입력 in 열 'Most recent year in which a new power plant using this source was approved for development' is 하나 이상 year after 2021 in 행 'Coal - hard' 또는 'Lignite' - 0 점 이 경로에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nEither of the following sum to a figure greater than 90% - 1 point\nSum of figures provided in column 'CAPEX planned over the next 5 years...' in the following rows:\n- 'Sustainable biomass'\n- 'Nuclear'\n- 'Geothermal'\n- 'Hydropower'\n- 'Onshore Wind'\n- 'Offshore wind'\n- 'Solar'\n- 'Wave'\n- 'Tidal'\n- 'Other renewable (e.g. renewable hydrogen)'\n- 'Fossil-fuel plants fitted with CCS'\nOR\nSum of figures provided in column 'CAPEX in the reporting year... as %...' in the following rows:\n- 'Sustainable biomass'\n- 'Nuclear'\n- 'Geothermal'\n- 'Hydropower'\n- 'Onshore Wind'\n- 'Offshore wind'\n- 'Solar'\n- 'Wave'\n- 'Tidal'\n- 'Other renewable (e.g. renewable hydrogen)'\n- 'Fossil-fuel plants fitted with CCS'\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Either 의 following sum to a figure 초과 90% - 1 점 Sum of figures 입력 in 열 '자본지출(CAPEX) planned over the next 5 years...' in the following 행: - 'Sustainable biomass' - 'Nuclear' - 'Geothermal' - 'Hydropower' - 'Onshore Wind' - 'Offshore wind' - 'Solar' - 'Wave' - 'Tidal' - 'Other renewable (e.g. renewable hydrogen)' - 'Fossil-fuel plants fitted with CCS' 또는 Sum of figures 입력 in 열 '자본지출(CAPEX) in the 보고연도... as %...' in the following 행: - 'Sustainable biomass' - 'Nuclear' - 'Geothermal' - 'Hydropower' - 'Onshore Wind' - 'Offshore wind' - 'Solar' - 'Wave' - 'Tidal' - 'Other renewable (e.g. renewable hydrogen)' - 'Fossil-fuel plants fitted with CCS' 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Break down, by source, your organization's CAPEX in the reporting year and CAPEX planned over the next 5 years.",
+    "q2025": "Q5.7",
+    "q2025_text": "Break down, by source, your organization's CAPEX in the reporting year and CAPEX planned over the next 5 years.",
+    "change_status": "Modified question",
+    "detail_change_types": "Modified row text, New row, Removed column/row",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": true,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "Removed row \"Wind\" and replaced with rows \"Onshore wind\" and \"Offshore wind\". Updated row \"Lignite\" to \"Coal - Brown\". \nRemoved row \"Marine\" and replaced with \"Tidal\", \"Wave\" and \"Ocean thermal\". New guidance with instructions on how to report CAPEX associated with hydrogen.",
+    "scoring_change_summary": "CC Energy utilities and power generators Management & Leadership • Scoring updated to account for rows that have been removed: ‘Wind' and ‘Marine' and for those added: ‘Onshore wind', ‘Offshore wind', ‘Wave' and ‘Tidal'. Scoring updated to account for changes in the questionnaire.",
+    "daml_summary": "Energy utilities & power generators: D 8/8 | A 2/2 | M 2 or 3/2 or 3 | L 1/1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 수정",
+    "detail_change_typesKo": "행 문구 수정, 신규 행, 열/행 삭제",
+    "change_summaryKo": "Removed 행 \"Wind\" 및 replaced with 행 \"Onshore wind\" 및 \"Offshore wind\". Updated 행 \"Lignite\" to \"Coal - B행n\". Removed 행 \"Marine\" 및 replaced with \"Tidal\", \"Wave\" 및 \"Ocean thermal\". New guidance with instructions on how to report 자본지출(CAPEX) associated with hydrogen.",
+    "scoring_change_summaryKo": "CC Energy utilities 및 power generators Management & Leadership • Scoring updated to account for 행 that have been removed: ‘Wind' 및 ‘Marine' 및 for those added: ‘Onshore wind', ‘Offshore wind', ‘Wave' 및 ‘Tidal'. Scoring updated to account for changes in the questionnaire.",
+    "daml_summaryKo": "Energy utilities & power generators: D 8/8 | A 2/2 | M 2 또는 3/2 또는 3 | L 1/1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "귀사의 자본지출(CAPEX) in the 보고연도 및 자본지출(CAPEX) planned over the next 5 years.을/를 source별로 세분화하여 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "8/8",
+    "A": "2/2",
+    "M": "2 or 3/2 or 3",
+    "L": "1/1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "에너지 유틸리티 및 발전",
+  "simpleHelpKo": "Understanding an electric utility's planned 자본지출(CAPEX) for 발전 in the 보고연도 및 over the next 5 years informs the vulnerability 의 organization to emerging 기후 관련 리스크 및 기회 및 the flexibility to continue the current technology 포트폴리오 at lower financial returns in a transition period to low-carbon technologies.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

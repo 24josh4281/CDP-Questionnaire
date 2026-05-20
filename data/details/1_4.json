@@ -1,0 +1,1216 @@
+{
+  "code": "1.4",
+  "module": "1",
+  "moduleTitle": "Introduction",
+  "questionText": "State the end date of the year for which you are reporting data. For emissions data, indicate whether you will be providing emissions data for past reporting years.",
+  "questionKo": "보고 데이터의 종료 시점을 입력하십시오 . 배출량 데이터의 경우 , 과거 보고연도 배출량 데이터 제공 여부를 표시하십시오 .",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Ocean, Biodiversity, Plastics, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "This question allows for the establishment of a clear temporal context, enabling consistent year-to-year comparisons and assessments of an organization's environmental progress. It enhances transparency and accountability and aids data users in interpreting your responses in relation to the reported timeframe.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Response row",
+      "titleKo": "응답 행"
+    }
+  ],
+  "columns": [
+    {
+      "code": "1.4.1",
+      "text": "End date of reporting year",
+      "type": "DATE",
+      "mandatory": "True",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "Your end date must be on or before 28th October 2026.",
+      "textKo": "End date of 보고연도",
+      "typeKo": "날짜 입력",
+      "mandatoryKo": "예",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": "Your end date 해야 합니다 be on 또는 before 28th October 2026."
+    },
+    {
+      "code": "1.4.2",
+      "text": "Alignment of this reporting period with your financial reporting period",
+      "type": "SINGLE_SELECT",
+      "mandatory": "True",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Alignment of this reporting period with your financial reporting period",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "예",
+      "optionsKo": [
+        "예",
+        "아니요"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "1.4.3",
+      "text": "Indicate if you are providing emissions data for past reporting years",
+      "type": "SINGLE_SELECT",
+      "mandatory": "True",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "만약 you are providing 배출량 데이터 for past 보고연도s을/를 표시하십시오.",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "예",
+      "optionsKo": [
+        "예",
+        "아니요"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "1.4.4",
+      "text": "Number of past reporting years you will be providing Scope 1 emissions data for",
+      "type": "SINGLE_SELECT",
+      "mandatory": "True",
+      "options": [
+        "1 year",
+        "2 years",
+        "3 years",
+        "4 years",
+        "5 years",
+        "Not providing past emissions data for Scope 1"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Number of past 보고연도s you will be providing Scope 1 배출량 data for",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "예",
+      "optionsKo": [
+        "1 year",
+        "2 years",
+        "3 years",
+        "4 years",
+        "5 years",
+        "Not providing past 배출량 데이터 for Scope 1"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "1.4.5",
+      "text": "Number of past reporting years you will be providing Scope 2 emissions data for",
+      "type": "SINGLE_SELECT",
+      "mandatory": "True",
+      "options": [
+        "1 year",
+        "2 years",
+        "3 years",
+        "4 years",
+        "5 years",
+        "Not providing past emissions data for Scope 2"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Number of past 보고연도s you will be providing Scope 2 배출량 data for",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "예",
+      "optionsKo": [
+        "1 year",
+        "2 years",
+        "3 years",
+        "4 years",
+        "5 years",
+        "Not providing past 배출량 데이터 for Scope 2"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "1.4.6",
+      "text": "Number of past reporting years you will be providing Scope 3 emissions data for",
+      "type": "SINGLE_SELECT",
+      "mandatory": "True",
+      "options": [
+        "1 year",
+        "2 years",
+        "3 years",
+        "4 years",
+        "5 years",
+        "Not providing past emissions data for Scope 3"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Number of past 보고연도s you will be providing Scope 3 배출량 data for",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "예",
+      "optionsKo": [
+        "1 year",
+        "2 years",
+        "3 years",
+        "4 years",
+        "5 years",
+        "Not providing past 배출량 데이터 for Scope 3"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nCDP recommends that organizations provide most recent 12-month period for which you have complete data, if possible. If you do not have data for the entire reporting year, consider the following options:\nExtrapolate or estimate your data to cover the entire reporting year.\nOutline in the relevant questions any exclusions from your disclosure.\nApply this reporting year to all your answers throughout the questionnaire, except where the ability is provided to specify other reporting periods (e.g., base year, target year).\nIn column 3 \"Indicate if you are providing data for past reporting years\", select \"No\" unless you are restating data or you are a first-time responder providing data from past years.\nIf providing multiple years of data, only data pertaining to the most recent reporting 12-month period will be scored.\nEnd date of reporting year (column 1) \nThis date should be the same as the \"End date of reporting year\" reported in your Questionnaire Set-up.\nThe start date will be automatically assumed to be exactly one year before the listed date. For example, if you enter an end date of 31/12/2023, your start date will be automatically assumed to be 01/01/2023.\nAlignment of this reporting period with your financial reporting period (column 2) \nWhilst CDP does not require organizations to synchronize their reporting year with their fiscal year, the investment community generally prefers an organization's reporting year for environmental disclosure to match the fiscal year for their financial jurisdiction. This facilitates the assessment of environmental performance data in alignment with financial performance data.\nWhen reporting intensity figures using a financial metric throughout the questionnaire, ensure that the financial information provided aligns with the reporting year disclosed here, even if your reporting year is not aligned with your fiscal year.\nIndicate if you are providing emissions data for past reporting years (column 3) \nIf you are a first-time responder and have therefore not provided emissions data to CDP before, provide gross global emissions data for the five years preceding the current reporting year in the emissions accounting questions (7.6 and 7.7) for scopes 1 and 2, and in 7.8.1 for scope 3.\nFor all other responders, restating emissions data is optional but enhances transparency.\nIf providing past emissions data, select \"Yes\" and specify the number of past years of emissions data for each scope in column 4 \"Number of past reporting years you will be providing Scope 1 emissions data for\" to column 6 \"Number of past reporting years you will be providing Scope 3 emissions data for\".\nFor more information on restatements, refer to CDP's technical note on restatements .\nNumber of past reporting years you will be providing Scope 1, 2 and 3 emissions data for (columns 4 to 6) \nThese columns only appear if \"Yes\" is selected in column 3 \"Indicate if you are providing emissions data for past reporting years\".\nNote for financial services companies: \nThe number of past reporting years of emissions data for Scope 3 will also determine the number of past reporting years of emissions data for portfolio emission data in question 12.1.2.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 CDP recommends that organizations provide most recent 12-month period for which you have complete data, 만약 possible. 만약 you do not have data 에 대한 entire 보고연도, consider the following options: Extrapolate 또는 estimate your data to cover the entire 보고연도. Outline in the relevant questions 제외사항 from your disclosure. Apply this 보고연도 to all your answers throughout the questionnaire, except 여기서 the ability is 입력 to specify other reporting periods (e.g., 기준연도, 목표 year). In 열 3 \"Indicate 만약 you are providing data for past 보고연도s\", select \"아니요\" unless you are restating data 또는 you are a first-time responder providing data from past years. 만약 providing multiple years of data, only data 관련 to the most recent reporting 12-month period will be scored. End date of 보고연도 (열 1) This date 해야 합니다 be the same as the \"End date of 보고연도\" 보고 in your Questionnaire Set-up. The start date will be automatically assumed to be exactly one year before the listed date. For example, 만약 you enter an end date of 31/12/2023, your start date will be automatically assumed to be 01/01/2023. Alignment of this reporting period with your financial reporting period (열 2) Whilst CDP does not require organizations to synchronize their 보고연도 with their fiscal year, the investment community generally prefers an 조직의 보고연도 for environmental disclosure to match the fiscal year 에 대한ir financial jurisdiction. This facilitates the assessment of environmental performance data in alignment with financial performance data. 경우 reporting intensity figures using a financial metric throughout the questionnaire, ensure that the financial information 입력 aligns with the 보고연도 공개 here, even 만약 your 보고연도 is not aligned with your fiscal year. Indicate 만약 you are providing 배출량 데이터 for past 보고연도s (열 3) 만약 you are a first-time responder 및 have therefore not 입력 배출량 데이터 to CDP before, provide 전 세계 총 배출량 데이터 에 대한 five years preceding the current 보고연도 in the 배출량 회계 questions (7.6 및 7.7) for scopes 1 및 2, 및 in 7.8.1 for scope 3. For all other responders, restating 배출량 데이터 is optional but enhances transparency. 만약 providing past 배출량 데이터, select \"예\" 및 specify the number of past years of 배출량 데이터 for each scope in 열 4 \"Number of past 보고연도s you will be providing Scope 1 배출량 data for\" to 열 6 \"Number of past 보고연도s you will be providing Scope 3 배출량 data for\". For more information on restatements, refer to CDP's technical note on restatements . Number of past 보고연도s you will be providing Scope 1, 2 및 3 배출량 데이터 for (열 4 to 6) These 열 only appear 만약 \"예\" is 선택 in 열 3 \"Indicate 만약 you are providing 배출량 데이터 for past 보고연도s\". Note for financial services companies: The number of past 보고연도s of 배출량 데이터 for Scope 3 will also determine the number of past 보고연도s of 배출량 데이터 for 포트폴리오 emission data in 문항 12.1.2."
+    },
+    {
+      "type": "Ambition",
+      "text": "The organization's financial disclosures related to sustainability cover the same reporting period as the corresponding financial statements.",
+      "typeKo": "Ambition",
+      "textKo": "The 조직의 financial disclosures related to sustainability cover the same reporting period as the corresponding 재무제표."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Reporting year: (also referred to as reporting period) the 12-month period for which you are submitting data to CDP.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "보고연도: (also referred to as reporting period) the 12-month period for which you are submitting data to CDP."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nDate provided in column ‘End date of reporting year' is between 1st October 2024 - 1st October 2026 - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Date 입력 in 열 ‘End date of 보고연도' is between 1st October 2024 - 1st October 2026 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\n'Yes' selected in column 'Alignment of this reporting period with your financial reporting period' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. '예' 선택 in 열 'Alignment of this reporting period with your financial reporting period' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "보고 데이터의 종료 시점을 입력하십시오 . 배출량 데이터의 경우 , 과거 보고연도 배출량 데이터 제공 여부를 표시하십시오 .",
+    "q2025": "Q1.4",
+    "q2025_text": "State the end date of the year for which you are reporting data. For emissions data, indicate whether you will be providing emissions data for past reporting years.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "",
+    "scoring_change_summary": "CC/F/W All sectors Management • Dates accepted in column ‘End date of reporting year' updated to be between 1st October 2023 and 1st October 2026. Updated to align with the 2026 disclosure cycle.",
+    "daml_summary": "General: D 0/0 | A 1/1 | M 1/1 | L 1/1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "CC/F/W All sectors Management • Dates accepted in 열 ‘End date of 보고연도' updated to be between 1st October 2023 및 1st October 2026. Updated to align with the 2026 disclosure cycle.",
+    "daml_summaryKo": "일반: D 0/0 | A 1/1 | M 1/1 | L 1/1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "the end date 의 year for which you are reporting data. For 배출량 데이터, indicate whether you will be providing 배출량 데이터 for past 보고연도s.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "0/0",
+    "A": "1/1",
+    "M": "1/1",
+    "L": "1/1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "소개",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 해양, 생물다양성, 플라스틱, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "This 문항 allows 에 대한 establishment of a clear temporal context, enabling consistent year-to-year comparisons 및 assessments of an 조직의 environmental progress. It enhances transparency 및 accountability 및 aids 데이터 사용자 in interpreting your responses in relation to the 보고 timeframe.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

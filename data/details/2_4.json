@@ -1,0 +1,1272 @@
+{
+  "code": "2.4",
+  "module": "2",
+  "moduleTitle": "Identification, assessment, and management of dependencies, impacts, risks, and opportunities",
+  "questionText": "How does your organization define substantive effects on your organization?",
+  "questionKo": "귀사가 정의하는 중대한 영향 ( substantive effects) 의 기준을 설명하십시오",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Ocean, Biodiversity, Plastics, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Biodiversity - Mines, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "Indicators and thresholds employed to define which effects on the organization are considered substantive can differ among disclosers depending on their sector, value chain, or geography. Therefore, outlining clear definitions on how organizations determine potential effects as substantive provides critical context to data users. This question increases transparency and improves clarity as to what the discloser deems to be a substantive effect on their organization.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Risks",
+      "titleKo": "Risks"
+    },
+    {
+      "order": 2,
+      "title": "Opportunities",
+      "titleKo": "Opportunities"
+    }
+  ],
+  "columns": [
+    {
+      "code": "2.4.1",
+      "text": "Type of definition",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Qualitative",
+        "Quantitative"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Type of definition",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Qualitative",
+        "Quantitative"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.4.2",
+      "text": "Indicator used to define substantive effect",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Asset value",
+        "Capital allocation",
+        "Capital expenditures",
+        "Credit risk",
+        "Customer complaints",
+        "Direct operating costs",
+        "EBITDA",
+        "Employee turnover",
+        "Indirect operating costs",
+        "Liabilities",
+        "Market share",
+        "Production capacity",
+        "Revenue",
+        "Share price",
+        "Shareholder value",
+        "Stranded assets",
+        "Strategic customers",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Indicator used to define substantive effect",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Asset value",
+        "Capital allocation",
+        "자본지출s",
+        "Credit risk",
+        "Customer complaints",
+        "Direct operating costs",
+        "EBITDA",
+        "Employee turnover",
+        "Indirect operating costs",
+        "Liabilities",
+        "Market share",
+        "Production capacity",
+        "매출",
+        "Share price",
+        "Shareholder value",
+        "Stranded assets",
+        "Strategic customers",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.4.3",
+      "text": "Change to indicator",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Absolute decrease",
+        "Absolute increase",
+        "% decrease",
+        "% increase"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Change to indicator",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Absolute decrease",
+        "Absolute increase",
+        "% decrease",
+        "% increase"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.4.4",
+      "text": "% change to indicator",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Less than 1%",
+        "1-10",
+        "11-20",
+        "21-30",
+        "31-40",
+        "41-50",
+        "51-60",
+        "61-70",
+        "71-80",
+        "81-90",
+        "91-99",
+        "100%"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% change to indicator",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "미만 1%",
+        "1-10",
+        "11-20",
+        "21-30",
+        "31-40",
+        "41-50",
+        "51-60",
+        "61-70",
+        "71-80",
+        "81-90",
+        "91-99",
+        "100%"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.4.5",
+      "text": "Absolute increase/ decrease figure",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Absolute increase/ decrease figure",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.4.6",
+      "text": "Metrics considered in definition",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Frequency of effect occurring",
+        "Time horizon over which the effect occurs",
+        "Likelihood of effect occurring",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Metrics considered in definition",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Frequency of effect occurring",
+        "Time horizon over which the effect occurs",
+        "Likelihood of effect occurring",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.4.7",
+      "text": "Application of definition",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Application of definition",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThis question seeks to define and quantify how your organization defines a ‘substantive effect' on your organization at the corporate level, in the context of environmental risks and opportunities. This will be used to understand the threshold for your reported risks and opportunities in 3.1 and 3.6. \nWhat constitutes a substantive effect will vary between organizations. You are therefore asked to determine ‘substantive' in the way that you would do for your business decision-making. For example, a 1% reduction in profits will have different effects on different organizations depending on its respective profit margins. A substantive effect of relatively high magnitude could occur because of a large impact on one of the following aspects, or because of a small number for all three combines to create a larger effect: \nthe proportion of business units affected; \nthe size of the effect on those business units; \nthe dependency of the organization on that unit; and/or \nthe potential for shareholder or customer concern. \nUse the \"Add row\" function if you define a substantive effect on your organization with respect to risks or opportunities in more than one way. For example, if you use multiple indicators or have different definitions for different parts of the business. \n% Change to indicator (column 5) \nThis column only appears if \"Quantitative\" is selected in column 2 \"Type of definition\" and either \"% increase\" or \"% decrease\" is selected in column 4 \"Change to indicator\".\nMetrics considered in definition (column 7) \nThis column seeks to capture the different factors taken into account when defining a substantive effect on your organization with respect to risks and opportunities. \nIf you have provided a quantitative definition, these metrics could give further context to your quantitative indicator. For example, you may define risks to be substantive if they could lead to a 10% decrease in revenue over your short-term time horizon (as defined in 2.1). In this case, select \"Time horizon over which the effect occurs\" and provide further details in column 8 \"Application of definition\". \nIf you are only providing a qualitative definition, select all relevant metrics used to define a substantive effect, or use \"Other, please specify\" to specify a different metric. \nApplication of definition (column 8) \nDescribe the thresholds considered to be substantive for the metrics reported in column 7 \"Metrics considered in definition\". For example: \nFrequency of effect occurring: i.e. once, quarterly, every two years etc. \nTime horizon over which the effect occurs: i.e., short-, medium-, and long-term in line with your time horizons reported in 2.1. \nLikelihood of effect occurring: i.e., the percentage chance the effect will occur \nOften, multiple metrics are used together as part of a matrix approach. If using a matrix approach, describe how the metrics selected in column 7 \"Metrics considered in definition\" are used in combination and their respective weightings. \nDescribe how often the metrics, and their thresholds, are selected, reviewed, and updated.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 This 문항 seeks to define 및 quantify how 귀사 defines a ‘substantive effect' on 귀사 at the corporate level, in the context of environmental 리스크 및 기회. This will be used to understand the threshold 귀사의 보고 리스크 및 기회 in 3.1 및 3.6. What constitutes a substantive effect will vary between organizations. You are therefore asked to determine ‘substantive' in the way that you would do 귀사의 business decision-making. For example, a 1% reduction in profits will have different effects on different organizations depending on its respective profit margins. A substantive effect of relatively high magnitude could occur because of a large impact on one 의 following aspects, 또는 because of a small number for all three combines to create a larger effect: the proportion of business units affected; the size 의 effect on those business units; the dependency 의 organization on that unit; 및/또는 the potential for shareholder 또는 customer concern. Use the \"Add 행\" function 만약 you define a substantive effect on 귀사 with respect to risks 또는 opportunities in more than one way. For example, 만약 you use multiple indicators 또는 have different definitions for different parts 의 business. % Change to indicator (열 5) This 열 only appears 만약 \"Quantitative\" is 선택 in 열 2 \"Type of definition\" 및 either \"% increase\" 또는 \"% decrease\" is 선택 in 열 4 \"Change to indicator\". Metrics considered in definition (열 7) This 열 seeks to capture the different factors taken into account 경우 defining a substantive effect on 귀사 with respect to 리스크 및 기회. 만약 you have 입력 a quantitative definition, these metrics could give further context to your quantitative indicator. For example, you may define risks to be substantive 만약 they could lead to a 10% decrease in 매출 over your short-term time horizon (as defined in 2.1). In this case, select \"Time horizon over which the effect occurs\" 및 provide further details in 열 8 \"Application of definition\". 만약 you are only providing a qualitative definition, select all relevant metrics used to define a substantive effect, 또는 use \"Other, 직접 입력\" to specify a different metric. Application of definition (열 8) 설명 the thresholds considered to be substantive 에 대한 metrics 보고 in 열 7 \"Metrics considered in definition\". For example: Frequency of effect occurring: i.e. once, quarterly, every two years etc. Time horizon over which the effect occurs: i.e., short-, medium-, 및 long-term in line with your time horizons 보고 in 2.1. Likelihood of effect occurring: i.e., the percentage chance the effect will occur Often, multiple metrics are used together 의 일부로 a matrix approach. 만약 using a matrix approach, 설명 how the metrics 선택 in 열 7 \"Metrics considered in definition\" are used in combination 및 their respective weightings. 설명 how often the metrics, 및 their thresholds, are 선택, reviewed, 및 updated."
+    },
+    {
+      "type": "Ambition",
+      "text": "With respect to the identification, assessment, and management of substantive environmental dependencies, impacts, risks, and opportunities, the organization:\nDescribes how the organization defines substantive effects.",
+      "typeKo": "Ambition",
+      "textKo": "With respect to the 식별, 평가 및 관리 of substantive 환경 의존성, 임팩트, 리스크 및 기회, the organization: 설명s how the organization defines substantive effects."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Substantive effect : an effect that has a considerable or relatively significant effect on an organization at the corporate level in terms of risks and opportunities. This could include operational, financial, or strategic effects that undermine, or provide opportunities for, the entire organization or part of the organization.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Substantive effect : an effect that has a considerable 또는 relatively significant effect on an organization at the corporate level in terms of 리스크 및 기회. This could include operational, financial, 또는 strategic effects that undermine, 또는 provide opportunities for, the entire organization 또는 part 의 organization."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row where 'Risks' is selected in column 'Effect type' completed - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 여기서 'Risks' is 선택 in 열 'Effect type' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "All of the following is met - 1 point\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Risks' selected in column 'Effect type'\n- 'Quantitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\n- 'Qualitative' selected in column 'Type of definition' in any complete row where 'Opportunities' selected in column 'Effect type'\nBest row(s) scored.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "All 의 following is met - 1 점 - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Risks' 선택 in 열 'Effect type' - 'Quantitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' - 'Qualitative' 선택 in 열 'Type of definition' in 하나 이상 complete 행 여기서 'Opportunities' 선택 in 열 'Effect type' Best 행(s) scored. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] How does your organization define substantive effects on your organization?",
+    "q2025": "Q2.4",
+    "q2025_text": "How does your organization define substantive effects on your organization?",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "",
+    "scoring_change_summary": "CC/F/W All sectors Management • Scoring criteria modified to allow organizations to report ‘Quantitative' and ‘Qualitative' definitions of substantive risks and opportunities in separate rows. Scoring adapted to account for organizations for whom it may be more applicable to report quantitative and qualitative definitions in separate rows.",
+    "daml_summary": "General: D 6/6 | A 1/1 | M 1/1 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "CC/F/W All sectors Management • Scoring criteria modified to allow organizations to report ‘Quantitative' 및 ‘Qualitative' definitions of substantive 리스크 및 기회 in separate 행. Scoring adapted to account for organizations for whom it may be more 해당되는 경우 to report quantitative 및 qualitative definitions in separate 행.",
+    "daml_summaryKo": "일반: D 6/6 | A 1/1 | M 1/1 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "귀사는 define substantive effects on 귀사을/를 어떻게 수행합니까?"
+  },
+  "defaultPoints": {
+    "D": "6/6",
+    "A": "1/1",
+    "M": "1/1",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 의존성, 임팩트, 리스크 및 기회의 식별, 평가 및 관리",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 해양, 생물다양성, 플라스틱, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, Biodiversity - Mines, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "Indicators 및 thresholds employed to define which effects on the organization are considered substantive can differ among disclosers depending on their sector, 가치사슬, 또는 geography. Therefore, outlining clear definitions on how organizations determine potential effects as substantive provides critical context to 데이터 사용자. This 문항 increases transparency 및 improves clarity as to what the discloser deems to be a substantive effect on their organization.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

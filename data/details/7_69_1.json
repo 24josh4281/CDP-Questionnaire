@@ -1,0 +1,311 @@
+{
+  "code": "7.69.1",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Provide details on those management practices that have other impacts besides climate change mitigation/adaptation and on your management response.",
+  "questionKo": "details on those management practices that have other impacts besides climate change mitigation/adaptation 및 on your management response.을/를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Agricultural commodities, Food, beverage & tobacco, Paper & forestry",
+  "simpleHelp": "This question gathers data on impacts - other climate-related - of management practices implemented in your land. \nOrganizations are encouraged to move towards a more holistic approach regarding their land management actions. This is important due to the complex interrelationships between climate change, deforestation, and water security issues. An understanding of the implications of your management practices on other environmental aspects demonstrates a mature environmental stewardship approach to investors and other data users.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.69.1.1",
+      "text": "Management practice reference number",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "MP1",
+        "MP2",
+        "MP3",
+        "MP4",
+        "MP5",
+        "MP6",
+        "MP7",
+        "MP8",
+        "MP9",
+        "MP10",
+        "MP11",
+        "MP12",
+        "MP13",
+        "MP14",
+        "MP15",
+        "MP16",
+        "MP17",
+        "MP18",
+        "MP19",
+        "MP20"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Management practice reference number",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "MP1",
+        "MP2",
+        "MP3",
+        "MP4",
+        "MP5",
+        "MP6",
+        "MP7",
+        "MP8",
+        "MP9",
+        "MP10",
+        "MP11",
+        "MP12",
+        "MP13",
+        "MP14",
+        "MP15",
+        "MP16",
+        "MP17",
+        "MP18",
+        "MP19",
+        "MP20"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.69.1.2",
+      "text": "Overall effect",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Mixed"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Overall effect",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Mixed"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.69.1.3",
+      "text": "Which of the following has been impacted?",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Biodiversity",
+        "Soil",
+        "Water",
+        "Yield",
+        "Other, please specify"
+      ],
+      "simple_help": "Select all that apply:",
+      "popup_help": "",
+      "textKo": "다음 중 has been impacted에 해당하는 항목을 선택하십시오.",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "생물다양성",
+        "Soil",
+        "수자원",
+        "Yield",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "all that apply:을/를 선택하십시오.",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.69.1.4",
+      "text": "Description of impact",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Description of impact",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.69.1.5",
+      "text": "Have you implemented any response to these impacts?",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Have you implemented 하나 이상 response to these impacts?",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "아니요"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.69.1.6",
+      "text": "Description of the response",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Description 의 response",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in response to 7.69.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"예\" in response to 7.69."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nIdentify and explain any impacts that occurred because of any agricultural/forestry management practice implemented in your own land, as reported in 7.67.1. You should not report effects that are climate-related, as these are already captured earlier in your disclosure. Provide effects associated with other environmental issues, e.g. on biodiversity, soils, water \nManagement practice reference number (column 1) \nWhen referring to a specific management practice or action, please make sure you select the same identifier for this management practice as in 7.67.1. For example, if you would like to disclose other effects of \"agroforestry\" which you already disclosed in terms of climate-related effects, you should select in this column the same identifier that refers to this practice in 7.67.1. \nOverall effect (column 2) \nThis refers to the overall effect of your management practice on other environmental issues. \nWhich of the following has been impacted? (column 3) \nIndicate which environmental issues have been affected by your management practice. Select all options that apply \nIf none of the reasons are applicable to your organization, select \"Other, please specify\" and indicate the additional area(s) that have been impacted by your management practices \nDescription of impact (column 4) \nProvide a brief description of the methods/tools used to assess the consequences of the implementation of your management practice on other environmental issues \nProvide details on each of these impacts/effects, including: \ntheir nature \nthe parts of your business that have been affected. \nDescription of the response (column 6) \nIf applicable, describe your response to manage, mitigate, control, or adapt to these impacts/effects. \nIf you selected \"No\" in column 5 (\"Have you implemented…?\"), explain why you have not implemented a response to these impacts",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Identify 및 explain 하나 이상 impacts that occurred because of 하나 이상 agricultural/forestry management practice implemented in your own land, as 보고 in 7.67.1. You 해야 합니다 not report effects that are climate-related, as these are already captured earlier in your disclosure. Provide effects associated with other environmental issues, e.g. on 생물다양성, soils, 수자원 Management practice reference number (열 1) 경우 referring to a specific management practice 또는 action, please make sure you select the same identifier for this management practice as in 7.67.1. For example, 만약 you would like to disclose other effects of \"agroforestry\" which you already 공개 in terms of climate-related effects, you 해야 합니다 select in this 열 the same identifier that refers to this practice in 7.67.1. Overall effect (열 2) This refers to the overall effect of your management practice on other environmental issues. Which 의 following has been impacted? (열 3) Indicate which environmental issues have been affected by your management practice. Select all options that apply 만약 none 의 reasons are 해당되는 경우 to 귀사, select \"Other, 직접 입력\" 및 indicate the additional area(s) that have been impacted by your management practices Description of impact (열 4) Provide a brief description 의 methods/tools used to assess the consequences 의 implementation of your management practice on other environmental issues 세부 정보를 입력 on each 의se impacts/effects, 포함: their nature the parts of your business that have been affected. Description 의 response (열 6) 만약 해당되는 경우, 설명 your response to manage, mitigate, control, 또는 adapt to these impacts/effects. 만약 you 선택 \"아니요\" in 열 5 (\"Have you implemented…?\"), 그 이유를 설명 you have not implemented a response to these impacts"
+    },
+    {
+      "type": "Example Response",
+      "text": "Management practice reference\nnumber \nOverall effect \nWhich of the following has been impacted? \nDescription of impact \nHave you implemented any response(s) to these impacts? \nDescription of the response(s) \nMP1 \nPositive \nSoil; Yield \nWe adopted cover-cropping practices in 85% of our farms a year ago. It\nhas already had positive impacts in the soil quality, such as reduced soil\nerosion, increased levels of soil organic matter, improved moisture retention. Also, the crop yield has increased by 15% compared to last year. \nNo \nWe have not implemented any response as we did\nnot identify any negative impacts caused by this management practice.",
+      "typeKo": "Example Response",
+      "textKo": "Management practice reference number Overall effect Which 의 following has been impacted? Description of impact Have you implemented 하나 이상 response(s) to these impacts? Description 의 response(s) MP1 Positive Soil; Yield We adopted cover-cropping practices in 85% of our farms a year ago. It has already had positive impacts in the soil quality, such as reduced soil erosion, increased levels of soil organic matter, improved moisture retention. Also, the crop yield has increased by 15% compared to last year. No We have not implemented 하나 이상 response as we did not identify 하나 이상 negative impacts caused by this management practice."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "3/3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "3/3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "3/3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Provide details on those management practices that have other impacts besides climate change mitigation/adaptation and on your management response.",
+    "q2025": "Q7.69.1",
+    "q2025_text": "Provide details on those management practices that have other impacts besides climate change mitigation/adaptation and on your management response.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Agricultural commodities: D 6/6 | A 3/3 | M 1/1 | L 0/0\nFood, beverage & tobacco: D 6/6 | A 3/3 | M 1/1 | L 0/0\nPaper & forestry: D 6/6 | A 3/3 | M 1/1 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "농산물 원자재: D 6/6 | A 3/3 | M 1/1 | L 0/0 Food, beverage & tobacco: D 6/6 | A 3/3 | M 1/1 | L 0/0 Paper & forestry: D 6/6 | A 3/3 | M 1/1 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "details on those management practices that have other impacts besides climate change mitigation/adaptation 및 on your management response.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "6/6",
+    "A": "3/3",
+    "M": "1/1",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "농산물 원자재, Food, beverage & tobacco, 제지 및 임업",
+  "simpleHelpKo": "This 문항 gathers data on impacts - other climate-related - of management practices implemented in your land. Organizations are encouraged to move towards a more holistic approach regarding their land management actions. This is important due to the complex interrelationships between climate change, deforestation, 및 water security issues. An understanding 의 implications of your management practices on other environmental aspects demonstrates a mature environmental stewardship approach to investors 및 other 데이터 사용자.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

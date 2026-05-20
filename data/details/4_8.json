@@ -1,0 +1,243 @@
+{
+  "code": "4.8",
+  "module": "4",
+  "moduleTitle": "Governance",
+  "questionText": "Does your organization include covenants in financing agreements to reflect and enforce your environmental policies?",
+  "questionKo": "귀사는 include covenants in financing agreements to reflect 및 enforce your environmental policies입니까?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Biodiversity, Climate Change, Forests",
+  "sectorTags": "Financial services",
+  "simpleHelp": "Banks can influence their clients through requirements within the terms of financing agreements and with the option of a default being triggered should there be a failure to comply. Data users are interested in whether banks are using this method to promote action on environmental performance because there are potential benefits for the bank including a perceived improvement in credit profile and access to alternative pools of capital.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Response row",
+      "titleKo": "응답 행"
+    }
+  ],
+  "columns": [
+    {
+      "code": "4.8.1",
+      "text": "Covenants included in financing agreements to reflect and enforce policies",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No, but we plan to within the next two years",
+        "No, and we do not plan to in the next two years"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "약정 조항 included in 금융 계약 to reflect 및 enforce policies",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "No, but we plan to within the next two years",
+        "No, 및 we do not plan to in the next two years"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.8.2",
+      "text": "Primary reason for not including covenants in financing agreements",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Lack of internal resources, capabilities, or expertise (e.g., due to organization size)",
+        "No standardized procedure",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant or not relevant",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "주된 이유 for not 포함 약정 조항 in 금융 계약",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Lack of internal resources, capabilities, 또는 expertise (e.g., due to organization size)",
+        "No standardized 절차",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant 또는 not relevant",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.8.3",
+      "text": "Explain why your organization does not include covenants in financing agreements",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "그 이유를 설명 귀사 does not include 약정 조항 in 금융 계약",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in column 1 \"Activity undertaken\" for the row \"Banking\" in 1.10.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"예\" in 열 1 \"Activity undertaken\" 에 대한 행 \"Banking\" in 1.10."
+    },
+    {
+      "type": "Requested Content",
+      "text": "Primary reason for not including environmental covenants in financing agreements (column 2) \nThis column is only presented if any \"No…\" option is selected in column 1 \"Covenants included in financing agreements to reflect and enforce policies\".\nExplain why your organization does not include covenants in financing agreements (column 3) \nThis column is only presented if any \"No…\" option is selected in column 1 \"Covenants included in financing agreements to reflect and enforce policies\".\nBriefly describe the reasons why your financing agreements do not include environmental covenants.\nIf you plan to include environmental covenants in the next two years, highlight the key actions you plan to take.",
+      "typeKo": "요청 내용",
+      "textKo": "주된 이유 for not 포함 environmental 약정 조항 in 금융 계약 (열 2) This 열 is only presented 만약 하나 이상 \"No…\" option is 선택 in 열 1 \"약정 조항 included in 금융 계약 to reflect 및 enforce policies\". 그 이유를 설명 귀사 does not include 약정 조항 in 금융 계약 (열 3) This 열 is only presented 만약 하나 이상 \"No…\" option is 선택 in 열 1 \"약정 조항 included in 금융 계약 to reflect 및 enforce policies\". Briefly 설명 the reasons why your 금융 계약 do not include environmental 약정 조항. 만약 you plan to include environmental 약정 조항 in the next two years, highlight the key actions you plan to take."
+    },
+    {
+      "type": "Ambition",
+      "text": "Banks have covenants in financing agreements to reinforce environmental policies.",
+      "typeKo": "Ambition",
+      "textKo": "Banks have 약정 조항 in 금융 계약 to reinforce environmental policies."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Financing agreements: legal documents defining the terms and conditions of a financing product or service between your organization, for example as lender, and your client, for example as borrower.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "금융 계약: legal documents defining the terms 및 conditions of a financing product 또는 service between 귀사, for example as lender, 및 your client, for example as bor행er."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0 or 1/1 or 2",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Covenants included in financing agreements to reflect and enforce policies' NOT completed - 0/6 points\nA maximum of 0/6 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 '약정 조항 included in 금융 계약 to reflect 및 enforce policies' NOT 완성 - 0/6 점 이 경로에서 획득 가능한 최고점은 0/6점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nAny option excluding 'No, and we do not plan to in the next two years' selected in column 'Covenants included in financing agreements to reflect and enforce policies' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Covenants included in financing agreements to reflect and enforce policies' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 하나 이상 option 제외 'No, 및 we do not plan to in the next two years' 선택 in 열 '약정 조항 included in 금융 계약 to reflect 및 enforce policies' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 '약정 조항 included in 금융 계약 to reflect 및 enforce policies' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Covenants included in financing agreements to reflect and enforce policies' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Covenants included in financing agreements to reflect and enforce policies' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Covenants included in financing agreements to reflect and enforce policies' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Covenants included in financing agreements to reflect and enforce policies' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 '약정 조항 included in 금융 계약 to reflect 및 enforce policies' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 '약정 조항 included in 금융 계약 to reflect 및 enforce policies' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 '약정 조항 included in 금융 계약 to reflect 및 enforce policies' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 '약정 조항 included in 금융 계약 to reflect 및 enforce policies' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Does your organization include covenants in financing agreements to reflect and enforce your environmental policies?",
+    "q2025": "Q4.8",
+    "q2025_text": "Does your organization include covenants in financing agreements to reflect and enforce your environmental policies?",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Financial services: D 3/3 | A 1/1 | M 0 or 1/1 or 2 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Financial services: D 3/3 | A 1/1 | M 0 또는 1/1 또는 2 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "귀사는 include 약정 조항 in 금융 계약 to reflect 및 enforce your environmental policies입니까?"
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "1/1",
+    "M": "0 or 1/1 or 2",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "지배구조",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 생물다양성, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스",
+  "simpleHelpKo": "Banks can influence their clients through requirements within the terms of 금융 계약 및 with the option of a default being triggered 해야 합니다 there be a failure to comply. 데이터 사용자 are interested in whether banks are using this method to promote action on environmental performance because there are potential benefits 에 대한 bank 포함 a perceived improvement in credit profile 및 access to alternative pools of capital.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

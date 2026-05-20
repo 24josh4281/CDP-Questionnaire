@@ -1,0 +1,415 @@
+{
+  "code": "12.3",
+  "module": "12",
+  "moduleTitle": "Environmental performance - Financial services",
+  "questionText": "State the values of your financing and insurance of fossil fuel assets in the reporting year.",
+  "questionKo": "the values of your financing 및 insurance of fossil fuel assets in the 보고연도.을/를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Financial services",
+  "simpleHelp": "The majority of financial institutions' emissions are driven by the activities they finance in the wider economy, also known as ‘financed emissions'. The exposure of financial institutions to climate-related risks and opportunities are determined by their portfolios via lending, investment and insurance underwriting activities. Therefore, data users wish to understand the concentrations of fossil fuel assets in financial institutions' portfolios.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Lending to all fossil fuel assets",
+      "titleKo": "Lending to all fossil fuel assets"
+    },
+    {
+      "order": 2,
+      "title": "Lending to thermal coal",
+      "titleKo": "Lending to thermal coal"
+    },
+    {
+      "order": 3,
+      "title": "Lending to met coal",
+      "titleKo": "Lending to met coal"
+    },
+    {
+      "order": 4,
+      "title": "Lending to oil",
+      "titleKo": "Lending to oil"
+    },
+    {
+      "order": 5,
+      "title": "Lending to gas",
+      "titleKo": "Lending to gas"
+    },
+    {
+      "order": 6,
+      "title": "Investing in all fossil fuel assets (Asset manager)",
+      "titleKo": "Investing in all fossil fuel assets (Asset manager)"
+    },
+    {
+      "order": 7,
+      "title": "Investing in thermal coal (Asset manager)",
+      "titleKo": "Investing in thermal coal (Asset manager)"
+    },
+    {
+      "order": 8,
+      "title": "Investing in met coal (Asset manager)",
+      "titleKo": "Investing in met coal (Asset manager)"
+    },
+    {
+      "order": 9,
+      "title": "Investing in oil (Asset manager)",
+      "titleKo": "Investing in oil (Asset manager)"
+    },
+    {
+      "order": 10,
+      "title": "Investing in gas (Asset manager)",
+      "titleKo": "Investing in gas (Asset manager)"
+    },
+    {
+      "order": 11,
+      "title": "Investing all fossil fuel assets (Asset owner)",
+      "titleKo": "Investing all fossil fuel assets (Asset owner)"
+    },
+    {
+      "order": 12,
+      "title": "Investing in thermal coal (Asset owner)",
+      "titleKo": "Investing in thermal coal (Asset owner)"
+    },
+    {
+      "order": 13,
+      "title": "Investing in met coal (Asset owner)",
+      "titleKo": "Investing in met coal (Asset owner)"
+    },
+    {
+      "order": 14,
+      "title": "Investing in oil (Asset owner)",
+      "titleKo": "Investing in oil (Asset owner)"
+    },
+    {
+      "order": 15,
+      "title": "Investing in gas (Asset owner)",
+      "titleKo": "Investing in gas (Asset owner)"
+    },
+    {
+      "order": 16,
+      "title": "Insuring all fossil fuel assets",
+      "titleKo": "Insuring all fossil fuel assets"
+    },
+    {
+      "order": 17,
+      "title": "Insuring thermal coal",
+      "titleKo": "Insuring thermal coal"
+    },
+    {
+      "order": 18,
+      "title": "Insuring met coal",
+      "titleKo": "Insuring met coal"
+    },
+    {
+      "order": 19,
+      "title": "Insuring oil",
+      "titleKo": "Insuring oil"
+    },
+    {
+      "order": 20,
+      "title": "Insuring gas",
+      "titleKo": "Insuring gas"
+    }
+  ],
+  "columns": [
+    {
+      "code": "12.3.1",
+      "text": "Reporting values of the financing and/or insurance of fossil fuel assets",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No, but we plan to report our portfolio's exposure to fossil fuel in the next two years",
+        "No, and we do not plan to report our portfolio's exposure to fossil fuel in the next two years",
+        "No exposure to fossil fuel in portfolio"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Reporting values 의 financing 및/또는 insurance of fossil fuel assets",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "No, but we plan to report our 포트폴리오's exposure to fossil fuel in the next two years",
+        "No, 및 we do not plan to report our 포트폴리오's exposure to fossil fuel in the next two years",
+        "No exposure to fossil fuel in 포트폴리오"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "12.3.2",
+      "text": "Value of the fossil fuel assets in your portfolio (unit currency - as specified in 1.2)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "Figures reported in \"Value of the fossil fuel assets in your portfolio (unit currency - as specified in 1.2)\" cannot be greater than the value reported in 1.10 \"Portfolio value based on total assets\" for the corresponding row.",
+      "textKo": "Value 의 fossil fuel assets in your 포트폴리오 (unit currency - as specified in 1.2)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": "Figures 보고 in \"Value 의 fossil fuel assets in your 포트폴리오 (unit currency - as specified in 1.2)\" cannot be 초과 the value 보고 in 1.10 \"포트폴리오 value based on total assets\" 에 대한 corresponding 행."
+    },
+    {
+      "code": "12.3.3",
+      "text": "New loans advanced in reporting year (unit currency - as specified 1.2)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "New loans advanced in 보고연도 (unit currency - as specified 1.2)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "12.3.4",
+      "text": "Total premium written in reporting year (unit currency - as specified in 1.2)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Total premium written in 보고연도 (unit currency - as specified in 1.2)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "12.3.5",
+      "text": "% of portfolio value comprised of fossil fuel assets to total portfolio value in reporting year",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% of 포트폴리오 value comprised of fossil fuel assets to total 포트폴리오 value in 보고연도",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "12.3.6",
+      "text": "Details of calculation",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Details of calculation",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "12.3.7",
+      "text": "Primary reason for not providing values of the financing and/or insurance to fossil fuel assets",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Lack of internal resources, capabilities, or expertise (e.g., due to organization size)",
+        "No standardized procedure",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant or not relevant",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "주된 이유 for not providing values 의 financing 및/또는 insurance to fossil fuel assets",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Lack of internal resources, capabilities, 또는 expertise (e.g., due to organization size)",
+        "No standardized 절차",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant 또는 not relevant",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "12.3.8",
+      "text": "Please explain why you are not providing values of the financing and/or insurance to fossil fuel assets",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Please 그 이유를 설명 you are not providing values 의 financing 및/또는 insurance to fossil fuel assets",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified question",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified 문항"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question appears for organizations in the Financial Services sector who report in 1.10 that they undertake banking, investing and \"General(non-life)\" insurance underwriting activities. The question does not appear for organizations who report that they only insure \"Life and/or Health\".\nRows are presented according to the reported organizational activities.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 appears for organizations in the Financial Services sector who report in 1.10 that they undertake banking, investing 및 \"일반(non-life)\" insurance underwriting activities. The 문항 does not appear for organizations who report that they only insure \"Life 및/또는 Health\". 행 are presented according to the 보고 organizational activities."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General  \nFor the purpose of this question, financial institutions should focus on all types on lending and insurance within the portfolio they are reporting on. This can include general lending (E.g. corporate lending or financing) and also project finance, equity investments.\nPortfolio (column 0) \nThe rows which appear are driven by the activities you selected in 1.10.\nReporting values of the financing and/or insurance of fossil fuels (column 1) \nIndicate if your organization is able to report values of the financing and/or insurance of fossil fuel assets in your portfolio.\nSelect \"No exposure to fossil fuel in portfolio\" if your organization has no exposure to fossil fuel assets in your portfolio (e.g., if your organization does not provide any financing or insurance to any fossil fuel assets).\nValue of the fossil fuel assets in your portfolio (unit currency - as specified in 1.2) (column 2)  \nThis column only appears if \"Yes\" is selected in column 1 \"Reporting values of the financing and/or insurance of fossil fuel assets\".\nFor lending and investing rows, report the total value of loans/investments outstanding in your portfolio at the end of the reporting year.\nFor insurance rows, report the total sums insured in your portfolio for the reporting year.\nNew loans advanced in reporting year (unit currency - as specified in 1.2) (column 3)  \nThis column only appears for \"Lending...\" rows where \"Yes\" is selected in column 1 \"Reporting values of the financing and/or insurance of fossil fuel assets\".\nThe refinancing of an existing loan is considered a new loan.\nInclude new loans advanced even if the loan has subsequently been removed from your portfolio. This module is asking about portfolio impact - impact on climate cannot be transferred in the same way that risk to your portfolio can.\nTotal premium written in reporting year (unit currency - as specified in 1.2) (column 4)  \nThis column only appears for \"Insuring…\" rows where \"Yes\" is selected in column 1 \"Reporting values of the financing and/or insurance of fossil fuel assets\".\nReport the Gross Written Premium (GWP) including direct and assumed that is written (before deductions for reinsurance and ceding commission) in the reporting year.\n% of portfolio value comprised of fossil fuel assets to total portfolio value in reporting year (column 5)  \nProvide a percentage value for the amount reported in column 2 \"Value of the fossil fuel assets in your portfolio (unit currency - as specified in 1.2)\" in relation to your total portfolio value.\nDetails of calculation (column 6) \nThis column only appears if \"Yes\" is selected in column 1 \"Reporting values of the financing and/or insurance of fossil fuel assets\".\nDescribe which industries you include in the calculation of the value you are reporting for the fossil fuel assets.\nProvide details on the asset types used in the assessment.\nProvide any other details of your calculation that you consider important for data users.\nPrimary reason for not providing a value for the financing and/or insurance to fossil fuel assets (column 7) \nThis column only appears if either \"No, but we plan to report our portfolio's exposure in the next two years\" or \"No, and we do not plan to report our portfolio's exposure to fossil fuel in the next two years\" is selected in column 1 \"Reporting values of the financing and/or insurance of fossil fuel assets\".\nIf, for example, your organization provides strictly retail banking only (no commercial, institutional or business lending), select \"Other, please specify\".\nPlease explain why you are not providing a value for the financing and/or insurance to fossil fuel assets (column 8) \nThis column only appears if either \"No, but we plan to report our portfolio's exposure to fossil fuel assets in the next two years\" or \"No, and we do not plan to report our portfolio's exposure to fossil fuel in the next two years\" is selected in column 1 \"Reporting values of the financing and/or insurance of fossil fuel assets\". \nEnsure your explanation is organization-specific and provides details as to why you do not provide a value for the financing and/or insurance to fossil fuel assets.\nFor example, if your organization provides strictly retail banking only (no commercial, institutional or business lending), provide details here.\nIf you plan to assess your exposure within the next 2 years provide details of how you plan to do this.\nIf you wish to provide any additional context to your disclosure, including any plans or timelines your organization has for completely phasing out financing and/or insurance of fossil fuel assets, you can also do that in this column.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 에 대한 purpose of this 문항, financial institutions 해야 합니다 focus on all types on lending 및 insurance within the 포트폴리오 they are reporting on. This can include general lending (E.g. corporate lending 또는 financing) 및 also project finance, equity investments. 포트폴리오 (열 0) The 행 which appear are driven by the activities you 선택 in 1.10. Reporting values 의 financing 및/또는 insurance of fossil fuels (열 1) Indicate 만약 귀사 is able to report values 의 financing 및/또는 insurance of fossil fuel assets in your 포트폴리오. Select \"No exposure to fossil fuel in 포트폴리오\" 만약 귀사 has no exposure to fossil fuel assets in your 포트폴리오 (e.g., 만약 귀사 does not provide 하나 이상 financing 또는 insurance to 하나 이상 fossil fuel assets). Value 의 fossil fuel assets in your 포트폴리오 (unit currency - as specified in 1.2) (열 2) This 열 only appears 만약 \"예\" is 선택 in 열 1 \"Reporting values 의 financing 및/또는 insurance of fossil fuel assets\". For lending 및 investing 행, report the total value of loans/investments outstanding in your 포트폴리오 at the end 의 보고연도. For insurance 행, report the total sums insured in your 포트폴리오 에 대한 보고연도. New loans advanced in 보고연도 (unit currency - as specified in 1.2) (열 3) This 열 only appears for \"Lending...\" 행 여기서 \"예\" is 선택 in 열 1 \"Reporting values 의 financing 및/또는 insurance of fossil fuel assets\". The refinancing of an existing loan is considered a new loan. Include new loans advanced even 만약 the loan has subsequently been removed from your 포트폴리오. This module is asking about 포트폴리오 impact - impact on climate cannot be transferred in the same way that risk to your 포트폴리오 can. Total premium written in 보고연도 (unit currency - as specified in 1.2) (열 4) This 열 only appears for \"Insuring…\" 행 여기서 \"예\" is 선택 in 열 1 \"Reporting values 의 financing 및/또는 insurance of fossil fuel assets\". Report the Gross Written Premium (GWP) 포함 direct 및 assumed that is written (before deductions for reinsurance 및 ceding commission) in the 보고연도. % of 포트폴리오 value comprised of fossil fuel assets to total 포트폴리오 value in 보고연도 (열 5) Provide a percentage value 에 대한 amount 보고 in 열 2 \"Value 의 fossil fuel assets in your 포트폴리오 (unit currency - as specified in 1.2)\" in relation to your total 포트폴리오 value. Details of calculation (열 6) This 열 only appears 만약 \"예\" is 선택 in 열 1 \"Reporting values 의 financing 및/또는 insurance of fossil fuel assets\". 설명 which industries you include in the calculation 의 value you are reporting 에 대한 fossil fuel assets. 세부 정보를 입력 on the asset types used in the assessment. Provide 하나 이상 other details of your calculation that you consider important for 데이터 사용자. 주된 이유 for not providing a value 에 대한 financing 및/또는 insurance to fossil fuel assets (열 7) This 열 only appears 만약 either \"No, but we plan to report our 포트폴리오's exposure in the next two years\" 또는 \"No, 및 we do not plan to report our 포트폴리오's exposure to fossil fuel in the next two years\" is 선택 in 열 1 \"Reporting values 의 financing 및/또는 insurance of fossil fuel assets\". 만약, for example, 귀사 provides strictly retail banking only (no commercial, institutional 또는 business lending), select \"Other, 직접 입력\". Please 그 이유를 설명 you are not providing a value 에 대한 financing 및/또는 insurance to fossil fuel assets (열 8) This 열 only appears 만약 either \"No, but we plan to report our 포트폴리오's exposure to fossil fuel assets in the next two years\" 또는 \"No, 및 we do not plan to report our 포트폴리오's exposure to fossil fuel in the next two years\" is 선택 in 열 1 \"Reporting values 의 financing 및/또는 insurance of fossil fuel assets\". Ensure your explanation is organization-specific 및 provides details as to why you do not provide a value 에 대한 financing 및/또는 insurance to fossil fuel assets. For example, 만약 귀사 provides strictly retail banking only (no commercial, institutional 또는 business lending), 세부 정보를 입력 here. 만약 you plan to assess your exposure within the next 2 years 세부 정보를 입력 of how you plan to do this. 만약 you wish to provide 하나 이상 additional context to your disclosure, 포함 하나 이상 plans 또는 timelines 귀사 has for completely phasing out financing 및/또는 insurance of fossil fuel assets, you can also do that in this 열."
+    },
+    {
+      "type": "Ambition",
+      "text": "Financial institutions measure and disclose their financing and insurance of fossil fuel assets to understand, and help data users understand, their impact on the climate.",
+      "typeKo": "Ambition",
+      "textKo": "Financial institutions measure 및 disclose their financing 및 insurance of fossil fuel assets to understand, 및 help 데이터 사용자 understand, their impact on the climate."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Fossil fuel assets: assets tied to carbon-based fuels from fossil hydrocarbon deposits, including coal, oil, and natural gas.\nMet coal: metallurgical coal, also known as coking coal, is used to produce coke, the primary source of carbon used in steelmaking. It differs from thermal coal by its carbon content and its coking ability.\nThermal coal: coal used for energy and heating.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Fossil fuel assets: assets tied to carbon-based fuels from fossil hydrocarbon deposits, 포함 coal, oil, 및 natural gas. Met coal: metallurgical coal, also known as coking coal, is used to produce coke, the primary source of carbon used in steelmaking. It differs from thermal coal by its carbon content 및 its coking ability. Thermal coal: coal used for energy 및 heating."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 5/0 or 5",
+      "M": "0 or 2/0 or 2",
+      "L": "0/0 or 1",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nPoints will be awarded per completed row in proportion to the number of rows disclosed as follows:\n'Yes' selected in column 'Reporting values of the financing and/or insurance of fossil fuel assets' - 1 point\nOR\n'No, but we plan to…' selected in column 'Reporting values of the financing and/or insurance fossil fuel assets' AND\nBoth columns 'Primary reason for not providing values of the financing and/or insurance to fossil fuel assets' AND 'Please explain why you are not providing values of the financing and/or insurance to fossil fuel assets' completed - 0.5 points\nOR\n‘No exposure to fossil fuel in portfolio' selected in column 'Reporting values of the financing and/or insurance of fossil fuel assets' - 0/0 point\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: '예' 선택 in 열 'Reporting values 의 financing 및/또는 insurance of fossil fuel assets' - 1 점 또는 'No, but we plan to…' 선택 in 열 'Reporting values 의 financing 및/또는 insurance fossil fuel assets' 그리고 Both 열 '주된 이유 for not providing values 의 financing 및/또는 insurance to fossil fuel assets' 그리고 'Please 그 이유를 설명 you are not providing values 의 financing 및/또는 insurance to fossil fuel assets' 완성 - 0.5 점 또는 ‘No exposure to fossil fuel in 포트폴리오' 선택 in 열 'Reporting values 의 financing 및/또는 insurance of fossil fuel assets' - 0/0 점 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nPoints will be awarded per completed row in proportion to the number of rows disclosed as follows:\n'Yes' selected in column 'Reporting values of the financing and/or insurance of fossil fuel assets' - 2/2 points\nOR\n‘No exposure to fossil fuel in portfolio' selected in column ‘Reporting values of the financing and/or insurance of fossil fuel assets' - 0/0 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: '예' 선택 in 열 'Reporting values 의 financing 및/또는 insurance of fossil fuel assets' - 2/2 점 또는 ‘No exposure to fossil fuel in 포트폴리오' 선택 in 열 ‘Reporting values 의 financing 및/또는 insurance of fossil fuel assets' - 0/0 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\n'No, and we do not plan to...' selected in column 'Reporting values of the financing and/or insurance of fossil fuel assets' in at least one row - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE B)\n'Yes' OR 'No, but we plan to...' OR ‘No exposure to fossil fuel in portfolio' selected in column 'Reporting values of the financing and/or insurance of fossil fuel assets' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 'No, 및 we do not plan to...' 선택 in 열 'Reporting values 의 financing 및/또는 insurance of fossil fuel assets' in 최소 one 행 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 B) '예' 또는 'No, but we plan to...' 또는 ‘No exposure to fossil fuel in 포트폴리오' 선택 in 열 'Reporting values 의 financing 및/또는 insurance of fossil fuel assets' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] State the values of your financing and insurance of fossil fuel assets in the reporting year.",
+    "q2025": "Q12.3",
+    "q2025_text": "State the values of your financing and insurance of fossil fuel assets in the reporting year.",
+    "change_status": "Modified question",
+    "detail_change_types": "New dropdown option",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": true,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "Option \"No exposure to fossil fuel in portfolio\" has been added",
+    "scoring_change_summary": "CC Financial services Awareness, Management & Leadership • Scoring added for selection of ‘No exposure to fossil fuel in portfolio' selected in column ‘Reporting values of the financing and/or insurance of fossil fuel assets'. Scoring updated to reflect changes in the questionnaire to column ‘Reporting values of the financing and/or insurance of fossil fuel assets'.",
+    "daml_summary": "Financial services: D 4/4 | A 0 or 5/0 or 5 | M 0 or 2/0 or 2 | L 0/0 or 1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 수정",
+    "detail_change_typesKo": "신규 드롭다운 선택지",
+    "change_summaryKo": "Option \"No exposure to fossil fuel in 포트폴리오\" has been added",
+    "scoring_change_summaryKo": "CC Financial services Awareness, Management & Leadership • Scoring added for selection of ‘No exposure to fossil fuel in 포트폴리오' 선택 in 열 ‘Reporting values 의 financing 및/또는 insurance of fossil fuel assets'. Scoring updated to reflect changes in the questionnaire to 열 ‘Reporting values 의 financing 및/또는 insurance of fossil fuel assets'.",
+    "daml_summaryKo": "Financial services: D 4/4 | A 0 또는 5/0 또는 5 | M 0 또는 2/0 또는 2 | L 0/0 또는 1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "the values of your financing 및 insurance of fossil fuel assets in the 보고연도.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "4/4",
+    "A": "0 or 5/0 or 5",
+    "M": "0 or 2/0 or 2",
+    "L": "0/0 or 1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 금융 서비스",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "금융 서비스",
+  "simpleHelpKo": "The majority of financial institutions' emissions are driven by the activities they finance in the wider economy, also known as ‘금융배출량'. The exposure of financial institutions to 기후 관련 리스크 및 기회 are determined by their 포트폴리오s via lending, investment 및 insurance underwriting activities. Therefore, 데이터 사용자 wish to understand the concentrations of fossil fuel assets in financial institutions' 포트폴리오s.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

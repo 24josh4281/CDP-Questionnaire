@@ -1,0 +1,339 @@
+{
+  "code": "7.42",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Provide details on the commodities relevant to the mining production activities of your organization.",
+  "questionKo": "details on the commodities relevant to the mining production activities of 귀사.을/를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Metals & mining",
+  "simpleHelp": "Unlike most other high-impact sectors identified by CDP, the metals and mining sector is heterogeneous and highly diverse in structure, and can even be characterized as a group of disparate subsectors. It is, therefore, problematic to consider sector-wide intensities. However, it is useful to identify metals and mining commodities individually and shed light on the presence and impact of them within and between organizations.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.42.1",
+      "text": "Output product",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Bauxite",
+        "Copper",
+        "Gold",
+        "Platinum group metals",
+        "Silver",
+        "Iron ore",
+        "Nickel",
+        "Zinc",
+        "Lead",
+        "Diamonds",
+        "Other non-ferrous metal mining (Please specify)",
+        "Other mining (Please specify)"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Output product",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Bauxite",
+        "Copper",
+        "Gold",
+        "Platinum group metals",
+        "Silver",
+        "Iron ore",
+        "Nickel",
+        "Zinc",
+        "Lead",
+        "Diamonds",
+        "Other non-ferrous metal mining (직접 입력)",
+        "Other mining (직접 입력)"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.42.2",
+      "text": "Capacity, metric tons",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Capacity, metric tons",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.42.3",
+      "text": "Production, metric tons",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Production, metric tons",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.42.4",
+      "text": "Production, copper-equivalent units (metric tons)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Production, copper-equivalent units (metric tons)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.42.5",
+      "text": "Scope 1 emissions",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Scope 1 배출량",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.42.6",
+      "text": "Scope 2 emissions",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Scope 2 배출량",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.42.7",
+      "text": "Scope 2 emissions approach",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Location-based",
+        "Market-based"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Scope 2 배출량 approach",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "지역기반",
+        "시장기반"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.42.8",
+      "text": "Pricing methodology for copper-equivalent figure",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Pricing 방법론 for copper-equivalent figure",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.42.9",
+      "text": "Comment",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Comment",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select one of the options under the \"Mining\" sub-heading in 1.17.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select one 의 options under the \"Mining\" sub-heading in 1.17."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nComplete the table for each mining output product selected in column 1. \nYour production and capacity figures should be for the reporting year only (as defined by your answer to 1.4). \nIf you did not have any capacity or production in the reporting year, then enter zero (0) in the relevant field. \nNegative numbers are not allowed. \nYou should apply the same logic to your boundary definition as provided in question 7.19. \nOutput product (column 1) \nSelect the product(s) relevant to your organization's mining production activities. Select as many as applicable. You may also wish to select those with no production in the reporting year to confirm zero activity. \nIf you select \"Other non-ferrous metal mining (Please specify)\" or \"Other mining (Please specify)\", provide a label for the output product. \nCapacity, metric tons (column 2) \nEnter the production capacity in metric tons for the mined product selected in column 1. \nProduction, metric tons (column 3) \nEnter the production in metric tons resulting from mining activities, for the product selected in column 1. \nProduction, copper-equivalent units, metric tons (column 4) \nThis column appears if any option other than \"Other mining (Please specify)\" is selected in column 1.\nEnter the production in copper-equivalent units resulting from mining activities, for the product selected in column 1. \nShare the methodology used for this equivalent in column 7. \nThis column is not applicable when \"Other mining (Please specify)\" is selected in column 1 - \"Output product\" \nScope 1 emissions (column 5) \nEnter the Scope 1 emissions associated with the mined product selected in column 1. \nScope 2 emissions (column 6) \nEnter the Scope 2 emissions associated with the mined product selected in column 1. \nScope 2 emissions approach (column 7) \nThis column only appears if you select \"We are reporting a Scope 2, market-based figure\" in column \"Scope 2, market-based\" of 7.3. \nPricing methodology for copper-equivalent figure (column 8) \nThis column appears if any option other than \"Other mining (Please specify)\" is selected in column 1.\nDisclose the formula(e) and methodology used to calculate the copper-equivalent unit reported in column 4. \nComment (column 9) (optional) \nUse this column to provide any additional information relevant to the mined product selected in column 1.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Complete the table for each mining output product 선택 in 열 1. Your production 및 capacity figures 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). 만약 you did not have 하나 이상 capacity 또는 production in the 보고연도, then enter zero (0) in the relevant field. Negative numbers are not allowed. You 해야 합니다 apply the same logic to your boundary definition as 입력 in 문항 7.19. Output product (열 1) Select the product(s) relevant to 귀사의 mining production activities. Select as many as 해당되는 경우. You may also wish to select those with no production in the 보고연도 to confirm zero activity. 만약 you select \"Other non-ferrous metal mining (직접 입력)\" 또는 \"Other mining (직접 입력)\", provide a label 에 대한 output product. Capacity, metric tons (열 2) Enter the production capacity in metric tons 에 대한 mined product 선택 in 열 1. Production, metric tons (열 3) Enter the production in metric tons resulting from mining activities, 에 대한 product 선택 in 열 1. Production, copper-equivalent units, metric tons (열 4) This 열 appears 만약 하나 이상 option other than \"Other mining (직접 입력)\" is 선택 in 열 1. Enter the production in copper-equivalent units resulting from mining activities, 에 대한 product 선택 in 열 1. Share the 방법론 used for this equivalent in 열 7. This 열 is not 해당되는 경우 경우 \"Other mining (직접 입력)\" is 선택 in 열 1 - \"Output product\" Scope 1 배출량 (열 5) Enter the Scope 1 배출량 associated with the mined product 선택 in 열 1. Scope 2 배출량 (열 6) Enter the Scope 2 배출량 associated with the mined product 선택 in 열 1. Scope 2 배출량 approach (열 7) This 열 only appears 만약 you select \"We are reporting a Scope 2, 시장기반 figure\" in 열 \"Scope 2, 시장기반\" of 7.3. Pricing 방법론 for copper-equivalent figure (열 8) This 열 appears 만약 하나 이상 option other than \"Other mining (직접 입력)\" is 선택 in 열 1. Disclose the formula(e) 및 방법론 used to calculate the copper-equivalent unit 보고 in 열 4. Comment (열 9) (optional) Use this 열 to provide 하나 이상 additional information relevant to the mined product 선택 in 열 1."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Mining production activities : refer to the extraction of ores and do not include the refinement of these commodities.\nPlatinum group metals : Platinum group metals are six transitional metals located in the d-block of the period table (groups 8, 9 and 10, within periods 5 and 6), that are chemically, physically, and anatomically similar. These metals are ruthenium, rhodium, palladium, osmium, iridium, and platinum.\nCopper-equivalent units : Metal equivalent calculations are used to compare similar deposits with slightly different metal ratios. Metal-equivalent units allow organizations to assess how much their deposits are worth in terms of just one of the metals resources they have. Copper-equivalent units enable investors to understand how much combined metal deposits are worth in terms of copper.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Mining production activities : refer to the extraction of ores 및 do not include the refinement 의se commodities. Platinum group metals : Platinum group metals are six transitional metals located in the d-block 의 period table (groups 8, 9 및 10, within periods 5 및 6), that are chemically, physically, 및 anatomically similar. These metals are ruthenium, rhodium, palladium, osmium, iridium, 및 platinum. Copper-equivalent units : Metal equivalent calculations are used to compare similar deposits with slightly different metal ratios. Metal-equivalent units allow organizations to assess how much their deposits are worth in terms of just one 의 metals resources they have. Copper-equivalent units enable investors to understand how much combined metal deposits are worth in terms of copper."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "8/8",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 8/8 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Provide details on the commodities relevant to the mining production activities of your organization.",
+    "q2025": "Q7.42",
+    "q2025_text": "Provide details on the commodities relevant to the mining production activities of your organization.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Metals & mining: D 8/8 | A 1/1 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Metals & mining: D 8/8 | A 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "details on the commodities relevant to the mining production activities of 귀사.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "8/8",
+    "A": "1/1",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "금속 및 광업",
+  "simpleHelpKo": "Unlike most other high-impact sectors identified by CDP, the metals 및 mining sector is heterogeneous 및 highly diverse in structure, 및 can even be characterized as a group of disparate subsectors. It is, therefore, problematic to consider sector-wide intensities. However, it is useful to identify metals 및 mining commodities individually 및 shed light on the presence 및 impact 의m within 및 between organizations.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

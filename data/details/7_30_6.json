@@ -1,0 +1,1097 @@
+{
+  "code": "7.30.6",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Select the applications of your organization's consumption of fuel.",
+  "questionKo": "귀사에 해당하는 연료 소비 유형을 선택하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "Scope 1 greenhouse gas emissions are directly associated with the consumption of fuel. This question provides data users with more transparency regarding the application of an organization's fuel consumption for the generation of secondary energy carriers.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Consumption of fuel for the generation of electricity",
+      "titleKo": "Consumption of fuel 에 대한 generation of electricity"
+    },
+    {
+      "order": 2,
+      "title": "Consumption of fuel for the generation of heat",
+      "titleKo": "Consumption of fuel 에 대한 generation of heat"
+    },
+    {
+      "order": 3,
+      "title": "Consumption of fuel for the generation of steam",
+      "titleKo": "Consumption of fuel 에 대한 generation of steam"
+    },
+    {
+      "order": 4,
+      "title": "Consumption of fuel for the generation of cooling",
+      "titleKo": "Consumption of fuel 에 대한 generation of cooling"
+    },
+    {
+      "order": 5,
+      "title": "Consumption of fuel for co-generation or tri-generation",
+      "titleKo": "Consumption of fuel for co-generation 또는 tri-generation"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.30.6.1",
+      "text": "Indicate whether your organization undertakes this fuel application",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "연료 소비 유형",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "아니요"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Consumption of fuel (excluding feedstocks)\" in response to 7.30. Each option that you select in this table will appear as an additional column in 7.30.7.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Consumption of fuel (제외 feedstocks)\" in response to 7.30. Each option that you select in this table will appear as an additional 열 in 7.30.7."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nInformation you provide should be for the reporting year only (as defined by your answer to 1.4).\nThis question drives the columns presented in question 7.30.7.\nOrganizations who consume fuel for any applications not listed such as transportation, industrial process plant and equipment etc. should select ‘Consumption of fuel for the generation of heat'.\nIt does not matter whether your organization consumes or exports the electricity, steam, or cooling generated; if your organization generates any electricity, steam, or cooling from fuel combustion (thermal generation), then you should select ‘Yes' in the relevant field.\nCo-generation is also known as combined heat and power (CHP). Tri-generation is also known as combined cooling, heat and power (CCHP). Combined cooling and power (CCP) is another system in which energy carriers are generated together. If your organization generates from any single configuration of plant in which electricity, steam, heat, or cooling are generated as simultaneous useful outputs, then you should select ‘Yes' for the consumption of fuel for co-generation or tri-generation.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Information you provide 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). This 문항 drives the 열 presented in 문항 7.30.7. Organizations who consume fuel for 하나 이상 applications not listed such as transportation, industrial 프로세스 plant 및 equipment etc. 해야 합니다 select ‘Consumption of fuel 에 대한 generation of heat'. It does not matter whether 귀사 consumes 또는 exports the electricity, steam, 또는 cooling generated; 만약 귀사 generates 하나 이상 electricity, steam, 또는 cooling from fuel combustion (thermal generation), then you 해야 합니다 select ‘예' in the relevant field. Co-generation is also known as combined heat 및 power (CHP). Tri-generation is also known as combined cooling, heat 및 power (CCHP). Combined cooling 및 power (CCP) is another system in which energy carriers are generated together. 만약 귀사 generates from 하나 이상 single configuration of plant in which electricity, steam, heat, 또는 cooling are generated as simultaneous useful outputs, then you 해야 합니다 select ‘예' 에 대한 consumption of fuel for co-generation 또는 tri-generation."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "This question is not scored, as it is not displayed for this sector.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "This question is not scored, as it is not displayed for this sector.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "This question is not scored, as it is not displayed for this sector.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "This question is not scored, as it is not displayed for this sector.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "귀사 에서 수행한 연료 소비 관련 활동을 선택하십시오 . ` M7. Environmental Performance - Climate Change 활동 보고 연도에 귀 조직이 이 에너지 관련 활동을 수행했는지 여부를 표시하십시오 . 전기 발생을 위한 연료 소비 예 아니오 열 발생을 위한 연료 소비 스팀 발생을 위한 연료 소비 냉각 발생을 위한 연료 소비 열병합 발전 혹은 삼중 발전 발생을 위한 연료 소비",
+    "q2025": "Q7.30.6",
+    "q2025_text": "Select the applications of your organization's consumption of fuel.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "General: D 5/5 | A 0/0 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "일반: D 5/5 | A 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "the applications of 귀사의 consumption of fuel.을/를 선택하십시오."
+  },
+  "defaultPoints": {
+    "D": "5/5",
+    "A": "0/0",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "Scope 1 온실가스 배출량 are directly associated with the consumption of fuel. This 문항 provides 데이터 사용자 with more transparency regarding the application of an 조직의 연료 소비량 에 대한 generation of secondary energy carriers.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

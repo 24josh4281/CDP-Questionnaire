@@ -1,0 +1,284 @@
+{
+  "code": "7.71.1",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Provide details of how your organization assesses the life cycle emissions of its products or services.",
+  "questionKo": "how 귀사 assesses the life cycle emissions of its products 또는 services.에 대한 세부 정보를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Capital goods",
+  "simpleHelp": "To acquire an overall understanding of the total carbon impact of a product or service, it is necessary to assess emissions from the production process and use phase, but also emissions associated with the acquisition and disposal of the materials that make up the product. This question provides data users with information on your organization's approach to assessing product life cycle emissions, including the life cycle stages covered and the methodologies used.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Response row",
+      "titleKo": "응답 행"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.71.1.1",
+      "text": "Products/services assessed",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "All existing products/services",
+        "All new products/services under development",
+        "All existing and new products/services",
+        "Representative selection of products/services",
+        "On a case-by-case basis",
+        "Products/services meeting certain criteria (please specify)"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Products/services assessed",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "All existing products/services",
+        "All new products/services under development",
+        "All existing 및 new products/services",
+        "Representative selection of products/services",
+        "On a case-by-case basis",
+        "Products/services meeting certain criteria (직접 입력)"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.71.1.2",
+      "text": "Life cycle stage(s) most commonly covered",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Cradle-to-gate",
+        "Cradle-to-grave",
+        "Cradle-to-cradle/closed loop production",
+        "Cradle-to-gate + end-of-life stage",
+        "Gate-to-gate",
+        "Use stage",
+        "End-of-life stage",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Life cycle stage(s) most commonly covered",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Cradle-to-gate",
+        "Cradle-to-grave",
+        "Cradle-to-cradle/closed loop production",
+        "Cradle-to-gate + end-of-life stage",
+        "Gate-to-gate",
+        "Use stage",
+        "End-of-life stage",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.71.1.3",
+      "text": "Methodologies/standards/tools applied",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Bilan Carbone",
+        "EU Product Environmental Footprint (EUPEF)",
+        "French Product Environmental Footprint",
+        "GHG Protocol Product Accounting & Reporting Standard",
+        "ISO 14025",
+        "ISO 14040 & 14044",
+        "ISO 14067",
+        "PAS 2050",
+        "Other, please specify"
+      ],
+      "simple_help": "Select all that apply:",
+      "popup_help": "",
+      "textKo": "Methodologies/기준/tools applied",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Bilan Carbone",
+        "EU Product Environmental Footprint (EUPEF)",
+        "French Product Environmental Footprint",
+        "GHG Protocol Product Accounting & Reporting Standard",
+        "ISO 14025",
+        "ISO 14040 & 14044",
+        "ISO 14067",
+        "PAS 2050",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "all that apply:을/를 선택하십시오.",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.71.1.4",
+      "text": "Comment",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Comment",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in response to 7.71.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 7.71."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nIt is acknowledged that your organization's approach to assessing the life cycle emissions of products or services may vary - please select the options that best describe your most common approach. \nProducts/services assessed (column 1) \nSelect the option that best describes your organization's approach to selecting products or services for assessment. If you wish to provide further details, you may do so in the \"Comment\" column.\nLife cycle stage(s) most commonly covered (column 2) \nSelect the life cycle stage(s) that you most commonly cover in your assessments. Refer to the explanation of terms below for definitions. \nComment (column 4) (optional) \nYou may use this column to provide further details of your organization's approach to assessing life cycle emissions.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 It is acknowledged that 귀사의 approach to assessing the life cycle emissions of products 또는 services may vary - please select the options that best 설명 your most common approach. Products/services assessed (열 1) Select the option that best 설명s 귀사의 approach to selecting products 또는 services for assessment. 만약 you wish to provide further details, you may do so in the \"Comment\" 열. Life cycle stage(s) most commonly covered (열 2) Select the life cycle stage(s) that you most commonly cover in your assessments. Refer to the explanation of terms below for definitions. Comment (열 4) (optional) You may use this 열 to provide further details of 귀사의 approach to assessing life cycle emissions."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Gate-to-gate : The emissions and removals attributed to a studied product while it is under the ownership or control of the reporting company.\nCradle-to-gate : A partial life cycle assessment from material acquisition (cradle) through to when the product leaves the reporting company's gate (i.e. immediately following the product's production). Includes the material acquisition & pre-processing stage and the production stage.\nCradle-to-grave : A full life cycle assessment of emissions and removals attributed to a studied product from material acquisition through to the material or product end-of-life (grave). Includes the material acquisition & pre-processing stage, production stage, use stage and end-of-life stage.\nCradle-to-cradle/closed loop production : A full life cycle assessment from material acquisition though to end-of-life material or product recycling (i.e. cradle-to-grave + recycling). \nLife cycle stages (in line with the GHG Protocol Product Life Cycle Accounting and Reporting Standard ):\n- \nMaterial acquisition & pre-processing stage : A life cycle stage that begins when resources are extracted from nature and ends when the product components enter the gate of the studied product's production facility.\n-\nProduction stage : A life cycle stage that begins when the product components enter the production site for the studied product and ends when the finished studied product leaves the production gate.\n- \nUse stage : A life cycle stage that begins when the consumer takes possession of the product and ends when the used product is discarded.\n- \nEnd-of-life stage: A life cycle stage that begins when the used product is discarded by the consumer and ends when the product is returned to nature (e.g. incinerated) or allocated to another product's life cycle.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Gate-to-gate : The emissions 및 removals attributed to a studied product while it is under the ownership 또는 control 의 reporting company. Cradle-to-gate : A partial life cycle assessment from material acquisition (cradle) through to 경우 the product leaves the reporting company's gate (i.e. immediately following the product's production). Includes the material acquisition & pre-프로세스ing stage 및 the production stage. Cradle-to-grave : A full life cycle assessment of emissions 및 removals attributed to a studied product from material acquisition through to the material 또는 product end-of-life (grave). Includes the material acquisition & pre-프로세스ing stage, production stage, use stage 및 end-of-life stage. Cradle-to-cradle/closed loop production : A full life cycle assessment from material acquisition though to end-of-life material 또는 product recycling (i.e. cradle-to-grave + recycling). Life cycle stages (in line with the GHG Protocol Product Life Cycle Accounting 및 Reporting Standard ): - Material acquisition & pre-프로세스ing stage : A life cycle stage that begins 경우 resources are extracted from nature 및 ends 경우 the product components enter the gate 의 studied product's production facility. - Production stage : A life cycle stage that begins 경우 the product components enter the production site 에 대한 studied product 및 ends 경우 the finished studied product leaves the production gate. - Use stage : A life cycle stage that begins 경우 the consumer takes possession 의 product 및 ends 경우 the used product is discarded. - End-of-life stage: A life cycle stage that begins 경우 the used product is discarded by the consumer 및 ends 경우 the product is returned to nature (e.g. incinerated) 또는 allocated to another product's life cycle."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nAll of the following met - 1 point\nAny of the following selected in column 'Products/services assessed':\n- 'All existing products/services'\n- 'All new products/services under development'\n- 'All existing and new products/services'\n- 'Representative selection of products/services'\nAND\nAny of the following selected in column 'Life cycle stage(s) most commonly covered'\n- 'Cradle-to-grave'\n- 'Cradle-to-cradle/closed loop production'\n- 'Cradle-to-gate + end-of-life stage'\n- 'Use stage'\nAND\nAny option excluding 'Other, please specify' selected in column 'Methodologies/standards/tools applied'.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. All 의 following met - 1 점 하나 이상 의 following 선택 in 열 'Products/services assessed': - 'All existing products/services' - 'All new products/services under development' - 'All existing 및 new products/services' - 'Representative selection of products/services' 그리고 하나 이상 의 following 선택 in 열 'Life cycle stage(s) most commonly covered' - 'Cradle-to-grave' - 'Cradle-to-cradle/closed loop production' - 'Cradle-to-gate + end-of-life stage' - 'Use stage' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Methodologies/기준/tools applied'. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'All existing and new products/services' selected in column 'Products/services assessed' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'All existing 및 new products/services' 선택 in 열 'Products/services assessed' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Provide details of how your organization assesses the life cycle emissions of its products or services.",
+    "q2025": "Q7.71.1",
+    "q2025_text": "Provide details of how your organization assesses the life cycle emissions of its products or services.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Capital goods: D 3/3 | A 1/1 | M 1/1 | L 1/1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Capital goods: D 3/3 | A 1/1 | M 1/1 | L 1/1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "how 귀사 assesses the life cycle emissions of its products 또는 services.에 대한 세부 정보를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "1/1",
+    "M": "1/1",
+    "L": "1/1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "자본재",
+  "simpleHelpKo": "To acquire an overall understanding 의 total carbon impact of a product 또는 service, it is necessary to assess emissions from the production 프로세스 및 use phase, but also emissions associated with the acquisition 및 disposal 의 materials that make up the product. This 문항 provides 데이터 사용자 with information on 귀사의 approach to assessing product life cycle emissions, 포함 the life cycle stages covered 및 the methodologies used.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

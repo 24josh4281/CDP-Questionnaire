@@ -1,0 +1,1187 @@
+{
+  "code": "5.10",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Does your organization use an internal price on environmental externalities?",
+  "questionKo": "귀사는 환경적인 외부효과에 대응하기 위해 내부가격을 사용하고 있습니까 ?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Climate Change",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "Internal pricing of environmental externalities (i.e., a carbon price or water price) has emerged as a multifaceted tool that supports organizations in assessing environmental risks and opportunities. Data users are keen to understand how organizations attribute a monetary value to these risks and translate them into a uniform metric. Applying an internal price to these externalities can help an organization to understand opportunities for efficiencies and prepare for potential future price changes.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Carbon",
+      "titleKo": "Carbon"
+    },
+    {
+      "order": 2,
+      "title": "Water",
+      "titleKo": "수자원"
+    },
+    {
+      "order": 3,
+      "title": "Other",
+      "titleKo": "기타"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.10.1",
+      "text": "Use of internal pricing for this environmental externality",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No, but we plan to in the next two years",
+        "No, and we do not plan to in the next two years"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Use of internal pricing for this environmental externality",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "No, but we plan to in the next two years",
+        "No, 및 we do not plan to in the next two years"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.10.2",
+      "text": "Primary reason for not pricing this environmental externality",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Lack of internal resources, capabilities, or expertise (e.g., due to organization size)",
+        "No standardized procedure",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant or not relevant",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "주된 이유 for not pricing this environmental externality",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Lack of internal resources, capabilities, 또는 expertise (e.g., due to organization size)",
+        "No standardized 절차",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant 또는 not relevant",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.10.3",
+      "text": "Explain why your organization does not price this environmental externality",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "그 이유를 설명 귀사 does not price this environmental externality",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.10.4",
+      "text": "Environmental externalities priced",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Forests",
+        "Plastics",
+        "Biodiversity",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Environmental externalities priced",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "산림",
+        "플라스틱",
+        "생물다양성",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.10.5",
+      "text": "Further details of environmental externalities priced",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Further details of environmental externalities priced",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified question",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified 문항"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nNote that the tariff or rate paid for water should not be regarded as an internal water price. Only select water if factors beyond the current market price are considered when determining its internal price. The market price of water is the current price at which water can be bought or sold. This price is typically set by external suppliers but may include other direct costs of supply. The market price may be influenced by government policies such as subsidies, taxation, or regulation. Examples of factors beyond market price that you may consider when setting your internal water price are water conservation, cost of achieving environmental targets, social effects of environmental impacts, or strategic considerations.\nExplain why your organization does not price this environmental externality (column 3) \nThis column only appears for the rows \"Carbon\" and \"Water\", and if any \"No…\" option is selected in column 1 \"Use of internal pricing for this environmental externality\".\nIf you select \"Judged to be unimportant or not relevant\", explain the reason why your organization does not use internal pricing of environmental externalities.\nIf relevant, detail any plans to address this in the future.\nEnvironmental externalities priced (column 4) \nThis column only appears for the row \"Other\" and if \"Yes\" is selected in column 1 \"Use of internal pricing for this environmental externality\".\nSelect the option that closest reflects the externality priced. For example, if you have an internal price relating to deforestation, select forests.\nFurther details of environmental externalities priced (column 5) \nThis column only appears for the row \"Other\" and if \"Yes\" is selected in column 1 \"Use of internal pricing for this environmental externality\".\nProvide details on the internal price of other environmental externalities, including:\nthe type of externality priced (e.g., biodiversity, deforestation, soil degradation, plastic pollution, air pollution, chemical use, invasive species, waste etc.);\nthe methodologies used to calculate the price;\nthe price used; and\nthe unit upon which the price is based.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Note that the tariff 또는 rate paid for 수자원 해야 합니다 not be regarded as an internal 수자원 price. Only select 수자원 만약 factors beyond the current market price are considered 경우 determining its internal price. The market price of 수자원 is the current price at which 수자원 can be bought 또는 sold. This price is typically set by external suppliers but may include 기타 direct costs of supply. The market price may be influenced by government policies such as subsidies, taxation, 또는 regulation. Examples of factors beyond market price that you may consider 경우 setting your internal 수자원 price are 수자원 conservation, cost of achieving environmental 목표, social effects of environmental impacts, 또는 strategic considerations. 그 이유를 설명 귀사 does not price this environmental externality (열 3) This 열 only appears 에 대한 행 \"Carbon\" 및 \"수자원\", 및 만약 하나 이상 \"No…\" option is 선택 in 열 1 \"Use of internal pricing for this environmental externality\". 만약 you select \"Judged to be unimportant 또는 not relevant\", explain the reason why 귀사 does not use internal pricing of environmental externalities. 만약 relevant, detail 하나 이상 plans to address this in the future. Environmental externalities priced (열 4) This 열 only appears 에 대한 행 \"기타\" 및 만약 \"예\" is 선택 in 열 1 \"Use of internal pricing for this environmental externality\". Select the option that closest reflects the externality priced. For example, 만약 you have an internal price relating to deforestation, select 산림. Further details of environmental externalities priced (열 5) This 열 only appears 에 대한 행 \"기타\" 및 만약 \"예\" is 선택 in 열 1 \"Use of internal pricing for this environmental externality\". 세부 정보를 입력 on the internal price of 기타 environmental externalities, 포함: the type of externality priced (e.g., 생물다양성, deforestation, soil degradation, plastic pollution, air pollution, chemical use, invasive species, waste etc.); the methodologies used to calculate the price; the price used; 및 the unit upon which the price is based."
+    },
+    {
+      "type": "Ambition",
+      "text": "The organization applies internal environmental pricing schemes to incentivize the consideration of environmental issues in risk assessment and decision making, and in the implementation of its environmental policies and targets.",
+      "typeKo": "Ambition",
+      "textKo": "The organization applies internal environmental pricing schemes to incentivize the consideration of environmental issues in risk assessment 및 decision making, 및 in the implementation of its environmental policies 및 목표."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Environmental externalities: refers to the uncompensated environmental effects of production and consumption, not reflected in market prices. As a consequence of negative externalities, private costs of production tend to be lower than its \"social\" cost. By introducing a price on environmental externalities, organizations aim to internalize the true \"social\" cost on production and consumption. For example, an organization may incorporate internal carbon or water pricing mechanisms into financial plans and budgets, ensuring accountability for carbon emissions and water consumption. \nInternal carbon/water price: a monetary value assigned within an organization's financial calculations, going beyond direct costs like utility bills, to account for both internal and external costs and benefits associated with carbon emissions or water use. This price guides strategic decisions and investments towards conservation and efficiency initiatives.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Environmental externalities: refers to the uncompensated environmental effects of production 및 consumption, not reflected in market prices. As a consequence of negative externalities, private costs of production tend to be lower than its \"social\" cost. By introducing a price on environmental externalities, organizations aim to internalize the true \"social\" cost on production 및 consumption. For example, an organization may incorporate internal carbon 또는 수자원 pricing mechanisms into financial plans 및 budgets, ensuring accountability for carbon emissions 및 수자원 consumption. Internal carbon/수자원 price: a monetary value assigned within an 조직의 financial calculations, going beyond direct costs like utility bills, to account for both internal 및 external costs 및 benefits associated with carbon emissions 또는 수자원 use. This price guides strategic decisions 및 investments towards conservation 및 efficiency 이니셔티브."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0, 1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nIn row ‘Carbon'\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality' NOT completed - 0/8 points\nA maximum of 0/8 points is available for this route",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) In 행 ‘Carbon' 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality' NOT 완성 - 0/8 점 A 최고 of 0/8 점 is available for this 경로"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nIn row ‘Carbon'\nROUTE A)\n'Yes' selected in column 'Use of internal pricing for this environmental externalities' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 1/2 points\nA maximum of 1/2 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to in the next two years' selected in column 'Use of internal pricing for this environmental externality ' - 0/2 points\nA maximum of 0/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. In 행 ‘Carbon' 경로 A) '예' 선택 in 열 'Use of internal pricing for this environmental externalities' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Use of internal pricing for this environmental externality ' - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "In row ‘Carbon'\nROUTE A)\nColumn 'Use of internal pricing for this environmental externality' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Use of internal pricing for this environmental externality ' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "In 행 ‘Carbon' 경로 A) 열 'Use of internal pricing for this environmental externality' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Use of internal pricing for this environmental externality ' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Does your organization use an internal price on environmental externalities?",
+    "q2025": "Q5.10",
+    "q2025_text": "Does your organization use an internal price on environmental externalities?",
+    "change_status": "Modified question",
+    "detail_change_types": "Change of question type (e.g. from fixed row to add row), Modified column header, Modified column header, Change to conditional logic",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "The question now has a separate row for each environmental externality (i.e., there are three rows, ‘carbon', ‘water', and ‘other', where previously there was one row and the externality was selected in column \"Use of internal pricing of environmental externalities\").\nUpdated column text to \"Use of internal pricing for this environmental externality\" from \"Use of internal pricing of environmental externalities\".\nUpdated column text to \"Primary reason for not pricing this environmental externality\" from \"Primary reason for not pricing environmental externalities\".\nUpdated column text to \"Explain why your organization does not price this environmental externality\" from \"Explain why your organization does not price environmental externalities\".\nUpdated column text to \"Environmental externalities priced\" from \"Other environmental externalities priced\". Conditional logic updated - column is presented only to the row \"Other\".\nUpdated column text to \"Further details of environmental externalities priced\" from \"Further details of other environmental externalities priced\". Conditional logic updated - column is presented only to the row \"Other\".",
+    "scoring_change_summary": "CC/W All sectors Disclosure, Awareness, Management & Leadership • Scoring at all levels has been updated so that Climate (Carbon) and Water are scored separately. Scoring updated to account for changes in the questionnaire.",
+    "daml_summary": "General: D 4/4 | A 0, 1 or 2/2 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 수정",
+    "detail_change_typesKo": "문항 유형 변경(예: 고정 행에서 행 추가 방식으로 변경), 열 제목 수정, 열 제목 수정, 조건부 표시 로직 변경",
+    "change_summaryKo": "The 문항 now has a separate 행 for each environmental externality (i.e., there are three 행, ‘carbon', ‘수자원', 및 ‘기타', 여기서 previously there was one 행 및 the externality was 선택 in 열 \"Use of internal pricing of environmental externalities\"). Updated 열 text to \"Use of internal pricing for this environmental externality\" from \"Use of internal pricing of environmental externalities\". Updated 열 text to \"주된 이유 for not pricing this environmental externality\" from \"주된 이유 for not pricing environmental externalities\". Updated 열 text to \"그 이유를 설명 귀사 does not price this environmental externality\" from \"그 이유를 설명 귀사 does not price environmental externalities\". Updated 열 text to \"Environmental externalities priced\" from \"기타 environmental externalities priced\". Conditional logic updated - 열 is presented only to the 행 \"기타\". Updated 열 text to \"Further details of environmental externalities priced\" from \"Further details of 기타 environmental externalities priced\". Conditional logic updated - 열 is presented only to the 행 \"기타\".",
+    "scoring_change_summaryKo": "CC/W All sectors Disclosure, Awareness, Management & Leadership • Scoring at all levels has been updated so that Climate (Carbon) 및 수자원 are scored separately. Scoring updated to account for changes in the questionnaire.",
+    "daml_summaryKo": "일반: D 4/4 | A 0, 1 또는 2/2 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "귀사는 use an internal price on environmental externalities입니까?"
+  },
+  "defaultPoints": {
+    "D": "4/4",
+    "A": "0, 1 or 2/2",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, Climate Change",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "Internal pricing of environmental externalities (i.e., a carbon price 또는 water price) has emerged as a multifaceted tool that supports organizations in assessing environmental 리스크 및 기회. 데이터 사용자 are keen to understand how organizations attribute a monetary value to these risks 및 translate them into a uniform metric. Applying an internal price to these externalities can help an organization to understand opportunities for efficiencies 및 prepare for potential future price changes.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

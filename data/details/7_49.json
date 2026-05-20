@@ -1,0 +1,259 @@
+{
+  "code": "7.49",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "State your organization's emissions and energy intensities by steel production process route.",
+  "questionKo": "귀사의 emissions 및 energy intensities by steel production 프로세스 route.을/를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Steel",
+  "simpleHelp": "For high impact homogenous sectors, it is common to express emissions per unit of physical output. In the case of steel, energy intensity is also an important metric measured by the industry. Steel is produced via different routes, each of which plays a key role in the sustainability of steel supply to the economy. However, because typical intensities vary between routes, disclosing a single company-wide intensity could be misleading, because it masks the relative contribution from each route. Data users are therefore interested in average intensities per process route. The aim is to account for emissions concentration across sector and organization by acknowledging different process routes within the sector.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.49.1",
+      "text": "Process route",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Blast furnace- basic oxygen furnace",
+        "Scrap-electric arc furnace",
+        "Direct reduced iron- electric arc furnace",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "프로세스 route",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Blast furnace- basic oxygen furnace",
+        "Scrap-electric arc furnace",
+        "Direct reduced iron- electric arc furnace",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.49.2",
+      "text": "Emissions intensity figure, metric tons CO2e per metric ton of crude steel production",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "배출집약도 figure, 미터톤 CO2e per metric ton of crude steel production",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.49.3",
+      "text": "Energy intensity figure, GJ (LHV) per metric ton of crude steel production",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Energy intensity figure, GJ (LHV) per metric ton of crude steel production",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.49.4",
+      "text": "Methodology applied",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "GHG Protocol",
+        "Worldsteel Association",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "방법론 applied",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "GHG Protocol",
+        "Worldsteel Association",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.49.5",
+      "text": "Comment",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Comment",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nComplete this table for all process routes occurring inside your organizational boundary.\nAdd rows for routes that are not listed.\nData and information that you provide should be for the reporting year only (as defined by your answer to 1.4).\nEmissions from finishing should not be included for process routes reported in this question.\nIntensity for each process route is the aggregate of emissions or energy divided by the aggregate of crude steel produced. This equates to the weighted average intensity per process route inside the organizational boundary.\nNo calculation of hypothetical intensities for benchmarking purposes should be disclosed here. However, depending on the methodology used, credit may be awarded for energy or carbon leaving the organizational boundary.\nEmissions intensity figure, metric tons CO2e per metric ton of crude steel production (column 2) \nEnter the emissions intensity by steel production route in metric tons of CO­2-equivalent per metric ton of crude steel produced.\nEnergy intensity figure, GJ (LHV) per metric ton of crude steel production (column 3) \nEnter the energy intensity by steel production route in metric GJ (LHV) per metric ton of crude steel produced.\nHigher heating value (HHV) is also known as gross calorific value (GCV), and lower heating value (LHV) is also known as net calorific value (NCV). Typically, LHV/HHV ratio is 0.95 for solid and liquid hydrocarbon fuels, such as coal and oil, and 0.9 for gaseous hydrocarbon fuels, such as natural gas.\nMethodology applied (column 4) \nYou should apply the same methodology for energy and emissions intensity.\nSelect from the drop-down the methodology used to evaluate the emissions (metric tons of CO2-equivalent) and energy intensity (GJ(LHV)) of steel production per metric ton of crude steel produced.\nIf the methodology applied is not in the dropdown, then please specify.\nIf you choose the GHG Protocol, then you should calculate your emissions intensity using the equation below. Emissions relating to the production of purchased fuels, feedstocks, and raw materials should not be included for this methodology as it is classified under Scope 3\nCO2e intensity = (Scope 1 + Scope 2) / (Crude steel produced)\nIf you choose the GHG Protocol, then you should calculate net energy intensity. Your calculation boundary should include consumption of fuel and fuel feedstocks (as distinct from C8.2 questions which excludes fuel feedstocks). For example, this would include consumption of coal and coke at coke ovens and blast furnaces while coke oven gas and blast furnace gas consumption are balanced by their production. Consumption of purchased or acquired electricity, steam, heat, and/or cooling should also be included. Energy required for the production of purchased fuels, feedstocks, and raw materials should not be included for this methodology as it is classified under Scope 3. The general equation below describes the calculation of net energy intensity.\nNet Energy intensity = (Energy in - Energy out) / (Crude steel produced)\nCDP encourages the use of the Worldsteel methodology. This is because the Worldsteel methodology includes wider and indirect activity considerations, which improves consistency. General guidance may be referred to in this Worldsteel guide .\nFurther guidance on emissions accounting in the steel sector is provided volume 3, chapter 4, of IPCC Guidelines for National GHG inventories . Drawing from these guidelines, the GHG Protocol provide further guidance and a tool to assist in the calculation of steel sector emissions.\nComment (column 5) (optional) \nYou may provide information about the methodology and boundary used in the calculation of intensities.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Complete this table for all 프로세스 경로s occurring inside your 조직경계. Add 행 for 경로s that are not listed. Data 및 information that you provide 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). Emissions from finishing 해야 합니다 not be included for 프로세스 경로s 보고 in this 문항. Intensity for each 프로세스 경로 is the aggregate of emissions 또는 energy divided by the aggregate of crude steel produced. This equates to the weighted average intensity per 프로세스 경로 inside the 조직경계. No calculation of hypothetical intensities for benchmarking purposes 해야 합니다 be 공개 here. However, depending on the 방법론 used, credit may be awarded for energy 또는 carbon leaving the 조직경계. 배출집약도 figure, 미터톤 CO2e per metric ton of crude steel production (열 2) Enter the 배출집약도 by steel production 경로 in metric tons of CO­2-equivalent per metric ton of crude steel produced. Energy intensity figure, GJ (LHV) per metric ton of crude steel production (열 3) Enter the energy intensity by steel production 경로 in metric GJ (LHV) per metric ton of crude steel produced. Higher heating value (HHV) is also known as gross calorific value (GCV), 및 lower heating value (LHV) is also known as net calorific value (NCV). Typically, LHV/HHV ratio is 0.95 for solid 및 liquid hydrocarbon fuels, such as coal 및 oil, 및 0.9 for gaseous hydrocarbon fuels, such as natural gas. 방법론 applied (열 4) You 해야 합니다 apply the same 방법론 for energy 및 배출집약도. Select from the drop-down the 방법론 used to evaluate the emissions (metric tons of CO2-equivalent) 및 energy intensity (GJ(LHV)) of steel production per metric ton of crude steel produced. 만약 the 방법론 applied is not in the dropdown, then 직접 입력. 만약 you choose the GHG Protocol, then you 해야 합니다 calculate your 배출집약도 using the equation below. Emissions relating to the production of purchased fuels, feedstocks, 및 raw materials 해야 합니다 not be included for this 방법론 as it is classified under Scope 3 CO2e intensity = (Scope 1 + Scope 2) / (Crude steel produced) 만약 you choose the GHG Protocol, then you 해야 합니다 calculate net energy intensity. Your calculation boundary 해야 합니다 include consumption of fuel 및 fuel feedstocks (as distinct from C8.2 questions which excludes fuel feedstocks). For example, this would include consumption of coal 및 coke at coke ovens 및 blast furnaces while coke oven gas 및 blast furnace gas consumption are balanced by their production. Consumption of purchased 또는 acquired electricity, steam, heat, 및/또는 cooling 해야 합니다 also be included. Energy required 에 대한 production of purchased fuels, feedstocks, 및 raw materials 해야 합니다 not be included for this 방법론 as it is classified under Scope 3. The general equation below 설명s the calculation of net energy intensity. Net Energy intensity = (Energy in - Energy out) / (Crude steel produced) CDP encourages the use 의 Worldsteel 방법론. This is because the Worldsteel 방법론 includes wider 및 indirect activity considerations, which improves consistency. 일반 guidance may be referred to in this Worldsteel guide . Further guidance on 배출량 회계 in the steel sector is 입력 volume 3, chapter 4, of IPCC Guidelines for National GHG inventories . Drawing from these guidelines, the GHG Protocol provide further guidance 및 a tool to assist in the calculation of steel sector emissions. Comment (열 5) (optional) You may provide information about the 방법론 및 boundary used in the calculation of intensities."
+    },
+    {
+      "type": "Additional Information",
+      "text": "GHG Protocol \nThe GHG Protocol provides a range of sector-specific tools , one of which is for Iron and Steel .\nThis tool provides a methodology to calculate CO 2 emissions from direct reduced iron (DRI) production.\nThe World Steel Association (worldsteel) \nThe worldsteel Climate Action Recognition Program aligns with a methodology that has been published as an International standard ( ISO 14404: 2013 ), a calculation method of carbon dioxide emission intensity from iron and steel production.\nThis ISO standard consists of two parts:\n- Part 1: Steel plant with blast furnace, and;\n- Part 2: Steel plant with electric arc furnace (EAF).\nThis globally consistent methodology allows production to be normalized to allow CO 2 emission comparisons between sites.",
+      "typeKo": "추가 정보",
+      "textKo": "GHG Protocol The GHG Protocol provides a range of sector-specific tools , one of which is for Iron 및 Steel . This tool provides a 방법론 to calculate CO 2 emissions from direct reduced iron (DRI) production. The World Steel Association (worldsteel) The worldsteel Climate Action Recognition Program aligns with a 방법론 that has been published as an International standard ( ISO 14404: 2013 ), a calculation method of carbon dioxide emission intensity from iron 및 steel production. This ISO standard consists of two parts: - Part 1: Steel plant with blast furnace, and; - Part 2: Steel plant with electric arc furnace (EAF). This globally consistent 방법론 allows production to be normalized to allow CO 2 emission comparisons between sites."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "8/8",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0 or 0.25/0 or 0.25",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points\nA maximum of 8/8 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. Partially 완성 행 will not receive 최고점 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nPoints will be awarded for one row as follows:\nROUTE A)\n'Blast furnace-basic oxygen furnace' selected in column 'Process route' AND Figure provided in 'Emissions intensity figure, metric tons CO2e per metric ton of crude steel production' is less than 1 - 0.25 points\nA maximum of 0.25/0.25 points is available for this route.\nOR\nROUTE B)\n'Direct reduced iron-electric arc furnace' selected in column 'Process route' AND Figure provided in 'Emissions intensity figure, metric tons CO2e per metric ton of crude steel production' is less than 0.352 - 0.25 points\nA maximum of 0.25/0.25 points is available for this route.\nOR\nROUTE C)\n'Scrap-electric arc furnace' selected in column 'Process route' AND Figure provided in 'Emissions intensity figure, metric tons CO2e per metric ton of crude steel production' is less than 0.352 - 0.25 points\nA maximum of 0.25/0.25 points is available for this route.\nOR\nROUTE D)\nIf each of the following options are NOT selected in column 'Process route' in any row…\n- 'Blast furnace-basic oxygen furnace'\n- 'Direct reduced iron-electric arc furnace'\n- 'Scrap-electric arc furnace'\n… points will be awarded as follows:\n'Other, please specify' selected in column 'Process route' - 0/0 points\nA maximum of 0/0 points is available for this route..",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 점수가 부여됩니다 for one 행 as follows: 경로 A) 'Blast furnace-basic oxygen furnace' 선택 in 열 '프로세스 경로' 그리고 Figure 입력 in '배출집약도 figure, 미터톤 CO2e per metric ton of crude steel production' is 미만 1 - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 경로. 또는 경로 B) 'Direct reduced iron-electric arc furnace' 선택 in 열 '프로세스 경로' 그리고 Figure 입력 in '배출집약도 figure, 미터톤 CO2e per metric ton of crude steel production' is 미만 0.352 - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 경로. 또는 경로 C) 'Scrap-electric arc furnace' 선택 in 열 '프로세스 경로' 그리고 Figure 입력 in '배출집약도 figure, 미터톤 CO2e per metric ton of crude steel production' is 미만 0.352 - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 경로. 또는 경로 D) 만약 each 의 following options are NOT 선택 in 열 '프로세스 경로' in 하나 이상 행… - 'Blast furnace-basic oxygen furnace' - 'Direct reduced iron-electric arc furnace' - 'Scrap-electric arc furnace' … 점수가 부여됩니다 as follows: 'Other, 직접 입력' 선택 in 열 '프로세스 경로' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다.."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] State your organization's emissions and energy intensities by steel production process route.",
+    "q2025": "Q7.49",
+    "q2025_text": "State your organization's emissions and energy intensities by steel production process route.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Steel: D 8/8 | A 1/1 | M 0/0 | L 0 or 0.25/0 or 0.25",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Steel: D 8/8 | A 1/1 | M 0/0 | L 0 또는 0.25/0 또는 0.25",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "귀사의 emissions 및 energy intensities by steel production 프로세스 route.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "8/8",
+    "A": "1/1",
+    "M": "0/0",
+    "L": "0 or 0.25/0 or 0.25"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "철강",
+  "simpleHelpKo": "For high impact homogenous sectors, it is common to express emissions per unit of physical output. In the case of steel, energy intensity is also an important metric measured by the industry. Steel is produced via different 경로s, each of which plays a key role in the sustainability of steel supply to the economy. However, because typical intensities vary between 경로s, disclosing a single company-wide intensity could be misleading, because it masks the relative contribution from each 경로. 데이터 사용자 are therefore interested in average intensities per 프로세스 경로. The aim is to account for emissions concentration across sector 및 organization by acknowledging different 프로세스 경로s within the sector.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

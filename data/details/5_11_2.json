@@ -1,0 +1,1189 @@
+{
+  "code": "5.11.2",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Does your organization prioritize which suppliers to engage with on environmental issues?",
+  "questionKo": "귀사는 환경이슈와 관련하여 인게이지먼트 할 공급업체의 우선순위를 정하여 관리하고 있습니까 ?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Ocean, Plastics, Climate Change, Forests",
+  "sectorTags": "Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "This question allows data users to understand whether an organization prioritizes specific suppliers for engagement on environmental issues and, if so, the criteria employed in this prioritization to ensure that engagement achieves the greatest benefits.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Climate change",
+      "titleKo": "기후변화"
+    },
+    {
+      "order": 3,
+      "title": "Water",
+      "titleKo": "수자원"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.11.2.1",
+      "text": "Supplier engagement prioritization on this environmental issue",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes, we prioritize which suppliers to engage with on this environmental issue",
+        "No, we do not prioritize which suppliers to engage with on this environmental issue"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Supplier engagement prioritization on this environmental issue",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Yes, we prioritize which suppliers to engage with on this environmental issue",
+        "No, we do not prioritize which suppliers to engage with on this environmental issue"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.2.2",
+      "text": "Criteria informing which suppliers are prioritized for engagement on this environmental issue",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change",
+        "In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to forests",
+        "In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to water",
+        "In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to the ocean",
+        "In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to plastics",
+        "Business risk mitigation",
+        "Leverage over suppliers",
+        "Material sourcing",
+        "Procurement spend",
+        "Product lifecycle",
+        "Product safety and compliance",
+        "Regulatory compliance",
+        "Reputation management",
+        "Strategic status of suppliers",
+        "Supplier performance improvement",
+        "Suppliers' exposure or vulnerability to physical risks",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Criteria informing which suppliers are prioritized for engagement on this environmental issue",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to climate change",
+        "In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to forests",
+        "In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to water",
+        "In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to the ocean",
+        "In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to plastics",
+        "Business risk mitigation",
+        "Leverage over suppliers",
+        "Material sourcing",
+        "Procurement spend",
+        "Product lifecycle",
+        "Product safety 및 compliance",
+        "Regulatory compliance",
+        "Reputation management",
+        "Strategic status of suppliers",
+        "Supplier performance improvement",
+        "Suppliers' exposure 또는 vulnerability to physical risks",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.2.3",
+      "text": "Primary reason for no supplier prioritization on this environmental issue",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "We engage with all suppliers",
+        "Lack of internal resources, capabilities or expertise (e.g., due to organization size)",
+        "No standardized procedure",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant or not relevant",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "주된 이유 for no supplier prioritization on this environmental issue",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "We engage with all suppliers",
+        "Lack of internal resources, capabilities 또는 expertise (e.g., due to organization size)",
+        "No standardized 절차",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant 또는 not relevant",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.2.4",
+      "text": "Please explain",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Please explain",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change; New question for Ocean",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "No change; New 문항 for Ocean"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question appears if you select \"Yes\" in response to column 1 \"Engaging with this stakeholder on environmental issues\" for the row \"Suppliers\" of 5.11.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 appears 만약 you select \"Yes\" in response to 열 1 \"Engaging with this stakeholder on environmental issues\" 에 대한 행 \"Suppliers\" of 5.11."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThis question focuses on tier 1 (direct) suppliers only. \nCriteria informing which suppliers are prioritized for engagement on this environmental issue (column 2) \nSelect the criteria that best describe the factors considered when prioritizing suppliers to engage with on each environmental issue. \nFor example, if, following an evaluation of the climate-related risks associated with your organization's material sourcing you focus your engagement on suppliers of the materials critical to mitigate climate-related risks and promote responsible practices, select \"Material sourcing\" and \"Business risk mitigation\". \nIf you indicated in 5.11.1 that you assess the dependencies and/or impacts of your suppliers: \nSelect \"In line with the criteria used to classify suppliers…\" if you use the same criteria (as selected in column 2 of 5.11.1) to prioritize suppliers for engagement on this environmental issue (i.e., you prioritize suppliers for engagement based on their dependencies and/or impacts related to this environmental issue). \nSelect \"In line with the criteria used to classify suppliers…\" and additional options, if you prioritize suppliers based on both their dependencies and/or impacts related to this environmental issue and other criteria. \nP lease explain (column 4) \nIf you selected \"Yes, we prioritize which suppliers to engage with on this environmental issue\" in column 1 \"Supplier engagement prioritization on this environmental issue\", briefly describe your rationale for using the criteria selected in column 2 \"Criteria informing which suppliers are prioritized…\" to prioritize suppliers and how this relates to your engagement on this environmental issue. In addition, state whether your prioritization of supplier engagement is associated with a particular business activity, product line, regulation etc. \nIf you selected \"No, we do not prioritize which suppliers to engage with on this environmental issue\" in column 1 \"Supplier engagement prioritization on this environmental issue\", provide your reasons.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 This 문항 focuses on tier 1 (direct) suppliers only. Criteria informing which suppliers are prioritized for engagement on this environmental issue (열 2) Select the criteria that best 설명 the factors considered 경우 prioritizing suppliers to engage with on each environmental issue. For example, 만약, following an evaluation 의 climate-related risks associated with 귀사의 material sourcing you focus your engagement on suppliers 의 materials critical to mitigate climate-related risks 및 promote responsible practices, select \"Material sourcing\" 및 \"Business risk mitigation\". 만약 you indicated in 5.11.1 that you assess the dependencies 및/또는 impacts of your suppliers: Select \"In line with the criteria used to classify suppliers…\" 만약 you use the same criteria (as 선택 in 열 2 of 5.11.1) to prioritize suppliers for engagement on this environmental issue (i.e., you prioritize suppliers for engagement based on their dependencies 및/또는 impacts related to this environmental issue). Select \"In line with the criteria used to classify suppliers…\" 및 additional options, 만약 you prioritize suppliers based on both their dependencies 및/또는 impacts related to this environmental issue 및 other criteria. P lease explain (열 4) 만약 you 선택 \"Yes, we prioritize which suppliers to engage with on this environmental issue\" in 열 1 \"Supplier engagement prioritization on this environmental issue\", briefly 설명 your rationale for using the criteria 선택 in 열 2 \"Criteria informing which suppliers are prioritized…\" to prioritize suppliers 및 how this relates to your engagement on this environmental issue. In addition, state whether your prioritization of supplier engagement is associated with a particular business activity, product line, regulation etc. 만약 you 선택 \"No, we do not prioritize which suppliers to engage with on this environmental issue\" in 열 1 \"Supplier engagement prioritization on this environmental issue\", provide your reasons."
+    },
+    {
+      "type": "Ambition",
+      "text": "The organization prioritizes engagement with specific suppliers on environmental issues, guided by their dependencies and/or impact on the environment.",
+      "typeKo": "Ambition",
+      "textKo": "The organization prioritizes engagement with specific suppliers on environmental issues, guided by their dependencies 및/또는 impact on the environment."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Compliance: the state of complying with or fulfilling a given environmental requirement, standard, policy, commitment, or target. Compliance may be assessed at the level of production or primary processing unit(s) (e.g., farms, farmer groups, or mills), value chains or an entire organization commitment (adapted from AFi, 2024 ). \nVulnerable supplier : supplier that is exposed to significant economic, environmental and/or social risks ( ESRS , 2023 ).",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Compliance: the state of complying with 또는 fulfilling a given environmental requirement, standard, 정책, commitment, 또는 목표. Compliance may be assessed at the level of production 또는 primary 프로세스ing unit(s) (e.g., farms, farmer groups, 또는 mills), 가치사슬s 또는 an entire organization commitment (adapted from AFi, 2024 ). Vulnerable supplier : supplier that is exposed to significant economic, environmental 및/또는 social risks ( ESRS , 2023 )."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "This question is not scored, as it is not displayed for this sector(s).",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector(s)."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "This question is not scored, as it is not displayed for this sector(s).",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector(s)."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "This question is not scored, as it is not displayed for this sector(s).",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector(s)."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "This question is not scored, as it is not displayed for this sector(s).",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector(s)."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate change' is selected in column 'Environmental issue covered':\ni) 'Yes, we prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' - 1 point\nii) 'In line with the criteria used to classify suppliers as having substantive dependencies and/or impacts relating to climate change' selected in column 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nFull Disclosure points must be awarded to be eligible for Awareness points.\nFor rows where 'Climate Change' is selected in column 'Environmental issue covered':\n'No, we do not prioritize which suppliers to engage with on this environmental issue' selected in column 'Supplier engagement prioritization on this environmental issue' AND\n'We engage with all suppliers' selected in column 'Primary reason…' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue covered in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': i) 'Yes, we prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' - 1 점 ii) 'In line with the criteria used to classify suppliers as having substantive dependencies 및/또는 impacts relating to 기후변화' 선택 in 열 'Criteria informing which suppliers are prioritized for engagement on this environmental issue' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue covered': 'No, we do not prioritize which suppliers to engage with on this environmental issue' 선택 in 열 'Supplier engagement prioritization on this environmental issue' 그리고 'We engage with all suppliers' 선택 in 열 '주된 이유…' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue covered in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "귀사는 환경이슈와 관련하여 인게이지먼트 할 공급업체의 우선순위를 정하여 관리하고 있습니까 ? M5. Business Strategy",
+    "q2025": "Q5.11.2",
+    "q2025_text": "Does your organization prioritize which suppliers to engage with on environmental issues?",
+    "change_status": "No change; new question for Ocean; detail changes",
+    "detail_change_types": "New row, New dropdown option, Removed dropdown option",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": true,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "New row added for 'Ocean'.\nDropdown option 'Vulnerability of suppliers' replaced with 'Suppliers' exposure or vulnerability to physical risks'.",
+    "scoring_change_summary": "",
+    "daml_summary": "General: D 4/4 | A 2/2 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "변경 없음; 해양 신규 문항; 세부 변경 있음",
+    "detail_change_typesKo": "신규 행, 신규 드롭다운 선택지, 드롭다운 선택지 삭제",
+    "change_summaryKo": "New 행 added for 'Ocean'. Dropdown option 'Vulnerability of suppliers' replaced with 'Suppliers' exposure 또는 vulnerability to physical risks'.",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "일반: D 4/4 | A 2/2 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "귀사는 prioritize which suppliers to engage with on environmental issues입니까?"
+  },
+  "defaultPoints": {
+    "D": "4/4",
+    "A": "2/2",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 해양, 플라스틱, Climate Change, 산림",
+  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "This 문항 allows 데이터 사용자 to understand whether an organization prioritizes specific suppliers for engagement on environmental issues and, 만약 so, the criteria employed in this prioritization to ensure that engagement achieves the greatest benefits.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

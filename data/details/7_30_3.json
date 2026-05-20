@@ -1,0 +1,277 @@
+{
+  "code": "7.30.3",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Report your organization's energy consumption totals (excluding feedstocks) for chemical production activities in MWh.",
+  "questionKo": "Report 귀사의 에너지 소비량 totals (excluding feedstocks) for 화학 생산 활동 in MWh.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Chemicals",
+  "simpleHelp": "Question 7.30.1 has been modified and represented here for the chemicals sector. This is to enable consistency of reporting across organizations with varying coverage over activities that may be separate from the chemicals sector or independent of the production activities defining the chemicals sector. Chemicals is also one of the largest energy users of industry, so it is important to represent the sector separately from outside activities.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Consumption of fuel (excluding feedstocks)",
+      "titleKo": "Consumption of fuel (제외 feedstocks)"
+    },
+    {
+      "order": 2,
+      "title": "Consumption of purchased or acquired electricity",
+      "titleKo": "Consumption of purchased 또는 acquired electricity"
+    },
+    {
+      "order": 3,
+      "title": "Consumption of purchased or acquired heat",
+      "titleKo": "Consumption of purchased 또는 acquired heat"
+    },
+    {
+      "order": 4,
+      "title": "Consumption of purchased or acquired steam",
+      "titleKo": "Consumption of purchased 또는 acquired steam"
+    },
+    {
+      "order": 5,
+      "title": "Consumption of purchased or acquired cooling",
+      "titleKo": "Consumption of purchased 또는 acquired cooling"
+    },
+    {
+      "order": 6,
+      "title": "Consumption of self-generated non-fuel renewable energy",
+      "titleKo": "Consumption of self-generated non-fuel 재생에너지"
+    },
+    {
+      "order": 7,
+      "title": "Total energy consumption",
+      "titleKo": "Total 에너지 소비량"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.30.3.1",
+      "text": "MWh consumed from renewable sources inside chemical sector boundary",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "MWh consumed from renewable sources inside chemical sector boundary",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.30.3.2",
+      "text": "MWh consumed from non-renewable sources inside chemical sector boundary (excluding recovered waste heat/gases)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "MWh consumed from non-renewable sources inside chemical sector boundary (제외 recovered waste heat/gases)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.30.3.3",
+      "text": "MWh consumed from waste heat/gases recovered from processes using fuel feedstocks inside chemical sector boundary",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "Companies that recover and consume waste heat/gases generated from the consumption of fuel feedstocks to produce energy should report the consumption of the recovered waste heat/gases in this column. \nNote that this only applies for processes within the chemical sector boundary where the waste heat/gas is derived from fuel feedstocks. Please refer to the full guidance for further details.",
+      "popup_help": "Organizations that recover and consume waste heat/gases generated from the consumption of fuel feedstocks to produce energy should report the consumption of the recovered waste heat/gases in this column.\nNote that this only applies for processes within the chemical sector boundary where the waste heat/gas is derived from fuel feedstocks. Please refer to the full guidance for further details.",
+      "textKo": "MWh consumed from waste heat/gases recovered from 프로세스es using fuel feedstocks inside chemical sector boundary",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "Companies that recover 및 consume waste heat/gases generated from the consumption of fuel feedstocks to produce energy 해야 합니다 report the consumption 의 recovered waste heat/gases in this 열. Note that this only applies for 프로세스es within the chemical sector boundary 여기서 the waste heat/gas is derived from fuel feedstocks. Please refer to the full guidance for further details.",
+      "popup_helpKo": "Organizations that recover 및 consume waste heat/gases generated from the consumption of fuel feedstocks to produce energy 해야 합니다 report the consumption 의 recovered waste heat/gases in this 열. Note that this only applies for 프로세스es within the chemical sector boundary 여기서 the waste heat/gas is derived from fuel feedstocks. Please refer to the full guidance for further details."
+    },
+    {
+      "code": "7.30.3.4",
+      "text": "MWh consumed from non-renewable zero or near-zero emission sources inside chemical sector boundary",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "MWh consumed from non-renewable zero 또는 near-zero emission sources inside chemical sector boundary",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.30.3.5",
+      "text": "Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified question",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified 문항"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" to any of the activities listed in 7.30. A row will appear in this table for each energy-related activity selected in 7.30. The \"Total energy consumption\" row will always appear.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes\" to 하나 이상 의 activities listed in 7.30. A 행 will appear in this table for each energy-related activity 선택 in 7.30. The \"Total 에너지 소비량\" 행 will always appear."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThis question is based on question 7.30.1 but is sector specific. Energy consumed outside the chemicals sector should not be reported here.\nThe boundary surrounding your organization in the chemicals sector shall hereby be referred to as the organizational/sector boundary. The sector boundary for energy consumption should align with the sector boundary for emissions, which is described in the guidance to question 7.19.\nFigures you provide should be for the reporting year only (as defined by your answer to 1.4).\nYou should use the same approach as in question 7.30.1 to calculate the share of renewable energy consumed inside the chemical sector boundary in this question.\nGuidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh . \"\nReport all of your fuel data consistently using the same heating value as selected in 7.30.1.\n\"Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary\" will be calculated using column \"MWh consumed from renewable sources inside chemical sector boundary\", column \"MWh consumed from non-renewable sources inside chemical sector boundary (excluding recovered waste heat/gases)\" and column \"MWh consumed from waste heat/gases recovered from processes using fuel feedstocks inside chemical sector boundary\" only (not column \"MWh consumed from non-renewable zero or near-zero emission sources inside chemical sector boundary\"). \nActivity (column 0) \nYou will be presented with a row for each activity selected in 7.30.\nConsumption of fuel (excluding feedstocks) \nAll fuel consumed for energy purposes inside the organizational/sector boundary should be included, regardless of whether the fuel was purchased or produced by the organization. Fuel consumed as a feedstock (used for the production of another fuel) should not be included. The produced fuel should still be included if it is consumed within the organizational boundary.\nIf you do not have exact consumption data, you may alternatively estimate your company's consumption by reviewing fuel and energy purchasing orders.\nOrganizations that recover waste heat/gases generated from the consumption of fuel feedstocks in a primary industrial process and utilize the waste heat/gases to produce energy in a secondary process should report the consumption of the recovered waste heat/gases in this row, in column 5 \"MWh consumed from waste heat/gases recovered from processes using fuel feedstocks inside chemical sector boundary\". An example of such a process is the recovery of the excess heat from the exothermic reaction in the process of sulfuric acid production. Note that this only applies for processes within the chemical sector boundary where the waste heat/gas is derived from fuel feedstocks - consumption of waste heat/gas that is derived from fuels should not be included, as this would be double counting.\nConsumption of purchased or acquired electricity, heat, steam and/or cooling \nCompanies that outsource the recovery of their waste heat/gases from processes using fuel feedstocks to a third party and purchase back the energy generated from these recovered waste heat/gases, should report the consumption of this purchased energy in column \"MWh consumed from waste heat/gases recovered from processes using fuel feedstocks inside chemical sector boundary\" for the relevant row (i.e. electricity, heat steam and/or cooling).\nConsumption of self-generated non-fuel renewable energy \nIf your organization produces renewable energy that is not based on fuel (such as solar, wind, hydro, geothermal, marine), then any consumption of this energy should be entered here.\nConsumption of renewable fuels (such as solid and liquid biofuels and biogas) should be excluded because these are accounted for in the row \"Consumption of fuel (excluding feedstock)\".\nAll forms of non-fuel renewable energy - electricity, heat, steam, or cooling - shall be included.\nTotal energy consumption \nThe data entered in this row should equal the sum of all the above rows (if the above rows have been fully disclosed for).\nIf you do not disclose data for specific energy carriers in the rows above, but you are able to enter the total energy consumed by your organization inside the chemicals sector boundary, then you should do so.\nMWh consumed from renewable sources inside chemical sector boundary (column 1) \nHydrogen should not be included if it is derived from fossil fuels.\nBlended fuels deriving from both renewable and non-renewable sources should be split by the proportion contained from each source. For municipal waste and refuse-derived fuel, only the fraction of the fuel that is derived from biomass can be included as renewable energy, when calculating renewable energy consumption totals. Further explanations of municipal waste and a glossary of fuel definitions is provided in the CDP Technical Note: \" Fuel Definitions \" .\nNote that consumption of waste heat/gases recovered from processes using fuel feedstocks should not be included here. Although low carbon, this energy is considered non-renewable and will be captured in column 3.\nMWh consumed from non-renewable sources inside chemical sector boundary (excluding recovered waste heat/gases) (column 2) \nAll energy not identified as deriving from renewable sources should be entered, e.g. coal, oil, natural gas, etc.\nNote that consumption of waste heat/gases recovered from processes using fuel feedstocks should not be included here. This energy is considered non-renewable but is captured separately in column 3.\nIn the \"Consumption of purchased or acquired electricity\" row, the figure reported in in this column should be inclusive of the figure reported in column \"MWh consumed from non-renewable zero or near-zero emission sources inside chemical sector boundary\".\nMWh consumed from waste heat/gases recovered from processes using fuel feedstocks inside chemical sector boundary (column 3) \nCompanies that recover and consume waste heat/gases generated from the consumption of fuel feedstocks to produce energy should report the consumption of the recovered waste heat/gases in this column.\nNote that this only applies for processes within the chemical sector boundary where the waste heat/gas is derived from fuel feedstocks - consumption of waste heat/gas that is derived from fuels should not be included, as this would be double counting.\nMWh from non-renewable zero or near-zero emission sources (column 4) \nThis figure should be a subset of the figure reported in column \"MWh consumed from non-renewable sources inside chemical sector boundary (excluding recovered waste heat/gases)\".\nInclude electricity consumption from nuclear plants and fossil fuel plants fitted with carbon capture and storage which generate zero or near-zero emissions.\nDo not include electricity consumption from fossil-fuel plants fitted with carbon capture and storage if the emissions associated with its generation are higher than near-zero.\nDo not include natural gas, combined cycle gas turbine or fossil fuel-based combined heat and power (cogeneration). Although these sources are less carbon intensive than other means of electricity production like coal, they should not be reported in this column as they do not generate zero or near-zero emissions. \nDo not include energy consumed from waste heat/gases recovered from processes using fuel feedstocks. Include this in column 3 instead.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 This 문항 is based on 문항 7.30.1 but is sector specific. Energy consumed outside the chemicals sector 해야 합니다 not be 보고 here. The boundary surrounding 귀사 in the chemicals sector shall hereby be referred to as the organizational/sector boundary. The sector boundary for 에너지 소비량 해야 합니다 align with the sector boundary for emissions, which is 설명d in the guidance to 문항 7.19. Figures you provide 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). You 해야 합니다 use the same approach as in 문항 7.30.1 to calculate the share of 재생에너지 consumed inside the chemical sector boundary in this 문항. Guidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh . \" Report all of your fuel data consistently using the same heating value as 선택 in 7.30.1. \"Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary\" will be calculated using 열 \"MWh consumed from renewable sources inside chemical sector boundary\", 열 \"MWh consumed from non-renewable sources inside chemical sector boundary (제외 recovered waste heat/gases)\" 및 열 \"MWh consumed from waste heat/gases recovered from 프로세스es using fuel feedstocks inside chemical sector boundary\" only (not 열 \"MWh consumed from non-renewable zero 또는 near-zero emission sources inside chemical sector boundary\"). Activity (열 0) You will be presented with a 행 for each activity 선택 in 7.30. Consumption of fuel (제외 feedstocks) All fuel consumed for energy purposes inside the organizational/sector boundary 해야 합니다 be included, regardless of whether the fuel was purchased 또는 produced by the organization. Fuel consumed as a feedstock (used 에 대한 production of another fuel) 해야 합니다 not be included. The produced fuel 해야 합니다 still be included 만약 it is consumed within the 조직경계. 만약 you do not have exact consumption data, you may alternatively estimate your company's consumption by reviewing fuel 및 energy purchasing orders. Organizations that recover waste heat/gases generated from the consumption of fuel feedstocks in a primary industrial 프로세스 및 utilize the waste heat/gases to produce energy in a secondary 프로세스 해야 합니다 report the consumption 의 recovered waste heat/gases in this 행, in 열 5 \"MWh consumed from waste heat/gases recovered from 프로세스es using fuel feedstocks inside chemical sector boundary\". An example of such a 프로세스 is the recovery 의 excess heat from the exothermic reaction in the 프로세스 of sulfuric acid production. Note that this only applies for 프로세스es within the chemical sector boundary 여기서 the waste heat/gas is derived from fuel feedstocks - consumption of waste heat/gas that is derived from fuels 해야 합니다 not be included, as this would be double counting. Consumption of purchased 또는 acquired electricity, heat, steam 및/또는 cooling Companies that outsource the recovery 의ir waste heat/gases from 프로세스es using fuel feedstocks to a third party 및 purchase back the energy generated from these recovered waste heat/gases, 해야 합니다 report the consumption of this purchased energy in 열 \"MWh consumed from waste heat/gases recovered from 프로세스es using fuel feedstocks inside chemical sector boundary\" 에 대한 relevant 행 (i.e. electricity, heat steam 및/또는 cooling). Consumption of self-generated non-fuel 재생에너지 만약 귀사 produces 재생에너지 that is not based on fuel (such as solar, wind, hydro, geothermal, marine), then 하나 이상 consumption of this energy 해야 합니다 be entered here. Consumption of renewable fuels (such as solid 및 liquid biofuels 및 biogas) 해야 합니다 be excluded because these are accounted for in the 행 \"Consumption of fuel (제외 feedstock)\". All forms of non-fuel 재생에너지 - electricity, heat, steam, 또는 cooling - shall be included. Total 에너지 소비량 The data entered in this 행 해야 합니다 equal the sum of all the above 행 (만약 the above 행 have been fully 공개 for). 만약 you do not disclose data for specific energy carriers in the 행 above, but you are able to enter the total energy consumed by 귀사 inside the chemicals sector boundary, then you 해야 합니다 do so. MWh consumed from renewable sources inside chemical sector boundary (열 1) Hydrogen 해야 합니다 not be included 만약 it is derived from fossil fuels. Blended fuels deriving from both renewable 및 non-renewable sources 해야 합니다 be split by the proportion contained from each source. For municipal waste 및 refuse-derived fuel, only the fraction 의 fuel that is derived from biomass can be included as 재생에너지, 경우 calculating renewable 에너지 소비량 totals. Further explanations of municipal waste 및 a glossary of fuel definitions is 입력 in the CDP Technical Note: \" Fuel Definitions \" . Note that consumption of waste heat/gases recovered from 프로세스es using fuel feedstocks 해야 합니다 not be included here. Although low carbon, this energy is considered non-renewable 및 will be captured in 열 3. MWh consumed from non-renewable sources inside chemical sector boundary (제외 recovered waste heat/gases) (열 2) All energy not identified as deriving from renewable sources 해야 합니다 be entered, e.g. coal, oil, natural gas, etc. Note that consumption of waste heat/gases recovered from 프로세스es using fuel feedstocks 해야 합니다 not be included here. This energy is considered non-renewable but is captured separately in 열 3. In the \"Consumption of purchased 또는 acquired electricity\" 행, the figure 보고 in in this 열 해야 합니다 be inclusive 의 figure 보고 in 열 \"MWh consumed from non-renewable zero 또는 near-zero emission sources inside chemical sector boundary\". MWh consumed from waste heat/gases recovered from 프로세스es using fuel feedstocks inside chemical sector boundary (열 3) Companies that recover 및 consume waste heat/gases generated from the consumption of fuel feedstocks to produce energy 해야 합니다 report the consumption 의 recovered waste heat/gases in this 열. Note that this only applies for 프로세스es within the chemical sector boundary 여기서 the waste heat/gas is derived from fuel feedstocks - consumption of waste heat/gas that is derived from fuels 해야 합니다 not be included, as this would be double counting. MWh from non-renewable zero 또는 near-zero emission sources (열 4) This figure 해야 합니다 be a subset 의 figure 보고 in 열 \"MWh consumed from non-renewable sources inside chemical sector boundary (제외 recovered waste heat/gases)\". Include 전력 소비량 from nuclear plants 및 fossil fuel plants fitted with carbon capture 및 storage which generate zero 또는 near-zero emissions. Do not include 전력 소비량 from fossil-fuel plants fitted with carbon capture 및 storage 만약 the emissions associated with its generation are higher than near-zero. Do not include natural gas, combined cycle gas turbine 또는 fossil fuel-based combined heat 및 power (cogeneration). Although these sources are less carbon intensive than other means of electricity production like coal, they 해야 합니다 not be 보고 in this 열 as they do not generate zero 또는 near-zero emissions. Do not include energy consumed from waste heat/gases recovered from 프로세스es using fuel feedstocks. Include this in 열 3 instead."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Renewable energy:  energy taken from sources that are inexhaustible, e.g. wind, water, solar, geothermal energy and sustainable biofuels (adapted from the GHG protocol, 2004 ).",
+      "typeKo": "Explanation of Terms",
+      "textKo": "재생에너지: energy taken from sources that are inexhaustible, e.g. wind, water, solar, geothermal energy 및 sustainable biofuels (adapted from the GHG protocol, 2004 )."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "3/3",
+      "M": "1 or 2/2",
+      "L": "1, 1.5 or 2/2",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary').\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed (excluding column 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary') - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 (제외 열 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary') - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nSum of figures provided in columns 'MWh consumed from renewable sources inside chemical sector boundary' AND 'MWh consumed from waste heat/gases recovered from processes using fuel feedstocks inside chemical sector boundary' AND ‘MWh consumed from non-renewable zero or near-zero emission sources inside chemical sector boundary' accounts for 25% or more of the figure provided in column 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary' in row 'Total energy consumption' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nSum of figures provided in columns 'MWh consumed from renewable sources inside chemical sector boundary' AND 'MWh consumed from waste heat/gases recovered from processes using fuel feedstocks inside chemical sector boundary' AND ‘MWh consumed from non-renewable zero or near-zero emission sources inside chemical sector boundary' accounts for 10% or more of the figure provided in column 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary' in row 'Total energy consumption' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in 열 'MWh consumed from renewable sources inside chemical sector boundary' 그리고 'MWh consumed from waste heat/gases recovered from 프로세스es using fuel feedstocks inside chemical sector boundary' 그리고 ‘MWh consumed from non-renewable zero 또는 near-zero emission sources inside chemical sector boundary' accounts for 25% 또는 more 의 figure 입력 in 열 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in 열 'MWh consumed from renewable sources inside chemical sector boundary' 그리고 'MWh consumed from waste heat/gases recovered from 프로세스es using fuel feedstocks inside chemical sector boundary' 그리고 ‘MWh consumed from non-renewable zero 또는 near-zero emission sources inside chemical sector boundary' accounts for 10% 또는 more 의 figure 입력 in 열 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nROUTE A)\nSum of figures provided in columns 'MWh consumed from renewable sources inside chemical sector boundary' AND 'MWh consumed from waste heat/gases recovered from processes using fuel feedstocks inside chemical sector boundary' AND ‘MWh consumed from non-renewable zero or near-zero emission sources inside chemical sector boundary' accounts for 99% or more of the figure provided in column 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary' in row 'Total energy consumption' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nSum of figures provided in columns 'MWh consumed from renewable sources inside chemical sector boundary' AND 'MWh consumed from waste heat/gases recovered from processes using fuel feedstocks inside chemical sector boundary' AND ‘MWh consumed from non-renewable zero or near-zero emission sources inside chemical sector boundary' accounts for 75% or more of the figure provided in column 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary' in row 'Total energy consumption' - 1.5/2 points\nA maximum of 1.5/2 points is available for this route.\nOR\nROUTE C)\nSum of figures provided in columns 'MWh consumed from renewable sources inside chemical sector boundary' AND 'MWh consumed from waste heat/gases recovered from processes using fuel feedstocks inside chemical sector boundary' AND ‘MWh consumed from non-renewable zero or near-zero emission sources inside chemical sector boundary' accounts for 50% or more of the figure provided in column 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary' in row 'Total energy consumption' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in 열 'MWh consumed from renewable sources inside chemical sector boundary' 그리고 'MWh consumed from waste heat/gases recovered from 프로세스es using fuel feedstocks inside chemical sector boundary' 그리고 ‘MWh consumed from non-renewable zero 또는 near-zero emission sources inside chemical sector boundary' accounts for 99% 또는 more 의 figure 입력 in 열 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in 열 'MWh consumed from renewable sources inside chemical sector boundary' 그리고 'MWh consumed from waste heat/gases recovered from 프로세스es using fuel feedstocks inside chemical sector boundary' 그리고 ‘MWh consumed from non-renewable zero 또는 near-zero emission sources inside chemical sector boundary' accounts for 75% 또는 more 의 figure 입력 in 열 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of figures 입력 in 열 'MWh consumed from renewable sources inside chemical sector boundary' 그리고 'MWh consumed from waste heat/gases recovered from 프로세스es using fuel feedstocks inside chemical sector boundary' 그리고 ‘MWh consumed from non-renewable zero 또는 near-zero emission sources inside chemical sector boundary' accounts for 50% 또는 more 의 figure 입력 in 열 'Total MWh (renewable + non-renewable + MWh from recovered waste heat/gases) consumed inside chemical sector boundary' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Report your organization's energy consumption totals (excluding feedstocks) for chemical production activities in MWh.",
+    "q2025": "Q7.30.3",
+    "q2025_text": "Report your organization's energy consumption totals (excluding feedstocks) for chemical production activities in MWh.",
+    "change_status": "Modified question",
+    "detail_change_types": "New guidance, Modified guidance, New column",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": false,
+    "changed_guidance": true,
+    "changed_scoring": true,
+    "change_summary": "General guidance added that heating value should be consistent with heating value reported in 7.30.1. Additional guidance added to clarify the calculation of the Total column.\nModified guidance to clarify what data should be reported.\nNew column - appears only for electricity and total rows.",
+    "scoring_change_summary": "CC Chemicals Management & Leadership • Management and Leadership calculation updated to include column '‘MWh consumed from non- renewable zero or near-zero emission sources inside chemical sector boundary'. Adjustment at management and leadership scoring from % of renewable to % of renewable and other low carbon. This is a part of changes across energy questions to capture data from low carbon but non-renewable emission sources aligning with a more tech- agnostic approach but still incentivizing low carbon emissions energy sources.",
+    "daml_summary": "Chemicals: D 6/6 | A 3/3 | M 1 or 2/2 | L 1, 1.5 or 2/2",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 수정",
+    "detail_change_typesKo": "신규 가이던스, 가이던스 수정, 신규 열",
+    "change_summaryKo": "일반 guidance added that heating value 해야 합니다 be consistent with heating value 보고 in 7.30.1. Additional guidance added to clarify the calculation 의 Total 열. Modified guidance to clarify what data 해야 합니다 be 보고. New 열 - appears only for electricity 및 total 행.",
+    "scoring_change_summaryKo": "CC Chemicals Management & Leadership • Management 및 Leadership calculation updated to include 열 '‘MWh consumed from non- renewable zero 또는 near-zero emission sources inside chemical sector boundary'. Adjustment at management 및 leadership scoring from % of renewable to % of renewable 및 other low carbon. This is a part of changes across energy questions to capture data from low carbon but non-renewable emission sources aligning with a more tech- agnostic approach but still incentivizing low carbon emissions energy sources.",
+    "daml_summaryKo": "Chemicals: D 6/6 | A 3/3 | M 1 또는 2/2 | L 1, 1.5 또는 2/2",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "Report 귀사의 에너지 소비량 totals (제외 feedstocks) for 화학 생산 활동 in MWh."
+  },
+  "defaultPoints": {
+    "D": "6/6",
+    "A": "3/3",
+    "M": "1 or 2/2",
+    "L": "1, 1.5 or 2/2"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "화학",
+  "simpleHelpKo": "문항 7.30.1 has been modified 및 represented here 에 대한 chemicals sector. This is to enable consistency of reporting across organizations with varying coverage over activities that may be separate from the chemicals sector 또는 independent 의 production activities defining the chemicals sector. Chemicals is also one 의 largest energy users of industry, so it is important to represent the sector separately from outside activities.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

@@ -1,0 +1,1249 @@
+{
+  "code": "5.11.9",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Provide details of any environmental engagement activity with other stakeholders in the value chain.",
+  "questionKo": "귀사의 환경이슈 관련하여 가치사슬 내 기타 이해관계자들과의 인게이지먼트 활동을 자세하게 입력하십시오",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "This question provides data users with transparency regarding organizations' engagement processes with other value chain stakeholders. As several environmental dependencies, impacts, risks, and opportunities can occur outside direct operations, data users are interested in understanding how organizations are working with other stakeholders in their value chain to drive environmental action.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Climate change",
+      "titleKo": "기후변화"
+    },
+    {
+      "order": 3,
+      "title": "Water",
+      "titleKo": "수자원"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.11.9.1",
+      "text": "Type of stakeholder",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Customers",
+        "Investors and shareholders",
+        "Other value chain stakeholder, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Type of stakeholder",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Customers",
+        "Investors 및 shareholders",
+        "Other 가치사슬 stakeholder, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.9.2",
+      "text": "Type and details of engagement",
+      "type": "GROUPED_OPTIONS",
+      "mandatory": "False",
+      "options": [
+        "Education/Information sharing | Educate and work with stakeholders on understanding and measuring exposure to environmental risks",
+        "Education/Information sharing | Run an engagement campaign to educate stakeholders about the environmental impacts about your products, goods and/or services",
+        "Education/Information sharing | Share information about your products and relevant certification schemes",
+        "Education/Information sharing | Share information on environmental initiatives, progress and achievements",
+        "Education/Information sharing | Other education/information sharing, please specify",
+        "Innovation and collaboration | Align your organization's goals to support customers' targets and ambitions",
+        "Innovation and collaboration | Collaborate with stakeholders in creation and review of your climate transition plan",
+        "Innovation and collaboration | Collaborate with stakeholders on innovations to reduce environmental impacts in products and services",
+        "Innovation and collaboration | Collaborate with stakeholders on implementing adaptation activities",
+        "Innovation and collaboration | Encourage collaborative work in multi-stakeholder landscape towards initiatives for sustainable land-use goals",
+        "Innovation and collaboration | Engage with stakeholders to advocate for policy or regulatory change",
+        "Innovation and collaboration | Incentivize collaborative sustainable water management in river basins",
+        "Innovation and collaboration | Run a campaign to encourage innovation to reduce environmental impacts",
+        "Innovation and collaboration | Other innovation and collaboration, please specify",
+        "Other | Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Type 및 details of engagement",
+      "typeKo": "GROUPED_OPTIONS",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Education/Information sharing | Educate 및 work with stakeholders on understanding 및 measuring exposure to environmental risks",
+        "Education/Information sharing | Run an engagement campaign to educate stakeholders about the environmental impacts about your products, goods 및/또는 services",
+        "Education/Information sharing | Share information about your products 및 relevant certification schemes",
+        "Education/Information sharing | Share information on environmental 이니셔티브, progress 및 achievements",
+        "Education/Information sharing | Other education/information sharing, 직접 입력",
+        "Innovation 및 collaboration | Align 귀사의 goals to support customers' 목표 및 ambitions",
+        "Innovation 및 collaboration | Collaborate with stakeholders in creation 및 review of your 기후 전환계획",
+        "Innovation 및 collaboration | Collaborate with stakeholders on innovations to reduce environmental impacts in 제품 및 서비스",
+        "Innovation 및 collaboration | Collaborate with stakeholders on implementing adaptation activities",
+        "Innovation 및 collaboration | Encourage collaborative work in multi-stakeholder landscape towards 이니셔티브 for sustainable land-use goals",
+        "Innovation 및 collaboration | Engage with stakeholders to advocate for 정책 또는 regulatory change",
+        "Innovation 및 collaboration | Incentivize collaborative sustainable water management in river basins",
+        "Innovation 및 collaboration | Run a campaign to encourage innovation to reduce environmental impacts",
+        "Innovation 및 collaboration | Other innovation 및 collaboration, 직접 입력",
+        "Other | Other, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.9.3",
+      "text": "% of stakeholder type engaged",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "None",
+        "Less than 1%",
+        "1-25%",
+        "26-50%",
+        "51-75%",
+        "76-99%",
+        "100%",
+        "Unknown"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% of stakeholder type engaged",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "없음",
+        "미만 1%",
+        "1-25%",
+        "26-50%",
+        "51-75%",
+        "76-99%",
+        "100%",
+        "Unknown"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.9.4",
+      "text": "% stakeholder-associated scope 3 emissions",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "None",
+        "Less than 1%",
+        "1-25%",
+        "26-50%",
+        "51-75%",
+        "76-99%",
+        "100%",
+        "Unknown"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% stakeholder-associated Scope 3 배출량",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "없음",
+        "미만 1%",
+        "1-25%",
+        "26-50%",
+        "51-75%",
+        "76-99%",
+        "100%",
+        "Unknown"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.9.5",
+      "text": "Rationale for engaging these stakeholders and scope of engagement",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Rationale for engaging these stakeholders 및 scope of engagement",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.9.6",
+      "text": "Effect of engagement and measures of success",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Effect of engagement 및 measures of success",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Minor change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Minor change"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in response to column 1 \"Engaging with this stakeholder on environmental issues\" for the rows \"Customers\", \"Investors and shareholders\" or \"Other value chain stakeholders\" of 5.11.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 열 1 \"Engaging with this stakeholder on environmental issues\" 에 대한 행 \"Customers\", \"Investors 및 shareholders\" 또는 \"Other 가치사슬 stakeholders\" of 5.11."
+    },
+    {
+      "type": "Requested Content",
+      "text": "Type of stakeholder (column 2) \nIf your organization engages with more than one type of value chain stakeholder per environmental issue, or you wish to report multiple stakeholder types not listed using \"Other value chain stakeholder, please specify\", add rows as needed.\nNote that subsequent columns refer to the stakeholder specified in this column. For example, if you select \"Investors and shareholders\" in this column, the percentage provided in column 4 \"% of stakeholder type engaged\" pertains exclusively to the percentage of investors and shareholders.\n\"Other value chain stakeholders\" can include but is not limited to, community organizations, non-governmental organizations, river basin organizations, government agencies, and employees.\n% stakeholder-associated scope 3 emissions (column 5) \nThis column is only presented for \"Climate change\" rows in column 1 \"Environmental issue\".\nProvide the percentage of your organization's scope 3 emissions that are attributable to the stakeholders engaged for this engagement activity, out of the total scope 3 emissions attributable to the stakeholder selected in column 2 \"Type of stakeholder\".\nInclude any relevant scope 3 categories in your calculation. For example, if you selected \"Customers\" in column 2 \"Type of stakeholder\" and your organization reports customer-related emissions in two downstream scope 3 categories, Category 10 \"Processing of sold products\" and Category 11 \"Use of sold products\", you should calculate the percentage in this column using the formula below:\n(Emissions attributable to engaged customers in \"Category 10\" + \"Category 11\") / (Total emissions in \"Category 10\" + \"Category 11\") x 100\nIf you are reporting engagement with a value chain stakeholder for which there are no scope 3 emissions associated (for example, a non-governmental organization reported under \"Other value chain stakeholder, please specify\"), select \"None\" in this column and explain that there are no scope 3 emissions associated with this stakeholder in column 6 \"Rationale for engaging these stakeholders and scope of engagement\". \nRationale for engaging these stakeholders and scope of engagement (column 6) \nExplain how and why the stakeholders were chosen for the type of engagement activity selected in columns 3 \"Type and details of engagement\".\nInclude details that would help data users understand how this type of engagement activity contributes to the achievement of their climate transition plan.\nEffect of engagement and measures of success (column 7) \nOutline the positive outcomes resulting from the engagement activity, whether anticipated or already achieved.\nFor example:\nIf disclosing on water security, describe how the engagement has progressed or safeguarded water security for your organization and/or other stakeholders, or contributed to enhancing water resilience for your organization and/or other stakeholders.\nIf disclosing on forests, describe how the engagement has affected compliance and commodity performance of your organization and/or stakeholders.\nDefine the criteria for measuring success, including the metrics used to assess the effectiveness of this engagement activity and explain the reasons behind the selection of these measures.",
+      "typeKo": "요청 내용",
+      "textKo": "Type of stakeholder (열 2) 만약 귀사 engages with more than one type of 가치사슬 stakeholder per environmental issue, 또는 you wish to report multiple stakeholder types not listed using \"Other 가치사슬 stakeholder, 직접 입력\", add 행 as needed. Note that subsequent 열 refer to the stakeholder specified in this 열. For example, 만약 you select \"Investors 및 shareholders\" in this 열, the percentage 입력 in 열 4 \"% of stakeholder type engaged\" pertains exclusively to the percentage of investors 및 shareholders. \"Other 가치사슬 stakeholders\" can include but is not limited to, community organizations, non-governmental organizations, river basin organizations, government agencies, 및 employees. % stakeholder-associated Scope 3 배출량 (열 5) This 열 is only presented for \"기후변화\" 행 in 열 1 \"Environmental issue\". Provide the percentage of 귀사의 Scope 3 배출량 that are attributable to the stakeholders engaged for this engagement activity, out 의 total Scope 3 배출량 attributable to the stakeholder 선택 in 열 2 \"Type of stakeholder\". Include 하나 이상 relevant scope 3 categories in your calculation. For example, 만약 you 선택 \"Customers\" in 열 2 \"Type of stakeholder\" 및 귀사 reports customer-related emissions in two downstream scope 3 categories, Category 10 \"프로세스ing of sold products\" 및 Category 11 \"Use of sold products\", you 해야 합니다 calculate the percentage in this 열 using the formula below: (Emissions attributable to engaged customers in \"Category 10\" + \"Category 11\") / (Total emissions in \"Category 10\" + \"Category 11\") x 100 만약 you are reporting engagement with a 가치사슬 stakeholder for which there are no Scope 3 배출량 associated (for example, a non-governmental organization 보고 under \"Other 가치사슬 stakeholder, 직접 입력\"), select \"없음\" in this 열 및 explain that there are no Scope 3 배출량 associated with this stakeholder in 열 6 \"Rationale for engaging these stakeholders 및 scope of engagement\". Rationale for engaging these stakeholders 및 scope of engagement (열 6) Explain how 및 why the stakeholders were chosen 에 대한 type of engagement activity 선택 in 열 3 \"Type 및 details of engagement\". Include details that would help 데이터 사용자 understand how this type of engagement activity contributes to the achievement 의ir 기후 전환계획. Effect of engagement 및 measures of success (열 7) Outline the positive outcomes resulting from the engagement activity, whether anticipated 또는 already achieved. For example: 만약 disclosing on 수자원 security, 설명 how the engagement has progressed 또는 safeguarded 수자원 security for 귀사 및/또는 other stakeholders, 또는 contributed to enhancing 수자원 resilience for 귀사 및/또는 other stakeholders. 만약 disclosing on forests, 설명 how the engagement has affected compliance 및 commodity performance of 귀사 및/또는 stakeholders. Define the criteria for measuring success, 포함 the metrics used to assess the effectiveness of this engagement activity 및 explain the reasons behind the selection 의se measures."
+    },
+    {
+      "type": "Ambition",
+      "text": "The organization has a value chain engagement strategy for environmental issues and undertakes value chain engagement to positively affect its value chain stakeholders and the environment. \nThe organization sets quantitative measures of success to evaluate the effect of its engagement.",
+      "typeKo": "Ambition",
+      "textKo": "The organization has a 가치사슬 engagement strategy for environmental issues 및 undertakes 가치사슬 engagement to positively affect its 가치사슬 stakeholders 및 the environment. The organization sets quantitative measures of success to evaluate the effect of its engagement."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Adaptation : In human systems , the process of adjustment to actual or expected climate and its effects, in order to moderate harm or exploit beneficial opportunities. In natural systems, the process of adjustment to actual climate and its effects; human intervention may facilitate adjustment to expected climate and its effects ( IPCC, 2018 ).\nClimate Transition plan: an encompassing instrument that helps organizations to align their climate ambitions. This alignment is achieved by establishing specific strategies and clear accountability mechanisms to track progress. \nClimate transition plan which aligns with a 1.5°C world: a time-bound action plan that clearly outlines how an organization will achieve its strategy to pivot its existing assets, operations, and entire business model towards a trajectory that aligns with the latest and most ambitious climate science recommendations, i.e., halving greenhouse gas (GHG) emissions by 2030 and reaching net-zero by 2050 at the latest, thereby limiting global warming to 1.5 degrees Celsius. Please refer to the CDP Climate Transition Plan technical note for more details. \nEnvironmental risks: potential threats (effects of uncertainty) posed to an organization that arise from its and wider society's dependencies and impacts on the environment (adapted from TNFD \"Nature related risk\", 2023 ).\nImpacts (on the environment): changes in the condition of nature (quality or quantity), which may result in changes to the capacity of nature to provide social and economic functions (adapted from TNFD, 2023 ). \nLandscape and jurisdictional initiative:  an on-the-ground collaborative program to set common goals, take collective action while reconciling different interests, and monitor progress towards improving social, environmental, and economic outcomes at a landscape/jurisdictional scale.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Adaptation : In human systems , the 프로세스 of adjustment to actual 또는 expected climate 및 its effects, in order to moderate harm 또는 exploit beneficial opportunities. In natural systems, the 프로세스 of adjustment to actual climate 및 its effects; human intervention may facilitate adjustment to expected climate 및 its effects ( IPCC, 2018 ). 기후 전환계획: an encompassing instrument that helps organizations to align their climate ambitions. This alignment is achieved by establishing specific strategies 및 clear accountability mechanisms to track progress. 기후 전환계획 which aligns with a 1.5°C world: a time-bound action plan that clearly outlines how an organization will achieve its strategy to pivot its existing assets, operations, 및 entire business model towards a trajectory that aligns with the latest 및 most ambitious climate science recommendations, i.e., halving greenhouse gas (GHG) emissions by 2030 및 reaching net-zero by 2050 at the latest, thereby limiting global warming to 1.5 degrees Celsius. Please refer to the CDP 기후 전환계획 technical note for more details. Environmental risks: potential threats (effects of uncertainty) posed to an organization that arise from its 및 wider society's dependencies 및 impacts on the environment (adapted from TNFD \"Nature related risk\", 2023 ). Impacts (on the environment): changes in the condition of nature (quality 또는 quantity), which may result in changes to the capacity of nature to provide social 및 economic functions (adapted from TNFD, 2023 ). Landscape 및 jurisdictional 이니셔티브: an on-the-ground collaborative program to set common goals, take collective action while reconciling different interests, 및 monitor progress towards improving social, environmental, 및 economic outcomes at a landscape/jurisdictional scale."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "3.5/3.5",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3.5/3.5 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. A 최고 of 3.5/3.5 점 is available for this 경로. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 7/7점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Awareness points:\nFull Disclosure points must be awarded\nAND\nFor each stakeholder row where ‘Yes' is selected in column ‘Engaging with this stakeholder…' AND ‘Climate change' is selected in column ‘Environmental issues covered' in question 5.11, a corresponding option is selected in column ‘Type of stakeholder' for rows where 'Climate change' is selected in column 'Environmental issue'.\n(Please note: The eligibility criteria refers to rows 'Customers', 'Investors and shareholders' and 'Other value chain stakeholders, please specify' in question 5.11 (as applicable).)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding ‘Other, please specify' selected in column ‘Type and details of engagement' AND\nAny option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder type engaged' OR Any option excluding ‘None' OR ‘Unknown' selected in column '% of stakeholder-associated Scope 3 emissions' - 2 points\nA maximum of 2/2 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Full Disclosure 점수를 획득해야 합니다 그리고 For each stakeholder 행 여기서 ‘Yes' is 선택 in 열 ‘Engaging with this stakeholder…' 그리고 ‘기후변화' is 선택 in 열 ‘Environmental issues covered' in 문항 5.11, a corresponding option is 선택 in 열 ‘Type of stakeholder' for 행 여기서 '기후변화' is 선택 in 열 'Environmental issue'. (Please note: The eligibility criteria refers to 행 'Customers', 'Investors 및 shareholders' 및 'Other 가치사슬 stakeholders, 직접 입력' in 문항 5.11 (as 해당되는 경우).) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Type 및 details of engagement' 그리고 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder type engaged' 또는 하나 이상 option 제외 ‘없음' 또는 ‘Unknown' 선택 in 열 '% of stakeholder-associated Scope 3 배출량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'Less than 1%'\n-'1-25%'\n-'26-50%'\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'미만 1%' -'1-25%' -'26-50%' -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points.\n'Customers' selected in column 'Type of stakeholder' AND\nAny of the following selected in either column '% of stakeholder type engaged' OR '% of stakeholder-associated Scope 3 emissions' - 1 point\n-'51-75%'\n-'76-99%'\n-'100%'\nA maximum of 1/1 point is available for this route.\nOne row scored.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Customers' selected in column 'Type of stakeholder' in all rows - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 'Customers' 선택 in 열 'Type of stakeholder' 그리고 하나 이상 의 following 선택 in either 열 '% of stakeholder type engaged' 또는 '% of stakeholder-associated Scope 3 배출량' - 1 점 -'51-75%' -'76-99%' -'100%' 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Customers' 선택 in 열 'Type of stakeholder' in all 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "귀사의 환경이슈 관련하여 가치사슬 내 기타 이해관계자들과의 인게이지먼트 활동을 자세하게 입력하십시오 M5. Business Strategy",
+    "q2025": "Q5.11.9",
+    "q2025_text": "Provide details of any environmental engagement activity with other stakeholders in the value chain.",
+    "change_status": "Minor change",
+    "detail_change_types": "New dropdown option",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": true,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "New dropdown option 'Collaborate with stakeholders to adapt to the impacts of climate change [CFW]' added.",
+    "scoring_change_summary": "",
+    "daml_summary": "General: D 7/7 | A 2/2 | M 1/1 | L 0 or 1/0 or 1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "경미한 변경",
+    "detail_change_typesKo": "신규 드롭다운 선택지",
+    "change_summaryKo": "New dropdown option 'Collaborate with stakeholders to adapt to the impacts of 기후변화 [CFW]' added.",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "일반: D 7/7 | A 2/2 | M 1/1 | L 0 또는 1/0 또는 1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "하나 이상 environmental engagement activity with other stakeholders in the 가치사슬.에 대한 세부 정보를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "7/7",
+    "A": "2/2",
+    "M": "1/1",
+    "L": "0 or 1/0 or 1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "This 문항 provides 데이터 사용자 with transparency regarding organizations' engagement 프로세스es with other 가치사슬 stakeholders. As several 환경 의존성, 임팩트, 리스크 및 기회 can occur outside 직접 운영사업장, 데이터 사용자 are interested in understanding how organizations are working with other stakeholders in their 가치사슬 to drive environmental action.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

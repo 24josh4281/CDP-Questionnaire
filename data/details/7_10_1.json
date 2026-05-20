@@ -1,0 +1,1190 @@
+{
+  "code": "7.10.1",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Identify the reasons for any change in your gross global emissions (Scope 1 and 2 combined), and for each of them specify how your emissions compare to the previous year.",
+  "questionKo": "글로벌 총 배출량(Scope 1과 Scope 2를 합산한 총량)의 변화의 원인을 명시하고, 각 원인별 배출량의 변화를 지난해와 비교하여 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "When investigating how year-on-year gross global emissions (Scope 1 + 2 combined) have changed, CDP and its investors are interested in changes at a granular level; thus allowing CDP's data users to gain an insight into factors than have contributed to these changes.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Change in renewable energy consumption",
+      "titleKo": "Change in renewable 에너지 소비량"
+    },
+    {
+      "order": 2,
+      "title": "Other emissions reduction activities",
+      "titleKo": "Other emissions reduction activities"
+    },
+    {
+      "order": 3,
+      "title": "Divestment",
+      "titleKo": "Divestment"
+    },
+    {
+      "order": 4,
+      "title": "Acquisitions",
+      "titleKo": "Acquisitions"
+    },
+    {
+      "order": 5,
+      "title": "Mergers",
+      "titleKo": "Mergers"
+    },
+    {
+      "order": 6,
+      "title": "Change in output",
+      "titleKo": "Change in output"
+    },
+    {
+      "order": 7,
+      "title": "Change in methodology",
+      "titleKo": "Change in 방법론"
+    },
+    {
+      "order": 8,
+      "title": "Change in boundary",
+      "titleKo": "Change in boundary"
+    },
+    {
+      "order": 9,
+      "title": "Change in physical operating conditions",
+      "titleKo": "Change in physical operating conditions"
+    },
+    {
+      "order": 10,
+      "title": "Unidentified",
+      "titleKo": "Unidentified"
+    },
+    {
+      "order": 11,
+      "title": "Other",
+      "titleKo": "기타"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.10.1.1",
+      "text": "Change in emissions (metric tons CO2e)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "원인",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.10.1.2",
+      "text": "Direction of change in emissions",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Increased",
+        "Decreased",
+        "No change"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "배출량 변화(metric tons CO2e)",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Increased",
+        "Decreased",
+        "변경 없음"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.10.1.3",
+      "text": "Emissions value (percentage)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "배출량 변동 방향",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.10.1.4",
+      "text": "Please explain calculation",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "배출량 변화율(%)",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified guidance",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "가이던스 수정"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Increased\", \"Decreased\" or \"Remained the same overall\" in response to 7.10.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Increased\", \"Decreased\" 또는 \"Remained the same overall\" in response to 7.10."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nCategorize the changes that have occurred in your gross global emissions. You are asked to break down all the different factors that have influenced any overall change in Scope 1+2 emissions; whether increasing or decreasing factors.\nBreak down each applicable factor, describe each in a separate row, and provide the value for the change in overall emissions that is attributed to each of the factors.\nEven if companies have experienced no change overall or an increase in absolute emissions for Scopes 1 and 2, companies should still disclose reduction activities.\nEmissions reduction activities could arise from a number of different sources, including reductions in energy consumption or lower emission equipment/processes. If your emissions have changed compared to the previous reporting year due to several emissions reduction activities, you should aggregate the emissions change that occurred due to these activities and provide this information in row 2 \"Other emissions reduction activities\".\nAny changes in emissions that are attributed to a decline or an increase in your business output (products or services) due to the COVID-19 pandemic should be reported using row \"Change in output\". Please state how your output was affected in \"Please explain calculation\". \nTo report the change in emissions due to a switch from fossil fuels to biofuels, organizations should use row 2 \"Other emissions reduction activities\" to report the changes in emissions directly attributable to the switch. \nReason (column 1) \nThis column is fixed; however, if a row does not apply to you, for e.g. your company did not experience any mergers or acquisitions during the reporting year, leave that row blank.\nFurther details on each of the options are provided below:\nChange in renewable energy consumption (row 2)\nReport the change in your organization's emissions because of the consumption of self-generated or purchased renewable energy.\nIn cases where you have purchased renewable energy, you may include this on the provision that you have accounted for those renewable energy purchases in your market-based Scope 2 figure reported in 7.7 and the purchases reported here were \nadditional purchases in the reporting year.\nDue to the change in accounting practices around Scope 2 with the addition of Scope 2 market-based emissions and low-carbon energy, companies may see their Scope 2 emissions decrease. Any change in Scope 2 emissions due to the change in accounting method from Scope 2 location-based to Scope 2 market-based should not be reported here, but rather under \"Change in methodology\" (see below).\nCDP requires disclosure of gross emissions. Gross means total emissions before any deductions or other adjustments are made to take account of offset credits, avoided emissions from the use of goods and services, and/or reductions attributable to the sequestration or transfer of GHGs.\nOther emissions reduction activities (row 3)\nThis refers to changes in emissions that have occurred because of proactive emissions reduction initiatives or activities, for example those listed in question 7.55.2, other than those caused by a change in renewable energy consumption (which should be reported in the row \"Change in renewable energy consumption\").\nDivestment (row 4)\nThis refers to changes that occur as a result of selling off certain aspects of the businesses.\nAcquisitions (row 5)\nThis refers to changes that occur as a result of purchasing or obtaining another company/subsidiary/facility.\nMergers (row 6)\nThis refers to changes that occur as a result of business mergers.\nChange in output (row 7)\nThis refers to changes that occur as a result of changes (increases or decreases) in your business output (i.e. a product or service); this could be, for example, organic growth, purchases of additional facilities due to business expansion, declines in sales due to a global recession, or release of a new product.\nChange in methodology (row 8)\nThis refers to changes that occur due to modifications in the way that the inventory is calculated, for e.g. changes in emissions factors used or changes in methodology protocol followed.\nCompanies that have amended their Scope 2 emissions figure as a result of the changes in Scope 2 accounting practices for low carbon energy should report this here.\nChange in boundary (row 9)\nThis refers to changes in the boundary used for your inventory calculation, i.e. changing from financial control to operational control. This option could also apply if you have incorporated facilities into your inventory that were excluded in previous years.\nChange in physical operating conditions (row 10)\nThis refers to changes in weather that have a significant influence on how the company operates, but that cannot be accounted for under the other options available, e.g. increase production of hydroelectricity because of increased rainfall.\nUnidentified (row 11)\nComplete this row if you are not able to identify the reason for the change in emissions from year to year.\nOther (row 12)\nComplete this row if there is an alternative reason(s) for the change. Where you have used this option, please provide details of the reason(s) for the change in the \"Please explain\" column.\nDirection of change in emissions (column 3) \nEnter the direction of change of gross global (Scope 1 + Scope 2) emissions due to the reason specified, i.e. increased; decreased, or; No change.\nYou should only select \"No change\" if the percentage change is exactly zero, or zero to four decimal places (e.g. 0.00003).\nEmissions value (percentage) (column 4) \nEnter the change in emissions attributed to the reason (factor) provided in column 1 as a percentage of the Scope 1 and 2 combined emissions. This value should not be greater than 999 and should not have more than four decimal places. If the value rounds to less than zero to four decimal places (e.g. 0.00003), you should enter 0.0000. There is no need to enter the % symbol, and direction of change will be indicated in column 3. This value should be calculated as follows:\n((Change in Scope 1 + 2 emissions attributed to the reason described in column 1) / (Previous year Scope 1+2 emissions)) × 100\nPlease explain calculation (column 5) \nReport the figures used in the calculation for the figure in the \"emissions value %\" column.\nYou may also use this field to provide any additional explanation that is relevant to capture the full complexity of the emissions changes.\nNote for Energy utilities & power generators sector \nVariations in emissions may be attributable to changes in capacity (that translated into changes in output), plant outages (which can also translate into changes in output) and weather events (changes in physical operating conditions). If so, this should be included in your answer to 7.10.1.\nYou can specify the specific drivers (e.g. changes in output due to the utilization of additional capacity coming in operation) in the comment box.\nNote for organizations with significant land sector activities in their operations or value chain and/or that choose to account for and report CO2 removals \nIf you have calculated emissions in line with the GHG Protocol Land Sector and Removals Standard (LSRS) and Guidance for the first time and this has resulted in changes to the scope 1 and/or scope 2 emissions figures reported in 7.6 and/or 7.7, report the change in row \"Change in methodology\".",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Categorize the changes that have occurred in your 전 세계 총 emissions. You are asked to break down all the different factors that have influenced 하나 이상 overall change in Scope 1+2 emissions; whether increasing 또는 decreasing factors. Break down each 해당되는 경우 factor, 설명 each in a separate 행, 및 provide the value 에 대한 change in overall emissions that is attributed to each 의 factors. Even 만약 companies have experienced 변경 없음 overall 또는 an increase in absolute emissions for Scopes 1 및 2, companies 해야 합니다 still disclose reduction activities. Emissions reduction activities could arise from a number of different sources, 포함 reductions in 에너지 소비량 또는 lower emission equipment/프로세스es. 만약 your emissions have changed compared to the 이전 보고연도 due to several emissions reduction activities, you 해야 합니다 aggregate the emissions change that occurred due to these activities 및 provide this information in 행 2 \"기타 emissions reduction activities\". 하나 이상 changes in emissions that are attributed to a decline 또는 an increase in your business output (products 또는 services) due to the COVID-19 pandemic 해야 합니다 be 보고 using 행 \"Change in output\". Please state how your output was affected in \"배출량 변화율(%)\". To report the change in emissions due to a switch from fossil fuels to biofuels, organizations 해야 합니다 use 행 2 \"기타 emissions reduction activities\" to report the changes in emissions directly attributable to the switch. Reason (열 1) This 열 is fixed; however, 만약 a 행 does not apply to you, for e.g. your company did not experience 하나 이상 mergers 또는 acquisitions during the 보고연도, leave that 행 blank. Further details on each 의 options are 입력 below: Change in renewable 에너지 소비량 (행 2) Report the change in 귀사의 emissions because 의 consumption of self-generated 또는 purchased 재생에너지. In cases 여기서 you have purchased 재생에너지, you may include this on the provision that you have accounted for those 재생에너지 purchases in your 시장기반 Scope 2 figure 보고 in 7.7 및 the purchases 보고 here were additional purchases in the 보고연도. Due to the change in accounting practices around Scope 2 with the addition of Scope 2 시장기반 emissions 및 low-carbon energy, companies may see their Scope 2 배출량 decrease. 하나 이상 change in Scope 2 배출량 due to the change in accounting method from Scope 2 지역기반 to Scope 2 시장기반 해야 합니다 not be 보고 here, but rather under \"Change in 방법론\" (see below). CDP requires disclosure of gross emissions. Gross means total emissions before 하나 이상 deductions 또는 기타 adjustments are made to take account of offset credits, avoided emissions from the use of goods 및 services, 및/또는 reductions attributable to the sequestration 또는 transfer of GHGs. 기타 emissions reduction activities (행 3) This refers to changes in emissions that have occurred because of proactive emissions reduction 이니셔티브 또는 activities, for example those listed in 문항 7.55.2, 기타 than those caused by a change in renewable 에너지 소비량 (which 해야 합니다 be 보고 in the 행 \"Change in renewable 에너지 소비량\"). Divestment (행 4) This refers to changes that occur as a result of selling off certain aspects 의 businesses. Acquisitions (행 5) This refers to changes that occur as a result of purchasing 또는 obtaining an기타 company/subsidiary/facility. Mergers (행 6) This refers to changes that occur as a result of business mergers. Change in output (행 7) This refers to changes that occur as a result of changes (increases 또는 decreases) in your business output (i.e. a product 또는 service); this could be, for example, organic g행th, purchases of additional facilities due to business expansion, declines in sales due to a global recession, 또는 release of a new product. Change in 방법론 (행 8) This refers to changes that occur due to modifications in the way that the inventory is calculated, for e.g. changes in emissions factors used 또는 changes in 방법론 protocol followed. Companies that have amended their Scope 2 배출량 figure as a result 의 changes in Scope 2 accounting practices for low carbon energy 해야 합니다 report this here. Change in boundary (행 9) This refers to changes in the boundary used 귀사의 inventory calculation, i.e. changing from financial control to operational control. This option could also apply 만약 you have incorporated facilities into your inventory that were excluded in previous years. Change in physical operating conditions (행 10) This refers to changes in weather that have a significant influence on how the company operates, but that cannot be accounted for under the 기타 options available, e.g. increase production of hydroelectricity because of increased rainfall. Unidentified (행 11) Complete this 행 만약 you are not able to identify the reason 에 대한 change in emissions from year to year. 기타 (행 12) Complete this 행 만약 there is an alternative reason(s) 에 대한 change. 여기서 you have used this option, please 세부 정보를 입력 의 reason(s) 에 대한 change in the \"Please explain\" 열. 배출량 변화(metric tons CO2e) (열 3) Enter the direction of change of 전 세계 총 (Scope 1 + Scope 2) emissions due to the reason specified, i.e. increased; decreased, or; 변경 없음. You 해야 합니다 only select \"변경 없음\" 만약 the percentage change is exactly zero, 또는 zero to four decimal places (e.g. 0.00003). 배출량 변동 방향 (열 4) Enter the change in emissions attributed to the reason (factor) 입력 in 열 1 as a percentage 의 Scope 1 및 2 combined emissions. This value 해야 합니다 not be 초과 999 및 해야 합니다 not have more than four decimal places. 만약 the value rounds to 미만 zero to four decimal places (e.g. 0.00003), you 해야 합니다 enter 0.0000. There is no need to enter the % symbol, 및 direction of change will be indicated in 열 3. This value 해야 합니다 be calculated as follows: ((Change in Scope 1 + 2 emissions attributed to the reason 설명d in 열 1) / (Previous year Scope 1+2 emissions)) × 100 배출량 변화율(%) (열 5) Report the figures used in the calculation 에 대한 figure in the \"emissions value %\" 열. You may also use this field to provide 하나 이상 additional explanation that is relevant to capture the full complexity 의 emissions changes. Note for Energy utilities & power generators sector Variations in emissions may be attributable to changes in capacity (that translated into changes in output), plant outages (which can also translate into changes in output) 및 weather events (changes in physical operating conditions). 만약 so, this 해야 합니다 be included in your answer to 7.10.1. You can specify the specific drivers (e.g. changes in output due to the utilization of additional capacity coming in operation) in the comment box. Note for organizations with significant land sector activities in their operations 또는 가치사슬 및/또는 that choose to account for 및 report CO2 removals 만약 you have calculated emissions in line with the GHG Protocol Land Sector 및 Removals Standard (LSRS) 및 Guidance 에 대한 first time 및 this has resulted in changes to the scope 1 및/또는 Scope 2 배출량 figures 보고 in 7.6 및/또는 7.7, report the change in 행 \"Change in 방법론\"."
+    },
+    {
+      "type": "Example Response",
+      "text": "Worked example of reporting change in emissions \nExample 1 : The gross global emissions (Scope 1 + 2) of company X for this reporting year are 208 metric tons of CO2e. Its gross global emissions for the previous reporting year were 200 metric tons of CO2e. This means that the total change in emissions is 8 metric tons of CO2e, equal to a 4% increase, according to the formula in the explanation of terms, above: (8/200) * 100 = 4%. \nThe change from 200 to 208 metric tons is attributed to two reasons: 1) an increase in 12 metric tons of CO2e emissions due to increased production (i.e. a change in output); and 2) an estimated reduction of 4 metric tons of CO2e achieved due to emissions reduction activities. \nThe emissions value (percentage) for each of these two individual factors can also be calculated using the same formula described in the guidance, above. \nIn this example, the percentage change in emissions due to increased production is: (12/200) * 100 = 6%. This represents a 6% increase in emissions due to increased production. \nThe percentage change in emissions due to emissions reduction activities: (-4/200) * 100 = -2%. This represents a 2% decrease in emissions due to emissions reduction activities. \nThis company should respond in the following way to questions 7.10 and 7.10.1: \n(7.10) How do your gross global emissions (Scope 1 and 2 combined) for the reporting year compare to those of the previous reporting year? \nIncreased \n(7.10.1) Identify the reasons for any change in your gross global emissions (Scope 1 and 2 combined) and for each of them specify how your emissions compare to the previous year.\nReason\nChange in emissions (metric tons CO2e)\nDirection of change in emissions\nEmissions value (percentage)\nPlease explain calculation\nOther emissions reduction activities \n4 \nDecreased \n2 \nDue to ‘other emissions reduction activities' implemented during the year, despite an increase in production, emissions have not grown as high as could be expected. Last year 4 tons of CO 2e were reduced by our emissions reduction projects, and our total Scope 1 and Scope 2 emissions in the previous year was 200 tCO 2e, therefore we arrived at -2% through (-4/200) * 100= -2% (i.e. a 2% decrease in emissions). \nChange in output \n12 \nIncreased \n6 \nIf no measures had been introduced, increased demand leading to increase output would have generated an extra 6% more of emissions.",
+      "typeKo": "Example Response",
+      "textKo": "Worked example of reporting change in emissions Example 1 : The 전 세계 총 emissions (Scope 1 + 2) of company X for this 보고연도 are 208 metric tons of CO2e. Its 전 세계 총 emissions 에 대한 이전 보고연도 were 200 metric tons of CO2e. This means that the total change in emissions is 8 metric tons of CO2e, equal to a 4% increase, according to the formula in the explanation of terms, above: (8/200) * 100 = 4%. The change from 200 to 208 metric tons is attributed to two reasons: 1) an increase in 12 metric tons of CO2e emissions due to increased production (i.e. a change in output); 및 2) an estimated reduction of 4 metric tons of CO2e achieved due to emissions reduction activities. The 배출량 변동 방향 for each 의se two individual factors can also be calculated using the same formula 설명d in the guidance, above. In this example, the percentage change in emissions due to increased production is: (12/200) * 100 = 6%. This represents a 6% increase in emissions due to increased production. The percentage change in emissions due to emissions reduction activities: (-4/200) * 100 = -2%. This represents a 2% decrease in emissions due to emissions reduction activities. This company 해야 합니다 respond in the following way to questions 7.10 및 7.10.1: (7.10) How do your 전 세계 총 emissions (Scope 1 및 2 combined) 에 대한 보고연도 compare to those 의 이전 보고연도? Increased (7.10.1) Identify the reasons for 하나 이상 change in your 전 세계 총 emissions (Scope 1 및 2 combined) 및 for each 의m specify how your emissions compare to the previous year. Reason Change in emissions (미터톤 CO2e) 배출량 변화(metric tons CO2e) 배출량 변동 방향 배출량 변화율(%) 기타 emissions reduction activities 4 Decreased 2 Due to ‘기타 emissions reduction activities' implemented during the year, despite an increase in production, emissions have not g행n as high as could be expected. Last year 4 tons of CO 2e were reduced by our emissions reduction projects, 및 our total Scope 1 및 Scope 2 배출량 in the previous year was 200 tCO 2e, therefore we arrived at -2% through (-4/200) * 100= -2% (i.e. a 2% decrease in emissions). Change in output 12 Increased 6 만약 no measures had been introduced, increased demand leading to increase output would have generated an extra 6% more of emissions."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 3/1 or 3",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "At least one row completed - 4 points\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "최소 one 행 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Increased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Increased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE B)\n'Decreased' selected in question 7.10 AND\nAny row completed (excluding rows 'Unidentified' AND 'Other') where 'Decreased' is selected in column 'Direction of change in emissions' - 3 points\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE C)\n'Remained the same overall' selected in question 7.10 AND\n'No change' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other')\nOR\n'Increased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') AND 'Decreased' selected in column 'Direction of change in emissions' in at least one row (excluding rows 'Unidentified' AND 'Other') - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nROUTE D)\n'Remained the same overall' selected in question 7.10 AND\n'Decreased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') OR\n'Increased' selected in column 'Direction of change in emissions' in all rows (excluding rows 'Unidentified' AND 'Other') - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Increased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Increased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 'Decreased' 선택 in 문항 7.10 그리고 하나 이상 행 완성 (제외 행 'Unidentified' 그리고 '기타') 여기서 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 C) 'Remained the same overall' 선택 in 문항 7.10 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in 최소 one 행 (제외 행 'Unidentified' 그리고 '기타') - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 D) 'Remained the same overall' 선택 in 문항 7.10 그리고 'Decreased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') 또는 'Increased' 선택 in 열 '배출량 변화(metric tons CO2e)' in all 행 (제외 행 'Unidentified' 그리고 '기타') - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\nFull Awareness points awarded AND\nBoth rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities' completed AND\nEither 'Decreased' OR 'No change' selected in column 'Direction of change in emissions' in both rows 'Change in renewable energy consumption' AND 'Other emissions reduction activities'.\nROUTE A)\nAll of the following are met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption' - 1 point\nFigure greater than 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure greater than 0 provided in column 'Emissions value (percentage)' AND\n'Decreased' is selected in column 'Direction of change in emissions'.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nBoth of the following criteria are met - 1 point\ni) All of the following criteria met in either row 'Other emission reduction activities' OR 'Change in renewable energy consumption':\nFigure of 0 provided in column 'Change in emissions (metric tons CO2e)' AND\nFigure of 0 provided in column 'Emissions value (percentage)' AND\n'No change' selected in column 'Direction of change in emissions'.\nii) Figure of 0 provided in column 'Gross global Scope 1 emissions (metric tons CO2e)' in rows 'Reporting year' AND 'Past year' in question 7.6 AND\nSum of figures provided in both columns 'Scope 2, location-based' AND 'Scope 2, market-based (if applicable)' in rows 'Reporting year' AND 'Past year 1' in question 7.7 is 0.\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: Awareness에서 최고점 획득 그리고 Both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities' 완성 그리고 Either 'Decreased' 또는 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)' in both 행 'Change in renewable 에너지 소비량' 그리고 '기타 emissions reduction activities'. 경로 A) All 의 following are met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량' - 1 점 Figure 초과 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure 초과 0 입력 in 열 '배출량 변동 방향' 그리고 'Decreased' is 선택 in 열 '배출량 변화(metric tons CO2e)'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Both 의 following criteria are met - 1 점 i) All 의 following criteria met in either 행 '기타 emission reduction activities' 또는 'Change in renewable 에너지 소비량': Figure of 0 입력 in 열 'Change in emissions (미터톤 CO2e)' 그리고 Figure of 0 입력 in 열 '배출량 변동 방향' 그리고 '변경 없음' 선택 in 열 '배출량 변화(metric tons CO2e)'. ii) Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in 행 '보고연도' 그리고 'Past year' in 문항 7.6 그리고 Sum of figures 입력 in both 열 'Scope 2, 지역기반' 그리고 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "총 배출량 (Scope 1 과 2 합산 ) 에 변화가 있는 경우 그 이유를 파악하고 , 각각에 대해 배출량이 전년도와 어떻게 비교되는지 구체적으로 설명하십시오 . ` M7. Environmental Performance - Climate Change 이유 배출량 변화 ( 미터톤 CO2e) 배출량 변화 방향 배출량 변화율 ( 백분율 ) 계산식 설명 각 행별로 작성 재생 에너지 소비량 변화 기타 배출량 감축 활동 매각 인수 합병 생산량 변화 방법론의 변화 경계 변경 물리적 운영 조건의 변화 미확인 기타 숫자 입력 소수점 최대 3 자리 입력 증가 감소 변화 없음 숫자 입력 소수점 최대 4 자리 입력 최대 2,400 자 작성",
+    "q2025": "Q7.10.1",
+    "q2025_text": "Identify the reasons for any change in your gross global emissions (Scope 1 and 2 combined), and for each of them specify how your emissions compare to the previous year.",
+    "change_status": "Modified guidance",
+    "detail_change_types": "New guidance",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": true,
+    "changed_scoring": false,
+    "change_summary": "Added guidance for organizations with significant land sector activities in their operations or value chain and/or that choose to account for and report CO2 removals.",
+    "scoring_change_summary": "",
+    "daml_summary": "General: D 4/4 | A 0 or 3/1 or 3 | M 1/1 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "가이던스 수정",
+    "detail_change_typesKo": "신규 가이던스",
+    "change_summaryKo": "Added guidance for organizations with significant land sector activities in their operations 또는 가치사슬 및/또는 that choose to account for 및 report CO2 removals.",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "일반: D 4/4 | A 0 또는 3/1 또는 3 | M 1/1 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "the reasons for 하나 이상 change in your 전 세계 총 emissions (Scope 1 및 2 combined), 및 for each 의m specify how your emissions compare to the previous year.을/를 식별하십시오."
+  },
+  "defaultPoints": {
+    "D": "4/4",
+    "A": "0 or 3/1 or 3",
+    "M": "1/1",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "경우 investigating how year-on-year 전 세계 총 emissions (Scope 1 + 2 combined) have changed, CDP 및 its investors are interested in changes at a granular level; thus allowing CDP's 데이터 사용자 to gain an insight into factors than have contributed to these changes.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

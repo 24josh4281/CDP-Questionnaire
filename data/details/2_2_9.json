@@ -1,0 +1,373 @@
+{
+  "code": "2.2.9",
+  "module": "2",
+  "moduleTitle": "Identification, assessment, and management of dependencies, impacts, risks, and opportunities",
+  "questionText": "Indicate the environmental information your organization considers about clients/investees as part of your due diligence and/or environmental dependencies, impacts, risks and/or opportunities assessment process, and how this influences decision-making.",
+  "questionKo": "the environmental information 귀사 considers about 고객/투자대상 as part of your 실사 및/또는 환경 의존성, impacts, 리스크 및/또는 기회 assessment 프로세스, 및 how this influences decision-making.을/를 표시하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Climate Change, Forests",
+  "sectorTags": "Financial services",
+  "simpleHelp": "Considering environmental information about clients/investees in the initial phases of a financial institutions' assessment of dependencies, impacts, risks, and opportunities and/or as part of their due diligence process helps data users and the organization understand their value chain's exposure to environmental risks and opportunities. Data users are interested in what information financial institutions consider, about which clients/investees, and whether that is enough for them to make informed lending, investment and/or insurance underwriting decisions and thus mitigate environmental risks within their portfolio.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Banking (Bank)",
+      "titleKo": "Banking (Bank)"
+    },
+    {
+      "order": 2,
+      "title": "Investing (Asset manager)",
+      "titleKo": "Investing (Asset manager)"
+    },
+    {
+      "order": 3,
+      "title": "Investing (Asset owner)",
+      "titleKo": "Investing (Asset owner)"
+    },
+    {
+      "order": 4,
+      "title": "Insurance underwriting (Insurance company)",
+      "titleKo": "Insurance underwriting (Insurance company)"
+    }
+  ],
+  "columns": [
+    {
+      "code": "2.2.9.1",
+      "text": "Environmental issues covered",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Climate change",
+        "Water"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Environmental issues covered",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "기후변화",
+        "수자원"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.2.9.2",
+      "text": "Type of environmental information considered",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Access to WASH in the workplace",
+        "Breaches to local water regulations",
+        "CDP questionnaire response",
+        "CDP scores",
+        "Climate transition plans",
+        "Clients' scenario analyses",
+        "Exposure to acute physical risks",
+        "Exposure to chronic physical risks",
+        "Emissions data",
+        "Emissions reduction targets",
+        "Energy usage data",
+        "Engagement with their value chain on environmental issues",
+        "Impingements on the human right to water in communities",
+        "Science-Based Net-Zero Targets",
+        "Scope and content of water policy",
+        "TCFD disclosures",
+        "TNFD disclosures",
+        "Water discharge treatment data",
+        "Water withdrawal and/or consumption volumes",
+        "Water withdrawn from water stressed areas",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Type of environmental information considered",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Access to WASH in the workplace",
+        "Breaches to local water regulations",
+        "CDP questionnaire response",
+        "CDP scores",
+        "기후 전환계획s",
+        "Clients' scenario analyses",
+        "Exposure to acute physical risks",
+        "Exposure to chronic physical risks",
+        "배출량 데이터",
+        "Emissions reduction 목표",
+        "Energy usage data",
+        "Engagement with their 가치사슬 on environmental issues",
+        "Impingements on the human right to water in communities",
+        "Science-Based Net-Zero 목표",
+        "Scope 및 content of water 정책",
+        "TCFD disclosures",
+        "TNFD disclosures",
+        "Water discharge treatment data",
+        "Water withdrawal 및/또는 consumption volumes",
+        "Water withdrawn from water stressed areas",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.2.9.3",
+      "text": "Process through which information is obtained",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Directly from the client/investee",
+        "From an intermediary or business partner",
+        "Data provider",
+        "Public data sources",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "프로세스 through which information is obtained",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Directly from the 고객/투자대상",
+        "From an intermediary 또는 business partner",
+        "Data provider",
+        "Public data sources",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.2.9.4",
+      "text": "Industry sectors covered by due diligence and/or risk assessment process",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Apparel",
+        "Biotech, health care & pharma",
+        "Food, beverage & agriculture",
+        "Fossil Fuels",
+        "Hospitality",
+        "Infrastructure",
+        "International bodies",
+        "Manufacturing",
+        "Materials",
+        "Power generation",
+        "Retail",
+        "Services",
+        "Transportation services"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Industry sectors covered by 실사 및/또는 risk assessment 프로세스",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Apparel",
+        "Biotech, health care & pharma",
+        "Food, beverage & agriculture",
+        "Fossil Fuels",
+        "Hospitality",
+        "Infrastructure",
+        "International bodies",
+        "Manufacturing",
+        "Materials",
+        "발전",
+        "Retail",
+        "Services",
+        "Transportation services"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.2.9.5",
+      "text": "% of portfolio covered by the process in relation to total portfolio value",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% of 포트폴리오 covered by the 프로세스 in relation to total 포트폴리오 value",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.2.9.6",
+      "text": "Total portfolio value covered by the process",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Total 포트폴리오 value covered by the 프로세스",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified question",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified 문항"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in response to column \"We consider environmental information\" for any row of 2.2.8.\nRows will appear based on \"Yes\" responses to the corresponding row in column 1 \"We consider environmental information\" of 2.2.8.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 열 \"We consider environmental information\" for 하나 이상 행 of 2.2.8. 행 will appear based on \"Yes\" responses to the corresponding 행 in 열 1 \"We consider environmental information\" of 2.2.8."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nFor each of your portfolios, disclose which types of environmental information you consider about your clients/investee companies as part of your screening, dependencies, impacts, risks and/or opportunities assessment process assessment and/or due diligence process. For example:\nBanks:\nConsidering clients' environmental information in borrower and deal-level credit risk and other pre-lending assessments such as due diligence and \"know your client\" processes.\nFor the purpose of this question, focus on your commercial/corporate clients.\nAsset managers:\nConsidering investees' environmental information in fund allocation and investment risk assessment processes.\nInsurance companies:\nConsidering policyholders' environmental information in insurance underwriting due diligence processes.\nPortfolio (column 1) \nA row will appear if \"Yes\" is selected in the corresponding row in 2.2.8.\nEnvironmental issues covered (column 2) \nSelect all environmental issues for which information is considered.\nIf the details you are requested to provide differ for the different environmental issues (e.g. if the process through which information on the climate issue is obtained is different from the process for obtaining forests-related information), add a new response row for the relevant portfolio.\nType of environmental information considered (column 3) \nSelect which type of environmental information you consider as part of your screening, dependencies, impacts, risks and/or opportunities assessment and/or due diligence process.\nIf you consider environmental information that is not in the list, select \"Other, please specify\" and provide a label.\nProcess through which information is obtained (column 4) \nSelect how you obtain environmental information about clients/investee companies. This information could either be requested from the client/investee directly or gathered from other data sources.\n% of portfolio covered by the process in relation to total portfolio value (column 6) \nFor each of your portfolios selected, disclose the percentage of portfolio value covered by the process out of the total portfolio value based on assets value reported in question 1.10.\nTotal portfolio value covered by the process (column 7) \nCalculate the total portfolio value covered by the process. This should be done using the following formula:\n(Column 6 \"% of portfolio covered by the process in relation to total portfolio value\" / 100) x Column 4 \"Portfolio value based on total assets\" of 1.10 for the corresponding row",
+      "typeKo": "요청 내용",
+      "textKo": "일반 For each of your 포트폴리오s, disclose which types of environmental information you consider about your clients/investee companies 의 일부로 your screening, dependencies, impacts, 리스크 및/또는 기회 assessment 프로세스 assessment 및/또는 실사 프로세스. For example: Banks: Considering clients' environmental information in bor행er 및 deal-level credit risk 및 other pre-lending assessments such as 실사 및 \"know your client\" 프로세스es. 에 대한 purpose of this 문항, focus on your commercial/corporate clients. 자산운용사: Considering investees' environmental information in fund allocation 및 investment risk assessment 프로세스es. Insurance companies: Considering 정책holders' environmental information in insurance underwriting 실사 프로세스es. 포트폴리오 (열 1) A 행 will appear 만약 \"Yes\" is 선택 in the corresponding 행 in 2.2.8. Environmental issues covered (열 2) Select all environmental issues for which information is considered. 만약 the details you are requested to provide differ 에 대한 different environmental issues (e.g. 만약 the 프로세스 through which information on the climate issue is obtained is different from the 프로세스 for obtaining forests-related information), add a new response 행 에 대한 relevant 포트폴리오. Type of environmental information considered (열 3) Select which type of environmental information you consider 의 일부로 your screening, dependencies, impacts, 리스크 및/또는 기회 assessment 및/또는 실사 프로세스. 만약 you consider environmental information that is not in the list, select \"Other, 직접 입력\" 및 provide a label. 프로세스 through which information is obtained (열 4) Select how you obtain environmental information about clients/investee companies. This information could either be requested from the 고객/투자대상 directly 또는 gathered from other data sources. % of 포트폴리오 covered by the 프로세스 in relation to total 포트폴리오 value (열 6) For each of your 포트폴리오s 선택, disclose the percentage of 포트폴리오 value covered by the 프로세스 out 의 total 포트폴리오 value based on assets value 보고 in 문항 1.10. Total 포트폴리오 value covered by the 프로세스 (열 7) Calculate the total 포트폴리오 value covered by the 프로세스. This 해야 합니다 be done using the following formula: (열 6 \"% of 포트폴리오 covered by the 프로세스 in relation to total 포트폴리오 value\" / 100) x 열 4 \"포트폴리오 value based on total assets\" of 1.10 에 대한 corresponding 행"
+    },
+    {
+      "type": "Ambition",
+      "text": "Financial institutions consider environmental information about clients/investees as part of the due diligence and/or risk assessment process for all relevant portfolios.\nFinancial institutions describe the due-diligence processes applied, the screening criteria used, and the proportion of the portfolio covered, disclosing the total value of loans and investments.",
+      "typeKo": "Ambition",
+      "textKo": "Financial institutions consider environmental information about 고객/투자대상 의 일부로 the 실사 및/또는 risk assessment 프로세스 for all relevant 포트폴리오s. Financial institutions 설명 the due-diligence 프로세스es applied, the screening criteria used, 및 the proportion 의 포트폴리오 covered, disclosing the total value of loans 및 investments."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Access to WASH in the workplace refers to water, sanitation, and hygiene services.\nBreaches to local water regulations refers to failures in observing water regulations, which aim to prevent overuse, contamination and other detrimental activities.\nCertification: the action or process of providing a product with an official document attesting to a status or level of achievement against a certain standard.\nCommodity volumes: the total volumes of a commodity that are produced and/or sourced by the portfolio company.\nCertification of commodities: a certification process is carried out by an independent organization to ensure environmental and social criteria have been met.\nCommitment to eliminate deforestation and conversion of other natural ecosystems: a company committing to no deforestation and no conversion of natural ecosystems.\nDeforestation: loss of natural forest as a result of: i) conversion to agriculture or other non-forest land use; ii) conversion to a tree plantation; or iii) severe and sustained degradation\nSevere and sustained degradation (scenario iii in the definition) constitutes deforestation even if the land is not subsequently used for a non-forest land use.\nLoss of natural forest that meets this definition is considered to be deforestation regardless of whether or not it is legal.\nThe definition of deforestation signifies \"gross deforestation\" of natural forest where \"gross\" is used in the sense of \"total; aggregate; without deduction for reforestation or other offset.\" (adapted from AFi, 2024 ).\nConversion: loss of a natural ecosystem as a result of its replacement with agriculture or another land use, or due to a profound and sustained change in the natural ecosystem's species composition, structure, or function.\nDeforestation is one form of conversion (conversion of natural forests).\nConversion includes severe degradation or the introduction of management practices that result in a profound and sustained change in the ecosystem's species composition, structure, or function.\nChange to natural ecosystems that meets this definition is considered to be conversion regardless of whether or not it is legal ( AFi, 2024 ).\nDue diligence: research or investigation performed by the financial services company before transacting with another party.\nImpingements on the human right to water in communities refers water withdrawals, consumption or discharges which limit the water availability for local communities due to quantity or quality factors.\nNo-conversion \n(also referred to as: deforestation- and conversion-free) : commodity production, sourcing, or financial investments that do not cause or contribute to the conversion of natural ecosystems.\nNo-conversion refers to no gross conversion of natural ecosystems, which the Accountability Framework specifies as the appropriate policy and goal on this topic for companies and supply chains.\nThe terms \"no-conversion\" and \"conversion-free\" are used in favor of \"zero-conversion\" because \"zero\" can imply an absolutist approach that may be at odds with the need to sometimes accommodate minimal levels of conversion at the site level in the interest of facilitating optimal conservation and production outcomes (see AFi's definition for minimal level [of deforestation or conversion], 2024 ) (adapted from AFi, 2024 ).\nNo-deforestation (also referred to as: deforestation-free) : commodity production, sourcing, or financial investments that do not cause or contribute to deforestation.\nNo-deforestation refers to no gross deforestation of natural forests, which the Accountability Framework specifies as the appropriate policy and goal on this topic for companies and supply chains.\nIn the context of the Accountability Framework, deforestation refers to the loss of natural forest (see definition of deforestation).\nThe terms \"no-deforestation\" and \"deforestation-free\" are used in favor of \"zero deforestation\" because \"zero\" can imply an absolutist approach that may be at odds with the need sometimes to accommodate minimal levels of conversion at the site level in the interest of facilitating optimal conservation and production outcomes (see AFi's definition for minimal level [of deforestation or conversion], 2024 ) (adapted from AFi, 2024 ).\nOrigin of commodities: where the supply base of a given commodity is grown, harvested or reared.\nProportion of commodity volumes in compliance with no deforestation and conversion: how much of the total commodity volume produced or consumed by the portfolio company can be verified as in compliance with no-deforestation and no-conversion policies and commitments.\nScope and content of forests policy: a statement by a portfolio organization specifying the goals or targets that it intends to meet or the actions it intends to take in regards to its management of forest-related issues.\nScope and content of water policy refers to a statement of an organization's water-related commitments, and the actions that will achieve them.\nTraceability: the ability to follow a product or its components through stages of the value chain (e.g., production, processing, manufacturing, and distribution) (adapted from AFi, 2024 ).\nWater withdrawal : the sum of all water drawn into the boundaries of an organization from all sources for any use over the course of a reporting period.\nWater consumption : the amount of water that is drawn into the boundaries of an organization and not discharged back to the water environment or a third party over the course of a reporting year.\nWater stress (‘areas with'): a concept that considers physical quantity aspects related to water resources, including water availability. As good practice, a water stressed area should be measured at the catchment level as a minimum. Commonly accepted global indicators to assess areas as water stressed and their thresholds for reporting to CDP include:\nWater availability - risk category greater than ‘High risk': 3.4 ( WWF Water Risk Filter) . WWF recommends that users also take into consideration ‘Medium risk': >2.6. This category is based on a multi-model approach which integrates the best available global water scarcity risk indicators: water depletion, baseline water stress, freshwater quantity target and groundwater availability. In addition, WWF recommends that users take into consideration locations facing 'Drought' risk as these can exacerbate risks related to 'Water Availability'.\nBaseline water stress - indicator equal to/greater than ‘High': 40-80% ( WRI Aqueduct Water Risk Atlas) . This refers to ratio of total annual water withdrawals to available renewable water supply.\nBaseline water depletion - indicator equal to/greater than ‘High': 50-75% ( WRI Aqueduct Water Risk Atlas) . This refers to the ratio of total annual water consumption to available renewable water supply.\nWater discharge treatment data informs on the quality of effluents and other water leaving the boundaries of an organization and released to surface water, groundwater, or third parties.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Access to WASH in the workplace refers to 수자원, sanitation, 및 hygiene services. Breaches to local 수자원 regulations refers to failures in observing 수자원 regulations, which aim to prevent overuse, contamination 및 other detrimental activities. Certification: the action 또는 프로세스 of providing a product with an official document attesting to a status 또는 level of achievement against a certain standard. Commodity volumes: the total volumes of a commodity that are produced 및/또는 sourced by the 포트폴리오 company. Certification of commodities: a certification 프로세스 is carried out by an independent organization to ensure environmental 및 social criteria have been met. Commitment to eliminate deforestation 및 conversion of other natural ecosystems: a company committing to no deforestation 및 no conversion of natural ecosystems. Deforestation: loss of natural forest as a result of: i) conversion to agriculture 또는 other non-forest land use; ii) conversion to a tree plantation; 또는 iii) severe 및 sustained degradation Severe 및 sustained degradation (scenario iii in the definition) constitutes deforestation even 만약 the land is not subsequently used for a non-forest land use. Loss of natural forest that meets this definition is considered to be deforestation regardless of whether 또는 not it is legal. The definition of deforestation signifies \"gross deforestation\" of natural forest 여기서 \"gross\" is used in the sense of \"total; aggregate; without deduction for reforestation 또는 other offset.\" (adapted from AFi, 2024 ). Conversion: loss of a natural ecosystem as a result of its replacement with agriculture 또는 another land use, 또는 due to a profound 및 sustained change in the natural ecosystem's species composition, structure, 또는 function. Deforestation is one form of conversion (conversion of natural forests). Conversion includes severe degradation 또는 the introduction of management practices that result in a profound 및 sustained change in the ecosystem's species composition, structure, 또는 function. Change to natural ecosystems that meets this definition is considered to be conversion regardless of whether 또는 not it is legal ( AFi, 2024 ). 실사: research 또는 investigation performed by the financial services company before transacting with another party. Impingements on the human right to 수자원 in communities refers 수자원 withdrawals, consumption 또는 discharges which limit the 수자원 availability for local communities due to quantity 또는 quality factors. No-conversion (also referred to as: deforestation- 및 conversion-free) : commodity production, sourcing, 또는 financial investments that do not cause 또는 contribute to the conversion of natural ecosystems. No-conversion refers to no gross conversion of natural ecosystems, which the Accountability Framework specifies as the appropriate 정책 및 goal on this topic for companies 및 공급망s. The terms \"no-conversion\" 및 \"conversion-free\" are used in favor of \"zero-conversion\" because \"zero\" can imply an absolutist approach that may be at odds with the need to sometimes accommodate minimal levels of conversion at the site level in the interest of facilitating optimal conservation 및 production outcomes (see AFi's definition for minimal level [of deforestation 또는 conversion], 2024 ) (adapted from AFi, 2024 ). No-deforestation (also referred to as: deforestation-free) : commodity production, sourcing, 또는 financial investments that do not cause 또는 contribute to deforestation. No-deforestation refers to no gross deforestation of natural forests, which the Accountability Framework specifies as the appropriate 정책 및 goal on this topic for companies 및 공급망s. In the context 의 Accountability Framework, deforestation refers to the loss of natural forest (see definition of deforestation). The terms \"no-deforestation\" 및 \"deforestation-free\" are used in favor of \"zero deforestation\" because \"zero\" can imply an absolutist approach that may be at odds with the need sometimes to accommodate minimal levels of conversion at the site level in the interest of facilitating optimal conservation 및 production outcomes (see AFi's definition for minimal level [of deforestation 또는 conversion], 2024 ) (adapted from AFi, 2024 ). Origin of commodities: 여기서 the supply base of a given commodity is g행n, harvested 또는 reared. Proportion of commodity volumes in compliance with no deforestation 및 conversion: how much 의 total commodity volume produced 또는 consumed by the 포트폴리오 company can be verified as in compliance with no-deforestation 및 no-conversion policies 및 commitments. Scope 및 content of forests 정책: a statement by a 포트폴리오 organization specifying the goals 또는 목표 that it intends to meet 또는 the actions it intends to take in regards to its management of forest-related issues. Scope 및 content of 수자원 정책 refers to a statement of an 조직의 수자원-related commitments, 및 the actions that will achieve them. Traceability: the ability to follow a product 또는 its components through stages 의 가치사슬 (e.g., production, 프로세스ing, manufacturing, 및 distribution) (adapted from AFi, 2024 ). 수자원 withdrawal : the sum of all 수자원 drawn into the boundaries of an organization from all sources for 하나 이상 use over the course of a reporting period. 수자원 consumption : the amount of 수자원 that is drawn into the boundaries of an organization 및 not discharged back to the 수자원 environment 또는 a third party over the course of a 보고연도. 수자원 stress (‘areas with'): a concept that considers physical quantity aspects related to 수자원 resources, 포함 수자원 availability. As good practice, a 수자원 stressed area 해야 합니다 be measured at the catchment level as a minimum. Commonly accepted global indicators to assess areas as 수자원 stressed 및 their thresholds for reporting to CDP include: 수자원 availability - risk category 초과 ‘High risk': 3.4 ( WWF 수자원 Risk Filter) . WWF recommends that users also take into consideration ‘Medium risk': >2.6. This category is based on a multi-model approach which integrates the best available global 수자원 scarcity risk indicators: 수자원 depletion, baseline 수자원 stress, fresh수자원 quantity 목표 및 ground수자원 availability. In addition, WWF recommends that users take into consideration locations facing 'Drought' risk as these can exacerbate risks related to '수자원 Availability'. Baseline 수자원 stress - indicator equal to/초과 ‘High': 40-80% ( WRI Aqueduct 수자원 Risk Atlas) . This refers to ratio of total annual 수자원 withdrawals to available renewable 수자원 supply. Baseline 수자원 depletion - indicator equal to/초과 ‘High': 50-75% ( WRI Aqueduct 수자원 Risk Atlas) . This refers to the ratio of total annual 수자원 consumption to available renewable 수자원 supply. 수자원 discharge treatment data informs on the quality of effluents 및 other 수자원 leaving the boundaries of an organization 및 released to surface 수자원, ground수자원, 또는 third parties."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "2/2",
+      "L": "0 or 1/0 or 1",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor any of the following rows (if applicable):\n‘Banking (Bank)'\n‘Investing (Asset manager)‘\n‘Investing (Asset owner)‘\nFor rows where 'Climate change' is selected in column 'Environmental issues covered':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed (excluding column 'Total portfolio value covered by the process'). Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.\nOR\nROUTE B)\nFor row 'Insurance underwriting (Insurance company)' (if applicable):\nFor rows where 'Climate change' is selected in column 'Environmental issues covered':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed (excluding columns '% of portfolio covered by the process in relation to total portfolio value' AND 'Total portfolio value covered by the process'). Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 다음 항목 중 the following 행 (만약 해당되는 경우): ‘Banking (Bank)' ‘Investing (Asset manager)‘ ‘Investing (Asset owner)‘ For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개 (제외 열 'Total 포트폴리오 value covered by the 프로세스'). 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) For 행 'Insurance underwriting (Insurance company)' (만약 해당되는 경우): For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개 (제외 열 '% of 포트폴리오 covered by the 프로세스 in relation to total 포트폴리오 value' 그리고 'Total 포트폴리오 value covered by the 프로세스'). 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'Climate change' must be selected in column 'Environmental issues covered' in at least one row to be eligible for Awareness points.\nROUTE A)\nFor any of the following rows (if applicable):\n‘Banking (Bank)'\n‘Investing (Asset manager)‘\n‘Investing (Asset owner)‘\nFor rows where 'Climate change' is selected in column 'Environmental issues covered':\nPoints will be awarded per completed row in proportion to the number of rows disclosed (excluding column 'Total portfolio value covered by the process').\nA maximum of 1/1 point is available for this question.\nOR\nROUTE B)\nFor row 'Insurance underwriting (Insurance company)' (if applicable):\nFor rows where 'Climate change' is selected in column 'Environmental issues covered':\nPoints will be awarded per completed row in proportion to the number of rows disclosed (excluding columns '% of portfolio covered by the process in relation to total portfolio value' AND 'Total portfolio value covered by the process').\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'기후변화' 해야 합니다 be 선택 in 열 'Environmental issues covered' in 최소 one 행 to be 획득 가능 for Awareness 점. 경로 A) 다음 항목 중 the following 행 (만약 해당되는 경우): ‘Banking (Bank)' ‘Investing (Asset manager)‘ ‘Investing (Asset owner)‘ For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered': 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total 포트폴리오 value covered by the 프로세스'). 이 문항에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 'Insurance underwriting (Insurance company)' (만약 해당되는 경우): For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered': 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 '% of 포트폴리오 covered by the 프로세스 in relation to total 포트폴리오 value' 그리고 'Total 포트폴리오 value covered by the 프로세스'). 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\n- 'Climate change' selected in column 'Environmental issues covered' in at least one row\n- Full Awareness points awarded\nROUTE A)\nFor any of the following rows (if applicable):\n‘Banking (Bank)'\n‘Investing (Asset manager)‘\n‘Investing (Asset owner)‘\nFor rows where 'Climate change' is selected in column 'Environmental issues covered':\ni) Any of the following options selected in column 'Type of environmental information considered' - 1 point\n- 'Emissions data'\n- 'Energy usage data'\n- 'Emissions reduction targets'\n- 'Climate transition plans'\n- 'TCFD disclosures'\n- 'Science-Based Net-Zero Targets'\nii) A figure greater than 0 selected in column '% of portfolio covered by the process in relation to total portfolio value' - 1 point\nA maximum of 2/2 points is available for this question.\nOR\nROUTE B)\nFor row 'Insurance underwriting (Insurance company)' (if applicable):\nFor rows where 'Climate change' is selected in column 'Environmental issues covered':\nAny of the following options selected in column 'Type of environmental information considered' - 2 points\n- 'Emissions data'\n- 'Energy usage data'\n- 'Emissions reduction targets'\n- 'Climate transition plans'\n- 'TCFD disclosures'\n- 'Science-Based Net-Zero Targets'\nA maximum of 2/2 points is available for this question.\nOne row scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: - '기후변화' 선택 in 열 'Environmental issues covered' in 최소 one 행 - Awareness에서 최고점 획득 경로 A) 다음 항목 중 the following 행 (만약 해당되는 경우): ‘Banking (Bank)' ‘Investing (Asset manager)‘ ‘Investing (Asset owner)‘ For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered': i) 하나 이상 의 following options 선택 in 열 'Type of environmental information considered' - 1 점 - '배출량 데이터' - 'Energy usage data' - 'Emissions reduction 목표' - '기후 전환계획s' - 'TCFD disclosures' - 'Science-Based Net-Zero 목표' ii) A figure 초과 0 선택 in 열 '% of 포트폴리오 covered by the 프로세스 in relation to total 포트폴리오 value' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) For 행 'Insurance underwriting (Insurance company)' (만약 해당되는 경우): For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered': 하나 이상 의 following options 선택 in 열 'Type of environmental information considered' - 2 점 - '배출량 데이터' - 'Energy usage data' - 'Emissions reduction 목표' - '기후 전환계획s' - 'TCFD disclosures' - 'Science-Based Net-Zero 목표' 이 문항에서 획득 가능한 최고점은 2/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Leadership points:\n- 'Climate change' selected in column 'Environmental issues covered' in at least one row\n- Full Management points awarded\nFor rows where 'Climate change' is selected in column 'Environmental issues covered':\nAny option excluding 'Retail clients' selected in column 'Type of clients' in the corresponding portfolio row in question 1.10 AND\n'Climate transition plans' selected in column 'Type of environmental information considered' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Retail clients' selected in column 'Type of clients' in the corresponding portfolio row in question 1.10 AND any other option NOT selected in column 'Type of clients' in the corresponding portfolio row in question 1.10 - 0/0 points\nA maximum of 0/0 points is available for this route.\nOne row scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: - '기후변화' 선택 in 열 'Environmental issues covered' in 최소 one 행 - Management에서 최고점 획득 For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered': 하나 이상 option 제외 'Retail clients' 선택 in 열 'Type of clients' in the corresponding 포트폴리오 행 in 문항 1.10 그리고 '기후 전환계획s' 선택 in 열 'Type of environmental information considered' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Retail clients' 선택 in 열 'Type of clients' in the corresponding 포트폴리오 행 in 문항 1.10 그리고 하나 이상 other 선택지가 선택되지 않은 경우 in 열 'Type of clients' in the corresponding 포트폴리오 행 in 문항 1.10 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. One 행 scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Indicate the environmental information your organization considers about clients/investees as part of your due diligence and/or environmental dependencies, impacts, risks and/or opportunities assessment process, and how this influences decision-making.",
+    "q2025": "Q2.2.9",
+    "q2025_text": "Indicate the environmental information your organization considers about clients/investees as part of your due diligence and/or environmental dependencies, impacts, risks and/or opportunities assessment process, and how this influences decision-making.",
+    "change_status": "Minor change",
+    "detail_change_types": "New dropdown option, Change column type",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": true,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "New dropdown options \"Clients' scenario analyses\", \"Exposure to acute physical climate risks\" and \"Exposure to chronic physical climate risks\" added.\nColumn updated to allow disclosers to enter figure manually.",
+    "scoring_change_summary": "CC/F/W Financial services Disclosure • Introduction of new scoring routes to provide an alternative scoring pathway for Insurance portfolios. • ROUTE A is applicable for ‘Banking (Bank)', ‘Investing (Asset manager)' and/or ‘Investing (Asset owner)' rows. ROUTE B is applicable for ‘Insurance underwriting (Insurance company)' row. • Column ‘% of portfolio covered by the assessment process in relation to total portfolio value' is scored for completion for ROUTE A only. Incentivising disclosure of assets (column '% of portfolio covered by the assessment process in relation to total portfolio value') is in alignment with requirements of ISSB S2. Asset disclosure is not required for insurance rows, as it is not applicable to insurance underwriting portfolios.\nCC/F/W Financial services Awareness • Introduction of new scoring routes to provide an alternative scoring pathway for Insurance portfolios. • ROUTE A is applicable for ‘Banking (Bank)', ‘Investing (Asset manager)' and/or ‘Investing (Asset owner)' rows. ROUTE B is applicable for ‘Insurance underwriting (Insurance company)' row. • Column ‘% of portfolio covered by the assessment process in relation to total portfolio value' is scored for completion in ROUTE A only. Incentivising disclosure of assets (column '% of portfolio covered by the assessment process in relation to total portfolio value') is in alignment with requirements of ISSB S2. Asset disclosure is not required for insurance rows, as it is not applicable to insurance underwriting portfolios. • Clarification to dropdown options accepted in column 'Risk type and criteria considered'.\nCC/F/W Financial services Management • Introduction of new scoring routes to provide an alternative scoring pathway for Insurance portfolios. • ROUTE A is applicable for ‘Banking (Bank)', ‘Investing (Asset manager)' and/or ‘Investing (Asset owner)' rows. ROUTE B is applicable for ‘Insurance underwriting (Insurance company)' row. • Column ‘% of portfolio covered by the assessment process in relation to total portfolio value' is scored for a figure check in ROUTE A only. • Point allocation increased accordingly at Management level for both routes. • Clarification to dropdown options accepted in column 'Risk type and criteria considered'. Incentivising disclosure of assets (column '% of portfolio covered by the assessment process in relation to total portfolio value') is in alignment with requirements of ISSB S2. Asset disclosure is not required for insurance rows, as it is not applicable to insurance underwriting portfolios. Option names updated in accordance with questionnaire changes.",
+    "daml_summary": "Financial services: D 6/6 | A 1/1 | M 2/2 | L 0 or 1/0 or 1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "경미한 변경",
+    "detail_change_typesKo": "신규 드롭다운 선택지, 열 입력 유형 변경",
+    "change_summaryKo": "New dropdown options \"Clients' scenario analyses\", \"Exposure to acute physical climate risks\" 및 \"Exposure to chronic physical climate risks\" added. 열 updated to allow disclosers to enter figure manually.",
+    "scoring_change_summaryKo": "CC/F/W Financial services Disclosure • Introduction of new scoring 경로s to provide an alternative scoring pathway for Insurance 포트폴리오s. • 경로 A is 해당되는 경우 for ‘Banking (Bank)', ‘Investing (Asset manager)' 및/또는 ‘Investing (Asset owner)' 행. 경로 B is 해당되는 경우 for ‘Insurance underwriting (Insurance company)' 행. • 열 ‘% of 포트폴리오 covered by the assessment 프로세스 in relation to total 포트폴리오 value' is scored for completion for 경로 A only. Incentivising disclosure of assets (열 '% of 포트폴리오 covered by the assessment 프로세스 in relation to total 포트폴리오 value') is in alignment with requirements of ISSB S2. Asset disclosure is not required for insurance 행, as it is not 해당되는 경우 to insurance underwriting 포트폴리오s. CC/F/W Financial services Awareness • Introduction of new scoring 경로s to provide an alternative scoring pathway for Insurance 포트폴리오s. • 경로 A is 해당되는 경우 for ‘Banking (Bank)', ‘Investing (Asset manager)' 및/또는 ‘Investing (Asset owner)' 행. 경로 B is 해당되는 경우 for ‘Insurance underwriting (Insurance company)' 행. • 열 ‘% of 포트폴리오 covered by the assessment 프로세스 in relation to total 포트폴리오 value' is scored for completion in 경로 A only. Incentivising disclosure of assets (열 '% of 포트폴리오 covered by the assessment 프로세스 in relation to total 포트폴리오 value') is in alignment with requirements of ISSB S2. Asset disclosure is not required for insurance 행, as it is not 해당되는 경우 to insurance underwriting 포트폴리오s. • Clarification to dropdown options accepted in 열 'Risk type 및 criteria considered'. CC/F/W Financial services Management • Introduction of new scoring 경로s to provide an alternative scoring pathway for Insurance 포트폴리오s. • 경로 A is 해당되는 경우 for ‘Banking (Bank)', ‘Investing (Asset manager)' 및/또는 ‘Investing (Asset owner)' 행. 경로 B is 해당되는 경우 for ‘Insurance underwriting (Insurance company)' 행. • 열 ‘% of 포트폴리오 covered by the assessment 프로세스 in relation to total 포트폴리오 value' is scored for a figure check in 경로 A only. • 점 allocation increased accordingly at Management level for both 경로s. • Clarification to dropdown options accepted in 열 'Risk type 및 criteria considered'. Incentivising disclosure of assets (열 '% of 포트폴리오 covered by the assessment 프로세스 in relation to total 포트폴리오 value') is in alignment with requirements of ISSB S2. Asset disclosure is not required for insurance 행, as it is not 해당되는 경우 to insurance underwriting 포트폴리오s. Option names updated in accordance with questionnaire changes.",
+    "daml_summaryKo": "Financial services: D 6/6 | A 1/1 | M 2/2 | L 0 또는 1/0 또는 1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "the environmental information 귀사 considers about 고객/투자대상 의 일부로 your 실사 및/또는 환경 의존성, impacts, 리스크 및/또는 기회 assessment 프로세스, 및 how this influences decision-making.을/를 표시하십시오."
+  },
+  "defaultPoints": {
+    "D": "6/6",
+    "A": "1/1",
+    "M": "2/2",
+    "L": "0 or 1/0 or 1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 의존성, 임팩트, 리스크 및 기회의 식별, 평가 및 관리",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스",
+  "simpleHelpKo": "Considering environmental information about 고객/투자대상 in the initial phases of a financial institutions' assessment of dependencies, impacts, risks, 및 opportunities 및/또는 의 일부로 their 실사 프로세스 helps 데이터 사용자 및 the organization understand their 가치사슬's exposure to environmental 리스크 및 기회. 데이터 사용자 are interested in what information financial institutions consider, about which 고객/투자대상, 및 whether that is enough 에 대한m to make informed lending, investment 및/또는 insurance underwriting decisions 및 thus mitigate environmental risks within their 포트폴리오.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

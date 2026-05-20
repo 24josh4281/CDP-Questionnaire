@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>2026 CDP CC Question DB</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">2026 CDP Climate Change</p>
+        <h1 id="appTitle">문항명·응답방법·드롭다운·평가방법론 DB</h1>
+      </div>
+      <div class="header-actions">
+        <div class="language-toggle" aria-label="language">
+          <button class="lang-button active" data-lang="ko" type="button">국문</button>
+          <button class="lang-button" data-lang="en" type="button">English</button>
+        </div>
+        <div class="source-pill" id="sourceVersion">데이터 로딩 중</div>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <section class="overview" aria-label="summary">
+        <div class="metric">
+          <span id="labelMetricQuestions">전체 문항</span>
+          <strong id="metricQuestions">-</strong>
+        </div>
+        <div class="metric">
+          <span id="labelMetricChanged">변경 반영</span>
+          <strong id="metricChanged">-</strong>
+        </div>
+        <div class="metric">
+          <span id="labelMetricPpt">정성 PPT</span>
+          <strong id="metricPpt">-</strong>
+        </div>
+        <div class="metric">
+          <span id="labelMetricExcel">정량 Excel</span>
+          <strong id="metricExcel">-</strong>
+        </div>
+        <div class="metric">
+          <span id="labelMetricNoChange">변경 없음 확인</span>
+          <strong id="metricNoChange">-</strong>
+        </div>
+      </section>
+
+      <nav class="module-nav" id="moduleNav" aria-label="module selection"></nav>
+
+      <section class="workspace">
+        <aside class="filters" aria-label="filters">
+          <div class="filter-head">
+            <h2 id="labelSearchTitle">검색</h2>
+            <button class="text-button" id="resetButton" type="button">초기화</button>
+          </div>
+
+          <label class="field">
+            <span id="labelSearchInput">문항번호 / 키워드</span>
+            <input id="searchInput" type="search" placeholder="예: 2.2, Scope 3, target, ETS" />
+          </label>
+
+          <label class="field">
+            <span id="labelModule">모듈</span>
+            <select id="moduleFilter">
+              <option value="">전체 모듈</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span id="labelLocation">반영 위치</span>
+            <select id="locationFilter">
+              <option value="">전체</option>
+              <option value="PPT">정성 PPT</option>
+              <option value="Excel">정량 Excel</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span id="labelType">응답 방법</span>
+            <select id="typeFilter">
+              <option value="">전체 응답 방법</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span id="labelFlag">변경 범주</span>
+            <select id="flagFilter">
+              <option value="">전체 변경 범주</option>
+              <option value="question">문항명 변경</option>
+              <option value="response">응답방법/의존성/검증 변경</option>
+              <option value="options">드롭다운/행/열 변경</option>
+              <option value="guidance">가이던스/용어 변경</option>
+              <option value="scoring">평가방법론 변경</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span id="labelSector">섹터</span>
+            <select id="sectorFilter">
+              <option value="">전체 섹터</option>
+            </select>
+          </label>
+
+          <label class="check-row">
+            <input id="changedOnly" type="checkbox" />
+            <span id="labelChangedOnly">변경 반영 문항만 보기</span>
+          </label>
+        </aside>
+
+        <section class="question-column">
+          <div class="list-head">
+            <div>
+              <h2 id="labelQuestionList">문항 목록</h2>
+              <p id="resultCount">-</p>
+            </div>
+            <div class="density-toggle" aria-label="list density">
+              <button class="seg active" data-density="comfortable" type="button" id="densityComfortable">표준</button>
+              <button class="seg" data-density="compact" type="button" id="densityCompact">촘촘히</button>
+            </div>
+          </div>
+          <div class="question-list" id="questionList"></div>
+        </section>
+
+        <section class="detail-panel" id="detailPanel" aria-live="polite">
+          <div class="empty-detail">
+            <strong>문항을 선택하세요.</strong>
+            <span>문항명, 응답 방법, 드롭다운, D/A/M/L 배점, 평가방법론이 이 영역에 표시됩니다.</span>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

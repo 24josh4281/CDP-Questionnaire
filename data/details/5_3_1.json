@@ -1,0 +1,1146 @@
+{
+  "code": "5.3.1",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Describe where and how environmental risks and opportunities have affected your strategy.",
+  "questionKo": "환경 리스크와 기회가 귀사의 사업전략에 어떤 영향을 미쳤는지 설명하십시오 .",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Ocean, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "Through this question, data users seek to understand where the identified environmental risks and opportunities have affected your organization's strategy. Your response to this question may be used to inform expectations about the future performance of your organization and how resilient your strategy is to environmental risks and opportunities.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Products and services",
+      "titleKo": "제품 및 서비스"
+    },
+    {
+      "order": 2,
+      "title": "Upstream/downstream value chain",
+      "titleKo": "Upstream/다운스트림 가치사슬"
+    },
+    {
+      "order": 3,
+      "title": "Investment in R&D",
+      "titleKo": "Investment in R&D"
+    },
+    {
+      "order": 4,
+      "title": "Operations",
+      "titleKo": "Operations"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.3.1.1",
+      "text": "Effect type",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Physical risks",
+        "Transition risks",
+        "Opportunities"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Effect type",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Physical risks",
+        "Transition risks",
+        "Opportunities"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.3.1.2",
+      "text": "Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Climate change",
+        "Water"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "기후변화",
+        "수자원"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.3.1.3",
+      "text": "Describe how environmental risks and/or opportunities have affected your strategy in this area",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "how environmental 리스크 및/또는 기회 have affected your strategy in this area을/를 설명하십시오.",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified question; New question for Ocean",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified 문항; New 문항 for Ocean"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes, strategy only\" or \"Yes, both strategy and financial planning\" in response to column \"Environmental risks & opportunities have affected our strategy and/or financial planning\" of 5.3.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes, strategy only\" 또는 \"Yes, both strategy 및 재무계획\" in response to 열 \"Environmental risks & opportunities have affected our strategy 및/또는 재무계획\" of 5.3."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThe risks and opportunities referred to in this question should correspond to the substantive risks and opportunities your organization reported in 3.1.1 and 3.6.1.\nThis question is intended to focus on the group business strategy - meaning your organization (as defined in 1.5). However, if it is more appropriate, you may wish to comment on divisional (business unit) strategies and specify where this is the case.\nIf your strategy relating to a particular business area has been affected by risks and/or opportunities differently across the environmental issues considered, add a row and explain the difference in column 4. For example, if forests-related risks have affected your operations strategy but both risks \nand opportunities relating to climate have affected your operations strategy, disclose this across separate rows.\nIf your risks and/or opportunities have affected your strategy relating to a business area for the individual environmental issues differently, add a row for each. For example, if your climate-related and water-related risks have affected your operations differently, then disclose these in different rows. Whereas, if your climate-related and water-related risks affected your operations in the same way, then disclose these in the same row. \nEnvironmental issues relevant to the risks and/or opportunities that have affected your strategy in this area (column 3) \nResponse options will appear based on your selection in column 2 \"Effect type\", and column 1 \"Environmental risks/opportunities identified\" of 3.1 and 3.6.\nExample 1:\nSubstantive climate-related risks have been identified in 3.1,\n\"Physical risks\" or \"Transition risks\" is selected in column \"Effect type\",\nTherefore, option \"Climate change\" will appear.\nExample 2:\nSubstantive forest and water-related opportunities have been identified in 3.6,\n\"Opportunities\" is selected in column \"Effect type\",\nTherefore, options \"Forests\" and \"Water\" will appear.\nDescribe how environmental risks and/or opportunities have affected your strategy in this area (column 4) \nUsing organization-specific examples where relevant, describe how the business area in column 1 was affected, including;\nThe risks and/or opportunities disclosed in 3.1.1 / 3.6.1 that have affected the business area and why the decision was taken (e.g. to avoid loss in revenue, to exploit new markets);\nThe time horizons over which your business strategy in this area has been affected by environmental risks and/or opportunities;\nAcross the relevant time horizons, how your organization's strategy considers trends and uncertainties associated with physical risks and possible tipping points within locations relevant to your operations;\nThe most substantial decisions in this area that have been affected by risks and/or opportunities; and\nHow your organization makes and implements strategic decisions. For example, you may have decided to introduce a new product range or cease the manufacturing of a particular product, divest from a location, or increase capital expenditure on new technologies. You may use the mitigation hierarchy to detail these decisions and explain why this decision was taken. For example, to benefit from increased asset valuations; to exploit new markets; because of a projected lack of resource availability; or because of anticipated consumer behavior shifts. More details on the mitigation hierarchy can be found on p.38 of the TNFD recommendations; \nIf relevant, details on how dependencies and impacts have affected your organization's strategy;\nInclude where in your organization's strategy risks and opportunities are concentrated (for example, geographical areas, facilities and type of assets).\nInclude current and anticipated changes to your organization's business model and practices. To address environment-related risks and opportunities:\nRefer to changes to resource allocation (for example, these changes could include plans to manage or decommission carbon-, energy- or water-intensive operations; resource allocations resulting from demand or upstream value-chain changes; resource allocations arising from business development through capital expenditure or additional expenditure on new technologies or research and development; and acquisitions or divestments).\nThis may include decisions made about the location of business operations.\nThis may also include current and anticipated changes in policies or efforts to mitigate environmental risks, manage issues and/or contribute towards the goals and targets in the Kunming-Montreal Global Biodiversity Framework, Paris Agreement or Sustainable Development Goals.\nDetail any changes to how your organization collaborates with other partners and stakeholders.\nDetail how your strategy might change in response to potential trends and uncertainties, and explain how location-specific factors were taken into account.\nDetail how your organization plans to achieve, if they have been set, any environment-related targets and, if relevant, targets you are required to meet by law or regulation.\nNote for climate change disclosers: \nInclude the effect of climate-related risks and/or opportunities on your climate transition plans and how it has resulted in changes to your strategy.\nNote for forests disclosers: \nSpecify whether your plans apply to all of your disclosed commodities or to only a selection of them. If your plans do not apply to all your commodities, please provide your reasons here.\nNote for organizations with coal reserves: \nOrganizations with coal reserves can refer to CDP Technical Note: Guidance for companies with coal reserves on how to disclose demand and stranded asset risk.\nNote for electric utility sector organizations: \nDiscuss any work to incorporate renewable energy, carbon capture & sequestration, cleaner coal technologies and energy storage into your strategy.\nNote for financial services sector organizations: \nSpecify if this includes making any public commitments, such as ensuring that all portfolios are free from commodity driven deforestation/conversion and any associated human rights risks, contributing to water security, or improving resilience to water-related events. Include target dates and which of your portfolios are covered by these commitments.\nThe environmental risks and/or opportunities to be considered in this question refer to lending, financial intermediary, investment and/or insurance underwriting activities of your company, in addition to your operational activities.\nWhen reporting on the effect of forests-related risks and opportunities, financial services companies should take account of potential changes to their portfolios' exposure to forests-related risks such as changing regulation and changing consumer tastes.\nWhen reporting on the effect of water-related risks and opportunities, financial services companies should take account of potential changes to their portfolios' exposure to water-related risks such as drought, flood, water pollution, and increasing water prices\nBanks:\nDescribe the potential effects of environmental risks and/or opportunities on your core businesses, products and services, including:\nInformation at the business division, sector or geography, credit quality and average tenor levels.\nAsset managers/Asset owners:\nFor the row \"Upstream/downstream value chain\", describe how environmental risks and/or opportunities are factored into your investment strategies and investee selection.\nDescribe how each product or investment strategy may be affected by the transition to a zero-carbon and nature-positive economy.\nFor members of the Net Zero Asset Manager initiative (NZAM) \"Products and services\" apply to creating investment products under NZAM Commitment 5, and \"Upstream/downstream value chain\" apply to investment strategy/ investing in technology/ engagement strategy under NZAM Commitment 3.\nInsurance organizations:\nDescribe the potential effects of environmental risks and/or opportunities on your core businesses, products and services, including:\nInformation at the business division, sector, or geography levels.\nAs asset owners, insurance organizations should describe how environmental risks and opportunities are factored into relevant investment strategies - in the business' value chain. This could be described from the perspective of the total fund or investment strategy or individual investment strategies for various asset classes.\nNote for transport OEMs sector organizations: \nDiscuss the impact on your strategy for your products at the group level and, where relevant, for specific markets, including any related targets for GHG emissions performance (expressed as gCO2e/unit distance) and include a reference to any regulatory drivers and the baseline against which performance is measured.\nDiscuss your transition into hybrid/fully electric vehicles and fuel cell technology, if relevant.\nNote for oil & gas sector organizations: \nWhere possible, provide illustrative examples of the assumptions made in specific investment decisions.\nYou should also discuss, if relevant, the diversification of your portfolio into lower-carbon and non-fossil fuel products (e.g., biofuels, renewable energy), and the strategy for development of carbon capture and sequestration technology, including technology areas of focus, and distinctive areas of strength your organization believes it holds. Also include any details of the impact on your value chain engagement strategy.\nProvide the methodology used for the integration of future carbon prices into your hydrocarbon exploration strategy and investment decisions, with the assumptions used. Where possible, provide illustrative examples of the assumptions made in specific investment decisions.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 The 리스크 및 기회 referred to in this 문항 해야 합니다 correspond to the substantive 리스크 및 기회 귀사 보고 in 3.1.1 및 3.6.1. This 문항 is intended to focus on the group 사업전략 - meaning 귀사 (as defined in 1.5). However, 만약 it is more appropriate, you may wish to comment on divisional (business unit) strategies 및 specify 여기서 this is the case. 만약 your strategy relating to a particular business area has been affected by 리스크 및/또는 기회 differently across the environmental issues considered, add a 행 및 explain the difference in 열 4. For example, 만약 forests-related risks have affected your operations strategy but both 리스크 및 기회 relating to climate have affected your operations strategy, disclose this across separate 행. 만약 your 리스크 및/또는 기회 have affected your strategy relating to a business area 에 대한 individual environmental issues differently, add a 행 for each. For example, 만약 your climate-related 및 수자원-related risks have affected your operations differently, then disclose these in different 행. Whereas, 만약 your climate-related 및 수자원-related risks affected your operations in the same way, then disclose these in the same 행. Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area (열 3) Response options will appear based on your selection in 열 2 \"Effect type\", 및 열 1 \"Environmental risks/opportunities identified\" of 3.1 및 3.6. Example 1: Substantive climate-related risks have been identified in 3.1, \"Physical risks\" 또는 \"Transition risks\" is 선택 in 열 \"Effect type\", Therefore, option \"기후변화\" will appear. Example 2: Substantive forest 및 수자원-related opportunities have been identified in 3.6, \"Opportunities\" is 선택 in 열 \"Effect type\", Therefore, options \"Forests\" 및 \"수자원\" will appear. 설명 how environmental 리스크 및/또는 기회 have affected your strategy in this area (열 4) Using organization-specific examples 여기서 relevant, 설명 how the business area in 열 1 was affected, 포함; The 리스크 및/또는 기회 공개 in 3.1.1 / 3.6.1 that have affected the business area 및 why the decision was taken (e.g. to avoid loss in 매출, to exploit new markets); The time horizons over which your 사업전략 in this area has been affected by environmental 리스크 및/또는 기회; Across the relevant time horizons, how 귀사의 strategy considers trends 및 uncertainties associated with physical risks 및 possible tipping 점 within locations relevant to your operations; The most substantial decisions in this area that have been affected by 리스크 및/또는 기회; 및 How 귀사 makes 및 implements strategic decisions. For example, you may have decided to introduce a new product range 또는 cease the manufacturing of a particular product, divest from a location, 또는 increase 자본지출 on new technologies. You may use the mitigation hierarchy to detail these decisions 및 그 이유를 설명 this decision was taken. For example, to benefit from increased asset valuations; to exploit new markets; because of a projected lack of resource availability; 또는 because of anticipated consumer behavior shifts. More details on the mitigation hierarchy can be found on p.38 의 TNFD recommendations; 만약 relevant, details on how dependencies 및 impacts have affected 귀사의 strategy; Include 여기서 in 귀사의 strategy 리스크 및 기회 are concentrated (for example, geographical areas, facilities 및 type of assets). Include current 및 anticipated changes to 귀사의 business model 및 practices. To address environment-related 리스크 및 기회: Refer to changes to resource allocation (for example, these changes could include plans to manage 또는 decommission carbon-, energy- 또는 수자원-intensive operations; resource allocations resulting from demand 또는 upstream value-chain changes; resource allocations arising from business development through 자본지출 또는 additional expenditure on new technologies 또는 research 및 development; 및 acquisitions 또는 divestments). This may include decisions made about the location of business operations. This may also include current 및 anticipated changes in policies 또는 efforts to mitigate environmental risks, manage issues 및/또는 contribute towards the goals 및 목표 in the Kunming-Montreal Global Biodiversity Framework, Paris Agreement 또는 Sustainable Development Goals. Detail 하나 이상 changes to how 귀사 collaborates with other partners 및 stakeholders. Detail how your strategy might change in response to potential trends 및 uncertainties, 및 explain how location-specific factors were taken into account. Detail how 귀사 plans to achieve, 만약 they have been set, 하나 이상 environment-related 목표 and, 만약 relevant, 목표 you are required to meet by law 또는 regulation. Note for 기후변화 disclosers: Include the effect of climate-related 리스크 및/또는 기회 on your 기후 전환계획s 및 how it has resulted in changes to your strategy. Note for forests disclosers: Specify whether your plans apply to all of your 공개 commodities 또는 to only a selection 의m. 만약 your plans do not apply to all your commodities, please provide your reasons here. Note for organizations with coal reserves: Organizations with coal reserves can refer to CDP Technical Note: Guidance for companies with coal reserves on how to disclose demand 및 stranded asset risk. Note for electric utility sector organizations: Discuss 하나 이상 work to incorporate 재생에너지, carbon capture & sequestration, cleaner coal technologies 및 energy storage into your strategy. Note for financial services sector organizations: Specify 만약 this includes making 하나 이상 public commitments, such as ensuring that all 포트폴리오s are free from commodity driven deforestation/conversion 및 하나 이상 associated human rights risks, contributing to 수자원 security, 또는 improving resilience to 수자원-related events. Include 목표 dates 및 which of your 포트폴리오s are covered by these commitments. The environmental 리스크 및/또는 기회 to be considered in this 문항 refer to lending, financial intermediary, investment 및/또는 insurance underwriting activities of your company, in addition to your operational activities. 경우 reporting on the effect of forests-related 리스크 및 기회, financial services companies 해야 합니다 take account of potential changes to their 포트폴리오s' exposure to forests-related risks such as changing regulation 및 changing consumer tastes. 경우 reporting on the effect of 수자원-related 리스크 및 기회, financial services companies 해야 합니다 take account of potential changes to their 포트폴리오s' exposure to 수자원-related risks such as drought, flood, 수자원 pollution, 및 increasing 수자원 prices Banks: 설명 the potential effects of environmental 리스크 및/또는 기회 on your core businesses, 제품 및 서비스, 포함: Information at the business division, sector 또는 geography, credit quality 및 average tenor levels. 자산운용사/Asset owners: 에 대한 행 \"Upstream/다운스트림 가치사슬\", 설명 how environmental 리스크 및/또는 기회 are factored into your investment strategies 및 investee selection. 설명 how each product 또는 investment strategy may be affected by the transition to a zero-carbon 및 nature-positive economy. For members 의 Net Zero Asset Manager 이니셔티브 (NZAM) \"제품 및 서비스\" apply to creating investment products under NZAM Commitment 5, 및 \"Upstream/다운스트림 가치사슬\" apply to investment strategy/ investing in technology/ engagement strategy under NZAM Commitment 3. Insurance organizations: 설명 the potential effects of environmental 리스크 및/또는 기회 on your core businesses, 제품 및 서비스, 포함: Information at the business division, sector, 또는 geography levels. As asset owners, insurance organizations 해야 합니다 설명 how environmental 리스크 및 기회 are factored into relevant investment strategies - in the business' 가치사슬. This could be 설명d from the perspective 의 total fund 또는 investment strategy 또는 individual investment strategies for various asset classes. Note for transport OEMs sector organizations: Discuss the impact on your strategy 귀사의 products at the group level and, 여기서 relevant, for specific markets, 포함 하나 이상 related 목표 for 온실가스 배출량 performance (expressed as gCO2e/unit distance) 및 include a reference to 하나 이상 regulatory drivers 및 the baseline against which performance is measured. Discuss your transition into hybrid/fully electric vehicles 및 fuel cell technology, 만약 relevant. Note for oil & gas sector organizations: 여기서 possible, provide illustrative examples 의 assumptions made in specific investment decisions. You 해야 합니다 also discuss, 만약 relevant, the diversification of your 포트폴리오 into lower-carbon 및 non-fossil fuel products (e.g., biofuels, 재생에너지), 및 the strategy for development of carbon capture 및 sequestration technology, 포함 technology areas of focus, 및 distinctive areas of strength 귀사 believes it holds. Also include 하나 이상 details 의 impact on your 가치사슬 engagement strategy. Provide the 방법론 used 에 대한 integration of future carbon prices into your hydrocarbon exploration strategy 및 investment decisions, with the assumptions used. 여기서 possible, provide illustrative examples 의 assumptions made in specific investment decisions."
+    },
+    {
+      "type": "Ambition",
+      "text": "The organization considers environmental, risks and opportunities, and their interdependencies, in its decision-making, financial planning, and when developing its strategy and transition plan where relevant.\nThe organization adapts its decision-making, financial planning, strategy, and transition plan in response to environmental risks and opportunities, across its direct operations and the value chain.",
+      "typeKo": "Ambition",
+      "textKo": "The organization considers environmental, 리스크 및 기회, 및 their interdependencies, in its decision-making, 재무계획, 및 경우 developing its strategy 및 전환계획 여기서 relevant. The organization adapts its decision-making, 재무계획, strategy, 및 전환계획 in response to environmental 리스크 및 기회, across its 직접 운영사업장 및 the 가치사슬."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area':\nAll rows completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues relevant to the risks and/or opportunities that have affected your strategy in this area' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area': All 행 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues relevant to the 리스크 및/또는 기회 that have affected your strategy in this area' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "환경 리스크와 기회가 귀사의 사업전략에 어떤 영향을 미쳤는지 설명하십시오 . M5. Business Strategy 1 2 3 4 사업 영역 유형 사업 영역에서 귀사의 전략에 영향을 미친 리스크 및 / 또는 기회와 관련된 환경 이슈 환경 리스크 및 / 또는 기회가 해당 사업 영역에서 귀사의 전략에 어떤 영향을 미쳤는지 설명 제품 및 서비스 해당하는 항목 모두 선택 : 리스크 기회 해당하는 항목 모두 선택 : 기후변화 산림 물 텍스트 입력 [ 최대 3,000 자 ] 업스트림 / 다운스트림 가치사슬 R&D 투자 사업장",
+    "q2025": "Q5.3.1",
+    "q2025_text": "Describe where and how environmental risks and opportunities have affected your strategy.",
+    "change_status": "Modified question; new question for Ocean",
+    "detail_change_types": "Modified guidance, Removed dropdown option, New dropdown option, New dropdown option, New guidance",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": true,
+    "changed_guidance": true,
+    "changed_scoring": false,
+    "change_summary": "Removed guidance requesting information specific to the requesting supply change member.\nDropdown option \"Risks\" has been removed and replaced with \"Physical risks\" and \"Transition risks\".\nDropdown option \"Ocean\" has been added.\nAdded guidance to request information about location-specific trends and uncertainties.",
+    "scoring_change_summary": "",
+    "daml_summary": "General: D 3/3 | A 1/1 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 수정; 해양 신규 문항",
+    "detail_change_typesKo": "가이던스 수정, 드롭다운 선택지 삭제, 신규 드롭다운 선택지, 신규 드롭다운 선택지, 신규 가이던스",
+    "change_summaryKo": "Removed guidance requesting information specific to the requesting supply change member. Dropdown option \"Risks\" has been removed 및 replaced with \"Physical risks\" 및 \"Transition risks\". Dropdown option \"Ocean\" has been added. Added guidance to request information about location-specific trends 및 uncertainties.",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "일반: D 3/3 | A 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "여기서 및 how environmental 리스크 및 기회 have affected your strategy.을/를 설명하십시오."
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "1/1",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 해양, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "Through this 문항, 데이터 사용자 seek to understand 여기서 the identified environmental 리스크 및 기회 have affected 귀사의 strategy. Your response to this 문항 may be used to inform expectations about the future performance of 귀사 및 how resilient your strategy is to environmental 리스크 및 기회.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

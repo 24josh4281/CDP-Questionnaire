@@ -1,0 +1,239 @@
+{
+  "code": "5.15",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Does your organization exercise voting rights as a shareholder on environmental issues?",
+  "questionKo": "귀사는 exercise voting rights as a shareholder on environmental issues입니까?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Climate Change, Forests",
+  "sectorTags": "Financial services",
+  "simpleHelp": "Active ownership is a key tool for positively affecting the real economy because divestment alone leaves investors without a voice to promote sustainable practices. Alongside their investee engagement activities, investors can influence their investee companies on environmental issues by exercising their voting rights. Data users are interested in understanding how aligned shareholders' voting decisions across the investment portfolio are with the overall environmental strategy and how they support environmental shareholder resolutions.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Response row",
+      "titleKo": "응답 행"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.15.1",
+      "text": "Exercise voting rights as a shareholder on environmental issues",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No, but we plan to in the next two years",
+        "No, and we do not plan to in the next two years",
+        "No, as we do not have shareholder voting rights in any of our investments"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Exercise voting rights as a shareholder on environmental issues",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "No, but we plan to in the next two years",
+        "No, 및 we do not plan to in the next two years",
+        "No, as we do not have shareholder voting rights in 하나 이상 of our investments"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.15.2",
+      "text": "Primary reason for not exercising voting rights as a shareholder on environmental issues",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Lack of internal resources, capabilities, or expertise (e.g., due to organization size)",
+        "No standardized procedure",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant or not relevant",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "주된 이유 for not exercising voting rights as a shareholder on environmental issues",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Lack of internal resources, capabilities, 또는 expertise (e.g., due to organization size)",
+        "No standardized 절차",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant 또는 not relevant",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.15.3",
+      "text": "Explain why you do not exercise voting rights on environmental issues",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "그 이유를 설명 you do not exercise voting rights on environmental issues",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in response to column 1 \"Activity undertaken\" for the rows \"Investing (Asset manager)\" and/or \"Investing (Asset owner)\" of 1.10.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"예\" in response to 열 1 \"Activity undertaken\" 에 대한 행 \"Investing (Asset manager)\" 및/또는 \"Investing (Asset owner)\" of 1.10."
+    },
+    {
+      "type": "Requested Content",
+      "text": "Exercise voting rights as a shareholder on environmental issues (column 1) \nSelect \"Yes\" if you exercise your voting rights as a shareholder, including directly and indirectly (e.g., through an external service provider) on environmental issues.\nYou will have the opportunity to provide further details on how you have exercised your voting rights in the following question.\nSelect \"No, as we do not have shareholder voting rights in any of our investments\" if voting rights are not applicable for your investments, e.g.: non-voting shares.\nExplain why you do not exercise voting rights on environmental issues (column 3) \nProvide an explanation specific to your organization explaining why you do not exercise voting rights on environmental issues, and outline any plans to do so in the future.",
+      "typeKo": "요청 내용",
+      "textKo": "Exercise voting rights as a shareholder on environmental issues (열 1) Select \"예\" 만약 you exercise your voting rights as a shareholder, 포함 directly 및 indirectly (e.g., through an external service provider) on environmental issues. You will have the opportunity to provide further details on how you have exercised your voting rights in the following 문항. Select \"No, as we do not have shareholder voting rights in 하나 이상 of our investments\" 만약 voting rights are not 해당되는 경우 귀사의 investments, e.g.: non-voting shares. 그 이유를 설명 you do not exercise voting rights on environmental issues (열 3) Provide an explanation specific to 귀사 explaining why you do not exercise voting rights on environmental issues, 및 outline 하나 이상 plans to do so in the future."
+    },
+    {
+      "type": "Ambition",
+      "text": "Investors exercise their right for shareholder voting on environmental issues.",
+      "typeKo": "Ambition",
+      "textKo": "Investors exercise their right for shareholder voting on environmental issues."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0 or 1/0, 1 or 3",
+      "M": "0 or 1/0, 1 or 3",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Exercise voting rights as a shareholder on environmental issues' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Exercise voting rights as a shareholder on environmental issues' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFull Disclosure points awarded AND\n'Yes' selected in column 'Exercise voting rights as a shareholder on environmental issues' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFull Disclosure points awarded AND\n'No, as we do not have shareholder voting rights in any of our investments' selected in column 'Exercise voting rights as a shareholder on environmental issues' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nROUTE C)\nFull Disclosure points awarded AND\n'No, but we plan to in the next two years' selected in column 'Exercise voting rights as a shareholder on environmental issues' - 1/3 points\nA maximum of 1/3 points is available for this route.\nOR\nROUTE D)\n'No, and we do not plan to in the next two years' selected in column 'Exercise voting rights as a shareholder on environmental issues' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Exercise voting rights as a shareholder on environmental issues' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Disclosure에서 최고점 획득 그리고 '예' 선택 in 열 'Exercise voting rights as a shareholder on environmental issues' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Disclosure에서 최고점 획득 그리고 'No, as we do not have shareholder voting rights in 하나 이상 of our investments' 선택 in 열 'Exercise voting rights as a shareholder on environmental issues' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 경로 C) Disclosure에서 최고점 획득 그리고 'No, but we plan to in the next two years' 선택 in 열 'Exercise voting rights as a shareholder on environmental issues' - 1/3 점 이 경로에서 획득 가능한 최고점은 1/3점입니다. 또는 경로 D) 'No, 및 we do not plan to in the next two years' 선택 in 열 'Exercise voting rights as a shareholder on environmental issues' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 비공개 경로) 열 'Exercise voting rights as a shareholder on environmental issues' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFull Awareness points awarded AND\n'Yes' selected in column 'Exercise voting rights as a shareholder on environmental issues' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFull Awareness points awarded AND\n'No, as we do not have shareholder voting rights in any of our investments' selected in column 'Exercise voting rights as a shareholder on environmental issues' - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nROUTE C)\nEither 'No, but we plan to in the next two years' OR 'No, and we do not plan to in the next two years' selected in column 'Exercise voting rights as a shareholder on environmental issues' - 0/3 points\nA maximum of 0/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Exercise voting rights as a shareholder on environmental issues' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) Awareness에서 최고점 획득 그리고 '예' 선택 in 열 'Exercise voting rights as a shareholder on environmental issues' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Awareness에서 최고점 획득 그리고 'No, as we do not have shareholder voting rights in 하나 이상 of our investments' 선택 in 열 'Exercise voting rights as a shareholder on environmental issues' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 경로 C) Either 'No, but we plan to in the next two years' 또는 'No, 및 we do not plan to in the next two years' 선택 in 열 'Exercise voting rights as a shareholder on environmental issues' - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다. 또는 비공개 경로) 열 'Exercise voting rights as a shareholder on environmental issues' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Does your organization exercise voting rights as a shareholder on environmental issues?",
+    "q2025": "Q5.15",
+    "q2025_text": "Does your organization exercise voting rights as a shareholder on environmental issues?",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "",
+    "scoring_change_summary": "CC Financial services Disclosure • Scoring has been updated to be proportionally scored for all the displayed columns. Scoring has been updated so that there is consistency between Climate Change, Forests and Water.\nF/W Financial services Awareness • ROUTE C, D and NON-DISCLOSURE ROUTE has been added. Scoring has been updated so that there is consistency between Climate Change, Forests and Water.\nF/W Financial services Management • Point allocations have been updated. ROUTE A now has a maximum of 1/1 point available. ROUTE C and the NON- DISCLSOURE ROUTE now has a maximum of 0/3 points available. Scoring has been updated so that there is consistency between Climate Change, Forests and Water.",
+    "daml_summary": "Financial services: D 2/2 | A 0 or 1/0, 1 or 3 | M 0 or 1/0, 1 or 3 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "CC Financial services Disclosure • Scoring has been updated to be proportionally scored for all the displayed 열. Scoring has been updated so that there is consistency between Climate Change, Forests 및 Water. F/W Financial services Awareness • 경로 C, D 및 비공개 경로 has been added. Scoring has been updated so that there is consistency between Climate Change, Forests 및 Water. F/W Financial services Management • 점 allocations have been updated. 경로 A now has a 최고 of 1/1 점 available. 경로 C 및 the NON- DISCLSOURE 경로 now has a 최고 of 0/3 점 available. Scoring has been updated so that there is consistency between Climate Change, Forests 및 Water.",
+    "daml_summaryKo": "Financial services: D 2/2 | A 0 또는 1/0, 1 또는 3 | M 0 또는 1/0, 1 또는 3 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "귀사는 exercise voting rights as a shareholder on environmental issues입니까?"
+  },
+  "defaultPoints": {
+    "D": "2/2",
+    "A": "0 or 1/0, 1 or 3",
+    "M": "0 or 1/0, 1 or 3",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스",
+  "simpleHelpKo": "Active ownership is a key tool for positively affecting the real economy because divestment alone leaves investors without a voice to promote sustainable practices. Alongside their investee engagement activities, investors can influence their investee companies on environmental issues by exercising their voting rights. 데이터 사용자 are interested in understanding how aligned shareholders' voting decisions across the investment 포트폴리오 are with the overall environmental strategy 및 how they support environmental shareholder resolutions.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

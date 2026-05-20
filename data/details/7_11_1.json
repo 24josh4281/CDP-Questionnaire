@@ -1,0 +1,363 @@
+{
+  "code": "7.11.1",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "For each Scope 3 category calculated in 7.8, specify how your emissions compare to the previous year and identify the reason for any change.",
+  "questionKo": "For each Scope 3 category calculated in 7.8, specify how your emissions compare to the previous year 및 identify the reason for 하나 이상 change.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Capital goods",
+  "simpleHelp": "This question asks how emissions from specific Scope 3 categories have changed. This level of granularity allows data users to gain insight into the factors that have contributed to these changes.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Purchased goods and services",
+      "titleKo": "Purchased goods 및 services"
+    },
+    {
+      "order": 2,
+      "title": "Capital goods",
+      "titleKo": "Capital goods"
+    },
+    {
+      "order": 3,
+      "title": "Fuel and energy-related activities (not included in Scopes 1 or 2)",
+      "titleKo": "Fuel 및 energy-related activities (not included in Scopes 1 또는 2)"
+    },
+    {
+      "order": 4,
+      "title": "Upstream transportation and distribution",
+      "titleKo": "Upstream transportation 및 distribution"
+    },
+    {
+      "order": 5,
+      "title": "Waste generated in operations",
+      "titleKo": "Waste generated in operations"
+    },
+    {
+      "order": 6,
+      "title": "Business travel",
+      "titleKo": "Business travel"
+    },
+    {
+      "order": 7,
+      "title": "Employee commuting",
+      "titleKo": "Employee commuting"
+    },
+    {
+      "order": 8,
+      "title": "Upstream leased assets",
+      "titleKo": "Upstream leased assets"
+    },
+    {
+      "order": 9,
+      "title": "Downstream transportation and distribution",
+      "titleKo": "Downstream transportation 및 distribution"
+    },
+    {
+      "order": 10,
+      "title": "Processing of sold products",
+      "titleKo": "프로세스ing of sold products"
+    },
+    {
+      "order": 11,
+      "title": "Use of sold products",
+      "titleKo": "Use of sold products"
+    },
+    {
+      "order": 12,
+      "title": "End-of-life treatment of sold products",
+      "titleKo": "End-of-life treatment of sold products"
+    },
+    {
+      "order": 13,
+      "title": "Downstream leased assets",
+      "titleKo": "Downstream leased assets"
+    },
+    {
+      "order": 14,
+      "title": "Franchises",
+      "titleKo": "Franchises"
+    },
+    {
+      "order": 15,
+      "title": "Investments",
+      "titleKo": "Investments"
+    },
+    {
+      "order": 16,
+      "title": "Other (upstream)",
+      "titleKo": "Other (upstream)"
+    },
+    {
+      "order": 17,
+      "title": "Other (downstream)",
+      "titleKo": "Other (downstream)"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.11.1.1",
+      "text": "Direction of change",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Increased",
+        "Decreased",
+        "No change",
+        "First year of reporting this category"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Direction of change",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Increased",
+        "Decreased",
+        "변경 없음",
+        "First year of reporting this category"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.11.1.2",
+      "text": "Primary reason for change",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Change in renewable energy consumption",
+        "Change in renewable energy generation",
+        "Change in product efficiency",
+        "Change in material efficiency",
+        "Change in supplier or distributor",
+        "Other emissions reduction activities",
+        "Divestment",
+        "Acquisitions",
+        "Mergers",
+        "Change in output",
+        "Change in methodology",
+        "Change in boundary",
+        "Change in physical operating conditions",
+        "Unidentified",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "주된 이유 for change",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Change in renewable 에너지 소비량",
+        "Change in 재생에너지 generation",
+        "Change in product efficiency",
+        "Change in material efficiency",
+        "Change in supplier 또는 distributor",
+        "Other emissions reduction activities",
+        "Divestment",
+        "Acquisitions",
+        "Mergers",
+        "Change in output",
+        "Change in 방법론",
+        "Change in boundary",
+        "Change in physical operating conditions",
+        "Unidentified",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.11.1.3",
+      "text": "Change in emissions in this category (metric tons CO2e)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Change in emissions in this category (미터톤 CO2e)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.11.1.4",
+      "text": "% change in emissions in this category",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% change in emissions in this category",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.11.1.5",
+      "text": "Please explain",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Please explain",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified Guidance",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified Guidance"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Increased\", \"Decreased\", or \"Remained the same overall\" in response to 7.11.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Increased\", \"Decreased\", 또는 \"Remained the same overall\" in response to 7.11."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nYou are asked to break down changes in Scope 3 emissions by each category calculated in 7.8, even if you have experienced no change in your total Scope 3 emissions.\nYou should report the changes in emissions in the reporting year compared to the previous year.\nIn the event that your emissions have not changed for a particular category, select \"No change\" in column 2 and explain why not in the \"Please explain\" column.\nNote that CDP requires disclosure of gross emissions. Gross means total emissions before any deductions or adjustments are made to account for offset credits, avoided emissions from the use of goods and services, and/or reductions attributable to the sequestration or transfer of GHGs.\nScope 3 category (column 1) \nThis column is driven by your selections in 7.8 - only the categories for which you calculated your emissions will appear.\nPrimary reason for change (column 3) \nSelect the primary reason for the change in emissions in each relevant Scope 3 category from the drop-down options provided (i.e. the factor which contributed to the largest change in emissions in that category).\nFurther details on each of the options are provided below:\nChange in renewable energy consumption: Any change in your Scope 3 emissions because of renewable energy consumption in your value chain.\nChange in renewable energy generation: Any change in your Scope 3 emissions because of renewable energy generation in your value chain.\nChange in product efficiency: Any change in your Scope 3 emissions because of changes to the efficiency of your product or service when in use.\nChange in material efficiency: Any change in your Scope 3 emissions because of changes to the raw materials used in your products or services.\nChange in supplier or distributor: Any change in your Scope 3 emissions because of changes to your procurement and distribution policies.\nOther emissions reduction activities: This refers to changes in Scope 3 emissions that have occurred because of proactive emissions reduction initiatives within your value chain, other than those stated above.\nDivestment :\nThis refers to changes in Scope 3 emissions that occur as a result of selling off certain aspects of the businesses.\nAcquisitions :\nThis refers to changes in Scope 3 emissions that occur as a result of purchasing or obtaining another company/subsidiary/facility.\nMergers : This refers to changes in Scope 3 that occur as a result of business mergers.\nChange in output: This refers to changes in Scope 3 emissions that occur as a result of increases or decreases in your business output (i.e. products or services). E.g. organic growth, declines in sales due to a global recession, or release of a new product.\nChange in methodology: This refers to changes in Scope 3 emissions that occur due to modifications in the way that the inventory is calculated. E.g. changes in emissions factors used or changes in the methodology protocol followed.\nChange in boundary : This refers to changes in the reporting boundary used for your inventory calculation, i.e. changing from financial control to operational control. This option could also apply if you have incorporated facilities into your inventory that were excluded in previous years.\nChange in physical operating conditions: This refers to changes in weather that have a significant influence on how your value chain operates, but that cannot be accounted for under the other options available. E.g. increased production of hydroelectricity because of increased rainfall.\nUnidentified: Select this option if you are not able to identify the primary reason for the change in your Scope 3 emissions from the previous year.\nOther, please specify: If there is an alternative reason for the change in Scope 3 emissions, select this option and state the reason.\nChange in emissions in this category (metric tons CO2e) (column 4) \nEnter the change in emissions in this Scope 3 category when compared with the previous year.\n% change in emissions in this category (column 5) \nEnter the change in emissions in this category (i.e. the figure reported in column 4) as a percentage of the total Scope 3 emissions in this category in the previous year.\nThis value should be calculated using the following formula:\n((Change in scope 3 emissions in this category in the reporting year) / (Scope 3 emissions in this category in the previous year)) x 100 \nPlease explain (column 6) \nUse this column to provide any additional context to your changes in Scope 3 emissions, such as any strategies or policies you have implemented which have resulted in the change in emissions.\nIf any reasons contributed to the change in emissions in addition to the primary reason selected in column 3, you may also specify this here.\nNote for organizations with significant land sector activities in their operations or value chain and/or that choose to account for and report CO2 removals. \nIf you have calculated emissions in line with the GHG Protocol Land Sector and Removals Standard (LSRS) and Guidance for the first time and this has resulted in changes to the scope 3 emissions figures reported in 7.8, report this by selecting \"Change in methodology\" in column \"Primary reason for change\" for the scope 3 categories relevant to the change.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 You are asked to break down changes in Scope 3 배출량 by each category calculated in 7.8, even 만약 you have experienced 변경 없음 in your total Scope 3 배출량. You 해야 합니다 report the changes in emissions in the 보고연도 compared to the previous year. In the event that your emissions have not changed for a particular category, select \"변경 없음\" in 열 2 및 그 이유를 설명 not in the \"Please explain\" 열. Note that CDP requires disclosure of gross emissions. Gross means total emissions before 하나 이상 deductions 또는 adjustments are made to account for offset credits, avoided emissions from the use of goods 및 services, 및/또는 reductions attributable to the sequestration 또는 transfer of GHGs. Scope 3 category (열 1) This 열 is driven by your selections in 7.8 - only the categories for which you calculated your emissions will appear. 주된 이유 for change (열 3) Select the 주된 이유 에 대한 change in emissions in each relevant Scope 3 category from the drop-down options 입력 (i.e. the factor which contributed to the largest change in emissions in that category). Further details on each 의 options are 입력 below: Change in renewable 에너지 소비량: 하나 이상 change in your Scope 3 배출량 because of renewable 에너지 소비량 in your 가치사슬. Change in 재생에너지 generation: 하나 이상 change in your Scope 3 배출량 because of 재생에너지 generation in your 가치사슬. Change in product efficiency: 하나 이상 change in your Scope 3 배출량 because of changes to the efficiency of your product 또는 service 경우 in use. Change in material efficiency: 하나 이상 change in your Scope 3 배출량 because of changes to the raw materials used in your products 또는 services. Change in supplier 또는 distributor: 하나 이상 change in your Scope 3 배출량 because of changes to your procurement 및 distribution policies. Other emissions reduction activities: This refers to changes in Scope 3 배출량 that have occurred because of proactive emissions reduction 이니셔티브 within your 가치사슬, other than those stated above. Divestment : This refers to changes in Scope 3 배출량 that occur as a result of selling off certain aspects 의 businesses. Acquisitions : This refers to changes in Scope 3 배출량 that occur as a result of purchasing 또는 obtaining another company/subsidiary/facility. Mergers : This refers to changes in Scope 3 that occur as a result of business mergers. Change in output: This refers to changes in Scope 3 배출량 that occur as a result of increases 또는 decreases in your business output (i.e. products 또는 services). E.g. organic g행th, declines in sales due to a global recession, 또는 release of a new product. Change in 방법론: This refers to changes in Scope 3 배출량 that occur due to modifications in the way that the inventory is calculated. E.g. changes in emissions factors used 또는 changes in the 방법론 protocol followed. Change in boundary : This refers to changes in the 보고경계 used 귀사의 inventory calculation, i.e. changing from financial control to operational control. This option could also apply 만약 you have incorporated facilities into your inventory that were excluded in previous years. Change in physical operating conditions: This refers to changes in weather that have a significant influence on how your 가치사슬 operates, but that cannot be accounted for under the other options available. E.g. increased production of hydroelectricity because of increased rainfall. Unidentified: Select this option 만약 you are not able to identify the 주된 이유 에 대한 change in your Scope 3 배출량 from the previous year. Other, 직접 입력: 만약 there is an alternative reason 에 대한 change in Scope 3 배출량, select this option 및 state the reason. Change in emissions in this category (미터톤 CO2e) (열 4) Enter the change in emissions in this Scope 3 category 경우 compared with the previous year. % change in emissions in this category (열 5) Enter the change in emissions in this category (i.e. the figure 보고 in 열 4) as a percentage 의 total Scope 3 배출량 in this category in the previous year. This value 해야 합니다 be calculated using the following formula: ((Change in Scope 3 배출량 in this category in the 보고연도) / (Scope 3 배출량 in this category in the previous year)) x 100 Please explain (열 6) Use this 열 to provide 하나 이상 additional context to your changes in Scope 3 배출량, such as 하나 이상 strategies 또는 policies you have implemented which have resulted in the change in emissions. 만약 하나 이상 reasons contributed to the change in emissions in addition to the 주된 이유 선택 in 열 3, you may also specify this here. Note for organizations with significant land sector activities in their operations 또는 가치사슬 및/또는 that choose to account for 및 report CO2 removals. 만약 you have calculated emissions in line with the GHG Protocol Land Sector 및 Removals Standard (LSRS) 및 Guidance 에 대한 first time 및 this has resulted in changes to the Scope 3 배출량 figures 보고 in 7.8, report this by selecting \"Change in 방법론\" in 열 \"주된 이유 for change\" 에 대한 scope 3 categories relevant to the change."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] For each Scope 3 category calculated in 7.8, specify how your emissions compare to the previous year and identify the reason for any change.",
+    "q2025": "Q7.11.1",
+    "q2025_text": "For each Scope 3 category calculated in 7.8, specify how your emissions compare to the previous year and identify the reason for any change.",
+    "change_status": "Modified guidance",
+    "detail_change_types": "New guidance",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": true,
+    "changed_scoring": false,
+    "change_summary": "Added guidance for organizations with significant land sector activities in their operations or value chain and/or that choose to account for and report CO2 removals.",
+    "scoring_change_summary": "",
+    "daml_summary": "Capital goods: D 5/5 | A 1/1 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "가이던스 수정",
+    "detail_change_typesKo": "신규 가이던스",
+    "change_summaryKo": "Added guidance for organizations with significant land sector activities in their operations 또는 가치사슬 및/또는 that choose to account for 및 report CO2 removals.",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Capital goods: D 5/5 | A 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "For each Scope 3 category calculated in 7.8, specify how your emissions compare to the previous year 및 identify the reason for 하나 이상 change."
+  },
+  "defaultPoints": {
+    "D": "5/5",
+    "A": "1/1",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "자본재",
+  "simpleHelpKo": "This 문항 asks how emissions from specific Scope 3 categories have changed. This level of granularity allows 데이터 사용자 to gain insight into the factors that have contributed to these changes.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

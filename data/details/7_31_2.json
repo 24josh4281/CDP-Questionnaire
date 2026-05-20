@@ -1,0 +1,240 @@
+{
+  "code": "7.31.2",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "State the percentage, by mass, of primary resource from which your chemical feedstocks derive.",
+  "questionKo": "the percentage, by mass, of primary resource from which your chemical feedstocks derive.을/를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Chemicals",
+  "simpleHelp": "Increasing the share of alternative, low-carbon feedstocks is one of the key levers of decarbonization for the sector, so the share of biomass/waste in an organization's total chemical feedstock should be increasing year on year.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Oil",
+      "titleKo": "Oil"
+    },
+    {
+      "order": 2,
+      "title": "Natural Gas",
+      "titleKo": "Natural Gas"
+    },
+    {
+      "order": 3,
+      "title": "Coal",
+      "titleKo": "Coal"
+    },
+    {
+      "order": 4,
+      "title": "Biomass",
+      "titleKo": "Biomass"
+    },
+    {
+      "order": 5,
+      "title": "Waste (non-biomass)",
+      "titleKo": "Waste (non-biomass)"
+    },
+    {
+      "order": 6,
+      "title": "Fossil fuel (where coal, gas, oil cannot be\ndistinguished)",
+      "titleKo": "Fossil fuel (여기서 coal, gas, oil cannot be distinguished)"
+    },
+    {
+      "order": 7,
+      "title": "Unknown source or unable to disaggregate",
+      "titleKo": "Unknown source 또는 unable to disaggregate"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.31.2.1",
+      "text": "Percentage of total chemical feedstock (%)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Percentage of total chemical feedstock (%)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.31.2.2",
+      "text": "Direction of change in percentage of total chemical feedstock from previous year",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Increased",
+        "Decreased",
+        "No change"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Direction of change in percentage of total chemical feedstock from previous year",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Increased",
+        "Decreased",
+        "변경 없음"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in response to 7.31.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 7.31."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nComplete this table for each of the primary feedstock sources consumed, directly or indirectly, by your organization for chemical production activities. \nFigures you provide should be for the reporting year only (as defined by your answer to 1.4). \nIf you do not use any of the feedstocks listed in column 0, and as such that feedstock does not constitute a percentage of your total chemical feedstock, enter a 0 (zero) in the relevant row in column 1. \nNegative numbers are not allowed. \nPercentage of total chemical feedstock (%) (column 1) \nEnter the percentage of the total consumption of feedstock, by the ultimately derived primary resources listed in column 0. \nStarting with the consumed feedstock, which may be a purchased feedstock or one produced upstream by the organization, determine the percentage split by primary resource and aggregate for all feedstock consumption. See \"Example response\" for further information. \nIf you are unable to disaggregate by fossil fuel type, then enter the percentage in the row \"Fossil fuel (where coal, gas, oil cannot be distinguished).\" This may be useful if you know that the feedstock is ultimately a feedstock derived from fossil fuels and is not a bio-based feedstock or derived from wastes.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Complete this table for each 의 primary feedstock sources consumed, directly 또는 indirectly, by 귀사 for 화학 생산 활동. Figures you provide 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). 만약 you do not use 하나 이상 의 feedstocks listed in 열 0, 및 as such that feedstock does not constitute a percentage of your total chemical feedstock, enter a 0 (zero) in the relevant 행 in 열 1. Negative numbers are not allowed. Percentage of total chemical feedstock (%) (열 1) Enter the percentage 의 total consumption of feedstock, by the ultimately derived primary resources listed in 열 0. Starting with the consumed feedstock, which may be a purchased feedstock 또는 one produced upstream by the organization, determine the percentage split by primary resource 및 aggregate for all feedstock consumption. See \"Example response\" for further information. 만약 you are unable to disaggregate by fossil fuel type, then enter the percentage in the 행 \"Fossil fuel (여기서 coal, gas, oil cannot be distinguished).\" This may be useful 만약 you know that the feedstock is ultimately a feedstock derived from fossil fuels 및 is not a bio-based feedstock 또는 derived from wastes."
+    },
+    {
+      "type": "Example Response",
+      "text": "Worked examples of calculation of percentage of chemical feedstocks\nA petrochemicals company purchases naphtha. This naphtha is 100% derived from petroleum oil. The company also purchases ethane which is 100% derived from natural gas, and a blended bio-based feedstock derived 75% from biomass and 25% from oil. The consumption of these feedstocks in the reporting year on a mass basis is 55% naphtha, 35% ethane, and 10% bio-based blend. The final % mix is as follows: \nOil = 100% × 55% + 25% × 10% = 57.5% \nNatural Gas = 100% × 35% = 35% \nBiomass = 75% × 10% = 7.5% \nNote: As these three elements constitute total feedstock consumption, their sum is 100%. \nFeedstock source\nPercentage of total chemical feedstock (%)\nOil \n57.5 \nNatural Gas \n35 \nCoal \n0 \nBiomass \n7.5 \nWaste (non-biomass) \n0 \nFossil Fuel (where coal, gas, oil cannot be distinguished)\n0 \nUnknown source or unable to disaggregate \n0 \nIn another example, a company purchases a fully coal derived chemical Feedstock A, and Feedstock B, which incorporates an ingredient which is itself 90% derived from Oil and 10% from non-fossil fuel sources. The ingredient makes up 82% of the feedstock by mass, with the remainder deriving from unknown sources. Feedstock A makes up 25% of total feedstock tonnage consumed in the reporting year, with the remaining 75% made up of Feedstock B. The final % mix is as follows: \nCoal = 100% × 25% = 25% \nOil = 82% × 90% × 75% = 55.35% \nNote: The unknown element of Feedstock B is the remaining percentage (100 - 55.35 - 25 = 19.65%), and may be entered in the last row). \nFeedstock source \nPercentage of total chemical feedstock (%) \nOil \n55.35 \nNatural Gas \n0 \nCoal \n25 \nBiomass \n0 \nWaste (non-biomass) \n0 \nFossil Fuel (where coal, gas, oil cannot be distinguished)\n0 \nUnknown source or unable to disaggregate \n19.65 \nIn a third example, a company purchases numerous feedstocks all produced by a supplier at their integrated refineries. Based on the product information available, or on request, the company can confirm that these feedstocks are fossil fuel based. The same company purchases coal and bio-liquids for other chemicals production processes. From the total mass of feedstock consumed, 60% is purchased from the refiner, 27% is coal, and the remaining 13% is bio-liquids. The final % mix is as follows: \nFeedstock source \nPercentage of total chemical feedstock (%) \nOil \n0 \nNatural Gas \n0 \nCoal \n27 \nBiomass \n13 \nWaste (non-biomass) \n0 \nFossil Fuel (where coal, gas, oil cannot be distinguished)\n60 \nUnknown source or unable to disaggregate \n0",
+      "typeKo": "Example Response",
+      "textKo": "Worked examples of calculation of percentage of chemical feedstocks A petrochemicals company purchases naphtha. This naphtha is 100% derived from petroleum oil. The company also purchases ethane which is 100% derived from natural gas, 및 a blended bio-based feedstock derived 75% from biomass 및 25% from oil. The consumption 의se feedstocks in the 보고연도 on a mass basis is 55% naphtha, 35% ethane, 및 10% bio-based blend. The final % mix is as follows: Oil = 100% × 55% + 25% × 10% = 57.5% Natural Gas = 100% × 35% = 35% Biomass = 75% × 10% = 7.5% Note: As these three elements constitute total feedstock consumption, their sum is 100%. Feedstock source Percentage of total chemical feedstock (%) Oil 57.5 Natural Gas 35 Coal 0 Biomass 7.5 Waste (non-biomass) 0 Fossil Fuel (여기서 coal, gas, oil cannot be distinguished) 0 Unknown source 또는 unable to disaggregate 0 In another example, a company purchases a fully coal derived chemical Feedstock A, 및 Feedstock B, which incorporates an ingredient which is itself 90% derived from Oil 및 10% from non-fossil fuel sources. The ingredient makes up 82% 의 feedstock by mass, with the remainder deriving from unknown sources. Feedstock A makes up 25% of total feedstock tonnage consumed in the 보고연도, with the remaining 75% made up of Feedstock B. The final % mix is as follows: Coal = 100% × 25% = 25% Oil = 82% × 90% × 75% = 55.35% Note: The unknown element of Feedstock B is the remaining percentage (100 - 55.35 - 25 = 19.65%), 및 may be entered in the last 행). Feedstock source Percentage of total chemical feedstock (%) Oil 55.35 Natural Gas 0 Coal 25 Biomass 0 Waste (non-biomass) 0 Fossil Fuel (여기서 coal, gas, oil cannot be distinguished) 0 Unknown source 또는 unable to disaggregate 19.65 In a third example, a company purchases numerous feedstocks all produced by a supplier at their integrated refineries. Based on the product information available, 또는 on request, the company can confirm that these feedstocks are fossil fuel based. The same company purchases coal 및 bio-liquids for other chemicals production 프로세스es. From the total mass of feedstock consumed, 60% is purchased from the refiner, 27% is coal, 및 the remaining 13% is bio-liquids. The final % mix is as follows: Feedstock source Percentage of total chemical feedstock (%) Oil 0 Natural Gas 0 Coal 27 Biomass 13 Waste (non-biomass) 0 Fossil Fuel (여기서 coal, gas, oil cannot be distinguished) 60 Unknown source 또는 unable to disaggregate 0"
+    }
+  ],
+  "points": [
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "1 or 2/1 or 2",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For each cell completed in column 'Percentage of total chemical feedstock (%)' excluding rows 'Fossil fuel (where coal, gas, oil cannot be distinguished)' AND 'Unknown source or unable to disaggregate' - 1 point\nA maximum of 5/5 points are available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For each cell 완성 in 열 'Percentage of total chemical feedstock (%)' 제외 행 'Fossil fuel (여기서 coal, gas, oil cannot be distinguished)' 그리고 'Unknown source 또는 unable to disaggregate' - 1 점 A 최고 of 5/5 점 are available for this 문항."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nROUTE A)\nSum of figures in column 'Percentage of total chemical feedstock (%)' in rows 'Biomass' AND 'Waste (non-biomass)' is equal to 100% - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth the following are met - 1 point\n'Decreased' selected in at least one of the following rows:\n- 'Oil'\n- 'Natural Gas'\n- 'Coal'\n- 'Fossil fuel (where coal, gas, oil cannot be distinguished)'\nAND\nAny option excluding 'Increased' selected in all of the following rows:\n- 'Oil'\n- 'Natural Gas'\n- 'Coal'\n- 'Fossil fuel (where coal, gas, oil cannot be distinguished)'\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) Sum of figures in 열 'Percentage of total chemical feedstock (%)' in 행 'Biomass' 그리고 'Waste (non-biomass)' is equal to 100% - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both the following are met - 1 점 'Decreased' 선택 in 최소 one 의 following 행: - 'Oil' - 'Natural Gas' - 'Coal' - 'Fossil fuel (여기서 coal, gas, oil cannot be distinguished)' 그리고 하나 이상 option 제외 'Increased' 선택 in all 의 following 행: - 'Oil' - 'Natural Gas' - 'Coal' - 'Fossil fuel (여기서 coal, gas, oil cannot be distinguished)' 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] State the percentage, by mass, of primary resource from which your chemical feedstocks derive.",
+    "q2025": "Q7.31.2",
+    "q2025_text": "State the percentage, by mass, of primary resource from which your chemical feedstocks derive.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Chemicals: D 5/5 | A 1/1 | M 0/0 | L 1 or 2/1 or 2",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Chemicals: D 5/5 | A 1/1 | M 0/0 | L 1 또는 2/1 또는 2",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "the percentage, by mass, of primary resource from which your chemical feedstocks derive.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "5/5",
+    "A": "1/1",
+    "M": "0/0",
+    "L": "1 or 2/1 or 2"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "화학",
+  "simpleHelpKo": "Increasing the share of alternative, low-carbon feedstocks is one 의 key levers of decarbonization 에 대한 sector, so the share of biomass/waste in an 조직의 total chemical feedstock 해야 합니다 be increasing year on year.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

@@ -1,0 +1,534 @@
+{
+  "code": "7.14",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Do you calculate greenhouse gas emissions for each agricultural commodity reported as significant to your business?",
+  "questionKo": "귀사는 calculate 온실가스 배출량 for each agricultural commodity reported as significant to your business입니까?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Agricultural commodities, Food, beverage & tobacco, Paper & forestry",
+  "simpleHelp": "Agricultural commodities that are significant to your business in terms of revenue could be closely associated with large CO2 emissions and signal dependency on natural capital and its associated ecosystem services under threat by climate change. This question enables data users to gauge how prepared your organization is to respond to risks related to your reliance on agricultural commodities by assessing whether you collect and/or calculate greenhouse gas (GHG) emissions data on these commodities. This information also provides further context to data users about the magnitude of the climate-related risks associated with your business where these commodities are not produced/sourced sustainably or managed carefully.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Cattle products",
+      "titleKo": "Cattle products"
+    },
+    {
+      "order": 2,
+      "title": "Cocoa",
+      "titleKo": "Cocoa"
+    },
+    {
+      "order": 3,
+      "title": "Coffee",
+      "titleKo": "Coffee"
+    },
+    {
+      "order": 4,
+      "title": "Cotton",
+      "titleKo": "Cotton"
+    },
+    {
+      "order": 5,
+      "title": "Dairy & egg products",
+      "titleKo": "Dairy & egg products"
+    },
+    {
+      "order": 6,
+      "title": "Farmed seafood / Aquaculture",
+      "titleKo": "Farmed seafood / Aquaculture"
+    },
+    {
+      "order": 7,
+      "title": "Fruit",
+      "titleKo": "Fruit"
+    },
+    {
+      "order": 8,
+      "title": "Maize/corn",
+      "titleKo": "Maize/corn"
+    },
+    {
+      "order": 9,
+      "title": "Nuts",
+      "titleKo": "Nuts"
+    },
+    {
+      "order": 10,
+      "title": "Other grain (e.g., barley, oats)",
+      "titleKo": "Other grain (e.g., barley, oats)"
+    },
+    {
+      "order": 11,
+      "title": "Other oilseeds (e.g. rapeseed oil)",
+      "titleKo": "Other oilseeds (e.g. rapeseed oil)"
+    },
+    {
+      "order": 12,
+      "title": "Palm oil",
+      "titleKo": "Palm oil"
+    },
+    {
+      "order": 13,
+      "title": "Poultry & hog",
+      "titleKo": "Poultry & hog"
+    },
+    {
+      "order": 14,
+      "title": "Rice",
+      "titleKo": "Rice"
+    },
+    {
+      "order": 15,
+      "title": "Rubber",
+      "titleKo": "Rubber"
+    },
+    {
+      "order": 16,
+      "title": "Soy",
+      "titleKo": "Soy"
+    },
+    {
+      "order": 17,
+      "title": "Sugar",
+      "titleKo": "Sugar"
+    },
+    {
+      "order": 18,
+      "title": "Tea",
+      "titleKo": "Tea"
+    },
+    {
+      "order": 19,
+      "title": "Timber products",
+      "titleKo": "Timber products"
+    },
+    {
+      "order": 20,
+      "title": "Tobacco",
+      "titleKo": "Tobacco"
+    },
+    {
+      "order": 21,
+      "title": "Vegetable",
+      "titleKo": "Vegetable"
+    },
+    {
+      "order": 22,
+      "title": "Wheat",
+      "titleKo": "Wheat"
+    },
+    {
+      "order": 23,
+      "title": "Wild-capture seafood",
+      "titleKo": "Wild-capture seafood"
+    },
+    {
+      "order": 24,
+      "title": "Other commodity",
+      "titleKo": "Other commodity"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.14.1",
+      "text": "GHG emissions calculated for this commodity",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No, but we intend to calculate this data within the next two years",
+        "No, and we do not intend to calculate this data within the next two years"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "온실가스 배출량 calculated for this commodity",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "No, but we intend to calculate this data within the next two years",
+        "No, 및 we do not intend to calculate this data within the next two years"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.14.2",
+      "text": "Reporting emissions by",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Total",
+        "Unit of production"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Reporting emissions by",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Total",
+        "Unit of production"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.14.3",
+      "text": "Emissions (metric tons CO2e)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Emissions (미터톤 CO2e)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.14.4",
+      "text": "Denominator: unit of production",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Kilograms",
+        "Liters",
+        "Metric tons",
+        "Unit of product",
+        "Unit of revenue",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Denominator: unit of production",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Kilograms",
+        "Liters",
+        "Metric tons",
+        "Unit of product",
+        "Unit of 매출",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.14.5",
+      "text": "Change from last reporting year",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "This is our first year of measurement",
+        "Much lower",
+        "Lower",
+        "About the same",
+        "Higher",
+        "Much Higher"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Change from last 보고연도",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "This is our first year of measurement",
+        "Much lower",
+        "Lower",
+        "About the same",
+        "Higher",
+        "Much Higher"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.14.6",
+      "text": "Please explain",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Please explain",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.14.7",
+      "text": "Explain why you do not calculate GHG emissions for this commodity",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "그 이유를 설명 you do not calculate 온실가스 배출량 for this commodity",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Minor change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Minor change"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in response to the column \"Is this commodity considered significant to your business in terms of revenue?\" for any row of 1.22 or 1.23.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"예\" in response to the 열 \"Is this commodity considered significant to your business in terms of 매출?\" for 하나 이상 행 of 1.22 또는 1.23."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nOrganizations are encouraged to calculate GHG emissions data for \nall  agricultural commodities specified as significant to their business in terms of revenue.\nAgricultural commodities (column 0) \nNote that only those agricultural commodities that you indicated are significant in terms of revenue in 1.22 or 1.23 will appear in the list.\nReporting emissions by (column 2) \nThis column is only presented if you select \"Yes\" in column 1 \"GHG emissions calculated for this commodity\".\nOrganizations are encouraged to report the agricultural commodity associated emissions per unit of production, e.g. CO2e/kg of product. However, if you are unable to provide this, you may report your emissions as an absolute figure by selecting \"Total\".\nEmissions (metric tons CO2e) (column 3) \nThis column is only presented if you select \"Yes\" in column 1 \"GHG emissions calculated for this commodity\".\nThis figure should be representative of your reporting year, boundaries for data collection/calculation as indicated in column 3 \"Reporting emissions by\" and expressed in metric tons.\nDenominator: unit of production (column 4) \nThis column will appear only if you select \"Unit of production\" in column 2 \"Reporting emissions by\".\nChange from last reporting year (column 5) \nThis column is only presented if you select \"Yes\" in column 1 \"GHG emissions calculated for this commodity\".\nPlease explain (column 6) \nThis column is only presented if you select \"Yes\" in column 1 \"GHG emissions calculated for this commodity\".\nIf you used the \"Other commodity\" row to report a different commodity in 1.23, specify the name of the commodity produced or sourced by your organization.\nSpecify the boundaries used for data calculation, e.g. organization-wide, direct operations, upstream value chain or only selected facilities.\nSpecify any exclusions in the case your reported figure does not cover your entire boundary for data collection/calculation. In this, provide an explanation as to why you have excluded certain parts of your organization.\nProvide details on the methods/tools and assumptions used to calculate your figure reported in column 4 \"Emissions (metric tons CO2e)\".\nExplain why you do not calculate GHG emission for this commodity (column 7) \nThis column is only presented if you select either \"No\" option in column 1 \"GHG emissions calculated for this commodity\".\nIf you used the \"Other commodity\" row to report a different commodity in 1.23, specify the name of the commodity produced or sourced by your organization.\nIf you selected \"No, but we intend to calculate this data within the next two years\", detail your plans, by including:\nCoverage of data calculation, e.g. organization-wide, upstream/downstream value chain or only selected facilities;\nTimeframe for starting to calculate this information;\nMethods/tools you plan to use.\nIf you selected \"No, and we do not intend to calculate this data within the next two years\", specify your main reason for not collecting/calculating this data and provide an explanation.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Organizations are encouraged to calculate GHG 배출량 데이터 for all 농산물 원자재 specified as significant to their business in terms of 매출. 농산물 원자재 (열 0) Note that only those 농산물 원자재 that you indicated are significant in terms of 매출 in 1.22 또는 1.23 will appear in the list. Reporting emissions by (열 2) This 열 is only presented 만약 you select \"예\" in 열 1 \"온실가스 배출량 calculated for this commodity\". Organizations are encouraged to report the agricultural commodity associated emissions per unit of production, e.g. CO2e/kg of product. However, 만약 you are unable to provide this, you may report your emissions as an absolute figure by selecting \"Total\". Emissions (미터톤 CO2e) (열 3) This 열 is only presented 만약 you select \"예\" in 열 1 \"온실가스 배출량 calculated for this commodity\". This figure 해야 합니다 be representative of your 보고연도, boundaries for data collection/calculation as indicated in 열 3 \"Reporting emissions by\" 및 expressed in metric tons. Denominator: unit of production (열 4) This 열 will appear only 만약 you select \"Unit of production\" in 열 2 \"Reporting emissions by\". Change from last 보고연도 (열 5) This 열 is only presented 만약 you select \"예\" in 열 1 \"온실가스 배출량 calculated for this commodity\". Please explain (열 6) This 열 is only presented 만약 you select \"예\" in 열 1 \"온실가스 배출량 calculated for this commodity\". 만약 you used the \"Other commodity\" 행 to report a different commodity in 1.23, specify the name 의 commodity produced 또는 sourced by 귀사. Specify the boundaries used for data calculation, e.g. organization-wide, 직접 운영사업장, 업스트림 가치사슬 또는 only 선택 facilities. Specify 제외사항 in the case your 보고 figure does not cover your entire boundary for data collection/calculation. In this, provide an explanation as to why you have excluded certain parts of 귀사. 세부 정보를 입력 on the methods/tools 및 assumptions used to calculate your figure 보고 in 열 4 \"Emissions (미터톤 CO2e)\". 그 이유를 설명 you do not calculate GHG emission for this commodity (열 7) This 열 is only presented 만약 you select either \"No\" option in 열 1 \"온실가스 배출량 calculated for this commodity\". 만약 you used the \"Other commodity\" 행 to report a different commodity in 1.23, specify the name 의 commodity produced 또는 sourced by 귀사. 만약 you 선택 \"No, but we intend to calculate this data within the next two years\", detail your plans, by 포함: Coverage of data calculation, e.g. organization-wide, upstream/다운스트림 가치사슬 또는 only 선택 facilities; Timeframe for starting to calculate this information; Methods/tools you plan to use. 만약 you 선택 \"No, 및 we do not intend to calculate this data within the next two years\", specify your main reason for not collecting/calculating this data 및 provide an explanation."
+    },
+    {
+      "type": "Additional Information",
+      "text": "The following tools can be used for calculating commodity-specific agricultural emissions: \nRSPO PalmGHG Calculator \nGHG Protocol Pulp and Paper tool \nCool Farm tool \nFAO EX-ACT tool \nFor an overview of the available resources (i.e. standards, methodologies, tools, and calculators) for assessing emissions from agricultural production and agriculturally-driven land use change, please refer to:  Measure the Chain: Tools for Assessing GHG Emissions in Agricultural Supply Chains",
+      "typeKo": "추가 정보",
+      "textKo": "The following tools can be used for calculating commodity-specific agricultural emissions: RSPO PalmGHG Calculator GHG Protocol Pulp 및 Paper tool Cool Farm tool FAO EX-ACT tool For an overview 의 available resources (i.e. 기준, methodologies, tools, 및 calculators) for assessing emissions from agricultural production 및 agriculturally-driven land use change, please refer to: Measure the Chain: Tools for Assessing 온실가스 배출량 in Agricultural 공급망s"
+    }
+  ],
+  "points": [
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "8/8",
+      "A": "3/3",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "8/8",
+      "A": "3/3",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "8/8",
+      "A": "3/3",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 8/8 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed row (excluding column 'Denominator: unit of production') in proportion to the number of rows disclosed as follows:\n'Yes' selected in column 'Do you collect or calculate GHG emissions for this commodity?' AND\nFigure greater than 0 provided in column 'Emissions (metric tons CO2e)' AND\nAny option excluding either 'Higher' OR 'Much higher' selected in column 'Change from last reporting year'.\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nPoints will be awarded per completed row in proportion to the number of rows disclosed as follows:\n'No, not currently but intend to collect or calculate...' selected in column 'Do you collect or calculate GHG emissions for this commodity?'\nA maximum of 3/3 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 (제외 열 'Denominator: unit of production') in proportion to the number of 행 공개 as follows: '예' 선택 in 열 'Do you collect 또는 calculate 온실가스 배출량 for this commodity?' 그리고 Figure 초과 0 입력 in 열 'Emissions (미터톤 CO2e)' 그리고 하나 이상 option 제외 either 'Higher' 또는 'Much higher' 선택 in 열 'Change from last 보고연도'. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: 'No, not currently but intend to collect 또는 calculate...' 선택 in 열 'Do you collect 또는 calculate 온실가스 배출량 for this commodity?' 이 경로에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'Yes' selected in column 'GHG emissions calculated for this commodity' in all rows - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'예' 선택 in 열 '온실가스 배출량 calculated for this commodity' in all 행 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 8/8 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed row (excluding column 'Denominator: unit of production') in proportion to the number of rows disclosed as follows:\n'Yes' selected in column 'Do you collect or calculate GHG emissions for this commodity?' AND\nFigure greater than 0 provided in column 'Emissions (metric tons CO2e)' AND\nAny option excluding either 'Higher' OR 'Much higher' selected in column 'Change from last reporting year'.\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nPoints will be awarded per completed row in proportion to the number of rows disclosed as follows:\n'No, not currently but intend to collect or calculate...' selected in column 'Do you collect or calculate GHG emissions for this commodity?'\nA maximum of 3/3 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 (제외 열 'Denominator: unit of production') in proportion to the number of 행 공개 as follows: '예' 선택 in 열 'Do you collect 또는 calculate 온실가스 배출량 for this commodity?' 그리고 Figure 초과 0 입력 in 열 'Emissions (미터톤 CO2e)' 그리고 하나 이상 option 제외 either 'Higher' 또는 'Much higher' 선택 in 열 'Change from last 보고연도'. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: 'No, not currently but intend to collect 또는 calculate...' 선택 in 열 'Do you collect 또는 calculate 온실가스 배출량 for this commodity?' 이 경로에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'Yes' selected in column 'GHG emissions calculated for this commodity' in all rows - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'예' 선택 in 열 '온실가스 배출량 calculated for this commodity' in all 행 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 8/8 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed row (excluding column 'Denominator: unit of production') in proportion to the number of rows disclosed as follows:\n'Yes' selected in column 'Do you collect or calculate GHG emissions for this commodity?' AND\nFigure greater than 0 provided in column 'Emissions (metric tons CO2e)' AND\nAny option excluding either 'Higher' OR 'Much higher' selected in column 'Change from last reporting year'.\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nPoints will be awarded per completed row in proportion to the number of rows disclosed as follows:\n'No, not currently but intend to collect or calculate...' selected in column 'Do you collect or calculate GHG emissions for this commodity?'\nA maximum of 3/3 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 (제외 열 'Denominator: unit of production') in proportion to the number of 행 공개 as follows: '예' 선택 in 열 'Do you collect 또는 calculate 온실가스 배출량 for this commodity?' 그리고 Figure 초과 0 입력 in 열 'Emissions (미터톤 CO2e)' 그리고 하나 이상 option 제외 either 'Higher' 또는 'Much higher' 선택 in 열 'Change from last 보고연도'. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: 'No, not currently but intend to collect 또는 calculate...' 선택 in 열 'Do you collect 또는 calculate 온실가스 배출량 for this commodity?' 이 경로에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'Yes' selected in column 'GHG emissions calculated for this commodity' in all rows - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'예' 선택 in 열 '온실가스 배출량 calculated for this commodity' in all 행 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Do you calculate greenhouse gas emissions for each agricultural commodity reported as significant to your business?",
+    "q2025": "Q7.14",
+    "q2025_text": "Do you calculate greenhouse gas emissions for each agricultural commodity reported as significant to your business?",
+    "change_status": "Minor change",
+    "detail_change_types": "Modified row text, New row",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": true,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "Rows \"Rubber\" and \"Wild capture seafood\" added and row \"Fish and seafood from aquaculture\" renamed to \"Farmed seafood / Aquaculture\".",
+    "scoring_change_summary": "",
+    "daml_summary": "Agricultural commodities: D 8/8 | A 3/3 | M 1/1 | L 1/1\nFood, beverage & tobacco: D 8/8 | A 3/3 | M 1/1 | L 1/1\nPaper & forestry: D 8/8 | A 3/3 | M 1/1 | L 1/1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "경미한 변경",
+    "detail_change_typesKo": "행 문구 수정, 신규 행",
+    "change_summaryKo": "행 \"Rubber\" 및 \"Wild capture seafood\" added 및 행 \"Fish 및 seafood from aquaculture\" renamed to \"Farmed seafood / Aquaculture\".",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "농산물 원자재: D 8/8 | A 3/3 | M 1/1 | L 1/1 Food, beverage & tobacco: D 8/8 | A 3/3 | M 1/1 | L 1/1 Paper & forestry: D 8/8 | A 3/3 | M 1/1 | L 1/1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "귀사는 calculate 온실가스 배출량 for each agricultural commodity 보고 as significant to your business입니까?"
+  },
+  "defaultPoints": {
+    "D": "8/8",
+    "A": "3/3",
+    "M": "1/1",
+    "L": "1/1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "농산물 원자재, Food, beverage & tobacco, 제지 및 임업",
+  "simpleHelpKo": "농산물 원자재 that are significant to your business in terms of 매출 could be closely associated with large CO2 emissions 및 signal dependency on natural capital 및 its associated ecosystem services under threat by climate change. This 문항 enables 데이터 사용자 to gauge how prepared 귀사 is to respond to risks related to your reliance on 농산물 원자재 by assessing whether you collect 및/또는 calculate greenhouse gas (GHG) 배출량 데이터 on these commodities. This information also provides further context to 데이터 사용자 about the magnitude 의 climate-related risks associated with your business 여기서 these commodities are not produced/sourced sustainably 또는 managed carefully.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

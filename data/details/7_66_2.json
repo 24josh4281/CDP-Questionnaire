@@ -1,0 +1,281 @@
+{
+  "code": "7.66.2",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Provide gross masses of CO2 injected and stored for the purposes of CCS during the reporting year according to the injection and storage pathway.",
+  "questionKo": "CO2 총량 주입 및 저장된 에 대한 purposes of CCS during the 보고연도 according to the injection 및 storage pathway.을/를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Oil & Gas",
+  "simpleHelp": "There is an increasing investor recognition that CCS/U is one of the very few ways of reducing emissions in energy-intensive industries. Understanding the quantity of CO2 injected by pathway and the expected percentage of this that is intended for long term storage provides investors with insight into the emission reduction potential of organizations CCS/U projects.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.66.2.1",
+      "text": "Injection and storage pathway",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Acid gas injection (CO2 and H2S co-injected into a production reservoir)",
+        "CO2 used for enhanced oil recovery (EOR)",
+        "CO2 used for enhanced shale gas recovery (ESGR)",
+        "CO2 used for other enhanced gas recovery (EGR)",
+        "CO2 used for enhanced coal bed methane (ECBM) operations",
+        "CO2 injected into saline formations for long-term storage",
+        "CO2 injected into depleted oil and gas reservoirs for long-term storage",
+        "CO2 injected into other deep geological formation for long-term storage",
+        "CO2 injected into basalts for long-term storage",
+        "CO2 injected for storage through mineral carbonation",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Injection 및 storage pathway",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Acid gas injection (CO2 및 H2S co-injected into a production reservoir)",
+        "CO2 used for enhanced oil recovery (E또는)",
+        "CO2 used for enhanced shale gas recovery (ESGR)",
+        "CO2 used for other enhanced gas recovery (EGR)",
+        "CO2 used for enhanced coal bed methane (ECBM) operations",
+        "CO2 injected into saline formations for long-term storage",
+        "CO2 injected into depleted oil 및 gas reservoirs for long-term storage",
+        "CO2 injected into other deep geological formation for long-term storage",
+        "CO2 injected into basalts for long-term storage",
+        "CO2 injected for storage through mineral carbonation",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.66.2.2",
+      "text": "Injected CO2 in the reporting year (metric tons CO2)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Injected CO2 in the 보고연도 (미터톤 CO2)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.66.2.3",
+      "text": "Percentage of injected CO2 intended for long-term (>10,000 year) storage",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Percentage of injected CO2 intended for long-term (>10,000 year) storage",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.66.2.4",
+      "text": "CO2 leakage in the reporting year during injection (metric tons CO2)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "CO2 leakage in the 보고연도 during injection (미터톤 CO2)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.66.2.5",
+      "text": "Year in which injection began",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Year in which injection began",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.66.2.6",
+      "text": "Cumulative CO2 injected and stored (metric tons CO2)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Cumulative CO2 주입 및 저장된 (미터톤 CO2)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.66.2.7",
+      "text": "Ongoing leakage (average estimated % of stored CO2 per year)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Ongoing leakage (average estimated % of stored CO2 per year)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.66.2.8",
+      "text": "Describe your process for monitoring leakage and any long-term storage of the CO2",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "your 프로세스 for monitoring leakage 및 하나 이상 long-term storage 의 CO2을/를 설명하십시오.",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in response to 7.66.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 7.66."
+    },
+    {
+      "type": "Requested Content",
+      "text": "Injection and storage pathway (column 1)\nIf you select \"Other, please specify,\" provide a label for the injection and storage pathway.\nIf your organization is involved in multiple injection and storage pathways, add a row to provide information for each pathway.\nInjected CO 2 in the reporting year (metric tons CO 2 ) (column 2) \nEnter in metric tons the amount of CO 2 that was injected via the selected injection and storage pathway in the reporting year.\nPercentage of injected CO 2 intended for long-term (>10,000 year) storage (column 3) \nEnter the percentage of CO 2 injected in the reporting year that was intended for long-term/permanent storage of at least 10,000 years.\nCO 2 leakage in the reporting year during injection (metric tons CO 2 ) (column 4) \nEnter in metric tons the amount of CO 2 leakage that occurred during injection in the reporting year. See Explanation of Terms for more information.\nYear in which injection began (column 5) \nEnter the year in which the injection of CO 2 began.\nCumulative CO 2 injected and stored (metric tons CO 2 ) (column 6) \nProvide the total figure of CO 2 injected and stored over the lifetime of the project to date, since the year in which injection began.\nOngoing leakage (average estimated % of stored CO 2 per year) (column 7) \nEstimate the ongoing leakage of CO 2 over the lifetime of the storage.\nThis figure should be the average percent of stored CO 2 estimated to leak per year for the lifetime of the storage.\nDescribe your process for monitoring leakage and any long-term storage of the CO 2 (column 8) \nDescribe your process for:\ndetecting, monitoring, and quantifying CO 2 leakage during injection; and\nthe ongoing monitoring of stored CO 2 for the purposes of detecting and quantifying CO 2 leakage.\nInclude the methods used and the intervals at which the monitoring occurs.",
+      "typeKo": "요청 내용",
+      "textKo": "Injection 및 storage pathway (열 1) 만약 you select \"Other, 직접 입력,\" provide a label 에 대한 injection 및 storage pathway. 만약 귀사 is involved in multiple injection 및 storage pathways, add a 행 to provide information for each pathway. Injected CO 2 in the 보고연도 (metric tons CO 2 ) (열 2) Enter in metric tons the amount of CO 2 that was injected via the 선택 injection 및 storage pathway in the 보고연도. Percentage of injected CO 2 intended for long-term (>10,000 year) storage (열 3) Enter the percentage of CO 2 injected in the 보고연도 that was intended for long-term/permanent storage of 최소 10,000 years. CO 2 leakage in the 보고연도 during injection (metric tons CO 2 ) (열 4) Enter in metric tons the amount of CO 2 leakage that occurred during injection in the 보고연도. See Explanation of Terms for more information. Year in which injection began (열 5) Enter the year in which the injection of CO 2 began. Cumulative CO 2 주입 및 저장된 (metric tons CO 2 ) (열 6) Provide the total figure of CO 2 주입 및 저장된 over the lifetime 의 project to date, since the year in which injection began. Ongoing leakage (average estimated % of stored CO 2 per year) (열 7) Estimate the ongoing leakage of CO 2 over the lifetime 의 storage. This figure 해야 합니다 be the average percent of stored CO 2 estimated to leak per year 에 대한 lifetime 의 storage. 설명 your 프로세스 for monitoring leakage 및 하나 이상 long-term storage 의 CO 2 (열 8) 설명 your 프로세스 for: detecting, monitoring, 및 quantifying CO 2 leakage during injection; 및 the ongoing monitoring of stored CO 2 에 대한 purposes of detecting 및 quantifying CO 2 leakage. Include the methods used 및 the intervals at which the monitoring occurs."
+    },
+    {
+      "type": "Ambition",
+      "text": "Where CCS is used, storage is long-term, monitored, and with minimal leakage.",
+      "typeKo": "Ambition",
+      "textKo": "여기서 CCS is used, storage is long-term, monitored, 및 with minimal leakage."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "CO 2 injection: Injecting CO 2 into carefully selected and managed deep geological formations (e.g. saline formations, depleted oil and gas reservoirs, enhanced oil recovery operations or enhanced coal-bed methane deposits), some of which previously contained hydrocarbons for millions of years.\nCO 2 leakage (CCS): also referred to as carbon leakage or seepage, refers to CO 2 losses to the atmosphere at storage sites due to infrastructure or storage malfunctions.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "CO 2 injection: Injecting CO 2 into carefully 선택 및 managed deep geological formations (e.g. saline formations, depleted oil 및 gas reservoirs, enhanced oil recovery operations 또는 enhanced coal-bed methane deposits), some of which previously contained hydrocarbons for millions of years. CO 2 leakage (CCS): also referred to as carbon leakage 또는 seepage, refers to CO 2 losses to the atmosphere at storage sites due to infrastructure 또는 storage malfunctions."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "10/10",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Provide gross masses of CO2 injected and stored for the purposes of CCS during the reporting year according to the injection and storage pathway.",
+    "q2025": "Q7.66.2",
+    "q2025_text": "Provide gross masses of CO2 injected and stored for the purposes of CCS during the reporting year according to the injection and storage pathway.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Oil & Gas: D 10/10 | A 1/1 | M 1/1 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Oil & Gas: D 10/10 | A 1/1 | M 1/1 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "CO2 총량 주입 및 저장된 에 대한 purposes of CCS during the 보고연도 according to the injection 및 storage pathway.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "10/10",
+    "A": "1/1",
+    "M": "1/1",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "석유 및 가스",
+  "simpleHelpKo": "There is an increasing investor recognition that CCS/U is one 의 very few ways of reducing emissions in energy-intensive industries. Understanding the quantity of CO2 injected by pathway 및 the expected percentage of this that is intended for long term storage provides investors with insight into the emission reduction potential of organizations CCS/U projects.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

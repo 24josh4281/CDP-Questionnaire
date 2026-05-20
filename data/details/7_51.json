@@ -1,0 +1,370 @@
+{
+  "code": "7.51",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "What are your primary intensity (activity-based) metrics that are appropriate to your emissions from transport activities in Scope 1, 2, and 3?",
+  "questionKo": "What are your primary intensity (activity-based) metrics that are appropriate to your emissions from transport activities in Scope 1, 2, 및 3?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Aviation, Transport services",
+  "simpleHelp": "The metrics requested in this question allow measuring carbon efficiency of transportation directly, independent of size or distance. This makes comparison between organizations and different transport modes possible. Information collected in this question will enable your organization, as well as investors and data users, to compare your emissions' intensity over time and provide a more accurate measure of any improvements you are making.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "LDV",
+      "titleKo": "LDV"
+    },
+    {
+      "order": 2,
+      "title": "HDV",
+      "titleKo": "HDV"
+    },
+    {
+      "order": 3,
+      "title": "Rail",
+      "titleKo": "Rail"
+    },
+    {
+      "order": 4,
+      "title": "Aviation",
+      "titleKo": "Aviation"
+    },
+    {
+      "order": 5,
+      "title": "Marine",
+      "titleKo": "Marine"
+    },
+    {
+      "order": 6,
+      "title": "ALL",
+      "titleKo": "ALL"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.51.1",
+      "text": "Scopes used for calculation of intensities",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Report just Scope 1",
+        "Report Scope 1 + 2",
+        "Report Scope 1 + 2 + 3 (category 4)"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Scopes used for calculation of intensities",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Report just Scope 1",
+        "Report Scope 1 + 2",
+        "Report Scope 1 + 2 + 3 (category 4)"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.51.2",
+      "text": "Intensity figure",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Intensity figure",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.51.3",
+      "text": "Metric numerator: emissions in metric tons CO2e",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Metric numerator: emissions in 미터톤 CO2e",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.51.4",
+      "text": "Metric denominator: unit",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "p.km",
+        "p.mile",
+        "t.km",
+        "t.mile"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Metric denominator: unit",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "p.km",
+        "p.mile",
+        "t.km",
+        "t.mile"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.51.5",
+      "text": "Metric denominator: unit total",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Metric denominator: unit total",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.51.6",
+      "text": "% change from previous year",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% change from previous year",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.51.7",
+      "text": "Please explain any exclusions in your coverage of transport emissions in selected category, and reasons for change in emissions intensity.",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Please explain 제외사항 in your coverage of transport emissions in 선택 category, 및 reasons for change in 배출집약도.",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThis question requests primary emissions intensity (activity-based) metrics of the average transport movements of your vehicles and the vehicles used in your supply chain. These are requested, normalized by the work done (number of passengers or the amount of goods (mass) moved, as well as distance.). \nFor each of the mode of transport applicable to your organization, please report your most relevant intensity metric. For freight transport, this means an intensity metric in tCO2e per metric ton, per kilometer/mile (tCO2e/t.km or t.mile). For passenger transport, this means an intensity metric in tCO2e, per passenger, per kilometer/mile (tCO2e/p.km or p.mile). The guidance will refer to the kilometer metric in further text, but these also apply to the corresponding metric in miles. \nTo calculate this metric for a particular transport mode and for all modes together, two main data points need to be gathered: \nThe total tCO2e (metric tons CO2 equivalent) of emissions associated with transport movements by vehicles in a particular mode, such as heavy-duty vehicles (HDV). \nTon-kilometer (or ton-mile) or passenger-kilometer (or passenger-mile). These metrics represent the transportation of persons or freight over the set distance of one km (or mile). \nFor a more detailed breakdown of this metric, how to collect data and how to calculate it, please refer to the Technical Note on \"Measuring the emissions intensity of transport movements\" . . \nCDP recognizes that this method is not yet standardized across many industries, which may impact your ability to collect data on emissions and work done, between Scope 1, 2 and 3. In many cases it may be especially difficult to gather data for the relevant transport movements in Scope 3. Therefore, you are able to select your boundary in column 1 and report your specific coverage and reasons for exclusions in column 7. \nThis question follows the general framework of splitting emissions figures and intensities by transport mode. Complete this table for all transport modes present in your business operations. However, CDP recognizes that it may be difficult to account for emissions from your value chain for all modes of transport selected. Therefore, if you do not have specific enough data on the transport modes used in your supply chain for emissions in Scope 3: Category 4, you should at the least complete this table for the \"ALL\" category and calculate an emissions intensity figure for all transport modes together. \nScopes used for calculation of intensities (column 1) \nCDP recommends the calculation of an intensity figure derived from all three emission scopes (option \"Report Scope 1 + 2 + 3 (category 4)\"). \nCDP recognizes that organizations have differing levels of data quality and different levels of completeness of their emission inventories across Scopes 1, 2, and 3: Category 4. Therefore, you have an option to select the combination of scopes that corresponds to the information that is available to you. \nTransport emissions that fall under your selected control boundary are reported under Scope 1+2. Transport emissions that fall outside of your selected control boundary are reported under Scope 3: Category 4: Upstream transportation and distribution. \nCompanies who are new to reporting an emission intensity figure are recommended to start with an intensity metric that includes their Scope 1 emissions, and possibly Scope 1+2 if your transport movements also include emissions from electricity use, through for example hybrid or full-electric vehicles. \nTo expand this reporting to include Scope 3: Category 4 Upstream transportation and distribution, you will need data from your transport service suppliers on both the activity levels and the associated emissions. You may use the method proposed in the GLEC Framework , which will enable you to gain the information required for this metric for your Scope 3 emissions. See also the Technical Note on \"Measuring the emissions intensity of transport movements\" for an introduction to this methodology and guidelines to gathering the required data. for an introduction to this methodology and guidelines to gathering the required data. \nThe main category for reporting Scope 3 emissions from transportation is category 4 (Upstream). Responders should be aware not to report their Scope 3 emissions from purchased transportation services under category 9: Downstream emissions and distribution. As the GHG Protocol Corporate Value Chain standard [page 47] explains: \n\"Outbound transportation and distribution services that are purchased by the reporting company are excluded from category 9 and included in category 4 (Upstream transportation and distribution) because the reporting company purchases the service.\" \nThis applies to this question, as well as 7.8 (Scope 3 emissions). \nFor carriers and logistics service providers, therefore the only relevant category for the calculation of Scope 3 emissions will generally be category 4. If you have specific emissions from your business model that fall within category 9, do not use data associated with this category for the calculation of intensities in this question. \nSee the table below\nfor an excerpt from the Corporate Value Chain Standard table [5.7] [page 45], that explains the differences between Scope 1+2, S3:4 and S3:9, and the reasoning why carriers and logistics service providers are recommended to use category 4. \nTransportation and distribution activity in the value chain \nScope and scope 3 category \nTransportation and distribution in vehicles and facilities owned \nor controlled by the reporting company \nScope 1 (for fuel use) or scope 2 \n(for electricity use) \nTransportation and distribution services purchased by the reporting \ncompany in the reporting year (either directly or through an intermediary), \nincluding inbound logistics, outbound logistics (e.g., of sold products), \nand transportation and distribution between a company's own facilities (in \nvehicles and facilities not owned or controlled by the reporting company) \nScope 3, category 4 (Upstream \ntransportation and distribution) \nTransportation and distribution of products sold by the reporting company between the reporting company's operations and the end consumer (if not paid for by the reporting company), including retail and storage (in vehicles and facilities not owned or controlled by the reporting company) \nScope 3, category 9 (Downstream \ntransportation and distribution) \nIntensity figure (column 2) \nEnter the numerical value of the intensity metric most appropriate to your organization's products and/or services derived from the reported metric numerator (column 3) and metric denominator (column 5). \nMetric numerator: emissions in metric tons CO2e (column 3) \nProvide the total emissions figure for the activity (column 0) and scopes (column 1) selected, in metric tons CO2e. \nOnly report here emissions used to derive your intensity figure (in column 2). \nMetric denominator (column 4) \nSelect the most relevant metric denominator applicable to the transport mode you are reporting. \nMetric denominator: Unit total (column 5) \nEnter the numerical value of the metric denominator selected in column 4, used to evaluate the emissions intensity figure presented (column 2). \nThis will either be the total passenger-kilometers/miles (p.km or p.mile) or the total ton-kilometers/miles (t.km or t.mile). \n% change from previous year (column 6) \nReport the % change from the previous year for the reported metric (column 2). \nIf you have experienced no change, please enter 0 (zero) in this column. \nLeave the column blank if you do not have sufficient data to calculate the change from the previous year, or if this is the first year you have tracked this metric. Inserting a zero (0) in this column would suggest that you have compared your intensity to the 12-month period prior, and that the % change is equal to zero (0). \nThe % change figure may be in part due to expansion of coverage towards previously excluded transport movements in your Scope 3 emissions. If this is the case, please explain this, and state the fraction of the percentage increase due to expansion of coverage in column 7. \nPlease explain any exclusions in your coverage of transport emissions in selected category, and reasons for change in emissions intensity. (column 7) \nExplain the metric that you are reporting, including: \nWhether it covers all your vehicle types within the reported transport mode or only certain type(s), \nState any assumptions made to disaggregate within this transport mode, and any reasons for reporting intensity metrics separately. For example, any assumptions made to breakdown the LDV transport mode into light commercial vehicles (LCV) or passenger light duty vehicles. \nAs mentioned above, full coverage of all relevant Scope 1+2+3: Category 4 emissions in these intensity metrics requires a lot of data and information on both emissions in tCO2e, and transport activity in p.km or t.km. It is recognized that obtaining this information may prove challenging, and therefore companies are expected to have varying levels of coverage depending on how they have been able to engage with their supply chain. Therefore, please explain the following: \nIf you have selected to report just Scope 1, or Scope 1+2 emissions intensities, please state the reason for not including any Scope 3 emissions in the calculation of your intensity metrics. \nIf you are reporting Scope 1, 2, and 3 emissions, indicate the proportions of the total metric reported in column 5 that fall under Scope 1+2 or Scope 3, e.g. \"45% of reported t.km were Scope 1+2 and 55% Scope 3.\" \nPlease report the extent of exclusions in your coverage of transport emissions in the selected categories. \nIt is recommended to report these exclusions based on the coverage of transport activity, not emissions. For example, if you have been able to collect, estimate or model 45% of all relevant purchased transport activity data that falls under the boundary of Scope 3: Category 4, report this information here. \nExplain any reasons you have identified for changes in emissions intensity stated in column 6. \nIn addition to the most relevant metric for each transport mode that you are reporting in each row, you can report here any other metrics that you monitor. If you intend to do so, please clearly state these additional metrics and what types of vehicles they apply to, e.g. if your primary intensity metric that you reported for LDV mode is for light commercial vehicles (LCV) and you also wish to report any additional metrics relating to passenger light duty vehicles, please clearly state this.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 This 문항 requests primary 배출집약도 (activity-based) metrics 의 average transport movements of your vehicles 및 the vehicles used in your 공급망. These are requested, normalized by the work done (number of passengers 또는 the amount of goods (mass) moved, as well as distance.). For each 의 mode of transport 해당되는 경우 to 귀사, please report your most relevant intensity metric. For freight transport, this means an intensity metric in tCO2e per metric ton, per kilometer/mile (tCO2e/t.km 또는 t.mile). For passenger transport, this means an intensity metric in tCO2e, per passenger, per kilometer/mile (tCO2e/p.km 또는 p.mile). The guidance will refer to the kilometer metric in further text, but these also apply to the corresponding metric in miles. To calculate this metric for a particular transport mode 및 for all modes together, two main data 점 need to be gathered: The total tCO2e (미터톤 CO2 equivalent) of emissions associated with transport movements by vehicles in a particular mode, such as heavy-duty vehicles (HDV). Ton-kilometer (or ton-mile) 또는 passenger-kilometer (or passenger-mile). These metrics represent the transportation of persons 또는 freight over the set distance of one km (or mile). For a more detailed breakdown of this metric, how to collect data 및 how to calculate it, please refer to the Technical Note on \"Measuring the 배출집약도 of transport movements\" . . CDP recognizes that this method is not yet standardized across many industries, which may impact your ability to collect data on emissions 및 work done, between Scope 1, 2 및 3. In many cases it may be especially difficult to gather data 에 대한 relevant transport movements in Scope 3. Therefore, you are able to select your boundary in 열 1 및 report your specific coverage 및 reasons for 제외사항 in 열 7. This 문항 follows the general framework of splitting emissions figures 및 intensities by transport mode. Complete this table for all transport modes present in your business operations. However, CDP recognizes that it may be difficult to account for emissions from your 가치사슬 for all modes of transport 선택. Therefore, 만약 you do not have specific enough data on the transport modes used in your 공급망 for emissions in Scope 3: Category 4, you 해야 합니다 at the least complete this table 에 대한 \"ALL\" category 및 calculate an 배출집약도 figure for all transport modes together. Scopes used for calculation of intensities (열 1) CDP recommends the calculation of an intensity figure derived from all three emission scopes (option \"Report Scope 1 + 2 + 3 (category 4)\"). CDP recognizes that organizations have differing levels of data quality 및 different levels of completeness 의ir emission inventories across Scopes 1, 2, 및 3: Category 4. Therefore, you have an option to select the combination of scopes that corresponds to the information that is available to you. Transport emissions that fall under your 선택 control boundary are 보고 under Scope 1+2. Transport emissions that fall outside of your 선택 control boundary are 보고 under Scope 3: Category 4: Upstream transportation 및 distribution. Companies who are new to reporting an emission intensity figure are recommended to start with an intensity metric that includes their Scope 1 배출량, 및 possibly Scope 1+2 만약 your transport movements also include emissions from electricity use, through for example hybrid 또는 full-electric vehicles. To expand this reporting to include Scope 3: Category 4 Upstream transportation 및 distribution, you will need data from your transport service suppliers on both the activity levels 및 the associated emissions. You may use the method proposed in the GLEC Framework , which will enable you to gain the information required for this metric 귀사의 Scope 3 배출량. See also the Technical Note on \"Measuring the 배출집약도 of transport movements\" for an introduction to this 방법론 및 guidelines to gathering the required data. for an introduction to this 방법론 및 guidelines to gathering the required data. The main category for reporting Scope 3 배출량 from transportation is category 4 (Upstream). Responders 해야 합니다 be aware not to report their Scope 3 배출량 from purchased transportation services under category 9: Downstream emissions 및 distribution. As the GHG Protocol Corporate 가치사슬 standard [page 47] explains: \"Outbound transportation 및 distribution services that are purchased by the reporting company are excluded from category 9 및 included in category 4 (Upstream transportation 및 distribution) because the reporting company purchases the service.\" This applies to this 문항, as well as 7.8 (Scope 3 배출량). For carriers 및 logistics service providers, therefore the only relevant category 에 대한 calculation of Scope 3 배출량 will generally be category 4. 만약 you have specific emissions from your business model that fall within category 9, do not use data associated with this category 에 대한 calculation of intensities in this 문항. See the table below for an excerpt from the Corporate 가치사슬 Standard table [5.7] [page 45], that explains the differences between Scope 1+2, S3:4 및 S3:9, 및 the reasoning why carriers 및 logistics service providers are recommended to use category 4. Transportation 및 distribution activity in the 가치사슬 Scope 및 scope 3 category Transportation 및 distribution in vehicles 및 facilities owned 또는 controlled by the reporting company Scope 1 (for fuel use) 또는 scope 2 (for electricity use) Transportation 및 distribution services purchased by the reporting company in the 보고연도 (either directly 또는 through an intermediary), 포함 inbound logistics, outbound logistics (e.g., of sold products), 및 transportation 및 distribution between a company's own facilities (in vehicles 및 facilities not owned 또는 controlled by the reporting company) Scope 3, category 4 (Upstream transportation 및 distribution) Transportation 및 distribution of products sold by the reporting company between the reporting company's operations 및 the end consumer (만약 not paid for by the reporting company), 포함 retail 및 storage (in vehicles 및 facilities not owned 또는 controlled by the reporting company) Scope 3, category 9 (Downstream transportation 및 distribution) Intensity figure (열 2) Enter the numerical value 의 intensity metric most appropriate to 귀사의 products 및/또는 services derived from the 보고 metric numerator (열 3) 및 metric denominator (열 5). Metric numerator: emissions in 미터톤 CO2e (열 3) Provide the total emissions figure 에 대한 activity (열 0) 및 scopes (열 1) 선택, in 미터톤 CO2e. Only report here emissions used to derive your intensity figure (in 열 2). Metric denominator (열 4) Select the most relevant metric denominator 해당되는 경우 to the transport mode you are reporting. Metric denominator: Unit total (열 5) Enter the numerical value 의 metric denominator 선택 in 열 4, used to evaluate the 배출집약도 figure presented (열 2). This will either be the total passenger-kilometers/miles (p.km 또는 p.mile) 또는 the total ton-kilometers/miles (t.km 또는 t.mile). % change from previous year (열 6) Report the % change from the previous year 에 대한 보고 metric (열 2). 만약 you have experienced no change, please enter 0 (zero) in this 열. Leave the 열 blank 만약 you do not have sufficient data to calculate the change from the previous year, 또는 만약 this is the first year you have tracked this metric. Inserting a zero (0) in this 열 would suggest that you have compared your intensity to the 12-month period prior, 및 that the % change is equal to zero (0). The % change figure may be in part due to expansion of coverage towards previously excluded transport movements in your Scope 3 배출량. 만약 this is the case, please explain this, 및 state the fraction 의 percentage increase due to expansion of coverage in 열 7. Please explain 제외사항 in your coverage of transport emissions in 선택 category, 및 reasons for change in 배출집약도. (열 7) Explain the metric that you are reporting, 포함: Whether it covers all your vehicle types within the 보고 transport mode 또는 only certain type(s), State 하나 이상 assumptions made to disaggregate within this transport mode, 및 하나 이상 reasons for reporting intensity metrics separately. For example, 하나 이상 assumptions made to breakdown the LDV transport mode into light commercial vehicles (LCV) 또는 passenger light duty vehicles. As mentioned above, full coverage of all relevant Scope 1+2+3: Category 4 emissions in these intensity metrics requires a lot of data 및 information on both emissions in tCO2e, 및 transport activity in p.km 또는 t.km. It is recognized that obtaining this information may prove challenging, 및 therefore companies are expected to have varying levels of coverage depending on how they have been able to engage with their 공급망. Therefore, please explain the following: 만약 you have 선택 to report just Scope 1, 또는 Scope 1+2 emissions intensities, please state the reason for not 포함 하나 이상 Scope 3 배출량 in the calculation of your intensity metrics. 만약 you are reporting Scope 1, 2, 및 3 emissions, indicate the proportions 의 total metric 보고 in 열 5 that fall under Scope 1+2 또는 Scope 3, e.g. \"45% of 보고 t.km were Scope 1+2 및 55% Scope 3.\" Please report the extent of 제외사항 in your coverage of transport emissions in the 선택 categories. It is recommended to report these 제외사항 based on the coverage of transport activity, not emissions. For example, 만약 you have been able to collect, estimate 또는 model 45% of all relevant purchased transport activity data that falls under the boundary of Scope 3: Category 4, report this information here. Explain 하나 이상 reasons you have identified for changes in 배출집약도 stated in 열 6. In addition to the most relevant metric for each transport mode that you are reporting in each 행, you can report here 하나 이상 other metrics that you monitor. 만약 you intend to do so, please clearly state these additional metrics 및 what types of vehicles they apply to, e.g. 만약 your primary intensity metric that you 보고 for LDV mode is for light commercial vehicles (LCV) 및 you also wish to report 하나 이상 additional metrics relating to passenger light duty vehicles, please clearly state this."
+    },
+    {
+      "type": "Additional Information",
+      "text": "Global Logistics Emissions Council framework: For the guidance on calculating these metrics, you may wish to consider the GLEC ( Global Logistics Emissions Council ) framework for logistics emissions accounting. This is a global framework that seeks to combine many existing standards and present a unified and globally comparable metric for logistics emissions accounting. Many concepts and recommendations in this guidance have been based on the GLEC measurement framework. Companies who have already adopted the GLEC framework should find many alignments with their output and the data requested in this question.",
+      "typeKo": "추가 정보",
+      "textKo": "Global Logistics Emissions Council framework: 에 대한 guidance on calculating these metrics, you may wish to consider the GLEC ( Global Logistics Emissions Council ) framework for logistics 배출량 회계. This is a global framework that seeks to combine many existing 기준 및 present a unified 및 globally comparable metric for logistics 배출량 회계. Many concepts 및 recommendations in this guidance have been based on the GLEC measurement framework. Companies who have already adopted the GLEC framework 해야 합니다 find many alignments with their output 및 the data requested in this 문항."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Carbon efficiency of transportation: The carbon efficiency of transportation, as defined by the GLEC framework, is the amount of carbon emitted by a carrier to complete a combination of tasks, e.g. transporting goods for one or more customers as efficiently as possible.\nGLEC Framework: The Global Logistics Emissions Council (GLEC) Framework is a universal and transparent way of calculating logistics emissions across the global multi-modal supply chain. The GLEC Framework aims to allow companies to understand their carbon footprints, alongside costs and time to decide the best way to transport their goods.\nMetric tons of CO 2 -equivalent (tCO 2 e): a metric that allows for other Greenhouse Gases (GHGs) to be expressed in relation to CO 2 based on their Global Warming Potentials (GWPs). A metric ton is 1000 kg, equivalent to 2204.62 lbs.\nPrimary intensity metric: This transport-specific intensity metric allows for the direct comparison of vehicle performance to climate-related scenarios. These metrics measure the efficiency of transportation based on the actual work being done. The amount of work done comprises the goods and/or passengers moved and the effective distance that these goods/passengers are moved, from origin to destination. For the organization, the efficiency of total work done is determined by combining the total of transported units and the distance driven with these units. The standard unit is metric ton of CO 2 e per ton-kilometer or passenger-kilometer.\nPassenger-kilometer (p.km): a unit of measurement which represents the transportation of one passenger by a defined mode of transport over a distance of one kilometer.\nPassenger-mile (p.mile): a unit of measurement which represents the transportation of one passenger by a defined mode of transport over a distance of one mile.\nTon-kilometer (t.km): a unit of measurement which represents the transportation of one metric ton of goods (including packaging and tare weights of intermodal transport units), by a given transport mode over a distance of one kilometer.\nTon-mile (t.mile): a unit of measurement which represents the transportation of one metric ton of goods (including packaging and tare weights of intermodal transport units), by a given transport mode over a distance of one mile.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Carbon efficiency of transportation: The carbon efficiency of transportation, as defined by the GLEC framework, is the amount of carbon emitted by a carrier to complete a combination of tasks, e.g. transporting goods for one 또는 more customers as efficiently as possible. GLEC Framework: The Global Logistics Emissions Council (GLEC) Framework is a universal 및 transparent way of calculating logistics emissions across the global multi-modal 공급망. The GLEC Framework aims to allow companies to understand their carbon footprints, alongside costs 및 time to decide the best way to transport their goods. Metric tons of CO 2 -equivalent (tCO 2 e): a metric that allows for other Greenhouse Gases (GHGs) to be expressed in relation to CO 2 based on their Global Warming Potentials (GWPs). A metric ton is 1000 kg, equivalent to 2204.62 lbs. Primary intensity metric: This transport-specific intensity metric allows 에 대한 direct comparison of vehicle performance to climate-related scenarios. These metrics measure the efficiency of transportation based on the actual work being done. The amount of work done comprises the goods 및/또는 passengers moved 및 the effective distance that these goods/passengers are moved, from origin to destination. 에 대한 organization, the efficiency of total work done is determined by combining the total of transported units 및 the distance driven with these units. The standard unit is metric ton of CO 2 e per ton-kilometer 또는 passenger-kilometer. Passenger-kilometer (p.km): a unit of measurement which represents the transportation of one passenger by a defined mode of transport over a distance of one kilometer. Passenger-mile (p.mile): a unit of measurement which represents the transportation of one passenger by a defined mode of transport over a distance of one mile. Ton-kilometer (t.km): a unit of measurement which represents the transportation of one metric ton of goods (포함 packaging 및 tare weights of intermodal transport units), by a given transport mode over a distance of one kilometer. Ton-mile (t.mile): a unit of measurement which represents the transportation of one metric ton of goods (포함 packaging 및 tare weights of intermodal transport units), by a given transport mode over a distance of one mile."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0 or 0.25/0 or 0.25",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "7/7",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0 or 0.25/0 or 0.25",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 7/7점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nFigure provided in column '% change from previous year' is less than 0 in at least one row - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Figure 입력 in 열 '% change from previous year' is 미만 0 in 최소 one 행 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nPoints will be awarded for one row as follows:\nROUTE A)\nFigure provided in column 'Intensity figure' is less than 0.00005 AND 'p.km' selected in column 'Metric denominator: unit' in row 'Rail' - 0.25 points\nA maximum of 0.25/0.25 points is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Intensity figure' is less than 0.00008 AND 'p.mile' selected in column 'Metric denominator: unit' in row 'Rail' - 0.25 points\nA maximum of 0.25/0.25 points is available for this route.\nOR\nROUTE C)\nFigure provided in column 'Intensity figure' is less than 0.00005 AND 'p.km' selected in column 'Metric denominator: unit' in row 'LDV' - 0.25 points\nA maximum of 0.25/0.25 points is available for this route.\nOR\nROUTE D)\nFigure provided in column 'Intensity figure' is less than 0.00008 AND 'p.mile' selected in column 'Metric denominator: unit' in row 'LDV' - 0.25 points\nA maximum of 0.25/0.25 points is available for this route.\nOR\nROUTE E)\nIf 'p.km' AND 'p.mile' are NOT selected in column 'Metric denominator: unit' in both rows 'Rail' AND 'LDV' points will be awarded as follows:\nEither 't.km' OR 't.mile' selected in column 'Metric denominator: unit' in either row 'Rail' OR 'LDV' - 0/0 points\nA maximum of 0/0 points is available for this route.\nROUTE F)\n'Rail' AND 'LDV' not selected in question 1.21 - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 점수가 부여됩니다 for one 행 as follows: 경로 A) Figure 입력 in 열 'Intensity figure' is 미만 0.00005 그리고 'p.km' 선택 in 열 'Metric denominator: unit' in 행 'Rail' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 경로. 또는 경로 B) Figure 입력 in 열 'Intensity figure' is 미만 0.00008 그리고 'p.mile' 선택 in 열 'Metric denominator: unit' in 행 'Rail' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 경로. 또는 경로 C) Figure 입력 in 열 'Intensity figure' is 미만 0.00005 그리고 'p.km' 선택 in 열 'Metric denominator: unit' in 행 'LDV' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 경로. 또는 경로 D) Figure 입력 in 열 'Intensity figure' is 미만 0.00008 그리고 'p.mile' 선택 in 열 'Metric denominator: unit' in 행 'LDV' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 경로. 또는 경로 E) 만약 'p.km' 그리고 'p.mile' are NOT 선택 in 열 'Metric denominator: unit' in both 행 'Rail' 그리고 'LDV' 점수가 부여됩니다 as follows: Either 't.km' 또는 't.mile' 선택 in 열 'Metric denominator: unit' in either 행 'Rail' 또는 'LDV' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 경로 F) 'Rail' 그리고 'LDV' not 선택 in 문항 1.21 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 7/7 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 7/7점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "At least one row completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "최소 one 행 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nFigure provided in column '% change from previous year' is less than 0 in at least one row - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Figure 입력 in 열 '% change from previous year' is 미만 0 in 최소 one 행 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nPoints will be awarded for one row as follows:\nROUTE A)\nFigure provided in column 'Intensity figure' is less than 0.00005 AND 'p.km' selected in column 'Metric denominator: unit' in row 'Rail' - 0.25 points\nA maximum of 0.25/0.25 points is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Intensity figure' is less than 0.00008 AND 'p.mile' selected in column 'Metric denominator: unit' in row 'Rail' - 0.25 points\nA maximum of 0.25/0.25 points is available for this route.\nOR\nROUTE C)\nFigure provided in column 'Intensity figure' is less than 0.00005 AND 'p.km' selected in column 'Metric denominator: unit' in row 'LDV' - 0.25 points\nA maximum of 0.25/0.25 points is available for this route.\nOR\nROUTE D)\nFigure provided in column 'Intensity figure' is less than 0.00008 AND 'p.mile' selected in column 'Metric denominator: unit' in row 'LDV' - 0.25 points\nA maximum of 0.25/0.25 points is available for this route.\nOR\nROUTE E)\nIf 'p.km' AND 'p.mile' are NOT selected in column 'Metric denominator: unit' in both rows 'Rail' AND 'LDV' points will be awarded as follows:\nEither 't.km' OR 't.mile' selected in column 'Metric denominator: unit' in either row 'Rail' OR 'LDV' - 0/0 points\nA maximum of 0/0 points is available for this route.\nROUTE F)\n'Rail' AND 'LDV' not selected in question 1.21 - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 점수가 부여됩니다 for one 행 as follows: 경로 A) Figure 입력 in 열 'Intensity figure' is 미만 0.00005 그리고 'p.km' 선택 in 열 'Metric denominator: unit' in 행 'Rail' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 경로. 또는 경로 B) Figure 입력 in 열 'Intensity figure' is 미만 0.00008 그리고 'p.mile' 선택 in 열 'Metric denominator: unit' in 행 'Rail' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 경로. 또는 경로 C) Figure 입력 in 열 'Intensity figure' is 미만 0.00005 그리고 'p.km' 선택 in 열 'Metric denominator: unit' in 행 'LDV' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 경로. 또는 경로 D) Figure 입력 in 열 'Intensity figure' is 미만 0.00008 그리고 'p.mile' 선택 in 열 'Metric denominator: unit' in 행 'LDV' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 경로. 또는 경로 E) 만약 'p.km' 그리고 'p.mile' are NOT 선택 in 열 'Metric denominator: unit' in both 행 'Rail' 그리고 'LDV' 점수가 부여됩니다 as follows: Either 't.km' 또는 't.mile' 선택 in 열 'Metric denominator: unit' in either 행 'Rail' 또는 'LDV' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 경로 F) 'Rail' 그리고 'LDV' not 선택 in 문항 1.21 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] What are your primary intensity (activity-based) metrics that are appropriate to your emissions from transport activities in Scope 1, 2, and 3?",
+    "q2025": "Q7.51",
+    "q2025_text": "What are your primary intensity (activity-based) metrics that are appropriate to your emissions from transport activities in Scope 1, 2, and 3?",
+    "change_status": "No question-level change; detail changes",
+    "detail_change_types": "Modified validation",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "Maximum figure increased to 999,999,999,999,999.",
+    "scoring_change_summary": "",
+    "daml_summary": "Aviation: D 7/7 | A 1/1 | M 1/1 | L 0 or 0.25/0 or 0.25\nTransport services: D 7/7 | A 1/1 | M 1/1 | L 0 or 0.25/0 or 0.25",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 수준 변경 없음; 세부 변경 있음",
+    "detail_change_typesKo": "유효성 검증 수정",
+    "change_summaryKo": "최고 figure increased to 999,999,999,999,999.",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Aviation: D 7/7 | A 1/1 | M 1/1 | L 0 또는 0.25/0 또는 0.25 Transport services: D 7/7 | A 1/1 | M 1/1 | L 0 또는 0.25/0 또는 0.25",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "What are your primary intensity (activity-based) metrics that are appropriate to your emissions from transport activities in Scope 1, 2, 및 3?"
+  },
+  "defaultPoints": {
+    "D": "7/7",
+    "A": "1/1",
+    "M": "1/1",
+    "L": "0 or 0.25/0 or 0.25"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "항공, 운송 서비스",
+  "simpleHelpKo": "The metrics requested in this 문항 allow measuring carbon efficiency of transportation directly, independent of size 또는 distance. This makes comparison between organizations 및 different transport modes possible. Information collected in this 문항 will enable 귀사, as well as investors 및 데이터 사용자, to compare your emissions' intensity over time 및 provide a more accurate measure of 하나 이상 improvements you are making.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

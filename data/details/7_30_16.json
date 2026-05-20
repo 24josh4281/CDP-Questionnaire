@@ -1,0 +1,296 @@
+{
+  "code": "7.30.16",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Provide details on the average emission factor used for all transport movements per mode that directly source energy from the grid.",
+  "questionKo": "보고연도의 국가/지역별 전력/열/스팀/냉방 소비량 세부내역을 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Aviation, Transport services",
+  "simpleHelp": "Some alternatives to fossil-fuel based technologies use electrical energy sourced from the grid. The degree to which this replacement has climate benefits depends on the average grid emission factor used for the movements of these electric vehicles.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.30.16.1",
+      "text": "Category",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "LDV",
+        "HDV",
+        "Rail"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "국가/지역",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "LDV",
+        "HDV",
+        "Rail"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.30.16.2",
+      "text": "Emission factor unit",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "gCO2/kWh",
+        "gCO2e/kWh"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "구매한 전력 소비량 (MWh)",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "gCO2/kWh",
+        "gCO2e/kWh"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.30.16.3",
+      "text": "Average emission factor: unit value",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "자가발전 전력 소비량 (MWh)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.30.16.4",
+      "text": "Comment",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "RE100 선언에서 해당 전력 소비량을 제외했습니까?",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change (2025 7.30.15)",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "No change (2025 7.30.15)"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Light Duty Vehicles (LDV)\", \"Heavy Duty Vehicles (HDV)\" or \"Rail\" in 1.21.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Light Duty Vehicles (LDV)\", \"Heavy Duty Vehicles (HDV)\" 또는 \"Rail\" in 1.21."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nTo understand the differences in emissions between fuel-based and electricity-based transport movements, it is important to be aware of the average emission factors of the electricity the company is sourcing.\nThis question therefore asks for an average emission factor for all your owned transport movements in Scope 2. This does not include the emission factors of Scope 3 emissions for this year's disclosure.\nIf you do not have any transport movements that directly source energy from the grid you should specify this in the ‘Comment' column (column 4) and columns 1, 2 and 3 should remain blank\n. \nCategory (column 1) \nThis question is only asked to transport service companies who utilize rail transport, Light Duty Vehicle transport or Heavy Duty Vehicle transport in their own or outsourced transport movements, and which will be presented to you if you selected LDV, HDV and/or Rail in response to 1.21.\nWhile it is recognized that shipping transportation has demonstrated the technical feasibility of electrified transport, this has not penetrated the market to a degree where an average company-level emission factor becomes relevant for the CDP disclosure. If your organization wishes to report on innovations in this area, please refer to 7.75 and 5.5.\nEmission factor unit (column 2) \nYou may choose to report in either CO2 or CO2-equivalent for the emission factor.\nAverage emission factor: unit total (column 3) \nProvide the average emission factor for the transport movements that used electrical energy in the reporting year. This is a singular data point that averages the emission factor for all electrical energy purchased by your organization for the purposes of transporting goods and/or passengers.\nIf you were unable to obtain primary data from the use phase of your vehicles and instead used assumed emission factors, please state in the Comment column what is the source of your Test Cycle Electrical Energy consumption factors, and whether or not you have used an uplift factor to compensate for the difference between real world and test conditions.\nComment (column 4) (optional) \nYou may comment on any exclusions in the coverage of total Scope 2 emissions from transport movements for the calculation of this emission factor, and, if applicable, provide details for assumed emission factors.\nIf you do not have any transport movements that directly source energy from the grid you should specify this here.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 To understand the differences in emissions between fuel-based 및 electricity-based transport movements, it is important to be aware 의 average emission factors 의 electricity the company is sourcing. This 문항 therefore asks for an average emission factor for all your owned transport movements in Scope 2. This does not include the emission factors of Scope 3 배출량 for this year's disclosure. 만약 you do not have 하나 이상 transport movements that directly source energy from the grid you 해야 합니다 specify this in the ‘RE100 선언에서 해당 전력 소비량을 제외했습니까?' 열 (열 4) 및 열 1, 2 및 3 해야 합니다 remain blank . 국가/지역 (열 1) This 문항 is only asked to transport service companies who utilize rail transport, Light Duty Vehicle transport 또는 Heavy Duty Vehicle transport in their own 또는 outsourced transport movements, 및 which will be presented to you 만약 you 선택 LDV, HDV 및/또는 Rail in response to 1.21. While it is recognized that shipping transportation has demonstrated the technical feasibility of electrified transport, this has not penetrated the market to a degree 여기서 an average company-level emission factor becomes relevant 에 대한 CDP disclosure. 만약 귀사 wishes to report on innovations in this area, please refer to 7.75 및 5.5. 구매한 전력 소비량 (MWh) (열 2) You may choose to report in either CO2 또는 CO2-equivalent 에 대한 emission factor. Average emission factor: unit total (열 3) Provide the average emission factor 에 대한 transport movements that used electrical energy in the 보고연도. This is a singular data 점 that averages the emission factor for all electrical energy purchased by 귀사 에 대한 purposes of transporting goods 및/또는 passengers. 만약 you were unable to obtain primary data from the use phase of your vehicles 및 instead used assumed emission factors, please state in the RE100 선언에서 해당 전력 소비량을 제외했습니까? 열 what is the source of your Test Cycle Electrical 에너지 소비량 factors, 및 whether 또는 not you have used an uplift factor to compensate 에 대한 difference between real world 및 test conditions. RE100 선언에서 해당 전력 소비량을 제외했습니까? (열 4) (optional) You may RE100 선언에서 해당 전력 소비량을 제외했습니까? on 제외사항 in the coverage of total Scope 2 배출량 from transport movements 에 대한 calculation of this emission factor, and, 만약 해당되는 경우, 세부 정보를 입력 for assumed emission factors. 만약 you do not have 하나 이상 transport movements that directly source energy from the grid you 해야 합니다 specify this here."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "gCO 2 /kWh: grams of carbon dioxide (gCO 2 ) per kilowatt hour (kWh) of electricity consumed.\ngCO 2 e/kWh: grams of carbon dioxide equivalents (CO 2 e) emitted per kilowatt hour (kWh) of electricity consumed. CO 2 -equivalents allow for other Greenhouse Gases (GHGs) to be expressed in relation to CO 2 based on their Global Warming Potentials (GWPs).\nTest cycle electrical energy consumption factor: the official test cycle results for certain vehicles, applicable to LDVs, that state the test-result vehicle efficiency.\nUplift factor: As uplift factors vary over time, it is recommended that uplift factors relevant to the reporting year are used. For LDV emissions uplifts, see the following ICCT publication entitled \"From Laboratory to Road: A 2016 update of official and ‘real-world' fuel consumption and CO2 values for passenger cars in Europe\" .",
+      "typeKo": "Explanation of Terms",
+      "textKo": "gCO 2 /kWh: grams of carbon dioxide (gCO 2 ) per kilowatt hour (kWh) of electricity consumed. gCO 2 e/kWh: grams of carbon dioxide equivalents (CO 2 e) emitted per kilowatt hour (kWh) of electricity consumed. CO 2 -equivalents allow for other Greenhouse Gases (GHGs) to be expressed in relation to CO 2 based on their Global Warming Potentials (GWPs). Test cycle electrical 에너지 소비량 factor: the official test cycle results for certain vehicles, 해당되는 경우 to LDVs, that state the test-result vehicle efficiency. Uplift factor: As uplift factors vary over time, it is recommended that uplift factors relevant to the 보고연도 are used. For LDV emissions uplifts, see the following ICCT publication entitled \"From Laboratory to Road: A 2016 update of official 및 ‘real-world' 연료 소비량 및 CO2 values for passenger cars in Europe\" ."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "보고연도의 국가/지역별 전력/열/스팀/냉방 소비량 세부내역을 입력하십시오.",
+    "q2025": "Q7.30.15",
+    "q2025_text": "Provide details on the average emission factor used for all transport movements per mode that directly source energy from the grid.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "",
+    "scoring_change_summary": "CC Aviation and Transport services Disclosure, Awareness, Management & Leadership • Scoring updated to align with scoring previously in question",
+    "daml_summary": "Aviation: D 3/3 | A 1/1 | M 0/0 | L 0/0\nTransport services: D 3/3 | A 1/1 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "CC Aviation 및 Transport services Disclosure, Awareness, Management & Leadership • Scoring updated to align with scoring previously in 문항",
+    "daml_summaryKo": "Aviation: D 3/3 | A 1/1 | M 0/0 | L 0/0 Transport services: D 3/3 | A 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "details on the average emission factor used for all transport movements per mode that directly source energy from the grid.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "1/1",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "항공, 운송 서비스",
+  "simpleHelpKo": "Some alternatives to fossil-fuel based technologies use electrical energy sourced from the grid. The degree to which this replacement has climate benefits depends on the average grid emission factor used 에 대한 movements 의se electric vehicles.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

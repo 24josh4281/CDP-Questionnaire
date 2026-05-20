@@ -1,0 +1,531 @@
+{
+  "code": "5.11.3",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Provide details of your environmental engagement strategy with your clients.",
+  "questionKo": "details of your environmental engagement strategy with your clients.을/를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Climate Change, Forests",
+  "sectorTags": "Financial services",
+  "simpleHelp": "This question provides data users with more transparency regarding an organization's client engagement processes. Data users are interested in understanding how financial services companies are working with their clients to drive environmental action, such as whether organizations encourage their corporate clients to set science-based targets.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.11.3.1",
+      "text": "Type of clients",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Clients of Banks",
+        "Clients of Asset Managers",
+        "Clients of Insurers"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Type of clients",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Clients of Banks",
+        "Clients of 자산운용사",
+        "Clients of Insurers"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.3.10",
+      "text": "Roles of individuals at the portfolio organizations you seek to engage with",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Board members",
+        "Board chair",
+        "CEO",
+        "Corporate secretary",
+        "Investor relations managers",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Roles of individuals at the 포트폴리오 organizations you seek to engage with",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "이사회 members",
+        "이사회 chair",
+        "CEO",
+        "Corporate secretary",
+        "Investor relations managers",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.3.11",
+      "text": "Effect of engagement, including measures of success",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Effect of engagement, 포함 measures of success",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.3.12",
+      "text": "Escalation process for engagement when dialogue is failing",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes, we have an escalation process",
+        "No, we don't have an escalation process"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Escalation 프로세스 for engagement 경우 dialogue is failing",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Yes, we have an escalation 프로세스",
+        "No, we don't have an escalation 프로세스"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.3.13",
+      "text": "Describe your escalation process",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "your escalation 프로세스을/를 설명하십시오.",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.3.2",
+      "text": "Environmental issues covered by the engagement strategy",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Climate change",
+        "Water"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Environmental issues covered by the engagement strategy",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "기후변화",
+        "수자원"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.3.3",
+      "text": "Type and details of engagement",
+      "type": "GROUPED_OPTIONS",
+      "mandatory": "False",
+      "options": [
+        "Capacity building | Develop or distribute value chain mapping tool",
+        "Capacity building | Provide training, support and best practices on how to make credible renewable energy usage claims",
+        "Capacity building | Provide training, support and best practices on how to measure GHG emissions",
+        "Capacity building | Provide training, support and best practices on how to set science-based targets",
+        "Capacity building | Support clients to develop public, time-bound action plans with clear milestones",
+        "Capacity building | Support clients to set their own environmental commitments across their operations",
+        "Capacity building | Other capacity building activity, please specify",
+        "Financial incentives | Provide financial incentives for environmental performance",
+        "Financial incentives | Provide financial incentives for progress against water pollution targets",
+        "Financial incentives | Provide financial incentives for progress against water withdrawal targets",
+        "Financial incentives | Provide financial incentives for progress against forests-related targets",
+        "Financial incentives | Provide financial incentives for certified products and services",
+        "Financial incentives | Provide financial incentives for clients with a climate transition plan",
+        "Financial incentives | Provide financial incentives for clients increasing renewable energy use",
+        "Financial incentives | Provide financial incentives for progress against climate-related targets",
+        "Financial incentives | Provide financial incentives for the implementation of adaptation plans",
+        "Financial incentives | Provide financial incentives for clients with an adaptation plan",
+        "Financial incentives | Other financial incentive, please specify",
+        "Information collection | Collect climate transition plan information at least annually from clients",
+        "Information collection | Collect environmental risk and opportunity information at least annually from clients",
+        "Information collection | Collect GHG emissions data at least annually from clients",
+        "Information collection | Collect targets information at least annually from clients",
+        "Information collection | Collect WASH information at least annually from clients",
+        "Information collection | Collect water quality information at least annually from clients (e.g., discharge quality, pollution incidents, hazardous substances)",
+        "Information collection | Collect water quantity information at least annually from clients (e.g., withdrawal and discharge volumes)",
+        "Information collection | Other information collection activity, please specify",
+        "Innovation and collaboration | Collaborate with clients on innovations to reduce environmental impacts in products and services",
+        "Innovation and collaboration | Collaborate with clients on innovative business models and corporate renewable energy sourcing mechanisms",
+        "Innovation and collaboration | Encourage clients to take Beyond Value Chain Mitigation (BVCM) actions",
+        "Innovation and collaboration | Encourage collaborative work in landscapes or jurisdictions",
+        "Innovation and collaboration | Incentivize collaborative sustainable water management in river basins",
+        "Innovation and collaboration | Engage with clients to advocate for policy or regulatory change to address environmental challenges",
+        "Innovation and collaboration | Facilitate adoption of a unified climate transition approach with clients",
+        "Innovation and collaboration | Invest jointly with clients in R&D of relevant low-carbon technologies",
+        "Innovation and collaboration | Run a campaign to encourage innovation to reduce environmental impacts on products and services",
+        "Innovation and collaboration | Other innovation and collaboration activity, please specify",
+        "Other, please specify | Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Type 및 details of engagement",
+      "typeKo": "GROUPED_OPTIONS",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Capacity building | Develop 또는 distribute 가치사슬 mapping tool",
+        "Capacity building | Provide training, support 및 best practices on how to make credible 재생에너지 usage claims",
+        "Capacity building | Provide training, support 및 best practices on how to measure 온실가스 배출량",
+        "Capacity building | Provide training, support 및 best practices on how to set science-based 목표",
+        "Capacity building | Support clients to develop public, time-bound action plans with clear milestones",
+        "Capacity building | Support clients to set their own environmental commitments across their operations",
+        "Capacity building | Other capacity building activity, 직접 입력",
+        "Financial 인센티브 | Provide financial 인센티브 for environmental performance",
+        "Financial 인센티브 | Provide financial 인센티브 for progress against water pollution 목표",
+        "Financial 인센티브 | Provide financial 인센티브 for progress against water withdrawal 목표",
+        "Financial 인센티브 | Provide financial 인센티브 for progress against forests-related 목표",
+        "Financial 인센티브 | Provide financial 인센티브 for certified 제품 및 서비스",
+        "Financial 인센티브 | Provide financial 인센티브 for clients with a 기후 전환계획",
+        "Financial 인센티브 | Provide financial 인센티브 for clients increasing 재생에너지 use",
+        "Financial 인센티브 | Provide financial 인센티브 for progress against climate-related 목표",
+        "Financial 인센티브 | Provide financial 인센티브 에 대한 implementation of adaptation plans",
+        "Financial 인센티브 | Provide financial 인센티브 for clients with an adaptation plan",
+        "Financial 인센티브 | Other financial incentive, 직접 입력",
+        "Information collection | Collect 기후 전환계획 information 최소 annually from clients",
+        "Information collection | Collect environmental risk 및 opportunity information 최소 annually from clients",
+        "Information collection | Collect GHG 배출량 데이터 최소 annually from clients",
+        "Information collection | Collect 목표 information 최소 annually from clients",
+        "Information collection | Collect WASH information 최소 annually from clients",
+        "Information collection | Collect water quality information 최소 annually from clients (e.g., discharge quality, pollution incidents, hazardous substances)",
+        "Information collection | Collect water quantity information 최소 annually from clients (e.g., withdrawal 및 discharge volumes)",
+        "Information collection | Other information collection activity, 직접 입력",
+        "Innovation 및 collaboration | Collaborate with clients on innovations to reduce environmental impacts in 제품 및 서비스",
+        "Innovation 및 collaboration | Collaborate with clients on innovative business models 및 corporate 재생에너지 sourcing mechanisms",
+        "Innovation 및 collaboration | Encourage clients to take Beyond 가치사슬 Mitigation (BVCM) actions",
+        "Innovation 및 collaboration | Encourage collaborative work in landscapes 또는 jurisdictions",
+        "Innovation 및 collaboration | Incentivize collaborative sustainable water management in river basins",
+        "Innovation 및 collaboration | Engage with clients to advocate for 정책 또는 regulatory change to address environmental challenges",
+        "Innovation 및 collaboration | Facilitate adoption of a unified climate transition approach with clients",
+        "Innovation 및 collaboration | Invest jointly with clients in R&D of relevant low-carbon technologies",
+        "Innovation 및 collaboration | Run a campaign to encourage innovation to reduce environmental impacts on 제품 및 서비스",
+        "Innovation 및 collaboration | Other innovation 및 collaboration activity, 직접 입력",
+        "Other, 직접 입력 | Other, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.3.4",
+      "text": "% of client-associated scope 3 emissions as reported in question 12.1.1",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "None",
+        "Less than 1%",
+        "1-25%",
+        "26-50%",
+        "51-75%",
+        "76-99%",
+        "100%",
+        "Unknown"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% of client-associated Scope 3 배출량 as 보고 in 문항 12.1.1",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "없음",
+        "미만 1%",
+        "1-25%",
+        "26-50%",
+        "51-75%",
+        "76-99%",
+        "100%",
+        "Unknown"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.3.5",
+      "text": "% of portfolio covered in relation to total portfolio value",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "None",
+        "Less than 1%",
+        "1-25%",
+        "26-50%",
+        "51-75%",
+        "76-99%",
+        "100%",
+        "Unknown"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% of 포트폴리오 covered in relation to total 포트폴리오 value",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "없음",
+        "미만 1%",
+        "1-25%",
+        "26-50%",
+        "51-75%",
+        "76-99%",
+        "100%",
+        "Unknown"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.3.6",
+      "text": "Explain the rationale for the coverage of your engagement",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Explain the rationale 에 대한 coverage of your engagement",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.3.7",
+      "text": "Describe how you communicate your engagement strategy to your clients and/or to the public",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "how you communicate your engagement strategy to your clients 및/또는 to the public을/를 설명하십시오.",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.3.8",
+      "text": "Attach your engagement strategy",
+      "type": "ATTACHMENT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Attach your engagement strategy",
+      "typeKo": "파일 첨부",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.11.3.9",
+      "text": "Staff in your organization carrying out the engagement",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Specialized in-house engagement teams",
+        "Fund managers",
+        "Equity/credit analysts",
+        "Senior-level roles",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Staff in 귀사 carrying out the engagement",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Specialized in-house engagement teams",
+        "Fund managers",
+        "Equity/credit analysts",
+        "Senior-level roles",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Minor change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Minor change"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question appears if you select \"Yes\" in response to column 1 \"Engaging with this stakeholder on environmental issues\" for the row \"Clients\" of 5.11.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 appears 만약 you select \"Yes\" in response to 열 1 \"Engaging with this stakeholder on environmental issues\" 에 대한 행 \"Clients\" of 5.11."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nProvide details about your organization's client engagement strategy regarding environmental issues.\nThis question focuses on corporate clients only.\nAdd a row for each type of client you are disclosing on. Add multiple rows for the same type of client if you wish to provide different engagement details.\n% of client-related scope 3 emissions as reported in 12.1.1 (column 4) \nThis column only appears if \"Climate change\" is selected in column 2 \"Environmental issues covered by the engagement strategy\".\nOnly include the percentage of customer-related scope 3 emissions reported in 12.1.1 that are attributable to clients participating in the activity selected in this row.\n% of portfolio covered in relation to total portfolio value (column 5) \nProvide the proportion of your portfolio covered by the engagement strategy based on the total portfolio value, as reported in question 1.10.\nExplain the rationale for the coverage of your engagement (column 6) \nExplain how and why clients were chosen for the engagement selected in column 3 \"Type and details of engagement\", e.g., exposure to environmental risks and/or opportunities, potential impact on climate change/forests/water, proportion of revenue generated, geographic location, etc.\nClient engagement can be either untargeted (undertaken generally with all clients or undertaken with a selection of clients without a basis for the selection) or targeted at specific clients, such as clients in a particular sector with increased environmental risks relative to other sectors. There is a place for both, but targeted engagement may be more effective at driving change in the real economy.\nDescribe how you communicate your engagement strategy to your clients and/or to the public (column 7) \nBriefly describe the process you have for communicating your engagement strategy, including whether it is publicly available, whether you communicate progress and outcomes of engagements with clients and/or the public, and if so, how.\nRoles of individuals at the portfolio organizations you seek to engage with (column 10) \nSelect all options which represent the roles in the portfolio organization you aim to engage with as part of your environmental engagement strategy.\nEffect of engagement, including measures of success (column 11) \nDiscuss the effect of the engagement and how you measure its success.\nInclude a threshold at which you consider your effect to be successful with regard to the measure of success. For example, if you select \"Provide training, support, and best practices on how to set science-based targets,\" the measure of success could be a 10% increase in clients obtaining validation of their emissions reduction targets by the Science Based Targets initiative (SBTi).\nDefine the coverage of your portfolio based on the portfolio value represented by clients participating in this engagement activity.\nInclude a description of any engagement activity you undertake with clients to manage environmental risks in your portfolio.\nProvide examples of positive outcomes achieved. For example, this could include clients reducing GHG emissions in their direct operations or increasing renewable energy procurement.\nThe description should be organization-specific and include details on the impact of the environmental engagement strategy with your clients.\nDescribe your escalation process (column 13) \nThis column only appears if \"Yes, we have an escalation process\" is selected in column 12 \"Escalation process for engagement when dialogue is failing\".\nDescribe the tactics included in your escalation process, e.g., how you express concerns, making public statements, expressing concerns collectively with other investors or shareholders, speaking at general meetings, exit or threat to exit from the investment and others.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 세부 정보를 입력 about 귀사의 client engagement strategy regarding environmental issues. This 문항 focuses on corporate clients only. Add a 행 for each type of client you are disclosing on. Add multiple 행 에 대한 same type of client 만약 you wish to provide different engagement details. % of client-related Scope 3 배출량 as 보고 in 12.1.1 (열 4) This 열 only appears 만약 \"기후변화\" is 선택 in 열 2 \"Environmental issues covered by the engagement strategy\". Only include the percentage of customer-related Scope 3 배출량 보고 in 12.1.1 that are attributable to clients participating in the activity 선택 in this 행. % of 포트폴리오 covered in relation to total 포트폴리오 value (열 5) Provide the proportion of your 포트폴리오 covered by the engagement strategy based on the total 포트폴리오 value, as 보고 in 문항 1.10. Explain the rationale 에 대한 coverage of your engagement (열 6) Explain how 및 why clients were chosen 에 대한 engagement 선택 in 열 3 \"Type 및 details of engagement\", e.g., exposure to environmental 리스크 및/또는 기회, potential impact on 기후변화/forests/수자원, proportion of 매출 generated, geographic location, etc. Client engagement can be either un목표ed (undertaken generally with all clients 또는 undertaken with a selection of clients without a basis 에 대한 selection) 또는 목표ed at specific clients, such as clients in a particular sector with increased environmental risks relative to other sectors. There is a place for both, but 목표ed engagement may be more effective at driving change in the real economy. 설명 how you communicate your engagement strategy to your clients 및/또는 to the public (열 7) Briefly 설명 the 프로세스 you have for communicating your engagement strategy, 포함 whether it is publicly available, whether you communicate progress 및 outcomes of engagements with clients 및/또는 the public, 및 만약 so, how. Roles of individuals at the 포트폴리오 organizations you seek to engage with (열 10) Select all options which represent the roles in the 포트폴리오 organization you aim to engage with 의 일부로 your environmental engagement strategy. Effect of engagement, 포함 measures of success (열 11) Discuss the effect 의 engagement 및 how you measure its success. Include a threshold at which you consider your effect to be successful with regard to the measure of success. For example, 만약 you select \"Provide training, support, 및 best practices on how to set science-based 목표,\" the measure of success could be a 10% increase in clients obtaining validation 의ir emissions reduction 목표 by the Science Based 목표 이니셔티브 (SBTi). Define the coverage of your 포트폴리오 based on the 포트폴리오 value represented by clients participating in this engagement activity. Include a description of 하나 이상 engagement activity you undertake with clients to manage environmental risks in your 포트폴리오. Provide examples of positive outcomes achieved. For example, this could include clients reducing 온실가스 배출량 in their 직접 운영사업장 또는 increasing 재생에너지 procurement. The description 해야 합니다 be organization-specific 및 include details on the impact 의 environmental engagement strategy with your clients. 설명 your escalation 프로세스 (열 13) This 열 only appears 만약 \"Yes, we have an escalation 프로세스\" is 선택 in 열 12 \"Escalation 프로세스 for engagement 경우 dialogue is failing\". 설명 the tactics included in your escalation 프로세스, e.g., how you express concerns, making public statements, expressing concerns collectively with other investors 또는 shareholders, speaking at general meetings, exit 또는 threat to exit from the investment 및 others."
+    },
+    {
+      "type": "Ambition",
+      "text": "Financial services companies have client engagement strategies for environmental issues and undertake engagement with clients to positively affect their own performance and the environment. Banks and insurers engage with their clients and asset managers engage with both clients and investees.",
+      "typeKo": "Ambition",
+      "textKo": "Financial services companies have client engagement strategies for environmental issues 및 undertake engagement with clients to positively affect their own performance 및 the environment. Banks 및 insurers engage with their clients 및 자산운용사 engage with both clients 및 investees."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Adaptation : in human systems, the process of adjustment to actual or expected climate and its effects, in order to moderate harm or exploit beneficial opportunities. In natural systems, the process of adjustment to actual climate and its effects; human intervention may facilitate adjustment to expected climate and its effects. ( IPCC, 2018 )\nClimate Transition plan: an encompassing instrument that helps organizations to align their climate ambitions. This alignment is achieved by establishing specific strategies and clear accountability mechanisms to track progress. \nClimate transition plan which aligns with a 1.5°C world: a time-bound action plan that clearly outlines how an organization will achieve its strategy to pivot its existing assets, operations, and entire business model towards a trajectory that aligns with the latest and most ambitious climate science recommendations, i.e., halving greenhouse gas (GHG) emissions by 2030 and reaching net-zero by 2050 at the latest, thereby limiting global warming to 1.5 degrees Celsius. Please refer to the CDP Climate Transition Plan technical note for more details. \nLandscape: defined geographic area with common and interacting ecological and socioeconomic characteristics. They may be delineated based on river basins, seascapes, ecosystems, jurisdictional boundaries, or in other ways (adapted from AFi, 2024 ). \nPortfolio: in the context of this questionnaire, your portfolio is your entire collection of your core financing activities and insurance policies that you offer. For banking, this is the entire collection of products, securities and loans held on your balance sheet for which you own the receivable stream. For asset managers, this is the entire collection of your products and investments that you hold and/or manage on behalf of your clients. For asset owners, this is the entire collection of products, funds and investments owned and controlled by your organization. For investment portfolios, asset managers should consider discretionary investments, those where the organization has discretion over investment decision. For insurance underwriting, this is the entire collection of products and insurance policies you provide to your clients. \nTarget: a specific measurable output to be achieved within a specific timeline. Targets often act as steps towards a wider and long-term corporate goal.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Adaptation : in human systems, the 프로세스 of adjustment to actual 또는 expected climate 및 its effects, in order to moderate harm 또는 exploit beneficial opportunities. In natural systems, the 프로세스 of adjustment to actual climate 및 its effects; human intervention may facilitate adjustment to expected climate 및 its effects. ( IPCC, 2018 ) 기후 전환계획: an encompassing instrument that helps organizations to align their climate ambitions. This alignment is achieved by establishing specific strategies 및 clear accountability mechanisms to track progress. 기후 전환계획 which aligns with a 1.5°C world: a time-bound action plan that clearly outlines how an organization will achieve its strategy to pivot its existing assets, operations, 및 entire business model towards a trajectory that aligns with the latest 및 most ambitious climate science recommendations, i.e., halving greenhouse gas (GHG) emissions by 2030 및 reaching net-zero by 2050 at the latest, thereby limiting global warming to 1.5 degrees Celsius. Please refer to the CDP 기후 전환계획 technical note for more details. Landscape: defined geographic area with common 및 interacting ecological 및 socioeconomic characteristics. They may be delineated based on river basins, seascapes, ecosystems, jurisdictional boundaries, 또는 in other ways (adapted from AFi, 2024 ). 포트폴리오: in the context of this questionnaire, your 포트폴리오 is your entire collection of your core financing activities 및 insurance policies that you offer. For banking, this is the entire collection of products, securities 및 loans held on your balance sheet for which you own the receivable stream. For 자산운용사, this is the entire collection of your products 및 investments that you hold 및/또는 manage on behalf of your clients. For asset owners, this is the entire collection of products, funds 및 investments owned 및 controlled by 귀사. For investment 포트폴리오s, 자산운용사 해야 합니다 consider discretionary investments, those 여기서 the organization has discretion over investment decision. For insurance underwriting, this is the entire collection of products 및 insurance policies you provide to your clients. 목표: a specific measurable output to be achieved within a specific timeline. 목표 often act as steps towards a wider 및 long-term corporate goal."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "3/3",
+      "M": "3/3",
+      "L": "1/1",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\n‘Yes' selected in column ‘Activity undertaken in row 'Banking (Bank)' OR 'Investing (Asset manager)' in question 1.10 OR\n‘Yes' selected in column ‘Activity undertaken in row 'Insurance underwriting (Insurance company)' in question 1.10 AND ‘General (non-life)' selected in column ‘Insurance types underwritten' in question 1.10.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered by the engagement strategy':\nEither column '% of client-associated scope 3 emissions as reported in question 12.1.1' OR '% of portfolio covered in relation to total portfolio value' must be completed for a row to be eligible for Disclosure points.\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE B)\n'Yes' selected in column 'Activity undertaken' AND only 'Life and/or Health' selected in column 'Insurance types underwritten' in row 'Insurance underwriting (Insurance company)' in question 1.10 AND 'No' selected in column 'Activity undertaken' in all of the following rows in question 1.10:\n- 'Banking (Bank)'\n- 'Investing (Asset manager)'\n- 'Investing (Asset owner)'\nFor rows where 'Climate change' is selected in column 'Environmental issues covered by the engagement strategy':\nColumn ''% of portfolio covered in relation to total portfolio value' must be completed for a row to be eligible for Disclosure points.\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered by the engagement strategy' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) ‘Yes' 선택 in 열 ‘Activity undertaken in 행 'Banking (Bank)' 또는 'Investing (Asset manager)' in 문항 1.10 또는 ‘Yes' 선택 in 열 ‘Activity undertaken in 행 'Insurance underwriting (Insurance company)' in 문항 1.10 그리고 ‘일반 (non-life)' 선택 in 열 ‘Insurance types underwritten' in 문항 1.10. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered by the engagement strategy': Either 열 '% of client-associated Scope 3 배출량 as 보고 in 문항 12.1.1' 또는 '% of 포트폴리오 covered in relation to total 포트폴리오 value' 완료해야 합니다 for a 행 to be 획득 가능 for Disclosure 점. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Yes' 선택 in 열 'Activity undertaken' 그리고 only 'Life 및/또는 Health' 선택 in 열 'Insurance types underwritten' in 행 'Insurance underwriting (Insurance company)' in 문항 1.10 그리고 'No' 선택 in 열 'Activity undertaken' in all 의 following 행 in 문항 1.10: - 'Banking (Bank)' - 'Investing (Asset manager)' - 'Investing (Asset owner)' For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered by the engagement strategy': 열 ''% of 포트폴리오 covered in relation to total 포트폴리오 value' 완료해야 합니다 for a 행 to be 획득 가능 for Disclosure 점. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered by the engagement strategy' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nThe following conditions must be met to eligible for Awareness points:\n- 'Climate change' selected in column 'Environmental issues covered by the engagement strategy' in at least one row\n- Full Disclosure points awarded\n- ‘Yes' selected in column ‘Activity undertaken' for row ‘Banking (Bank)' in question 1.10\nFor rows where 'Climate change' is selected in column 'Environmental issues covered by the engagement strategy':\nAll of the following met - 3 points\n‘Clients of Banks' selected in column ‘Type of clients' AND\nAny option excluding 'Other, please specify' selected in column 'Type and details of engagement' AND\n'Yes' selected in column 'We measure the impact of our portfolio on the climate' in row 'Banking (Bank)' in question 12.1 AND\nEither 'Financed emissions' OR 'Other carbon footprinting and/or exposure metrics (as defined by TCFD)' selected in column 'Disclosure metric' in row 'Banking (Bank)' in question 12.1 AND\nAny option excluding 'None' OR 'Unknown' selected in either column '% client-related scope 3 emissions as reported in 12.1.1' OR '% of portfolio covered in relation to total portfolio value'.\nA maximum of 3/3 points is available for this route.\nOR\nROUTE B)\nThe following conditions must be met to eligible for Awareness points:\n- 'Climate change' selected in column 'Environmental issues covered by the engagement strategy' in at least one row\n- Full Disclosure points awarded\n- ‘Yes' selected in column ‘Activity undertaken' for row ‘Investing (Asset manager)' in question 1.10\nFor rows where 'Climate change' is selected in column 'Environmental issues covered by the engagement strategy':\nAll of the following met - 3 points\n‘Clients of Asset Managers' selected in column ‘Type of clients' AND\nAny option excluding 'Other, please specify' selected in column 'Type and details of engagement' AND\n'Yes' selected in column 'We measure the impact of our portfolio on the climate' in row 'Investing (Asset manager)' in question 12.1 AND\nEither 'Financed emissions' OR 'Other carbon footprinting and/or exposure metrics (as defined by TCFD)' selected in column 'Disclosure metric' in row 'Investing (Asset manager)' in question 12.1 AND\nAny option excluding 'None' OR 'Unknown' selected in either column '% client-related scope 3 emissions as reported in 12.1.1' OR '% of portfolio covered in relation to total portfolio value'.\nA maximum of 3/3 points is available for this route.\nOR\nROUTE C)\nThe following conditions must be met to eligible for Awareness points:\n- 'Climate change' selected in column 'Environmental issues covered by the engagement strategy' in at least one row\n- Full Disclosure points awarded\n- ‘Yes' selected in column ‘Activity undertaken' for row ‘Insurance underwriting (Insurance company)' in question 1.10 AND ‘General (non-life)' selected in column ‘Insurance types underwritten' in question 1.10\nFor rows where 'Climate change' is selected in column 'Environmental issues covered by the engagement strategy':\nAll of the following met - 3 points\n‘Clients of Insurers' selected in column ‘Type of clients' AND\nAny option excluding 'Other, please specify' selected in column 'Type and details of engagement' AND\n'Yes' selected in column 'We measure the impact of our portfolio on the climate' in row 'Insurance underwriting (Insurance company)' in question 12.1 AND\nColumn 'Disclosure metric' completed in row 'Insurance underwriting (Insurance company)' in question 12.1 AND\nAny option excluding 'None' OR 'Unknown' selected in either column '% client-related scope 3 emissions as reported in 12.1.1' OR '% of portfolio covered in relation to total portfolio value'.\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nROUTE D)\nThe following conditions must be met to eligible for Awareness points:\n- 'Climate change' selected in column 'Environmental issues covered by the engagement strategy' in at least one row\n- Full Disclosure points awarded\n- 'Yes' selected in column 'Activity undertaken' AND only 'Life and/or Health' selected in column 'Insurance types underwritten' in row 'Insurance underwriting (Insurance company)' in question 1.10 AND 'No' selected in column 'Activity undertaken' in all of the following rows in question 1.10:\n- 'Banking (Bank)'\n- 'Investing (Asset manager)'\n- 'Investing (Asset owner)'\nFor rows where 'Climate change' is selected in column 'Environmental issues covered by the engagement strategy':\nAll of the following met - 3 points\n‘Clients of Insurers' selected in column ‘Type of clients' AND\nAny option excluding 'Other, please specify' selected in column 'Type and details of engagement' AND\nAny option excluding 'None' OR 'Unknown' selected in either column '% of portfolio covered in relation to total portfolio value'.\nA maximum of 3/3 points is available for this route.\nOne row scored.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered by the engagement strategy' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to 획득 가능 for Awareness 점: - '기후변화' 선택 in 열 'Environmental issues covered by the engagement strategy' in 최소 one 행 - Disclosure에서 최고점 획득 - ‘Yes' 선택 in 열 ‘Activity undertaken' for 행 ‘Banking (Bank)' in 문항 1.10 For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered by the engagement strategy': All 의 following met - 3 점 ‘Clients of Banks' 선택 in 열 ‘Type of clients' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Type 및 details of engagement' 그리고 'Yes' 선택 in 열 'We measure the impact of our 포트폴리오 on the climate' in 행 'Banking (Bank)' in 문항 12.1 그리고 Either '금융배출량' 또는 'Other carbon footprinting 및/또는 exposure metrics (as defined by TCFD)' 선택 in 열 'Disclosure metric' in 행 'Banking (Bank)' in 문항 12.1 그리고 하나 이상 option 제외 '없음' 또는 'Unknown' 선택 in either 열 '% client-related Scope 3 배출량 as 보고 in 12.1.1' 또는 '% of 포트폴리오 covered in relation to total 포트폴리오 value'. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to 획득 가능 for Awareness 점: - '기후변화' 선택 in 열 'Environmental issues covered by the engagement strategy' in 최소 one 행 - Disclosure에서 최고점 획득 - ‘Yes' 선택 in 열 ‘Activity undertaken' for 행 ‘Investing (Asset manager)' in 문항 1.10 For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered by the engagement strategy': All 의 following met - 3 점 ‘Clients of 자산운용사' 선택 in 열 ‘Type of clients' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Type 및 details of engagement' 그리고 'Yes' 선택 in 열 'We measure the impact of our 포트폴리오 on the climate' in 행 'Investing (Asset manager)' in 문항 12.1 그리고 Either '금융배출량' 또는 'Other carbon footprinting 및/또는 exposure metrics (as defined by TCFD)' 선택 in 열 'Disclosure metric' in 행 'Investing (Asset manager)' in 문항 12.1 그리고 하나 이상 option 제외 '없음' 또는 'Unknown' 선택 in either 열 '% client-related Scope 3 배출량 as 보고 in 12.1.1' 또는 '% of 포트폴리오 covered in relation to total 포트폴리오 value'. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 C) The following conditions 해야 합니다 be met to 획득 가능 for Awareness 점: - '기후변화' 선택 in 열 'Environmental issues covered by the engagement strategy' in 최소 one 행 - Disclosure에서 최고점 획득 - ‘Yes' 선택 in 열 ‘Activity undertaken' for 행 ‘Insurance underwriting (Insurance company)' in 문항 1.10 그리고 ‘일반 (non-life)' 선택 in 열 ‘Insurance types underwritten' in 문항 1.10 For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered by the engagement strategy': All 의 following met - 3 점 ‘Clients of Insurers' 선택 in 열 ‘Type of clients' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Type 및 details of engagement' 그리고 'Yes' 선택 in 열 'We measure the impact of our 포트폴리오 on the climate' in 행 'Insurance underwriting (Insurance company)' in 문항 12.1 그리고 열 'Disclosure metric' 완성 in 행 'Insurance underwriting (Insurance company)' in 문항 12.1 그리고 하나 이상 option 제외 '없음' 또는 'Unknown' 선택 in either 열 '% client-related Scope 3 배출량 as 보고 in 12.1.1' 또는 '% of 포트폴리오 covered in relation to total 포트폴리오 value'. 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 D) The following conditions 해야 합니다 be met to 획득 가능 for Awareness 점: - '기후변화' 선택 in 열 'Environmental issues covered by the engagement strategy' in 최소 one 행 - Disclosure에서 최고점 획득 - 'Yes' 선택 in 열 'Activity undertaken' 그리고 only 'Life 및/또는 Health' 선택 in 열 'Insurance types underwritten' in 행 'Insurance underwriting (Insurance company)' in 문항 1.10 그리고 'No' 선택 in 열 'Activity undertaken' in all 의 following 행 in 문항 1.10: - 'Banking (Bank)' - 'Investing (Asset manager)' - 'Investing (Asset owner)' For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered by the engagement strategy': All 의 following met - 3 점 ‘Clients of Insurers' 선택 in 열 ‘Type of clients' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Type 및 details of engagement' 그리고 하나 이상 option 제외 '없음' 또는 'Unknown' 선택 in either 열 '% of 포트폴리오 covered in relation to total 포트폴리오 value'. 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered by the engagement strategy' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Management points:\n'Climate change' selected in column 'Environmental issues covered by the engagement strategy' in at least one row AND\nFull Awareness points (per row) must be awarded AND\nAny option excluding any 'Information collection' options selected in 'Type and details of engagement'.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered by the engagement strategy':\n'Yes, we have an escalation process' selected in column 'Escalation process for engagement when dialogue is failing' - 3 points\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered by the engagement strategy' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.\nOne row scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: '기후변화' 선택 in 열 'Environmental issues covered by the engagement strategy' in 최소 one 행 그리고 Full Awareness 점 (per 행) 해야 합니다 be awarded 그리고 하나 이상 option 제외 하나 이상 'Information collection' options 선택 in 'Type 및 details of engagement'. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered by the engagement strategy': 'Yes, we have an escalation 프로세스' 선택 in 열 'Escalation 프로세스 for engagement 경우 dialogue is failing' - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered by the engagement strategy' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. One 행 scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nThe following conditions must be met to be eligible for Leadership points:\n'Climate change' selected in column 'Environmental issues covered by the engagement strategy' in at least one row AND\nFull Management points must be awarded.\nFor each portfolio in question 1.10 (excluding 'Investing (Asset owner)') where 'Yes' is selected in column 'Activity undertaken', all of the following is met:\n- 'Climate change' is selected in column 'Environmental issues covered by the engagement strategy'\n- The relevant portfolio type is selected in column 'Type of clients'\n- Any option excluding 'Other, please specify' selected in column 'Type and details of engagement'\n- 'Yes' selected in column 'We measure the impact of our portfolio on the climate' in the corresponding portfolio type row in question 12.1\n- Either 'Financed emissions' OR 'Other carbon footprinting and/or exposure metrics (as defined by TCFD)' selected in column 'Disclosure metric' in the corresponding portfolio type in question 12.1 (please note: this eligibility criterion does not apply to 'Clients of Insurers'/'Insurance underwriting (Insurance company)')\n- Any option excluding 'None' OR 'Unknown' selected in either column '% client-related scope 3 emissions as reported in 12.1.1' OR '% of portfolio covered in relation to total portfolio value'\nAND ‘Yes' selected in column ‘Activity undertaken in 1.10 in any of the following rows:\n- 'Banking (Bank)'\n- 'Investing (Asset manager)'\n- 'Insurance underwriting (Insurance company)' AND ‘General (non-life)' selected in column ‘Insurance types underwritten'\nAny of the following selected in either column '% client-associated scope 3 emissions as reported in question 12.1.1' OR '% of portfolio covered in relation to total portfolio value' - 1 point\n- '51-75%'\n- '76-99%'\n- '100%'\nOR\n'26-50%' selected in either column '% client-associated scope 3 emissions as reported in question 12.1.1' OR '% of portfolio covered in relation to total portfolio value' - 0.5/1 points\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'Yes' selected in column 'Activity undertaken' AND only 'Life and/or Health' selected in column 'Insurance types underwritten' in row 'Insurance underwriting (Insurance company)' in question 1.10 AND 'No' selected in column 'Activity undertaken' in all of the following rows in question 1.10:\n- 'Banking (Bank)'\n- 'Investing (Asset manager)'\n- 'Investing (Asset owner)'\nAny of the following selected in column '% of portfolio covered in relation to total portfolio value' - 1 point\n- '51-75%'\n- '76-99%'\n- '100%'\nOR\n'26-50%' selected in column '% of portfolio covered in relation to total portfolio value' - 0.5/1 points\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issues covered by the engagement strategy' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.\nOne row scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for Leadership 점: '기후변화' 선택 in 열 'Environmental issues covered by the engagement strategy' in 최소 one 행 그리고 Full Management 점수를 획득해야 합니다. For each 포트폴리오 in 문항 1.10 (제외 'Investing (Asset owner)') 여기서 'Yes' is 선택 in 열 'Activity undertaken', all 의 following is met: - '기후변화' is 선택 in 열 'Environmental issues covered by the engagement strategy' - The relevant 포트폴리오 type is 선택 in 열 'Type of clients' - 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Type 및 details of engagement' - 'Yes' 선택 in 열 'We measure the impact of our 포트폴리오 on the climate' in the corresponding 포트폴리오 type 행 in 문항 12.1 - Either '금융배출량' 또는 'Other carbon footprinting 및/또는 exposure metrics (as defined by TCFD)' 선택 in 열 'Disclosure metric' in the corresponding 포트폴리오 type in 문항 12.1 (please note: this eligibility criterion does not apply to 'Clients of Insurers'/'Insurance underwriting (Insurance company)') - 하나 이상 option 제외 '없음' 또는 'Unknown' 선택 in either 열 '% client-related Scope 3 배출량 as 보고 in 12.1.1' 또는 '% of 포트폴리오 covered in relation to total 포트폴리오 value' 그리고 ‘Yes' 선택 in 열 ‘Activity undertaken in 1.10 in 하나 이상 의 following 행: - 'Banking (Bank)' - 'Investing (Asset manager)' - 'Insurance underwriting (Insurance company)' 그리고 ‘일반 (non-life)' 선택 in 열 ‘Insurance types underwritten' 하나 이상 의 following 선택 in either 열 '% client-associated Scope 3 배출량 as 보고 in 문항 12.1.1' 또는 '% of 포트폴리오 covered in relation to total 포트폴리오 value' - 1 점 - '51-75%' - '76-99%' - '100%' 또는 '26-50%' 선택 in either 열 '% client-associated Scope 3 배출량 as 보고 in 문항 12.1.1' 또는 '% of 포트폴리오 covered in relation to total 포트폴리오 value' - 0.5/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Yes' 선택 in 열 'Activity undertaken' 그리고 only 'Life 및/또는 Health' 선택 in 열 'Insurance types underwritten' in 행 'Insurance underwriting (Insurance company)' in 문항 1.10 그리고 'No' 선택 in 열 'Activity undertaken' in all 의 following 행 in 문항 1.10: - 'Banking (Bank)' - 'Investing (Asset manager)' - 'Investing (Asset owner)' 하나 이상 의 following 선택 in 열 '% of 포트폴리오 covered in relation to total 포트폴리오 value' - 1 점 - '51-75%' - '76-99%' - '100%' 또는 '26-50%' 선택 in 열 '% of 포트폴리오 covered in relation to total 포트폴리오 value' - 0.5/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered by the engagement strategy' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. One 행 scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Provide details of your environmental engagement strategy with your clients.",
+    "q2025": "Q5.11.3",
+    "q2025_text": "Provide details of your environmental engagement strategy with your clients.",
+    "change_status": "Minor change",
+    "detail_change_types": "New dropdown option, Add tags to dropdown option",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": true,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "New dropdown options added and environmental tags updated so only relevant options appear for each environmental issue.",
+    "scoring_change_summary": "CC Financial services Disclosure • ROUTE A pre-requisite has been expanded to cross check with question 1.10. • Column names in ROUTE A also updated. • ROUTE B added for life and/or health insurance organizations. Scoring adapted for life and or/health insurance only organizations as these organizations do not see question 12.1 or the resulting child questions. This approach now removes references to these questions allowing the opportunity to receive full credit.\nCC Financial services Awareness • ROUTE A and B eligibility updated to clarify that they apply to banking and asset management organizations. • ROUTE C has been split out into two route and the pre-requisite has been updated to cross-reference with question 1.10. • ROUTE D added for life and/or health insurance organizations. Scoring adapted for life and or/health insurance only organizations as these organizations do not see question 12.1 or the resulting child questions. This approach now removes references to these questions allowing the opportunity to receive full credit.\nCC Financial services Leadership • Cross check with 12.1 added that requires all portfolios to meet the criteria rather than just one. • ROUTE B added for life and/or health insurance organizations. Check added to Leadership level to encourage organisations who have multiple avenues of engagement to measure the portfolio impact of all portfolios they engage with and report this in 12.1.\nF/W Financial services Awareness • Pre-requisite has been updated to require full Disclosure points to be eligible for scoring at Awareness level. Pre-requisite has been updated to align with scoring for Climate Change in this question.",
+    "daml_summary": "Financial services: D 6/6 | A 3/3 | M 3/3 | L 1/1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "경미한 변경",
+    "detail_change_typesKo": "신규 드롭다운 선택지, 드롭다운 선택지 태그 추가",
+    "change_summaryKo": "New dropdown options added 및 environmental tags updated so only relevant options appear for each environmental issue.",
+    "scoring_change_summaryKo": "CC Financial services Disclosure • 경로 A pre-requisite has been expanded to cross check with 문항 1.10. • 열 names in 경로 A also updated. • 경로 B added for life 및/또는 health insurance organizations. Scoring adapted for life 및 or/health insurance only organizations as these organizations do not see 문항 12.1 또는 the resulting child questions. This approach now removes references to these questions allowing the opportunity to receive full credit. CC Financial services Awareness • 경로 A 및 B eligibility updated to clarify that they apply to banking 및 asset management organizations. • 경로 C has been split out into two 경로 및 the pre-requisite has been updated to cross-reference with 문항 1.10. • 경로 D added for life 및/또는 health insurance organizations. Scoring adapted for life 및 or/health insurance only organizations as these organizations do not see 문항 12.1 또는 the resulting child questions. This approach now removes references to these questions allowing the opportunity to receive full credit. CC Financial services Leadership • Cross check with 12.1 added that requires all 포트폴리오s to meet the criteria rather than just one. • 경로 B added for life 및/또는 health insurance organizations. Check added to Leadership level to encourage organisations who have multiple avenues of engagement to measure the 포트폴리오 impact of all 포트폴리오s they engage with 및 report this in 12.1. F/W Financial services Awareness • Pre-requisite has been updated to require full Disclosure 점 to be 획득 가능 for scoring at Awareness level. Pre-requisite has been updated to align with scoring for 기후변화 in this 문항.",
+    "daml_summaryKo": "Financial services: D 6/6 | A 3/3 | M 3/3 | L 1/1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "your environmental engagement strategy with your clients.에 대한 세부 정보를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "6/6",
+    "A": "3/3",
+    "M": "3/3",
+    "L": "1/1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스",
+  "simpleHelpKo": "This 문항 provides 데이터 사용자 with more transparency regarding an 조직의 client engagement 프로세스es. 데이터 사용자 are interested in understanding how financial services companies are working with their clients to drive environmental action, such as whether organizations encourage their corporate clients to set science-based 목표.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

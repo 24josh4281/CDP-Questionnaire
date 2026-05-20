@@ -1,0 +1,1119 @@
+{
+  "code": "7.3",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Describe your organization's approach to reporting Scope 2 emissions.",
+  "questionKo": "귀사가 Scope 2 배출량 보고에 적용한 접근법을 설명하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "The purpose of this question is to allow companies to disclose their approach to calculating their Scope 2 emissions. This is particularly relevant when considering market-based Scope 2 emissions, as it is important to differentiate between companies that have not reported a market-based figure as they do not have operations where there are those contractual instruments, and those companies that do have operations where there are contractual instruments but have chosen not to disclose a market-based figure. CDP asks this question to enable accurate comparability across companies.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Response row",
+      "titleKo": "응답 행"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.3.1",
+      "text": "​Scope 2, location-based​",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "We are reporting a Scope 2, location-based figure",
+        "We are not reporting a Scope 2, location-based figure"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Scope 2, 지역기반(location-based)",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "We are reporting a Scope 2, 지역기반 figure",
+        "We are not reporting a Scope 2, 지역기반 figure"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.3.2",
+      "text": "Scope 2, market-based",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "We are reporting a Scope 2, market-based figure",
+        "We have no operations where we are able to access electricity supplier emission factors or residual emissions factors and are unable to report a Scope 2, market-based figure",
+        "We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Scope 2, 시장기반(market-based)",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "We are reporting a Scope 2, 시장기반 figure",
+        "We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors 및 are unable to report a Scope 2, 시장기반 figure",
+        "We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.3.3",
+      "text": "Comment",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "비고",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General\nYour selection in the \"Scope 2, market-based\" column determines whether you see columns, rows and/or dropdowns related to the market-based method in following questions.\nThe GHG Protocol Scope 2 Guidance was published in January 2015. Part of the requirements of the guidance is that companies shall account for their Scope 2 emissions using two methodologies: a location-based method and a market-based method. The market-based method is for those companies who have any operations in markets providing product- or supplier-specific data in the form of contractual instruments. If this is not applicable to your company, you only need to provide one location-based figure.\nPer the GHG Protocol Corporate Standard, a contractual instrument is \"any type of contract between two parties for the sale and purchase of energy bundled with attributes about the energy generation, or for unbundled attribute claims.\" Different markets will have different contractual instruments, which can include energy attribute certificates, direct contracts such as PPAs, and supplier-specific emission rates.\nIt is important to consider the definition of contractual instruments when determining whether your company needs to calculate a market-based figure. \nIf your company can access emissions factors from your energy supplier for any of your operations, you are required to calculate and report a market-based figure. Therefore, when responding to this question, if you do have operations where there are contracts such as RECs and Guarantees of Origin, supplier specific emissions factors, or a residual emissions factor such as in the US and Europe - regardless of whether or not you purchase them - then you should \nnot select \"We have no operations where we are able to access electricity supplier emissions factors or residual emissions factors and are unable to report a Scope 2, market-based figure\". For full details please view the GHG Protocol Scope 2 Guidance . You can also reference CDP's Technical Note on Accounting of Scope 2 emissions \nFor the purpose of CDP reporting, to claim the use of renewable electricity for market-based figures, companies must \nsource renewable electricity from within the boundary of the market in which they are consuming the electricity (i.e. comply with the market boundary criteria). Please refer to CDP's Technical Note on Accounting of Scope 2 emissions for further information.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Your selection in the \"Scope 2, 시장기반\" 열 determines whether you see 열, 행 및/또는 dropdowns related to the 시장기반 method in following questions. The GHG Protocol Scope 2 Guidance was published in January 2015. Part 의 requirements 의 guidance is that companies shall account 에 대한ir Scope 2 배출량 using two methodologies: a 지역기반 method 및 a 시장기반 method. The 시장기반 method is for those companies who have 하나 이상 operations in markets providing product- 또는 supplier-specific data in the form of contractual instruments. 만약 this is not 해당되는 경우 to your company, you only need to provide one 지역기반 figure. Per the GHG Protocol Corporate Standard, a contractual instrument is \"하나 이상 type of contract between two parties 에 대한 sale 및 purchase of energy bundled with attributes about the energy generation, 또는 for unbundled attribute claims.\" Different markets will have different contractual instruments, which can include energy attribute certificates, direct contracts such as PPAs, 및 supplier-specific emission rates. It is important to consider the definition of contractual instruments 경우 determining whether your company needs to calculate a 시장기반 figure. 만약 your company can access emissions factors from your energy supplier 다음 항목 중 your operations, you are required to calculate 및 report a 시장기반 figure. Therefore, 경우 responding to this 문항, 만약 you do have operations 여기서 there are contracts such as RECs 및 Guarantees of Origin, supplier specific emissions factors, 또는 a residual emissions factor such as in the US 및 Europe - regardless of whether 또는 not you purchase them - then you 해야 합니다 not select \"We have no operations 여기서 we are able to access electricity supplier emissions factors 또는 residual emissions factors 및 are unable to report a Scope 2, 시장기반 figure\". For full details please view the GHG Protocol Scope 2 Guidance . You can also reference CDP's Technical Note on Accounting of Scope 2 배출량 에 대한 purpose of CDP reporting, to claim the use of renewable electricity for 시장기반 figures, companies 해야 합니다 source renewable electricity from within the boundary 의 market in which they are consuming the electricity (i.e. comply with the market boundary criteria). Please refer to CDP's Technical Note on Accounting of Scope 2 배출량 for further information."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1 or 2/2 or 8",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "i) Any option selected in column 'Scope 2, location-based' - 1 point\nii) Any option selected in column 'Scope 2, market-based' - 1 point\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "i) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 지역기반' - 1 점 ii) 선택지가 하나라도 선택된 경우 in 열 'Scope 2, 시장기반' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' - 2/2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2/2 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny of the following selected in column 'Country/area' in all rows in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We have operations where we are able to access electricity supplier emission factors or residual emissions factors, but are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market-based figure' - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nAll of the following met - 1/8 points\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' AND\n'We have no operations where we are able to access electricity supplier emission factors or residual emission factors, and are unable to report a Scope 2, market-based figure' selected in column 'Scope 2, market based' AND\nAny option excluding the following selected in column 'Country/area' in any row in question 1.7:\n- 'Afghanistan'\n- 'Albania'\n- 'Anguilla'\n- 'Antarctica'\n- 'Antigua and Barbuda'\n- 'Bahamas'\n- 'Belize'\n- 'Bhutan'\n- 'Botswana'\n- 'Bouvet Island'\n- 'Burundi'\n- 'Cabo Verde'\n- 'Cayman Islands'\n- 'Central African Republic'\n- 'Cocos (Keeling) Islands'\n- 'Comoros'\n- 'Cook Islands'\n- 'Cuba'\n- 'Democratic People's Republic of Korea'\n- 'Djibouti'\n- 'Dominica'\n- 'Equatorial Guinea'\n- 'Eritrea'\n- 'Eswatini'\n- 'Fiji'\n- 'Gabon'\n- 'Gambia'\n- 'Greenland'\n- 'Grenada'\n- 'Guinea'\n- 'Guinea-Bissau'\n- 'Guyana'\n- 'Haiti'\n- 'Isle of Man'\n- 'Kiribati'\n- 'Kyrgyzstan'\n- 'Lesotho'\n- 'Liberia'\n- 'Libya'\n- 'Maldives'\n- 'Marshall Islands'\n- 'Mauritania'\n- 'Micronesia (Federated States of)'\n- 'Nauru'\n- 'Niger'\n- 'Niue'\n- 'Norfolk Island'\n- 'Palau'\n- 'Pitcairn'\n- 'Rwanda'\n- 'Saint Kitts and Nevis'\n- 'Saint Lucia'\n- 'Saint Vincent and the Grenadines'\n- 'Samoa'\n- 'Sao Tome and Principe'\n- 'Seychelles'\n- 'Solomon Islands'\n- 'Somalia'\n- 'State of Palestine'\n- 'Sudan'\n- 'Suriname'\n- 'Svalbard and Jan Mayen Islands'\n- 'Syrian Arab Republic'\n- 'Tajikistan'\n- 'Timor-Leste'\n- 'Togo'\n- 'Tonga'\n- 'Turkmenistan'\n- 'Tuvalu'\n- 'Vanuatu'\n- 'Western Sahara'\n- 'Yemen'\nA maximum of 1/8 points is available for this route.\nOR\nROUTE E)\n'We are not reporting a Scope 2, location-based figure' selected in column 'Scope 2, location based' AND 'We are reporting a Scope 2, market-based figure' in column 'Scope 2, market based' - 1/8 points\nA maximum of 1/8 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) All 의 following met - 2/2 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 의 following 선택 in 열 'Country/area' in all 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We have operations 여기서 we are able to access electricity supplier emission factors 또는 residual emissions factors, but are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반 figure' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) All 의 following met - 1/8 점 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' 그리고 'We have no operations 여기서 we are able to access electricity supplier emission factors 또는 residual emission factors, 및 are unable to report a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, market based' 그리고 하나 이상 option 제외 the following 선택 in 열 'Country/area' in 하나 이상 행 in 문항 1.7: - 'Afghanistan' - 'Albania' - 'Anguilla' - 'Antarctica' - 'Antigua 및 Barbuda' - 'Bahamas' - 'Belize' - 'Bhutan' - 'Botswana' - 'Bouvet Island' - 'Burundi' - 'Cabo Verde' - 'Cayman Islands' - 'Central African Republic' - 'Cocos (Keeling) Islands' - 'Comoros' - 'Cook Islands' - 'Cuba' - 'Democratic People's Republic of Korea' - 'Djibouti' - 'Dominica' - 'Equatorial Guinea' - 'Eritrea' - 'Eswatini' - 'Fiji' - 'Gabon' - 'Gambia' - 'Greenland' - 'Grenada' - 'Guinea' - 'Guinea-Bissau' - 'Guyana' - 'Haiti' - 'Isle of Man' - 'Kiribati' - 'Kyrgyzstan' - 'Lesotho' - 'Liberia' - 'Libya' - 'Maldives' - 'Marshall Islands' - 'Mauritania' - 'Micronesia (Federated States of)' - 'Nauru' - 'Niger' - 'Niue' - 'Norfolk Island' - 'Palau' - 'Pitcairn' - 'Rwanda' - 'Saint Kitts 및 Nevis' - 'Saint Lucia' - 'Saint Vincent 및 the Grenadines' - 'Samoa' - 'Sao Tome 및 Principe' - 'Seychelles' - 'Solomon Islands' - 'Somalia' - 'State of Palestine' - 'Sudan' - 'Suriname' - 'Svalbard 및 Jan Mayen Islands' - 'Syrian Arab Republic' - 'Tajikistan' - 'Timor-Leste' - 'Togo' - 'Tonga' - 'Turkmenistan' - 'Tuvalu' - 'Vanuatu' - 'Western Sahara' - 'Yemen' 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 E) 'We are not reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, location based' 그리고 'We are reporting a Scope 2, 시장기반 figure' in 열 'Scope 2, market based' - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "Scope 2 배출량 보고에 대한 조직의 접근 방식을 설명하십시오 . M7. Environmental Performance - Climate Change",
+    "q2025": "Q7.3",
+    "q2025_text": "Describe your organization's approach to reporting Scope 2 emissions.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "General: D 2/2 | A 1 or 2/2 or 8 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "일반: D 2/2 | A 1 또는 2/2 또는 8 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "귀사의 approach to reporting Scope 2 배출량.을/를 설명하십시오."
+  },
+  "defaultPoints": {
+    "D": "2/2",
+    "A": "1 or 2/2 or 8",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "The purpose of this 문항 is to allow companies to disclose their approach to calculating their Scope 2 배출량. This is particularly relevant 경우 considering 시장기반 Scope 2 배출량, as it is important to differentiate between companies that have not 보고 a 시장기반 figure as they do not have operations 여기서 there are those contractual instruments, 및 those companies that do have operations 여기서 there are contractual instruments but have chosen not to disclose a 시장기반 figure. CDP asks this 문항 to enable accurate comparability across companies.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

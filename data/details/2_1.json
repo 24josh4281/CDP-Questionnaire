@@ -1,0 +1,1142 @@
+{
+  "code": "2.1",
+  "module": "2",
+  "moduleTitle": "Identification, assessment, and management of dependencies, impacts, risks, and opportunities",
+  "questionText": "How does your organization define short-, medium-, and long-term time horizons in relation to the identification, assessment, and management of your environmental dependencies, impacts, risks, and opportunities?",
+  "questionKo": "환경 의존성 , 임팩트 ( impacts), 리스크 및 기회를 식별하고 평가하며 관리할 때 귀사가 정의하는 단기 ( short-term), 중기 ( medium-term), 및 장기 ( long-term) 의 시간적 기준을 입력하십시오 .",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Ocean, Biodiversity, Plastics, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "Understanding organizations' definitions of time horizons allows data users to contextualize the different timescales at which organizations consider environmental issues in the identification, assessment, and management of dependencies, impacts, risks, and opportunities, and how this informs their business strategy and financial planning.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Short-term",
+      "titleKo": "단기"
+    },
+    {
+      "order": 2,
+      "title": "Medium-term",
+      "titleKo": "중기"
+    },
+    {
+      "order": 3,
+      "title": "Long-term",
+      "titleKo": "장기"
+    }
+  ],
+  "columns": [
+    {
+      "code": "2.1.1",
+      "text": "From (years)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "시작연도",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.1.2",
+      "text": "Is your long-term time horizon open ended?",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "장기 시간 기준의 종료연도가 개방형입니까?",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "아니요"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.1.3",
+      "text": "To (years)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "종료연도",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.1.4",
+      "text": "How this time horizon is linked to strategic and/or financial planning",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "시간 기준이 전략 및/또는 재무계획과 어떻게 연관되는지 설명",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "From (years) (column 1) and To (years) (column 3) \nTo define your short-, medium- and long-term time horizons, provide details of the length of time in the \"From\" and \"To\" years columns (e.g., from 5 to 10 years, or from 12 to 25 years). \nHow this time horizon is linked to strategic and/or financial planning (column 4) \nProvide the reasons for the choice of time horizon and explain how the use of this time horizon supports your strategic and/or financial planning. \nIf you undertake strategic and/or financial planning under a different timeframe, explain why the time horizon chosen for the identification, assessment, and management of environmental issues is different to that used in these other processes.",
+      "typeKo": "요청 내용",
+      "textKo": "시작연도 (열 1) 및 종료연도 (열 3) To define your 단기, 중기 및 장기 시간 기준, 세부 정보를 입력 의 length of time in the \"From\" 및 \"To\" years 열 (e.g., from 5 to 10 years, 또는 from 12 to 25 years). How this time horizon is linked to 전략 및/또는 재무계획 (열 4) Provide the reasons 에 대한 choice of time horizon 및 explain how the use of this time horizon supports your 전략 및/또는 재무계획. 만약 you undertake 전략 및/또는 재무계획 under a different timeframe, 그 이유를 설명 the time horizon chosen 에 대한 식별, 평가 및 관리 of environmental issues is different to that used in these other 프로세스es."
+    },
+    {
+      "type": "Additional Information",
+      "text": "TCFD and TNFD position on time horizons: \nBecause the timing of effects on organizations will vary, specifying set timeframes across sectors could hinder organizations' consideration of the environmental risks and opportunities specific to their businesses. \nTCFD and TNFD do not define timeframes and encourage respondents to decide how to define their own timeframes considering the useful life of their assets or infrastructure, the profile of the environmental risks they face, the sectors and geographies in which they operate, and that environmental risks and opportunities can manifest themselves over the medium and long term. \nIn assessing environmental issues, organizations should be sensitive to the timeframe used to conduct their assessments. While many organizations conduct operational and financial planning over a 1-2-year timeframe, and strategic and capital planning over a 2-5-year timeframe, environmental risks and opportunities may have implications over a longer period. It is therefore important for organizations to consider the appropriate timeframes when assessing environmental dependencies, impacts, risks, and opportunities.",
+      "typeKo": "추가 정보",
+      "textKo": "TCFD 및 TNFD position on time horizons: Because the timing of effects on organizations will vary, specifying set timeframes across sectors could hinder organizations' consideration 의 environmental 리스크 및 기회 specific to their businesses. TCFD 및 TNFD do not define timeframes 및 encourage respondents to decide how to define their own timeframes considering the useful life 의ir assets 또는 infrastructure, the profile 의 environmental risks they face, the sectors 및 geographies in which they operate, 및 that environmental 리스크 및 기회 can manifest themselves over the medium 및 long term. In assessing environmental issues, organizations 해야 합니다 be sensitive to the timeframe used to conduct their assessments. While many organizations conduct operational 및 재무계획 over a 1-2-year timeframe, 및 strategic 및 capital planning over a 2-5-year timeframe, environmental 리스크 및 기회 may have implications over a longer period. It is therefore important for organizations to consider the appropriate timeframes 경우 assessing 환경 의존성, 임팩트, 리스크 및 기회."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "3/3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Consecutive time horizons entered in rows 'Short-term', 'Medium-term', 'Long-term' - 3 points\n(Please note: As an example, 'Short-term' is '0-2', 'Medium term' is '3-9', and 'Long-term' is 'from 10 years' OR 'Short-term' is '0-3', 'Medium-term' is '3-10' and 'Long-term' is 'from 10 years'. If 'No' is selected in column 'Is your long-term time horizon open ended?', column 'To (years)' must be completed to be eligible for awareness points.)\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Consecutive time horizons entered in 행 '단기', '중기', '장기' - 3 점 (Please note: As an example, '단기' is '0-2', 'Medium term' is '3-9', 및 '장기' is 'from 10 years' 또는 '단기' is '0-3', '중기' is '3-10' 및 '장기' is 'from 10 years'. 만약 '아니요' is 선택 in 열 '장기 시간 기준의 종료연도가 개방형입니까?', 열 '종료연도' 완료해야 합니다 to be 획득 가능 for awareness 점.) 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] How does your organization define short-, medium-, and long-term time horizons in relation to the identification, assessment, and management of your environmental dependencies, impacts, risks, and opportunities?",
+    "q2025": "Q2.1",
+    "q2025_text": "How does your organization define short-, medium-, and long-term time horizons in relation to the identification, assessment, and management of your environmental dependencies, impacts, risks, and opportunities?",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "General: D 3/3 | A 3/3 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "일반: D 3/3 | A 3/3 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "귀사는 define 단기, 중기 및 장기 시간 기준 in relation to the 식별, 평가 및 관리 of your 환경 의존성, 임팩트, 리스크 및 기회을/를 어떻게 수행합니까?"
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "3/3",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 의존성, 임팩트, 리스크 및 기회의 식별, 평가 및 관리",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 해양, 생물다양성, 플라스틱, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "Understanding organizations' definitions of time horizons allows 데이터 사용자 to contextualize the different timescales at which organizations consider environmental issues in the 식별, 평가 및 관리 of dependencies, impacts, risks, 및 opportunities, 및 how this informs their 사업전략 및 재무계획.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

@@ -1,0 +1,1164 @@
+{
+  "code": "5.1.2",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Provide details of the outcomes of your organization's scenario analysis.",
+  "questionKo": "귀사의 시나리오 분석 결과에 대한 세부 정보를 입력하십시오",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "Data users are interested to know how the outcomes of your scenario analysis have influenced your corporate business strategy and financial planning, as well as the identification, assessment, and management of risks and opportunities. They are also looking to understand how resilient your strategy and business model are in your reported scenarios.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Climate change",
+      "titleKo": "기후변화"
+    },
+    {
+      "order": 3,
+      "title": "Water",
+      "titleKo": "수자원"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.1.2.1",
+      "text": "Business processes influenced by your analysis of the reported scenarios",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Risk and opportunities identification, assessment and management",
+        "Strategy and financial planning",
+        "Resilience of business model and strategy",
+        "Capacity building",
+        "Target setting and transition planning",
+        "Other, please specify",
+        "Scenario analysis has not influenced our business processes"
+      ],
+      "simple_help": "",
+      "popup_help": "Please note, \"Scenario analysis has not influenced our business processes\" cannot be selected alongside any other option.",
+      "textKo": "Business 프로세스es influenced by your analysis 의 보고 scenarios",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Risk 및 opportunities identification, assessment 및 management",
+        "Strategy 및 재무계획",
+        "Resilience of business model 및 strategy",
+        "Capacity building",
+        "목표 setting 및 전환계획ning",
+        "기타, 직접 입력",
+        "시나리오 분석 has not influenced our business 프로세스es"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": "Please note, \"시나리오 분석 has not influenced our business 프로세스es\" cannot be 선택 alongside 하나 이상 other option."
+    },
+    {
+      "code": "5.1.2.2",
+      "text": "Coverage of analysis",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Organization-wide",
+        "Organization-wide excluding portfolio",
+        "Business division",
+        "Business activity",
+        "Facility",
+        "Country/area/region",
+        "Product-level",
+        "Portfolio",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Coverage of analysis",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Organization-wide",
+        "Organization-wide 제외 포트폴리오",
+        "Business division",
+        "Business activity",
+        "Facility",
+        "Country/area/region",
+        "Product-level",
+        "포트폴리오",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.1.2.3",
+      "text": "Summarize the influence of the scenario analysis on the selected business processes",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Summarize the influence 의 시나리오 분석 on the 선택 business 프로세스es",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Minor change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Minor change"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in response to any row of column 1 \"Use of scenario analysis\" of 5.1.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 하나 이상 행 of 열 1 \"Use of 시나리오 분석\" of 5.1."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThe outcomes of the scenario analysis should be updated annually to reflect any updated insights, e.g. by reviewing the assumptions and updating them based on actual outcomes even if scenario analysis is conducted less frequently, e.g. in line with a multi-year strategic planning cycle.\nBusiness processes influenced by your analysis of the reported scenari o s (column 1) \nIf you have considered how other business processes could be informed and/or sought to answer other key questions or potential decisions in your analysis, select \"Other, please specify\" and describe these in column 3 \"Summarize the outcomes of the scenario analysis and any implications for other environmental issues\". \nCoverage of analysis (column 2) \nThis column only appears if any option other than \"Scenario analysis has not influenced our business processes\" is selected in column 1 \"Business processes influenced by your analysis of reported scenarios\". \nThe TCFD Guidance on Scenario Analysis recommends that scenario analysis should encompass the whole company. Note that \"company\" refers collectively to all the companies, businesses, organizations, other entities or groups that fall within your definition of the reporting boundary. \nSummarize the influence of the scenario analysis on the selected business processes (column 3) \nThis column only appears if any option other than \"Scenario analysis has not influenced our business processes\" is selected in column 1 \"Business processes influenced by your analysis of reported scenarios\". \nDescribe how scenario analysis results have informed decisions or actions related to the business processes selected in column 1 \"Business processes influenced by your analysis of the reported scenarios\" in the reporting year. Include the scenario narratives used, the time horizons considered, and key insights gained. \nWhere relevant, include quantitative results along with a short description of how these have been calculated. \nWhen discussing the influence on your strategy and financial planning include the implications, if any, of the key trends and critical uncertainties on your strategy, business model and value chain. Discuss how your organization would need to respond to the effects identified. \nIf disclosing on climate change, when discussing the resilience of your organization's business strategy and business model over the short, medium, and long term, include: \nthe availability of, and flexibility in, financial resources to respond to the effects identified, including to address climate-related risks and to take advantage of climate-related opportunities; \nyour ability to redeploy, repurpose, upgrade or decommission existing assets; and, \nthe effect of current and planned investments in climate-related mitigation, adaptation and opportunities for resilience. \nIf your scenario analysis has considered implication on other environmental issues not presented in this question, describe them here. E.g. If as part of your climate-related scenario analysis you have identified risk and opportunities related to biodiversity, describe them here. \nFinancial services sector companies should describe the geographic exposure of their portfolio, and ensure the discussion is split by line of business.\nNote for energy sectors: \nDiscuss in column 3 \"Summarize the outcomes … \" the exposure of current investments in new reserves and/or assets to the risk of lower demand and stranded assets; how current and future capital expenditure may be affected by short-to-long term risk of stranded assets, and what probability/likelihood you assign to that risk. You should also discuss how you have considered your organization's energy outlook in the scenario analysis, and whether you tested the flexibility of your strategy and business model to adjust to significant changes in the demand for your products. \nNote for companies in the financial services sector: \nSelect \"Organization-wide\" if referring to direct operations AND portfolio activities related to lending, investing and or insurance. Select \"Organization-wide excluding portfolio\" if referring only to your direct operations and nothing related to your lending, insurance and investing activities.\nBanks: \nBanks should provide details of how scenarios are used, such as to inform credit and exclusion policies. \nAsset Managers/Asset owners: \nAsset managers should describe how they use scenarios, for example to better understand how environmental issues inform relevant products or investment strategies.\nAsset owners should provide a discussion of how scenarios are used, such as to inform investments in specific assets. \nInsurance companies: \nInsurance companies should describe how they use scenarios, for example to inform insurance premiums and capital requirements.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 The outcomes 의 시나리오 분석 해야 합니다 be updated annually to reflect 하나 이상 updated insights, e.g. by reviewing the assumptions 및 updating them based on actual outcomes even 만약 시나리오 분석 is conducted less frequently, e.g. in line with a multi-year strategic planning cycle. Business 프로세스es influenced by your analysis 의 보고 scenari o s (열 1) 만약 you have considered how other business 프로세스es could be informed 및/또는 sought to answer other key questions 또는 potential decisions in your analysis, select \"Other, 직접 입력\" 및 설명 these in 열 3 \"Summarize the outcomes 의 시나리오 분석 및 하나 이상 implications for other environmental issues\". Coverage of analysis (열 2) This 열 only appears 만약 하나 이상 option other than \"시나리오 분석 has not influenced our business 프로세스es\" is 선택 in 열 1 \"Business 프로세스es influenced by your analysis of 보고 scenarios\". The TCFD Guidance on 시나리오 분석 recommends that 시나리오 분석 해야 합니다 encompass the whole company. Note that \"company\" refers collectively to all the companies, businesses, organizations, other entities 또는 groups that fall within your definition 의 보고경계. Summarize the influence 의 시나리오 분석 on the 선택 business 프로세스es (열 3) This 열 only appears 만약 하나 이상 option other than \"시나리오 분석 has not influenced our business 프로세스es\" is 선택 in 열 1 \"Business 프로세스es influenced by your analysis of 보고 scenarios\". 설명 how 시나리오 분석 results have informed decisions 또는 actions related to the business 프로세스es 선택 in 열 1 \"Business 프로세스es influenced by your analysis 의 보고 scenarios\" in the 보고연도. Include the scenario narratives used, the time horizons considered, 및 key insights gained. 여기서 relevant, include quantitative results along with a short description of how these have been calculated. 경우 discussing the influence on your strategy 및 재무계획 include the implications, 만약 하나 이상, 의 key trends 및 critical uncertainties on your strategy, business model 및 가치사슬. Discuss how 귀사 would need to respond to the effects identified. 만약 disclosing on 기후변화, 경우 discussing the resilience of 귀사의 사업전략 및 business model over the short, medium, 및 long term, include: the availability of, 및 flexibility in, financial resources to respond to the effects identified, 포함 to address climate-related risks 및 to take advantage of climate-related opportunities; your ability to redeploy, repurpose, upgrade 또는 decommission existing assets; and, the effect of current 및 planned investments in climate-related mitigation, adaptation 및 opportunities for resilience. 만약 your 시나리오 분석 has considered implication on other environmental issues not presented in this 문항, 설명 them here. E.g. 만약 의 일부로 your climate-related 시나리오 분석 you have identified risk 및 opportunities related to biodiversity, 설명 them here. Financial services sector companies 해야 합니다 설명 the geographic exposure 의ir 포트폴리오, 및 ensure the discussion is split by line of business. Note for energy sectors: Discuss in 열 3 \"Summarize the outcomes … \" the exposure of current investments in new reserves 및/또는 assets to the risk of lower demand 및 stranded assets; how current 및 future 자본지출 may be affected by short-to-long term risk of stranded assets, 및 what probability/likelihood you assign to that risk. You 해야 합니다 also discuss how you have considered 귀사의 energy outlook in the 시나리오 분석, 및 whether you tested the flexibility of your strategy 및 business model to adjust to significant changes in the demand 귀사의 products. Note for companies in the financial services sector: Select \"Organization-wide\" 만약 referring to 직접 운영사업장 그리고 포트폴리오 activities related to lending, investing 및 또는 insurance. Select \"Organization-wide 제외 포트폴리오\" 만약 referring only to your 직접 운영사업장 및 nothing related to your lending, insurance 및 investing activities. Banks: Banks 해야 합니다 세부 정보를 입력 of how scenarios are used, such as to inform credit 및 exclusion policies. 자산운용사/Asset owners: 자산운용사 해야 합니다 설명 how they use scenarios, for example to better understand how environmental issues inform relevant products 또는 investment strategies. Asset owners 해야 합니다 provide a discussion of how scenarios are used, such as to inform investments in specific assets. Insurance companies: Insurance companies 해야 합니다 설명 how they use scenarios, for example to inform insurance premiums 및 capital requirements."
+    },
+    {
+      "type": "Ambition",
+      "text": "The organization uses scenario analysis to identify risks and opportunities with respect to environmental issues and to assess the resilience of its strategy business model to the risks. \nThe organization describes how the scenarios chosen were developed, including focal questions addressed. \nThe results of the assessment are used to inform the organization's business strategy and financial decisions, including investments and mitigation actions. They are used to assess the organization's ability to adapt to environmental risks in the short, medium, and long-term. \nThe organization describes how the outputs from the scenario analysis are used in risk and opportunity identification, assessment and management processes, given the organization's activities and relevant timeframes.",
+      "typeKo": "Ambition",
+      "textKo": "The organization uses 시나리오 분석 to identify 리스크 및 기회 with respect to environmental issues 및 to assess the resilience of its strategy business model to the risks. The organization 설명s how the scenarios chosen were developed, 포함 focal questions addressed. The results 의 assessment are used to inform the 조직의 사업전략 및 financial decisions, 포함 investments 및 mitigation actions. They are used to assess the 조직의 ability to adapt to environmental risks in the short, medium, 및 long-term. The organization 설명s how the outputs from the 시나리오 분석 are used in risk 및 opportunity identification, assessment 및 management 프로세스es, given the 조직의 activities 및 relevant timeframes."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Capacity building: The process of developing and strengthening the skills, instincts, abilities, processes and resources that organizations and communities need to survive, adapt, and thrive in a fast-changing world ( UN ). Some examples include; offering training and technical assistance; raising awareness through stakeholder engagement; and provision of high-quality resources and educational material.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Capacity building: The 프로세스 of developing 및 strengthening the skills, instincts, abilities, 프로세스es 및 resources that organizations 및 communities need to survive, adapt, 및 thrive in a fast-changing world ( UN ). Some examples include; offering training 및 technical assistance; raising awareness through stakeholder engagement; 및 provision of high-quality resources 및 educational material."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\nTable completed AND\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Organization-wide' selected in column 'Coverage of analysis' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\n'Yes' selected in column 'Process in place covering this portfolio' in question 2.2.5 in any row AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.6\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\nTable completed AND\n'Yes' selected in column 'Process in place covering this portfolio' in question 2.2.5 in any row AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.6 AND\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Portfolio' selected in column 'Coverage of analysis'\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\nTable completed AND\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\nAny option excluding 'Organization-wide' AND 'Portfolio' selected in column 'Coverage in analysis' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2\nA maximum of 1/1 point is available for this route.\nOR\nROUTE D)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 Table 완성 그리고 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 'Yes' 선택 in 열 '프로세스 in place covering this 포트폴리오' in 문항 2.2.5 in 하나 이상 행 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.6 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 Table 완성 그리고 'Yes' 선택 in 열 '프로세스 in place covering this 포트폴리오' in 문항 2.2.5 in 하나 이상 행 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.6 그리고 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 '포트폴리오' 선택 in 열 'Coverage of analysis' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 Table 완성 그리고 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 하나 이상 option 제외 'Organization-wide' 그리고 '포트폴리오' 선택 in 열 'Coverage in analysis' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 D) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Portfolio' OR 'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 '포트폴리오' 또는 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAll of the following met - 1 point\n'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND\n'Yes' selected in column 'Process in place' in question 2.2.1 AND 'Scenario analysis' selected in column 'Tools and methods' in question 2.2.2 AND\nTable completed.\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nAny option excluding 'Risk and opportunities identification, assessment and management' selected in column 'Business processes influenced by your analysis of the reported scenarios' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': All 의 following met - 1 점 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Yes' 선택 in 열 '프로세스 in place' in 문항 2.2.1 그리고 '시나리오 분석' 선택 in 열 'Tools 및 methods' in 문항 2.2.2 그리고 Table 완성. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': 하나 이상 option 제외 'Risk 및 opportunities identification, assessment 및 management' 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Awareness points must be awarded to be eligible for Management points AND\nAny of the following selected in column 'Business processes influenced by your analysis of the reported scenarios':\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nAND\n'Scenario analysis has not influenced our business processes' NOT selected in column ‘Business processes influenced by your analysis of the reported scenarios'\nAND\n'Organization-wide' selected in column 'Coverage of analysis' - 1 point\nA maximum of 1/1 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Awareness 점수를 획득해야 합니다 to be 획득 가능 for Management 점 그리고 하나 이상 의 following 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios': - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 그리고 '시나리오 분석 has not influenced our business 프로세스es' NOT 선택 in 열 ‘Business 프로세스es influenced by your analysis 의 보고 scenarios' 그리고 'Organization-wide' 선택 in 열 'Coverage of analysis' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFull Management points must be awarded to be eligible for Leadership points\nAll of the following options selected in column 'Business processes influenced by your analysis of the reported scenarios' - 1 point:\n- 'Risk and opportunities identification, assessment and management'\n- 'Strategy and financial planning'\n- 'Resilience of business model and strategy'\n- 'Capacity building'\n- 'Target setting and transition planning'\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue': Full Management 점수를 획득해야 합니다 to be 획득 가능 for Leadership 점 All 의 following options 선택 in 열 'Business 프로세스es influenced by your analysis 의 보고 scenarios' - 1 점: - 'Risk 및 opportunities identification, assessment 및 management' - 'Strategy 및 재무계획' - 'Resilience of business model 및 strategy' - 'Capacity building' - '목표 setting 및 전환계획ning' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "귀사의 시나리오 분석 결과에 대한 세부 정보를 입력하십시오 M5. Business Strategy",
+    "q2025": "Q5.1.2",
+    "q2025_text": "Provide details of the outcomes of your organization's scenario analysis.",
+    "change_status": "Minor change",
+    "detail_change_types": "Modified column header",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "Updated column header to \"Summarize the influence of the scenario analysis on the selected business processes\" and updated guidance for clarification.",
+    "scoring_change_summary": "CC/W All sectors Management • Criterion ii) relating to the description of how the results of scenario analysis have informed at least one decision or action is removed. Point allocations have been reduced accordingly. Scoring updated to allow more fair and objective scoring.\nCC/F/W Financial services Awareness • ROUTE A and B updated to include cross check with financial services specific questions 2.25 and 2.2.6. • Two new routes C and D. Scoring updated to ensure that the right cross check is happening based on the coverage selection. For those that have an organization wide coverage the methodology will check 2.2.1, 2.2.2,",
+    "daml_summary": "General: D 3/3 | A 1/1 | M 1/1 | L 1/1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "경미한 변경",
+    "detail_change_typesKo": "열 제목 수정",
+    "change_summaryKo": "Updated 열 header to \"Summarize the influence 의 시나리오 분석 on the 선택 business 프로세스es\" 및 updated guidance for clarification.",
+    "scoring_change_summaryKo": "CC/W All sectors Management • Criterion ii) relating to the description of how the results of 시나리오 분석 have informed 최소 one decision 또는 action is removed. 점 allocations have been reduced accordingly. Scoring updated to allow more fair 및 objective scoring. CC/F/W Financial services Awareness • 경로 A 및 B updated to include cross check with financial services specific questions 2.25 및 2.2.6. • Two new 경로s C 및 D. Scoring updated to ensure that the right cross check is happening based on the coverage selection. For those that have an organization wide coverage the 방법론 will check 2.2.1, 2.2.2,",
+    "daml_summaryKo": "일반: D 3/3 | A 1/1 | M 1/1 | L 1/1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "the outcomes of 귀사의 시나리오 분석.에 대한 세부 정보를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "1/1",
+    "M": "1/1",
+    "L": "1/1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "데이터 사용자 are interested to know how the outcomes of your 시나리오 분석 have influenced your corporate 사업전략 및 재무계획, as well as the 식별, 평가 및 관리 of 리스크 및 기회. They are also looking to understand how resilient your strategy 및 business model are in your 보고 scenarios.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

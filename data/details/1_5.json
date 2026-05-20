@@ -1,0 +1,1110 @@
+{
+  "code": "1.5",
+  "module": "1",
+  "moduleTitle": "Introduction",
+  "questionText": "Provide details on your reporting boundary.",
+  "questionKo": "CDP 보고에 적용한 보고경계에 대한 세부 정보를 입력하십시오 .",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Ocean, Biodiversity, Plastics, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "This question helps data users interpret how your responses relate to your business operations. Your response to this question defines the set of entities (companies, businesses, other groups, etc.) that you are providing data for in the CDP questionnaire.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Response row",
+      "titleKo": "응답 행"
+    }
+  ],
+  "columns": [
+    {
+      "code": "1.5.1",
+      "text": "Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No",
+        "Not applicable - we do not publicly disclose financial statements"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "보고경계 귀사의 CDP disclosure the same as that used in your 재무제표 여부를 선택하십시오.",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "아니요",
+        "Not 해당되는 경우 - we do not publicly disclose 재무제표"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "1.5.2",
+      "text": "How does your reporting boundary differ to that used in your financial statement?",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "This question is asking to describe your reporting boundary compared to that used in your financial statement. You will be able to report exclusions later in the disclosure framework.",
+      "textKo": "How does your 보고경계 differ to that used in your financial statement?",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": "This 문항 is asking to 설명 your 보고경계 compared to that used in your financial statement. You will be able to report 제외사항 later in the disclosure framework."
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThe reporting boundary defines the set of entities (companies, businesses, other groups, etc.) that you are providing data for.\nUnless stated otherwise, the information you provide in response to CDP's corporate questionnaire should be presented as one result covering all the entities indicated as falling within your reporting boundary in this question.\nThroughout this questionnaire, \"your organization\" and \"organization-wide\" will be used to refer collectively to the entities included within the reporting boundary defined here.\nCDP recommends that you consult your legal or accounting advisor when determining your reporting boundary.\nNote that you will be requested to indicate the consolidation approach chosen to calculate environmental performance data (e.g., GHG emissions, water withdrawals, deforestation- and conversion-free status of commodity volumes, etc.) to your organization in 6.1.\nIs your reporting boundary for your CDP disclosure the same as that used in your financial statement? (column 1) \nUsing a reporting boundary aligned with the reporting boundary used for your financial accounting is preferable, as it is important for consistency and accountability.\nCDP is committed to deliver comprehensive and robust environmental data to the market by aligning with global standards. Using the same reporting boundary as that used in your financial statements aligns with the requirements of the IFRS and ESRS reporting standards.\nHow does your reporting boundary differ to that used in your financial statement (column 2) \nThis column is only presented if \"No\" is selected in column 1 \"Is your reporting boundary for your CDP disclosure the same as that used in your financial statement?\".\nProvide details on why your reporting boundary is not the same as the reporting boundary used in the preparation of financial statements. Include details as to how the reporting boundary differs from your financial statements, such as any entities included in your financial reporting that are not included in your CDP response.  \nIf there are entities included in your consolidated accounting group that are not included in your reporting boundary, provide details on the exclusion of these entities from your environmental performance data in question 7.4.1, 8.1.1, and 9.1.1, where applicable.\nNote on IFRS S1 Alignment \nThe questionnaire was not reviewed for alignment with IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information in its entirety. To comply with the requirements of IFRS Sustainability Disclosure Standards, disclosing organizations are required to apply both IFRS S1 and IFRS S2.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 The 보고경계 defines the set of entities (companies, businesses, other groups, etc.) that you are providing data for. Unless stated otherwise, the information you provide in response to CDP's corporate questionnaire 해야 합니다 be presented as one result covering all the entities indicated as falling within your 보고경계 in this 문항. Throughout this questionnaire, \"귀사\" 및 \"organization-wide\" will be used to refer collectively to the entities included within the 보고경계 defined here. CDP recommends that you consult your legal 또는 accounting advisor 경우 determining your 보고경계. Note that you will be requested to indicate the consolidation approach chosen to calculate environmental performance data (e.g., 온실가스 배출량, water withdrawals, deforestation- 및 conversion-free status of commodity volumes, etc.) to 귀사 in 6.1. Is your 보고경계 귀사의 CDP disclosure the same as that used in your financial statement? (열 1) Using a 보고경계 aligned with the 보고경계 used 귀사의 financial accounting is preferable, as it is important for consistency 및 accountability. CDP is committed to deliver comprehensive 및 robust environmental data to the market by aligning with global 기준. Using the same 보고경계 as that used in your 재무제표 aligns with the requirements 의 IFRS 및 ESRS reporting 기준. How does your 보고경계 differ to that used in your financial statement (열 2) This 열 is only presented 만약 \"아니요\" is 선택 in 열 1 \"Is your 보고경계 귀사의 CDP disclosure the same as that used in your financial statement?\". 세부 정보를 입력 on why your 보고경계 is not the same as the 보고경계 used in the preparation of 재무제표. Include details as to how the 보고경계 differs from your 재무제표, such as 하나 이상 entities included in your financial reporting that are not included in your CDP response. 만약 there are entities included in your consolidated accounting group that are not included in your 보고경계, 세부 정보를 입력 on the exclusion 의se entities from your environmental performance data in 문항 7.4.1, 8.1.1, 및 9.1.1, 여기서 해당되는 경우. Note on IFRS S1 Alignment The questionnaire was not reviewed for alignment with IFRS S1 일반 Requirements for Disclosure of Sustainability-related Financial Information in its entirety. To comply with the requirements of IFRS Sustainability Disclosure 기준, disclosing organizations are required to apply both IFRS S1 및 IFRS S2."
+    },
+    {
+      "type": "Ambition",
+      "text": "The organization uses the same reporting boundary as the boundary used in the preparation of their financial statements.\nThe reporting boundary is applied consistently throughout reporting. Where relevant, the organization provides information on the value chain outside of the boundary as supplementary information relating to the dependencies, impacts, risks, and opportunities identified by the organization.",
+      "typeKo": "Ambition",
+      "textKo": "The organization uses the same 보고경계 as the boundary used in the preparation 의ir 재무제표. The 보고경계 is applied consistently throughout reporting. 여기서 relevant, the organization provides information on the 가치사슬 outside 의 boundary as supplementary information relating to the dependencies, impacts, risks, 및 opportunities identified by the organization."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Financial statements: a structured representation of the financial position, financial performance, and cash flows of an entity according to the accounting principles used by the entity.\nOrganization: throughout this questionnaire, \"your organization\" and \"organization-wide\" refer collectively to all the companies, businesses, other groups etc. that fall within the definition of your reporting boundary (provided in 1.5). This term is used interchangeably with \"your company\", but CDP recognizes that some disclosing organizations may not consider themselves to be, or be formally classified, as \"companies\". \nReporting boundary:  this determines which organizational entities, such as groups, businesses, and companies, are included in or excluded from your disclosure. Please consistently apply this organizational boundary when responding to questions unless you are specifically asked for data about another category of activities.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "재무제표: a structured representation 의 financial position, financial performance, 및 cash flows of an entity according to the accounting principles used by the entity. Organization: throughout this questionnaire, \"귀사\" 및 \"organization-wide\" refer collectively to all the companies, businesses, other groups etc. that fall within the definition of your 보고경계 (입력 in 1.5). This term is used interchangeably with \"your company\", but CDP recognizes that some disclosing organizations may not consider themselves to be, 또는 be formally classified, as \"companies\". 보고경계: this determines which organizational entities, such as groups, businesses, 및 companies, are included in 또는 excluded from your disclosure. Please consistently apply this 조직경계 경우 responding to questions unless you are specifically asked for data about another category of activities."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0 or 1/0 or 1",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\n'Yes' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 1/1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nROUTE C)\n'Not applicable - we do not publicly disclose financial statements' selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?' - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) '예' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) '아니요' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'Not 해당되는 경우 - we do not publicly disclose 재무제표' 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "CDP 보고에 적용한 보고경계에 대한 세부 정보를 입력하십시오 .",
+    "q2025": "Q1.5",
+    "q2025_text": "Provide details on your reporting boundary.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "",
+    "scoring_change_summary": "CC/F/W All sectors Management • Additional scoring route added to clarify point allocation when 'No' is selected in column 'Is your reporting boundary for your CDP disclosure the same as that used in your financial statements?'. Clarification in accordance with the intent of scoring of this route.",
+    "daml_summary": "General: D 2/2 | A 1/1 | M 0 or 1/0 or 1 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "CC/F/W All sectors Management • Additional scoring 경로 added to clarify 점 allocation 경우 '아니요' is 선택 in 열 'Is your 보고경계 귀사의 CDP disclosure the same as that used in your 재무제표?'. Clarification in accordance with the intent of scoring of this 경로.",
+    "daml_summaryKo": "일반: D 2/2 | A 1/1 | M 0 또는 1/0 또는 1 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "details on your 보고경계.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "2/2",
+    "A": "1/1",
+    "M": "0 or 1/0 or 1",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "소개",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 해양, 생물다양성, 플라스틱, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "This 문항 helps 데이터 사용자 interpret how your responses relate to your business operations. Your response to this 문항 defines the set of entities (companies, businesses, other groups, etc.) that you are providing data for in the CDP questionnaire.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

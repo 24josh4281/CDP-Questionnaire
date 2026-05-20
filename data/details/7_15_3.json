@@ -1,0 +1,226 @@
+{
+  "code": "7.15.3",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Break down your total gross global Scope 1 emissions from electric utilities value chain activities by greenhouse gas type.",
+  "questionKo": "your total 전 세계 총 Scope 1 배출량 from electric utilities 가치사슬 activities by greenhouse gas type.을/를 세분화하여 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Energy utilities & power generators",
+  "simpleHelp": "Energy utilities & power generators face significant exposure from the transition to a zero-carbon economy through their global greenhouse gas emissions, either directly through electric utility companies' own energy use for production, or indirectly through combustion of fossil fuels. Electricity production is responsible for approximately 25% of the world's GHG production. Energy utilities & power generators are therefore requested to provide gross emissions for their emission sources by greenhouse gas from sources including fugitive, combustion and other emission sources.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Fugitives",
+      "titleKo": "Fugitives"
+    },
+    {
+      "order": 2,
+      "title": "Combustion (Electric utilities)",
+      "titleKo": "Combustion (Electric utilities)"
+    },
+    {
+      "order": 3,
+      "title": "Combustion (Gas utilities)",
+      "titleKo": "Combustion (Gas utilities)"
+    },
+    {
+      "order": 4,
+      "title": "Combustion (Other)",
+      "titleKo": "Combustion (Other)"
+    },
+    {
+      "order": 5,
+      "title": "Emissions not elsewhere classified",
+      "titleKo": "Emissions not elsewhere classified"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.15.3.1",
+      "text": "Gross Scope 1 CO2 emissions (metric tons CO2)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Gross Scope 1 CO2 emissions (미터톤 CO2)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.15.3.2",
+      "text": "Gross Scope 1 methane emissions (metric tons CH4)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Gross Scope 1 methane emissions (metric tons CH4)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.15.3.3",
+      "text": "Gross Scope 1 SF6 emissions (metric tons SF6)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Gross Scope 1 SF6 emissions (metric tons SF6)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.15.3.4",
+      "text": "Total gross Scope 1 emissions (metric tons CO2e)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Total gross Scope 1 배출량 (미터톤 CO2e)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.15.3.5",
+      "text": "Comment",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Comment",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Revised question dependency",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Revised 문항 dependency"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes, both Scope 1 and Scope 2 emissions\" or \"Yes, Scope 1 emissions only\" in response to column 1 \"Emissions breakdown by greenhouse gas type\" of 7.15.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes, both Scope 1 및 Scope 2 배출량\" 또는 \"Yes, Scope 1 배출량 only\" in response to 열 1 \"Emissions breakdown by greenhouse gas type\" of 7.15."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThis question requests emissions data only from emission sources that fall within the chosen reporting boundary (i.e. Scope 1 emissions) and that are within the energy utilities & power generators sector boundary.\nUtility companies that purchase wholesale electricity supplied by independent power producers for resale to their customers should consider reporting these emissions under Scope 3.\nWhen providing emissions resulting from combustion activities please note for the purposes of this question combustion is divided into three categories comprising electric utilities, gas utilities, and other.\nEmissions not elsewhere classified includes any emissions occurring in the organizational/sector boundary that have not been reported in the above rows. Therefore, the sum of GHG emissions in all rows should equal the figure reported in 7.19.\nThe Global Warming Potential (GWP) factors used here should be consistent with your disclosures throughout the questionnaire. CDP encourages the use of the most recent GWP factors published by IPCC, in alignment with the GHG Protocol.\nNegative numbers are not allowed as you are requested to report gross, not net figures.\nEmissions figures should be for the reporting year only (as defined by your answer to 1.4).\nEmissions sources (column 1) \nAn explanation of the emissions categories is provided in the explanation of terms.\nGross Scope 1 CO2 emissions (metric tons CO2) (column 2) \nReport your organization's Scope 1 CO2 emissions for the emissions category in column 1.\nGross Scope 1 methane emissions (metric tons CH4) (column 3) \nReport your organization's Scope 1 methane emissions in CH4 for the emissions category in column 1.\nGross Scope 1 SF6 emissions (metric tons SF6) (column 4) \nReport your organization's Scope 1 sulphur hexafluoride emissions in SF6 for the emissions category in column 1.\nTotal gross Scope 1 emissions (metric tons CO2e) (column 5) \nTotal greenhouse gas emissions - from CO2, CH4 SF6\nand any other greenhouse gases such as HFC's etc., if applicable, should be aggregated and reported in units of CO2e.\nNote on sector boundary \nSector production activities relate to activities conducted by your organization relating to the high-intensity sector that this sector-specific questionnaire relates to. These activities may be directly or indirectly related to the production process itself. Given the potential complexity of production sectors, CDP encourages you to identify and remove specific activities from your organizational boundary (or business division's organizational boundary) that are not necessarily a part of the sector. Starting with your answer to question 7.6, emissions from the following sources should be deducted:\nExternal corporate entities, i.e. assets, business divisions, partnerships and subsidiaries operating outside of the high-intensity sector.\nNon-industrial buildings, e.g. offices, accommodation, other property.\nNon-production related activities, e.g. management, services, R&D, marketing, retail. o Transport, e.g. distribution, business travel, shipping, freight, logistics.\nProjects, e.g. construction, engineering and maintenance.\nAlternatively, you may consider constructing your sector boundary around activities that should be included. At a minimum, you should include in your sector boundary:\nThe production processes\nAll activities, processes and equipment that are ancillary to the production processes.\nAll other industrial installations, energy installations and other installations or activities contributing to or supplying the production processes and ancillary activities, e.g. boilers, power plant, raw material preparation and extraction, etc.\nAll buildings that house the production processes and ancillary activities and said installations, as well as buildings used for inventory storage.\nOnsite mobile combustion, e.g. forklifts and excavators, and movement of materials between industrial sites within the sector.\nAny other industrial activities that typically occur on the production sites of the high-intensity sector.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 This 문항 requests 배출량 데이터 only from emission sources that fall within the chosen 보고경계 (i.e. Scope 1 배출량) 및 that are within the energy utilities & power generators sector boundary. Utility companies that purchase wholesale electricity supplied by independent power producers for resale to their customers 해야 합니다 consider reporting these emissions under Scope 3. 경우 providing emissions resulting from combustion activities please note 에 대한 purposes of this 문항 combustion is divided into three categories comprising electric utilities, gas utilities, 및 other. Emissions not elsewhere classified includes 하나 이상 emissions occurring in the organizational/sector boundary that have not been 보고 in the above 행. Therefore, the sum of 온실가스 배출량 in all 행 해야 합니다 equal the figure 보고 in 7.19. The Global Warming Potential (GWP) factors used here 해야 합니다 be consistent with your disclosures throughout the questionnaire. CDP encourages the use 의 most recent GWP factors published by IPCC, in alignment with the GHG Protocol. Negative numbers are not allowed as you are requested to report gross, not net figures. Emissions figures 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). Emissions sources (열 1) An explanation 의 emissions categories is 입력 in the explanation of terms. Gross Scope 1 CO2 emissions (미터톤 CO2) (열 2) Report 귀사의 Scope 1 CO2 emissions 에 대한 emissions category in 열 1. Gross Scope 1 methane emissions (metric tons CH4) (열 3) Report 귀사의 Scope 1 methane emissions in CH4 에 대한 emissions category in 열 1. Gross Scope 1 SF6 emissions (metric tons SF6) (열 4) Report 귀사의 Scope 1 sulphur hexafluoride emissions in SF6 에 대한 emissions category in 열 1. Total gross Scope 1 배출량 (미터톤 CO2e) (열 5) Total 온실가스 배출량 - from CO2, CH4 SF6 및 하나 이상 other greenhouse gases such as HFC's etc., 만약 해당되는 경우, 해야 합니다 be aggregated 및 보고 in units of CO2e. Note on sector boundary Sector production activities relate to activities conducted by 귀사 relating to the high-intensity sector that this sector-specific questionnaire relates to. These activities may be directly 또는 indirectly related to the production 프로세스 itself. Given the potential complexity of production sectors, CDP encourages you to identify 및 remove specific activities from your 조직경계 (or business division's 조직경계) that are not necessarily a part 의 sector. Starting with your answer to 문항 7.6, emissions from the following sources 해야 합니다 be deducted: External corporate entities, i.e. assets, business divisions, partnerships 및 subsidiaries operating outside 의 high-intensity sector. Non-industrial buildings, e.g. offices, accommodation, other property. Non-production related activities, e.g. management, services, R&D, marketing, retail. o Transport, e.g. distribution, business travel, shipping, freight, logistics. Projects, e.g. construction, engineering 및 maintenance. Alternatively, you may consider constructing your sector boundary around activities that 해야 합니다 be included. At a minimum, you 해야 합니다 include in your sector boundary: The production 프로세스es All activities, 프로세스es 및 equipment that are ancillary to the production 프로세스es. All other industrial installations, energy installations 및 other installations 또는 activities contributing to 또는 supplying the production 프로세스es 및 ancillary activities, e.g. boilers, power plant, raw material preparation 및 extraction, etc. All buildings that house the production 프로세스es 및 ancillary activities 및 said installations, as well as buildings used for inventory storage. Onsite mobile combustion, e.g. forklifts 및 excavators, 및 movement of materials between industrial sites within the sector. 하나 이상 other industrial activities that typically occur on the production sites 의 high-intensity sector."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Combustion: Combustion refers to combustion within the company's boundary giving rise to greenhouse gas emissions. Sources may include boilers, heaters, furnaces, incinerators, internal combustion engines, and turbines. Scope 1 GHG emissions exclude emissions of CO 2 arising from the combustion and fermentation of biomass and biofuels; these emissions are reported as a separate category.\nFugitives: Comprises all intentional or unintentional releases of carbon dioxide (CO 2 ) methane (CH 4 ) and other greenhouse gases. The primary sources of these emissions may include fugitive equipment leaks, evaporation losses, venting, flaring and accidental releases. Further examples of leak sources include valves, fittings, flanges, compressor seals, other compressor related leaks, heaters, dehydrators, and pipelines. Accidental fugitive emissions can be individually found and fixed in order to make the emissions near zero. Emissions from non-point sources, such as wastewater treatment and surface impoundments, should be accounted for under fugitive emissions.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Combustion: Combustion refers to combustion within the company's boundary giving rise to 온실가스 배출량. Sources may include boilers, heaters, furnaces, incinerators, internal combustion engines, 및 turbines. Scope 1 온실가스 배출량 exclude emissions of CO 2 arising from the combustion 및 fermentation of biomass 및 biofuels; these emissions are 보고 as a separate category. Fugitives: Comprises all intentional 또는 unintentional releases of carbon dioxide (CO 2 ) methane (CH 4 ) 및 other greenhouse gases. The primary sources 의se emissions may include fugitive equipment leaks, evaporation losses, venting, flaring 및 accidental releases. Further examples of leak sources include valves, fittings, flanges, compressor seals, other compressor related leaks, heaters, dehydrators, 및 pipelines. Accidental fugitive emissions can be individually found 및 fixed in order to make the emissions near zero. Emissions from non-점 sources, such as wastewater treatment 및 surface impoundments, 해야 합니다 be accounted for under fugitive emissions."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Break down your total gross global Scope 1 emissions from electric utilities value chain activities by greenhouse gas type.",
+    "q2025": "Q7.15.3",
+    "q2025_text": "Break down your total gross global Scope 1 emissions from electric utilities value chain activities by greenhouse gas type.",
+    "change_status": "Revised question dependency",
+    "detail_change_types": "Revised question dependency",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "Question appears for organizations that select \"Yes, both Scope 1 and Scope 2 emissions\" or \"Yes, Scope 1 emissions only\" in response to column 1 \"Emissions breakdown by greenhouse gas type\" of 7.15.",
+    "scoring_change_summary": "",
+    "daml_summary": "Energy utilities & power generators: D 3/3 | A 2/2 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 의존성 수정",
+    "detail_change_typesKo": "문항 의존성 수정",
+    "change_summaryKo": "문항 appears for organizations that select \"Yes, both Scope 1 및 Scope 2 배출량\" 또는 \"Yes, Scope 1 배출량 only\" in response to 열 1 \"Emissions breakdown by greenhouse gas type\" of 7.15.",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Energy utilities & power generators: D 3/3 | A 2/2 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "your total 전 세계 총 Scope 1 배출량 from 전력 유틸리티 가치사슬 activities by greenhouse gas type.을/를 세분화하여 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "2/2",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "에너지 유틸리티 및 발전",
+  "simpleHelpKo": "Energy utilities & power generators face significant exposure from the transition to a zero-carbon economy through their global 온실가스 배출량, either directly through electric utility companies' own energy use for production, 또는 indirectly through combustion of fossil fuels. Electricity production is responsible for approximately 25% 의 world's GHG production. Energy utilities & power generators are therefore requested to provide gross emissions 에 대한ir emission sources by greenhouse gas from sources 포함 fugitive, combustion 및 other emission sources.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

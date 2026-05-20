@@ -1,0 +1,1217 @@
+{
+  "code": "7.1.3",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Have your organization's base year emissions and past years' emissions been recalculated as a result of any changes or errors reported in 7.1.1 and/or 7.1.2?",
+  "questionKo": "7.1.1 및/또는 7.1.2 문항에서 보고한 변경 사항이나 오류로 인해 조직의 기준연도 배출량과 과거연도 배출량을 재산정했습니까?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "Significant changes (structural, methodological, boundary etc.) can alter a company's emissions profile, making meaningful historical comparisons difficult. To maintain consistency over time, base year emissions must be retroactively recalculated to reflect changes in the company that would otherwise compromise the consistency and relevance of a company's GHG emissions inventory. This question allows data users to understand whether the company has recalculated their base year emissions as a result of the changes or errors disclosed in 7.1.1 and 7.1.2.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Response row",
+      "titleKo": "응답 행"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.1.3.1",
+      "text": "Base year recalculation",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No, because we have not evaluated whether the changes should trigger a base year recalculation",
+        "No, because the impact does not meet our significance threshold",
+        "No, because the operations acquired or divested did not exist in the base year",
+        "No, because we do not have the data yet and plan to recalculate next year"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "기준연도 배출량 재산정 여부",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "No, because we have not evaluated whether the changes 해야 합니다 trigger a 기준연도 recalculation",
+        "No, because the impact does not meet our significance threshold",
+        "No, because the operations acquired 또는 divested did not exist in the 기준연도",
+        "No, because we do not have the data yet 및 plan to recalculate next year"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.1.3.2",
+      "text": "Scopes recalculated",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Scope 1",
+        "Scope 2, location-based",
+        "Scope 2, market-based",
+        "Scope 3"
+      ],
+      "simple_help": "Select all that apply",
+      "popup_help": "",
+      "textKo": "재산정 배출량 범위",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Scope 1",
+        "Scope 2, 지역기반",
+        "Scope 2, 시장기반",
+        "Scope 3"
+      ],
+      "simple_helpKo": "all that apply을/를 선택하십시오.",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.1.3.3",
+      "text": "Scope 3 categories recalculated",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Purchased goods and services",
+        "Capital goods",
+        "Fuel and energy-related activities (not included in Scope 1or 2)",
+        "Upstream transportation and distribution",
+        "Waste generated in operations",
+        "Business travel",
+        "Employee commuting",
+        "Upstream leased assets",
+        "Downstream transportation and distribution",
+        "Processing of sold products",
+        "Use of sold products",
+        "End of life treatment of sold products",
+        "Downstream leased assets",
+        "Franchises",
+        "Investments",
+        "Other (upstream)",
+        "Other (downstream)"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "기준연도 배출량 재산정 정책(중대성 기준(sig nificance threshold) 포함)",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Purchased goods 및 services",
+        "Capital goods",
+        "Fuel 및 energy-related activities (not included in Scope 1or 2)",
+        "Upstream transportation 및 distribution",
+        "Waste generated in operations",
+        "Business travel",
+        "Employee commuting",
+        "Upstream leased assets",
+        "Downstream transportation 및 distribution",
+        "프로세스ing of sold products",
+        "Use of sold products",
+        "End of life treatment of sold products",
+        "Downstream leased assets",
+        "Franchises",
+        "Investments",
+        "Other (upstream)",
+        "Other (downstream)"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.1.3.4",
+      "text": "Base year emissions recalculation policy, including significance threshold",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "과거연도 배출량 재산정 여부",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.1.3.5",
+      "text": "Past years' recalculation",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Past years' recalculation",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "아니요"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified question",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified 문항"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if any of the \"Yes\" options are selected in 7.1.1, or if any of the \"Yes\" options or \"No, but we have discovered significant errors in our previous response\" is selected in response to 7.1.2.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 하나 이상 의 \"예\" options are 선택 in 7.1.1, 또는 만약 하나 이상 의 \"예\" options 또는 \"No, but we have discovered significant errors in our previous response\" is 선택 in response to 7.1.2."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThe GHG Protocol Corporate Standard states that you should recalculate your base year emissions if your organization has changed structurally through acquisitions and/or divestments, the methodology or boundary used to calculate your emissions has changed, you have found significant errors in previous calculations, or if there have been changes to your excluded sources. This is so that your base year emissions can be directly compared with your current/reporting year emissions.\nA company may, however, decide not to do this if the impact on emissions is not material or significant. It is up to each company to determine the threshold for what is considered significant or material by developing a base year recalculation policy. Organizations should apply their base year recalculation policy in a consistent manner (i.e. you should recalculate for both emissions increases and decreases).\nCompanies recalculating their base year emissions may also, as per the GHG Protocol, optionally recalculate GHG emissions data for past years between the base year and the reporting year.\nBase year recalculation (column 1) \nSelect \"Yes\" if your organization has recalculated your base year emissions as a result of the changes or errors disclosed in 7.1.1 and/or 7.1.2. The basis of the recalculation should be consistent with your recalculation policy (as described in column 2) and should be reflected in the base year emissions figures you disclose in 7.5.\nSelect \"No, because we have not evaluated a recalculation of our base year\" if you do not have a base year recalculation policy, or you have not evaluated whether the changes or errors identified in 7.1.1 and/or 7.1.2 should trigger a base year recalculation as per your policy.\nSelect \"No, because the impact does not meet our significance threshold\" if you have a base year recalculation policy and you have evaluated that the changes or errors identified in 7.1.1 and/or 7.1.2 do not meet your policy's significance threshold and therefore the impact on emissions is deemed to be non-material.\nSelect \"No, because we do not have the data yet and plan to recalculate next year\" if your organization has merged with or acquired a company and you do not yet have the emissions data for the organization you have merged with or acquired. As per the GHG Protocol Corporate standard, \"if it is not possible to make a recalculation in the year of the structural change (e.g. due to lack of data for an acquired company), the recalculation may be carried out the following year\". In this scenario, the emissions from the company your organization has merged with or acquired should be reported as an excluded source of emissions in 7.4.1 in this CDP response.\nScopes recalculated (column 2) \nThis column only appears if you select \"Yes\" in column 1 \"Base year recalculation\".\nDepending on the changes that have triggered a base year calculation (as disclosed in 7.1.1 and/or 7.1.2), it may not be necessary to recalculate your organization's base year emissions for all scopes. For example, you may have found a significant error in your calculation of a single category of scope 3 emissions.\nIndicate in this column the scopes for which you have recalculated your base year emissions.\nScope 3 categories recalculated (column 3) \nThis column only appears if you select \"Scope 3\" in column 2 \"Scopes recalculated\"\nIndicate in this column the scope 3 categories for which you have recalculated your base year emissions.\nBase year emissions recalculation policy, including significance threshold (column 4) \nDescribe your organization's base year recalculation policy, and if \"Yes\" was selected in column 1, clearly articulate the basis and context of the recalculation.\nEnsure to include the significance threshold applied for determining base year recalculations.\nPast years' recalculation (column 5) \nSelect \"Yes\" if, due to changes or errors reported in 7.1.1 and/or 7.5.2, in addition to your base year recalculation you have also recalculated emissions data for past years, and are restating them in 7.6, 7.7, and 7.8.\nIf you select \"Yes\" in this column, ensure you have also selected \"Yes\" in column 3 of 1.4 and indicated the number of past years of emissions you wish to restate for each Scope in columns 4-6 of 1.4.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 The GHG Protocol Corporate Standard states that you 해야 합니다 recalculate your 기준연도 emissions 만약 귀사 has changed structurally through acquisitions 및/또는 divestments, the 방법론 또는 boundary used to calculate your emissions has changed, you have found significant errors in previous calculations, 또는 만약 there have been changes to your excluded sources. This is so that your 기준연도 emissions can be directly compared with your current/보고연도 emissions. A company may, however, decide not to do this 만약 the impact on emissions is not material 또는 significant. It is up to each company to determine the threshold for what is considered significant 또는 material by developing a 기준연도 recalculation 정책. Organizations 해야 합니다 apply their 기준연도 recalculation 정책 in a consistent manner (i.e. you 해야 합니다 recalculate for both emissions increases 및 decreases). Companies recalculating their 기준연도 emissions may also, as per the GHG Protocol, optionally recalculate GHG 배출량 데이터 for past years between the 기준연도 및 the 보고연도. 기준연도 recalculation (열 1) Select \"예\" 만약 귀사 has recalculated your 기준연도 emissions as a result 의 changes 또는 errors 공개 in 7.1.1 및/또는 7.1.2. The basis 의 recalculation 해야 합니다 be consistent with your recalculation 정책 (as 설명d in 열 2) 및 해야 합니다 be reflected in the 기준연도 emissions figures you disclose in 7.5. Select \"No, because we have not evaluated a recalculation of our 기준연도\" 만약 you do not have a 기준연도 recalculation 정책, 또는 you have not evaluated whether the changes 또는 errors identified in 7.1.1 및/또는 7.1.2 해야 합니다 trigger a 기준연도 recalculation as per your 정책. Select \"No, because the impact does not meet our significance threshold\" 만약 you have a 기준연도 recalculation 정책 및 you have evaluated that the changes 또는 errors identified in 7.1.1 및/또는 7.1.2 do not meet your 정책's significance threshold 및 therefore the impact on emissions is deemed to be non-material. Select \"No, because we do not have the data yet 및 plan to recalculate next year\" 만약 귀사 has merged with 또는 acquired a company 및 you do not yet have the 배출량 데이터 에 대한 organization you have merged with 또는 acquired. As per the GHG Protocol Corporate standard, \"만약 it is not possible to make a recalculation in the year 의 structural change (e.g. due to lack of data for an acquired company), the recalculation may be carried out the following year\". In this scenario, the emissions from the company 귀사 has merged with 또는 acquired 해야 합니다 be 보고 as an excluded source of emissions in 7.4.1 in this CDP response. 재산정 배출량 범위 (열 2) This 열 only appears 만약 you select \"예\" in 열 1 \"기준연도 recalculation\". Depending on the changes that have triggered a 기준연도 calculation (as 공개 in 7.1.1 및/또는 7.1.2), it may not be necessary to recalculate 귀사의 기준연도 emissions for all scopes. For example, you may have found a significant error in your calculation of a single category of Scope 3 배출량. Indicate in this 열 the scopes for which you have recalculated your 기준연도 emissions. 기준연도 배출량 재산정 정책(중대성 기준(sig nificance threshold) 포함) (열 3) This 열 only appears 만약 you select \"Scope 3\" in 열 2 \"재산정 배출량 범위\" Indicate in this 열 the scope 3 categories for which you have recalculated your 기준연도 emissions. 기준연도 emissions recalculation 정책, 포함 significance threshold (열 4) 설명 귀사의 기준연도 recalculation 정책, 및 만약 \"예\" was 선택 in 열 1, clearly articulate the basis 및 context 의 recalculation. Ensure to include the significance threshold applied for determining 기준연도 recalculations. Past years' recalculation (열 5) Select \"예\" 만약, due to changes 또는 errors 보고 in 7.1.1 및/또는 7.5.2, in addition to your 기준연도 recalculation you have also recalculated 배출량 데이터 for past years, 및 are restating them in 7.6, 7.7, 및 7.8. 만약 you select \"예\" in this 열, ensure you have also 선택 \"예\" in 열 3 of 1.4 및 indicated the number of past years of emissions you wish to restate for each Scope in 열 4-6 of 1.4."
+    },
+    {
+      "type": "Ambition",
+      "text": "Companies recalculate base year emissions, and emissions from previous years to reflect changes that would otherwise compromise the consistency and relevance of the reported GHG emissions information.",
+      "typeKo": "Ambition",
+      "textKo": "Companies recalculate 기준연도 emissions, 및 emissions from previous years to reflect changes that would otherwise compromise the consistency 및 relevance 의 보고 온실가스 배출량 information."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Significance threshold: As noted on page 35 of the GHG Protocol Corporate Standard , a significance threshold is a \"qualitative and/or quantitative criterion used to define any significant change to the data, inventory boundary, methods, or any other relevant factors. It is the responsibility of the company to determine the significance threshold that triggers base year emissions recalculation and to disclose it.\"",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Significance threshold: As noted on page 35 의 GHG Protocol Corporate Standard , a significance threshold is a \"qualitative 및/또는 quantitative criterion used to define 하나 이상 significant change to the data, inventory boundary, methods, 또는 하나 이상 other relevant factors. It is the responsibility 의 company to determine the significance threshold that triggers 기준연도 emissions recalculation 및 to disclose it.\""
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "3/3",
+      "M": "1.5 or 2/2",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\nFull Disclosure points awarded AND\nFull Disclosure points awarded in all of the following questions:\n- 7.1\n- 7.1.1\n- 7.1.2\nAny option excluding 'No, because we have not evaluated...' selected in column 'Base year recalculation' - 3 points\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: Disclosure에서 최고점 획득 그리고 Disclosure에서 최고점 획득 in all 의 following questions: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 recalculation' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nROUTE A)\nAny of the following selected in column 'Base year recalculation' - 2 points\n- 'Yes'\n- 'No, because the impact does not meet our significance threshold'\n- 'No, because the operations acquired or divested did not exist in the base year'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, because we do not have the data yet and plan to recalculate next year' selected in column 'Base year recalculation'- 1.5/2 points\nA maximum of 1.5/2 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 recalculation' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 recalculation'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "7.1.1 및/또는 7.1.2 문항에서 보고한 변경 사항이나 오류로 인해 조직의 기준연도 배출량과 과거연도 배출량을 재산정했습니까?",
+    "q2025": "Q7.1.3",
+    "q2025_text": "Have your organization's base year emissions and past years' emissions been recalculated as a result of any changes or errors reported in 7.1.1 and/or 7.1.2?",
+    "change_status": "Modified question",
+    "detail_change_types": "New column",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "New column added",
+    "scoring_change_summary": "",
+    "daml_summary": "General: D 2/2 | A 3/3 | M 1.5 or 2/2 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 수정",
+    "detail_change_typesKo": "신규 열",
+    "change_summaryKo": "New 열 added",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "일반: D 2/2 | A 3/3 | M 1.5 또는 2/2 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "Have 귀사의 기준연도 emissions 및 past years' emissions been recalculated as a result of 하나 이상 changes 또는 errors 보고 in 7.1.1 및/또는 7.1.2?"
+  },
+  "defaultPoints": {
+    "D": "2/2",
+    "A": "3/3",
+    "M": "1.5 or 2/2",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "Significant changes (structural, methodological, boundary etc.) can alter a company's emissions profile, making meaningful historical comparisons difficult. To maintain consistency over time, 기준연도 emissions 해야 합니다 be retroactively recalculated to reflect changes in the company that would otherwise compromise the consistency 및 relevance of a company's 온실가스 배출량 inventory. This 문항 allows 데이터 사용자 to understand whether the company has recalculated their 기준연도 emissions as a result 의 changes 또는 errors 공개 in 7.1.1 및 7.1.2.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

@@ -1,0 +1,1117 @@
+{
+  "code": "6.1",
+  "module": "6",
+  "moduleTitle": "Environmental performance - Consolidation approach",
+  "questionText": "Provide details on your chosen consolidation approach for the calculation of environmental performance data.",
+  "questionKo": "귀사의 환경이슈 별 성과를 보고하기 위해 적용한 통합접근방식을 입력하십시오 .",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Biodiversity, Plastics, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "The consolidation approach is the method by which environmental impacts (e.g., GHG emissions, water withdrawals etc.) have been attributed to your organization. This context will help data users interpret how the environmental impacts relate to your business operations.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Climate change",
+      "titleKo": "기후변화"
+    },
+    {
+      "order": 3,
+      "title": "Water",
+      "titleKo": "수자원"
+    }
+  ],
+  "columns": [
+    {
+      "code": "6.1.1",
+      "text": "Consolidation approach used",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Financial control",
+        "Operational control",
+        "Equity share",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "In row 'Climate change', select the consolidation approach used in your emissions accounting.",
+      "textKo": "Consolidation approach used",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Financial control",
+        "Operational control",
+        "Equity share",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": "In 행 'Climate change', select the consolidation approach used in your 배출량 회계."
+    },
+    {
+      "code": "6.1.2",
+      "text": "Provide the rationale for the choice of consolidation approach",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "the rationale 에 대한 choice of consolidation approach을/를 입력하십시오.",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThe \"consolidation approach\" identifies which entities are included within the calculation of your environmental performance data and determines the information that is relevant for your organization to disclose within Modules 7-12. \nCDP recommends that you consult your legal or accounting advisor when determining your consolidation approach. \nThis question is asking you to provide details on your consolidation approach only. You will be able to indicate exclusions to your environmental performance data from the boundary determined by this approach later in the relevant environmental performance module for each relevant environmental issue. \nIn line with the Science-Based Targets Network (SBTN), organizations should use the same consolidation approach across environmental issues and use the financial or operational control approach when setting science-based targets for nature. Refer to the SBTN Technical Guidance Step 1 Assess for more details. \nOrganizations who have used the GHG Protocol for emissions accounting are strongly recommended by SBTN to use the same consolidation approach for setting science-based targets for nature. For example, if your organization uses the financial control approach for consolidating GHG emissions, then you should use the same approach to consolidate other environmental data. \nConsolidation approach used (column 1) \nSelect the consolidation approach that best reflects the approach used to attribute environmental impacts to your organization. \nIn row \"Climate change\", select the consolidation approach used to consolidate your GHG inventory. To support the use, tracking, and comparability of reported GHG information, respondents are encouraged to adopt the consolidation approaches based on the GHG Protocol Corporate Standard , outlined in more detail in Chapter 3 of the Standard. \nIf you have previously disclosed data to CDP and your consolidation approach has changed in the reporting year, select your new approach in the relevant row. If your consolidation approach in row \"Climate change\" has changed in the reporting year, you should also provide details of the change in 7.1.2. \nThe drop-down options are based on the GHG Protocol Corporate Standard, and are described in more detail below (text adapted from the  GHG Protocol Corporate Standard ) \nFinancial control: An organization has financial control over an operation if it has the ability to direct the financial and operating policies of the operation with a view to gaining economic benefits from its activities. Generally, an organization has financial control over an operation for GHG accounting purposes if the operation is treated as a group company or subsidiary for the purposes of financial consolidation. \nOperational control: An organization has operational control over an operation if it or one of its subsidiaries has the full authority to introduce and implement its operating policies at the operation. \nEquity share: Under the equity share approach, an organization accounts for GHG emissions from operations according to its share of equity in the operation. The equity share reflects the economic interest, which is the extent of rights an organization has to the risks and rewards flowing from an operation. Typically, the share of economic risks and rewards in an operation is aligned with the organization's percentage ownership of that operation, and equity share will normally be the same as the ownership percentage. Where this is not the case, the economic substance of the relationship the company has with the operation always overrides the legal ownership form to ensure the equity share reflects the percentage of economic interest. The principle of economic substance taking precedence over legal form is consistent with international financial reporting standards. \nOther, please specify: Select this option if none of the other options apply. If you select this option, provide a label in the text field provided. \nIn the case of leasing arrangements, see the  GHG Protocol Appendix: Categorizing GHG Emissions from Leased Assets  and the lease accounting standard from your relevant generally accepted accounting principles (GAAP) to determine the appropriate scope for those emissions. \nProvide the rationale for the choice of consolidation approach (column 2) \nFor example, if you have used the same consolidation approach for reporting water and forests-related data due to alignment with SBTN guidance, then state this here. \nIf you have used the same consolidation approach as used in your financial accounting, then state this here. \nIf you have used a different consolidation approach for consolidating different types of environmental data, explain the rationale for this difference. For example, if you use a different consolidation approach for GHG emissions accounting and for water accounting, explain why.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 The \"consolidation approach\" identifies which entities are included within the calculation of your environmental performance data 및 determines the information that is relevant for 귀사 to disclose within Modules 7-12. CDP recommends that you consult your legal 또는 accounting advisor 경우 determining your consolidation approach. This 문항 is asking you to 세부 정보를 입력 on your consolidation approach only. You will be able to indicate 제외사항 to your environmental performance data from the boundary determined by this approach later in the relevant environmental performance module for each relevant environmental issue. In line with the Science-Based 목표 Network (SBTN), organizations 해야 합니다 use the same consolidation approach across environmental issues 및 use the financial 또는 operational control approach 경우 setting science-based 목표 for nature. Refer to the SBTN Technical Guidance Step 1 Assess for more details. Organizations who have used the GHG Protocol for 배출량 회계 are strongly recommended by SBTN to use the same consolidation approach for setting science-based 목표 for nature. For example, 만약 귀사 uses the financial control approach for consolidating 온실가스 배출량, then you 해야 합니다 use the same approach to consolidate other environmental data. Consolidation approach used (열 1) Select the consolidation approach that best reflects the approach used to attribute environmental impacts to 귀사. In 행 \"기후변화\", select the consolidation approach used to consolidate your GHG inventory. To support the use, tracking, 및 comparability of 보고 GHG information, respondents are encouraged to adopt the consolidation approaches based on the GHG Protocol Corporate Standard , outlined in more detail in Chapter 3 의 Standard. 만약 you have previously 공개 data to CDP 및 your consolidation approach has changed in the 보고연도, select your new approach in the relevant 행. 만약 your consolidation approach in 행 \"기후변화\" has changed in the 보고연도, you 해야 합니다 also 세부 정보를 입력 의 change in 7.1.2. The drop-down options are based on the GHG Protocol Corporate Standard, 및 are 설명d in more detail below (text adapted from the GHG Protocol Corporate Standard ) Financial control: An organization has financial control over an operation 만약 it has the ability to direct the financial 및 operating policies 의 operation with a view to gaining economic benefits from its activities. Generally, an organization has financial control over an operation for GHG accounting purposes 만약 the operation is treated as a group company 또는 subsidiary 에 대한 purposes of financial consolidation. Operational control: An organization has operational control over an operation 만약 it 또는 one of its subsidiaries has the full authority to introduce 및 implement its operating policies at the operation. Equity share: Under the equity share approach, an organization accounts for 온실가스 배출량 from operations according to its share of equity in the operation. The equity share reflects the economic interest, which is the extent of rights an organization has to the risks 및 rewards flowing from an operation. Typically, the share of economic risks 및 rewards in an operation is aligned with the 조직의 percentage ownership of that operation, 및 equity share will normally be the same as the ownership percentage. 여기서 this is not the case, the economic substance 의 relationship the company has with the operation always overrides the legal ownership form to ensure the equity share reflects the percentage of economic interest. The principle of economic substance taking precedence over legal form is consistent with international financial reporting 기준. Other, 직접 입력: Select this option 만약 none 의 other options apply. 만약 you select this option, provide a label in the text field 입력. In the case of leasing arrangements, see the GHG Protocol Appendix: Categorizing 온실가스 배출량 from Leased Assets 및 the lease accounting standard from your relevant generally accepted accounting principles (GAAP) to determine the appropriate scope for those emissions. Provide the rationale 에 대한 choice of consolidation approach (열 2) For example, 만약 you have used the same consolidation approach for reporting 수자원 및 forests-related data due to alignment with SBTN guidance, then state this here. 만약 you have used the same consolidation approach as used in your financial accounting, then state this here. 만약 you have used a different consolidation approach for consolidating different types of environmental data, explain the rationale for this difference. For example, 만약 you use a different consolidation approach for GHG 배출량 회계 및 for 수자원 accounting, 그 이유를 설명."
+    },
+    {
+      "type": "Ambition",
+      "text": "The organization discloses whether the consolidation of their entities in the accounting of their environmental impacts has been done through the financial control approach, operational control approach, equity share approach, or another method. The organization provides an explanation for why the particular method was chosen.",
+      "typeKo": "Ambition",
+      "textKo": "The organization discloses whether the consolidation 의ir entities in the accounting 의ir environmental impacts has been done through the financial control approach, operational control approach, equity share approach, 또는 another method. The organization provides an explanation for why the particular method was chosen."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Consolidation approach: The identification of entities (companies, businesses, other groups, etc.) relevant to the environmental impact of the responding organization. The GHG Protocol states that two distinct approaches may be used to consolidate GHG emissions; the equity share and the control approaches. Control can be defined in either financial (financial control) or operational (operational control) terms. \nGHG inventory : A quantified list of an organization's greenhouse gas emissions and sources. \nOrganization: Throughout this questionnaire, \"your organization\" and \"organization-wide\" refer collectively to all the companies, businesses, other groups etc., that fall within the definition of your reporting boundary (provided in 1.5). This term is used interchangeably with \"your company\", but CDP recognizes that some disclosing organizations may not consider themselves to be, or be formally classified, as \"companies\".",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Consolidation approach: The identification of entities (companies, businesses, other groups, etc.) relevant to the environmental impact 의 responding organization. The GHG Protocol states that two distinct approaches may be used to consolidate 온실가스 배출량; the equity share 및 the control approaches. Control can be defined in either financial (financial control) 또는 operational (operational control) terms. GHG inventory : A quantified list of an 조직의 온실가스 배출량 및 sources. Organization: Throughout this questionnaire, \"귀사\" 및 \"organization-wide\" refer collectively to all the companies, businesses, other groups etc., that fall within the definition of your 보고경계 (입력 in 1.5). This term is used interchangeably with \"your company\", but CDP recognizes that some disclosing organizations may not consider themselves to be, 또는 be formally classified, as \"companies\"."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row:\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row:\nAll columns completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행: All 열 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nThe same option selected (excluding 'Other, please specify') in column 'Consolidation approach used' in all of the following rows, where applicable - 1 point\n- 'Climate change'\n- 'Forests'\n- 'Water'\n(Please note: only rows for the environmental issues that are being disclosed on are considered.)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The same option 선택 (제외 'Other, 직접 입력') in 열 'Consolidation approach used' in all 의 following 행, 여기서 해당되는 경우 - 1 점 - '기후변화' - 'Forests' - '수자원' (Please note: only 행 에 대한 environmental issues that are being 공개 on are considered.) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "귀사의 환경이슈 별 성과를 보고하기 위해 적용한 통합접근방식을 입력하십시오 . M6. Environmental Performance - Consolidation Approach 0 1 2 환경이슈 사용한 통합접근방식 통합접근방식 선택 근거 제공 기후변화 선택 항목 : 재무 통제 운영 통제 지분율 접근법 기타 텍스트 입력 [ 최대 2,500 자 ] 물 산림 플라스틱 생물다양성",
+    "q2025": "Q6.1",
+    "q2025_text": "Provide details on your chosen consolidation approach for the calculation of environmental performance data.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "",
+    "scoring_change_summary": "CC/F/W All sectors Management & Leadership 2025 Leadership scoring moved down to Management level in 2026. No longer scored at Leadership in 2026. Scoring has been moved to a lower level as use of the same consolidation approach across environmental reporting is a requirement under ISSB and SBTN and therefore is not just a leadership action.",
+    "daml_summary": "General: D 3/3 | A 1/1 | M 1/1 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "CC/F/W All sectors Management & Leadership 2025 Leadership scoring moved down to Management level in 2026. No longer scored at Leadership in 2026. Scoring has been moved to a lower level as use 의 same consolidation approach across environmental reporting is a requirement under ISSB 및 SBTN 및 therefore is not just a leadership action.",
+    "daml_summaryKo": "일반: D 3/3 | A 1/1 | M 1/1 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "details on your chosen consolidation approach 에 대한 calculation of environmental performance data.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "1/1",
+    "M": "1/1",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 통합 접근방식",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 생물다양성, 플라스틱, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "The consolidation approach is the method by which environmental impacts (e.g., 온실가스 배출량, water withdrawals etc.) have been attributed to 귀사. This context will help 데이터 사용자 interpret how the environmental impacts relate to your business operations.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

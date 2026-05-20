@@ -1,0 +1,1202 @@
+{
+  "code": "7.30.7",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "State how much fuel in MWh your organization has consumed (excluding feedstocks) by fuel type.",
+  "questionKo": "귀사의 총 연료 소비량을 연료 유형별로 구분하여 입력하십시오. (원료용 연료 제외, 단위: MWh)",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "Scope 1 greenhouse gas emissions are directly associated with the consumption of fuel for energy purposes. This question provides data users with more transparency regarding the type of fuel an organization has consumed. Total consumption of fuels and their consumption for different energy applications also provides insight on the way in which fuels are used by the organization, which can allow for a fairer and more consistent understanding of corporate energy and emissions from data users.",
+  "popupHelp": "1 Giga-Joule (GJ) = 0.277778 MWh",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Sustainable biomass",
+      "titleKo": "Sustainable biomass"
+    },
+    {
+      "order": 2,
+      "title": "Other biomass",
+      "titleKo": "Other biomass"
+    },
+    {
+      "order": 3,
+      "title": "Other renewable fuels (e.g. renewable hydrogen)",
+      "titleKo": "Other renewable fuels (e.g. renewable hydrogen)"
+    },
+    {
+      "order": 4,
+      "title": "Coal",
+      "titleKo": "Coal"
+    },
+    {
+      "order": 5,
+      "title": "Oil",
+      "titleKo": "Oil"
+    },
+    {
+      "order": 6,
+      "title": "Gas",
+      "titleKo": "Gas"
+    },
+    {
+      "order": 7,
+      "title": "Other non-renewable fuels (e.g. non-renewable hydrogen)",
+      "titleKo": "Other non-renewable fuels (e.g. non-renewable hydrogen)"
+    },
+    {
+      "order": 8,
+      "title": "Total fuel",
+      "titleKo": "Total fuel"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.30.7.1",
+      "text": "Total fuel MWh consumed by the organization",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "연료(원료용 제외)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.30.7.2",
+      "text": "MWh fuel consumed for self-generation of electricity",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "발열량",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.30.7.3",
+      "text": "MWh fuel consumed for self-generation of heat",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "조직에서 소비한 총 연료량(MWh)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.30.7.4",
+      "text": "MWh fuel consumed for self-generation of steam",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "전력 생산을 위해 소비한 연료량 (MWh)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.30.7.5",
+      "text": "MWh fuel consumed for self-generation of cooling",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "열 생산을 위해 소비한 연료량(MWh)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.30.7.6",
+      "text": "MWh fuel consumed for self- cogeneration or self-trigeneration",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "스팀 생산을 위해 소비한 연료량(MWh)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.30.7.7",
+      "text": "Comment",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "냉방 생산을 위해 소비한 연료량(MWh)",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified question",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified 문항"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Consumption of fuel (excluding feedstock)\" in 7.30.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Consumption of fuel (제외 feedstock)\" in 7.30."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nFor each fuel application selected in 7.30.6 a column appears in the table in addition to the \"MWh fuel consumed for self-generation of heat\" and \"Total MWh consumed by the organization\" columns.\nIf no fuel application or only \"Consumption of fuel for the generation of heat\" is selected in 7.30.6 then only the \"Total MWh consumed by the organization\" column will appear. \nYou should provide information for all fuel (excluding feedstocks) consumed by your organization in the reporting year (as defined by your answer to 1.4). Therefore, column \"Total fuel MWh consumed by the organization\" in the \"Total fuel\" row should equal the total consumption of fuel (excluding feedstock) in MWh (from renewable and non-renewable sources) as reported in 7.30.1.\nBlended fuels deriving from both renewable and non-renewable sources should be split by the proportion contained from each source and reported in the corresponding row of the table. E.g. For petrol and diesel that contains a biofuel blend, the energy consumed from the fossil fuel-derived portion should be reported in row \"Oil\".\nReport any energy consumption from the biofuel content of the blended fuel considered sustainable in the \"Sustainable biomass\" row and provide the criteria used to classify the biomass as sustainable (e.g. details of certification) in the \"Comment\" column . \nSelf-generation means generation from inside the organizational boundary. This includes all generation plant owned or controlled by the organization. Do \nnot provide information for fuel consumed by another organization for the generation of electricity, steam, heat, and cooling that your organization has purchased or acquired.\nThis table is for gross fuel consumption data only. You should not provide net consumption nor deduct for energy produced and exported from the organizational boundary. Because feedstock fuels are excluded from this question, this approach should not lead to double counting.\nAll fuel consumed inside the organizational boundary should be included, regardless of whether the fuel was purchased or produced by the organization. Fuel consumed as a feedstock (used for the production of another fuel) should not be included. The produced fuel should still be included if it is consumed within the organizational boundary.\nThe consumption of fuel for any applications not listed (transportation, industrial process plant and equipment etc.) should be reported in in column 3 \"MWh fuel consumed for self-generation of heat\".\nGuidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh \" and a glossary of definitions on some fuels is provided in Technical Notes: \" Fuel Definitions \".\nReport all of your fuel data consistently using the same heating value as selected in 7.30.1.\nFuels (excluding feedstocks) (column 0) \nPlease refer to the CDP Technical note on Biofuels for guidance on biomass/biofuel sustainability. If you report information in the \"Sustainable biomass\" row, provide the criteria used to classify the biomass as sustainable (e.g. certification) in column 7 \"Comment\".\n\"Other renewable fuels\" and \"Other non-renewable fuels\" are aggregations of any other renewable and non-renewable fuels you consume that do not fit within the categories of fuels listed.\nHydrogen fuel should be reported based on its origins. As blue hydrogen is based on non-renewable sources, it should be reported in the row \"Other non-renewable fuels (e.g. non-renewable hydrogen)\".\nIf you have not consumed any fuels within a category in the reporting year, enter 0 in the subsequent columns.\nMWh fuel consumed for self-generation of electricity (column 2) \nFuel consumed for electricity generated in cogeneration or trigeneration plants should be reported in column \"MWh fuel consumed for self- cogeneration or self-trigeneration\".\nMake sure that you do not enter data for the actual electricity generated from these fuels. This table is for the consumption of the fuels themselves and aims to capture the energy content of the initial fuel used, not the energy content of the electricity generated from these fuels.\nMWh fuel consumed for self-generation of heat (column 3) \nThis column will be presented if you selected \"Yes\" for any fuel application in 7.30.6 except if you selected only \"Consumption of fuel for the generation of heat\". This is because combustion reactions are exothermic and thus generate heat in addition to any secondary energy carrier generated (electricity, steam, and/or cooling).\nThis column is not presented if only \"Consumption of fuel for the generation of heat\" is selected in 7.30.6, because in this case the \"MWh fuel consumed for self-generation of heat\" will be equal to the \"Total fuel MWh consumed by the organization\".\nFuel consumed for heat is fuel that is combusted for the direct use of the heat/thermal energy its combustion releases. This heat is used in applications such as direct heating for industrial process plant and equipment, engines, turbines, furnaces, heaters, stoves, incinerators, kilns, dryers, thermal oxidizers, space heating, open burning, flaring, or any other combustion that is not for the generation of secondary energy carriers (electricity, steam, and/or cooling).\nReport the fuel energy (i.e. total heat of fuel combustion), not the heat delivered for the application. This question asks for the MWh fuel consumed, not the useful energy delivered for the application.\nMWh fuel consumed for self-generation of steam (column 4) \nDo not include steam generated in co- or tri-generation plants. This should be reported in in column \"MWh fuel consumed for self- cogeneration or self-trigeneration\".\nMWh fuel consumed for self-generation of cooling (column 5) \nDo not include cooling generated in co- or tri-generation plants. This should be reported in in column \"MWh fuel consumed for self- cogeneration or self-trigeneration\".\nComment (column 7) (optional) \nYou may comment on the specific fuels consumed in each row, or provide additional information on the methods or assumptions used to determine the breakdown of fuel consumed.\nIf you report information in the \"Sustainable biomass\" row, provide the criteria used to classify the biomass as sustainable (e.g. certification).",
+      "typeKo": "요청 내용",
+      "textKo": "일반 For each fuel application 선택 in 7.30.6 a 열 appears in the table in addition to the \"조직에서 소비한 총 연료량(MWh)\" 및 \"Total MWh consumed by the organization\" 열. 만약 no fuel application 또는 only \"Consumption of fuel 에 대한 generation of heat\" is 선택 in 7.30.6 then only the \"Total MWh consumed by the organization\" 열 will appear. You 해야 합니다 provide information for all fuel (제외 feedstocks) consumed by 귀사 in the 보고연도 (as defined by your answer to 1.4). Therefore, 열 \"연료(원료용 제외)\" in the \"Total fuel\" 행 해야 합니다 equal the total consumption of fuel (제외 feedstock) in MWh (from renewable 및 non-renewable sources) as 보고 in 7.30.1. Blended fuels deriving from both renewable 및 non-renewable sources 해야 합니다 be split by the proportion contained from each source 및 보고 in the corresponding 행 의 table. E.g. For petrol 및 diesel that contains a biofuel blend, the energy consumed from the fossil fuel-derived portion 해야 합니다 be 보고 in 행 \"Oil\". Report 하나 이상 에너지 소비량 from the biofuel content 의 blended fuel considered sustainable in the \"Sustainable biomass\" 행 및 provide the criteria used to classify the biomass as sustainable (e.g. details of certification) in the \"냉방 생산을 위해 소비한 연료량(MWh)\" 열 . Self-generation means generation from inside the 조직경계. This includes all generation plant owned 또는 controlled by the organization. Do not provide information for fuel consumed by another organization 에 대한 generation of electricity, steam, heat, 및 cooling that 귀사 has purchased 또는 acquired. This table is for gross 연료 소비량 data only. You 해야 합니다 not provide net consumption nor deduct for energy produced 및 exported from the 조직경계. Because feedstock fuels are excluded from this 문항, this approach 해야 합니다 not lead to double counting. All fuel consumed inside the 조직경계 해야 합니다 be included, regardless of whether the fuel was purchased 또는 produced by the organization. Fuel consumed as a feedstock (used 에 대한 production of another fuel) 해야 합니다 not be included. The produced fuel 해야 합니다 still be included 만약 it is consumed within the 조직경계. The consumption of fuel for 하나 이상 applications not listed (transportation, industrial 프로세스 plant 및 equipment etc.) 해야 합니다 be 보고 in in 열 3 \"조직에서 소비한 총 연료량(MWh)\". Guidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh \" 및 a glossary of definitions on some fuels is 입력 in Technical Notes: \" Fuel Definitions \". Report all of your fuel data consistently using the same heating value as 선택 in 7.30.1. Fuels (제외 feedstocks) (열 0) Please refer to the CDP Technical note on Biofuels for guidance on biomass/biofuel sustainability. 만약 you report information in the \"Sustainable biomass\" 행, provide the criteria used to classify the biomass as sustainable (e.g. certification) in 열 7 \"냉방 생산을 위해 소비한 연료량(MWh)\". \"Other renewable fuels\" 및 \"Other non-renewable fuels\" are aggregations of 하나 이상 other renewable 및 non-renewable fuels you consume that do not fit within the categories of fuels listed. Hydrogen fuel 해야 합니다 be 보고 based on its origins. As blue hydrogen is based on non-renewable sources, it 해야 합니다 be 보고 in the 행 \"Other non-renewable fuels (e.g. non-renewable hydrogen)\". 만약 you have not consumed 하나 이상 fuels within a category in the 보고연도, enter 0 in the subsequent 열. 발열량 (열 2) Fuel consumed for electricity generated in cogeneration 또는 trigeneration plants 해야 합니다 be 보고 in 열 \"MWh fuel consumed for self- cogeneration 또는 self-trigeneration\". Make sure that you do not enter data 에 대한 actual electricity generated from these fuels. This table is 에 대한 consumption 의 fuels themselves 및 aims to capture the energy content 의 initial fuel used, not the energy content 의 electricity generated from these fuels. 조직에서 소비한 총 연료량(MWh) (열 3) This 열 will be presented 만약 you 선택 \"Yes\" for 하나 이상 fuel application in 7.30.6 except 만약 you 선택 only \"Consumption of fuel 에 대한 generation of heat\". This is because combustion reactions are exothermic 및 thus generate heat in addition to 하나 이상 secondary energy carrier generated (electricity, steam, 및/또는 cooling). This 열 is not presented 만약 only \"Consumption of fuel 에 대한 generation of heat\" is 선택 in 7.30.6, because in this case the \"조직에서 소비한 총 연료량(MWh)\" will be equal to the \"연료(원료용 제외)\". Fuel consumed for heat is fuel that is combusted 에 대한 direct use 의 heat/thermal energy its combustion releases. This heat is used in applications such as direct heating for industrial 프로세스 plant 및 equipment, engines, turbines, furnaces, heaters, stoves, incinerators, kilns, dryers, thermal oxidizers, space heating, open burning, flaring, 또는 하나 이상 other combustion that is not 에 대한 generation of secondary energy carriers (electricity, steam, 및/또는 cooling). Report the fuel energy (i.e. total heat of fuel combustion), not the heat delivered 에 대한 application. This 문항 asks 에 대한 MWh fuel consumed, not the useful energy delivered 에 대한 application. 전력 생산을 위해 소비한 연료량 (MWh) (열 4) Do not include steam generated in co- 또는 tri-generation plants. This 해야 합니다 be 보고 in in 열 \"MWh fuel consumed for self- cogeneration 또는 self-trigeneration\". 열 생산을 위해 소비한 연료량(MWh) (열 5) Do not include cooling generated in co- 또는 tri-generation plants. This 해야 합니다 be 보고 in in 열 \"MWh fuel consumed for self- cogeneration 또는 self-trigeneration\". 냉방 생산을 위해 소비한 연료량(MWh) (열 7) (optional) You may 냉방 생산을 위해 소비한 연료량(MWh) on the specific fuels consumed in each 행, 또는 provide additional information on the methods 또는 assumptions used to determine the breakdown of fuel consumed. 만약 you report information in the \"Sustainable biomass\" 행, provide the criteria used to classify the biomass as sustainable (e.g. certification)."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Biomass:  any organic matter, i.e. biological material, available on a renewable basis. Includes feedstock derived from animals or plants, such as wood and agricultural crops, and organic waste from municipal and industrial sources. Biomass fuels should be sustainably sourced and certified where possible, and include: \nSolid biofuels - solid fuels derived from biomass. Includes feedstock derived from animals or plants, such as wood and agricultural crops, and organic waste from municipal and industrial sources. \nBiogas - a mixture of methane (CH4) and carbon dioxide (CO2) used as fuel and produced by bacterial degradation of organic matter or through gasification of biomass. \nLiquid biofuels - liquid fuels derived from biomass such as ethanol and biodiesel.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Biomass: 하나 이상 organic matter, i.e. biological material, available on a renewable basis. Includes feedstock derived from animals 또는 plants, such as wood 및 agricultural crops, 및 organic waste from municipal 및 industrial sources. Biomass fuels 해야 합니다 be sustainably sourced 및 certified 여기서 possible, 및 include: Solid biofuels - solid fuels derived from biomass. Includes feedstock derived from animals 또는 plants, such as wood 및 agricultural crops, 및 organic waste from municipal 및 industrial sources. Biogas - a mixture of methane (CH4) 및 carbon dioxide (CO2) used as fuel 및 produced by bacterial degradation of organic matter 또는 through gasification of biomass. Liquid biofuels - liquid fuels derived from biomass such as ethanol 및 biodiesel."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0 or 1/1 or 3",
+      "M": "0.25/0.25",
+      "L": "0.25/0.25",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 25% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 25% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 50% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 50% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "This question is not scored, as it is not displayed for this sector.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "This question is not scored, as it is not displayed for this sector.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "This question is not scored, as it is not displayed for this sector.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "This question is not scored, as it is not displayed for this sector.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not Scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not Scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not Scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not Scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFigure provided in column 'Total fuel MWh consumed by the organization' in row 'Total fuel' is NOT equal to the figure provided in column 'Total (renewable and non-renewable) MWh' in row 'Consumption of fuel (excluding feedstock)' in question 7.30.1 (± 5%) - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Figure 입력 in 열 '연료(원료용 제외)' in 행 'Total fuel' is NOT equal to the figure 입력 in 열 'Total (renewable 및 non-renewable) MWh' in 행 'Consumption of fuel (제외 feedstock)' in 문항 7.30.1 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 10% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nSum of figures provided in column 'Total fuel MWh consumed by the organization' in both rows 'Sustainable biomass' AND 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% or more of column 'Total fuel MWh consumed by the organization' in row 'Total fuel' - 0.25 points\nA maximum of 0.25/0.25 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. Sum of figures 입력 in 열 '연료(원료용 제외)' in both 행 'Sustainable biomass' 그리고 'Other renewable fuels (e.g. renewable hydrogen)' accounts for 30% 또는 more of 열 '연료(원료용 제외)' in 행 'Total fuel' - 0.25 점 A 최고 of 0.25/0.25 점 is available for this 문항."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "귀사가 연료 유형별로 소비한 연료 ( 공급 원료 제외 ) 의 양 (MWh) 을 기재하십시오 . ` M7. Environmental Performance - Climate Change 활동 발열량 전체 연료 소비 자가 전기 발전 자가 열 발전 자가 스팀 발전 자가 냉각 발전 자가 열병합 또는 삼중 발전 관련 설명 지속가능한 바이오매스 LHV( 낮은 발열량 ) HHV( 높은 발열량 ) 발열량 확인 불가 각 항목마다 최대 2,400 자로 작성 기타 바이오매스 기타 재생가능한 연료 ( 재생 수소 ) 석탄 석유 천연가스 기타 재생 불가능한 연료 ( 재생 불가능 수소 ) 전체 연료 소비량",
+    "q2025": "Q7.30.7",
+    "q2025_text": "State how much fuel in MWh your organization has consumed (excluding feedstocks) by fuel type.",
+    "change_status": "Modified question",
+    "detail_change_types": "New guidance",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": true,
+    "changed_scoring": false,
+    "change_summary": "General guidance added that heating value should be consistent with heating value reported in 7.30.1.",
+    "scoring_change_summary": "",
+    "daml_summary": "General: D 4/4 | A 0 or 1/1 or 3 | M 0.25/0.25 | L 0.25/0.25",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 수정",
+    "detail_change_typesKo": "신규 가이던스",
+    "change_summaryKo": "일반 guidance added that heating value 해야 합니다 be consistent with heating value 보고 in 7.30.1.",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "일반: D 4/4 | A 0 또는 1/1 또는 3 | M 0.25/0.25 | L 0.25/0.25",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "how much fuel in MWh 귀사 has consumed (제외 feedstocks) by fuel type.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "4/4",
+    "A": "0 or 1/1 or 3",
+    "M": "0.25/0.25",
+    "L": "0.25/0.25"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "Scope 1 온실가스 배출량 are directly associated with the consumption of fuel for energy purposes. This 문항 provides 데이터 사용자 with more transparency regarding the type of fuel an organization has consumed. Total consumption of fuels 및 their consumption for different energy applications also provides insight on the way in which fuels are used by the organization, which can allow for a fairer 및 more consistent understanding of corporate energy 및 emissions from 데이터 사용자.",
+  "popupHelpKo": "1 Giga-Joule (GJ) = 0.277778 MWh",
+  "baseOptionsKo": []
+}

@@ -1,0 +1,250 @@
+{
+  "code": "7.41",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Report your organization's steel-related consumption, production and capacity figures by steel plant.",
+  "questionKo": "Report 귀사의 steel-related consumption, production 및 capacity figures by steel plant.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Steel",
+  "simpleHelp": "The steel sector is structured around primary and secondary production of steel. Each production route has very different implications from the perspective of raw material and energy needs, greenhouse gas emissions, and technological and market risks and opportunities. It is therefore important for organizations to provide transparency on their operational structure. The most commonly used steel furnace in the primary route is the basic oxygen furnace, while the electric arc furnace is the most common steel furnace used in secondary production. Because the relative proportion of scrap and new iron charged to each steel furnace can vary, it is important to know the mix of metallic feedstocks consumed by steel furnace, as well as the steel furnace production output.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Basic oxygen furnace",
+      "titleKo": "Basic oxygen furnace"
+    },
+    {
+      "order": 2,
+      "title": "Electric arc furnace",
+      "titleKo": "Electric arc furnace"
+    },
+    {
+      "order": 3,
+      "title": "Other",
+      "titleKo": "기타"
+    },
+    {
+      "order": 4,
+      "title": "Total",
+      "titleKo": "Total"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.41.1",
+      "text": "Metal scrap consumption (metric tons)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Metal scrap consumption (metric tons)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.41.2",
+      "text": "Blast furnace iron consumption (metric tons)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Blast furnace iron consumption (metric tons)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.41.3",
+      "text": "Direct reduced iron consumption (metric tons)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Direct reduced iron consumption (metric tons)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.41.4",
+      "text": "Crude steel production (metric tons)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Crude steel production (metric tons)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.41.5",
+      "text": "Crude steel capacity (metric tons)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Crude steel capacity (metric tons)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nComplete the table for each steel plant process listed in column 1. The steel plants presented depend on the selection made in 1.20 and in some instances only the row \"Total\" will appear. \nYour consumption figures should be for the reporting year only (as defined by your answer to 1.4). \nNegative numbers are not allowed. \nIf you are presented with the row \"Other\", use it to provide data for processes other than Basic oxygen furnace or Electric arc furnace. You can use the comment box to specify the data you are reporting. \nEnter 0 (zero) if you have no activity or capacity in the relevant field. \nYou are not required to enter amounts of other metallic additives, i.e. for alloying purposes. \nMetal scrap consumption (metric tons) (column 2) \nEnter the total metal scrap consumption in metric tons for the steel plant listed in column 1. \nBlast furnace iron consumption (metric tons) (column 3) \nEnter the blast furnace iron (often described as \"pig iron\") consumption in metric tons for the steel plant process listed in column 1. \nThis is the total of \"hot metal\" and cold iron, purchased or produced inside the organization; total consumption of blast furnace iron should be entered. \nDirect reduced iron consumption (metric tons) (column 4) \nEnter the direct reduced iron (DRI), also known as \"sponge iron\", consumption in metric tons for the steel plant process listed in column 1. \nAll forms of direct reduced iron, hot or cold, purchased or produced inside the organization, should be included. \nCrude steel production (metric tons) (column 5) \nEnter the crude steel production in metric tons for the steel plant process listed in column 1. \nThough the immediate output of the steel furnace is liquid steel, crude steel production is requested here. Crude steel is the first solid state of steel after melting and is synonymous with \"raw steel\". Crude steel includes numerous forms, such as slabs, billets, blooms, ingots, and direct steel castings. \nCrude steel capacity (metric tons) (column 6) \nEnter the crude steel capacity in metric tons for the steel plant process listed in column 1.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Complete the table for each steel plant 프로세스 listed in 열 1. The steel plants presented depend on the selection made in 1.20 및 in some instances only the 행 \"Total\" will appear. Your consumption figures 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). Negative numbers are not allowed. 만약 you are presented with the 행 \"기타\", use it to provide data for 프로세스es 기타 than Basic oxygen furnace 또는 Electric arc furnace. You can use the comment box to specify the data you are reporting. Enter 0 (zero) 만약 you have no activity 또는 capacity in the relevant field. You are not required to enter amounts of 기타 metallic additives, i.e. for alloying purposes. Metal scrap consumption (metric tons) (열 2) Enter the total metal scrap consumption in metric tons 에 대한 steel plant listed in 열 1. Blast furnace iron consumption (metric tons) (열 3) Enter the blast furnace iron (often 설명d as \"pig iron\") consumption in metric tons 에 대한 steel plant 프로세스 listed in 열 1. This is the total of \"hot metal\" 및 cold iron, purchased 또는 produced inside the organization; total consumption of blast furnace iron 해야 합니다 be entered. Direct reduced iron consumption (metric tons) (열 4) Enter the direct reduced iron (DRI), also known as \"sponge iron\", consumption in metric tons 에 대한 steel plant 프로세스 listed in 열 1. All forms of direct reduced iron, hot 또는 cold, purchased 또는 produced inside the organization, 해야 합니다 be included. Crude steel production (metric tons) (열 5) Enter the crude steel production in metric tons 에 대한 steel plant 프로세스 listed in 열 1. Though the immediate output 의 steel furnace is liquid steel, crude steel production is requested here. Crude steel is the first solid state of steel after melting 및 is synonymous with \"raw steel\". Crude steel includes numerous forms, such as slabs, billets, blooms, ingots, 및 direct steel castings. Crude steel capacity (metric tons) (열 6) Enter the crude steel capacity in metric tons 에 대한 steel plant 프로세스 listed in 열 1."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed (excluding row 'Other'). Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 행 '기타'). 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed excluding row 'Other' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 제외 행 '기타' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Report your organization's steel-related consumption, production and capacity figures by steel plant.",
+    "q2025": "Q7.41",
+    "q2025_text": "Report your organization's steel-related consumption, production and capacity figures by steel plant.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Steel: D 6/6 | A 1/1 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Steel: D 6/6 | A 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "Report 귀사의 steel-related consumption, production 및 capacity figures by steel plant."
+  },
+  "defaultPoints": {
+    "D": "6/6",
+    "A": "1/1",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "철강",
+  "simpleHelpKo": "The steel sector is structured around primary 및 secondary production of steel. Each production 경로 has very different implications from the perspective of raw material 및 energy needs, 온실가스 배출량, 및 technological 및 market 리스크 및 기회. It is therefore important for organizations to provide transparency on their operational structure. The most commonly used steel furnace in the primary 경로 is the basic oxygen furnace, while the electric arc furnace is the most common steel furnace used in secondary production. Because the relative proportion of scrap 및 new iron charged to each steel furnace can vary, it is important to know the mix of metallic feedstocks consumed by steel furnace, as well as the steel furnace production output.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

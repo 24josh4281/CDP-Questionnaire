@@ -1,0 +1,1137 @@
+{
+  "code": "4.6",
+  "module": "4",
+  "moduleTitle": "Governance",
+  "questionText": "Does your organization have an environmental policy that addresses environmental issues?",
+  "questionKo": "조직 내에 환경이슈를 다루는 환경 정책이 있습니까 ?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Ocean, Biodiversity, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Biodiversity - Mines, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "An environmental policy is a key governance tool which serves as a foundation to drive action while ensuring accountability. Setting a corporate environmental policy for environmental issues indicates that the organization understands their importance and recognizes its responsibility in taking environmental action. \nTherefore, data users wish to know that organizations have articulated and documented a policy that acknowledges the organization's dependencies, impacts, risks, and opportunities associated with environmental issues, and have clear intentions and direction for action. For accountability to the organization's stakeholders, the policy should be publicly available.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Response row",
+      "titleKo": "응답 행"
+    }
+  ],
+  "columns": [
+    {
+      "code": "4.6.1",
+      "text": "Does your organization have any environmental policies?",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No, but we plan to within the next two years",
+        "No, and we do not plan to within the next two years"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "귀사는 하나 이상 environmental policies을/를 보유하고 있습니까?",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "No, but we plan to within the next two years",
+        "No, 및 we do not plan to within the next two years"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.6.2",
+      "text": "Primary reason for not having an environmental policy",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Lack of internal resources, capabilities, or expertise (e.g., due to organization size)",
+        "No standardized procedure",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant or not relevant",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "주된 이유 for not having an environmental 정책",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Lack of internal resources, capabilities, 또는 expertise (e.g., due to organization size)",
+        "No standardized 절차",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant 또는 not relevant",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.6.3",
+      "text": "Explain why you do not have an environmental policy",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "그 이유를 설명 you do not have an environmental 정책",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "Does your organization have any environmental policies? (column 1) \nSelect \"Yes\" if your organization addresses environmental issues anywhere within your policy framework. It may be a stand-alone policy document (regardless of the title), or another equivalent set of documents that includes policies addressing environmental issues relevant to your organization. For example, some organizations may have an overarching ‘environmental' or ‘sustainability policy', while others may have policies specific to particular environmental issues, e.g., ‘forests policy'.\nExplain why you do not have an environmental policy (column 2) \nThis column is only presented if you select either of the \"No\" options in column 1 \"Does your organization have any environmental policies?\".\nBriefly explain the primary reason selected in column 2 \"Primary reason for not having an environmental policy\", including any plans to address this in the future.",
+      "typeKo": "요청 내용",
+      "textKo": "Does 귀사 have 하나 이상 environmental policies? (열 1) Select \"예\" 만약 귀사 addresses environmental issues anywhere within your 정책 프레임워크. It may be a stand-alone 정책 document (regardless 의 title), 또는 another equivalent set of documents that includes policies addressing environmental issues relevant to 귀사. For example, some organizations may have an overarching ‘environmental' 또는 ‘sustainability 정책', while others may have policies specific to particular environmental issues, e.g., ‘forests 정책'. 그 이유를 설명 you do not have an environmental 정책 (열 2) This 열 is only presented 만약 you select either 의 \"No\" options in 열 1 \"Does 귀사 have 하나 이상 environmental policies?\". Briefly explain the 주된 이유 선택 in 열 2 \"주된 이유 for not having an environmental 정책\", 포함 하나 이상 plans to address this in the future."
+    },
+    {
+      "type": "Ambition",
+      "text": "The organization has publicly available policies which address environmental dependencies, impacts, risks, and opportunities related to the organization and its value chain.",
+      "typeKo": "Ambition",
+      "textKo": "The organization has publicly available policies which address 환경 의존성, 임팩트, 리스크 및 기회 related to the organization 및 its 가치사슬."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Environmental policy: a statement or framework of statements which outlines and communicates the intentions and direction of an organization related to environmental performance, as formally expressed by senior management (adapted from ISO 14001:2015 ).",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Environmental 정책: a statement 또는 framework of statements which outlines 및 communicates the intentions 및 direction of an organization related to environmental performance, as formally expressed by 고위 경영진 (adapted from ISO 14001:2015 )."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "1/1",
+      "A": "0, 0.5 or 1/1",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 1/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Does your organization have any environmental policies?' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\n'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Does your organization have any environmental policies?' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'No, but we plan to within the next two years' OR 'No, and we do not plan to within the next two years' selected in column 'Does your organization have any environmental policies? - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies?' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'No, but we plan to within the next two years' 또는 'No, 및 we do not plan to within the next two years' 선택 in 열 'Does 귀사 have 하나 이상 environmental policies? - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Does your organization have any environmental policies?' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Does your organization have any environmental policies?' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Does 귀사 have 하나 이상 environmental policies?' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Does 귀사 have 하나 이상 environmental policies?' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "조직 내에 환경이슈를 다루는 환경 정책이 있습니까 ? M4. Governance 1 2 3 환경이슈를 다루는 환경 정책 유무 환경 정책이 없는 주된 이유 환경 정책이 없는 이유 설명 선택 항목: 예 아니요, 하지만 향후 2년 내에 구성할 계획 아니요, 향후 2년 안에 구성할 계획 없음 선택 항목: 내부 자원, 역량 또는 전문성 부족(예: 조직 규모에 따라 다름) 표준화된 절차 부재 전략적 최우선 순위가 아님 중요하지 않거나 관련 없다고 판단함 기타, 직접 입력 텍스트 입력 [최대 2,500자]",
+    "q2025": "Q4.6",
+    "q2025_text": "Does your organization have an environmental policy that addresses environmental issues?",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "General: D 1/1 | A 0, 0.5 or 1/1 | M 0 or 1/1 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "일반: D 1/1 | A 0, 0.5 또는 1/1 | M 0 또는 1/1 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "귀사는 an environmental 정책 that addresses environmental issues을/를 보유하고 있습니까?"
+  },
+  "defaultPoints": {
+    "D": "1/1",
+    "A": "0, 0.5 or 1/1",
+    "M": "0 or 1/1",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "지배구조",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 해양, 생물다양성, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, Biodiversity - Mines, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "An environmental 정책 is a key governance tool which serves as a foundation to drive action while ensuring accountability. Setting a corporate environmental 정책 for environmental issues indicates that the organization understands their importance 및 recognizes its responsibility in taking environmental action. Therefore, 데이터 사용자 wish to know that organizations have articulated 및 documented a 정책 that acknowledges the 조직의 dependencies, impacts, risks, 및 opportunities associated with environmental issues, 및 have clear intentions 및 direction for action. For accountability to the 조직의 stakeholders, the 정책 해야 합니다 be publicly available.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

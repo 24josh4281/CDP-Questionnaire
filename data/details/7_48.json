@@ -1,0 +1,314 @@
+{
+  "code": "7.48",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Provide the intensity figures for Scope 1 emissions (metric tons CO2e) per unit of hydrocarbon category.",
+  "questionKo": "the intensity figures for Scope 1 배출량 (미터톤 CO2e) per unit of hydrocarbon category.을/를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Oil & Gas",
+  "simpleHelp": "Intensity measures describe an organization's CO2e emissions in the context of another business metric. In this way, the emissions are normalized to account for growth. Data users and investors often track environmental performance with intensity ratios.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.48.1",
+      "text": "Unit of hydrocarbon category (denominator)",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Thousand barrels of crude oil/ condensate",
+        "Thousand barrels of natural gas liquids",
+        "Thousand barrels of oil sands (includes bitumen and synthetic crude)",
+        "Million cubic feet of natural gas",
+        "Thousand barrels of refinery throughput",
+        "Thousand barrels of refinery net production",
+        "Thousand metric tons of \"high value chemicals\" (lower olefins)",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Unit of hydrocarbon category (denominator)",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Thousand barrels of crude oil/ condensate",
+        "Thousand barrels of natural gas liquids",
+        "Thousand barrels of oil sands (includes bitumen 및 synthetic crude)",
+        "Million cubic feet of natural gas",
+        "Thousand barrels of refinery throughput",
+        "Thousand barrels of refinery net production",
+        "Thousand metric tons of \"high value chemicals\" (lower olefins)",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.48.2",
+      "text": "Metric tons CO2e from hydrocarbon category per unit specified",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "미터톤 CO2e from hydrocarbon category per unit specified",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.48.3",
+      "text": "% change from previous year",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% change from previous year",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.48.4",
+      "text": "Direction of change",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Increased",
+        "Decreased",
+        "No change"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Direction of change",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Increased",
+        "Decreased",
+        "변경 없음"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.48.5",
+      "text": "Reason for change",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Carbon capture utilization and storage (CCUS)",
+        "Change in boundary",
+        "Change in methodology",
+        "Change in output",
+        "Change in physical operating conditions",
+        "Divestment",
+        "Energy conservation, recovery and efficiency",
+        "Equipment improvements",
+        "Flaring reduction",
+        "Mergers and acquisitions",
+        "Using lower emission fuels",
+        "Venting reduction, leak detection and gas capture",
+        "Other emissions reduction activities, please specify",
+        "Unidentified",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Reason for change",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Carbon capture utilization 및 storage (CCUS)",
+        "Change in boundary",
+        "Change in 방법론",
+        "Change in output",
+        "Change in physical operating conditions",
+        "Divestment",
+        "Energy conservation, recovery 및 efficiency",
+        "Equipment improvements",
+        "Flaring reduction",
+        "Mergers 및 acquisitions",
+        "Using lower emission fuels",
+        "Venting reduction, leak detection 및 gas capture",
+        "Other emissions reduction activities, 직접 입력",
+        "Unidentified",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.48.6",
+      "text": "Please explain",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Please explain",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified question",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified 문항"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General\nIf you select \"Other, please specify,\" provide a label for the Unit of hydrocarbon.\nInclude information on scope 1 only. Do not include scope 2.\nOrganizations operating in the midstream should still give information here based on their chosen metric or use \"Other emission reduction metrics\".\nFor example, an organization could choose \"Thousand barrels of crude oil/ condensate\" and specify in \"Please explain\" this refers to thousands of barrels transported.\nUnit of hydrocarbon category (denominator) (column 1)\nHigh value chemicals (HVCs) include lower olefins such as ethylene, propylene from the pyrolysis gas of steam crackers, benzene (contained amounts, excluding extracted amounts,) butadiene (also contained,) acetylene and hydrogen sold (as fuel).\nMetric tons CO2e from hydrocarbon category per unit specified (column 2)\nScope 1 emissions per unit of hydrocarbon category reported here should be entered in metric tons CO2e per unit specified in column 1.\n% change from previous year (column 3)\nIf you have experienced no change, please enter 0 (zero) in this column.\nIf the previous year's figure has been reported but recalculated since, please use the recalculated figure for the calculation of percentage change and note this in the comment column (column 6). The previous year is the 12-month period directly prior to the reporting period, even if it does not completely overlap with the period previously reported to CDP.\nDirection of change (column 4)\nA declining intensity ratio reflects a positive emissions performance, while an increasing intensity ratio reflects a negative emissions performance.\nIf the percentage change from last year is 0 (zero) select \"No change\".\nReason for change (column 5)\nSelect all applicable reasons behind the change in emissions intensity in the reporting year.\nPlease explain (column 6)\nExplain the primary reasons behind the change and the degree to which different factors have influenced the figures.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 만약 you select \"Other, 직접 입력,\" provide a label 에 대한 Unit of hydrocarbon. Include information on scope 1 only. Do not include scope 2. Organizations operating in the midstream 해야 합니다 still give information here based on their chosen metric 또는 use \"Other emission reduction metrics\". For example, an organization could choose \"Thousand barrels of crude oil/ condensate\" 및 specify in \"Please explain\" this refers to thousands of barrels transported. Unit of hydrocarbon category (denominator) (열 1) High value chemicals (HVCs) include lower olefins such as ethylene, propylene from the pyrolysis gas of steam crackers, benzene (contained amounts, 제외 extracted amounts,) butadiene (also contained,) acetylene 및 hydrogen sold (as fuel). 미터톤 CO2e from hydrocarbon category per unit specified (열 2) Scope 1 배출량 per unit of hydrocarbon category 보고 here 해야 합니다 be entered in 미터톤 CO2e per unit specified in 열 1. % change from previous year (열 3) 만약 you have experienced 변경 없음, please enter 0 (zero) in this 열. 만약 the previous year's figure has been 보고 but recalculated since, please use the recalculated figure 에 대한 calculation of percentage change 및 note this in the comment 열 (열 6). The previous year is the 12-month period directly prior to the reporting period, even 만약 it does not completely overlap with the period previously 보고 to CDP. Direction of change (열 4) A declining intensity ratio reflects a positive emissions performance, while an increasing intensity ratio reflects a negative emissions performance. 만약 the percentage change from last year is 0 (zero) select \"변경 없음\". Reason for change (열 5) Select all 해당되는 경우 reasons behind the change in 배출집약도 in the 보고연도. Please explain (열 6) Explain the 주된 이유s behind the change 및 the degree to which different factors have influenced the figures."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "High value chemicals: High value chemicals (HVCs) produced via steam cracking include ethylene, propylene from the pyrolysis gas of steam crackers, benzene (contained amounts, excluding extracted amounts), butadiene (also contained), acetylene, and hydrogen sold (as fuel).",
+      "typeKo": "Explanation of Terms",
+      "textKo": "High value chemicals: High value chemicals (HVCs) produced via steam cracking include ethylene, propylene from the pyrolysis gas of steam crackers, benzene (contained amounts, 제외 extracted amounts), butadiene (also contained), acetylene, 및 hydrogen sold (as fuel)."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n‘Increased' OR ‘Decreased' selected in column ‘Direction of change' AND any option excluding ‘Unidentified' selected in column ‘Reason for change' AND\nTable completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n‘No change' selected in column ‘Direction of change' AND Table completed - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) ‘Increased' 또는 ‘Decreased' 선택 in 열 ‘Direction of change' 그리고 하나 이상 option 제외 ‘Unidentified' 선택 in 열 ‘Reason for change' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘변경 없음' 선택 in 열 ‘Direction of change' 그리고 Table 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nAll of the following met - 1 point\n'Decreased' selected in column 'Direction of change' AND\nAny of the following selected in column ‘Reason for change':\n- 'Using lower emission fuels'\n- 'Venting reduction, leak detection and gas capture'\n- 'Flaring reduction'\n- 'Energy conservation, recovery and efficiency'\n- 'Equipment improvements'\n- 'Carbon capture utilization and storage (CCUS)'\n- 'Other emissions reduction activities, please specify'\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. All 의 following met - 1 점 'Decreased' 선택 in 열 'Direction of change' 그리고 하나 이상 의 following 선택 in 열 ‘Reason for change': - 'Using lower emission fuels' - 'Venting reduction, leak detection 및 gas capture' - 'Flaring reduction' - 'Energy conservation, recovery 및 efficiency' - 'Equipment improvements' - 'Carbon capture utilization 및 storage (CCUS)' - 'Other emissions reduction activities, 직접 입력' 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Provide the intensity figures for Scope 1 emissions (metric tons CO2e) per unit of hydrocarbon category.",
+    "q2025": "Q7.48",
+    "q2025_text": "Provide the intensity figures for Scope 1 emissions (metric tons CO2e) per unit of hydrocarbon category.",
+    "change_status": "Modified question",
+    "detail_change_types": "New guidance, Change column type, Modified column header, New guidance",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": false,
+    "changed_guidance": true,
+    "changed_scoring": true,
+    "change_summary": "Added guidance to clarify that only scope 1 should be included and not to include scope 2 and to clarify how organizations operating in the modstream should report.\nColumn 'Reason for change' now has a list of dropdown options.\nColumn header updated from 'Comment' to 'Please explain' and added guidance specifying what to report.",
+    "scoring_change_summary": "CC Oil and Gas Awareness • ROUTE A added with checks on column ‘Direction of change' and column ‘Reason for change'. • ROUTE B added for organizations who indicate ‘No change'. Column ‘Reason for change' changed from open text to drop down options. Scoring has been updated to account for this change in structure.\nCC Oil and Gas Management • Scoring added based on the selections in column ‘Reason for change'. Column ‘Reason for change' changed from open text to drop down options. Scoring has been updated to account for this change in structure.",
+    "daml_summary": "Oil & Gas: D 5/5 | A 1/1 | M 1/1 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 수정",
+    "detail_change_typesKo": "신규 가이던스, 열 입력 유형 변경, 열 제목 수정, 신규 가이던스",
+    "change_summaryKo": "Added guidance to clarify that only scope 1 해야 합니다 be included 및 not to include scope 2 및 to clarify how organizations operating in the modstream 해야 합니다 report. 열 'Reason for change' now has a list of dropdown options. 열 header updated from 'Comment' to 'Please explain' 및 added guidance specifying what to report.",
+    "scoring_change_summaryKo": "CC Oil 및 Gas Awareness • 경로 A added with checks on 열 ‘Direction of change' 및 열 ‘Reason for change'. • 경로 B added for organizations who indicate ‘변경 없음'. 열 ‘Reason for change' changed from open text to drop down options. Scoring has been updated to account for this change in structure. CC Oil 및 Gas Management • Scoring added based on the selections in 열 ‘Reason for change'. 열 ‘Reason for change' changed from open text to drop down options. Scoring has been updated to account for this change in structure.",
+    "daml_summaryKo": "Oil & Gas: D 5/5 | A 1/1 | M 1/1 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "the intensity figures for Scope 1 배출량 (미터톤 CO2e) per unit of hydrocarbon category.을/를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "5/5",
+    "A": "1/1",
+    "M": "1/1",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "석유 및 가스",
+  "simpleHelpKo": "Intensity measures 설명 an 조직의 CO2e emissions in the context of another business metric. In this way, the emissions are normalized to account for g행th. 데이터 사용자 및 investors often track environmental performance with intensity ratios.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

@@ -1,0 +1,307 @@
+{
+  "code": "5.6",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Break down, by fossil fuel expansion activity, your organization's CAPEX in the reporting year and CAPEX planned over the next 5 years.",
+  "questionKo": "귀사의 자본지출(CAPEX) in the 보고연도 및 자본지출(CAPEX) planned over the next 5 years.을/를 화석연료 확장 활동별로 세분화하여 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Oil & Gas, Coal",
+  "simpleHelp": "This question captures data on current and future CAPEX on exploration or new development activities for these fossil fuels. Data users wish to understand whether organizations are investing in the exploration/expansion of new fossil fuel resources. Under the IEA NZE scenario, the key policy assumptions state that no new oil and gas field exploration should occur after 2021 and no new coal mines or coal mine extensions should be approved for development after 2021.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Exploration of new oil fields",
+      "titleKo": "Exploration of new oil fields"
+    },
+    {
+      "order": 2,
+      "title": "Exploration of new natural gas fields",
+      "titleKo": "Exploration of new natural gas fields"
+    },
+    {
+      "order": 3,
+      "title": "Expansion of existing oil fields",
+      "titleKo": "Expansion of existing oil fields"
+    },
+    {
+      "order": 4,
+      "title": "Expansion of existing natural gas fields",
+      "titleKo": "Expansion of existing natural gas fields"
+    },
+    {
+      "order": 5,
+      "title": "Development of new coal mines",
+      "titleKo": "Development of new coal mines"
+    },
+    {
+      "order": 6,
+      "title": "Expansion of existing coal mines",
+      "titleKo": "Expansion of existing coal mines"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.6.1",
+      "text": "CAPEX in the reporting year for this expansion activity (unit currency as selected in 1.2)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "자본지출(CAPEX) in the 보고연도 for this expansion activity (unit currency as 선택 in 1.2)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.6.2",
+      "text": "CAPEX in the reporting year for this expansion activity as % of total CAPEX in the reporting year",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "자본지출(CAPEX) in the 보고연도 for this expansion activity as % of total 자본지출(CAPEX) in the 보고연도",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.6.3",
+      "text": "CAPEX planned over the next 5 years for this expansion activity as % of total CAPEX planned over the next 5 years",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "자본지출(CAPEX) planned over the next 5 years for this expansion activity as % of total 자본지출(CAPEX) planned over the next 5 years",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.6.4",
+      "text": "Explain your CAPEX calculations, including any assumptions",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Explain your 자본지출(CAPEX) calculations, 포함 하나 이상 assumptions",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nComplete all the cells within the table.\nThis question refers to any fossil fuel exploration, drilling, and front-end engineering, including any fossil fuel contractual agreements (i.e., engineering, procurement, construction, installation, and commissioning) awarded to projects where the final investment decision of the project occurred during or will occur after the reporting year.\nCompanies may exclude from their calculations CAPEX associated with contractual agreements made prior to the reporting year.\nCAPEX in the reporting year for this expansion activity (unit currency as selected in 1.2) (column 1) \nCAPEX figures should be in the currency you selected in 1.2.\nIf there was no CAPEX associated with an expansion activity in the reporting year, enter \"0\" for the corresponding row(s).\nCAPEX figures should be based on your company-wide financial statement for the reporting year, consistent with your organizational boundary as disclosed in 1.5.\nCAPEX in the reporting year for this expansion activity as % of total CAPEX in the reporting year (column 2) \nEnter your organization's CAPEX in the reporting year for the expansion activity (as reported in column 1) as a percentage of your organization's total CAPEX in the reporting year.\nThe sum of figures entered in this column for all rows should not exceed 100%.\nIf there was no CAPEX associated with an expansion activity in the reporting year, enter \"0\" for the corresponding row(s).\nCAPEX planned over the next 5 years for this expansion activity as % of total CAPEX planned over the next 5 years (column 3) \nEnter your organization's CAPEX planned for the expansion activity as a percentage of your organization's total CAPEX planned over the next 5 years.\nThe sum of figures entered in this column for all rows should not exceed 100%.\nIf you do not have any CAPEX planned for over the next 5 years for an expansion activity, enter \"0\" for the corresponding row(s).\nIt is acknowledged that the figure entered for this column will be estimates. You may, for example, estimate planned CAPEX for an expansion activity based on your organization's strategy, financial planning, and/or climate transition plan. Assumptions underlying these estimates should be disclosed in column 4.\nNote that \"the next 5 years\" start from the end of the reporting year as reported in 1.4 e.g. if your reporting year in 1.4 is from 01/01/2022 to 31/12/2022, then the next 5 years will be from 01/01/2023 to 31/12/2027.\nExplain your CAPEX calculations, including any assumptions (column 4) \nExplain how you calculated the figure reported in column 2 \"CAPEX in the reporting year for this expansion activity as % of total CAPEX in the reporting year\".\nExplain how you estimated the figure reported in column 4 \"CAPEX planned over the next 5 years for this expansion activity as % of total CAPEX planned over the next 5 years\". Briefly describe any assumptions on which your estimation is based.\nExploration of new oil field [OG only] (Row 1) \nEnter the CAPEX associated with the exploration and construction of new oil fields. This refers to any CAPEX associated with upstream activities (i.e., exploration and surveys, appraisals, field evaluations, infrastructure development, production) on greenfield sites. See Explanation of Terms for more information.\nExploration of new natural gas fields [OG only] (Row 2) \nEnter the CAPEX associated with the exploration and construction of new natural gas fields. This refers to any CAPEX associated with upstream activities (i.e., exploration and surveys, appraisals, field evaluations, infrastructure development, production) on greenfield sites. See Explanation of Terms for more information.\nExpansion of existing oil fields [OG only] (Row 3) \nEnter the CAPEX associated with the expansion/extension of existing oil fields. This refers to any CAPEX associated with restoring or enhancing the operating capacity of a brownfield site for upstream activities, including project phases and expansions of existing fields/sites to increase gross total production beyond the current forecast or that facilitate enhanced recovery/production of existing assets (e.g., additional well tie-ins, injection enhanced recovery). This includes any Phase 2 developments for which there is CAPEX associated in the reporting year or planned for the next five years. See Explanation of Terms for more information.\nExpansion of existing natural gas fields [OG only] (Row 4) \nEnter the CAPEX associated with the expansion/extension of existing natural gas fields. This refers to any CAPEX associated with restoring or enhancing the operating capacity of a brownfield site for upstream activities, including project phases and expansions of existing fields/sites to increase gross total production beyond the current forecast or that facilitate production of existing assets. This includes any Phase 2 developments for which there is CAPEX associated in the reporting year or planned for the next five years. See Explanation of Terms for more information.\nDevelopment of new coal mines [CO only] (Row 5) \nEnter the CAPEX associated with the development of new coal mines (both underground and surface mines) on greenfield sites. See Explanation of Terms for more information.\nExpansion of existing coal mines [CO only] (Row 6) \nEnter the CAPEX associated with the expansion/extension of existing coal mines (both underground and surface mines). This refers to any CAPEX associated with restoring or enhancing the operating capacity of a brownfield site for coal mining activities, including project phases and expansions of existing mines to increase gross total production beyond the current forecast or that facilitate production of existing assets. This includes any Phase 2 developments for which there is CAPEX associated in the reporting year or planned for the next five years. See Explanation of Terms for more information.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Complete all the cells within the table. This 문항 refers to 하나 이상 fossil fuel exploration, drilling, 및 front-end engineering, 포함 하나 이상 fossil fuel contractual agreements (i.e., engineering, procurement, construction, installation, 및 commissioning) awarded to projects 여기서 the final investment decision 의 project occurred during 또는 will occur after the 보고연도. Companies may exclude from their calculations 자본지출(CAPEX) associated with contractual agreements made prior to the 보고연도. 자본지출(CAPEX) in the 보고연도 for this expansion activity (unit currency as 선택 in 1.2) (열 1) 자본지출(CAPEX) figures 해야 합니다 be in the currency you 선택 in 1.2. 만약 there was no 자본지출(CAPEX) associated with an expansion activity in the 보고연도, enter \"0\" 에 대한 corresponding 행(s). 자본지출(CAPEX) figures 해야 합니다 be based on your company-wide financial statement 에 대한 보고연도, consistent with your 조직경계 as 공개 in 1.5. 자본지출(CAPEX) in the 보고연도 for this expansion activity as % of total 자본지출(CAPEX) in the 보고연도 (열 2) Enter 귀사의 자본지출(CAPEX) in the 보고연도 에 대한 expansion activity (as 보고 in 열 1) as a percentage of 귀사의 total 자본지출(CAPEX) in the 보고연도. The sum of figures entered in this 열 for all 행 해야 합니다 not exceed 100%. 만약 there was no 자본지출(CAPEX) associated with an expansion activity in the 보고연도, enter \"0\" 에 대한 corresponding 행(s). 자본지출(CAPEX) planned over the next 5 years for this expansion activity as % of total 자본지출(CAPEX) planned over the next 5 years (열 3) Enter 귀사의 자본지출(CAPEX) planned 에 대한 expansion activity as a percentage of 귀사의 total 자본지출(CAPEX) planned over the next 5 years. The sum of figures entered in this 열 for all 행 해야 합니다 not exceed 100%. 만약 you do not have 하나 이상 자본지출(CAPEX) planned for over the next 5 years for an expansion activity, enter \"0\" 에 대한 corresponding 행(s). It is acknowledged that the figure entered for this 열 will be estimates. You may, for example, estimate planned 자본지출(CAPEX) for an expansion activity based on 귀사의 strategy, 재무계획, 및/또는 기후 전환계획. Assumptions underlying these estimates 해야 합니다 be 공개 in 열 4. Note that \"the next 5 years\" start from the end 의 보고연도 as 보고 in 1.4 e.g. 만약 your 보고연도 in 1.4 is from 01/01/2022 to 31/12/2022, then the next 5 years will be from 01/01/2023 to 31/12/2027. Explain your 자본지출(CAPEX) calculations, 포함 하나 이상 assumptions (열 4) Explain how you calculated the figure 보고 in 열 2 \"자본지출(CAPEX) in the 보고연도 for this expansion activity as % of total 자본지출(CAPEX) in the 보고연도\". Explain how you estimated the figure 보고 in 열 4 \"자본지출(CAPEX) planned over the next 5 years for this expansion activity as % of total 자본지출(CAPEX) planned over the next 5 years\". Briefly 설명 하나 이상 assumptions on which your estimation is based. Exploration of new oil field [OG only] (행 1) Enter the 자본지출(CAPEX) associated with the exploration 및 construction of new oil fields. This refers to 하나 이상 자본지출(CAPEX) associated with upstream activities (i.e., exploration 및 surveys, appraisals, field evaluations, infrastructure development, production) on greenfield sites. See Explanation of Terms for more information. Exploration of new natural gas fields [OG only] (행 2) Enter the 자본지출(CAPEX) associated with the exploration 및 construction of new natural gas fields. This refers to 하나 이상 자본지출(CAPEX) associated with upstream activities (i.e., exploration 및 surveys, appraisals, field evaluations, infrastructure development, production) on greenfield sites. See Explanation of Terms for more information. Expansion of existing oil fields [OG only] (행 3) Enter the 자본지출(CAPEX) associated with the expansion/extension of existing oil fields. This refers to 하나 이상 자본지출(CAPEX) associated with restoring 또는 enhancing the operating capacity of a b행nfield site for upstream activities, 포함 project phases 및 expansions of existing fields/sites to increase gross total production beyond the current forecast 또는 that facilitate enhanced recovery/production of existing assets (e.g., additional well tie-ins, injection enhanced recovery). This includes 하나 이상 Phase 2 developments for which there is 자본지출(CAPEX) associated in the 보고연도 또는 planned 에 대한 next five years. See Explanation of Terms for more information. Expansion of existing natural gas fields [OG only] (행 4) Enter the 자본지출(CAPEX) associated with the expansion/extension of existing natural gas fields. This refers to 하나 이상 자본지출(CAPEX) associated with restoring 또는 enhancing the operating capacity of a b행nfield site for upstream activities, 포함 project phases 및 expansions of existing fields/sites to increase gross total production beyond the current forecast 또는 that facilitate production of existing assets. This includes 하나 이상 Phase 2 developments for which there is 자본지출(CAPEX) associated in the 보고연도 또는 planned 에 대한 next five years. See Explanation of Terms for more information. Development of new coal mines [CO only] (행 5) Enter the 자본지출(CAPEX) associated with the development of new coal mines (both underground 및 surface mines) on greenfield sites. See Explanation of Terms for more information. Expansion of existing coal mines [CO only] (행 6) Enter the 자본지출(CAPEX) associated with the expansion/extension of existing coal mines (both underground 및 surface mines). This refers to 하나 이상 자본지출(CAPEX) associated with restoring 또는 enhancing the operating capacity of a b행nfield site for coal mining activities, 포함 project phases 및 expansions of existing mines to increase gross total production beyond the current forecast 또는 that facilitate production of existing assets. This includes 하나 이상 Phase 2 developments for which there is 자본지출(CAPEX) associated in the 보고연도 또는 planned 에 대한 next five years. See Explanation of Terms for more information."
+    },
+    {
+      "type": "Ambition",
+      "text": "There is no exploration of new oil & gas fields and no new coal mines/extensions from 2021 onwards.",
+      "typeKo": "Ambition",
+      "textKo": "There is no exploration of new oil & gas fields 및 no new coal mines/extensions from 2021 onwards."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Capital expenditure (CAPEX): a measure of the value of purchases of fixed assets such as property, buildings, an industrial plant, technology, or equipment. Put differently, CapEx is any type of expense that an organization capitalizes, or shows on its balance sheet as an investment, rather than on its income statement as an expenditure.\nGreenfield site: A site which has not been developed and the infrastructure required for a project is not provided.\nBrownfield site: A site where some work has been done. For example, the site has been partially developed with necessary infrastructure, has matured to a production site, or has progressed to a stage of declining production.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "자본지출 (자본지출(CAPEX)): a measure 의 value of purchases of fixed assets such as property, buildings, an industrial plant, technology, 또는 equipment. Put differently, 자본지출(CAPEX) is 하나 이상 type of expense that an organization capitalizes, 또는 shows on its balance sheet as an investment, rather than on its income statement as an expenditure. Greenfield site: A site which has not been developed 및 the infrastructure required for a project is not 입력. B행nfield site: A site 여기서 some work has been done. For example, the site has been partially developed with necessary infrastructure, has matured to a production site, 또는 has progressed to a stage of declining production."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "All of the following met in both rows 'Development of new coal mines' AND 'Expansion of existing coal mines' - 2 points\nFigure of 0 provided in column 'CAPEX in the reporting year for this expansion activity (unit currency as selected in 1.2)' AND\nFigure of 0 provided in column 'CAPEX in the reporting year for this expansion activity as % of total CAPEX in the reporting year' AND\nFigure of 0 provided in column 'CAPEX planned over the next 5 years for this expansion activity as % of total CAPEX planned over the next 5 years'.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "All 의 following met in both 행 'Development of new coal mines' 그리고 'Expansion of existing coal mines' - 2 점 Figure of 0 입력 in 열 '자본지출(CAPEX) in the 보고연도 for this expansion activity (unit currency as 선택 in 1.2)' 그리고 Figure of 0 입력 in 열 '자본지출(CAPEX) in the 보고연도 for this expansion activity as % of total 자본지출(CAPEX) in the 보고연도' 그리고 Figure of 0 입력 in 열 '자본지출(CAPEX) planned over the next 5 years for this expansion activity as % of total 자본지출(CAPEX) planned over the next 5 years'. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 4/4 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "All of the following met in both rows 'Exploration of new oil fields' AND 'Exploration of new natural gas fields' - 2 points\nFigure of 0 provided in column 'CAPEX in the reporting year for this expansion activity (unit currency as selected in 1.2)' AND\nFigure of 0 provided in column 'CAPEX in the reporting year for this expansion activity as % of total CAPEX in the reporting year' AND\nFigure of 0 provided in column 'CAPEX planned over the next 5 years for this expansion activity as % of total CAPEX planned over the next 5 years'.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "All 의 following met in both 행 'Exploration of new oil fields' 그리고 'Exploration of new natural gas fields' - 2 점 Figure of 0 입력 in 열 '자본지출(CAPEX) in the 보고연도 for this expansion activity (unit currency as 선택 in 1.2)' 그리고 Figure of 0 입력 in 열 '자본지출(CAPEX) in the 보고연도 for this expansion activity as % of total 자본지출(CAPEX) in the 보고연도' 그리고 Figure of 0 입력 in 열 '자본지출(CAPEX) planned over the next 5 years for this expansion activity as % of total 자본지출(CAPEX) planned over the next 5 years'. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nThe following is met in both rows 'Expansion of existing oil fields' AND 'Expansion of existing natural gas fields' - 1 point\nFigure provided in column 'CAPEX planned over the next 5 years...' is less than figure provided in column 'CAPEX in the reporting year for this expansion activity as % of total CAPEX in the reporting year'\nOR\nFigure of 0 provided in column 'CAPEX in the reporting year for this expansion activity (unit currency as selected in 1.2)' AND\nFigure of 0 provided in column 'CAPEX in the reporting year for this expansion activity as % of total CAPEX in the reporting year' AND\nFigure of 0 provided in column 'CAPEX planned over the next 5 years for this expansion activity as % of total CAPEX planned over the next 5 years'.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. The following is met in both 행 'Expansion of existing oil fields' 그리고 'Expansion of existing natural gas fields' - 1 점 Figure 입력 in 열 '자본지출(CAPEX) planned over the next 5 years...' is 미만 figure 입력 in 열 '자본지출(CAPEX) in the 보고연도 for this expansion activity as % of total 자본지출(CAPEX) in the 보고연도' 또는 Figure of 0 입력 in 열 '자본지출(CAPEX) in the 보고연도 for this expansion activity (unit currency as 선택 in 1.2)' 그리고 Figure of 0 입력 in 열 '자본지출(CAPEX) in the 보고연도 for this expansion activity as % of total 자본지출(CAPEX) in the 보고연도' 그리고 Figure of 0 입력 in 열 '자본지출(CAPEX) planned over the next 5 years for this expansion activity as % of total 자본지출(CAPEX) planned over the next 5 years'. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Break down, by fossil fuel expansion activity, your organization's CAPEX in the reporting year and CAPEX planned over the next 5 years.",
+    "q2025": "Q5.6",
+    "q2025_text": "Break down, by fossil fuel expansion activity, your organization's CAPEX in the reporting year and CAPEX planned over the next 5 years.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Coal: D 4/4 | A 2/2 | M 0/0 | L 0/0\nOil & Gas: D 4/4 | A 2/2 | M 1/1 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Coal: D 4/4 | A 2/2 | M 0/0 | L 0/0 Oil & Gas: D 4/4 | A 2/2 | M 1/1 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "귀사의 자본지출(CAPEX) in the 보고연도 및 자본지출(CAPEX) planned over the next 5 years.을/를 화석연료 확장 활동별로 세분화하여 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "4/4",
+    "A": "2/2",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "석유 및 가스, 석탄",
+  "simpleHelpKo": "This 문항 captures data on current 및 future 자본지출(CAPEX) on exploration 또는 new development activities 에 대한se fossil fuels. 데이터 사용자 wish to understand whether organizations are investing in the exploration/expansion of new fossil fuel resources. Under the IEA NZE scenario, the key 정책 assumptions state that no new oil 및 gas field exploration 해야 합니다 occur after 2021 및 no new coal mines 또는 coal mine extensions 해야 합니다 be approved for development after 2021.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

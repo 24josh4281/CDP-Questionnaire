@@ -1,0 +1,371 @@
+{
+  "code": "12.1.2",
+  "module": "12",
+  "moduleTitle": "Environmental performance - Financial services",
+  "questionText": "Disclose or restate your financed emissions for previous years.",
+  "questionKo": "Disclose 또는 restate your financed emissions for previous years.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Financial services",
+  "simpleHelp": "A prerequisite for a meaningful emissions data comparison is a consistent dataset over time. This question enables organizations to restate portfolio emissions data previously supplied to CDP, for example to ensure that their historical data reflects their current organizational boundary. It also allows first-time responders to provide portfolio emissions data for the five years prior to the reporting year.",
+  "popupHelp": "The end date for \"Past year 1/2/3/4/5\" must be at least 365 days before the end date of the \"Reporting Year\"/\"Past Year 1/2/3/4/5\".",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Past year 1 for Banking (Bank)",
+      "titleKo": "Past year 1 for Banking (Bank)"
+    },
+    {
+      "order": 2,
+      "title": "Past year 1 for Investing (Asset manager)",
+      "titleKo": "Past year 1 for Investing (Asset manager)"
+    },
+    {
+      "order": 3,
+      "title": "Past year 1 for Investing (Asset owner)",
+      "titleKo": "Past year 1 for Investing (Asset owner)"
+    },
+    {
+      "order": 4,
+      "title": "Past year 1 for Insurance underwriting (Insurance company)",
+      "titleKo": "Past year 1 for Insurance underwriting (Insurance company)"
+    },
+    {
+      "order": 5,
+      "title": "Past year 2 for Banking (Bank)",
+      "titleKo": "Past year 2 for Banking (Bank)"
+    },
+    {
+      "order": 6,
+      "title": "Past year 2 for Investing (Asset manager)",
+      "titleKo": "Past year 2 for Investing (Asset manager)"
+    },
+    {
+      "order": 7,
+      "title": "Past year 2 for Investing (Asset owner)",
+      "titleKo": "Past year 2 for Investing (Asset owner)"
+    },
+    {
+      "order": 8,
+      "title": "Past year 2 for Insurance underwriting (Insurance company)",
+      "titleKo": "Past year 2 for Insurance underwriting (Insurance company)"
+    },
+    {
+      "order": 9,
+      "title": "Past year 3 for Banking (Bank)",
+      "titleKo": "Past year 3 for Banking (Bank)"
+    },
+    {
+      "order": 10,
+      "title": "Past year 3 for Investing (Asset manager)",
+      "titleKo": "Past year 3 for Investing (Asset manager)"
+    },
+    {
+      "order": 11,
+      "title": "Past year 3 for Investing (Asset owner)",
+      "titleKo": "Past year 3 for Investing (Asset owner)"
+    },
+    {
+      "order": 12,
+      "title": "Past year 3 for Insurance underwriting (Insurance company)",
+      "titleKo": "Past year 3 for Insurance underwriting (Insurance company)"
+    },
+    {
+      "order": 13,
+      "title": "Past year 4 for Banking (Bank)",
+      "titleKo": "Past year 4 for Banking (Bank)"
+    },
+    {
+      "order": 14,
+      "title": "Past year 4 for Investing (Asset manager)",
+      "titleKo": "Past year 4 for Investing (Asset manager)"
+    },
+    {
+      "order": 15,
+      "title": "Past year 4 for Investing (Asset owner)",
+      "titleKo": "Past year 4 for Investing (Asset owner)"
+    },
+    {
+      "order": 16,
+      "title": "Past year 4 for Insurance underwriting (Insurance company)",
+      "titleKo": "Past year 4 for Insurance underwriting (Insurance company)"
+    },
+    {
+      "order": 17,
+      "title": "Past year 5 for Banking (Bank)",
+      "titleKo": "Past year 5 for Banking (Bank)"
+    },
+    {
+      "order": 18,
+      "title": "Past year 5 for Investing (Asset manager)",
+      "titleKo": "Past year 5 for Investing (Asset manager)"
+    },
+    {
+      "order": 19,
+      "title": "Past year 5 for Investing (Asset owner)",
+      "titleKo": "Past year 5 for Investing (Asset owner)"
+    },
+    {
+      "order": 20,
+      "title": "Past year 5 for Insurance underwriting (Insurance company)",
+      "titleKo": "Past year 5 for Insurance underwriting (Insurance company)"
+    }
+  ],
+  "columns": [
+    {
+      "code": "12.1.2.1",
+      "text": "End Date",
+      "type": "DATE",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "End Date",
+      "typeKo": "날짜 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "12.1.2.2",
+      "text": "Financed emissions (metric unit tons CO2e) in the reporting year",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "금융배출량 (metric unit tons CO2e) in the 보고연도",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "12.1.2.3",
+      "text": "% of portfolio covered in relation to total portfolio value",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% of 포트폴리오 covered in relation to total 포트폴리오 value",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "12.1.2.4",
+      "text": "% calculated using data obtained from clients/investees",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% calculated using data obtained from 고객/투자대상",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "12.1.2.5",
+      "text": "Emissions calculation methodology",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "The Global GHG Accounting and Reporting Standard for the Financial Industry (PCAF)",
+        "GHG Protocol: A Corporate Accounting and Reporting",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Emissions calculation 방법론",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "The Global GHG Accounting 및 Reporting Standard 에 대한 Financial Industry (PCAF)",
+        "GHG Protocol: A Corporate Accounting 및 Reporting",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "12.1.2.6",
+      "text": "Please explain the details of and assumptions used in your calculation",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Please explain the details of 및 assumptions used in your calculation",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select any response other than \"Not providing past emissions data for Scope 3\" in column 6 \"Number of past reporting years you will be providing Scope 3 emissions data for\" of 1.4, and \"Financed emissions\" in column 2 \"Disclosure metric\" in any row of 12.1.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select 하나 이상 response other than \"Not providing past 배출량 데이터 for Scope 3\" in 열 6 \"Number of past 보고연도s you will be providing Scope 3 배출량 data for\" of 1.4, 및 \"금융배출량\" in 열 2 \"Disclosure metric\" in 하나 이상 행 of 12.1."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nRows appear depending on your selection in column 6 \"Select the number of past reporting years you will be providing Scope 3 emissions data for\" of 1.4 and in columns 2 \"Disclosure metric\" of 12.1. \nEntering zero suggests that you have measured your emissions and that they are equal to zero. \nEnsure that the reporting period represents only one full year that has already passed. Reporting periods should not be in the future. This information is important for others to understand the time dimension of your disclosure. \nNote for first time responders: \nIf you are a first-time responder, please provide your portfolio emissions data for the five years prior to the current reporting year. \nInput portfolio emissions data for the year prior to the current reporting year in the first row and work backwards. \nNote for restatements: \nIf you have chosen to restate your organization's gross global scope 3 emissions data previously supplied to CDP by adding additional reporting years to 1.4, you may restate your Scope 3 Category 15 \"Investments\" emissions, or portfolio emissions, here. \nReporting recalculated figures for these years is optional. \nRestated portfolio emissions data needs to be entered in reverse order i.e. you should work backwards from the most recent reporting year. \nEnd date (column 1) \nThe start date of each past year will be automatically assumed to be exactly 365 days before the listed date. For example, if you enter an end date of 31/12/2023, your start date will be automatically assumed to be 01/01/2023. \nFinanced emissions (metric unit tons CO2e) in the reporting year (column 2) \nEnter the emissions in metric unit tons CO2e, entering numbers only up to 999,999,999,999 without commas and up to three decimal places. \nNegative numbers are not allowed as reporting needs to be gross, not net figures. Emission figures should be for the reporting year only. \nEntering 0 implies that you have measured and calculated emissions from this source and they are equal to zero. \n% of portfolio covered in relation to total portfolio value (column 3) \nEnter the percentage of portfolio value included in the financed emissions calculation to the total portfolio value based on assets value reported in 1.10. \n% calculated using data obtained from clients/investees (column 4) \nThis column is optional. \nSuch data obtained from value chain partners (clients or investees) may take the form of primary activity data or emissions data calculated by value chain partners. More information on this can be found in Chapter 7, Collecting Data, of the GHG Protocol's Corporate Value Chain (Scope 3) Accounting and Reporting Standard . \nEmissions calculation methodology (column 5) \nIf you have used a methodology other than the \" The Global GHG Accounting and Reporting Standard for the Financial Industry \", select \"Other, please specify\" to provide the methodology used. \nPlease explain the details of and assumptions used in your calculation (column 6) \nInclude the following information : \nThe method of allocation the entity used to attribute its share of emissions in relation to the size of its gross exposure; \nThe portfolios and/or asset classes that have been excluded from the calculation and the reasons for excluding them; \nIf a portfolio or an asset class is not fully covered in the calculation, explain the exclusion and the reasons for not covering 100% of it; \nThe scopes considered when measuring emissions associated with assets in your portfolio; \nThe sources of data if primary data was used in calculating portfolio emissions; \nThe approach taken to modelling or estimating emissions when primary data was not used; and \nAny assumptions used in the calculation. \nSee the CDP Technical Note: Portfolio Impact Metrics for Financial Services Sector Companies for further information.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 행 appear depending on your selection in 열 6 \"Select the number of past 보고연도s you will be providing Scope 3 배출량 data for\" of 1.4 및 in 열 2 \"Disclosure metric\" of 12.1. Entering zero suggests that you have measured your emissions 및 that they are equal to zero. Ensure that the reporting period represents only one full year that has already passed. Reporting periods 해야 합니다 not be in the future. This information is important for others to understand the time dimension of your disclosure. Note for first time responders: 만약 you are a first-time responder, please provide your 포트폴리오 배출량 데이터 에 대한 five years prior to the current 보고연도. Input 포트폴리오 배출량 데이터 에 대한 year prior to the current 보고연도 in the first 행 및 work backwards. Note for restatements: 만약 you have chosen to restate 귀사의 전 세계 총 Scope 3 배출량 data previously supplied to CDP by adding additional 보고연도s to 1.4, you may restate your Scope 3 Category 15 \"Investments\" emissions, 또는 포트폴리오 emissions, here. Reporting recalculated figures 에 대한se years is optional. Restated 포트폴리오 배출량 데이터 needs to be entered in reverse order i.e. you 해야 합니다 work backwards from the most recent 보고연도. End date (열 1) The start date of each past year will be automatically assumed to be exactly 365 days before the listed date. For example, 만약 you enter an end date of 31/12/2023, your start date will be automatically assumed to be 01/01/2023. 금융배출량 (metric unit tons CO2e) in the 보고연도 (열 2) Enter the emissions in metric unit tons CO2e, entering numbers only up to 999,999,999,999 without commas 및 up to three decimal places. Negative numbers are not allowed as reporting needs to be gross, not net figures. Emission figures 해야 합니다 be 에 대한 보고연도 only. Entering 0 implies that you have measured 및 calculated emissions from this source 및 they are equal to zero. % of 포트폴리오 covered in relation to total 포트폴리오 value (열 3) Enter the percentage of 포트폴리오 value included in the 금융배출량 calculation to the total 포트폴리오 value based on assets value 보고 in 1.10. % calculated using data obtained from 고객/투자대상 (열 4) This 열 is optional. Such data obtained from 가치사슬 partners (clients 또는 investees) may take the form of primary activity data 또는 배출량 데이터 calculated by 가치사슬 partners. More information on this can be found in Chapter 7, Collecting Data, 의 GHG Protocol's Corporate 가치사슬 (Scope 3) Accounting 및 Reporting Standard . Emissions calculation 방법론 (열 5) 만약 you have used a 방법론 other than the \" The Global GHG Accounting 및 Reporting Standard 에 대한 Financial Industry \", select \"Other, 직접 입력\" to provide the 방법론 used. Please explain the details of 및 assumptions used in your calculation (열 6) Include the following information : The method of allocation the entity used to attribute its share of emissions in relation to the size of its gross exposure; The 포트폴리오s 및/또는 asset classes that have been excluded from the calculation 및 the reasons for 제외 them; 만약 a 포트폴리오 또는 an asset class is not fully covered in the calculation, explain the exclusion 및 the reasons for not covering 100% of it; The scopes considered 경우 measuring emissions associated with assets in your 포트폴리오; The sources of data 만약 primary data was used in calculating 포트폴리오 emissions; The approach taken to modelling 또는 estimating emissions 경우 primary data was not used; 및 하나 이상 assumptions used in the calculation. See the CDP Technical Note: 포트폴리오 Impact Metrics for Financial Services Sector Companies for further information."
+    },
+    {
+      "type": "Ambition",
+      "text": "Financial services companies disclose portfolio emissions from previous years to enable tracking over time and to reflect changes that would otherwise compromise the consistency and relevance of the reported portfolio emissions information.",
+      "typeKo": "Ambition",
+      "textKo": "Financial services companies disclose 포트폴리오 emissions from previous years to enable tracking over time 및 to reflect changes that would otherwise compromise the consistency 및 relevance 의 보고 포트폴리오 emissions information."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Financed emissions: The absolute greenhouse gas emissions associated with a portfolio, expressed in tons CO2e. For financial institutions, the indirect emissions caused by their financing activities are relevant and their emissions inventory would be incomplete without accounting for them. The GHG Protocol classifies these emissions in Scope 3 Category 15 Investments. They are also known as portfolio emissions or financed emissions. Put simply, they are emissions that occur at sources owned or controlled by other companies, but which are made possible because those companies are financed by the lending and investment of financial institutions; and therefore are indirect to the financial institution and should be included in the financial institution's Scope 3 inventory.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "금융배출량: The absolute 온실가스 배출량 associated with a 포트폴리오, expressed in tons CO2e. For financial institutions, the indirect emissions caused by their financing activities are relevant 및 their emissions inventory would be incomplete without accounting 에 대한m. The GHG Protocol classifies these emissions in Scope 3 Category 15 Investments. They are also known as 포트폴리오 emissions 또는 금융배출량. Put simply, they are emissions that occur at sources owned 또는 controlled by other companies, but which are made possible because those companies are financed by the lending 및 investment of financial institutions; 및 therefore are indirect to the financial institution 및 해야 합니다 be included in the financial institution's Scope 3 inventory."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Disclose or restate your financed emissions for previous years.",
+    "q2025": "Q12.1.2",
+    "q2025_text": "Disclose or restate your financed emissions for previous years.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Financial services: D 0/0 | A 0/0 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Financial services: D 0/0 | A 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "Disclose 또는 restate your 금융배출량 for previous years."
+  },
+  "defaultPoints": {
+    "D": "0/0",
+    "A": "0/0",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 금융 서비스",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "금융 서비스",
+  "simpleHelpKo": "A prerequisite for a meaningful 배출량 데이터 comparison is a consistent dataset over time. This 문항 enables organizations to restate 포트폴리오 배출량 데이터 previously supplied to CDP, for example to ensure that their historical data reflects their current 조직경계. It also allows first-time responders to provide 포트폴리오 배출량 데이터 에 대한 five years prior to the 보고연도.",
+  "popupHelpKo": "The end date for \"Past year 1/2/3/4/5\" 해야 합니다 be 최소 365 days before the end date 의 \"보고연도\"/\"Past Year 1/2/3/4/5\".",
+  "baseOptionsKo": []
+}

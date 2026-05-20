@@ -1,0 +1,235 @@
+{
+  "code": "12.2",
+  "module": "12",
+  "moduleTitle": "Environmental performance - Financial services",
+  "questionText": "Are you able to provide a breakdown of your organization's financed emissions and other portfolio carbon footprinting metrics?",
+  "questionKo": "귀사의 금융배출량 및 기타 포트폴리오 탄소발자국 지표에 대한 세부 내역을 제공할 수 있습니까?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Financial services",
+  "simpleHelp": "By breaking down emissions and other carbon footprinting metrics by asset class, industry, and scope, this data can be made available to data users and other stakeholders to help guide the development of portfolio footprinting methodologies, global decarbonization efforts, and regional legislation.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Banking (Bank)",
+      "titleKo": "Banking (Bank)"
+    },
+    {
+      "order": 2,
+      "title": "Investing (Asset manager)",
+      "titleKo": "Investing (Asset manager)"
+    },
+    {
+      "order": 3,
+      "title": "Investing (Asset owner)",
+      "titleKo": "Investing (Asset owner)"
+    },
+    {
+      "order": 4,
+      "title": "Insurance underwriting (Insurance company)",
+      "titleKo": "Insurance underwriting (Insurance company)"
+    }
+  ],
+  "columns": [
+    {
+      "code": "12.2.1",
+      "text": "Portfolio breakdown",
+      "type": "GROUPED_OPTIONS",
+      "mandatory": "False",
+      "options": [
+        "Yes | Yes, by asset class",
+        "Yes | Yes, by industry",
+        "Yes | Yes, by scope",
+        "None of the above, but we plan to do this in the next two years | None of the above, but we plan to do this in the next two years",
+        "None of the above and we don't plan to do this | None of the above and we don't plan to do this"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "포트폴리오 breakdown",
+      "typeKo": "GROUPED_OPTIONS",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Yes | Yes, by asset class",
+        "Yes | Yes, by industry",
+        "Yes | Yes, by scope",
+        "None 의 above, but we plan to do this in the next two years | None 의 above, but we plan to do this in the next two years",
+        "None 의 above 및 we don't plan to do this | None 의 above 및 we don't plan to do this"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "12.2.2",
+      "text": "Please explain why you do not provide a breakdown of your portfolio impact on the climate",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Please 그 이유를 설명 you do not 세부 내역 제공 your 포트폴리오 impact on the climate",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Minor change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Minor change"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in column 1 \"We measure the impact of our portfolio on the climate.\" of any row in 12.1.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes\" in 열 1 \"We measure the impact of our 포트폴리오 on the climate.\" of 하나 이상 행 in 12.1."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nSelect all breakdowns that are relevant to your portfolio.\nPlease explain why you do not provide a breakdown of your portfolio impact on the climate (column 2) \nIf you have only selected one or two of the three breakdown options (by asset class/industry/scope) explain why are you not able to provide a breakdown for the option(s) not selected.\nIf you selected \"None of the above, but we plan to do this in the next two years\" explain why you don't do this yet, how you plan to do this and what actions you are currently taking to achieve this.\nIf you selected \"None of the above and we don't plan to do this\", explain why you don't do this and why you don't plan on doing so in the future.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Select all breakdowns that are relevant to your 포트폴리오. Please 그 이유를 설명 you do not 세부 내역 제공 your 포트폴리오 impact on the climate (열 2) 만약 you have only 선택 one 또는 two 의 three breakdown options (by asset class/industry/scope) 그 이유를 설명 are you not able to provide a breakdown 에 대한 option(s) not 선택. 만약 you 선택 \"None 의 above, but we plan to do this in the next two years\" 그 이유를 설명 you don't do this yet, how you plan to do this 및 what actions you are currently taking to achieve this. 만약 you 선택 \"None 의 above 및 we don't plan to do this\", 그 이유를 설명 you don't do this 및 why you don't plan on doing so in the future."
+    },
+    {
+      "type": "Ambition",
+      "text": "Financial institutions disclose absolute gross financed emissions, disaggregated by Scope 1, Scope 2 and Scope 3 greenhouse gas emissions.\nFinancial institutions report gross exposure to each industry by asset class, expressed in the presentation currency of the entity's financial statements.",
+      "typeKo": "Ambition",
+      "textKo": "Financial institutions disclose absolute gross 금융배출량, disaggregated by Scope 1, Scope 2 및 Scope 3 온실가스 배출량. Financial institutions report gross exposure to each industry by asset class, expressed in the presentation currency 의 entity's 재무제표."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Portfolio breakdown by asset class: most existing methodologies to quantify portfolio impact are determined and calculated on an asset class level. Breaking down emissions and other carbon footprinting and/or exposure metrics by asset class can give an indication of the relative GHG emissions performance and/or exposure to climate-related risks of your company's assets. When reported over time, your organization and investors will be able to review improvements or declines in asset performance with considerations for your portfolio's impact on the climate. This breakdown can be used alongside the financial performance of a company's assets to understand the financial exposure and illustrate the scale of contributions to climate change. Because methodologies are more robust for some asset classes than others, providing this level of data will enable data users to identify gaps in the methodologies and lead to the expansion of coverage.\nPortfolio breakdown by industry: as sectoral decarbonization is at the center of some carbon footprinting methodologies, breaking down emissions, other carbon footprinting and/or exposure metrics on an industry level is key to identify concentrations of carbon-related assets in the financial sector and the financial system's exposure to climate-related risks. Reporting at this level can provide a useful indicator for making comparisons between your financial activities in different industries. In some cases, particular industries may come within the scope of particular legislation, therefore, providing industry-level emissions and/or exposure figures may give data users insight into your organization's current/potential exposure to regulation in this industry.\nPortfolio breakdown by Scope: current methodologies for calculating portfolio emissions can lead to double counting across scopes. For example, what are counted as Scope 1 emissions for an electricity generation company could be the same emissions for a retailer but counted as Scope 2. There is currently no way for financial institutions to overcome this in their portfolio emission calculations, but this question allows you to report emissions by scope separately. Breaking down absolute emissions of their portfolio by scope can help financial institution identify emissions throughout the value chain of companies in their portfolio. PCAF recommends that emissions associated with loans and investments should be reported separately by Scope if it serves financial institutions' business goals (e.g. Scope 1 emissions of investees or Scope 2 emissions of investees).\nPortfolio impact: impact of financial activities, namely lending, investment and insurance underwriting, on the environment.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "포트폴리오 breakdown by asset class: most existing methodologies to quantify 포트폴리오 impact are determined 및 calculated on an asset class level. Breaking down emissions 및 other carbon footprinting 및/또는 exposure metrics by asset class can give an indication 의 relative 온실가스 배출량 performance 및/또는 exposure to climate-related risks of your company's assets. 경우 보고 over time, 귀사 및 investors will be able to review improvements 또는 declines in asset performance with considerations 귀사의 포트폴리오's impact on the climate. This breakdown can be used alongside the financial performance of a company's assets to understand the financial exposure 및 illustrate the scale of contributions to climate change. Because methodologies are more robust for some asset classes than others, providing this level of data will enable 데이터 사용자 to identify gaps in the methodologies 및 lead to the expansion of coverage. 포트폴리오 breakdown by industry: as sectoral decarbonization is at the center of some carbon footprinting methodologies, breaking down emissions, other carbon footprinting 및/또는 exposure metrics on an industry level is key to identify concentrations of carbon-related assets in the financial sector 및 the financial system's exposure to climate-related risks. Reporting at this level can provide a useful indicator for making comparisons between your financial activities in different industries. In some cases, particular industries may come within the scope of particular legislation, therefore, providing industry-level emissions 및/또는 exposure figures may give 데이터 사용자 insight into 귀사의 current/potential exposure to regulation in this industry. 포트폴리오 breakdown by Scope: current methodologies for calculating 포트폴리오 emissions can lead to double counting across scopes. For example, what are counted as Scope 1 배출량 for an electricity generation company could be the same emissions for a retailer but counted as Scope 2. There is currently no way for financial institutions to overcome this in their 포트폴리오 emission calculations, but this 문항 allows you to report emissions by scope separately. Breaking down absolute emissions 의ir 포트폴리오 by scope can help financial institution identify emissions throughout the 가치사슬 of companies in their 포트폴리오. PCAF recommends that emissions associated with loans 및 investments 해야 합니다 be 보고 separately by Scope 만약 it serves financial institutions' business goals (e.g. Scope 1 배출량 of investees 또는 Scope 2 배출량 of investees). 포트폴리오 impact: impact of financial activities, namely lending, investment 및 insurance underwriting, on the environment."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0.5 or 1/0.5 or 1",
+      "L": "1/1",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Any option excluding 'None of the above and we don't plan to do this' selected in column 'Portfolio breakdown' in all rows - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "하나 이상 option 제외 'None 의 above 및 we don't plan to do this' 선택 in 열 '포트폴리오 breakdown' in all 행 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed as follows:\nROUTE A)\nAny of the following selected in column 'Portfolio breakdown' - 1 point\n- 'Yes, by industry'\n- 'Yes, by scope'\n- ‘Yes, by asset class'\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\n'None of the above, but we plan to do this in the next two years' selected in column 'Portfolio breakdown' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: 경로 A) 하나 이상 의 following 선택 in 열 '포트폴리오 breakdown' - 1 점 - 'Yes, by industry' - 'Yes, by scope' - ‘Yes, by asset class' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'None 의 above, but we plan to do this in the next two years' 선택 in 열 '포트폴리오 breakdown' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nPoints will be awarded per completed row in proportion to the number of rows disclosed as follows:\nROUTE A)\nFor any of the following rows (if applicable):\n- 'Banking (Bank)'\n- 'Investing (Asset manager)'\n- 'Investing (Asset owner)'\nAll of the following options selected in column ‘Portfolio breakdown' - 1 point\n- ‘Yes, by asset class'\n- ‘Yes, by industry'\n- ‘Yes, by scope'\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nFor any of the following rows (if applicable):\n- 'Banking (Bank)'\n- 'Investing (Asset manager)'\n- 'Investing (Asset owner)'\nAny of the following options selected in column ‘Portfolio breakdown' - 0.5/1 points\n- ‘Yes, by asset class'\n- ‘Yes, by industry'\n- ‘Yes, by scope'\nA maximum of 0.5/1 point is available for this route.\nOR\nROUTE C)\nFor row 'Insurance underwriting (Insurance company)' (if applicable):\nBoth ‘Yes, by industry' AND ‘Yes, by scope' selected in column ‘Portfolio breakdown' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE D)\nFor row 'Insurance underwriting (Insurance company)' (if applicable):\nEither ‘Yes, by industry' and ‘Yes, by scope' selected in column ‘Portfolio breakdown' - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: 경로 A) 다음 항목 중 the following 행 (만약 해당되는 경우): - 'Banking (Bank)' - 'Investing (Asset manager)' - 'Investing (Asset owner)' All 의 following options 선택 in 열 ‘포트폴리오 breakdown' - 1 점 - ‘Yes, by asset class' - ‘Yes, by industry' - ‘Yes, by scope' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 다음 항목 중 the following 행 (만약 해당되는 경우): - 'Banking (Bank)' - 'Investing (Asset manager)' - 'Investing (Asset owner)' 하나 이상 의 following options 선택 in 열 ‘포트폴리오 breakdown' - 0.5/1 점 - ‘Yes, by asset class' - ‘Yes, by industry' - ‘Yes, by scope' A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) For 행 'Insurance underwriting (Insurance company)' (만약 해당되는 경우): Both ‘Yes, by industry' 그리고 ‘Yes, by scope' 선택 in 열 ‘포트폴리오 breakdown' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 D) For 행 'Insurance underwriting (Insurance company)' (만약 해당되는 경우): Either ‘Yes, by industry' 및 ‘Yes, by scope' 선택 in 열 ‘포트폴리오 breakdown' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Are you able to provide a breakdown of your organization's financed emissions and other portfolio carbon footprinting metrics?",
+    "q2025": "Q12.2",
+    "q2025_text": "Are you able to provide a breakdown of your organization's financed emissions and other portfolio carbon footprinting metrics?",
+    "change_status": "Minor change",
+    "detail_change_types": "Change column type",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "Added functionality to stop the selection of contradictory datapoints.",
+    "scoring_change_summary": "CC Financial services Management • Removed. Removed due to update in the questionnaire.",
+    "daml_summary": "Financial services: D 2/2 | A 1/1 | M 0.5 or 1/0.5 or 1 | L 1/1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "경미한 변경",
+    "detail_change_typesKo": "열 입력 유형 변경",
+    "change_summaryKo": "Added functionality to stop the selection of contradictory data점.",
+    "scoring_change_summaryKo": "CC Financial services Management • Removed. Removed due to update in the questionnaire.",
+    "daml_summaryKo": "Financial services: D 2/2 | A 1/1 | M 0.5 또는 1/0.5 또는 1 | L 1/1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "a breakdown of 귀사의 금융배출량 및 other 포트폴리오 탄소발자국 지표을/를 제공할 수 있습니까?"
+  },
+  "defaultPoints": {
+    "D": "2/2",
+    "A": "1/1",
+    "M": "0.5 or 1/0.5 or 1",
+    "L": "1/1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 금융 서비스",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "금융 서비스",
+  "simpleHelpKo": "By breaking down emissions 및 other carbon footprinting metrics by asset class, industry, 및 scope, this data can be made available to 데이터 사용자 및 other stakeholders to help guide the development of 포트폴리오 footprinting methodologies, global decarbonization efforts, 및 regional legislation.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

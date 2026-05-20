@@ -1,0 +1,283 @@
+{
+  "code": "5.7.1",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Break down your total planned CAPEX in your current CAPEX plan for products and services (e.g. smart grids, digitalization, etc.).",
+  "questionKo": "your total planned CAPEX in your current CAPEX plan for 제품 및 서비스 (e.g. smart grids, digitalization, etc.).을/를 세분화하여 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Energy utilities & power generators",
+  "simpleHelp": "The advancement of decentralized power production and new technologies underpins the potential of the energy utilities & power generators sector to undergo a transition to low-carbon energy sources. The level of investment in emerging products and services provides an indication of the level to which future earning capacity of core business might be impacted.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.7.1.1",
+      "text": "Products and services",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Distributed generation",
+        "Home storage systems",
+        "Smart appliances",
+        "Home systems",
+        "Prosumer services",
+        "Information campaigns",
+        "Audits",
+        "Tariff measures",
+        "Energy audits",
+        "Energy management services",
+        "Electric vehicles",
+        "Charging networks",
+        "Heating systems",
+        "HVAC",
+        "CHP",
+        "Lighting",
+        "Smart grid",
+        "Micro-grid",
+        "Large-scale storage",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "제품 및 서비스",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Distributed generation",
+        "Home storage systems",
+        "Smart appliances",
+        "Home systems",
+        "Prosumer services",
+        "Information campaigns",
+        "Audits",
+        "Tariff measures",
+        "Energy audits",
+        "Energy management services",
+        "Electric vehicles",
+        "Charging networks",
+        "Heating systems",
+        "HVAC",
+        "CHP",
+        "Lighting",
+        "Smart grid",
+        "Micro-grid",
+        "Large-scale storage",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.7.1.2",
+      "text": "Description of product/service",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Description of product/service",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.7.1.3",
+      "text": "CAPEX planned for product/service",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "자본지출(CAPEX) planned for product/service",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.7.1.4",
+      "text": "Percentage of total CAPEX planned for products and services",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Percentage of total 자본지출(CAPEX) planned for 제품 및 서비스",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.7.1.5",
+      "text": "End year of CAPEX plan",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "End year of 자본지출(CAPEX) plan",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nIf you select \"Other, please specify,\" provide a label for the product and/or service.\nDescription of product/service (column 2) \nProvide a description of the application of the new product or service. Please include:\nAn overview of the product and service;\nThe applicable markets and customer type (residential, commercial, municipal);\nThe number of customers product/service may impact; and\nThe expected energy production and/or energy savings associated and the stage of implementation (exploration, installation, initial or full implementation).\nCAPEX planned for product/service (column 3) \nEnter your planned CAPEX for the new product/service you are reporting.\nThe CAPEX figure should be in the currency you selected in 1.2.\nPercentage of total CAPEX planned for products and services (column 4) \nEnter the percentage that this CAPEX represents in terms of total CAPEX planned for products and service.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 만약 you select \"Other, 직접 입력,\" provide a label 에 대한 product 및/또는 service. Description of product/service (열 2) Provide a description 의 application 의 new product 또는 service. Please include: An overview 의 product 및 service; The 해당되는 경우 markets 및 customer type (residential, commercial, municipal); The number of customers product/service may impact; 및 The expected energy production 및/또는 energy savings associated 및 the stage of implementation (exploration, installation, initial 또는 full implementation). 자본지출(CAPEX) planned for product/service (열 3) Enter your planned 자본지출(CAPEX) 에 대한 new product/service you are reporting. The 자본지출(CAPEX) figure 해야 합니다 be in the currency you 선택 in 1.2. Percentage of total 자본지출(CAPEX) planned for 제품 및 서비스 (열 4) Enter the percentage that this 자본지출(CAPEX) represents in terms of total 자본지출(CAPEX) planned for products 및 service."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Capital expenditure (CAPEX): a measure of the value of purchases of fixed assets such as property, buildings, an industrial plant, technology, or equipment. Put differently, CapEx is any type of expense that an organization capitalizes, or shows on its balance sheet as an investment, rather than on its income statement as an expenditure.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "자본지출 (자본지출(CAPEX)): a measure 의 value of purchases of fixed assets such as property, buildings, an industrial plant, technology, 또는 equipment. Put differently, 자본지출(CAPEX) is 하나 이상 type of expense that an organization capitalizes, 또는 shows on its balance sheet as an investment, rather than on its income statement as an expenditure."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Break down your total planned CAPEX in your current CAPEX plan for products and services (e.g. smart grids, digitalization, etc.).",
+    "q2025": "Q5.7.1",
+    "q2025_text": "Break down your total planned CAPEX in your current CAPEX plan for products and services (e.g. smart grids, digitalization, etc.).",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Energy utilities & power generators: D 2/2 | A 1/1 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Energy utilities & power generators: D 2/2 | A 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "your total planned 자본지출(CAPEX) in your current 자본지출(CAPEX) plan for 제품 및 서비스 (e.g. smart grids, digitalization, etc.).을/를 세분화하여 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "2/2",
+    "A": "1/1",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "에너지 유틸리티 및 발전",
+  "simpleHelpKo": "The advancement of decentralized power production 및 new technologies underpins the potential 의 energy utilities & power generators sector to undergo a transition to low-carbon energy sources. The level of investment in emerging 제품 및 서비스 provides an indication 의 level to which future earning capacity of core business might be impacted.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

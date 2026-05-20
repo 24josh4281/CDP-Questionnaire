@@ -1,0 +1,311 @@
+{
+  "code": "2.2.5",
+  "module": "2",
+  "moduleTitle": "Identification, assessment, and management of dependencies, impacts, risks, and opportunities",
+  "questionText": "Does your organization have a process for identifying, assessing, and managing environmental risks and/or opportunities related to your portfolio activities?",
+  "questionKo": "귀사는 a 프로세스 for 식별, 평가 및 관리 environmental 리스크 및/또는 기회 related to your 포트폴리오 activities을/를 보유하고 있습니까?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Biodiversity, Plastics, Climate Change, Forests",
+  "sectorTags": "Financial services",
+  "simpleHelp": "For many organizations, environmental issues pose significant challenges, now and in the future. This question establishes whether the financial institution has a process for identifying, assessing, and managing environmental issues related to their various portfolio activities so that data users may gauge the organization's awareness of its own environmental risks and opportunities.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Banking (Bank)",
+      "titleKo": "Banking (Bank)"
+    },
+    {
+      "order": 2,
+      "title": "Investing (Asset manager)",
+      "titleKo": "Investing (Asset manager)"
+    },
+    {
+      "order": 3,
+      "title": "Investing (Asset owner)",
+      "titleKo": "Investing (Asset owner)"
+    },
+    {
+      "order": 4,
+      "title": "Insurance underwriting (Insurance company)",
+      "titleKo": "Insurance underwriting (Insurance company)"
+    }
+  ],
+  "columns": [
+    {
+      "code": "2.2.5.1",
+      "text": "Process in place covering this portfolio",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No, but we plan to within the next two years",
+        "No, and we do not plan to within the next two years"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "프로세스 in place covering this 포트폴리오",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "No, but we plan to within the next two years",
+        "No, 및 we do not plan to within the next two years"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.2.5.2",
+      "text": "Risks and/or opportunities related to this portfolio are evaluated in this process",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Risks only",
+        "Opportunities only",
+        "Both risks and opportunities"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "리스크 및/또는 기회 related to this 포트폴리오 are evaluated in this 프로세스",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Risks only",
+        "Opportunities only",
+        "Both 리스크 및 기회"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.2.5.3",
+      "text": "Is this process informed by the dependencies and/or impacts process?",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Is this 프로세스 informed by the dependencies 및/또는 impacts 프로세스?",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "아니요"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.2.5.4",
+      "text": "Primary reason for not evaluating risks and/or opportunities related to this portfolio",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Lack of internal resources, capabilities, or expertise (e.g., due to organization size)",
+        "No standardized procedure",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant or not relevant",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "주된 이유 for not evaluating 리스크 및/또는 기회 related to this 포트폴리오",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Lack of internal resources, capabilities, 또는 expertise (e.g., due to organization size)",
+        "No standardized 절차",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant 또는 not relevant",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.2.5.5",
+      "text": "Explain why you do not evaluate risks and/or opportunities related to this portfolio and describe any plans to do so in the future",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "그 이유를 설명 you do not evaluate 리스크 및/또는 기회 related to this 포트폴리오 및 설명 하나 이상 plans to do so in the future",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "2.2.5.6",
+      "text": "Explain why you do not have a process for evaluating both risks and opportunities related to this portfolio that is informed by a dependencies and/or impacts process",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "그 이유를 설명 you do not have a 프로세스 for evaluating both 리스크 및 기회 related to this 포트폴리오 that is informed by a dependencies 및/또는 impacts 프로세스",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "Rows in this question will be presented according to the activities reported in 1.10.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "행 in this 문항 will be presented according to the activities 보고 in 1.10."
+    },
+    {
+      "type": "Requested Content",
+      "text": "Portfolio (column 0) \nThe rows presented in this question depend on the activities you selected in question 1.10.\nProcess in place covering this portfolio (column 1) \nSelect \"Yes\" if your organization has a process in place for identifying, assessing, and managing risks and/or opportunities related to the portfolio in column 0 \"Portfolio\". Select \"Yes\" regardless of whether both risks and opportunities are assessed, and regardless of whether the process is integrated (i.e. across multiple environmental issues, and any other issues) or separated.\nYou will have the opportunity to provide further details on your assessment process in 2.2.6.\nOnly select \"No…\" if you do not have any form of process for identifying, assessing, and managing risks and/or opportunities related to the portfolio in column 0 \"Portfolio\".\nExplain why you do not evaluate risks and/or opportunities related to this portfolio and describe any plans to do so in the future (column 5) \nThis column only appears if you select any \"No\" option in column 1 \"Process in place covering this portfolio\".\nDescribe the primary reason selected in column 4 \"Primary reason for not evaluating risks and/or opportunities related to this portfolio\".\nDescribe any plans to evaluate environmental risks and/or opportunities in the future, such as initial measures taken to put an evaluation process in place.\nIf you selected \"Judged to be unimportant or not relevant\" in column 4 \"Primary reason for not evaluating risks and/or opportunities related to this portfolio\", explain the criteria used to decide that evaluating risks and opportunities related to the portfolio in column 0 \"Portfolio\" is not important or relevant to your organization.\nExplain why you do not have a process for evaluating both risks and opportunities that is informed by a dependencies and/or impacts process (column 6) \nThis column only appears if you select any option except \"Both risks and opportunities\" in column 2 \"Risks and/or opportunities relating to this portfolio evaluated in this process\" OR if you select \"No\" in response to column 3 \"Is this process informed by the dependencies and/or impacts process?\".\nIf you select any option except \"Both risks and opportunities\" in column 2 \"Risks and/or opportunities relating to this portfolio evaluated in this process\", describe the primary reason for not having a process to evaluate both environmental risks and opportunities and describe any plans to do so in the future.\nIf you selected \"No\" in response to column 3 \"Is this process informed by the dependencies and/or impacts process?\", provide details of why this is the case, and any plans to consider dependencies and/or impacts as part of this process in the future.",
+      "typeKo": "요청 내용",
+      "textKo": "포트폴리오 (열 0) The 행 presented in this 문항 depend on the activities you 선택 in 문항 1.10. 프로세스 in place covering this 포트폴리오 (열 1) Select \"예\" 만약 귀사 has a 프로세스 in place for 식별, 평가 및 관리 리스크 및/또는 기회 related to the 포트폴리오 in 열 0 \"포트폴리오\". Select \"예\" regardless of whether both 리스크 및 기회 are assessed, 및 regardless of whether the 프로세스 is integrated (i.e. across multiple environmental issues, 및 하나 이상 other issues) 또는 separated. You will have the opportunity to provide further details on your assessment 프로세스 in 2.2.6. Only select \"No…\" 만약 you do not have 하나 이상 form of 프로세스 for 식별, 평가 및 관리 리스크 및/또는 기회 related to the 포트폴리오 in 열 0 \"포트폴리오\". 그 이유를 설명 you do not evaluate 리스크 및/또는 기회 related to this 포트폴리오 및 설명 하나 이상 plans to do so in the future (열 5) This 열 only appears 만약 you select 하나 이상 \"아니요\" option in 열 1 \"프로세스 in place covering this 포트폴리오\". 설명 the 주된 이유 선택 in 열 4 \"주된 이유 for not evaluating 리스크 및/또는 기회 related to this 포트폴리오\". 설명 하나 이상 plans to evaluate environmental 리스크 및/또는 기회 in the future, such as initial measures taken to put an evaluation 프로세스 in place. 만약 you 선택 \"Judged to be unimportant 또는 not relevant\" in 열 4 \"주된 이유 for not evaluating 리스크 및/또는 기회 related to this 포트폴리오\", explain the criteria used to decide that evaluating 리스크 및 기회 related to the 포트폴리오 in 열 0 \"포트폴리오\" is not important 또는 relevant to 귀사. 그 이유를 설명 you do not have a 프로세스 for evaluating both 리스크 및 기회 that is informed by a dependencies 및/또는 impacts 프로세스 (열 6) This 열 only appears 만약 you select 하나 이상 option except \"Both 리스크 및 기회\" in 열 2 \"리스크 및/또는 기회 relating to this 포트폴리오 evaluated in this 프로세스\" 또는 만약 you select \"아니요\" in response to 열 3 \"Is this 프로세스 informed by the dependencies 및/또는 impacts 프로세스?\". 만약 you select 하나 이상 option except \"Both 리스크 및 기회\" in 열 2 \"리스크 및/또는 기회 relating to this 포트폴리오 evaluated in this 프로세스\", 설명 the 주된 이유 for not having a 프로세스 to evaluate both environmental 리스크 및 기회 및 설명 하나 이상 plans to do so in the future. 만약 you 선택 \"아니요\" in response to 열 3 \"Is this 프로세스 informed by the dependencies 및/또는 impacts 프로세스?\", 세부 정보를 입력 of why this is the case, 및 하나 이상 plans to consider dependencies 및/또는 impacts 의 일부로 this 프로세스 in the future."
+    },
+    {
+      "type": "Ambition",
+      "text": "The financial institution has a robust process to identify, assess, and manage environmental dependencies, impacts, risks, and opportunities across all of its portfolios.",
+      "typeKo": "Ambition",
+      "textKo": "The financial institution has a robust 프로세스 to identify, assess, 및 manage 환경 의존성, 임팩트, 리스크 및 기회 across all of its 포트폴리오s."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0.5, 1.5 or 3/3",
+      "M": "0/0 or 5",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows displayed as follows:\nROUTE A)\n'Yes' selected in column 'Process in place covering this portfolio' AND 'Both risks and opportunities' selected in column 'Risks and/or opportunities related to this portfolio are evaluated in this process' - 3/3 points\nA maximum of 3/3 points is available for this route.\nROUTE B)\n'Yes' selected in column 'Process in place covering this portfolio' AND either 'Risks only' OR 'Opportunities only' selected in column 'Risks and/or opportunities related to this portfolio are evaluated in this process' - 1.5/3 points\nA maximum of 1.5/3 points is available for this route.\nROUTE C)\n'No, but we plan to within the next two years' selected in column 'Process in place covering this portfolio' - 0.5/3 points\nA maximum of 0.5/3 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 displayed as follows: 경로 A) '예' 선택 in 열 '프로세스 in place covering this 포트폴리오' 그리고 'Both 리스크 및 기회' 선택 in 열 '리스크 및/또는 기회 related to this 포트폴리오 are evaluated in this 프로세스' - 3/3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 경로 B) '예' 선택 in 열 '프로세스 in place covering this 포트폴리오' 그리고 either 'Risks only' 또는 'Opportunities only' 선택 in 열 '리스크 및/또는 기회 related to this 포트폴리오 are evaluated in this 프로세스' - 1.5/3 점 A 최고 of 1.5/3 점 is available for this 경로. 경로 C) 'No, but we plan to within the next two years' 선택 in 열 '프로세스 in place covering this 포트폴리오' - 0.5/3 점 A 최고 of 0.5/3 점 is available for this 경로."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Process in place covering this portfolio' in either question 2.2.4 OR 2.2.5 - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nROUTE B)\n'Yes' NOT selected in column 'Process in place covering this portfolio' in either question 2.2.4 OR 2.2.5 - 0/5 points\nA maximum of 0/5 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 '프로세스 in place covering this 포트폴리오' in either 문항 2.2.4 또는 2.2.5 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 경로 B) '예' NOT 선택 in 열 '프로세스 in place covering this 포트폴리오' in either 문항 2.2.4 또는 2.2.5 - 0/5 점 이 경로에서 획득 가능한 최고점은 0/5점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Does your organization have a process for identifying, assessing, and managing environmental risks and/or opportunities related to your portfolio activities?",
+    "q2025": "Q2.2.5",
+    "q2025_text": "Does your organization have a process for identifying, assessing, and managing environmental risks and/or opportunities related to your portfolio activities?",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Financial services: D 4/4 | A 0.5, 1.5 or 3/3 | M 0/0 or 5 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Financial services: D 4/4 | A 0.5, 1.5 또는 3/3 | M 0/0 또는 5 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "귀사는 a 프로세스 for 식별, 평가 및 관리 environmental 리스크 및/또는 기회 related to your 포트폴리오 activities을/를 보유하고 있습니까?"
+  },
+  "defaultPoints": {
+    "D": "4/4",
+    "A": "0.5, 1.5 or 3/3",
+    "M": "0/0 or 5",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 의존성, 임팩트, 리스크 및 기회의 식별, 평가 및 관리",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 생물다양성, 플라스틱, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스",
+  "simpleHelpKo": "For many organizations, environmental issues pose significant challenges, now 및 in the future. This 문항 establishes whether the financial institution has a 프로세스 for 식별, 평가 및 관리 environmental issues related to their various 포트폴리오 activities so that 데이터 사용자 may gauge the 조직의 awareness of its own environmental 리스크 및 기회.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

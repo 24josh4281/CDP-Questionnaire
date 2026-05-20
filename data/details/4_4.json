@@ -1,0 +1,1218 @@
+{
+  "code": "4.4",
+  "module": "4",
+  "moduleTitle": "Governance",
+  "questionText": "Does your organization have management-level competency on environmental issues?",
+  "questionKo": "귀사에 환경이슈에 대한 전문성을 가진 경영진이 있습니까 ?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Ocean, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "Transitioning a business for success in a sustainable future requires environmental competency within its decision-making bodies. This capability at management-level for organizations without a board signals an organization's commitment to understanding and responding to environmental dependencies, impacts, risks, and opportunities.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Climate change",
+      "titleKo": "기후변화"
+    },
+    {
+      "order": 3,
+      "title": "Water",
+      "titleKo": "수자원"
+    }
+  ],
+  "columns": [
+    {
+      "code": "4.4.1",
+      "text": "Management-level competency on this environmental issue",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No, but we plan to within the next two years",
+        "No, and we do not plan to within the next two years",
+        "Not assessed"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Management-level competency on this environmental issue",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "No, but we plan to within the next two years",
+        "No, 및 we do not plan to within the next two years",
+        "Not assessed"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.4.2",
+      "text": "Mechanisms to maintain management level competency on this environmental issue",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Consulting regularly with an internal, permanent, subject-expert working group",
+        "Engaging regularly with external stakeholders and experts on environmental issues",
+        "Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)",
+        "Having at least one individual at management level with expertise on this environmental issue",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Mechanisms to maintain management level competency on this environmental issue",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Consulting regularly with an internal, permanent, subject-expert working group",
+        "Engaging regularly with external stakeholders 및 experts on environmental issues",
+        "Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)",
+        "Having 최소 one individual at management level with expertise on this environmental issue",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.4.3",
+      "text": "Environmental expertise of the individual at management level",
+      "type": "GROUPED_OPTIONS",
+      "mandatory": "False",
+      "options": [
+        "Academic | Undergraduate education (e.g., BSc/BA in environment and sustainability, climate science, environmental science, water resources management, environmental engineering, forestry, etc.), please specify",
+        "Academic | Postgraduate education (e.g., MSc/MA/PhD in environment and sustainability, climate science, environmental science, water resources management, forestry, etc.), please specify",
+        "Additional training | Course certificate (relating to environmental issues), please specify",
+        "Additional training | Training in an environmental subject by a certified organization, please specify",
+        "Experience | Executive-level experience in a role focused on environmental issues",
+        "Experience | Management-level experience in a role focused on environmental issues",
+        "Experience | Staff-level experience in a role focused on environmental issues",
+        "Experience | Experience in an academic role focused on environmental issues",
+        "Experience | Experience in the environmental department of a government (national or local)",
+        "Experience | Experience in an organization that is exposed to environmental-scrutiny and is going through a sustainability transition",
+        "Experience | Active member of an environmental committee or organization",
+        "Other | Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Environmental expertise 의 individual at management level",
+      "typeKo": "GROUPED_OPTIONS",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Academic | Undergraduate education (e.g., BSc/BA in environment 및 sustainability, climate science, environmental science, water resources management, environmental engineering, forestry, etc.), 직접 입력",
+        "Academic | Postgraduate education (e.g., MSc/MA/PhD in environment 및 sustainability, climate science, environmental science, water resources management, forestry, etc.), 직접 입력",
+        "Additional training | Course certificate (relating to environmental issues), 직접 입력",
+        "Additional training | Training in an environmental subject by a certified organization, 직접 입력",
+        "Experience | Executive-level experience in a role focused on environmental issues",
+        "Experience | Management-level experience in a role focused on environmental issues",
+        "Experience | Staff-level experience in a role focused on environmental issues",
+        "Experience | Experience in an academic role focused on environmental issues",
+        "Experience | Experience in the environmental department of a government (national 또는 local)",
+        "Experience | Experience in an organization that is exposed to environmental-scrutiny 및 is going through a sustainability transition",
+        "Experience | Active member of an environmental committee 또는 organization",
+        "Other | Other, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.4.4",
+      "text": "Primary reason for no management-level competency on environmental issues",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Lack of internal resources, capabilities, or expertise (e.g., due to organization size)",
+        "No standardized procedure",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant or not relevant",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "주된 이유 for no management-level competency on environmental issues",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Lack of internal resources, capabilities, 또는 expertise (e.g., due to organization size)",
+        "No standardized 절차",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant 또는 not relevant",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.4.5",
+      "text": "Explain why your organization does not have management-level competency on this environmental issue",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "그 이유를 설명 귀사 does not have management-level competency on this environmental issue",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change; New question for Ocean",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "No change; New 문항 for Ocean"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"No\" in response to column 1 \"Board of directors or equivalent governing body\" of 4.1.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"No\" in response to 열 1 \"이사회 of directors 또는 equivalent governing body\" of 4.1."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThis question only appears if you select ‘No' in response to column 1 \"Board of directors or equivalent governing body\" of 4.1.\nConsider whether your organization's management is regularly educated and informed on environmental issues and/or has at least one individual at management-level with relevant environmental expertise and integrates environmental considerations into wider management-level discussions and functions.\nManagement-level competency on this environmental issue (column 1) \nSelect \"Yes\" if your organization's management has competency on the environmental issue in column 0. See the \"Explanation of terms\" for a definition of management competency (on environmental issues).\nIf either \"No\" option is selected, you will be presented with columns 4 \"Primary reason for no management-level competency on environmental issues\" and 5 \"Explain why your organization does not have management-level competency on this environmental issue and any plans to address this in the future\"'.\nMechanisms to maintain management-level competency on this environmental issue (column 2) \nThis column is only presented if \"Yes\" is selected in column 1 \"Management-level competency on this environmental issue\".\nSelect all the mechanisms that apply to achieve and/or maintain management level competency on the environmental issue in column 0. \nIf none of the mechanisms are applicable to your organization, select \"Other, please specify\" to provide the mechanism used to maintain competency.\nEnvironmental expertise of the individual at management level (column 3) \nThis column only appears if you select \"At least one individual at management level with expertise on this environmental issue\" in column 2 \"Mechanisms to maintain management level competency on this environmental issue\".\nSelect all the types of expertise that apply to the individual at management-level with environmental expertise. Consider any academic qualifications, training, experience, or other types of expertise relating to environmental issues present across your management.\nIf there is more than one person with expertise, organizations should respond for the individual with the highest level of expertise.\nIf you selected any \"Academic\" or \"Additional training\" response option, detail the specific expertise through the \"Please specify\" text field. For example, if you selected \"Undergraduate education\" you may specify \"BSc Climate science\".\nIf none of the criteria are applicable to your organization, select \"Other, please specify\" to provide the expertise criteria present in your organization.\nPrimary reason for no management-level competency on environmental issues (column 4) \nThis column is only presented if one of the \"No\" options is selected in column 1 \"Management-level competency on this environmental issue\".\nSelect the primary reason as to why there is no management-level competency on the environmental issues in column 0 in your organization.\nIf none of the reasons are applicable to your organization, select \"Other, please specify\" to provide the primary reason.\nExplain why your organization does not have management-level competency on this environmental issue (column 5) \nThis column is only presented if one of the \"No\" options is selected in column 1 \"Management-level competency on this environmental issue\".\nIf you selected \"Judged to be unimportant or not relevant\" in column 4 \"Primary reason for no management-level competency on environmental issues\", explain the criteria used to decide that management-level competence on environmental issues is not important or relevant for your organization.\nDescribe any plans to address management-level competency on environmental issues in the future, such as any measures you have implemented to enhance the competency of your management.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 This 문항 only appears 만약 you select ‘No' in response to 열 1 \"이사회 of directors 또는 equivalent governing body\" of 4.1. Consider whether 귀사의 management is regularly educated 및 informed on environmental issues 및/또는 has 최소 one individual at management-level with relevant environmental expertise 및 integrates environmental considerations into wider management-level discussions 및 functions. Management-level competency on this environmental issue (열 1) Select \"예\" 만약 귀사의 management has competency on the environmental issue in 열 0. See the \"Explanation of terms\" for a definition of management competency (on environmental issues). 만약 either \"No\" option is 선택, you will be presented with 열 4 \"주된 이유 for no management-level competency on environmental issues\" 및 5 \"그 이유를 설명 귀사 does not have management-level competency on this environmental issue 및 하나 이상 plans to address this in the future\"'. Mechanisms to maintain management-level competency on this environmental issue (열 2) This 열 is only presented 만약 \"예\" is 선택 in 열 1 \"Management-level competency on this environmental issue\". Select all the mechanisms that apply to achieve 및/또는 maintain management level competency on the environmental issue in 열 0. 만약 none 의 mechanisms are 해당되는 경우 to 귀사, select \"Other, 직접 입력\" to provide the mechanism used to maintain competency. Environmental expertise 의 individual at management level (열 3) This 열 only appears 만약 you select \"최소 one individual at management level with expertise on this environmental issue\" in 열 2 \"Mechanisms to maintain management level competency on this environmental issue\". Select all the types of expertise that apply to the individual at management-level with environmental expertise. Consider 하나 이상 academic qualifications, training, experience, 또는 other types of expertise relating to environmental issues present across your management. 만약 there is more than one person with expertise, organizations 해야 합니다 respond 에 대한 individual with the highest level of expertise. 만약 you 선택 하나 이상 \"Academic\" 또는 \"Additional training\" response option, detail the specific expertise through the \"직접 입력\" text field. For example, 만약 you 선택 \"Undergraduate education\" you may specify \"BSc Climate science\". 만약 none 의 criteria are 해당되는 경우 to 귀사, select \"Other, 직접 입력\" to provide the expertise criteria present in 귀사. 주된 이유 for no management-level competency on environmental issues (열 4) This 열 is only presented 만약 one 의 \"No\" options is 선택 in 열 1 \"Management-level competency on this environmental issue\". Select the 주된 이유 as to why there is no management-level competency on the environmental issues in 열 0 in 귀사. 만약 none 의 reasons are 해당되는 경우 to 귀사, select \"Other, 직접 입력\" to provide the 주된 이유. 그 이유를 설명 귀사 does not have management-level competency on this environmental issue (열 5) This 열 is only presented 만약 one 의 \"No\" options is 선택 in 열 1 \"Management-level competency on this environmental issue\". 만약 you 선택 \"Judged to be unimportant 또는 not relevant\" in 열 4 \"주된 이유 for no management-level competency on environmental issues\", explain the criteria used to decide that management-level competence on environmental issues is not important 또는 relevant for 귀사. 설명 하나 이상 plans to address management-level competency on environmental issues in the future, such as 하나 이상 measures you have implemented to enhance the competency of your management."
+    },
+    {
+      "type": "Ambition",
+      "text": "Organizations without a board have management-level competency on environmental issues.",
+      "typeKo": "Ambition",
+      "textKo": "Organizations without a 이사회 have management-level competency on environmental issues."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Management-level competency (on environmental issues): refers to the collective knowledge and understanding of environmental issues and the ability to engage/act/respond effectively on the related dependencies, impacts, risks, and opportunities as one cohesive deliberative body. Environmental competence at management level is achieved and maintained through education and training, integrating environmental considerations into discussions and functions, and/or ensuring individuals have relevant environmental expertise.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Management-level competency (on environmental issues): refers to the collective knowledge 및 understanding of environmental issues 및 the ability to engage/act/respond effectively on the related dependencies, impacts, risks, 및 opportunities as one cohesive deliberative body. Environmental competence at management level is achieved 및 maintained through education 및 training, integrating environmental considerations into discussions 및 functions, 및/또는 ensuring individuals have relevant environmental expertise."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "0.5 or 2/2",
+      "L": "2/2",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "For 'Climate change' row(s):\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "For '기후변화' 행(s): 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "For 'Climate change' row(s):\nFull Disclosure points must be awarded to be eligible for Awareness points.\nEither 'Yes' OR 'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "For '기후변화' 행(s): Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. Either '예' 또는 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "For 'Climate change' row(s):\nFull Awareness points must be awarded to be eligible for Management points.\nROUTE A)\ni) 'Yes' selected in column 'Management-level competency on this environmental issue' AND any option excluding 'Other, please specify' selected in column 'Mechanisms to maintain management level competency on this environmental issue' - 1 point\nii) Any option excluding 'Other, please specify' selected in column 'Environmental expertise of the individual at management level' - 1 point\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to within the next two years' selected in column 'Management-level competency on this environmental issue' - 0.5 points\nA maximum of 0.5/2 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "For '기후변화' 행(s): Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 경로 A) i) '예' 선택 in 열 'Management-level competency on this environmental issue' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms to maintain management level competency on this environmental issue' - 1 점 ii) 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Environmental expertise 의 individual at management level' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to within the next two years' 선택 in 열 'Management-level competency on this environmental issue' - 0.5 점 A 최고 of 0.5/2 점 is available for this 경로."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "For 'Climate change' row(s):\nFull Management points must be awarded to be eligible for Leadership points.\nFor each of the following selections made in column ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 points\n- 'Consulting regularly with an internal, permanent, subject-expert working group'\n- 'Engaging regularly with external stakeholders and experts on environmental issues'\n- 'Regular training at management level on environmental issues, industry best practice, and standards (e.g., TCFD, SBTi)'\n- 'Having at least one individual at management level with expertise on this environmental issue'\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "For '기후변화' 행(s): Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. For each 의 following selections made in 열 ‘Mechanisms to maintain management level competency on this environmental issue' - 0.5 점 - 'Consulting regularly with an internal, permanent, subject-expert working group' - 'Engaging regularly with external stakeholders 및 experts on environmental issues' - 'Regular training at management level on environmental issues, industry best practice, 및 기준 (e.g., TCFD, SBTi)' - 'Having 최소 one individual at management level with expertise on this environmental issue' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "귀사에 환경이슈에 대한 전문성을 가진 경영진이 있습니까 ? M4. Governance",
+    "q2025": "Q4.4",
+    "q2025_text": "Does your organization have management-level competency on environmental issues?",
+    "change_status": "No change; new question for Ocean; detail changes",
+    "detail_change_types": "New row",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": true,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "Row\"Ocean\" has been added.",
+    "scoring_change_summary": "CC/F/W All sectors Management • Management criteria ii updated to also require any option excluding ‘Other, please specify' to be selected in column ‘Mechanisms to maintain management level competency on this environmental issue. Criteria modified to incentivise organizations to implement mechanisms to maintain management level competency.\nCC/F/W All sectors Leadership • Leadership level previously unscored. New criteria introduced to incentivise drop-down options to be selected in column ‘Mechanisms to maintain management level competency on this environmental issue'. This question is newly scored at Leadership level to incentivise organizations to implement all mechanisms to maintain management level competency.",
+    "daml_summary": "General: D 3/3 | A 1/1 | M 0.5 or 2/2 | L 2/2",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "변경 없음; 해양 신규 문항; 세부 변경 있음",
+    "detail_change_typesKo": "신규 행",
+    "change_summaryKo": "행\"Ocean\" has been added.",
+    "scoring_change_summaryKo": "CC/F/W All sectors Management • Management criteria ii updated to also require 하나 이상 option 제외 ‘Other, 직접 입력' to be 선택 in 열 ‘Mechanisms to maintain management level competency on this environmental issue. Criteria modified to incentivise organizations to implement mechanisms to maintain management level competency. CC/F/W All sectors Leadership • Leadership level previously unscored. New criteria introduced to incentivise drop-down options to be 선택 in 열 ‘Mechanisms to maintain management level competency on this environmental issue'. This 문항 is newly scored at Leadership level to incentivise organizations to implement all mechanisms to maintain management level competency.",
+    "daml_summaryKo": "일반: D 3/3 | A 1/1 | M 0.5 또는 2/2 | L 2/2",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "귀사는 management-level competency on environmental issues을/를 보유하고 있습니까?"
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "1/1",
+    "M": "0.5 or 2/2",
+    "L": "2/2"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "지배구조",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 해양, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "Transitioning a business for success in a sustainable future requires environmental competency within its decision-making bodies. This capability at management-level for organizations without a 이사회 signals an 조직의 commitment to understanding 및 responding to 환경 의존성, 임팩트, 리스크 및 기회.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

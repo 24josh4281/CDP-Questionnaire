@@ -1,0 +1,1174 @@
+{
+  "code": "5.3",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Have environmental risks and opportunities affected your strategy and/or financial planning?",
+  "questionKo": "귀사의 환경 리스크와 기회가 전략 및 / 또는 재무계획에 미치는 영향에 대해 설명하십시오 .",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Ocean, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "This question allows organizations to indicate whether they have considered and acted upon their substantive environmental risks and opportunities at a strategic level for the business, rather than solely at the operational level.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Response row",
+      "titleKo": "응답 행"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.3.1",
+      "text": "Environmental risks and/or opportunities have affected your strategy and/or financial planning",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes, strategy only",
+        "Yes, financial planning only",
+        "Yes, both strategy and financial planning",
+        "We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years",
+        "We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so within the next two years",
+        "No"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Yes, strategy only",
+        "Yes, 재무계획 only",
+        "Yes, both strategy 및 재무계획",
+        "We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years",
+        "We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so within the next two years",
+        "아니요"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.3.2",
+      "text": "Business areas where environmental risks and/or opportunities have affected your strategy",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Products and services",
+        "Upstream/downstream value chain",
+        "Investment in R&D",
+        "Operations"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "제품 및 서비스",
+        "Upstream/다운스트림 가치사슬",
+        "Investment in R&D",
+        "Operations"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.3.3",
+      "text": "Primary reason why environmental risks and/or opportunities have not affected your strategy and/or financial planning across all business areas",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Lack of internal resources, capabilities, or expertise (e.g., due to organization size)",
+        "No standardized procedure",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant or not relevant",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "주된 이유 why environmental 리스크 및/또는 기회 have not affected your strategy 및/또는 재무계획 across all business areas",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Lack of internal resources, capabilities, 또는 expertise (e.g., due to organization size)",
+        "No standardized 절차",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant 또는 not relevant",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.3.4",
+      "text": "Explain why environmental risks and/or opportunities have not affected your strategy and/or financial planning across all business areas",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "그 이유를 설명 environmental 리스크 및/또는 기회 have not affected your strategy 및/또는 재무계획 across all business areas",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified question",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified 문항"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select any of the \"Yes\" options in response to column \"Environmental risks identified\" of 3.1 or column \"Environmental opportunities identified\" of 3.6.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select 하나 이상 의 \"Yes\" options in response to 열 \"Environmental risks identified\" of 3.1 또는 열 \"Environmental opportunities identified\" of 3.6."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThe risks and opportunities referred to in this question should correspond to the substantive risks and opportunities your organization reported in 3.1.1 and 3.6.1.\nThis question asks about the group strategy and financial planning - meaning your organization (as defined in 1.5). If you wish, you can comment on divisional (business unit) strategies and planning in 5.3.1 and 5.3.2.\nIf risks and/or opportunities have affected your organization's climate transition plan, include these details as part of your strategy.\nEnvironmental risks and/or opportunities have affected your strategy and/or financial planning (column 1) \nOnly select \"We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years\" if this is relevant for both your strategy and financial planning. For example, if risks have affected your strategy but not your financial planning but you are planning to address the effect of risks and opportunities on your financial planning within the next two years still select \"Yes, strategy only\". \nIf your strategy and/or financial planning has been affected by either risks or opportunities, but not both, select the appropriate \"Yes…\" response. For example, if your organization's strategy has been influenced by risks, but not opportunities, select \"Yes, strategy only\" and provide further details in 5.3.1.\nSelect \"No\" if your organization's strategy and financial planning has not been affected by your risks and/or opportunities.\nCompanies in the financial services sector should select a \"Yes…\" response for example when one of the following considerations has affected your strategy and/or financial planning:\nThe need to understand how environmental risks and opportunities will affect your client/investee relationships, financial products and/or services; and/or\nThe need to provide financial flows to capitalize on opportunities presented by the transition to a net-zero and nature-positive future.\nBusiness areas where environmental risks and/or opportunities have affected your strategy (column 2) \nThis column is only presented if either \"Yes, strategy only\" or \"Yes, both strategy and financial planning\" is selected in column 1 \"Environmental risks & opportunities have influenced our strategy and financial planning\".\nInvestment in R&D refers to your overarching approach to research and development investment, more specific details of these investments, including quantitative figures, can be disclosed in 5.3.2.\nSee the Explanation of terms for more detail.\nExplain why environmental risks and/or opportunities have not affected your strategy and/or financial planning across all business areas (column 4) \nThis column is only presented if any option except \"Yes, both strategy and financial planning\" is selected in column 1 \"Environmental risks & opportunities have affected our strategy and financial planning\" or if all business areas are not selected in column \"Business areas where environmental risks and/or opportunities have affected your strategy\".\nIf you selected either \"Yes, strategy only\" or \"Yes, financial planning only\" provide details as to why either your strategy or financial planning has not been affected by your risks and/or opportunities.\nIf you selected \"We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years\" in column 1 \"Environmental risks and/or opportunities have affected our strategy and/or financial planning\", provide details of these plans.\nIf you selected \"No\" in column 1 \"Environmental risks & opportunities have influenced our strategy and financial planning\", provide details of your process and the reasons why your organization concluded that environmental issues need not affect its strategy and/or financial planning.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 The 리스크 및 기회 referred to in this 문항 해야 합니다 correspond to the substantive 리스크 및 기회 귀사 보고 in 3.1.1 및 3.6.1. This 문항 asks about the group strategy 및 재무계획 - meaning 귀사 (as defined in 1.5). 만약 you wish, you can comment on divisional (business unit) strategies 및 planning in 5.3.1 및 5.3.2. 만약 리스크 및/또는 기회 have affected 귀사의 기후 전환계획, include these details 의 일부로 your strategy. Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획 (열 1) Only select \"We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years\" 만약 this is relevant for both your strategy 및 재무계획. For example, 만약 risks have affected your strategy but not your 재무계획 but you are planning to address the effect of 리스크 및 기회 on your 재무계획 within the next two years still select \"Yes, strategy only\". 만약 your strategy 및/또는 재무계획 has been affected by either risks 또는 opportunities, but not both, select the appropriate \"Yes…\" response. For example, 만약 귀사의 strategy has been influenced by risks, but not opportunities, select \"Yes, strategy only\" 및 provide further details in 5.3.1. Select \"아니요\" 만약 귀사의 strategy 및 재무계획 has not been affected by your 리스크 및/또는 기회. Companies in the financial services sector 해야 합니다 select a \"Yes…\" response for example 경우 one 의 following considerations has affected your strategy 및/또는 재무계획: The need to understand how environmental 리스크 및 기회 will affect your 고객/투자대상 relationships, financial products 및/또는 services; 및/또는 The need to provide financial flows to capitalize on opportunities presented by the transition to a net-zero 및 nature-positive future. Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy (열 2) This 열 is only presented 만약 either \"Yes, strategy only\" 또는 \"Yes, both strategy 및 재무계획\" is 선택 in 열 1 \"Environmental risks & opportunities have influenced our strategy 및 재무계획\". Investment in R&D refers to your overarching approach to research 및 development investment, more specific details 의se investments, 포함 quantitative figures, can be 공개 in 5.3.2. See the Explanation of terms for more detail. 그 이유를 설명 environmental 리스크 및/또는 기회 have not affected your strategy 및/또는 재무계획 across all business areas (열 4) This 열 is only presented 만약 하나 이상 option except \"Yes, both strategy 및 재무계획\" is 선택 in 열 1 \"Environmental risks & opportunities have affected our strategy 및 재무계획\" 또는 만약 all business areas are not 선택 in 열 \"Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy\". 만약 you 선택 either \"Yes, strategy only\" 또는 \"Yes, 재무계획 only\" 세부 정보를 입력 as to why either your strategy 또는 재무계획 has not been affected by your 리스크 및/또는 기회. 만약 you 선택 \"We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years\" in 열 1 \"Environmental 리스크 및/또는 기회 have affected our strategy 및/또는 재무계획\", 세부 정보를 입력 의se plans. 만약 you 선택 \"아니요\" in 열 1 \"Environmental risks & opportunities have influenced our strategy 및 재무계획\", 세부 정보를 입력 of your 프로세스 및 the reasons why 귀사 concluded that environmental issues need not affect its strategy 및/또는 재무계획."
+    },
+    {
+      "type": "Ambition",
+      "text": "The organization considers environmental risks and opportunities, and their interdependencies, in its decision-making, financial planning, and when developing its strategy and transition plan where relevant.",
+      "typeKo": "Ambition",
+      "textKo": "The organization considers environmental 리스크 및 기회, 및 their interdependencies, in its decision-making, 재무계획, 및 경우 developing its strategy 및 전환계획 여기서 relevant."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Downstream value chain: the activities, sites, resources, relationships, and stakeholders which receive products and/or services from your organization. The downstream value chain varies depending on the nature of the business but may include customers, distributors, logistics providers, and packaging suppliers (adapted from ESRS, 2023 ). \nFinancial planning: an organization's consideration of how it will achieve and fund its objectives and strategic goals. The process of financial planning allows organizations to assess future financial positions and determine how resources can be utilized in pursuit of short- and long-term objectives. As part of financial planning, organizations often create \"financial plans\" that outline the specific actions, assets, and resources (including capital) necessary to achieve these objectives over a one-to-five-year period. However, financial planning is broader than the development of a financial plan as it includes long-term capital allocation and other considerations that may extend beyond the typical 3-5 year financial plan (e.g., investment, research and development, manufacturing, and markets) ( TCFD , 2017). \nProducts and services (Financial Services sector only):  all products and services in the organization's lending, investing and insurance underwriting business as well as other products and services including financial intermediary activities that are not part of core financing activities such as financial guarantees, M&A, securities underwriting, bond issuance, etc. \nResearch and Development (R&D) : refers to the activities companies undertake to innovate and introduce new products and services. It is often the first stage in the development process. Investment in R&D is a type of expense associated with the research and development of a company's goods or services \nStrategy: an organization's desired future state. An organization's strategy establishes a foundation against which it can monitor and measure its progress in reaching that desired state. Strategy formulation generally involves establishing the purpose and scope of the organization's activities and the nature of its businesses, taking into account the risks and opportunities it faces and the environment in which it operates ( TCFD , 2017). \nUpstream value chain: (also referred to as ‘supply chain\n' )\nthe activities, sites, resources, relationships, and stakeholders that provide products and/or services to your organization. This typically involves activities early in the value chain, such as production or development. The upstream value chain varies depending on the nature of the business but may include raw material, component, or equipment suppliers (adapted from ESRS, 2023 ). \nValue chain : the entire sequence of upstream and downstream activities, sites, resources, and relationships associated with the reporting organization's operations, starting with the raw materials, and extending through end-of-life management, aimed at providing or receiving value from an organization's products and services either within upstream, or downstream of direct operations (adapted from GHG Protocol, 2013 ; ESRS, 2023 ; SBTN, 2023 ).",
+      "typeKo": "Explanation of Terms",
+      "textKo": "다운스트림 가치사슬: the activities, sites, resources, relationships, 및 stakeholders which receive products 및/또는 services from 귀사. The 다운스트림 가치사슬 varies depending on the nature 의 business but may include customers, distributors, logistics providers, 및 packaging suppliers (adapted from ESRS, 2023 ). 재무계획: an 조직의 consideration of how it will achieve 및 fund its objectives 및 strategic goals. The 프로세스 of 재무계획 allows organizations to assess future financial positions 및 determine how resources can be utilized in pursuit of short- 및 long-term objectives. 의 일부로 재무계획, organizations often create \"financial plans\" that outline the specific actions, assets, 및 resources (포함 capital) necessary to achieve these objectives over a one-to-five-year period. However, 재무계획 is broader than the development of a financial plan as it includes long-term capital allocation 및 other considerations that may extend beyond the typical 3-5 year financial plan (e.g., investment, research 및 development, manufacturing, 및 markets) ( TCFD , 2017). 제품 및 서비스 (Financial Services sector only): all 제품 및 서비스 in the 조직의 lending, investing 및 insurance underwriting business as well as other 제품 및 서비스 포함 financial intermediary activities that are not part of core financing activities such as financial guarantees, M&A, securities underwriting, bond issuance, etc. Research 및 Development (R&D) : refers to the activities companies undertake to innovate 및 introduce new 제품 및 서비스. It is often the first stage in the development 프로세스. Investment in R&D is a type of expense associated with the research 및 development of a company's goods 또는 services Strategy: an 조직의 desired future state. An 조직의 strategy establishes a foundation against which it can monitor 및 measure its progress in reaching that desired state. Strategy formulation generally involves establishing the purpose 및 scope 의 조직의 activities 및 the nature of its businesses, taking into account the 리스크 및 기회 it faces 및 the environment in which it operates ( TCFD , 2017). 업스트림 가치사슬: (also referred to as ‘공급망 ' ) the activities, sites, resources, relationships, 및 stakeholders that provide products 및/또는 services to 귀사. This typically involves activities early in the 가치사슬, such as production 또는 development. The 업스트림 가치사슬 varies depending on the nature 의 business but may include raw material, component, 또는 equipment suppliers (adapted from ESRS, 2023 ). 가치사슬 : the entire sequence of upstream 및 downstream activities, sites, resources, 및 relationships associated with the reporting 조직의 operations, starting with the raw materials, 및 extending through end-of-life management, aimed at providing 또는 receiving value from an 조직의 제품 및 서비스 either within upstream, 또는 downstream of 직접 운영사업장 (adapted from GHG Protocol, 2013 ; ESRS, 2023 ; SBTN, 2023 )."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "0, 0.5 or 1/1",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/9 points\nA maximum of 0/9 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/9 점 이 경로에서 획득 가능한 최고점은 0/9점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, both strategy and financial planning' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nEither 'Yes, strategy only' OR 'Yes, financial planning only' selected in column 'Environmental risks and/or opportunities have affected...' AND\nAny ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental risks identified' in 3.1 OR Any ‘Yes…' option is selected in row ‘Climate change' in column ‘Environmental opportunities identified' in question 3.6 - 0.5/1 points\nA maximum of 0.5/1 points is available for this route.\nOR\nROUTE C)\nAny of the following options selected in column 'Environmental risks and/or opportunities have affected...' - 0/1 point\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, but plan to do so within the next two years'\n- 'We have not evaluated whether environmental risks and opportunities have affected our strategy and financial planning, and do not plan to do so'\n- 'No'\nA maximum of 0/1 point is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Environmental risks and/or opportunities have affected your strategy and/or financial planning' NOT completed - 0/3 points\nA maximum of 0/3 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, both strategy 및 재무계획' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Either 'Yes, strategy only' 또는 'Yes, 재무계획 only' 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' 그리고 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental risks identified' in 3.1 또는 하나 이상 ‘Yes…' option is 선택 in 행 ‘Climate change' in 열 ‘Environmental opportunities identified' in 문항 3.6 - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. 또는 경로 C) 하나 이상 의 following options 선택 in 열 'Environmental 리스크 및/또는 기회 have affected...' - 0/1 점 - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, but plan to do so within the next two years' - 'We have not evaluated whether environmental 리스크 및 기회 have affected our strategy 및 재무계획, 및 do not plan to do so' - '아니요' 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Environmental 리스크 및/또는 기회 have affected your strategy 및/또는 재무계획' NOT 완성 - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\nAt least two options selected in column 'Business areas where environmental risks and/or opportunities have affected your strategy' - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. 최소 two options 선택 in 열 'Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Have environmental risks and opportunities affected your strategy and/or financial planning?",
+    "q2025": "Q5.3",
+    "q2025_text": "Have environmental risks and opportunities affected your strategy and/or financial planning?",
+    "change_status": "Modified question",
+    "detail_change_types": "Modified guidance, Modified column header, Change to conditional logic",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": false,
+    "changed_guidance": true,
+    "changed_scoring": true,
+    "change_summary": "Removed guidance requesting information specific to the requesting supply change member.\nUpdate column header and the column is now presented to any organization that does not select all options in column \"Business areas where environmental risks and/or opportunities have affected your strategy\".",
+    "scoring_change_summary": "CC/F/W All sectors Awareness • Added a cross-check to ROUTE A and B with questions 3.1 and 3.6. Cross-check added to make sure that the risks and opportunities from that environmental issue being scored influence business strategy and financial planning.",
+    "daml_summary": "General: D 3/3 | A 0, 0.5 or 1/1 | M 0/0 | L 1/1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 수정",
+    "detail_change_typesKo": "가이던스 수정, 열 제목 수정, 조건부 표시 로직 변경",
+    "change_summaryKo": "Removed guidance requesting information specific to the requesting supply change member. Update 열 header 및 the 열 is now presented to 하나 이상 organization that does not select all options in 열 \"Business areas 여기서 environmental 리스크 및/또는 기회 have affected your strategy\".",
+    "scoring_change_summaryKo": "CC/F/W All sectors Awareness • Added a cross-check to 경로 A 및 B with questions 3.1 및 3.6. Cross-check added to make sure that the 리스크 및 기회 from that environmental issue being scored influence 사업전략 및 재무계획.",
+    "daml_summaryKo": "일반: D 3/3 | A 0, 0.5 또는 1/1 | M 0/0 | L 1/1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "Have environmental 리스크 및 기회 affected your strategy 및/또는 재무계획?"
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "0, 0.5 or 1/1",
+    "M": "0/0",
+    "L": "1/1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 해양, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "This 문항 allows organizations to indicate whether they have considered 및 acted upon their substantive environmental 리스크 및 기회 at a strategic level 에 대한 business, rather than solely at the operational level.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

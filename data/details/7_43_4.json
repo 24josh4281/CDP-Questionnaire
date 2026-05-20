@@ -1,0 +1,223 @@
+{
+  "code": "7.43.4",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Please disclose your petrochemicals production in the reporting year in thousand metric tons.",
+  "questionKo": "Please disclose your petrochemicals production in the 보고연도 in thousand metric tons.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Oil & Gas",
+  "simpleHelp": "Petrochemicals is an important part of the oil and gas value chain but not practiced by all integrated oil and gas companies or independent refiners. It is therefore necessary to take account of these activities separately. To help data users understand the coverage of activities employed by oil and gas companies, it is important for organizations to provide transparency on petrochemicals production activities, as these have environmental impacts and are exposed to transition risks.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.43.4.1",
+      "text": "Product",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "High value chemicals (Steam cracking)",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Product",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "High value chemicals (Steam cracking)",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.43.4.2",
+      "text": "Production, Thousand metric tons",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Production, Thousand metric tons",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.43.4.3",
+      "text": "Capacity, Thousand metric tons",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Capacity, Thousand metric tons",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Chemicals\" in response to 1.19.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Chemicals\" in response to 1.19."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nSteam cracking is the main method of breaking down large molecules of hydrocarbons, in which a gaseous or liquid hydrocarbon is diluted with steam and then heated. The main products for the steam cracking process are high value chemicals (HVC's).\nHVC's include lower olefins such as ethylene, propylene from the pyrolysis gas of steam crackers, benzene (contained amounts, excluding extracted amounts), butadiene (also contained), acetylene and hydrogen sold (as fuel).\nIf you select \"Other, please specify,\" provide a label for the product.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Steam cracking is the main method of breaking down large molecules of hydrocarbons, in which a gaseous 또는 liquid hydrocarbon is diluted with steam 및 then heated. The main products 에 대한 steam cracking 프로세스 are high value chemicals (HVC's). HVC's include lower olefins such as ethylene, propylene from the pyrolysis gas of steam crackers, benzene (contained amounts, 제외 extracted amounts), butadiene (also contained), acetylene 및 hydrogen sold (as fuel). 만약 you select \"Other, 직접 입력,\" provide a label 에 대한 product."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "High value chemicals: High value chemicals (HVCs) produced via steam cracking include ethylene, propylene from the pyrolysis gas of steam crackers, benzene (contained amounts, excluding extracted amounts), butadiene (also contained), acetylene, and hydrogen sold (as fuel).\nSteam cracking: Steam cracking is the main method of breaking down large molecules of hydrocarbons, in which a gaseous or liquid hydrocarbon is diluted with steam and then heated. The main product for steam cracking process is HVC's.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "High value chemicals: High value chemicals (HVCs) produced via steam cracking include ethylene, propylene from the pyrolysis gas of steam crackers, benzene (contained amounts, 제외 extracted amounts), butadiene (also contained), acetylene, 및 hydrogen sold (as fuel). Steam cracking: Steam cracking is the main method of breaking down large molecules of hydrocarbons, in which a gaseous 또는 liquid hydrocarbon is diluted with steam 및 then heated. The main product for steam cracking 프로세스 is HVC's."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "1/1",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 6/6 points is available for this question.\nOne row scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Please disclose your petrochemicals production in the reporting year in thousand metric tons.",
+    "q2025": "Q7.43.4",
+    "q2025_text": "Please disclose your petrochemicals production in the reporting year in thousand metric tons.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Oil & Gas: D 6/6 | A 1/1 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Oil & Gas: D 6/6 | A 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "Please disclose your petrochemicals production in the 보고연도 in thousand metric tons."
+  },
+  "defaultPoints": {
+    "D": "6/6",
+    "A": "1/1",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "석유 및 가스",
+  "simpleHelpKo": "Petrochemicals is an important part 의 석유 및 가스 가치사슬 but not practiced by all integrated oil 및 gas companies 또는 independent refiners. It is therefore necessary to take account 의se activities separately. To help 데이터 사용자 understand the coverage of activities employed by oil 및 gas companies, it is important for organizations to provide transparency on petrochemicals production activities, as these have environmental impacts 및 are exposed to transition risks.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

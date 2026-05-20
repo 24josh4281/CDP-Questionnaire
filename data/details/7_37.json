@@ -1,0 +1,288 @@
+{
+  "code": "7.37",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Disclose coal reserves and production by coal type attributable to your organization in the reporting year.",
+  "questionKo": "Disclose coal reserves 및 production by coal type attributable to 귀사 in the 보고연도.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Coal",
+  "simpleHelp": "Fossil fuels are the largest source of global emissions and coal is the most carbon intensive fossil fuel. It is therefore important to have transparency about the production and reserves of coal attributable to organizations. The split between thermal coal and metallurgical coal is also important. Thermal coal has higher transition risk, because consumers can substitute it with other sources of energy.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Thermal coal",
+      "titleKo": "Thermal coal"
+    },
+    {
+      "order": 2,
+      "title": "Metallurgical coal",
+      "titleKo": "Metallurgical coal"
+    },
+    {
+      "order": 3,
+      "title": "Other coal",
+      "titleKo": "Other coal"
+    },
+    {
+      "order": 4,
+      "title": "Total coal",
+      "titleKo": "Total coal"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.37.1",
+      "text": "Proven reserves (million metric tons)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Proven reserves (million metric tons)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.37.2",
+      "text": "Probable reserves (million metric tons)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Probable reserves (million metric tons)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.37.3",
+      "text": "Production (million metric tons)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Production (million metric tons)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.37.4",
+      "text": "Energy content of production (GJ per metric ton)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Energy content of production (GJ per metric ton)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.37.5",
+      "text": "Heating value",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "LHV",
+        "HHV",
+        "Unable to confirm heating value"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Heating value",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "LHV",
+        "HHV",
+        "Unable to confirm heating value"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.37.6",
+      "text": "Emission factor of production (metric tons CO2e per metric ton)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Emission factor of production (미터톤 CO2e per metric ton)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.37.7",
+      "text": "Comment",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Comment",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "Coal type (column 1) \nThis column specifies the coal type for which you are disclosing reserves, production, and other information. \nThermal coal is coal that is combusted for energy purposes, e.g. thermal power generation. \nMetallurgical coal includes coking coals and blast furnace coals (PCI), or any other coal used in the steel industry. \nProven reserves (million metric tons) (column 2) \nEnter your organization's proven reserves of the coal grade you are reporting. \nYou should apply the same methodology for estimating reserves as used in your annual reporting. You will be asked to explain which listing requirements or other methodologies you have used to provide reserves data in 7.44. \nIf your raw data is not in metric tons, then you should convert it. For example, from short tons, multiply by 0.907185 to calculate metric tons. Common conversion factors are included in the Technical Note \" Units of Measure Conversions\". \nProbable reserves (million metric tons) (column 3) \nEnter your organization's probable reserves of the coal grade you are reporting. \nYou should apply the same methodology for estimating reserves as used in annual reporting. \nIf your raw data is not in metric tons, then you should convert it. For example, from short tons, multiply by 0.907185 to calculate metric tons. Common conversion factors are included in the Technical Note \" Units of Measure Conversions\". \nProduction (million metric tons) (column 4) \nEnter your organization's production of the coal type you are reporting. \nIf your raw data is not in metric tons, then you should convert it. For example, from short tons, multiply by 0.907185 to calculate metric tons. Common conversion factors are included in the Technical Note \" Units of Measure Conversions\". \nEnergy content of production (GJ per metric ton) (column 5) \nEnter the energy content of the coal type you are reporting in Giga-Joules per metric ton. The following are common conversions: \nFrom million Btu, multiply by 1.05506 to calculate GJ. \nFrom million kcal, multiply by 4.184 to calculate GJ. \nFrom Btu per lb., multiply by 0.002326 to calculate GJ per metric ton. \nFrom kcal per kg, multiply by 0.004187 to calculate GJ per metric ton. \nFrom kJ per kg, multiply by 0.001 to calculate GJ per metric ton. \nFor coals, the LHV typically falls inside the range 10-30 GJ per metric ton. \nHeating value (column 6) \nYou should specify the heating value relevant to the figure you reported in Energy content of production (GJ per metric ton) (column 5). \nHigher heating value (HHV) is also known as gross calorific value (GCV), and lower heating value (LHV) is also known as net calorific value (NCV). Typically, LHV/HHV ratio is 0.95 for coal. \nEmission factor of production (kg CO2e per metric ton) (column 7) \nEnter the emissions factor of the coal type you are reporting. \nIn the absence of relevant data, assume 100% combustion (oxidation factor = 1) \nComment (column 8) (optional) \nUse the \"Comment\" column to define and explain your reported reserves and production figure(s). \nIf you provide data in the \"Other coal\" row then use this column to provide more information on the coal type(s) you are reporting. \nIf you have applied an oxidation factor of less than 1, then you can state the factor used here.",
+      "typeKo": "요청 내용",
+      "textKo": "Coal type (열 1) This 열 specifies the coal type for which you are disclosing reserves, production, 및 other information. Thermal coal is coal that is combusted for energy purposes, e.g. thermal 발전. Metallurgical coal includes coking coals 및 blast furnace coals (PCI), 또는 하나 이상 other coal used in the steel industry. Proven reserves (million metric tons) (열 2) Enter 귀사의 proven reserves 의 coal grade you are reporting. You 해야 합니다 apply the same 방법론 for estimating reserves as used in your annual reporting. You will be asked to explain which 상장 요건 또는 기타 방법론 you have used to provide 매장량 데이터 in 7.44. 만약 your raw data is not in metric tons, then you 해야 합니다 convert it. For example, from short tons, multiply by 0.907185 to calculate metric tons. Common conversion factors are included in the Technical Note \" Units of Measure Conversions\". Probable reserves (million metric tons) (열 3) Enter 귀사의 probable reserves 의 coal grade you are reporting. You 해야 합니다 apply the same 방법론 for estimating reserves as used in annual reporting. 만약 your raw data is not in metric tons, then you 해야 합니다 convert it. For example, from short tons, multiply by 0.907185 to calculate metric tons. Common conversion factors are included in the Technical Note \" Units of Measure Conversions\". Production (million metric tons) (열 4) Enter 귀사의 production 의 coal type you are reporting. 만약 your raw data is not in metric tons, then you 해야 합니다 convert it. For example, from short tons, multiply by 0.907185 to calculate metric tons. Common conversion factors are included in the Technical Note \" Units of Measure Conversions\". Energy content of production (GJ per metric ton) (열 5) Enter the energy content 의 coal type you are reporting in Giga-Joules per metric ton. The following are common conversions: From million Btu, multiply by 1.05506 to calculate GJ. From million kcal, multiply by 4.184 to calculate GJ. From Btu per lb., multiply by 0.002326 to calculate GJ per metric ton. From kcal per kg, multiply by 0.004187 to calculate GJ per metric ton. From kJ per kg, multiply by 0.001 to calculate GJ per metric ton. For coals, the LHV typically falls inside the range 10-30 GJ per metric ton. Heating value (열 6) You 해야 합니다 specify the heating value relevant to the figure you 보고 in Energy content of production (GJ per metric ton) (열 5). Higher heating value (HHV) is also known as gross calorific value (GCV), 및 lower heating value (LHV) is also known as net calorific value (NCV). Typically, LHV/HHV ratio is 0.95 for coal. Emission factor of production (kg CO2e per metric ton) (열 7) Enter the emissions factor 의 coal type you are reporting. In the absence of relevant data, assume 100% combustion (oxidation factor = 1) Comment (열 8) (optional) Use the \"Comment\" 열 to define 및 explain your 보고 reserves 및 production figure(s). 만약 you provide data in the \"Other coal\" 행 then use this 열 to provide more information on the coal type(s) you are reporting. 만약 you have applied an oxidation factor of 미만 1, then you can state the factor used here."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "6/6",
+      "A": "2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed row in proportion to the number of rows disclosed (excluding row 'Other coal'). Partially completed rows will not receive full points.\nA maximum of 6/6 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 행 'Other coal'). 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed excluding row 'Other coal' - 2 points\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 제외 행 'Other coal' - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Disclose coal reserves and production by coal type attributable to your organization in the reporting year.",
+    "q2025": "Q7.37",
+    "q2025_text": "Disclose coal reserves and production by coal type attributable to your organization in the reporting year.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Coal: D 6/6 | A 2/2 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Coal: D 6/6 | A 2/2 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "Disclose coal reserves 및 production by coal type attributable to 귀사 in the 보고연도."
+  },
+  "defaultPoints": {
+    "D": "6/6",
+    "A": "2/2",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "석탄",
+  "simpleHelpKo": "Fossil fuels are the largest source of global emissions 및 coal is the most carbon intensive fossil fuel. It is therefore important to have transparency about the production 및 reserves of coal attributable to organizations. The split between thermal coal 및 metallurgical coal is also important. Thermal coal has higher transition risk, because consumers can substitute it with other sources of energy.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

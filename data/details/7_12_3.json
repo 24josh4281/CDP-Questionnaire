@@ -1,0 +1,356 @@
+{
+  "code": "7.12.3",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Account for biogenic carbon data pertaining to your direct operations and identify any exclusions.",
+  "questionKo": "biogenic carbon data pertaining to your 직접 운영사업장 및 identify 제외사항.에 대해 설명하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Agricultural commodities, Food, beverage & tobacco, Paper & forestry",
+  "simpleHelp": "This question gathers data on biogenic carbon that is not included in your scope 1 and scope 2 figures.\nThis information provides context to data users on the extent of your biogenic carbon fluxes and on the neutrality of your CO2 emissions.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "CO2 emissions from land use management",
+      "titleKo": "CO2 emissions from land use management"
+    },
+    {
+      "order": 2,
+      "title": "CO2 removals from land use management",
+      "titleKo": "CO2 removals from land use management"
+    },
+    {
+      "order": 3,
+      "title": "Sequestration during land use change",
+      "titleKo": "Sequestration during land use change"
+    },
+    {
+      "order": 4,
+      "title": "CO2 emissions from biofuel combustion (land machinery)",
+      "titleKo": "CO2 emissions from biofuel combustion (land machinery)"
+    },
+    {
+      "order": 5,
+      "title": "CO2 emissions from biofuel combustion (processing/manufacturing machinery)",
+      "titleKo": "CO2 emissions from biofuel combustion (프로세스ing/manufacturing machinery)"
+    },
+    {
+      "order": 6,
+      "title": "CO2 emissions from biofuel combustion (other)",
+      "titleKo": "CO2 emissions from biofuel combustion (other)"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.12.3.1",
+      "text": "Emissions (metric tons CO2)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Emissions (미터톤 CO2)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.12.3.2",
+      "text": "Methodology",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Default emissions factors",
+        "Region-specific emissions factors",
+        "Empirical models",
+        "Process-based models",
+        "Field measurements",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "방법론",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Default emissions factors",
+        "Region-specific emissions factors",
+        "Empirical models",
+        "프로세스-based models",
+        "Field measurements",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.12.3.3",
+      "text": "Please explain",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Please explain",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified guidance (2025 7.13.1)",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified guidance (2025 7.13.1)"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question appears if you select \"Yes, in our direct operations\" or \"Yes, in both our direct operations and our upstream/downstream value chain\" in response to 7.12 column \"Agriculture, forestry or other land sector activities\".",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 appears 만약 you select \"Yes, in our 직접 운영사업장\" 또는 \"Yes, in both our 직접 운영사업장 및 our upstream/다운스트림 가치사슬\" in response to 7.12 열 \"Agriculture, forestry 또는 other land sector activities\"."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThe GHG Protocol has developed Land Sector and Removals Standard (LSRS) and Guidance . Due to the timeline of publication, organizations are not yet able to report emissions and removals in line with the LSRS in CDP's 2026 corporate questionnaire.\nThis question remains in the 2026 CDP questionnaire to maintain alignment with the GHG Protocol Agricultural Guidance until the questionnaire is updated to enable companies to report land-related emissions in line with the LSRS. Please continue to report to this question in accordance with the GHG Protocol Agricultural Guidance . Information on how these accounting categories align with the LSRS is provided below.\nIf an accounting category present in this question is relevant but is not yet calculated, leave the relevant row blank rather than reporting 0.\nType of change (column 1) \nTo facilitate the transition to reporting in line with the LSRS, the following guidance explains the correspondence between the existing Agricultural Guidance categories and the new LSRS accounting subcategories.\nGHG \nProtocol Agricultural Guidance category (7.12.3) \nGHG Protocol Land Sector and removals Standard accounting subcategory (7.12.1) \nDetails \nCO2 emissions from land use management\nLand management net biogenic CO2 emissions\nThis reporting category corresponds to the new required \"Land management net biogenic CO2 emissions\" accounting subcategory as there is a net land carbon stock decrease.\nCO2 removals from land use management\nLand management CO2 removals\nThis reporting category corresponds to the new optional \"Land management CO2 removals\" accounting subcategory as there is a net land carbon stock increase.\nSequestration from land use change\nLand management CO2 removals\nRemovals resulting from changes in agricultural land uses under the LSRS are optionally reported as \"Land management CO2 removals\" and would be subject to the requirements of chapter 12 and 13.\nCO2 emissions from biofuel combustion (land machinery, processing/manufacturing machinery and other)\nBiogenic product emissions\nBiogenic product CO2 emissions\nUnder the LSRS, biogenic CO2 emissions are subject to Requirement 17, therefore these emissions are either reported separately as gross CO2 fluxes in the \"Biogenic product CO2 emissions\" subcategory if the criteria are met, or as \"biogenic product emissions\" if the criteria are not met.\nEmissions (metric tons CO2) (column 2) \nProvide a figure in metric tons that is representative of the \"type of change\" indicated in column 1 within your direct operations.\nMethodology (column 3) \nSelect the option(s) that best describe the methods used to calculate your emissions figure reported in column 2 \"Emissions…\".\nYou should consider the following:\nDefault emissions factors: involve the multiplication of activity data by an international default emissions factor.\nRegion-specific emissions factors: involve the multiplication of activity data by an emissions factor specific to the region.\nEmpirical models: involve using field measurements to develop statistical relationships between GHG data and activity-specific factors.\nProcess-based models: involve mathematically linking biogeochemical processes that control the production, consumption, and emission of GHGs\nIf none of the options are applicable to your organization, select \"Other, please specify\" and indicate the methodology you used to calculate the emissions figure in column 2.\nPlease explain (column 4) \nSpecify and describe the methodology and tools used to calculate your biogenic carbon figure reported in column 2 \"Emissions…\", including your assumptions.\nIf applicable, specify the sources of the biofuel used.\nSpecify and explain any exclusions.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 The GHG Protocol has developed Land Sector 및 Removals Standard (LSRS) 및 Guidance . Due to the timeline of publication, organizations are not yet able to report emissions 및 removals in line with the LSRS in CDP's 2026 corporate questionnaire. This 문항 remains in the 2026 CDP questionnaire to maintain alignment with the GHG Protocol Agricultural Guidance until the questionnaire is updated to enable companies to report land-related emissions in line with the LSRS. Please continue to report to this 문항 in accordance with the GHG Protocol Agricultural Guidance . Information on how these accounting categories align with the LSRS is 입력 below. 만약 an accounting category present in this 문항 is relevant but is not yet calculated, leave the relevant 행 blank rather than reporting 0. Type of change (열 1) To facilitate the transition to reporting in line with the LSRS, the following guidance explains the correspondence between the existing Agricultural Guidance categories 및 the new LSRS accounting subcategories. GHG Protocol Agricultural Guidance category (7.12.3) GHG Protocol Land Sector 및 removals Standard accounting subcategory (7.12.1) Details CO2 emissions from land use management Land management net biogenic CO2 emissions This reporting category corresponds to the new required \"Land management net biogenic CO2 emissions\" accounting subcategory as there is a net land carbon stock decrease. CO2 removals from land use management Land management CO2 removals This reporting category corresponds to the new optional \"Land management CO2 removals\" accounting subcategory as there is a net land carbon stock increase. Sequestration from land use change Land management CO2 removals Removals resulting from changes in agricultural land uses under the LSRS are optionally 보고 as \"Land management CO2 removals\" 및 would be subject to the requirements of chapter 12 및 13. CO2 emissions from biofuel combustion (land machinery, 프로세스ing/manufacturing machinery 및 other) Biogenic product emissions Biogenic product CO2 emissions Under the LSRS, biogenic CO2 emissions are subject to Requirement 17, therefore these emissions are either 보고 separately as gross CO2 fluxes in the \"Biogenic product CO2 emissions\" subcategory 만약 the criteria are met, 또는 as \"biogenic product emissions\" 만약 the criteria are not met. Emissions (미터톤 CO2) (열 2) Provide a figure in metric tons that is representative 의 \"type of change\" indicated in 열 1 within your 직접 운영사업장. 방법론 (열 3) Select the option(s) that best 설명 the methods used to calculate your emissions figure 보고 in 열 2 \"Emissions…\". You 해야 합니다 consider the following: Default emissions factors: involve the multiplication of activity data by an international default emissions factor. Region-specific emissions factors: involve the multiplication of activity data by an emissions factor specific to the region. Empirical models: involve using field measurements to develop statistical relationships between GHG data 및 activity-specific factors. 프로세스-based models: involve mathematically linking biogeochemical 프로세스es that control the production, consumption, 및 emission of GHGs 만약 none 의 options are 해당되는 경우 to 귀사, select \"Other, 직접 입력\" 및 indicate the 방법론 you used to calculate the emissions figure in 열 2. Please explain (열 4) Specify 및 설명 the 방법론 및 tools used to calculate your 생물기원 탄소 figure 보고 in 열 2 \"Emissions…\", 포함 your assumptions. 만약 해당되는 경우, specify the sources 의 biofuel used. Specify 및 explain 제외사항."
+    },
+    {
+      "type": "Additional Information",
+      "text": "Please consult the GHG Protocol Agricultural Guidance (Chapters 8 & 9) for more information on the accounting categories included in this question and the GHG Protocol Corporate Accounting and Reporting Standards for information on standards and calculations.",
+      "typeKo": "추가 정보",
+      "textKo": "Please consult the GHG Protocol Agricultural Guidance (Chapters 8 & 9) for more information on the accounting categories included in this 문항 및 the GHG Protocol Corporate Accounting 및 Reporting 기준 for information on 기준 및 calculations."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "0/0",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Account for biogenic carbon data pertaining to your direct operations and identify any exclusions.",
+    "q2025": "Q7.13.1",
+    "q2025_text": "Account for biogenic carbon data pertaining to your direct operations and identify any exclusions.",
+    "change_status": "Modified guidance",
+    "detail_change_types": "Change to conditional logic",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "Conditional logic updated - This question only appears if you select \"Yes, in our direct operations\", \"Yes, in our upstream/downstream value chain\" or \"Yes, in both our direct operations and our upstream/downstream value chain\" in response to 7.13 column \"Technological CO2 removals or captured CO2 with geologic storage in the reporting year\", or if you select \"Yes\" in response to 7.13 column \"Technological CO2 removals or captured CO2 with geologic storage were accounted for and reported in previous years\" and guidance updated to reflect this..",
+    "scoring_change_summary": "CC All sectors Disclosure, Awareness, management & Leadership • All levels are not scored Scoring added for new question number. Previously asked in question",
+    "daml_summary": "Agricultural commodities: D 0/0 | A 0/0 | M 0/0 | L 0/0\nFood, beverage & tobacco: D 0/0 | A 0/0 | M 0/0 | L 0/0\nPaper & forestry: D 0/0 | A 0/0 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "가이던스 수정",
+    "detail_change_typesKo": "조건부 표시 로직 변경",
+    "change_summaryKo": "Conditional logic updated - This 문항 only appears 만약 you select \"Yes, in our 직접 운영사업장\", \"Yes, in our upstream/다운스트림 가치사슬\" 또는 \"Yes, in both our 직접 운영사업장 및 our upstream/다운스트림 가치사슬\" in response to 7.13 열 \"Technological CO2 removals 또는 captured CO2 with geologic storage in the 보고연도\", 또는 만약 you select \"Yes\" in response to 7.13 열 \"Technological CO2 removals 또는 captured CO2 with geologic storage were accounted for 및 보고 in previous years\" 및 guidance updated to reflect this..",
+    "scoring_change_summaryKo": "CC All sectors Disclosure, Awareness, management & Leadership • All levels are not scored Scoring added for new 문항 number. Previously asked in 문항",
+    "daml_summaryKo": "농산물 원자재: D 0/0 | A 0/0 | M 0/0 | L 0/0 Food, beverage & tobacco: D 0/0 | A 0/0 | M 0/0 | L 0/0 Paper & forestry: D 0/0 | A 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "생물기원 탄소 data 관련 to your 직접 운영사업장 및 identify 제외사항.에 대해 설명하십시오."
+  },
+  "defaultPoints": {
+    "D": "0/0",
+    "A": "0/0",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "농산물 원자재, Food, beverage & tobacco, 제지 및 임업",
+  "simpleHelpKo": "This 문항 gathers data on 생물기원 탄소 that is not included in your scope 1 및 scope 2 figures. This information provides context to 데이터 사용자 on the extent of your 생물기원 탄소 fluxes 및 on the neutrality of your CO2 emissions.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

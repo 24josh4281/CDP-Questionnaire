@@ -1,0 +1,341 @@
+{
+  "code": "4.8.1",
+  "module": "4",
+  "moduleTitle": "Governance",
+  "questionText": "Provide details of the covenants included in your organization's financing agreements to reflect and enforce your environmental policies.",
+  "questionKo": "the 약정 조항 included in 귀사의 금융 계약 to reflect 및 enforce your environmental policies.에 대한 세부 정보를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Biodiversity, Climate Change, Forests",
+  "sectorTags": "Financial services",
+  "simpleHelp": "Banks can influence their clients through requirements within the terms of financing agreements and with the option of a default being triggered should there be a failure to comply. Data users are interested in whether banks are using this to enforce their environmental policies and promote action on environmental performance, including a perceived improvement in credit profile and access to alternative pools of capital.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "4.8.1.1",
+      "text": "Environmental issue",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Climate change",
+        "Water"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "환경 이슈",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "기후변화",
+        "수자원"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.8.1.2",
+      "text": "Types of covenants used",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "A purpose or use of proceeds clause that refers to a taxonomy aligned activity",
+        "Covenants related to adaptation and/or resilience",
+        "Covenants related to compliance with your environmental policies",
+        "Margin or pricing depends on sustainability criteria",
+        "Minimum level of taxonomy aligned assets are mandated",
+        "Legal mandate to obtain third party verification of sustainability criteria",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Types of 약정 조항 used",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "A purpose 또는 use of proceeds clause that refers to a taxonomy aligned activity",
+        "약정 조항 related to adaptation 및/또는 resilience",
+        "약정 조항 related to compliance with your environmental policies",
+        "Margin 또는 pricing depends on sustainability criteria",
+        "Minimum level of taxonomy aligned assets are mandated",
+        "Legal mandate to obtain third party 검증 of sustainability criteria",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.8.1.3",
+      "text": "Asset class/product types covered by covenants",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Corporate loans",
+        "Retail loans",
+        "Corporate real estate",
+        "Retail mortgages",
+        "Trade finance",
+        "Asset finance",
+        "Project finance",
+        "Debt and equity underwriting",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Asset class/product types covered by 약정 조항",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Corporate loans",
+        "Retail loans",
+        "Corporate real estate",
+        "Retail mortgages",
+        "Trade finance",
+        "Asset finance",
+        "Project finance",
+        "Debt 및 equity underwriting",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.8.1.4",
+      "text": "Criteria for how covenants are applied",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "All business/investment for all projects",
+        "New business/investment for all projects",
+        "New business/investment for new projects",
+        "Selected clients",
+        "Depending on loan size",
+        "Depending on loan tenor",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Criteria for how 약정 조항 are applied",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "All business/investment for all projects",
+        "New business/investment for all projects",
+        "New business/investment for new projects",
+        "선택됨 clients",
+        "Depending on loan size",
+        "Depending on loan tenor",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.8.1.5",
+      "text": "% of clients covered by covenants",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% of clients covered by 약정 조항",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.8.1.6",
+      "text": "% of portfolio covered in relation to total portfolio value",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% of 포트폴리오 covered in relation to total 포트폴리오 value",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "4.8.1.7",
+      "text": "Provide details on which environmental policies your covenants enforce and how",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "details on which environmental policies your 약정 조항 enforce 및 how을/를 입력하십시오.",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Minor change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Minor change"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in response to column 1 \"Covenants included in financing agreements to reflect and enforce policies\" in 4.8.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 열 1 \"약정 조항 included in 금융 계약 to reflect 및 enforce policies\" in 4.8."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nIf the types of covenants used are not the same for all asset classes and/or product types, add a separate row for each distinction.\nCriteria for how covenants are applied (column 4) \nIndicate the coverage of the financing agreements for which you are implementing covenants.\nData users want to understand how frequently Net-Zero Banking Alliance (NZBA) members implement covenants in financing agreements to enforce environmental policies.\n% of portfolio covered in relation to total portfolio value (column 6) \nEnter the percentage of portfolio value covered in relation to the portfolio value based on assets value reported in 1.10.\nData users want to understand how frequently NZBA members implement covenants in financing agreements to enforce environmental policies.\nProvide details on which environmental policies your covenants enforce, and how (column 7) \nBriefly describe how the covenants and clauses you include in financing documents relate to your environmental policies, and which policies they enforce.\nOutline which types of clients you use covenants with, and why.\nIf applicable, briefly describe how the covenants and clauses you include in financing agreements help to improve your clients' adaptive capacity and increase their resilience.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 만약 the types of 약정 조항 used are not the same for all asset classes 및/또는 product types, add a separate 행 for each distinction. Criteria for how 약정 조항 are applied (열 4) Indicate the coverage 의 금융 계약 for which you are implementing 약정 조항. 데이터 사용자 want to understand how frequently Net-Zero Banking Alliance (NZBA) members implement 약정 조항 in 금융 계약 to enforce environmental policies. % of 포트폴리오 covered in relation to total 포트폴리오 value (열 6) Enter the percentage of 포트폴리오 value covered in relation to the 포트폴리오 value based on assets value 보고 in 1.10. 데이터 사용자 want to understand how frequently NZBA members implement 약정 조항 in 금융 계약 to enforce environmental policies. 세부 정보를 입력 on which environmental policies your 약정 조항 enforce, 및 how (열 7) Briefly 설명 how the 약정 조항 및 clauses you include in financing documents relate to your environmental policies, 및 which policies they enforce. Outline which types of clients you use 약정 조항 with, 및 why. 만약 해당되는 경우, briefly 설명 how the 약정 조항 및 clauses you include in 금융 계약 help to improve your clients' adaptive capacity 및 increase their resilience."
+    },
+    {
+      "type": "Ambition",
+      "text": "Banks have covenants in financing agreements to reinforce environmental policies.",
+      "typeKo": "Ambition",
+      "textKo": "Banks have 약정 조항 in 금융 계약 to reinforce environmental policies."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Adaptation : In human systems, the process of adjustment to actual or expected climate and its effects, in order to moderate harm or exploit beneficial opportunities. In natural systems, the process of adjustment to actual climate and its effects; human intervention may facilitate adjustment to expected climate and its effects ( IPCC, 2018 ).\nAsset finance: financial products and services where the company's balance sheet assets, including short-term investments, inventory and accounts receivable are used to borrow money, typically on a short-term basis. The company borrowing the funds must provide the lender with a security interest in the assets. \nCorporate loans: loans and credit facilities extended to companies. Includes both term loans and revolving credit facilities. Includes both bilateral loans and syndicated loans. Typically, corporate clients are able to negotiate more bespoke terms than retail customers. \nCorporate real estate: financial products or services used by companies to finance investments in property used for commercial purposes. The company borrowing the funds must provide the lender with a security interest in the property. \nDebt underwriting: financial services used by companies issuing debt securities such as bonds or syndicated loans. The underwriter commits, for a fee, to purchase the securities from the issuer with a goal of re-selling or syndicating the securities, thereby allowing the issuer to bring their securities to the marketplace. \nEquity underwriting: financial services used by companies issuing equity, most often during an initial public offering. The underwriter commits, for a fee, to purchase shares from the issuer with a goal of re-selling those shares, thereby allowing the issuer to raise equity capital in return for an ownership position. \nFinancing agreements: legal documents defining the terms and conditions of a financing product or service between your organization, for example as lender, and your client, for example as borrower. \nProject finance: financial products and services used for the financing of long-term infrastructure and industrial projects. The debt is paid back from the cash flow generated from the project. \nRetail loans: loans and credit facilities extended to individual personal banking customers, including credit cards. Typically, retail customers have to enter into facilities on pre-determined terms and conditions, rather than being able to negotiate bespoke terms. \nRetail mortgages: a home loan extended to individual personal banking customers secured on a specified property. Typically used by homebuyers to spread the cost of their purchase over the long-term. \nTrade finance: financial products and services used by companies to facilitate international trade transactions. Includes products which make it possible or easier for exporters and importers to transact such as letters of credit and export credit.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Adaptation : In human systems, the 프로세스 of adjustment to actual 또는 expected climate 및 its effects, in order to moderate harm 또는 exploit beneficial opportunities. In natural systems, the 프로세스 of adjustment to actual climate 및 its effects; human intervention may facilitate adjustment to expected climate 및 its effects ( IPCC, 2018 ). Asset finance: financial 제품 및 서비스 여기서 the company's balance sheet assets, 포함 short-term investments, inventory 및 accounts receivable are used to bor행 money, typically on a short-term basis. The company bor행ing the funds 해야 합니다 provide the lender with a security interest in the assets. Corporate loans: loans 및 credit facilities extended to companies. Includes both term loans 및 revolving credit facilities. Includes both bilateral loans 및 syndicated loans. Typically, corporate clients are able to negotiate more bespoke terms than retail customers. Corporate real estate: financial products 또는 services used by companies to finance investments in property used for commercial purposes. The company bor행ing the funds 해야 합니다 provide the lender with a security interest in the property. Debt underwriting: financial services used by companies issuing debt securities such as bonds 또는 syndicated loans. The underwriter commits, for a fee, to purchase the securities from the issuer with a goal of re-selling 또는 syndicating the securities, thereby allowing the issuer to bring their securities to the marketplace. Equity underwriting: financial services used by companies issuing equity, most often during an initial public offering. The underwriter commits, for a fee, to purchase shares from the issuer with a goal of re-selling those shares, thereby allowing the issuer to raise equity capital in return for an ownership position. 금융 계약: legal documents defining the terms 및 conditions of a financing product 또는 service between 귀사, for example as lender, 및 your client, for example as bor행er. Project finance: financial 제품 및 서비스 used 에 대한 financing of long-term infrastructure 및 industrial projects. The debt is paid back from the cash flow generated from the project. Retail loans: loans 및 credit facilities extended to individual personal banking customers, 포함 credit cards. Typically, retail customers have to enter into facilities on pre-determined terms 및 conditions, rather than being able to negotiate bespoke terms. Retail mortgages: a home loan extended to individual personal banking customers secured on a specified property. Typically used by homebuyers to spread the cost 의ir purchase over the long-term. Trade finance: financial 제품 및 서비스 used by companies to facilitate international trade transactions. Includes products which make it possible 또는 easier for exporters 및 importers to transact such as letters of credit 및 export credit."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "1/1",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 '환경 이슈': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 '환경 이슈' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\n'Climate change' selected in column 'Environmental issues' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issues':\nTable completed - 1 point\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: '기후변화' 선택 in 열 '환경 이슈s' in 최소 one 행. For 행 여기서 '기후변화' is 선택 in 열 '환경 이슈s': Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\n- Full Awareness points awarded\n- 'Climate change' selected in column 'Environmental issue' in at least one row\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nFigure greater than 0 provided in either column '% of clients covered by covenants' OR '% of portfolio covered in relation to total portfolio value' - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: - Awareness에서 최고점 획득 - '기후변화' 선택 in 열 '환경 이슈' in 최소 one 행 For 행 여기서 '기후변화' is 선택 in 열 '환경 이슈': Figure 초과 0 입력 in either 열 '% of clients covered by 약정 조항' 또는 '% of 포트폴리오 covered in relation to total 포트폴리오 value' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Provide details of the covenants included in your organization's financing agreements to reflect and enforce your environmental policies.",
+    "q2025": "Q4.8.1",
+    "q2025_text": "Provide details of the covenants included in your organization's financing agreements to reflect and enforce your environmental policies.",
+    "change_status": "Minor change",
+    "detail_change_types": "New explanation of terms, New dropdown option, New guidance",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": true,
+    "changed_guidance": true,
+    "changed_scoring": false,
+    "change_summary": "New explanation for 'Adaptation' added.\nNew dropdown option 'Covenants related to adaptation and/or resilience' added.\nAdded guidance to request organizations to disclose how covenants can contribute to adaptation strategies.",
+    "scoring_change_summary": "",
+    "daml_summary": "Financial services: D 3/3 | A 1/1 | M 1/1 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "경미한 변경",
+    "detail_change_typesKo": "신규 용어 설명, 신규 드롭다운 선택지, 신규 가이던스",
+    "change_summaryKo": "New explanation for 'Adaptation' added. New dropdown option '약정 조항 related to adaptation 및/또는 resilience' added. Added guidance to request organizations to disclose how 약정 조항 can contribute to adaptation strategies.",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Financial services: D 3/3 | A 1/1 | M 1/1 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "the 약정 조항 included in 귀사의 금융 계약 to reflect 및 enforce your environmental policies.에 대한 세부 정보를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "1/1",
+    "M": "1/1",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "지배구조",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 생물다양성, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스",
+  "simpleHelpKo": "Banks can influence their clients through requirements within the terms of 금융 계약 및 with the option of a default being triggered 해야 합니다 there be a failure to comply. 데이터 사용자 are interested in whether banks are using this to enforce their environmental policies 및 promote action on environmental performance, 포함 a perceived improvement in credit profile 및 access to alternative pools of capital.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

@@ -1,0 +1,1310 @@
+{
+  "code": "7.53.3",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Explain why you did not have an emissions target, and forecast how your emissions will change over the next five years.",
+  "questionKo": "온실가스 감축목표를 가지고 있지 않은 이유와, 향후 5년간 예상되는 귀사의 온실가스 배출량 변화를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "As setting a target is a pre-requisite for leadership in environmental practice, data users need to understand why companies do not have active targets guiding environmental strategy.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Response row",
+      "titleKo": "응답 행"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.53.3.1",
+      "text": "Primary reason for no emissions target",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "We are planning to introduce a target in the next two years",
+        "Important but not an immediate business priority",
+        "Judged to be unimportant, explanation provided",
+        "Lack of internal resources",
+        "Insufficient data on operations",
+        "No instruction from management",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "주된 이유",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "We are planning to introduce a 목표 in the next two years",
+        "Important but not an immediate business priority",
+        "Judged to be unimportant, explanation 입력",
+        "Lack of internal resources",
+        "Insufficient data on operations",
+        "No instruction from management",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.53.3.2",
+      "text": "Anticipated direction of change in scope 1 emissions",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Increase",
+        "Decrease",
+        "No change",
+        "Unknown"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "향후 5년간 예상 배출량",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Increase",
+        "Decrease",
+        "변경 없음",
+        "Unknown"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.53.3.3",
+      "text": "Anticipated scope 1 emissions change in %",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Less than 1%",
+        "1-10%",
+        "11-20%",
+        "21-30%",
+        "31-40%",
+        "41-50%",
+        "51-60%",
+        "61-70%",
+        "71-80%",
+        "81-90%",
+        "91-100%",
+        "100%+"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "설명",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "미만 1%",
+        "1-10%",
+        "11-20%",
+        "21-30%",
+        "31-40%",
+        "41-50%",
+        "51-60%",
+        "61-70%",
+        "71-80%",
+        "81-90%",
+        "91-100%",
+        "100%+"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.53.3.4",
+      "text": "Anticipated direction of change in scope 2 emissions",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Increase",
+        "Decrease",
+        "No change",
+        "Unknown"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Anticipated direction of change in Scope 2 배출량",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Increase",
+        "Decrease",
+        "변경 없음",
+        "Unknown"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.53.3.5",
+      "text": "Anticipated scope 2 emissions change in %",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Less than 1%",
+        "1-10%",
+        "11-20%",
+        "21-30%",
+        "31-40%",
+        "41-50%",
+        "51-60%",
+        "61-70%",
+        "71-80%",
+        "81-90%",
+        "91-100%",
+        "100%+"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Anticipated Scope 2 배출량 change in %",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "미만 1%",
+        "1-10%",
+        "11-20%",
+        "21-30%",
+        "31-40%",
+        "41-50%",
+        "51-60%",
+        "61-70%",
+        "71-80%",
+        "81-90%",
+        "91-100%",
+        "100%+"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.53.3.6",
+      "text": "Anticipated direction of change in scope 3 emissions",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Increase",
+        "Decrease",
+        "No change",
+        "Unknown"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Anticipated direction of change in Scope 3 배출량",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Increase",
+        "Decrease",
+        "변경 없음",
+        "Unknown"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.53.3.7",
+      "text": "Anticipated scope 3 emissions change in %",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Less than 1 %",
+        "1-10%",
+        "11-20%",
+        "21-30%",
+        "31-40%",
+        "41-50%",
+        "51-60%",
+        "61-70%",
+        "71-80%",
+        "81-90%",
+        "91-100%",
+        "100%+"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Anticipated Scope 3 배출량 change in %",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "미만 1 %",
+        "1-10%",
+        "11-20%",
+        "21-30%",
+        "31-40%",
+        "41-50%",
+        "51-60%",
+        "61-70%",
+        "71-80%",
+        "81-90%",
+        "91-100%",
+        "100%+"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.53.3.8",
+      "text": "Please explain",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Please explain",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified question",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "Modified 문항"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"No target\" in response to 7.53.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"No 목표\" in response to 7.53."
+    },
+    {
+      "type": "Requested Content",
+      "text": "Anticipated direction of change (columns 2-7) \nSelect the options that best describe how you forecast your emissions will change over the next five years.\nUse the most recent reporting year of emissions as the base year of your forecast. The anticipated change should be based on like-for-like emissions. This means it should exclude any potential changes due to adjusted boundaries, methodologies or correction of errors.\nPlease explain (column 8) \nProvide an explanation of why you do not have a target and the timeline to implement one, if applicable.\nCDP acknowledges that the forecast will be an estimate, but you should provide a brief description of the reasons why you forecast this change. For example, this could be due to forecasted changes in output or expected emissions reduction activities. In the unlikely event you forecast no change in emissions over the next five years, explain why not.",
+      "typeKo": "요청 내용",
+      "textKo": "Anticipated direction of change (열 2-7) Select the options that best 설명 how you forecast your emissions will change over the next five years. Use the most recent 보고연도 of emissions as the 기준연도 of your forecast. The anticipated change 해야 합니다 be based on like-for-like emissions. This means it 해야 합니다 exclude 하나 이상 potential changes due to adjusted boundaries, methodologies 또는 correction of errors. Please explain (열 8) Provide an explanation of why you do not have a 목표 및 the timeline to implement one, 만약 해당되는 경우. CDP acknowledges that the forecast will be an estimate, but you 해야 합니다 provide a brief description 의 reasons why you forecast this change. For example, this could be due to forecasted changes in output 또는 expected emissions reduction activities. In the unlikely event you forecast 변경 없음 in emissions over the next five years, 그 이유를 설명 not."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/3",
+      "M": "1/6",
+      "L": "0/3",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 Points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 3/3 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' AND Any option excluding ‘Unknown' selected in all of the following columns - 1/3 points\n- ‘Anticipated direction of change in scope 1 emissions'\n- ‘Anticipated direction of change in scope 2 emissions'\n- ‘Anticipated direction of change in scope 3 emissions'\nA maximum of 1/3 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' 그리고 하나 이상 option 제외 ‘Unknown' 선택 in all 의 following 열 - 1/3 점 - ‘Anticipated direction of change in Scope 1 배출량' - ‘Anticipated direction of change in Scope 2 배출량' - ‘Anticipated direction of change in Scope 3 배출량' 이 문항에서 획득 가능한 최고점은 1/3점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Management points.\n'We are planning to introduce a target in the next two years' selected in column 'Primary reason...' - 1/6 points\nA maximum of 1/6 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 'We are planning to introduce a 목표 in the next two years' 선택 in 열 '주된 이유...' - 1/6 점 이 문항에서 획득 가능한 최고점은 1/6점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "'No target' selected in question 7.53 - 0/3 points\nA maximum of 0/3 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "'No 목표' 선택 in 문항 7.53 - 0/3 점 이 문항에서 획득 가능한 최고점은 0/3점입니다."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "배출량 목표가 없는 이유를 설명하고 향후 5 년 동안 배출량이 어떻게 변할지 예측치를 공개하십시오 . ` M7. Environmental Performance - Climate Change 주된 이유 5 년치 예상 배출량 관련 설명 향후 2 년 내에 목표를 도입할 계획입니다 . 중요하지만 즉각적인 비즈니스 우선순위는 아님 중요하지 않다고 판단 , 설명 제공 내부 리소스 부족 운영에 대한 데이터가 충분하지 않음 경영진의 지시가 없음 기타 , 직접입력 최대 2,400 자 작성 최대 2,400 자 작성",
+    "q2025": "Q7.53.3",
+    "q2025_text": "Explain why you did not have an emissions target, and forecast how your emissions will change over the next five years.",
+    "change_status": "Modified question",
+    "detail_change_types": "New column, New guidance",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": false,
+    "changed_guidance": true,
+    "changed_scoring": true,
+    "change_summary": "New column",
+    "scoring_change_summary": "CC All sectors Disclosure • Criteria have been updated to be proportional per cell displayed. More columns have been added to this question around anticipated change in emissions. Scoring updated to utilize these.\nCC All sectors Awareness • Checks added for organizations selecting ‘We are planning to introduce a target in the next two years'. More columns have been added to this question around anticipated change in emissions. Scoring updated to utilize these.",
+    "daml_summary": "General: D 3/3 | A 1/3 | M 1/6 | L 0/3",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "문항 수정",
+    "detail_change_typesKo": "신규 열, 신규 가이던스",
+    "change_summaryKo": "New 열",
+    "scoring_change_summaryKo": "CC All sectors Disclosure • Criteria have been updated to be proportional per cell displayed. More 열 have been added to this 문항 around anticipated change in emissions. Scoring updated to utilize these. CC All sectors Awareness • Checks added for organizations selecting ‘We are planning to introduce a 목표 in the next two years'. More 열 have been added to this 문항 around anticipated change in emissions. Scoring updated to utilize these.",
+    "daml_summaryKo": "일반: D 3/3 | A 1/3 | M 1/6 | L 0/3",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "그 이유를 설명 you did not have an emissions 목표, 및 forecast how your emissions will change over the next five years."
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "1/3",
+    "M": "1/6",
+    "L": "0/3"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "As setting a 목표 is a pre-requisite for leadership in environmental practice, 데이터 사용자 need to understand why companies do not have active 목표 guiding environmental strategy.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

@@ -1,0 +1,1252 @@
+{
+  "code": "1.24",
+  "module": "1",
+  "moduleTitle": "Introduction",
+  "questionText": "Has your organization mapped its value chain?",
+  "questionKo": "귀사는 가치사슬 매핑을 하고 있습니까 ?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Ocean, Climate Change, Forests",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "This question allows data users to understand the extent to which your organization has visibility into different parts of its value chain, to facilitate activities such as effective risk management, traceability, and supplier engagement. Additionally, responses to this question will help data users interpret the supplier coverage reported across the rest of your responses regarding action in your value chain.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Response row",
+      "titleKo": "응답 행"
+    }
+  ],
+  "columns": [
+    {
+      "code": "1.24.1",
+      "text": "Value chain mapped",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes, we have mapped or are currently in the process of mapping our value chain",
+        "No, but we plan to do so within the next two years",
+        "No, and we do not plan to do so within the next two years"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "가치사슬 mapped",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬",
+        "No, but we plan to do so within the next two years",
+        "No, 및 we do not plan to do so within the next two years"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "1.24.2",
+      "text": "Value chain stages covered in mapping",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Upstream value chain",
+        "Downstream value chain",
+        "Portfolio"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "가치사슬 stages covered in mapping",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "업스트림 가치사슬",
+        "다운스트림 가치사슬",
+        "포트폴리오"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "1.24.3",
+      "text": "Highest supplier tier mapped",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Tier 1 suppliers",
+        "Tier 2 suppliers",
+        "Tier 3 suppliers",
+        "Tier 4+ suppliers"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Highest supplier tier mapped",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Tier 1 suppliers",
+        "Tier 2 suppliers",
+        "Tier 3 suppliers",
+        "Tier 4+ suppliers"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "1.24.4",
+      "text": "Highest supplier tier known but not mapped",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Tier 1 suppliers",
+        "Tier 2 suppliers",
+        "Tier 3 suppliers",
+        "Tier 4+ suppliers",
+        "All supplier tiers known have been mapped"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Highest supplier tier known but not mapped",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Tier 1 suppliers",
+        "Tier 2 suppliers",
+        "Tier 3 suppliers",
+        "Tier 4+ suppliers",
+        "All supplier tiers known have been mapped"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "1.24.5",
+      "text": "Portfolios covered in mapping",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Banking (Bank)",
+        "Investing (Asset manager)",
+        "Investing (Asset owner)",
+        "Insurance underwriting (Insurance company)"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "포트폴리오s covered in mapping",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Banking (Bank)",
+        "Investing (Asset manager)",
+        "Investing (Asset owner)",
+        "Insurance underwriting (Insurance company)"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "1.24.7",
+      "text": "Description of mapping process and coverage",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Description of mapping 프로세스 및 coverage",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "1.24.8",
+      "text": "Primary reason for not mapping your upstream value chain or any value chain stages",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Lack of internal resources, capabilities, or expertise (e.g., due to organization size)",
+        "No standardized procedure",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant or not relevant",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "주된 이유 for not mapping your 업스트림 가치사슬 또는 하나 이상 가치사슬 stages",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Lack of internal resources, capabilities, 또는 expertise (e.g., due to organization size)",
+        "No standardized 절차",
+        "Not an immediate strategic priority",
+        "Judged to be unimportant 또는 not relevant",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "1.24.9",
+      "text": "Explain why your organization has not mapped its upstream value chain or any value chain stages",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "그 이유를 설명 귀사 has not mapped its 업스트림 가치사슬 또는 하나 이상 가치사슬 stages",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "Modified guidance",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "가이던스 수정"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nOrganizations may have multiple value chains related to different commodities or products. This question requests organizations to consider their upstream (e.g. suppliers') and downstream (e.g. customers') activities across all their value chains as an organization-wide value chain.\nWhen identifying your organization's suppliers, consider all entities who provide or sell raw materials, processed materials, and/or finished products or services to your organization.\nIf disclosing on forests, note that \"value chain mapping\" (the process of identifying stakeholders within your value chain, including where they operate and how they relate to each other) is related to but distinct from \"traceability\" (the ability to follow products through stages of the value chain). You can report details of your commodity traceability levels in question 8.8.\nValue chain stages covered in mapping (column 2) \nIf you are a financial services discloser, select \"Portfolio\" when referring to the companies and/or activities within your portfolio that you lend to, invest in, or insure. Select \"Upstream value chain\" when referring to your operational activities. This question asks whether you are aware of the different parts of your portfolio, where the companies operate and how they relate to each other.\nHighest supplier tier mapped (column 3) \nThis column only appears if you select \"Upstream value chain\" in column 2 \"Value chain stages covered in mapping\".\nSelect the highest supplier tier you have mapped or are currently mapping relating to any product or commodity across your portfolio. If your mapping exercise only includes some of your suppliers within a tier, you should still select this tier. For example, if you have mapped 100% of tier 1 suppliers, 50% of tier 2, and 0% of tier 3 and beyond, then select \"Tier 2\". You will then be able to indicate the percentage for each tier mapped in the following columns.\n\"Highest\" in the context of supplier tiers refers to the furthest tier away from your direct suppliers.\nHighest supplier tier known but not mapped (column 4) \nSelect the highest supplier tier in your upstream value chain that you are aware of or that you presume exists. This is applicable even if you have not mapped your upstream value chain, as you could still be aware that you have direct suppliers at a minimum if you purchase products from other organizations.\nSupplier tiers known but not mapped could also be based on your mapped suppliers' products, activities, sectors, etc.\nFor example, an organization has mapped their tier 1 suppliers. They determine that one of their tier 1 suppliers does not produce the raw materials used in the product they buy. Instead, the supplier procures it from another company. In this case, although the organization has not yet mapped suppliers beyond tier 1, they are aware that tier 2 suppliers must exist, at a minimum. Therefore, the organization would select \"Tier 1 suppliers\" in column 3 \"Highest supplier tier mapped\" and \"Tier 2 suppliers\" in this column.\nIf you select \"Upstream value chain\" in column 2 \"Value chain stages covered in mapping\", the option \"All supplier tiers known have been mapped\" will be presented:\nSelect this option if you have mapped or are in the process of mapping all known supplier tiers for your \"Upstream value chain\".\nOnly select this option if you do not have additional tiers in your upstream value chains beyond those reported as mapped.\nSmallholder inclusion in mapping (column 6) \nThis column only appears if you are disclosing on Forests and \"Upstream value chain\" is selected in column 2 \"Value chain stages covered in mapping\". If you are disclosing on multiple themes, you are only required to report information about smallholders included in your forests-related value chain mapping.\nSelect \"Smallholders relevant and included\" if your organization sources from smallholders and they are included in your upstream value chain mapping.\nSmallholders that you engage with but do not source from can also be relevant to your value chain if your engagement proves to be mutually beneficial to the smallholders and your organization (i.e., through providing benefits and positive incentives to smallholders while enabling your organization to fulfil its supply chain commitments and secure adequate volumes of responsibly produced commodities).\nIf you consider smallholders that you do not source from relevant to your value chain and include them in your value chain mapping, select \"Smallholders relevant and included\".\nIf they are relevant but not included in your value chain mapping, and neither are any of the smallholders you source from, select \"Smallholders relevant but not included\".\nDescription of mapping process and coverage (column 7) \nProvide a description of your organization's mapping process, including, for example:\nThe type of information that has been collected;\nThe tools and methods used; and\nThe coverage of your mapping (i.e., whether it is full or partial).",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Organizations may have multiple 가치사슬s related to different commodities 또는 products. This 문항 requests organizations to consider their upstream (e.g. suppliers') 및 downstream (e.g. customers') activities across all their 가치사슬s as an organization-wide 가치사슬. 경우 identifying 귀사의 suppliers, consider all entities who provide 또는 sell raw materials, 프로세스ed materials, 및/또는 finished products 또는 services to 귀사. 만약 disclosing on forests, note that \"가치사슬 mapping\" (the 프로세스 of identifying stakeholders within your 가치사슬, 포함 여기서 they operate 및 how they relate to each other) is related to but distinct from \"traceability\" (the ability to follow products through stages 의 가치사슬). You can report details of your commodity traceability levels in 문항 8.8. 가치사슬 stages covered in mapping (열 2) 만약 you are a financial services discloser, select \"포트폴리오\" 경우 referring to the companies 및/또는 activities within your 포트폴리오 that you lend to, invest in, 또는 insure. Select \"업스트림 가치사슬\" 경우 referring to your operational activities. This 문항 asks whether you are aware 의 different parts of your 포트폴리오, 여기서 the companies operate 및 how they relate to each other. Highest supplier tier mapped (열 3) This 열 only appears 만약 you select \"업스트림 가치사슬\" in 열 2 \"가치사슬 stages covered in mapping\". Select the highest supplier tier you have mapped 또는 are currently mapping relating to 하나 이상 product 또는 commodity across your 포트폴리오. 만약 your mapping exercise only includes some of your suppliers within a tier, you 해야 합니다 still select this tier. For example, 만약 you have mapped 100% of tier 1 suppliers, 50% of tier 2, 및 0% of tier 3 및 beyond, then select \"Tier 2\". You will then be able to indicate the percentage for each tier mapped in the following 열. \"Highest\" in the context of supplier tiers refers to the furthest tier away from your direct suppliers. Highest supplier tier known but not mapped (열 4) Select the highest supplier tier in your 업스트림 가치사슬 that you are aware of 또는 that you presume exists. This is 해당되는 경우 even 만약 you have not mapped your 업스트림 가치사슬, as you could still be aware that you have direct suppliers at a minimum 만약 you purchase products from other organizations. Supplier tiers known but not mapped could also be based on your mapped suppliers' products, activities, sectors, etc. For example, an organization has mapped their tier 1 suppliers. They determine that one 의ir tier 1 suppliers does not produce the raw materials used in the product they buy. Instead, the supplier procures it from another company. In this case, although the organization has not yet mapped suppliers beyond tier 1, they are aware that tier 2 suppliers 해야 합니다 exist, at a minimum. Therefore, the organization would select \"Tier 1 suppliers\" in 열 3 \"Highest supplier tier mapped\" 및 \"Tier 2 suppliers\" in this 열. 만약 you select \"업스트림 가치사슬\" in 열 2 \"가치사슬 stages covered in mapping\", the option \"All supplier tiers known have been mapped\" will be presented: Select this option 만약 you have mapped 또는 are in the 프로세스 of mapping all known supplier tiers 귀사의 \"업스트림 가치사슬\". Only select this option 만약 you do not have additional tiers in your 업스트림 가치사슬s beyond those 보고 as mapped. Smallholder inclusion in mapping (열 6) This 열 only appears 만약 you are disclosing on Forests 및 \"업스트림 가치사슬\" is 선택 in 열 2 \"가치사슬 stages covered in mapping\". 만약 you are disclosing on multiple themes, you are only required to report information about smallholders included in your forests-related 가치사슬 mapping. Select \"Smallholders relevant 및 included\" 만약 귀사 sources from smallholders 및 they are included in your 업스트림 가치사슬 mapping. Smallholders that you engage with but do not source from can also be relevant to your 가치사슬 만약 your engagement proves to be mutually beneficial to the smallholders 및 귀사 (i.e., through providing benefits 및 positive 인센티브 to smallholders while enabling 귀사 to fulfil its 공급망 commitments 및 secure adequate volumes of responsibly produced commodities). 만약 you consider smallholders that you do not source from relevant to your 가치사슬 및 include them in your 가치사슬 mapping, select \"Smallholders relevant 및 included\". 만약 they are relevant but not included in your 가치사슬 mapping, 및 neither are 하나 이상 의 smallholders you source from, select \"Smallholders relevant but not included\". Description of mapping 프로세스 및 coverage (열 7) Provide a description of 귀사의 mapping 프로세스, 포함, for example: The type of information that has been collected; The tools 및 methods used; 및 The coverage of your mapping (i.e., whether it is full 또는 partial)."
+    },
+    {
+      "type": "Ambition",
+      "text": "Organizations have knowledge of the actors in their value chain and the relations between them, to effectively identify, assess and manage their environmental dependencies, impacts, risks, and opportunities.",
+      "typeKo": "Ambition",
+      "textKo": "Organizations have knowledge 의 actors in their 가치사슬 및 the relations between them, to effectively identify, assess 및 manage their 환경 의존성, 임팩트, 리스크 및 기회."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Downstream value chain : the activities, sites, resources, relationships, and stakeholders which receive products and/or services from your organization. The downstream value chain varies depending on the nature of the business but may include customers, distributors, logistics providers, and packaging suppliers (adapted from ESRS, 2023 ). \nSmallholder: small-scale agricultural or forest products producers that are distinct from larger-scale producers found in similar contexts by virtue of many or all of the following characteristics: \nHigh degree of dependence on family labor. \nProfits accrue primarily to the farm/forest owner and their family. \nThe farm/forest provides a primary source of income livelihood for the smallholder. \nProduction units have a relatively small land footprint (relative to the range of production unit sizes for the given commodity and region). \nHousehold resources are allocated to both food crops and cash crops. \nRelatively low use of agricultural inputs and generally low productivity and yields. \nSignificant economic constraints, such as lack of capital assets and low access to finance. \nSignificant information constraints, including lack of technical knowledge and low access to market information (adapted from  AFi, 2024 ). \nSupplier: an entity upstream from the reporting organization that provides or sells raw materials, processed materials, finished products or services to the reporting organization (adapted from GHG, 2013 ; ESRS, 2023 )\nTier 1 supplier (also referred to as \"direct supplier\"): a supplier that provides or sells products directly to the reporting organization ( GHG Protocol, 2013 ). \nTier 2, 3, or 4+ supplier: a\nsupplier that provides or sells products to the suppliers of the reporting organization ( GHG Protocol, 2013 ). \nUpstream value chain (also referred to as \"supply chain\"): the activities, sites, resources, relationships, and stakeholders that provide products and/or services to your organization. This typically involves activities early in the value chain, such as production or development. The upstream value chain varies depending on the nature of the business but may include raw material, component, or equipment suppliers (adapted from ESRS, 2023 ). \nValue chain mapping:  the process of understanding the flow of activities, processes, and value creation within an organization. It involves identifying actors in the value chain, locating where they operate, and understanding the relationships between them (adapted from  AFi, 2024 ). \nValue chain: the entire sequence of upstream and downstream activities, sites, resources, and relationships associated with the reporting organization's operations, starting with the raw materials and extending through end-of-life management, and aimed at providing or receiving value from an organization's products and services within, upstream, or downstream of direct operations (adapted from GHG Protocol, 2013 ; ESRS, 2023 ; SBTN, 2023 ).",
+      "typeKo": "Explanation of Terms",
+      "textKo": "다운스트림 가치사슬 : the activities, sites, resources, relationships, 및 stakeholders which receive products 및/또는 services from 귀사. The 다운스트림 가치사슬 varies depending on the nature 의 business but may include customers, distributors, logistics providers, 및 packaging suppliers (adapted from ESRS, 2023 ). Smallholder: small-scale agricultural 또는 forest products producers that are distinct from larger-scale producers found in similar contexts by virtue of many 또는 all 의 following characteristics: High degree of dependence on family labor. Profits accrue primarily to the farm/forest owner 및 their family. The farm/forest provides a primary source of income livelihood 에 대한 smallholder. Production units have a relatively small land footprint (relative to the range of production unit sizes 에 대한 given commodity 및 region). Household resources are allocated to both food crops 및 cash crops. Relatively low use of agricultural inputs 및 generally low productivity 및 yields. Significant economic constraints, such as lack of capital assets 및 low access to finance. Significant information constraints, 포함 lack of technical knowledge 및 low access to market information (adapted from AFi, 2024 ). Supplier: an entity upstream from the reporting organization that provides 또는 sells raw materials, 프로세스ed materials, finished products 또는 services to the reporting organization (adapted from GHG, 2013 ; ESRS, 2023 ) Tier 1 supplier (also referred to as \"direct supplier\"): a supplier that provides 또는 sells products directly to the reporting organization ( GHG Protocol, 2013 ). Tier 2, 3, 또는 4+ supplier: a supplier that provides 또는 sells products to the suppliers 의 reporting organization ( GHG Protocol, 2013 ). 업스트림 가치사슬 (also referred to as \"공급망\"): the activities, sites, resources, relationships, 및 stakeholders that provide products 및/또는 services to 귀사. This typically involves activities early in the 가치사슬, such as production 또는 development. The 업스트림 가치사슬 varies depending on the nature 의 business but may include raw material, component, 또는 equipment suppliers (adapted from ESRS, 2023 ). 가치사슬 mapping: the 프로세스 of understanding the flow of activities, 프로세스es, 및 value creation within an organization. It involves identifying actors in the 가치사슬, locating 여기서 they operate, 및 understanding the relationships between them (adapted from AFi, 2024 ). 가치사슬: the entire sequence of upstream 및 downstream activities, sites, resources, 및 relationships associated with the reporting 조직의 operations, starting with the raw materials 및 extending through end-of-life management, 및 aimed at providing 또는 receiving value from an 조직의 제품 및 서비스 within, upstream, 또는 downstream of 직접 운영사업장 (adapted from GHG Protocol, 2013 ; ESRS, 2023 ; SBTN, 2023 )."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "1 or 2/2",
+      "M": "0/0",
+      "L": "1/1",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Points will be awarded per completed cell in proportion to the number of cells displayed (excluding column 'Smallholder inclusion in mapping').\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Smallholder inclusion in mapping'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Full Disclosure points must be awarded to be eligible for Awareness points.\nROUTE A)\n'Yes, we have mapped or are currently in the process of mapping our value chain' selected in column 'Value chain mapped' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\n'No, but we plan to do so within the next two years' selected in column 'Value chain mapped' - 1/2 points\nA maximum of 1/2 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Awareness 점수를 획득하려면 Disclosure에서 최고점을 획득해야 합니다. 경로 A) 'Yes, we have mapped 또는 are currently in the 프로세스 of mapping our 가치사슬' 선택 in 열 '가치사슬 mapped' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, but we plan to do so within the next two years' 선택 in 열 '가치사슬 mapped' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Awareness points must be awarded to be eligible for Leadership points.\n‘Upstream value chain' selected in column ‘Value chain stages covered in mapping' - 1 point\nA maximum of 1/1 point is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. ‘업스트림 가치사슬' 선택 in 열 ‘가치사슬 stages covered in mapping' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Has your organization mapped its value chain?",
+    "q2025": "Q1.24",
+    "q2025_text": "Has your organization mapped its value chain?",
+    "change_status": "Modified guidance",
+    "detail_change_types": "New guidance, New guidance, Change to conditional logic",
+    "changed_question": false,
+    "changed_response": true,
+    "changed_options": false,
+    "changed_guidance": true,
+    "changed_scoring": true,
+    "change_summary": "Added general guidance on what to consider when identifying suppliers. Added definition \"Supplier\".\nNew guidance added to clarify 'upstream value chain' for financial services organizations.\nAdded guidance to clarify when an organizaiton might have a supplier tier known but not mapped.\nConditional logic fix - column is presented if any option is selected in column 1 \"Value chain mapped\"",
+    "scoring_change_summary": "CC/W All sectors excluding Financial services Leadership • New Leadership criteria introduced to assess column ‘Value chain stages covered in mapping'. • Please note this change has not been applied to Financial services organizations. Criteria modified to increase ambition and incentivise organizations to map their upstream value chain, to improve identification of dependencies, impacts, risks and opportunities in an organization's indirect operations.",
+    "daml_summary": "General: D 5/5 | A 1 or 2/2 | M 0/0 | L 1/1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "가이던스 수정",
+    "detail_change_typesKo": "신규 가이던스, 신규 가이던스, 조건부 표시 로직 변경",
+    "change_summaryKo": "Added general guidance on what to consider 경우 identifying suppliers. Added definition \"Supplier\". New guidance added to clarify '업스트림 가치사슬' for financial services organizations. Added guidance to clarify 경우 an organizaiton might have a supplier tier known but not mapped. Conditional logic fix - 열 is presented 만약 하나 이상 option is 선택 in 열 1 \"가치사슬 mapped\"",
+    "scoring_change_summaryKo": "CC/W All sectors 제외 Financial services Leadership • New Leadership criteria introduced to assess 열 ‘가치사슬 stages covered in mapping'. • Please note this change has not been applied to Financial services organizations. Criteria modified to increase ambition 및 incentivise organizations to map their 업스트림 가치사슬, to improve identification of dependencies, impacts, 리스크 및 기회 in an 조직의 in직접 운영사업장.",
+    "daml_summaryKo": "일반: D 5/5 | A 1 또는 2/2 | M 0/0 | L 1/1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "Has 귀사 mapped its 가치사슬?"
+  },
+  "defaultPoints": {
+    "D": "5/5",
+    "A": "1 or 2/2",
+    "M": "0/0",
+    "L": "1/1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "소개",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, 해양, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "This 문항 allows 데이터 사용자 to understand the extent to which 귀사 has visibility into different parts of its 가치사슬, to facilitate activities such as effective risk management, traceability, 및 supplier engagement. Additionally, responses to this 문항 will help 데이터 사용자 interpret the supplier coverage 보고 across the rest of your responses regarding action in your 가치사슬.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

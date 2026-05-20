@@ -1,0 +1,340 @@
+{
+  "code": "5.14.1",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Provide details of the environmental requirements that external asset managers have to meet as part of your organization's selection process and engagement.",
+  "questionKo": "the environmental requirements that 외부 자산운용사 have to meet as part of 귀사의 selection 프로세스 및 engagement.에 대한 세부 정보를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Water, Climate Change, Forests",
+  "sectorTags": "Financial services",
+  "simpleHelp": "For asset owners and managers working with external funds (third parties), the external asset managers have a significant effect on investment strategies and objectives. Including environmental requirements into the selection of and engagement with external asset managers ensures that these investment strategies and objectives are aligned with the organization's business strategy.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.14.1.1",
+      "text": "Environmental issues covered by the requirement",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Climate change",
+        "Water"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Environmental issues covered by the requirement",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "기후변화",
+        "수자원"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.14.1.2",
+      "text": "Coverage",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "All assets managed externally",
+        "Majority of assets managed externally",
+        "Minority of assets managed externally"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Coverage",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "All assets managed externally",
+        "Majority of assets managed externally",
+        "Minority of assets managed externally"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.14.1.3",
+      "text": "Environmental requirement that external asset managers have to meet",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Committing to net-zero emissions by 2050",
+        "Having a transition plan, which is aligned with a 1.5°C world",
+        "Membership/signatory of a sustainable finance initiative(s) and/or alliance(s)",
+        "Offering environmentally sustainable products and services",
+        "Setting environmental target(s)",
+        "Setting science-based target(s)",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Environmental requirement that 외부 자산운용사 have to meet",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Committing to net-zero emissions by 2050",
+        "Having a 전환계획, which is aligned with a 1.5°C world",
+        "Membership/signatory of a sustainable finance 이니셔티브(s) 및/또는 alliance(s)",
+        "Offering environmentally sustainable 제품 및 서비스",
+        "Setting environmental 목표(s)",
+        "Setting science-based 목표(s)",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.14.1.4",
+      "text": "Mechanisms used to include environmental requirement in external asset manager selection",
+      "type": "MULTI_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Include environmental requirements in requests for proposals",
+        "Preference for investment managers with an offering of funds resilient to environmental issues",
+        "Include environmental requirements in investment mandates",
+        "Include environmental requirements in performance indicators and incentive structures",
+        "Review investment manager's environmental performance (e.g., active ownership, proxy voting records, under-weighting in high impact activities)",
+        "Review investment manager's environmental policies",
+        "Publish requirements of external investment managers in relation to environmental issues",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Mechanisms used to include environmental requirement in external asset manager selection",
+      "typeKo": "복수 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Include environmental requirements in requests for proposals",
+        "Preference for investment managers with an offering of funds resilient to environmental issues",
+        "Include environmental requirements in investment mandates",
+        "Include environmental requirements in performance indicators 및 incentive structures",
+        "Review investment manager's environmental performance (e.g., active ownership, proxy voting records, under-weighting in high impact activities)",
+        "Review investment manager's environmental policies",
+        "Publish requirements of external investment managers in relation to environmental issues",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.14.1.5",
+      "text": "Response to external asset manager non-compliance with environmental requirement",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Exclude",
+        "No response",
+        "Suspend and engage",
+        "Retain and engage",
+        "Other, please specify"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Response to external asset manager non-compliance with environmental requirement",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Exclude",
+        "No response",
+        "Suspend 및 engage",
+        "Retain 및 engage",
+        "기타, 직접 입력"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.14.1.6",
+      "text": "% of non-compliant external asset managers engaged",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "None",
+        "Less than 1%",
+        "1-25%",
+        "26-50%",
+        "51-75%",
+        "76-99%",
+        "100%",
+        "Unknown"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "% of non-compliant 외부 자산운용사 engaged",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "없음",
+        "미만 1%",
+        "1-25%",
+        "26-50%",
+        "51-75%",
+        "76-99%",
+        "100%",
+        "Unknown"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in column 1 \"External asset managers have to meet specific environmental requirements as part of the selection process and engagement\" of 5.14.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes\" in 열 1 \"외부 자산운용사 have to meet specific environmental requirements 의 일부로 the selection 프로세스 및 engagement\" of 5.14."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nAdd rows if the requirements that external asset managers have to meet differ between environmental issues or if you do not use the same mechanisms for all your assets managed externally.\nResponse to external asset manager non-compliance with environmental requirement (column 5) \nSelect the most relevant procedure your organization has in place for responding to non-compliant external asset managers. Further details on each of the options are provided below:\nExclude : Select this option if you end a relationship with an external asset manager (in the case of a prior or ongoing relationship). This option is also applicable if you do not establish a relationship because of the external asset manager's unwillingness to comply with the environmental requirement.\nNo response: Select this option if you do not have a procedure for responding to non-compliant external asset managers.\nSuspend and engage : Select this option if you temporarily do not use the external asset manager service but continue to engage with the external asset manager to resolve the non-compliance.\nRetain and engage : Select this option if you continue to use the external asset manager service while engaging with the external asset manager to resolve the non-compliance.\nOther, please specify : Select this option if your response to external asset manager non-compliance with environmental requirements is not on the list and provide a label.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Add 행 만약 the requirements that 외부 자산운용사 have to meet differ between environmental issues 또는 만약 you do not use the same mechanisms for all your assets managed externally. Response to external asset manager non-compliance with environmental requirement (열 5) Select the most relevant 절차 귀사 has in place for responding to non-compliant 외부 자산운용사. Further details on each 의 options are 입력 below: Exclude : Select this option 만약 you end a relationship with an external asset manager (in the case of a prior 또는 ongoing relationship). This option is also 해당되는 경우 만약 you do not establish a relationship because 의 external asset manager's unwillingness to comply with the environmental requirement. No response: Select this option 만약 you do not have a 절차 for responding to non-compliant 외부 자산운용사. Suspend 및 engage : Select this option 만약 you temporarily do not use the external asset manager service but continue to engage with the external asset manager to resolve the non-compliance. Retain 및 engage : Select this option 만약 you continue to use the external asset manager service while engaging with the external asset manager to resolve the non-compliance. Other, 직접 입력 : Select this option 만약 your response to external asset manager non-compliance with environmental requirements is not on the list 및 provide a label."
+    },
+    {
+      "type": "Ambition",
+      "text": "Investors include environmental requirements in the selection process and engagement with external asset managers.\nWhere relevant, the entity discloses its approach to incorporation of environmental issues in external investment management practices: in selecting external fund managers and fiduciary managers and oversight/accountability approach to assessing the quality of incorporation.",
+      "typeKo": "Ambition",
+      "textKo": "Investors include environmental requirements in the selection 프로세스 및 engagement with 외부 자산운용사. 여기서 relevant, the entity discloses its approach to incorporation of environmental issues in external investment management practices: in selecting external fund managers 및 fiduciary managers 및 oversight/accountability approach to assessing the quality of incorporation."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "3/3",
+      "A": "1/1",
+      "M": "2/2",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issues covered by the requirement':\nPoints will be awarded per completed cell in proportion to the number of rows disclosed. Partially completed rows will not receive full points.\nA maximum of 3/3 points is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate Change' NOT selected in column 'Environmental issues covered by the requirement' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered by the requirement': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issues covered by the requirement' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "The following conditions must be met to be eligible for Awareness points:\n''Climate Change' selected in column 'Environmental issues covered by the requirement' in at least one row AND\nFull Disclosure points awarded.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered by the requirement':\nAny option excluding 'Other, please specify' selected in column 'Mechanisms used to include environmental requirement...' - 1 point\nA maximum of 1/1 point is available for this question.\nOne row scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Awareness 점: ''기후변화' 선택 in 열 'Environmental issues covered by the requirement' in 최소 one 행 그리고 Disclosure에서 최고점 획득. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered by the requirement': 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Mechanisms used to include environmental requirement...' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "The following conditions must be met to be eligible for Management points:\n'Climate change' selected in column 'Environmental issues covered by the requirement' in at least one row AND\nFull Awareness points awarded.\nFor rows where 'Climate change' is selected in column 'Environmental issues covered by the requirement':\ni) Either 'All assets managed externally' OR 'Majority of assets managed externally' selected in column 'Coverage' in all rows - 1 point\nii) Any option excluding 'No response' selected in column 'Response to external asset manager non-compliance with environmental requirements' - 1 point\nA maximum of 2/2 points is available for this question.\nOne row scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for Management 점: '기후변화' 선택 in 열 'Environmental issues covered by the requirement' in 최소 one 행 그리고 Awareness에서 최고점 획득. For 행 여기서 '기후변화' is 선택 in 열 'Environmental issues covered by the requirement': i) Either 'All assets managed externally' 또는 'Majority of assets managed externally' 선택 in 열 'Coverage' in all 행 - 1 점 ii) 하나 이상 option 제외 'No response' 선택 in 열 'Response to external asset manager non-compliance with environmental requirements' - 1 점 이 문항에서 획득 가능한 최고점은 2/2점입니다. One 행 scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Provide details of the environmental requirements that external asset managers have to meet as part of your organization's selection process and engagement.",
+    "q2025": "Q5.14.1",
+    "q2025_text": "Provide details of the environmental requirements that external asset managers have to meet as part of your organization's selection process and engagement.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Financial services: D 3/3 | A 1/1 | M 2/2 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Financial services: D 3/3 | A 1/1 | M 2/2 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "the environmental requirements that 외부 자산운용사 have to meet 의 일부로 귀사의 selection 프로세스 및 engagement.에 대한 세부 정보를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "3/3",
+    "A": "1/1",
+    "M": "2/2",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "수자원, Climate Change, 산림",
+  "sectorTagsKo": "금융 서비스",
+  "simpleHelpKo": "For asset owners 및 managers working with external funds (third parties), the 외부 자산운용사 have a significant effect on investment strategies 및 objectives. Including environmental requirements into the selection of 및 engagement with 외부 자산운용사 ensures that these investment strategies 및 objectives are aligned with the 조직의 사업전략.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

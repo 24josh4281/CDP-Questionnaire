@@ -1,0 +1,294 @@
+{
+  "code": "5.5.4",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Provide details of your organization's investments in low-carbon R&D for metals and mining production activities over the last three years.",
+  "questionKo": "귀사의 investments in 저탄소 R&D for 금속 및 광업 생산 활동 over the last three years.에 대한 세부 정보를 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Metals & mining",
+  "simpleHelp": "Actions being taken by high intensity sectors are key in the transition to a low-carbon economy. Specifically, the level of investments in low-carbon R&D provides an indication of the level to which future earning capacity of core business might be affected, and the extent to which future resilience to climate-related issues can be incorporated in businesses.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Row 1",
+      "titleKo": "행 1"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.5.4.1",
+      "text": "Technology area",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Alternative fuels",
+        "Control systems",
+        "High temperature heating",
+        "Inert smelting anodes",
+        "Low-to-medium temperature heating",
+        "Metal recycling",
+        "Other, please specify",
+        "Unable to disaggregate by technology area"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Technology area",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Alternative fuels",
+        "Control systems",
+        "High temperature heating",
+        "Inert smelting anodes",
+        "Low-to-medium temperature heating",
+        "Metal recycling",
+        "기타, 직접 입력",
+        "Unable to disaggregate by technology area"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.5.4.2",
+      "text": "Stage of development in the reporting year",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Basic academic/theoretical research",
+        "Applied research and development",
+        "Pilot demonstration",
+        "Full/commercial-scale demonstration",
+        "Small scale commercial deployment",
+        "Large scale commercial deployment"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Stage of development in the 보고연도",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "Basic academic/theoretical research",
+        "Applied research 및 development",
+        "Pilot demonstration",
+        "Full/commercial-scale demonstration",
+        "Small scale commercial deployment",
+        "Large scale commercial deployment"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.5.4.3",
+      "text": "Average % of total R&D investment over the last 3 years",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Average % of total R&D investment over the last 3 years",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.5.4.4",
+      "text": "R&D investment figure in the reporting year (unit currency as selected in 1.2) (optional)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "R&D investment figure in the 보고연도 (unit currency as 선택 in 1.2) (optional)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.5.4.5",
+      "text": "Average % of total R&D investment planned over the next 5 years",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Average % of total R&D investment planned over the next 5 years",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.5.4.6",
+      "text": "Explain how your R&D investment in this technology area is aligned with your climate commitments and/or climate transition plan",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Explain how your R&D investment in this technology area is aligned with your climate commitments 및/또는 기후 전환계획",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Question Dependencies",
+      "text": "This question only appears if you select \"Yes\" in response to 5.5.",
+      "typeKo": "문항 Dependencies",
+      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 5.5."
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nDepending on the financial accounting standard your organization adheres to, R&D investment may be calculated from your organization's CAPEX or OPEX. Organizations may also invest in R&D via acquisitions.\nTechnology area (column 1) \nSelect the option that best describes the technology area that the investment relates to from the list of options provided, which have been developed using the IEA Energy Perspectives (ETP) Clean Energy Technology Guide . Refer to the guide for examples of technologies which can be categorized under each technology area.\nIf the investment you are disclosing does not fall into any of the technology areas provided, select \"Other, please specify\".\nIf you invest in low-carbon R&D relating to multiple technologies, please provide data for each investment separately by adding one row per technology area.\nIf you invest in low-carbon R&D but are unable to provide details relating to a specific technology area, select \"Unable to disaggregate by technology area\" and provide further details in column \"Explain how…\".\nStage of development in the reporting year (column 2) \nSelect the option that best describes the stage of development of the low-carbon technology the investment relates to in the reporting year.\nThis column will not appear if \"Unable to disaggregate by technology area\" is selected in the previous column.\nAverage % of total R&D investment over the last 3 years (column 3) \nEnter the percentage of investment in low-carbon R&D relating to the selected technology area as an average proportion of your total R&D spend over the last 3 years.\nIf you are unable to disaggregate your investments by technology area, you should enter the percentage of your total investment in low-carbon R&D as an average proportion of your total R&D spend over the last 3 years.\nThis figure can be calculated with the following formula, where X is your reporting year:\n(( investment in year X + investment in year X-1 + investment in year X-2 ) / (total R&D in year X + total R&D in year X-1 + total R&D in year X-2 )) x 100\nThe sum of figures entered in this column for all rows should not exceed 100%.\nR&D investment figure in the reporting year (optional) (column 4) \nIf you wish to provide the low-carbon R&D investment figure in the reporting year relating to the technology area (or overall if unable to disaggregate), you can do so in this column. This is optional.\nAverage % of total R&D investment planned over the next 5 years (column 5) \nEnter the low-carbon R&D investment figure planned for the selected technology area as a percentage of your organization's total R&D investment planned over the next 5 years.\nThis figure can be calculated with the following formula, where X is your reporting year:\n((((planned investment in year X + 1) + (planned investment in year X + 2) + (planned investment in year X + 3) + (planned investment in year X + 4) + (planned investment in year X + 5)) / ((total planned R&D in year X + 1) + (total planned R&D in year X + 2) + (total planned R&D in year X + 3) + (total planned R&D in year X + 4) + (total planned R&D in year X+5)))) x 100\nThe sum of figures entered in this column for all rows should not exceed 100%.\nIf you do not have any low-carbon R&D investment planned over the next 5 years for the selected technology area, enter \"0\" in this column.\nIt is acknowledged that the figure entered for this column will be estimates. You may, for example, estimate planned low-carbon R&D investment for a technology area based on your organization's strategy, financial planning, and/or climate transition plan. Assumptions underlying these estimates should be disclosed in the final column \"Explain how…\". \nIf you are unable to disaggregate your investments by technology area, enter the percentage that best represents your total planned investment in low-carbon R&D as a percentage of your organization's total R&D investment planned over the next 5 years.\nNote that \"the next 5 years\" start from the end of the reporting year as reported in 1.4 e.g. if your reporting year in1.4 is from 01/01/2022 to 31/12/2022, then the next 5 years will be from 01/01/2023 to 31/12/2027.\nExplain how your R&D investment in this technology area is aligned with your climate commitments and/or climate transition plan (column 6) \nFor example, if relevant, explain how the technology area your organization has invested in is key to your sector's transition to net-zero emissions by 2050 or earlier, and/or how it relates to key performance indicators within your climate transition plan. Explain why your organization has chosen to invest in this low-carbon technology area over other technologies relevant to your sector.\nYou may also wish to provide further details of your investments in low-carbon R&D, their trend, and any other pertinent information relating to the technology.\nIf you are unable to disclose investments relating to specific low-carbon technologies, you may wish to explain your organization's general approach to low-carbon R&D and how it relates to your climate commitments and/or, if relevant, your organization's climate transition plan in this column.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Depending on the financial accounting standard 귀사 adheres to, R&D investment may be calculated from 귀사의 자본지출(CAPEX) 또는 운영비용(OPEX). Organizations may also invest in R&D via acquisitions. Technology area (열 1) Select the option that best 설명s the technology area that the investment relates to from the list of options 입력, which have been developed using the IEA Energy Perspectives (ETP) Clean Energy Technology Guide . Refer to the guide for examples of technologies which can be categorized under each technology area. 만약 the investment you are disclosing does not fall into 하나 이상 의 technology areas 입력, select \"Other, 직접 입력\". 만약 you invest in 저탄소 R&D relating to multiple technologies, please provide data for each investment separately by adding one 행 per technology area. 만약 you invest in 저탄소 R&D but are unable to 세부 정보를 입력 relating to a specific technology area, select \"Unable to disaggregate by technology area\" 및 provide further details in 열 \"Explain how…\". Stage of development in the 보고연도 (열 2) Select the option that best 설명s the stage of development 의 low-carbon technology the investment relates to in the 보고연도. This 열 will not appear 만약 \"Unable to disaggregate by technology area\" is 선택 in the previous 열. Average % of total R&D investment over the last 3 years (열 3) Enter the percentage of investment in 저탄소 R&D relating to the 선택 technology area as an average proportion of your total R&D spend over the last 3 years. 만약 you are unable to disaggregate your investments by technology area, you 해야 합니다 enter the percentage of your total investment in 저탄소 R&D as an average proportion of your total R&D spend over the last 3 years. This figure can be calculated with the following formula, 여기서 X is your 보고연도: (( investment in year X + investment in year X-1 + investment in year X-2 ) / (total R&D in year X + total R&D in year X-1 + total R&D in year X-2 )) x 100 The sum of figures entered in this 열 for all 행 해야 합니다 not exceed 100%. R&D investment figure in the 보고연도 (optional) (열 4) 만약 you wish to provide the 저탄소 R&D investment figure in the 보고연도 relating to the technology area (or overall 만약 unable to disaggregate), you can do so in this 열. This is optional. Average % of total R&D investment planned over the next 5 years (열 5) Enter the 저탄소 R&D investment figure planned 에 대한 선택 technology area as a percentage of 귀사의 total R&D investment planned over the next 5 years. This figure can be calculated with the following formula, 여기서 X is your 보고연도: ((((planned investment in year X + 1) + (planned investment in year X + 2) + (planned investment in year X + 3) + (planned investment in year X + 4) + (planned investment in year X + 5)) / ((total planned R&D in year X + 1) + (total planned R&D in year X + 2) + (total planned R&D in year X + 3) + (total planned R&D in year X + 4) + (total planned R&D in year X+5)))) x 100 The sum of figures entered in this 열 for all 행 해야 합니다 not exceed 100%. 만약 you do not have 하나 이상 저탄소 R&D investment planned over the next 5 years 에 대한 선택 technology area, enter \"0\" in this 열. It is acknowledged that the figure entered for this 열 will be estimates. You may, for example, estimate planned 저탄소 R&D investment for a technology area based on 귀사의 strategy, 재무계획, 및/또는 기후 전환계획. Assumptions underlying these estimates 해야 합니다 be 공개 in the final 열 \"Explain how…\". 만약 you are unable to disaggregate your investments by technology area, enter the percentage that best represents your total planned investment in 저탄소 R&D as a percentage of 귀사의 total R&D investment planned over the next 5 years. Note that \"the next 5 years\" start from the end 의 보고연도 as 보고 in 1.4 e.g. 만약 your 보고연도 in1.4 is from 01/01/2022 to 31/12/2022, then the next 5 years will be from 01/01/2023 to 31/12/2027. Explain how your R&D investment in this technology area is aligned with your climate commitments 및/또는 기후 전환계획 (열 6) For example, 만약 relevant, explain how the technology area 귀사 has invested in is key to your sector's transition to net-zero emissions by 2050 또는 earlier, 및/또는 how it relates to key performance indicators within your 기후 전환계획. 그 이유를 설명 귀사 has chosen to invest in this low-carbon technology area over other technologies relevant to your sector. You may also wish to provide further details of your investments in 저탄소 R&D, their trend, 및 하나 이상 other pertinent information relating to the technology. 만약 you are unable to disclose investments relating to specific low-carbon technologies, you may wish to explain 귀사의 general approach to 저탄소 R&D 및 how it relates to your climate commitments and/or, 만약 relevant, 귀사의 기후 전환계획 in this 열."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Low-carbon product or service : CDP broadly defines a low-carbon product/service as a product or service which has comparatively lower emissions across its entire life cycle (i.e. from material acquisition through to product end-of-life) when compared to a baseline (business-as-usual) scenario or reference product of a similar function. Note that a product can only be considered low-carbon if its production and use does not prevent and/or contributes to reaching net-zero by 2050 or sooner. To define whether the product or service is low-carbon, CDP encourages the use of existing industry taxonomies and frameworks such as Climate Bonds Taxonomy , the IEA Energy Technology Perspectives (ETP) Clean Energy Technology Guide , and the EU Taxonomy for Environmentally Sustainable Economic Activities .\nResearch and development (R&D) : refers to activities companies undertake to innovate and introduce new products and services. It is often the first stage in the development process. Investment in R&D is a type of operating expense associated with the research and development of a company's goods or services.\nGreen metals : Advanced alloyed metals that provide improved properties that result in less mass of material required for the same application.\nWaste reprocessing : Refers to the use of mining waste as a feedstock for the production of valuable products",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Low-carbon product 또는 service : CDP broadly defines a low-carbon product/service as a product 또는 service which has comparatively lower emissions across its entire life cycle (i.e. from material acquisition through to product end-of-life) 경우 compared to a baseline (business-as-usual) scenario 또는 reference product of a similar function. Note that a product can only be considered low-carbon 만약 its production 및 use does not prevent 및/또는 contributes to reaching net-zero by 2050 또는 sooner. To define whether the product 또는 service is low-carbon, CDP encourages the use of existing industry taxonomies 및 frameworks such as Climate Bonds Taxonomy , the IEA Energy Technology Perspectives (ETP) Clean Energy Technology Guide , 및 the EU Taxonomy for Environmentally Sustainable Economic Activities . Research 및 development (R&D) : refers to activities companies undertake to innovate 및 introduce new 제품 및 서비스. It is often the first stage in the development 프로세스. Investment in R&D is a type of operating expense associated with the research 및 development of a company's goods 또는 services. Green metals : Advanced alloyed metals that provide improved properties that result in less mass of material required 에 대한 same application. Waste re프로세스ing : Refers to the use of mining waste as a feedstock 에 대한 production of valuable products"
+    }
+  ],
+  "points": [
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "5/5",
+      "A": "2/2",
+      "M": "1/1",
+      "L": "1/1",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Any option excluding 'Unable to disaggregate by technology area' must be selected in column 'Technology area' to be eligible for Disclosure points.\nPoints will be awarded per completed cell in proportion to the number of rows disclosed (excluding column 'R&D investment figure in the reporting year (unit currency as selected in 1.2) (optional)'). Partially completed rows will not receive full points.\nA maximum of 5/5 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "하나 이상 option 제외 'Unable to disaggregate by technology area' 해야 합니다 be 선택 in 열 'Technology area' to be 획득 가능 for Disclosure 점. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개 (제외 열 'R&D investment figure in the 보고연도 (unit currency as 선택 in 1.2) (optional)'). 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Table completed excluding column 'R&D investment figure in the reporting year (unit currency as selected in 1.2) (optional)' - 2 points\nA maximum of 2/2 points is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Table 완성 제외 열 'R&D investment figure in the 보고연도 (unit currency as 선택 in 1.2) (optional)' - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Full Awareness points must be awarded to be eligible for Management points.\nEither of the following are met - 1 point\nSum of figures provided in column 'Average % of total R&D investment planned over the next 5 years' in all rows is greater than sum of figures provided in column 'Average % of total R&D investment over the last 3 years' in all rows.\nOR\nSum of figures provided in column 'Average % of total R&D investment over the last 3 years' is 100%.\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Management 점수를 획득하려면 Awareness에서 최고점을 획득해야 합니다. Either 의 following are met - 1 점 Sum of figures 입력 in 열 'Average % of total R&D investment planned over the next 5 years' in all 행 is 초과 sum of figures 입력 in 열 'Average % of total R&D investment over the last 3 years' in all 행. 또는 Sum of figures 입력 in 열 'Average % of total R&D investment over the last 3 years' is 100%. 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Full Management points must be awarded to be eligible for Leadership points.\nAll of the following selected in column 'Stage of development in the reporting year' in any row - 1 point\n'Basic academic/theoretical research' OR 'Applied research and development' AND\n'Pilot demonstration' OR 'Full/commercial-scale demonstration' AND\n'Small scale commercial deployment' OR 'Large scale commercial deployment'\n(Please note: At least 3 rows must be reported to achieve 1 point)\nA maximum of 1/1 point is available for this question.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Leadership 점수를 획득하려면 Management에서 최고점을 획득해야 합니다. All 의 following 선택 in 열 'Stage of development in the 보고연도' in 하나 이상 행 - 1 점 'Basic academic/theoretical research' 또는 'Applied research 및 development' 그리고 'Pilot demonstration' 또는 'Full/commercial-scale demonstration' 그리고 'Small scale commercial deployment' 또는 'Large scale commercial deployment' (Please note: 최소 3 행 해야 합니다 be 보고 to achieve 1 점) 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Provide details of your organization's investments in low-carbon R&D for metals and mining production activities over the last three years.",
+    "q2025": "Q5.5.4",
+    "q2025_text": "Provide details of your organization's investments in low-carbon R&D for metals and mining production activities over the last three years.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": true,
+    "change_summary": "",
+    "scoring_change_summary": "CC Metals and mining Disclosure • Eligibility criteria added to require any option excluding 'Unable to disaggregate by technology area' must be selected in column 'Technology area'. Eligibility criteria have been added to align with scoring in 5.5.1 and 5.5.2.",
+    "daml_summary": "Metals & mining: D 5/5 | A 2/2 | M 1/1 | L 1/1",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "CC Metals 및 mining Disclosure • Eligibility criteria added to require 하나 이상 option 제외 'Unable to disaggregate by technology area' 해야 합니다 be 선택 in 열 'Technology area'. Eligibility criteria have been added to align with scoring in 5.5.1 및 5.5.2.",
+    "daml_summaryKo": "Metals & mining: D 5/5 | A 2/2 | M 1/1 | L 1/1",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 반영",
+    "review_statusEn": "Changed and reflected",
+    "q2025_textKo": "귀사의 investments in 저탄소 R&D for 금속 및 광업 생산 활동 over the last three years.에 대한 세부 정보를 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "5/5",
+    "A": "2/2",
+    "M": "1/1",
+    "L": "1/1"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "금속 및 광업",
+  "simpleHelpKo": "Actions being taken by high intensity sectors are key in the transition to a low-carbon economy. Specifically, the level of investments in 저탄소 R&D provides an indication 의 level to which future earning capacity of core business might be affected, 및 the extent to which future resilience to 기후 관련 이슈 can be incorporated in businesses.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

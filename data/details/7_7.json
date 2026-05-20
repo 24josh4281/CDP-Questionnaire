@@ -1,0 +1,1163 @@
+{
+  "code": "7.7",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "What were your organization's gross global Scope 2 emissions in metric tons CO2e?",
+  "questionKo": "귀사의 글로벌 총 Scope 2 배출량(metric tons CO2e)을 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Financial services, Oil & Gas, Coal, General, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Agricultural commodities, Transport OEMS, Energy utilities & power generators, Cement, Food, beverage & tobacco, Paper & forestry, Real estate, Construction",
+  "simpleHelp": "Reporting emissions is a pre-requisite to understanding and reducing negative environmental impacts. This question ensures organizations are measuring emissions from purchased or acquired electricity, steam, heat, and cooling.",
+  "popupHelp": "The end date for past year must be at least 365 days before the end date of the reporting year/previous past year.",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Reporting year",
+      "titleKo": "보고연도"
+    },
+    {
+      "order": 2,
+      "title": "Past year 1",
+      "titleKo": "Past year 1"
+    },
+    {
+      "order": 3,
+      "title": "Past year 2",
+      "titleKo": "Past year 2"
+    },
+    {
+      "order": 4,
+      "title": "Past year 3",
+      "titleKo": "Past year 3"
+    },
+    {
+      "order": 5,
+      "title": "Past year 4",
+      "titleKo": "Past year 4"
+    },
+    {
+      "order": 6,
+      "title": "Past year 5",
+      "titleKo": "Past year 5"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.7.1",
+      "text": "Gross global Scope 2, location-based emissions (metric tons CO2e)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "연도",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.7.2",
+      "text": "Gross global Scope 2, market-based emissions (metric tons CO2e)",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "글로벌 총 Scope 2, 지역기반 배출량(metric tons CO2e)",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.7.3",
+      "text": "End date",
+      "type": "DATE",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "The end of your reporting year should match what you have entered in 1.4. \nThe end date for \"[Past year 1/2/3/4/5]\" must be at least 365 days before the end date of the \"Reporting Year\"/\"Past Year 1/2/3/4/5",
+      "textKo": "글로벌 총 Scope 2, 시장기반 배출량( metric tons CO2e)(해당하는 경우)",
+      "typeKo": "날짜 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": "The end of your 보고연도 해야 합니다 match what you have entered in 1.4. The end date for \"[Past year 1/2/3/4/5]\" 해야 합니다 be 최소 365 days before the end date 의 \"보고연도\"/\"Past Year 1/2/3/4/5"
+    },
+    {
+      "code": "7.7.4",
+      "text": "Methodological details",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "종료 날짜",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nNegative numbers are not allowed as reporting needs to be gross, not net figures.\nIf you answered in 7.3 that you are not reporting a Scope 2 location-based figure please leave the corresponding column blank.\nThe \"Gross global Scope 2, market-based emissions (metric tons CO2e)\" column only appears if you select \"We are reporting a Scope 2, market-based figure\" in column \"Scope 2, market-based\" of 7.3.\nPutting in zero would suggest that you have measured your emissions and that they are equal to zero.\nEmissions estimates are acceptable, as long as there is transparency with regards to the estimation approach (what is estimated and how) and the data used for the analysis is adequate to support the objectives of the inventory.\nFor more information about CDP's current recommendations on what emission factor to use for electricity accounting, where you can find emission factors and the different types there are, please check the Technical Note \"Accounting of Scope 2 emissions.\" Note that CH4 and N2O emissions should be included in the emissions factor.\nFor further information, please also see GHG Protocol Scope 2 Guidance .\nFor more detailed information beyond what is provided in this guidance and technical annexes, consult your electricity suppliers, carbon advisor, or verifier/assurer.\nEnd date (column 3) \nThe start date of each past year will be automatically assumed to be exactly 365 days before the listed date. For example, if you enter an end date of 31/12/2023, your start date will be automatically assumed to be 01/01/2023.\nThis column does not appear for the \"Reporting year\" row as the end date of the reporting year is specified in question 1.4.\nMethodological details (column 4) \nInclude at least the measurement approach, emissions factors, inputs, and assumptions used to measure your Scope 2 emissions, and a rationale for your choices.\nSummarize the details of any contractual instruments.\nNote for first-time responders \nIf you are a first-time responder, provide gross global Scope 2 emissions data for the current reporting year and up to five years prior to the current reporting year.\nThe number of past year rows that will appear is dependent on your selection in column 5 \"Number of past reporting years you will be providing Scope 2 emissions data for\" of 1.4.\nInput the gross global Scope 2 emissions data for the current reporting year in the first row and work backwards from the current reporting year.\nEnsure that the reporting period represents only one full year that has already passed. Reporting periods should not be in the future. This information is important for others to understand the time dimension of your disclosure.\nUse the methodological details column to report relevant information regarding your organization's past Scope 2 emissions data.\nNote for restatements \nIf you have chosen to restate your organization's gross global Scope 2 emissions data previously supplied to CDP (as indicated in column 5 \"Number of past reporting years you will be providing Scope 2 emissions data for\" of 1.4), you may do so here.\nThe number of past year rows that will appear is dependent on your selection in column 5 of 1.4.\nReporting recalculated figures for these years is optional.\nAll years Scope 2 emissions data needs to be entered in reverse order, with the current reporting year first, i.e. you should first input the current reporting year emissions data and work backwards from the most recent reporting year.\nEnsure that the reporting period represents only one full year that has already passed. Reporting periods should not be in the future. This information is important for others to understand the time dimension of your disclosure.\nUse the methodological details column to identify that this is restated data and the reason for the restatement.\nFor more information on restatements, see CDP's technical note on restatements here .\nNote for agricultural sector companies: \nScope 2 emissions from the use of electricity for agricultural/forestry, processing/manufacturing and/or distribution activities should be reported as Scope 2 emissions here.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 Negative numbers are not allowed as reporting needs to be gross, not net figures. 만약 you answered in 7.3 that you are not reporting a Scope 2 지역기반 figure please leave the corresponding 열 blank. The \"전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e)\" 열 only appears 만약 you select \"We are reporting a Scope 2, 시장기반 figure\" in 열 \"Scope 2, 시장기반\" of 7.3. Putting in zero would suggest that you have measured your emissions 및 that they are equal to zero. Emissions estimates are acceptable, as long as there is transparency with regards to the estimation approach (what is estimated 및 how) 및 the data used 에 대한 analysis is adequate to support the objectives 의 inventory. For more information about CDP's current recommendations on what emission factor to use for electricity accounting, 여기서 you can find emission factors 및 the different types there are, please check the Technical Note \"Accounting of Scope 2 배출량.\" Note that CH4 및 N2O emissions 해야 합니다 be included in the emissions factor. For further information, please also see GHG Protocol Scope 2 Guidance . For more detailed information beyond what is 입력 in this guidance 및 technical annexes, consult your electricity suppliers, carbon advisor, 또는 verifier/assurer. 글로벌 총 Scope 2, 시장기반 배출량( metric tons CO2e)(해당하는 경우) (열 3) The start date of each past year will be automatically assumed to be exactly 365 days before the listed date. For example, 만약 you enter an 글로벌 총 Scope 2, 시장기반 배출량( metric tons CO2e)(해당하는 경우) of 31/12/2023, your start date will be automatically assumed to be 01/01/2023. This 열 does not appear 에 대한 \"보고연도\" 행 as the 글로벌 총 Scope 2, 시장기반 배출량( metric tons CO2e)(해당하는 경우) 의 보고연도 is specified in 문항 1.4. 종료 날짜 (열 4) Include 최소 the measurement approach, emissions factors, inputs, 및 assumptions used to measure your Scope 2 배출량, 및 a rationale 귀사의 choices. Summarize the details of 하나 이상 contractual instruments. Note for first-time responders 만약 you are a first-time responder, provide 전 세계 총 Scope 2 배출량 data 에 대한 current 보고연도 및 up to five years prior to the current 보고연도. The number of past year 행 that will appear is dependent on your selection in 열 5 \"Number of past 보고연도s you will be providing Scope 2 배출량 data for\" of 1.4. Input the 전 세계 총 Scope 2 배출량 data 에 대한 current 보고연도 in the first 행 및 work backwards from the current 보고연도. Ensure that the reporting period represents only one full year that has already passed. Reporting periods 해야 합니다 not be in the future. This information is important for others to understand the time dimension of your disclosure. Use the 종료 날짜 열 to report relevant information regarding 귀사의 past Scope 2 배출량 data. Note for restatements 만약 you have chosen to restate 귀사의 전 세계 총 Scope 2 배출량 data previously supplied to CDP (as indicated in 열 5 \"Number of past 보고연도s you will be providing Scope 2 배출량 data for\" of 1.4), you may do so here. The number of past year 행 that will appear is dependent on your selection in 열 5 of 1.4. Reporting recalculated figures 에 대한se years is optional. All years Scope 2 배출량 data needs to be entered in reverse order, with the current 보고연도 first, i.e. you 해야 합니다 first input the current 보고연도 배출량 데이터 및 work backwards from the most recent 보고연도. Ensure that the reporting period represents only one full year that has already passed. Reporting periods 해야 합니다 not be in the future. This information is important for others to understand the time dimension of your disclosure. Use the 종료 날짜 열 to identify that this is restated data 및 the reason 에 대한 restatement. For more information on restatements, see CDP's technical note on restatements here . Note for agricultural sector companies: Scope 2 배출량 from the use of electricity for agricultural/forestry, 프로세스ing/manufacturing 및/또는 distribution activities 해야 합니다 be 보고 as Scope 2 배출량 here."
+    },
+    {
+      "type": "Additional Information",
+      "text": "Scope 2 emissions: In many industries, indirect GHG emissions mostly occur from the generation of purchased electricity (and purchased heat, steam and cooling) consumed by the company, as per the GHG Protocol Corporate Standard. Non-energy-intensive companies are likely to have significantly higher Scope 2 figures than Scope 1 figures. The GHG Protocol highlights that \"accounting for Scope 2 emissions allows companies to assess the risks and opportunities associated with changing electricity and GHG emissions cost.\"",
+      "typeKo": "추가 정보",
+      "textKo": "Scope 2 배출량: In many industries, indirect 온실가스 배출량 mostly occur from the generation of purchased electricity (and purchased heat, steam 및 cooling) consumed by the company, as per the GHG Protocol Corporate Standard. Non-energy-intensive companies are likely to have significantly higher Scope 2 figures than Scope 1 figures. The GHG Protocol highlights that \"accounting for Scope 2 배출량 allows companies to assess the 리스크 및 기회 associated with changing electricity 및 온실가스 배출량 cost.\""
+    },
+    {
+      "type": "Ambition",
+      "text": "Organizations disclose that their Scope 2 emissions in the reporting year have reduced in line with a 1.5 °C-aligned pathway.",
+      "typeKo": "Ambition",
+      "textKo": "Organizations disclose that their Scope 2 배출량 in the 보고연도 have reduced in line with a 1.5 °C-aligned pathway."
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Electricity: In line with GHG Protocol, this term is used as shorthand for electricity, steam, and heating/cooling. Purchased electricity is defined as electricity that is purchased or otherwise brought into the organizational boundary of the company. Scope 2 emissions physically occur at the facility where electricity is generated.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Electricity: In line with GHG Protocol, this term is used as shorthand for electricity, steam, 및 heating/cooling. Purchased electricity is defined as electricity that is purchased 또는 otherwise brought into the 조직경계 의 company. Scope 2 배출량 physically occur at the facility 여기서 electricity is generated."
+    }
+  ],
+  "points": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "일반",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "0, 1 or 2/1, 2 or 8",
+      "A": "1, 2 or 4/2 or 4",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "General",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "일반",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Agricultural commodities",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "농산물 원자재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Financial services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금융 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Food, beverage & tobacco",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "식음료 및 담배",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Paper & forestry",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "제지 및 임업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "Full Disclosure points must be awarded in the following questions to be eligible for Disclosure points:\n- 7.1\n- 7.1.1\n- 7.1.2\n- 7.1.3\n- 7.2\n- 7.4\n- 7.5\nPoints will be awarded for row 'Reporting year' as follows:\nROUTE A)\nAll of the following columns completed - 2 points\n- 'Gross global Scope 2, location-based emissions (metric tons CO2e)'\n- 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)'\n- 'Methodological details'\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nBoth columns 'Gross global Scope 2, location-based emissions (metric tons CO2e)' AND 'Methodological details' completed - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE C)\nBoth columns 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' AND 'Methodological details' completed - 1/8 points\nA maximum of 1/8 points is available for this route.\nOR\nROUTE D)\nNeither column 'Gross global Scope 2, location-based emissions (metric tons CO2e)' OR 'Gross global Scope 2, market-based emissions (metric tons CO2e) (if applicable)' completed - 0/8 points\nA maximum of 0/8 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "Full Disclosure 점수를 획득해야 합니다 in the following questions to be 획득 가능 for Disclosure 점: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 점수가 부여됩니다 for 행 '보고연도' as follows: 경로 A) All 의 following 열 완성 - 2 점 - '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' - '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' - '종료 날짜' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '종료 날짜' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Both 열 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 그리고 '종료 날짜' 완성 - 1/8 점 이 경로에서 획득 가능한 최고점은 1/8점입니다. 또는 경로 D) Neither 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 또는 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3 AND\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed row in proportion to the number of completed rows.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, location-based figure' selected in column 'Scope 2, location-based' in question 7.3.\nPoints will awarded per row in proportion to the number of completed rows.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE C)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per row (excluding column 'Gross global Scope 2, location-based emissions (metric tons CO2e)') in proportion to the number of completed rows.\nA maximum of 1/4 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 지역기반 figure' 선택 in 열 'Scope 2, 지역기반' in 문항 7.3. 점 will awarded per 행 in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 C) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 행별로 점수가 부여됩니다 (제외 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)') in proportion to the number of 완성 행. 이 경로에서 획득 가능한 최고점은 1/4점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "귀사의 글로벌 Scope 2 총 배출량 ( 미터톤 CO2e) 은 얼마입니까 ? ` M7. Environmental Performance - Climate Change 연도 총 Scope 2 위치 기반 배출량 ( 미터톤 CO2e) 총 Scope 2 시장 기반 배출량 ( 미터톤 CO2e) 종료 일자 방법론 상세 별도 행으로 작성 보고연도 과거 연도 1 [M1.4 응답 결과에 따라 생성 ] 과거 연도 2 과거 연도 3 숫자 입력 소수점 이하 최대 3 자리 사용 숫자 입력 소수점 이하 최대 3 자리 사용 DD/MM/YYYY 최대 2,500 자 작성",
+    "q2025": "Q7.7",
+    "q2025_text": "What were your organization's gross global Scope 2 emissions in metric tons CO2e?",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "General: D 0, 1 or 2/1, 2 or 8 | A 1, 2 or 4/2 or 4 | M 0/0 | L 0/0",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "일반: D 0, 1 또는 2/1, 2 또는 8 | A 1, 2 또는 4/2 또는 4 | M 0/0 | L 0/0",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "What were 귀사의 전 세계 총 Scope 2 배출량 in 미터톤 CO2e?"
+  },
+  "defaultPoints": {
+    "D": "0, 1 or 2/1, 2 or 8",
+    "A": "1, 2 or 4/2 or 4",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "Reporting emissions is a pre-requisite to understanding 및 reducing negative environmental impacts. This 문항 ensures organizations are measuring emissions from purchased 또는 acquired electricity, steam, heat, 및 cooling.",
+  "popupHelpKo": "The end date for past year 해야 합니다 be 최소 365 days before the end date 의 보고연도/previous past year.",
+  "baseOptionsKo": []
+}

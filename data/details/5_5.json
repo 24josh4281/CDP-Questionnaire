@@ -1,0 +1,846 @@
+{
+  "code": "5.5",
+  "module": "5",
+  "moduleTitle": "Business strategy",
+  "questionText": "Does your organization invest in research and development (R&D) of low-carbon products or services related to your sector activities?",
+  "questionKo": "귀사는 invest in research 및 development (R&D) of low-carbon products 또는 services related to your sector activities입니까?",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Oil & Gas, Coal, Aviation, Capital goods, Transport OEMS - EPM, Chemicals, Metals & mining, Transport services, Steel, Transport OEMS, Energy utilities & power generators, Cement, Real estate, Construction",
+  "simpleHelp": "Investment in R&D of new low-carbon technologies is needed to mitigate transition risk. According to the TCFD recommendations, the level of investment provides an indication of how exposed future earning capacity is to climate risks.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Response row",
+      "titleKo": "응답 행"
+    }
+  ],
+  "columns": [
+    {
+      "code": "5.5.1",
+      "text": "Investment in low-carbon R&D",
+      "type": "SINGLE_SELECT",
+      "mandatory": "False",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Investment in 저탄소 R&D",
+      "typeKo": "단일 선택",
+      "mandatoryKo": "아니요",
+      "optionsKo": [
+        "예",
+        "아니요"
+      ],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "5.5.2",
+      "text": "Comment",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Comment",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Explanation of Terms",
+      "text": "Low-carbon product or service: CDP broadly defines a low-carbon product/service as a product or service which has comparatively lower emissions across its entire life cycle (i.e. from material acquisition through to product end-of-life) when compared to a baseline (business-as-usual) scenario or reference product of a similar function. Note that a product can only be considered low-carbon if its production and use does not prevent and/or contributes to reaching net-zero by 2050 or sooner. To define whether the product or service is low-carbon, CDP encourages the use of existing industry taxonomies and frameworks such as Climate Bonds Taxonomy , the IEA Energy Technology Perspectives (ETP) Clean Energy Technology Guide , and the EU Taxonomy for Environmentally Sustainable Economic Activities .\nResearch and development (R&D): Refers to the activities companies undertake to innovate and introduce new products and services. It is often the first stage in the development process. Investment in R&D is a type of operating expense associated with the research and development of a company's goods or services.",
+      "typeKo": "Explanation of Terms",
+      "textKo": "Low-carbon product 또는 service: CDP broadly defines a low-carbon product/service as a product 또는 service which has comparatively lower emissions across its entire life cycle (i.e. from material acquisition through to product end-of-life) 경우 compared to a baseline (business-as-usual) scenario 또는 reference product of a similar function. Note that a product can only be considered low-carbon 만약 its production 및 use does not prevent 및/또는 contributes to reaching net-zero by 2050 또는 sooner. To define whether the product 또는 service is low-carbon, CDP encourages the use of existing industry taxonomies 및 frameworks such as Climate Bonds Taxonomy , the IEA Energy Technology Perspectives (ETP) Clean Energy Technology Guide , 및 the EU Taxonomy for Environmentally Sustainable Economic Activities . Research 및 development (R&D): Refers to the activities companies undertake to innovate 및 introduce new 제품 및 서비스. It is often the first stage in the development 프로세스. Investment in R&D is a type of operating expense associated with the research 및 development of a company's goods 또는 services."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "건설",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "2/2",
+      "A": "0/0",
+      "M": "0 or 1/1",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Capital goods",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "자본재",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Construction",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "건설",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Energy utilities & power generators",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "에너지 유틸리티 및 발전",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Real estate",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "부동산",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Transport OEMS - EPM",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "운송 OEM - EPM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nAny option selected in column 'Investment in low-carbon R&D' - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/7 points\nA maximum of 0/7 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 in 열 'Investment in 저탄소 R&D' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/7 점 이 경로에서 획득 가능한 최고점은 0/7점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "ROUTE A)\n'Yes' selected in column 'Investment in low-carbon R&D' - 1 point\nA maximum of 1/1 point is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'Investment in low-carbon R&D' - 0/1 points\nA maximum of 0/1 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/2 points\nA maximum of 0/2 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "경로 A) '예' 선택 in 열 'Investment in 저탄소 R&D' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 하나 이상 option 제외 '예' 선택 in 열 'Investment in 저탄소 R&D' - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "ROUTE A)\nColumn 'Investment in low-carbon R&D' completed - 0/0 points\nA maximum of 0/0 points is available for this route.\nOR\nNON-DISCLOSURE ROUTE)\nColumn 'Investment in low-carbon R&D' NOT completed - 0/1 points\nA maximum of 0/1 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "경로 A) 열 'Investment in 저탄소 R&D' 완성 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Investment in 저탄소 R&D' NOT 완성 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+    }
+  ],
+  "change": {
+    "location": "PPT",
+    "question_ko": "[국문 번역 검토 필요] Does your organization invest in research and development (R&D) of low-carbon products or services related to your sector activities?",
+    "q2025": "Q5.5",
+    "q2025_text": "Does your organization invest in research and development (R&D) of low-carbon products or services related to your sector activities?",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Aviation: D 2/2 | A 0/0 | M 0 or 1/1 | L 0/0\nCapital goods: D 2/2 | A 0/0 | M 0 or 1/1 | L 0/0\nCement: D 2/2 | A 0/0 | M 0 or 1/1 | L 0/0\n+11 sector-specific variants",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Aviation: D 2/2 | A 0/0 | M 0 또는 1/1 | L 0/0 Capital goods: D 2/2 | A 0/0 | M 0 또는 1/1 | L 0/0 Cement: D 2/2 | A 0/0 | M 0 또는 1/1 | L 0/0 +11 sector-specific variants",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정성 PPT",
+    "locationEn": "Qualitative PPT",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "귀사는 invest in research 및 development (R&D) of low-carbon products 또는 services related to your sector activities입니까?"
+  },
+  "defaultPoints": {
+    "D": "2/2",
+    "A": "0/0",
+    "M": "0 or 1/1",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "사업전략",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "석유 및 가스, 석탄, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 부동산, 건설",
+  "simpleHelpKo": "Investment in R&D of new low-carbon technologies is needed to mitigate transition risk. According to the TCFD recommendations, the level of investment provides an indication of how exposed future earning capacity is to climate risks.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}

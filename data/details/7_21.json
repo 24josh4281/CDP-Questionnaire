@@ -1,0 +1,650 @@
+{
+  "code": "7.21",
+  "module": "7",
+  "moduleTitle": "Environmental performance - Climate change",
+  "questionText": "Break down your organization's total gross global Scope 2 emissions by sector production activity in metric tons CO2e.",
+  "questionKo": "귀사의 total 전 세계 총 Scope 2 배출량 by sector production activity in 미터톤 CO2e.을/를 세분화하여 입력하십시오.",
+  "questionType": "MATRIX",
+  "mandatory": "False",
+  "issueTags": "Climate Change",
+  "sectorTags": "Oil & Gas, Coal, Aviation, Chemicals, Metals & mining, Transport services, Steel, Transport OEMS, Cement",
+  "simpleHelp": "Reporting emissions by activity allows a more in-depth understanding of business risks related to future regulation and climate-related issues, and allows organizations to identify potential opportunities to reduce emissions associated with operational activities.",
+  "popupHelp": "",
+  "baseOptions": [],
+  "rows": [
+    {
+      "order": 1,
+      "title": "Cement production activities",
+      "titleKo": "시멘트 생산 활동"
+    },
+    {
+      "order": 2,
+      "title": "Chemicals production activities",
+      "titleKo": "Chemicals production activities"
+    },
+    {
+      "order": 3,
+      "title": "Coal production activities",
+      "titleKo": "Coal production activities"
+    },
+    {
+      "order": 4,
+      "title": "Metals and mining production activities",
+      "titleKo": "금속 및 광업 생산 활동"
+    },
+    {
+      "order": 5,
+      "title": "Oil and gas production activities (upstream)",
+      "titleKo": "Oil 및 gas production activities (upstream)"
+    },
+    {
+      "order": 6,
+      "title": "Oil and gas production activities (midstream)",
+      "titleKo": "Oil 및 gas production activities (midstream)"
+    },
+    {
+      "order": 7,
+      "title": "Oil and gas production activities (downstream)",
+      "titleKo": "Oil 및 gas production activities (downstream)"
+    },
+    {
+      "order": 8,
+      "title": "Steel production activities",
+      "titleKo": "철강 생산 활동"
+    },
+    {
+      "order": 9,
+      "title": "Transport OEM activities",
+      "titleKo": "Transport OEM activities"
+    },
+    {
+      "order": 10,
+      "title": "Transport services activities",
+      "titleKo": "Transport services activities"
+    }
+  ],
+  "columns": [
+    {
+      "code": "7.21.1",
+      "text": "Scope 2, location-based, metric tons CO2e",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Scope 2, 지역기반, 미터톤 CO2e",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.21.2",
+      "text": "Scope 2, market-based (if applicable), metric tons CO2e",
+      "type": "NUMERIC",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Scope 2, 시장기반 (만약 해당되는 경우), 미터톤 CO2e",
+      "typeKo": "숫자 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    },
+    {
+      "code": "7.21.3",
+      "text": "Comment",
+      "type": "RICH_TEXT",
+      "mandatory": "False",
+      "options": [],
+      "simple_help": "",
+      "popup_help": "",
+      "textKo": "Comment",
+      "typeKo": "서술형 입력",
+      "mandatoryKo": "아니요",
+      "optionsKo": [],
+      "simple_helpKo": "",
+      "popup_helpKo": ""
+    }
+  ],
+  "guidance": [
+    {
+      "type": "Change From Last Year",
+      "text": "No change",
+      "typeKo": "전년 대비 변경사항",
+      "textKo": "변경 없음"
+    },
+    {
+      "type": "Requested Content",
+      "text": "General \nThis question requests gross global Scope 2 emissions (location- and market-based) by sector production activity, i.e. aggregated across all business divisions and/or facilities. \nThis question is based on question 7.7 but is sector specific. Emissions deriving from the generation of electricity, steam, heat, and cooling that is purchased or acquired for consumption outside of your presented sector, should not be reported here. See the guidance in 7.19 for sector boundary definition. \nIf your organization only operates within the presented sector, then the emissions figures you report here are still likely to be lower than the figures you reported in 7.7. This is because for this question CDP encourages you to exclude activities that are not dependent on being in the presented high-intensity sector. The purpose is to improve the consistency and accuracy of sector emissions reporting. \nIf your organization operates in or owns assets across multiple sectors, then you should report emissions only for the presented sectors business division(s). Therefore, the figures you report here should be lower than the figures you reported in 7.7. \nIf your organization is active across multiple high intensity sectors, complete this table as it is presented. \nEmissions must be reported in gross, not net figures. Therefore, negative numbers are not allowed. \nEmission figures should be for the reporting year only (as defined by your answer to 1.4). \nIf your organization imports electricity, steam, heat or cooling from an entity which is outside the sector boundary, but is nonetheless owned by the wider organization, then you should count for this here as a Scope 2 emission. Because the emissions occur outside of your Scope 1 boundary, they are Scope 2 emissions. \nEmissions estimates are acceptable, as long as there is transparency with regards to the estimation approach (what is estimated and how) and the data used for the analysis is adequate to support the objectives of the inventory. \nFor more information on how to report Scope 2 emissions, see the Technical Note on \"Accounting of Scope 2 emissions\" , where you can find guidance on emission factors and the types that can be applied. Please also note that CH4 and N2O from electricity production should be included in the emissions factor calculation. \nFor further information, see GHG Protocol Scope 2 Guidance . \nWhen accounting for your Scope 2 emissions, and should you need more information than provided in this guidance, you may want to consult your electricity suppliers, carbon advisor or verifier/assurer. \nScope 2, location-based (metric tons CO2e) (column 2) \nReport your organization's total gross global Scope 2 emissions in CO2-equivalent for sector production activity listed in column 1, on a location-based method, i.e. reflecting the average emissions intensity of grids on which energy consumption occurs. \nScope 2, market-based (if applicable), metric tons CO2e (column 3) \nReport your organization's total gross global Scope 2 emissions in CO2-equivalent for sector production activity listed in column 1, on a market-based method, i.e. reflecting emissions from electricity that companies have purposefully chosen (or their lack of choice). \nComment (column 4) (optional) \nYou can use this text field to enter any additional relevant information. \nNote for aviation sector \nInclude emissions associated with activities in the aviation sector in row \"Transport services activities\".\nNote for oil and gas sector \nThis question splits oil and gas activities into upstream, midstream and downstream as follows: \nRows will appear in this question corresponding to your selections in question 1.19\nUpstream includes exploration, development, and production of oil and gas. \nMidstream includes the transportation, storage, and distribution of crude oil and natural gas. \nDownstream includes refining, processing, distribution, and marketing of products derived. For this question, CDP also includes \nChemicals in this category, which includes the manufacture, distribution and marketing of chemical products derived from oil and gas (petrochemicals). \nTransport, storage, and distribution activities considered a defining part of the oil and gas sector value chain, e.g. midstream activities, should be included for oil and gas production activities. \nProjects considered an essential part of the oil and gas sector, such as exploration and extraction projects, should be included for oil and gas production activities.",
+      "typeKo": "요청 내용",
+      "textKo": "일반 This 문항 requests 전 세계 총 Scope 2 배출량 (location- 및 시장기반) by sector production activity, i.e. aggregated across all business divisions 및/또는 facilities. This 문항 is based on 문항 7.7 but is sector specific. Emissions deriving from the generation of electricity, steam, heat, 및 cooling that is purchased 또는 acquired for consumption outside of your presented sector, 해야 합니다 not be 보고 here. See the guidance in 7.19 for sector boundary definition. 만약 귀사 only operates within the presented sector, then the emissions figures you report here are still likely to be lower than the figures you 보고 in 7.7. This is because for this 문항 CDP encourages you to exclude activities that are not dependent on being in the presented high-intensity sector. The purpose is to improve the consistency 및 accuracy of sector emissions reporting. 만약 귀사 operates in 또는 owns assets across multiple sectors, then you 해야 합니다 report emissions only 에 대한 presented sectors business division(s). Therefore, the figures you report here 해야 합니다 be lower than the figures you 보고 in 7.7. 만약 귀사 is active across multiple high intensity sectors, complete this table as it is presented. Emissions 해야 합니다 be 보고 in gross, not net figures. Therefore, negative numbers are not allowed. Emission figures 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). 만약 귀사 imports electricity, steam, heat 또는 cooling from an entity which is outside the sector boundary, but is nonetheless owned by the wider organization, then you 해야 합니다 count for this here as a Scope 2 emission. Because the emissions occur outside of your Scope 1 boundary, they are Scope 2 배출량. Emissions estimates are acceptable, as long as there is transparency with regards to the estimation approach (what is estimated 및 how) 및 the data used 에 대한 analysis is adequate to support the objectives 의 inventory. For more information on how to report Scope 2 배출량, see the Technical Note on \"Accounting of Scope 2 배출량\" , 여기서 you can find guidance on emission factors 및 the types that can be applied. Please also note that CH4 및 N2O from electricity production 해야 합니다 be included in the emissions factor calculation. For further information, see GHG Protocol Scope 2 Guidance . 경우 accounting 귀사의 Scope 2 배출량, 및 해야 합니다 you need more information than 입력 in this guidance, you may want to consult your electricity suppliers, carbon advisor 또는 verifier/assurer. Scope 2, 지역기반 (미터톤 CO2e) (열 2) Report 귀사의 total 전 세계 총 Scope 2 배출량 in CO2-equivalent for sector production activity listed in 열 1, on a 지역기반 method, i.e. reflecting the average 배출집약도 of grids on which 에너지 소비량 occurs. Scope 2, 시장기반 (만약 해당되는 경우), 미터톤 CO2e (열 3) Report 귀사의 total 전 세계 총 Scope 2 배출량 in CO2-equivalent for sector production activity listed in 열 1, on a 시장기반 method, i.e. reflecting emissions from electricity that companies have purposefully chosen (or their lack of choice). Comment (열 4) (optional) You can use this text field to enter 하나 이상 additional relevant information. Note for aviation sector Include emissions associated with activities in the aviation sector in 행 \"Transport services activities\". Note for oil 및 gas sector This 문항 splits oil 및 gas activities into upstream, midstream 및 downstream as follows: 행 will appear in this 문항 corresponding to your selections in 문항 1.19 Upstream includes exploration, development, 및 production of oil 및 gas. Midstream includes the transportation, storage, 및 distribution of crude oil 및 natural gas. Downstream includes refining, 프로세스ing, distribution, 및 marketing of products derived. For this 문항, CDP also includes Chemicals in this category, which includes the manufacture, distribution 및 marketing of chemical products derived from oil 및 gas (petrochemicals). Transport, storage, 및 distribution activities considered a defining part 의 oil 및 gas sector 가치사슬, e.g. midstream activities, 해야 합니다 be included for oil 및 gas production activities. Projects considered an essential part 의 oil 및 gas sector, such as exploration 및 extraction projects, 해야 합니다 be included for oil 및 gas production activities."
+    }
+  ],
+  "points": [
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "항공",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "화학",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "D": "0 or 6/0 or 6",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "철강",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화"
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "D": "4/4",
+      "A": "0/0",
+      "M": "0/0",
+      "L": "0/0",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화"
+    }
+  ],
+  "criteria": [
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nEither 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e' completed.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) Either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e' 완성. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Aviation",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "항공",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nEither 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e' completed.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) Either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e' 완성. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Cement",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "시멘트",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nEither 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e' completed.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) Either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e' 완성. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Chemicals",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "화학",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nEither 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e' completed.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) Either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e' 완성. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Coal",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석탄",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nEither 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e' completed.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) Either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e' 완성. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Metals & mining",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "금속 및 광업",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\n‘Upstream' only selected in question 1.19 AND either 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nFor row ‘Oil and gas production activities (upstream)': Points will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e'.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE B)\n‘Upstream' only selected in question 1.19 AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nFor row ‘Oil and gas production activities (upstream)': Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE C)\n‘Midstream' only selected in question 1.19 AND either 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nFor row ‘Oil and gas production activities (midstream)': Points will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e'.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE D)\n‘Midstream' only selected in question 1.19 AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nFor row ‘Oil and gas production activities (midstream)': Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE E)\n‘Downstream' only selected in question 1.19 AND either 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nFor row ‘Oil and gas production activities (downstream)': Points will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e'.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE F)\n‘Downstream' only selected in question 1.19 AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nFor row ‘Oil and gas production activities (downstream)': Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE G)\n‘Upstream' AND ‘Midstream' only selected in question 1.19 AND either 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nFor rows ‘Oil and gas production activities (upstream)' AND ‘Oil and gas production activities (midstream)': Points will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e'.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE H)\n‘Upstream' AND ‘Midstream' only selected in question 1.19 AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nFor rows ‘Oil and gas production activities (upstream)' AND ‘Oil and gas production activities (midstream)':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE I)\n‘Upstream' AND ‘Downstream' only selected in question 1.19 AND either 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nFor rows ‘Oil and gas production activities (upstream)' AND ‘Oil and gas production activities (downstream)':\nPoints will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e'.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE J)\n‘Upstream' AND ‘Downstream' only selected in question 1.19 AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nFor rows ‘Oil and gas production activities (upstream)' AND ‘Oil and gas production activities (downstream)':\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE K)\n‘Midstream' AND ‘Downstream' only selected in question 1.19 AND either 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nFor rows ‘Oil and gas production activities (midstream)' AND ‘Oil and gas production activities (downstream)':\nPoints will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e'.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE L)\n‘Midstream' AND ‘Downstream' only selected in question 1.19 AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nFor rows ‘Oil and gas production activities (midstream)' AND ‘Oil and gas production activities (downstream)': Points will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 6/6 points is available for this route.\nOR\nROUTE M)\n‘Upstream', ‘Midstream' AND ‘Downstream' selected in question 1.19 AND either 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e' for the following rows:\n- ‘Oil and gas production activities (upstream)'\n- ‘Oil and gas production activities (midstream)'\n- ‘Oil and gas production activities (downstream)'\nA maximum of 6/6 points is available for this route.\nOR\nROUTE N)\n‘Upstream', ‘Midstream' AND ‘Downstream' selected in question 1.19 AND 'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed for the following rows:\n- ‘Oil and gas production activities (upstream)'\n- ‘Oil and gas production activities (midstream)'\n- ‘Oil and gas production activities (downstream)'\nA maximum of 6/6 points is available for this route.\nOR\nROUTE O)\n‘Upstream', ‘Midstream' AND ‘Downstream' NOT selected in question 1.19 - 0/0 points\nA maximum of 0/0 points is available for this route.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) ‘Upstream' only 선택 in 문항 1.19 그리고 either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. For 행 ‘Oil 및 gas production activities (upstream)': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e'. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) ‘Upstream' only 선택 in 문항 1.19 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. For 행 ‘Oil 및 gas production activities (upstream)': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 C) ‘Midstream' only 선택 in 문항 1.19 그리고 either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. For 행 ‘Oil 및 gas production activities (midstream)': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e'. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 D) ‘Midstream' only 선택 in 문항 1.19 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. For 행 ‘Oil 및 gas production activities (midstream)': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 E) ‘Downstream' only 선택 in 문항 1.19 그리고 either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. For 행 ‘Oil 및 gas production activities (downstream)': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e'. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 F) ‘Downstream' only 선택 in 문항 1.19 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. For 행 ‘Oil 및 gas production activities (downstream)': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 G) ‘Upstream' 그리고 ‘Midstream' only 선택 in 문항 1.19 그리고 either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. For 행 ‘Oil 및 gas production activities (upstream)' 그리고 ‘Oil 및 gas production activities (midstream)': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e'. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 H) ‘Upstream' 그리고 ‘Midstream' only 선택 in 문항 1.19 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. For 행 ‘Oil 및 gas production activities (upstream)' 그리고 ‘Oil 및 gas production activities (midstream)': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 I) ‘Upstream' 그리고 ‘Downstream' only 선택 in 문항 1.19 그리고 either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. For 행 ‘Oil 및 gas production activities (upstream)' 그리고 ‘Oil 및 gas production activities (downstream)': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e'. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 J) ‘Upstream' 그리고 ‘Downstream' only 선택 in 문항 1.19 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. For 행 ‘Oil 및 gas production activities (upstream)' 그리고 ‘Oil 및 gas production activities (downstream)': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 K) ‘Midstream' 그리고 ‘Downstream' only 선택 in 문항 1.19 그리고 either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. For 행 ‘Oil 및 gas production activities (midstream)' 그리고 ‘Oil 및 gas production activities (downstream)': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e'. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 L) ‘Midstream' 그리고 ‘Downstream' only 선택 in 문항 1.19 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. For 행 ‘Oil 및 gas production activities (midstream)' 그리고 ‘Oil 및 gas production activities (downstream)': 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 M) ‘Upstream', ‘Midstream' 그리고 ‘Downstream' 선택 in 문항 1.19 그리고 either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e' 에 대한 following 행: - ‘Oil 및 gas production activities (upstream)' - ‘Oil 및 gas production activities (midstream)' - ‘Oil 및 gas production activities (downstream)' 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 N) ‘Upstream', ‘Midstream' 그리고 ‘Downstream' 선택 in 문항 1.19 그리고 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) 에 대한 following 행: - ‘Oil 및 gas production activities (upstream)' - ‘Oil 및 gas production activities (midstream)' - ‘Oil 및 gas production activities (downstream)' 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 O) ‘Upstream', ‘Midstream' 그리고 ‘Downstream' NOT 선택 in 문항 1.19 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Oil & Gas",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "석유 및 가스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nEither 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e' completed.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) Either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e' 완성. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Steel",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "철강",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nEither 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e' completed.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) Either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e' 완성. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport OEMS",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 OEM",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "D",
+      "criteria": "ROUTE A)\nEither 'We have no operations where...' OR 'We have operations where...' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed in column 'Scope 2, location-based, metric tons CO2e' completed.\nA maximum of 4/4 points is available for this route.\nOR\nROUTE B)\n'We are reporting a Scope 2, market-based figure' selected in column 'Scope 2, market-based' in question 7.3.\nPoints will be awarded per completed cell in proportion to the number of cells displayed.\nA maximum of 4/4 points is available for this route.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "D",
+      "criteriaKo": "경로 A) Either 'We have no operations 여기서...' 또는 'We have operations 여기서...' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) in 열 'Scope 2, 지역기반, 미터톤 CO2e' 완성. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'We are reporting a Scope 2, 시장기반 figure' 선택 in 열 'Scope 2, 시장기반' in 문항 7.3. 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "A",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "A",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "M",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "M",
+      "criteriaKo": "Not scored."
+    },
+    {
+      "sector": "Transport services",
+      "issue": "Climate change",
+      "level": "L",
+      "criteria": "Not scored.",
+      "sectorKo": "운송 서비스",
+      "issueKo": "기후변화",
+      "levelKo": "L",
+      "criteriaKo": "Not scored."
+    }
+  ],
+  "change": {
+    "location": "Excel",
+    "question_ko": "[국문 번역 검토 필요] Break down your organization's total gross global Scope 2 emissions by sector production activity in metric tons CO2e.",
+    "q2025": "Q7.21",
+    "q2025_text": "Break down your organization's total gross global Scope 2 emissions by sector production activity in metric tons CO2e.",
+    "change_status": "No change - 2026 source verified",
+    "detail_change_types": "",
+    "changed_question": false,
+    "changed_response": false,
+    "changed_options": false,
+    "changed_guidance": false,
+    "changed_scoring": false,
+    "change_summary": "",
+    "scoring_change_summary": "",
+    "daml_summary": "Aviation: D 4/4 | A 0/0 | M 0/0 | L 0/0\nCement: D 4/4 | A 0/0 | M 0/0 | L 0/0\nChemicals: D 4/4 | A 0/0 | M 0/0 | L 0/0\n+6 sector-specific variants",
+    "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked",
+    "review_status": "변경 없음 확인 및 2026 원문 반영",
+    "change_statusKo": "변경 없음 - 2026 원문 확인",
+    "detail_change_typesKo": "",
+    "change_summaryKo": "",
+    "scoring_change_summaryKo": "",
+    "daml_summaryKo": "Aviation: D 4/4 | A 0/0 | M 0/0 | L 0/0 Cement: D 4/4 | A 0/0 | M 0/0 | L 0/0 Chemicals: D 4/4 | A 0/0 | M 0/0 | L 0/0 +6 sector-specific variants",
+    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
+    "locationKo": "정량 Excel",
+    "locationEn": "Quantitative Excel",
+    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusEn": "No change verified and 2026 source applied",
+    "q2025_textKo": "귀사의 total 전 세계 총 Scope 2 배출량 by sector production activity in 미터톤 CO2e.을/를 세분화하여 입력하십시오."
+  },
+  "defaultPoints": {
+    "D": "4/4",
+    "A": "0/0",
+    "M": "0/0",
+    "L": "0/0"
+  },
+  "sourceInfo": [
+    {
+      "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
+      "version": "Released April 22, 2026",
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
+    },
+    {
+      "name": "CDP Questionnaire Changes Tracker 2026",
+      "version": "Version 3, revised May 8, 2026",
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
+    },
+    {
+      "name": "CDP Full Corporate Scoring Changes 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
+    },
+    {
+      "name": "CDP Climate Change Scoring Essential Criteria 2026",
+      "version": "Released April 30, 2026",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
+    }
+  ],
+  "moduleTitleKo": "환경 성과 - 기후변화",
+  "questionTypeKo": "표 형식 응답",
+  "mandatoryKo": "아니요",
+  "issueTagsKo": "Climate Change",
+  "sectorTagsKo": "석유 및 가스, 석탄, 항공, 화학, 금속 및 광업, 운송 서비스, 철강, 운송 OEM, 시멘트",
+  "simpleHelpKo": "Reporting emissions by activity allows a more in-depth understanding of business risks related to future regulation 및 기후 관련 이슈, 및 allows organizations to identify potential opportunities to reduce emissions associated with operational activities.",
+  "popupHelpKo": "",
+  "baseOptionsKo": []
+}
