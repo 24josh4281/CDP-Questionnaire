@@ -306,6 +306,16 @@ button:focus {
   border: 1px solid var(--line);
 }
 
+.list-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.export-button {
+  min-width: 104px;
+}
+
 .seg {
   height: 30px;
   border: 0;
@@ -482,6 +492,28 @@ button:focus {
   max-width: none;
   font-size: 22px;
   line-height: 1.25;
+}
+
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.section-link {
+  min-height: 28px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--navy);
+  padding: 4px 9px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.section-link:hover {
+  background: var(--blue-soft);
+  border-color: #beddf1;
 }
 
 .detail-ko {

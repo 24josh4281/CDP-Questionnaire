@@ -28,6 +28,7 @@ const UI = {
     sector: "섹터",
     changedOnly: "변경 반영 문항만 보기",
     questionList: "문항 목록",
+    exportCsv: "필터 결과 CSV",
     comfortable: "표준",
     compact: "촘촘히",
     allModules: "전체 모듈",
@@ -92,6 +93,7 @@ const UI = {
     noGuidance: "가이던스 데이터가 없습니다.",
     copyLink: "공유 링크",
     copied: "복사됨",
+    sectionJump: "상세 바로가기",
     sector: "섹터",
     level: "레벨",
     route: "구분",
@@ -114,6 +116,7 @@ const UI = {
     sector: "Sector",
     changedOnly: "Show changed questions only",
     questionList: "Question list",
+    exportCsv: "Export CSV",
     comfortable: "Normal",
     compact: "Compact",
     allModules: "All modules",
@@ -178,6 +181,7 @@ const UI = {
     noGuidance: "No guidance data.",
     copyLink: "Copy link",
     copied: "Copied",
+    sectionJump: "Jump to section",
     sector: "Sector",
     level: "Level",
     route: "Route",
@@ -1321,8 +1325,44 @@ function publicQuestionUrl(code) {
   const url = new URL(PUBLIC_BASE_URL);
   url.searchParams.set("lang", state.lang);
   url.searchParams.set("q", code);
-  url.searchParams.set("refresh", "fullko-v2");
+  url.searchParams.set("refresh", "export-v4");
   return url.toString();
+}
+
+function csvValue(value) {
+  return `"${String(value ?? "").replaceAll('"', '""')}"`;
+}
+
+function exportFilteredCsv() {
+  const headers =
+    state.lang === "ko"
+      ? ["문항번호", "모듈", "문항명", "반영 위치", "응답 방법", "변경 여부", "변경 상태", "D", "A", "M", "L", "공유 URL"]
+      : ["Question code", "Module", "Question title", "Location", "Response method", "Changed", "Change status", "D", "A", "M", "L", "Share URL"];
+  const rows = state.filtered.map((question) => [
+    `M${question.code}`,
+    textBy(question, "moduleTitle", "moduleTitleKo"),
+    textBy(question, "questionText", "questionKo"),
+    locationLabel(question.location),
+    textBy(question, "questionType", "questionTypeKo"),
+    question.isChanged ? t("changedApplied") : t("noChangeVerified"),
+    textBy(question, "changeStatus", "changeStatusKo") || "",
+    question.daml?.D || "",
+    question.daml?.A || "",
+    question.daml?.M || "",
+    question.daml?.L || "",
+    publicQuestionUrl(question.code),
+  ]);
+  const csv = `\ufeff${[headers, ...rows].map((row) => row.map(csvValue).join(",")).join("\r\n")}`;
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  const stamp = new Date().toISOString().slice(0, 10).replaceAll("-", "");
+  link.href = url;
+  link.download = `cdp_questionnaire_${state.lang}_${stamp}.csv`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
 }
 
 function levelOrder(level) {
@@ -1418,6 +1458,7 @@ function updateStaticLabels() {
   setText("labelSector", t("sector"));
   setText("labelChangedOnly", t("changedOnly"));
   setText("labelQuestionList", t("questionList"));
+  setText("exportCsvButton", t("exportCsv"));
   setText("densityComfortable", t("comfortable"));
   setText("densityCompact", t("compact"));
   setSelectFirstOption("moduleFilter", t("allModules"));
@@ -1609,9 +1650,10 @@ function renderDetail(detail) {
         </div>
       </div>
       <h2 class="detail-title">${escapeHtml(title)}</h2>
+      ${renderSectionNav()}
     </div>
 
-    <section class="detail-section">
+    <section class="detail-section" id="section-change">
       <h3>${t("changeStatus")}</h3>
       <div class="status-grid">
         ${flagCells
@@ -1631,7 +1673,7 @@ function renderDetail(detail) {
       ])}
     </section>
 
-    <section class="detail-section">
+    <section class="detail-section" id="section-basic">
       <h3>${t("basicInfo")}</h3>
       <div class="two-col">
         <div>
@@ -1653,42 +1695,58 @@ function renderDetail(detail) {
       </div>
     </section>
 
-    <section class="detail-section">
+    <section class="detail-section" id="section-response">
       <h3>${t("responseMethod")}</h3>
       ${renderResponseMethod(detail)}
     </section>
 
-    <section class="detail-section">
+    <section class="detail-section" id="section-dropdown">
       <h3>${t("dropdownOptions")}</h3>
       ${renderDropdowns(detail)}
     </section>
 
-    <section class="detail-section">
+    <section class="detail-section" id="section-table">
       <h3>${t("tableStructure")}</h3>
       ${renderResponseTable(detail)}
     </section>
 
-    <section class="detail-section">
+    <section class="detail-section" id="section-points">
       <h3>${t("pointAllocation")}</h3>
       ${renderPoints(detail)}
     </section>
 
-    <section class="detail-section">
+    <section class="detail-section" id="section-criteria">
       <h3>${t("scoringCriteria")}</h3>
       ${renderCriteria(detail)}
     </section>
 
-    <section class="detail-section">
+    <section class="detail-section" id="section-guidance">
       <h3>${t("reportingGuidance")}</h3>
       ${renderGuidance(detail)}
     </section>
 
-    <section class="detail-section">
+    <section class="detail-section" id="section-sources">
       <h3>${t("sources")}</h3>
       ${renderSources(detail)}
     </section>
   `;
   bindDetailControls(detail);
+}
+
+function renderSectionNav() {
+  const sections = [
+    ["section-change", t("changeStatus")],
+    ["section-basic", t("basicInfo")],
+    ["section-response", t("responseMethod")],
+    ["section-dropdown", t("dropdownOptions")],
+    ["section-table", t("tableStructure")],
+    ["section-points", t("pointAllocation")],
+    ["section-criteria", t("scoringCriteria")],
+    ["section-guidance", t("reportingGuidance")],
+  ];
+  return `<div class="section-nav" aria-label="${escapeHtml(t("sectionJump"))}">
+    ${sections.map(([id, label]) => `<button class="section-link" data-section="${escapeHtml(id)}" type="button">${escapeHtml(label)}</button>`).join("")}
+  </div>`;
 }
 
 function renderInfoLines(rows) {
@@ -1912,6 +1970,12 @@ function bindDetailControls(detail) {
       renderDetail(detail);
     });
   }
+  for (const button of document.querySelectorAll(".section-link")) {
+    button.addEventListener("click", () => {
+      const target = document.getElementById(button.dataset.section);
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
   const copyLink = $("copyQuestionLink");
   if (copyLink) {
     copyLink.addEventListener("click", async () => {
@@ -1945,6 +2009,7 @@ function bindEvents() {
     $("changedOnly").checked = false;
     applyFilters();
   });
+  $("exportCsvButton").addEventListener("click", exportFilteredCsv);
   for (const button of document.querySelectorAll(".seg")) {
     button.addEventListener("click", () => {
       state.density = button.dataset.density;

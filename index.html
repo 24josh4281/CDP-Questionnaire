@@ -113,9 +113,12 @@
               <h2 id="labelQuestionList">문항 목록</h2>
               <p id="resultCount">-</p>
             </div>
-            <div class="density-toggle" aria-label="list density">
-              <button class="seg active" data-density="comfortable" type="button" id="densityComfortable">표준</button>
-              <button class="seg" data-density="compact" type="button" id="densityCompact">촘촘히</button>
+            <div class="list-actions">
+              <button class="text-button export-button" id="exportCsvButton" type="button">필터 결과 CSV</button>
+              <div class="density-toggle" aria-label="list density">
+                <button class="seg active" data-density="comfortable" type="button" id="densityComfortable">표준</button>
+                <button class="seg" data-density="compact" type="button" id="densityCompact">촘촘히</button>
+              </div>
             </div>
           </div>
           <div class="question-list" id="questionList"></div>
@@ -130,6 +133,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260521-share-v3"></script>
+    <script src="./app.js?v=20260521-export-v4"></script>
   </body>
 </html>
