@@ -202,7 +202,7 @@ const UI = {
 };
 
 const PUBLIC_BASE_URL = "https://24josh4281.github.io/CDP-Questionnaire/";
-const URL_STATE_VERSION = "change-summary-v8";
+const URL_STATE_VERSION = "change-summary-v9";
 const FAVORITES_STORAGE_KEY = "cdpQuestionDbFavorites";
 
 const SECTOR_KO = {
@@ -289,6 +289,7 @@ function saveFavorites() {
 }
 
 const KO_DISPLAY_REPLACEMENTS = [
+  [/이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다\. 응답방법과 선택지를 함께 확인하여 작성하십시오\./g, "문항 의존성 및 표시 조건은 응답방법과 선택지 조건을 함께 확인하여 작성하십시오."],
   [/We measure the impact of our 포트폴리오 on the climate/gi, "포트폴리오가 기후에 미치는 영향을 측정함"],
   [/We measure the impact of our 포트폴리오 on 수자원/gi, "포트폴리오가 수자원에 미치는 영향을 측정함"],
   [/Explain why 귀사 does not measure its 포트폴리오 영향 on 기후변화/gi, "포트폴리오의 기후 영향 측정하지 않는 이유 설명"],
@@ -1389,6 +1390,239 @@ function questionListTitle(question) {
   return questionTitleOnly(textBy(question, "questionText", "questionKo"));
 }
 
+const CHANGE_TEXT_REPLACEMENTS = [
+  [/All sectors excluding Financial services/gi, "금융 서비스를 제외한 전 섹터"],
+  [/Financial services/gi, "금융 서비스"],
+  [/All sectors/gi, "전 섹터"],
+  [/Energy utilities and power generators/gi, "에너지 유틸리티 및 발전"],
+  [/Forests and Water/gi, "산림 및 수자원"],
+  [/Climate Change/gi, "기후변화"],
+  [/portfolio/gi, "포트폴리오"],
+  [/taxonomy/gi, "택소노미"],
+  [/methodology/gi, "방법론"],
+  [/emissions/gi, "배출량"],
+  [/emission/gi, "배출량"],
+  [/adaptation/gi, "적응"],
+  [/mitigation/gi, "완화"],
+  [/financial activities/gi, "금융 활동"],
+  [/financial institutions?/gi, "금융기관"],
+  [/Financial Instituations/gi, "금융기관"],
+  [/fossil fuel/gi, "화석연료"],
+  [/asset value/gi, "자산 가치"],
+  [/total portfolio value/gi, "총 포트폴리오 가치"],
+  [/questionnaire/gi, "문항"],
+  [/child questions/gi, "하위 문항"],
+  [/\bcolumns?\b/gi, "열"],
+  [/\brows?\b/gi, "행"],
+  [/\broutes?\b/gi, "경로"],
+  [/\bcriteria\b/gi, "평가기준"],
+  [/\bscoring\b/gi, "평가방법론"],
+  [/point allocations?/gi, "배점"],
+  [/accepted options/gi, "인정 선택지"],
+  [/conditional logic/gi, "조건부 표시 로직"],
+  [/dropdown option text/gi, "드롭다운 선택지 문구"],
+  [/% of asset value aligned with a taxonomy or methodology/gi, "택소노미 또는 방법론에 부합하는 자산 가치 비율"],
+  [/% of 자산 가치 aligned with a 택소노미 or 방법론/gi, "택소노미 또는 방법론에 부합하는 자산 가치 비율"],
+  [/% of 포트폴리오 aligned with a 택소노미 or 방법론 in relation to total 포트폴리오 value/gi, "총 포트폴리오 가치 대비 택소노미 또는 방법론 부합 포트폴리오 비율"],
+  [/Type of solution financed, invested in or insured/gi, "자금 조달/투자/보험 인수 대상 솔루션 유형"],
+  [/cover adaptation solutions/gi, "적응 솔루션을 포함하기 위함"],
+  [/cover 적응 solutions/gi, "적응 솔루션을 포함하기 위함"],
+  [/clarify the reporting of blue hydrogen/gi, "블루수소 보고 기준을 명확히 하기 위함"],
+  [/clarify how .* should report on adaptation measures and the substantial contribution to adaptation/gi, "금융기관의 적응 조치 및 적응에 대한 실질적 기여 보고 방식을 명확히 하기 위함"],
+  [/clarify how 금융기관 should report on 적응 measures and the substantial contribution to 적응/gi, "금융기관의 적응 조치 및 적응에 대한 실질적 기여 보고 방식을 명확히 하기 위함"],
+  [/minor clarification/gi, "경미한 명확화"],
+  [/minor restructuring/gi, "경미한 구조 조정"],
+  [/increase clarity/gi, "명확성을 높이기 위함"],
+  [/reflect changes in the 문항/gi, "문항 변경사항 반영"],
+  [/reflect changes to the 문항/gi, "문항 변경사항 반영"],
+  [/in accordance with 문항 change/gi, "문항 변경사항 반영"],
+  [/alignment with ISSB S2/gi, "ISSB S2와의 정합성"],
+  [/scope 1, 2 and 3/gi, "Scope 1, 2, 3"],
+  [/third-party verification/gi, "제3자 검증"],
+  [/non-disclosure route/gi, "비공개 경로"],
+  [/Best practise/gi, "우수 관행"],
+  [/best practice/gi, "우수 관행"],
+];
+
+function applyChangeGlossary(value) {
+  let out = String(value ?? "");
+  for (const [pattern, replacement] of CHANGE_TEXT_REPLACEMENTS) out = out.replace(pattern, replacement);
+  return out
+    .replace(/\s+([,.;:])/g, "$1")
+    .replace(/\(\s+/g, "(")
+    .replace(/\s+\)/g, ")")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
+function cleanChangeFragment(value) {
+  return applyChangeGlossary(value);
+}
+
+function translateChangeTypeText(value) {
+  const typeMap = {
+    "New dropdown option": "신규 드롭다운 선택지",
+    "Modified dropdown option": "드롭다운 선택지 문구 수정",
+    "Removed dropdown option": "드롭다운 선택지 삭제",
+    "New row": "신규 행",
+    "Removed row": "행 삭제",
+    "Modified row text": "행 문구 수정",
+    "Removed column/row": "열/행 삭제",
+    "Removed column": "열 삭제",
+    "New column": "신규 열",
+    "Modified column text": "열 문구 수정",
+    "Change column type": "열 입력방식 변경",
+    "New guidance": "가이던스 추가",
+    "Modified guidance": "가이던스 수정",
+    "New explanation of terms": "용어 설명 추가",
+    "Change to conditional logic": "조건부 표시 로직 변경",
+    "Add tags to dropdown option": "드롭다운 선택지 태그 추가",
+    "Remove tags to dropdown option": "드롭다운 선택지 태그 삭제",
+    "Edit pop up help text": "팝업 도움말 수정",
+  };
+  const parts = String(value || "")
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => typeMap[part] || cleanChangeFragment(part));
+  return [...new Set(parts)].join(" / ");
+}
+
+function translateQuotedTerms(value) {
+  return applyChangeGlossary(value);
+}
+
+function quotedList(value) {
+  const matches = [...String(value || "").matchAll(/["'‘’“”]([^"'‘’“”]+)["'‘’“”]/g)].map((match) => `"${translateQuotedTerms(match[1])}"`);
+  return matches.length ? matches.join(", ") : "";
+}
+
+function sentenceParts(value) {
+  return String(value || "")
+    .replace(/\r\n/g, "\n")
+    .split(/\n+|(?<=\.)\s+(?=[A-Z])/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+}
+
+function translateChangeSentence(sentence) {
+  const original = sentence.trim().replace(/\.$/, "");
+  const terms = quotedList(original);
+  let match;
+
+  if ((match = original.match(/^Dropdown option\s+(.+?)\s+has been added/i))) return `드롭다운 선택지 ${quotedList(match[1]) || translateQuotedTerms(match[1])}가 추가되었습니다.`;
+  if ((match = original.match(/^Option\s+(.+?)\s+has been added/i))) return `선택지 ${quotedList(match[1]) || translateQuotedTerms(match[1])}가 추가되었습니다.`;
+  if ((match = original.match(/^New dropdown options added(?:\s+to\s+(.+))?/i))) return `신규 드롭다운 선택지가 추가되었습니다${match[1] ? `: ${translateQuotedTerms(match[1])}` : ""}.`;
+  if ((match = original.match(/^New options added:\s*(.+)/i))) return `신규 선택지가 추가되었습니다: ${translateQuotedTerms(match[1])}.`;
+  if ((match = original.match(/^Removed options:\s*(.+)/i))) return `선택지가 삭제되었습니다: ${translateQuotedTerms(match[1])}.`;
+  if ((match = original.match(/^Modified options:\s*(.+)/i))) return `선택지 문구가 수정되었습니다: ${translateQuotedTerms(match[1]).replace(/\s+with\s+/gi, " → ")}.`;
+  if ((match = original.match(/^Rows?\s+(.+?)\s+added/i))) return `행 ${quotedList(match[1]) || translateQuotedTerms(match[1])}이 추가되었습니다.`;
+  if ((match = original.match(/^Row\s+(.+?)\s+replaced with\s+(.+)/i))) return `행 ${quotedList(match[1]) || translateQuotedTerms(match[1])}이 ${quotedList(match[2]) || translateQuotedTerms(match[2])}로 변경되었습니다.`;
+  if ((match = original.match(/^Removed column\s+(.+)/i))) return `열 ${quotedList(match[1]) || translateQuotedTerms(match[1])}이 삭제되었습니다.`;
+  if ((match = original.match(/^Added definition for\s+(.+)/i))) return `용어 정의가 추가되었습니다: ${translateQuotedTerms(match[1])}.`;
+  if ((match = original.match(/^The term\s+(.+?)\s+has been added/i))) return `용어 ${quotedList(match[1]) || translateQuotedTerms(match[1])}가 추가되었습니다.`;
+  if ((match = original.match(/^Added guidance(?:\s+to\s+(.+))?/i))) return `가이던스가 추가되었습니다${match[1] ? `: ${translateQuotedTerms(match[1])}` : ""}.`;
+  if ((match = original.match(/^Additional guidance (?:has been )?added(?:\s+to\s+(.+))?/i))) return `추가 가이던스가 반영되었습니다${match[1] ? `: ${translateQuotedTerms(match[1])}` : ""}.`;
+  if ((match = original.match(/^Updated guidance\s+to\s+(.+)/i))) return `가이던스가 수정되었습니다: ${translateQuotedTerms(match[1])}.`;
+  if ((match = original.match(/^Conditional logic fix\s*-\s*(.+)/i))) return `조건부 표시 로직이 수정되었습니다: ${translateQuotedTerms(match[1])}.`;
+  if ((match = original.match(/^Added functionality\s+to\s+(.+)/i))) return `기능이 추가되었습니다: ${translateQuotedTerms(match[1])}.`;
+  if ((match = original.match(/^New rows?\s+(.+?)\s+added/i))) return `신규 행 ${quotedList(match[1]) || translateQuotedTerms(match[1])}이 추가되었습니다.`;
+  if ((match = original.match(/^(.+?)\s+has been added/i))) return `${translateQuotedTerms(match[1])}이(가) 추가되었습니다.`;
+
+  if (terms && /added/i.test(original)) return `${terms}이(가) 추가되었습니다.`;
+  if (terms && /removed/i.test(original)) return `${terms}이(가) 삭제되었습니다.`;
+  if (terms && /updated|modified/i.test(original)) return `${terms}이(가) 수정되었습니다.`;
+  return cleanChangeFragment(original).replace(/\.$/, "") + ".";
+}
+
+function translateScoringHeader(value) {
+  return cleanChangeFragment(value)
+    .replace(/\bCC\/F\/W\b/g, "기후변화/산림/수자원")
+    .replace(/\bCC\/W\b/g, "기후변화/수자원")
+    .replace(/\bF\/W\b/g, "산림/수자원")
+    .replace(/\bCC\b/g, "기후변화")
+    .replace(/All sectors excluding Financial services/gi, "금융 서비스를 제외한 전 섹터")
+    .replace(/All sectors/gi, "전 섹터")
+    .replace(/Financial services/gi, "금융 서비스")
+    .replace(/Energy utilities and power generators/gi, "에너지 유틸리티 및 발전")
+    .replace(/Disclosure & Awareness/gi, "공시 및 인지")
+    .replace(/Awareness, Management & Leadership/gi, "인지, 관리 및 리더십")
+    .replace(/Awareness & Management/gi, "인지 및 관리")
+    .replace(/Management & Leadership/gi, "관리 및 리더십")
+    .replace(/Disclosure/gi, "공시")
+    .replace(/Awareness/gi, "인지")
+    .replace(/Management/gi, "관리")
+    .replace(/Leadership/gi, "리더십");
+}
+
+function translateScoringSentence(sentence) {
+  const original = sentence.trim().replace(/\.$/, "");
+  let match;
+  if (/^NON-DISCLOSURE ROUTE point allocations updated/i.test(original)) return "비공개 경로 배점이 조정되었습니다.";
+  if (/^Point allocations updated to reflect changes in child questions/i.test(original)) return "하위 문항 변경사항을 반영하여 배점이 조정되었습니다.";
+  if (/reflect additional power generation sources added to question/i.test(original)) {
+    return "문항에 신규 추가된 발전원과 삭제된 발전원을 평가방법론에 반영했습니다: Ocean thermal, Onshore wind, Offshore wind, Wave & Tidal 추가; Wind, Marine 삭제.";
+  }
+  if (/provide a scoring pathway.*scope 1, 2 and 3 emissions/i.test(original)) {
+    return "Scope 1, 2, 3 배출량을 검증했지만 기타 환경정보를 검증하지 않은 조직도 평가받을 수 있도록 경로가 추가되었습니다.";
+  }
+  if (/^Best practise for addressing Climate- related issues/i.test(original)) return "기후 관련 이슈 대응 우수 관행은 Scope 1, 2, 3 배출량에 대해 제3자 검증을 확보하는 것입니다.";
+  if (/^Therefore, while it is good practise/i.test(original)) return "따라서 Scope 1, 2, 3을 모두 검증한 조직은 기타 환경정보를 검증하지 않았다는 이유만으로 감점되지 않습니다.";
+  if (/create a route for asset owners where they do not have clients/i.test(original)) return "고객이 없는 자산소유자를 위한 평가 경로가 마련되었습니다.";
+  if (/When .*Investing \(asset Owner\).*selected in column .*Portfolio/i.test(original)) return "포트폴리오 열에서 'Investing (asset Owner)'가 선택된 경우 해당 행은 평가에서 제외됩니다.";
+  if (/^Minor clarification to dropdown option text/i.test(original)) return "문항 변경사항에 맞춰 드롭다운 선택지 문구가 경미하게 명확화되었습니다.";
+  if (/^Minor restructuring of criteria to increase clarity/i.test(original)) return "평가기준의 명확성을 높이기 위해 일부 구조가 조정되었습니다.";
+  if (/^Update in accordance with questionnaire change/i.test(original)) return "문항 변경사항을 반영한 업데이트입니다.";
+  if (/^Removal of column/i.test(original)) return `열 삭제사항이 평가방법론에 반영되었습니다: ${translateQuotedTerms(original.replace(/^Removal of column/i, ""))}.`;
+  if (/^Scoring updated for alignment of Forests and Water scoring with Climate Change/i.test(original)) return "산림 및 수자원 평가방법론을 기후변화 평가방법론과 정합화하도록 수정했습니다.";
+  if (/^Additionally, updates have been made to create a route for asset owners/i.test(original)) return "고객이 없는 자산소유자에게 적용할 평가 경로가 추가되었습니다.";
+  if (/^This checks that at least one row disclosed/i.test(original)) return "1.10에서 선택한 포트폴리오 항목과 대응되는 행이 최소 1개 공시되었는지 확인합니다.";
+  if (/^When .*selected in column/i.test(original)) return `특정 선택지가 선택된 경우의 평가 적용 방식이 조정되었습니다: ${translateQuotedTerms(original)}.`;
+  if (/^Driven by/i.test(original)) return `변경 사유: ${translateQuotedTerms(original.replace(/^Driven by/i, ""))}.`;
+  if (/^Best practise/i.test(original) || /^Therefore/i.test(original)) return translateQuotedTerms(original) + ".";
+  if (/^Removed/i.test(original)) return "문항 업데이트에 따라 해당 평가기준이 삭제되었습니다.";
+  if ((match = original.match(/Point allocation increased from\s+(.+?)\s+to\s+(.+?)\s+to\s+(.+)/i))) {
+    return `배점이 ${match[1]}에서 ${match[2]}로 증가했습니다: ${translateQuotedTerms(match[3])}.`;
+  }
+  if ((match = original.match(/ROUTE\s+([A-Z])\s+added(?:\s+to\s+(.+))?/i))) return `경로 ${match[1]}가 추가되었습니다${match[2] ? `: ${translateQuotedTerms(match[2])}` : ""}.`;
+  if ((match = original.match(/ROUTE\s+([A-Z])\s+updated(?:\s+to\s+(.+))?/i))) return `경로 ${match[1]}가 수정되었습니다${match[2] ? `: ${translateQuotedTerms(match[2])}` : ""}.`;
+  if ((match = original.match(/Scoring added(?:\s+for\s+(.+))?/i))) return `평가기준이 추가되었습니다${match[1] ? `: ${translateQuotedTerms(match[1])}` : ""}.`;
+  if ((match = original.match(/Scoring update(?:d)?\s+to\s+(.+)/i))) return `평가방법론이 수정되었습니다: ${translateQuotedTerms(match[1])}.`;
+  if ((match = original.match(/Scoring relating to column\s+(.+?)\s+is no longer present/i))) return `열 ${quotedList(match[1]) || translateQuotedTerms(match[1])} 관련 평가기준이 삭제되었습니다.`;
+  if ((match = original.match(/Column\s+(.+?)\s+which was previously excluded.*now scored/i))) return `기존에 제외되었던 열 ${quotedList(match[1]) || translateQuotedTerms(match[1])}이 평가 대상에 포함되었습니다.`;
+  if ((match = original.match(/Accepted options in column\s+(.+?)\s+increased/i))) return `열 ${quotedList(match[1]) || translateQuotedTerms(match[1])}의 인정 선택지가 확대되었습니다.`;
+  if ((match = original.match(/Check for a figure greater than\s+(.+?)\s+provided in column\s+(.+?)\s+added/i))) return `열 ${quotedList(match[2]) || translateQuotedTerms(match[2])}에 ${match[1]}보다 큰 값이 입력됐는지 확인하는 기준이 추가되었습니다.`;
+  if ((match = original.match(/Additional check added(?:\s+to\s+(.+))?/i))) return `추가 확인 기준이 추가되었습니다${match[1] ? `: ${translateQuotedTerms(match[1])}` : ""}.`;
+  if ((match = original.match(/^Cross check with\s+(.+?)\s+added/i))) return `${match[1]} 문항과의 교차검증이 추가되었습니다.`;
+  if (/Cross check with/i.test(original)) return `${translateQuotedTerms(original).replace(/Cross check with/gi, "교차검증 대상")}이 추가되었습니다.`;
+  if (/Figure check moved to awareness level/i.test(original)) return "수치 확인 기준이 인지 수준으로 이동했습니다.";
+  if (/Eligibility criteria/i.test(original)) return `평가 적용 또는 적격성 기준이 변경되었습니다: ${translateQuotedTerms(original)}.`;
+  if (/Criteria modified/i.test(original)) return `평가기준이 수정되었습니다: ${translateQuotedTerms(original)}.`;
+  return translateChangeSentence(original);
+}
+
+function translateChangeSource(value, kind) {
+  const source = String(value || "").trim();
+  if (!source) return "";
+  if (kind === "type") return translateChangeTypeText(source);
+
+  const paragraphs = source.split(/\n+/).map((part) => part.trim()).filter(Boolean);
+  const translated = [];
+  for (const paragraph of paragraphs) {
+    if (kind === "scoring" && paragraph.includes("•")) {
+      const [header, ...bodyParts] = paragraph.split("•").map((part) => part.trim()).filter(Boolean);
+      if (header) translated.push(`• ${translateScoringHeader(header)}:`);
+      for (const body of bodyParts) {
+        for (const sentence of sentenceParts(body)) translated.push(`  - ${translateScoringSentence(sentence)}`);
+      }
+    } else {
+      const parts = sentenceParts(paragraph);
+      for (const part of parts) translated.push(`• ${kind === "scoring" ? translateScoringSentence(part) : translateChangeSentence(part)}`);
+    }
+  }
+  return translated.join("\n");
+}
+
 function isGenericChangeText(value) {
   const text = String(value ?? "").trim();
   return (
@@ -1465,6 +1699,10 @@ function summarizeGeneralChange(change) {
 function changeDisplayValue(change, enKey, koKey, kind) {
   const preferred = state.lang === "ko" ? change[koKey] : change[enKey];
   const alternate = state.lang === "ko" ? change[enKey] : change[koKey];
+  if (state.lang === "ko" && change[enKey]) {
+    const translated = translateChangeSource(change[enKey], kind);
+    if (translated) return translated;
+  }
   const preferredUsable = !isGenericChangeText(preferred) && !(state.lang === "ko" && isUntranslatedKoreanChangeText(preferred));
   if (preferredUsable) return state.lang === "ko" ? displayText(preferred) : preferred;
   if (state.lang !== "ko" && !isGenericChangeText(alternate) && kind !== "scoring") return alternate;
@@ -1476,6 +1714,23 @@ function changeDisplayValue(change, enKey, koKey, kind) {
   }
   if (kind === "scoring") return summarizeScoringChange(change);
   return summarizeGeneralChange(change);
+}
+
+function changeStatusDisplay(change) {
+  const ko = change?.change_statusKo || "";
+  if (state.lang === "ko" && !isGenericChangeText(ko) && !isUntranslatedKoreanChangeText(ko)) return displayText(ko);
+  const status = String(change?.change_status || "").trim();
+  const mapKo = {
+    "No change": "변경 없음",
+    "No change - 2026 source verified": "변경 없음 - 2026 원문 확인",
+    "Modified question": "문항 수정",
+    "New question": "신규 문항",
+    "Removed question": "삭제된 문항",
+    "Minor change": "경미한 변경",
+    "Major change": "주요 변경",
+  };
+  if (state.lang === "ko") return mapKo[status] || summarizeGeneralChange(change);
+  return status || summarizeGeneralChange(change);
 }
 
 function chip(text, className = "") {
@@ -1683,7 +1938,9 @@ function sectorLabel(sector) {
 }
 
 function reviewStatus(change) {
-  return state.lang === "ko" ? change?.review_statusKo || change?.review_status || "" : change?.review_statusEn || change?.review_status || "";
+  const value = state.lang === "ko" ? change?.review_statusKo || change?.review_status || "" : change?.review_statusEn || change?.review_status || "";
+  if (state.lang === "ko" && (value === "변경됨 및" || value === "Changed and reflected")) return "변경 반영";
+  return value;
 }
 
 function boolKo(value) {
@@ -1961,7 +2218,7 @@ function renderDetail(detail) {
           ${chip(statusText, detail.change?.review_status === "변경 반영" ? "changed" : "ok")}
         </div>
         <div class="detail-actions">
-          <div class="q-meta">${chip(textBy(change, "change_status", "change_statusKo") || "-", detail.change?.review_status === "변경 반영" ? "changed" : "ok")}</div>
+          <div class="q-meta">${chip(changeStatusDisplay(change) || "-", detail.change?.review_status === "변경 반영" ? "changed" : "ok")}</div>
           <button class="text-button favorite-button ${isFavorite ? "active" : ""}" id="favoriteQuestionButton" type="button">${escapeHtml(isFavorite ? t("removeFavorite") : t("addFavorite"))}</button>
           <button class="text-button share-button" id="copyQuestionLink" type="button">${escapeHtml(t("copyLink"))}</button>
         </div>
@@ -1983,7 +2240,7 @@ function renderDetail(detail) {
           .join("")}
       </div>
       ${renderInfoLines([
-        [t("changeState"), textBy(change, "change_status", "change_statusKo") || "-"],
+        [t("changeState"), changeStatusDisplay(change) || "-"],
         [t("detailChangeType"), changeDisplayValue(change, "detail_change_types", "detail_change_typesKo", "type")],
         [t("changeSummary"), changeDisplayValue(change, "change_summary", "change_summaryKo", "summary")],
         [t("scoringChangeSummary"), changeDisplayValue(change, "scoring_change_summary", "scoring_change_summaryKo", "scoring")],

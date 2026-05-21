@@ -600,10 +600,15 @@ button:focus {
 }
 
 .status-cell span {
-  display: block;
-  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 24px;
+  margin-top: 7px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
 }
 
 .text-block {
