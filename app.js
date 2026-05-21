@@ -7,6 +7,7 @@ const state = {
   activeLevel: "",
   activeSector: "",
   lang: "ko",
+  favorites: new Set(),
 };
 
 const UI = {
@@ -27,6 +28,7 @@ const UI = {
     flag: "변경 범주",
     sector: "섹터",
     changedOnly: "변경 반영 문항만 보기",
+    favoritesOnly: "즐겨찾기만 보기",
     questionList: "문항 목록",
     exportCsv: "필터 결과 CSV",
     comfortable: "표준",
@@ -95,6 +97,9 @@ const UI = {
     copied: "복사됨",
     copyViewLink: "필터 링크",
     viewLinkCopied: "필터 링크 복사됨",
+    addFavorite: "즐겨찾기 추가",
+    removeFavorite: "즐겨찾기 해제",
+    favoriteChip: "즐겨찾기",
     sectionJump: "상세 바로가기",
     sector: "섹터",
     level: "레벨",
@@ -117,6 +122,7 @@ const UI = {
     flag: "Change category",
     sector: "Sector",
     changedOnly: "Show changed questions only",
+    favoritesOnly: "Show favorites only",
     questionList: "Question list",
     exportCsv: "Export CSV",
     comfortable: "Normal",
@@ -185,6 +191,9 @@ const UI = {
     copied: "Copied",
     copyViewLink: "Copy view",
     viewLinkCopied: "View copied",
+    addFavorite: "Add favorite",
+    removeFavorite: "Remove favorite",
+    favoriteChip: "Favorite",
     sectionJump: "Jump to section",
     sector: "Sector",
     level: "Level",
@@ -193,7 +202,8 @@ const UI = {
 };
 
 const PUBLIC_BASE_URL = "https://24josh4281.github.io/CDP-Questionnaire/";
-const URL_STATE_VERSION = "filters-v5";
+const URL_STATE_VERSION = "favorites-v6";
+const FAVORITES_STORAGE_KEY = "cdpQuestionDbFavorites";
 
 const SECTOR_KO = {
   General: "일반",
@@ -244,6 +254,39 @@ const FLAG_LABELS = {
 
 const $ = (id) => document.getElementById(id);
 const t = (key) => UI[state.lang][key] || UI.ko[key] || key;
+
+function qaLog(level, message, data = {}) {
+  const entry = {
+    timestamp: new Date().toISOString(),
+    level,
+    service: "cdp-question-db",
+    request_id: `qa_${Date.now().toString(36)}`,
+    message,
+    data,
+  };
+  console.log(JSON.stringify(entry));
+}
+
+function loadFavorites() {
+  try {
+    const raw = window.localStorage.getItem(FAVORITES_STORAGE_KEY);
+    const values = raw ? JSON.parse(raw) : [];
+    state.favorites = new Set(Array.isArray(values) ? values : []);
+    qaLog("INFO", "Favorites loaded", { count: state.favorites.size });
+  } catch (error) {
+    state.favorites = new Set();
+    qaLog("WARNING", "Favorites load failed", { error: error.message });
+  }
+}
+
+function saveFavorites() {
+  try {
+    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify([...state.favorites].sort(compareCode)));
+    qaLog("INFO", "Favorites saved", { count: state.favorites.size });
+  } catch (error) {
+    qaLog("ERROR", "Favorites save failed", { error: error.message });
+  }
+}
 
 const KO_DISPLAY_REPLACEMENTS = [
   [/We measure the impact of our 포트폴리오 on the climate/gi, "포트폴리오가 기후에 미치는 영향을 측정함"],
@@ -1336,6 +1379,7 @@ function readFilterState() {
     flag: $("flagFilter")?.value || "",
     sector: $("sectorFilter")?.value || "",
     changed: $("changedOnly")?.checked || false,
+    favorites: $("favoritesOnly")?.checked || false,
     density: state.density,
   };
 }
@@ -1348,6 +1392,7 @@ function writeFilterParams(url, filters = readFilterState()) {
   setUrlParam(url, "flag", filters.flag || "");
   setUrlParam(url, "sector", filters.sector || "");
   setUrlParam(url, "changed", filters.changed ? "1" : "");
+  setUrlParam(url, "favorites", filters.favorites ? "1" : "");
   setUrlParam(url, "density", filters.density === "compact" ? "compact" : "");
 }
 
@@ -1372,6 +1417,7 @@ function applyFilterState(filters) {
   setSelectValue("flagFilter", filters.flag);
   setSelectValue("sectorFilter", filters.sector);
   if ($("changedOnly")) $("changedOnly").checked = Boolean(filters.changed);
+  if ($("favoritesOnly")) $("favoritesOnly").checked = Boolean(filters.favorites);
   state.density = filters.density === "compact" ? "compact" : "comfortable";
   updateDensityButtons();
 }
@@ -1386,6 +1432,7 @@ function urlFilterState() {
     flag: params.get("flag") || "",
     sector: params.get("sector") || "",
     changed: params.get("changed") === "1",
+    favorites: params.get("favorites") === "1",
     density: params.get("density") === "compact" ? "compact" : "comfortable",
   };
 }
@@ -1423,8 +1470,10 @@ async function copyCurrentViewLink() {
   const link = url.toString();
   try {
     await navigator.clipboard.writeText(link);
+    qaLog("INFO", "Filtered view link copied", { url: link, results: state.filtered.length });
   } catch {
     window.prompt("Copy this link", link);
+    qaLog("WARNING", "Filtered view link copy fallback", { url: link, results: state.filtered.length });
   }
   const button = $("copyViewLinkButton");
   if (button) {
@@ -1469,6 +1518,7 @@ function exportFilteredCsv() {
   link.click();
   link.remove();
   URL.revokeObjectURL(url);
+  qaLog("INFO", "Filtered CSV exported", { rows: state.filtered.length, lang: state.lang });
 }
 
 function levelOrder(level) {
@@ -1519,10 +1569,12 @@ function setSelectOptionText(id, value, text) {
 }
 
 async function loadIndex() {
+  qaLog("INFO", "Index load started", { path: "./data/index.json" });
   const response = await fetch("./data/index.json", { cache: "no-store" });
   if (!response.ok) throw new Error(`index.json load failed: ${response.status}`);
   state.index = await response.json();
   state.filtered = state.index.questions;
+  qaLog("INFO", "Index load completed", { questions: state.index.counts?.questions || state.filtered.length });
 }
 
 function populateFilters() {
@@ -1563,6 +1615,7 @@ function updateStaticLabels() {
   setText("labelFlag", t("flag"));
   setText("labelSector", t("sector"));
   setText("labelChangedOnly", t("changedOnly"));
+  setText("labelFavoritesOnly", t("favoritesOnly"));
   setText("labelQuestionList", t("questionList"));
   setText("copyViewLinkButton", t("copyViewLink"));
   setText("exportCsvButton", t("exportCsv"));
@@ -1639,6 +1692,7 @@ function applyFilters() {
   const flag = $("flagFilter").value;
   const sector = $("sectorFilter").value;
   const changedOnly = $("changedOnly").checked;
+  const favoritesOnly = $("favoritesOnly").checked;
 
   state.filtered = state.index.questions.filter((question) => {
     if (query && !question.searchText.includes(query)) return false;
@@ -1647,6 +1701,7 @@ function applyFilters() {
     if (type && question.questionType !== type) return false;
     if (flag && !question.flags?.[flag]) return false;
     if (changedOnly && !question.isChanged) return false;
+    if (favoritesOnly && !state.favorites.has(question.code)) return false;
     if (!matchesSector(question, sector)) return false;
     return true;
   });
@@ -1656,6 +1711,18 @@ function applyFilters() {
   }
 
   syncUrl();
+  qaLog("INFO", "Filters applied", {
+    query,
+    module: moduleValue,
+    location,
+    type,
+    flag,
+    sector,
+    changedOnly,
+    favoritesOnly,
+    results: state.filtered.length,
+    selectedCode: state.selectedCode,
+  });
   renderModules();
   renderQuestionList();
   if (state.selectedCode) {
@@ -1674,12 +1741,13 @@ function renderQuestionList() {
   $("questionList").innerHTML = state.filtered
     .map((question) => {
       const changedChip = question.isChanged ? chip(t("changedApplied"), "changed") : chip(t("noChangeVerified"), "ok");
+      const favoriteChip = state.favorites.has(question.code) ? chip(t("favoriteChip"), "favorite") : "";
       const pointText = `D ${question.daml.D} · A ${question.daml.A} · M ${question.daml.M} · L ${question.daml.L}`;
       const title = textBy(question, "questionText", "questionKo");
       return `<button class="question-row ${state.density === "compact" ? "compact" : ""} ${question.code === state.selectedCode ? "active" : ""}" data-code="${escapeHtml(question.code)}" type="button">
         <div class="question-topline">
           <span class="q-code">M${escapeHtml(question.code)}</span>
-          ${changedChip}
+          <span class="row-chip-group">${favoriteChip}${changedChip}</span>
         </div>
         <div class="q-title">${escapeHtml(compact(title, state.density === "compact" ? 120 : 210))}</div>
         <div class="q-meta">
@@ -1710,6 +1778,7 @@ async function loadDetail(code) {
 async function selectQuestion(code) {
   state.selectedCode = code;
   setQuestionUrl(code);
+  qaLog("INFO", "Question selected", { code });
   renderQuestionList();
   $("detailPanel").innerHTML = `<div class="empty-detail"><strong>M${escapeHtml(code)}</strong><span>${t("loadingDetail")}</span></div>`;
   try {
@@ -1736,6 +1805,7 @@ function renderDetail(detail) {
   const change = detail.change || {};
   const title = textBy(detail, "questionText", "questionKo");
   const statusText = reviewStatus(change);
+  const isFavorite = state.favorites.has(detail.code);
   const flagCells = [
     [t("questionName"), change.changed_question],
     [t("responseChanged"), change.changed_response],
@@ -1754,6 +1824,7 @@ function renderDetail(detail) {
         </div>
         <div class="detail-actions">
           <div class="q-meta">${chip(textBy(change, "change_status", "change_statusKo") || "-", detail.change?.review_status === "변경 반영" ? "changed" : "ok")}</div>
+          <button class="text-button favorite-button ${isFavorite ? "active" : ""}" id="favoriteQuestionButton" type="button">${escapeHtml(isFavorite ? t("removeFavorite") : t("addFavorite"))}</button>
           <button class="text-button share-button" id="copyQuestionLink" type="button">${escapeHtml(t("copyLink"))}</button>
         </div>
       </div>
@@ -2057,6 +2128,17 @@ function renderSources(detail) {
     .join("");
 }
 
+function toggleFavorite(code) {
+  if (state.favorites.has(code)) {
+    state.favorites.delete(code);
+  } else {
+    state.favorites.add(code);
+  }
+  saveFavorites();
+  qaLog("INFO", "Favorite toggled", { code, isFavorite: state.favorites.has(code) });
+  applyFilters();
+}
+
 function bindDetailControls(detail) {
   const pointSector = $("pointSectorSelect");
   if (pointSector) {
@@ -2091,18 +2173,24 @@ function bindDetailControls(detail) {
       try {
         await navigator.clipboard.writeText(url);
         copyLink.textContent = t("copied");
+        qaLog("INFO", "Question link copied", { code: detail.code });
       } catch (error) {
         window.prompt(t("copyLink"), url);
+        qaLog("WARNING", "Question link copy fallback", { code: detail.code, error: error.message });
       }
       window.setTimeout(() => {
         copyLink.textContent = t("copyLink");
       }, 1400);
     });
   }
+  const favoriteButton = $("favoriteQuestionButton");
+  if (favoriteButton) {
+    favoriteButton.addEventListener("click", () => toggleFavorite(detail.code));
+  }
 }
 
 function bindEvents() {
-  const filterIds = ["searchInput", "moduleFilter", "locationFilter", "typeFilter", "flagFilter", "sectorFilter", "changedOnly"];
+  const filterIds = ["searchInput", "moduleFilter", "locationFilter", "typeFilter", "flagFilter", "sectorFilter", "changedOnly", "favoritesOnly"];
   for (const id of filterIds) {
     const element = $(id);
     element.addEventListener(id === "searchInput" ? "input" : "change", applyFilters);
@@ -2115,6 +2203,8 @@ function bindEvents() {
     $("flagFilter").value = "";
     $("sectorFilter").value = "";
     $("changedOnly").checked = false;
+    $("favoritesOnly").checked = false;
+    qaLog("INFO", "Filters reset");
     applyFilters();
   });
   $("copyViewLinkButton").addEventListener("click", copyCurrentViewLink);
@@ -2124,6 +2214,7 @@ function bindEvents() {
       state.density = button.dataset.density;
       updateDensityButtons();
       syncUrl();
+      qaLog("INFO", "List density changed", { density: state.density });
       renderQuestionList();
     });
   }
@@ -2144,6 +2235,7 @@ async function init() {
   try {
     const urlLang = new URLSearchParams(window.location.search).get("lang");
     if (urlLang === "en" || urlLang === "ko") state.lang = urlLang;
+    loadFavorites();
     await loadIndex();
     const urlQuestion = new URLSearchParams(window.location.search).get("q");
     if (urlQuestion && state.index.questions.some((question) => question.code === urlQuestion)) {
@@ -2156,7 +2248,9 @@ async function init() {
     renderModules();
     bindEvents();
     applyFilters();
+    qaLog("INFO", "App initialized", { lang: state.lang, selectedCode: state.selectedCode });
   } catch (error) {
+    qaLog("ERROR", "App loading error", { error: error.message });
     document.body.innerHTML = `<main class="app-shell"><div class="empty-detail"><strong>App loading error</strong><span>${escapeHtml(error.message)}</span></div></main>`;
   }
 }

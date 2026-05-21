@@ -373,6 +373,13 @@ button:focus {
   gap: 8px;
 }
 
+.row-chip-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
 .q-code {
   color: var(--navy);
   font-size: 13px;
@@ -450,6 +457,12 @@ button:focus {
   color: #8b6400;
 }
 
+.chip.favorite {
+  border-color: #c5cfdd;
+  background: #f7f9fc;
+  color: var(--navy);
+}
+
 .detail-panel {
   min-height: 760px;
   max-height: calc(100vh - 124px);
@@ -493,6 +506,16 @@ button:focus {
 .share-button {
   min-width: 84px;
   white-space: nowrap;
+}
+
+.favorite-button {
+  min-width: 112px;
+}
+
+.favorite-button.active {
+  border-color: #c5cfdd;
+  background: #f7f9fc;
+  color: var(--navy);
 }
 
 .detail-title {
