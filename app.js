@@ -90,6 +90,8 @@ const UI = {
     noCriteria: "이 문항의 Climate Change 평가기준 데이터가 없습니다.",
     noCriteriaSelection: "선택한 섹터/레벨의 평가기준이 없습니다.",
     noGuidance: "가이던스 데이터가 없습니다.",
+    copyLink: "공유 링크",
+    copied: "복사됨",
     sector: "섹터",
     level: "레벨",
     route: "구분",
@@ -174,11 +176,15 @@ const UI = {
     noCriteria: "No Climate Change scoring criteria data for this question.",
     noCriteriaSelection: "No scoring criteria for the selected sector/level.",
     noGuidance: "No guidance data.",
+    copyLink: "Copy link",
+    copied: "Copied",
     sector: "Sector",
     level: "Level",
     route: "Route",
   },
 };
+
+const PUBLIC_BASE_URL = "https://24josh4281.github.io/CDP-Questionnaire/";
 
 const SECTOR_KO = {
   General: "일반",
@@ -1304,6 +1310,21 @@ function compareCode(a, b) {
   return 0;
 }
 
+function setQuestionUrl(code) {
+  const nextUrl = new URL(window.location.href);
+  nextUrl.searchParams.set("lang", state.lang);
+  nextUrl.searchParams.set("q", code);
+  window.history.replaceState({}, "", nextUrl);
+}
+
+function publicQuestionUrl(code) {
+  const url = new URL(PUBLIC_BASE_URL);
+  url.searchParams.set("lang", state.lang);
+  url.searchParams.set("q", code);
+  url.searchParams.set("refresh", "fullko-v2");
+  return url.toString();
+}
+
 function levelOrder(level) {
   return { D: 1, A: 2, M: 3, L: 4 }[level] || 9;
 }
@@ -1539,6 +1560,7 @@ async function loadDetail(code) {
 
 async function selectQuestion(code) {
   state.selectedCode = code;
+  setQuestionUrl(code);
   renderQuestionList();
   $("detailPanel").innerHTML = `<div class="empty-detail"><strong>M${escapeHtml(code)}</strong><span>${t("loadingDetail")}</span></div>`;
   try {
@@ -1581,7 +1603,10 @@ function renderDetail(detail) {
           ${chip(textBy(detail, "questionType", "questionTypeKo"))}
           ${chip(statusText, detail.change?.review_status === "변경 반영" ? "changed" : "ok")}
         </div>
-        <div class="q-meta">${chip(textBy(change, "change_status", "change_statusKo") || "-", detail.change?.review_status === "변경 반영" ? "changed" : "ok")}</div>
+        <div class="detail-actions">
+          <div class="q-meta">${chip(textBy(change, "change_status", "change_statusKo") || "-", detail.change?.review_status === "변경 반영" ? "changed" : "ok")}</div>
+          <button class="text-button share-button" id="copyQuestionLink" type="button">${escapeHtml(t("copyLink"))}</button>
+        </div>
       </div>
       <h2 class="detail-title">${escapeHtml(title)}</h2>
     </div>
@@ -1887,6 +1912,21 @@ function bindDetailControls(detail) {
       renderDetail(detail);
     });
   }
+  const copyLink = $("copyQuestionLink");
+  if (copyLink) {
+    copyLink.addEventListener("click", async () => {
+      const url = publicQuestionUrl(detail.code);
+      try {
+        await navigator.clipboard.writeText(url);
+        copyLink.textContent = t("copied");
+      } catch (error) {
+        window.prompt(t("copyLink"), url);
+      }
+      window.setTimeout(() => {
+        copyLink.textContent = t("copyLink");
+      }, 1400);
+    });
+  }
 }
 
 function bindEvents() {
@@ -1935,6 +1975,10 @@ async function init() {
     const urlLang = new URLSearchParams(window.location.search).get("lang");
     if (urlLang === "en" || urlLang === "ko") state.lang = urlLang;
     await loadIndex();
+    const urlQuestion = new URLSearchParams(window.location.search).get("q");
+    if (urlQuestion && state.index.questions.some((question) => question.code === urlQuestion)) {
+      state.selectedCode = urlQuestion;
+    }
     updateStaticLabels();
     populateFilters();
     renderMetrics();
