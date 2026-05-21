@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Disclose your total refinery throughput capacity in the reporting year in thousand barrels per day.",
-  "questionKo": "보고 연도의 총 정유 처리 용량을 일일 천 배럴 단위로 공개하세요",
+  "questionKo": "공시 귀사의 총 용량 보고연도 당.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -27,7 +27,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 (마다)",
+      "textKo": "총 용량 (당)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -46,13 +46,13 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Downstream\" in response to 1.19.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"다운스트림\" 응답 1.19."
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nFor the purpose of this question all types of refinery are included, such as coking, cracking, hydroskimming, topping, condensate splitter and upgrader.\nRefinery throughput is considered the capacity for refining crude oil and other feedstocks over a given period.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -86,7 +86,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -96,7 +96,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -106,7 +106,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
@@ -132,11 +132,11 @@
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "석유 및 가스: D 2/2 | 0/0 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "보고 연도의 총 정유 처리 용량을 일일 천 배럴 단위로 공개하세요"
+    "q2025_textKo": "공시 귀사의 총 용량 보고연도 당."
   },
   "defaultPoints": {
     "D": "2/2",
@@ -166,17 +166,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "석유 및 가스",
-  "simpleHelpKo": "이 문항은 '보고 연도의 총 정유 처리 용량을 일일 천 배럴 단위로 공개하세요'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '공시 귀사의 총 용량 보고연도 당.'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

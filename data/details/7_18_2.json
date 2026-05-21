@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Report the Scope 1 emissions pertaining to your business activity(ies) and explain any exclusions. If applicable, disaggregate your agricultural/forestry by GHG emissions category.",
-  "questionKo": "보고 범위 1 배출량 사업 활동 설명 제외사항., 농업/임업 GHG 배출량.",
+  "questionKo": "보고 Scope 1 배출량 귀사의 사업 활동() 및 설명 하나 이상. 만약 해당, 세분화 귀사의 농업/산림 기준 GHG 배출량 카테고리.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "1행"
+      "titleKo": "행 1"
     }
   ],
   "columns": [
@@ -35,9 +35,9 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "농업/임업",
-        "/제조",
-        "배전"
+        "",
+        "프로세스",
+        "유통"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -59,8 +59,8 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "비-",
-        "사용 변경",
+        "",
+        "토지 사용",
         "",
         "총"
       ],
@@ -75,7 +75,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "배출량 (미터톤 CO2e)",
+      "textKo": "배출량 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -102,9 +102,9 @@
       "mandatoryKo": "아니요",
       "optionsKo": [
         "배출량",
-        "특정 배출량",
+        "지역-구체적인 배출량 계수",
         "",
-        "프로세스-기준",
+        "프로세스-기반",
         "",
         "기타, 직접 입력"
       ],
@@ -138,13 +138,13 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" or \"Partially\" in your response to 7.18.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" 또는 \"부분적으로\" 귀사의 응답 7.18."
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nYou should provide Scope 1 emissions data pertaining to every business activity areas that are relevant to your organization, as indicated in 1.11.\nThe GHG Protocol has developed new Land Sector and Removals Standard (LSRS) and Guidance . Due to the timeline of publication, organizations are not yet able to report emissions and removals in line with the LSRS in CDP's 2026 corporate questionnaire. Organizations responding to this question during the 2026 disclosure cycle should report in accordance with other GHG Protocol corporate standards.\nActivity (column 1) \nThe list presented in this column includes all activities that are relevant to your organization as you indicated in 1.11. Add one row for each activity, except if \"Agriculture/Forestry\" is relevant to you and you indicated previously that you can provide a breakdown of Scope 1 data by categories. In this case, you should add four rows for \"Agriculture/Forestry\" and one row for the other relevant activities\nEmissions category (column 2) \nThis column appears if you select \"Emissions disaggregated by category\" in response to 7.18.1.\nWhen disclosing data for \"Agriculture/Forestry\", you should disclose to all of the options listed here, including \"Total\". For all other relevant business activities, you should only select \"Total\". For example, if you are disclosing data for \"Agriculture/Forestry\" and \"Processing/Manufacturing\" and have indicated that you can breakdown your agricultural/forestry emissions by categories in 7.18.1, your table should look like as follows (for columns 1 and 2):\nActivity \nEmissions \ncategory \nAgriculture/Forestry\nNon-mechanical\nAgriculture/Forestry\nLand use change\nAgriculture/Forestry\nMechanical\nAgriculture/Forestry\nTotal\nProcessing/Manufacturing\nTotal\nWhereas, if you have selected \"Total emissions\" in response to 7.18.1, your table should look like as follows (for columns 1 and 2):\nActivity \nEmissions metric tons (CO2e) \nAgriculture/Forestry\nNumerical field [enter a number from 0-999,999,999,999 using a maximum of 3 decimal places] \nProcessing/Manufacturing\nNumerical field [enter a number from 0-999,999,999,999 using a maximum of 3 decimal places] \nEmissions (metric tons CO2e) (column 3) \nIf you do not know your Scope 1 emissions figure, do not add a zero (0). A zero indicates you have measured your emissions and that they are equal to zero.\nMethodology (column 4) \nSelect the option(s) that best describe the methods used to calculate your Scope 1 emissions figure reported in column 3 \"Emissions…\".\nYou should consider the following:\nDefault emissions factors: involve the multiplication of activity data by an international default emissions factor.\nRegion-specific emissions factors: involve the multiplication of activity data by an emissions factor specific to the region.\nEmpirical models: involve using field measurements to develop statistical relationships between GHG data and activity-specific factors.\nProcess-based models: involve mathematically linking biogeochemical processes that control the production, consumption, and emission of GHGs\nField measurements: these can be direct (e.g. livestock chambers that measure methane emissions from enteric fermentation) or indirect (e.g. measurement of carbon stocks before and after a change in management practices).\nIf none of the options are applicable to your organization, select \"Other, please specify\" and indicate the methodology your organization applied.\nPlease explain (column 5) \nSpecify and describe the assumptions, methods and tools used to calculate your Scope 1 emissions figure reported in column 3 \"Emissions…\".\nSpecify and explain any exclusions",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
@@ -155,7 +155,7 @@
     {
       "type": "Example Response",
       "text": "For a company disclosing total agricultural emissions:\nActivity\nEmissions (metric tons CO 2 e)\nMethodology\nPlease explain\nAgriculture/Forestry \n200 \nRegion-specific emissions\nfactors; Field measurements\nOur main agricultural input is\nbeef (95% of our total production), and we understand that cattle can be a\nsignificant source of methane emissions (a potent greenhouse gas - GHG) due to\nenteric fermentation. We consider cattle to be our most significant source of\nGHG emissions and have focused our attention and efforts toward quantifying\nthese emissions to date. Our entire beef production, and all its farm components\n(animals, input materials, land activities, and machinery) are included in the emissions\naccounting. We used the GHGs Accounting tool to calculate GHG emissions, which uses\ndefault and region-specific emissions factors and farm specific data. At the\nmoment, we measure GHG emissions directly in a percentage of our sites (20%)\nbut intend to increase these field measurements in the near future. \nIn\nthe next year, we plan to start collecting emissions data from our agricultural\ncrops, that encompass 5% of our total production. We will initially target\ncrops that we grow in the largest quantities including sugarcane and barley. \nFor a company disclosing agricultural emissions disaggregated by category:\nActivity\nEmissions category\nEmissions (metric tons CO 2 e)\nMethodology\nPlease explain\nAgriculture/Forestry \nNon-mechanical \n150 \nDefault emissions factors; Region-specific\nemissions factors; Field measurements\nOur main agricultural input is\nbeef, and we understand that cattle can be a significant source of methane\nemissions (a potent greenhouse gas - GHG) due to enteric fermentation. We\nconsider cattle to be our most significant source of GHG emissions and have\nfocused our attention and efforts toward quantifying these emissions to date.\nOur entire beef production is included in the emissions analysis. For the\nnon-mechanical emissions, we included all GHG emissions from enteric\nfermentation, soil nitrous oxide emissions and emissions from manure\nmanagement. We used the GHGs Accounting tool to calculate GHG emissions, which considered\nregion-specific emissions factors and farm specific data. At the moment, we\nmeasure GHG emissions directly in a percentage of our sites (20%) but intend to\nincrease these field measurements in the near future. \nIn the next year, we plan to start collecting emissions data from our agricultural crops, that encompass 5% of our total production. We will initially target crops that we grow in the largest quantities including sugarcane and barley. \nAgriculture/Forestry \nLand \nuse change \n35 \nField measurements \nFor the emissions from land use change, we \nincluded CO2e emissions from all croplands that have been converted into\npastures in the reporting year. We used field measurements to calculate our\ntotal emissions figure and extrapolated to the total area converted. This\naccounted for 3% of our total farmland area. Note that we have not amortized\nour emissions because the quantification interval has not exceeded one year. \nAgriculture/Forestry \nMechanical \n15 \nDefault emissions factors \nFor the mechanical emissions figure, we \naccounted for the emissions from all the machinery in our farms and slaughterhouses.\nWe used default emissions factors as inputs in the GHGs Accounting tool to\ncalculate our total CO 2 e figure. \nAgriculture/Forestry> \nTotal \n200 \nDefault emissions factors; Region-specific \nemissions factors; Field measurements \nThis total emissions figure combines\nnon-mechanical, mechanical emissions, and emissions from land use change. We\nused the GHGs Accounting tool to calculate GHG emissions, which considered\ndefault and region-specific emissions factors and farm specific data. This\naccounts for the majority of our production units (95%). \nIn the next year, we plan to start collecting emissions data from our agricultural crops, that encompass 5% of our total production. We will initially target crops that we grow in largest quantities including sugarcane and barley.",
-      "typeKo": "Example 응답",
+      "typeKo": "예시 응답",
       "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     }
   ],
@@ -211,15 +211,15 @@
     "review_status": "변경 반영",
     "change_statusKo": "가이던스 변경",
     "detail_change_typesKo": "가이던스 변경",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "농산물 원자재: D 5/5 | 3/3 | M 0/0 | L 0/0 식음료 및 담배: D 5/5 | 3/3 | M 0/0 | L 0/0 제지 및 임업: D 5/5 | 3/3 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "보고 범위 1 배출량 관련된 귀사의 사업 활동() 및 설명 해당 제외사항. 만약 해당되는 경우, 귀사의 농산물/임업 기준 배출량 카테고리."
+    "q2025_textKo": "보고 Scope 1 배출량 귀사의 사업 활동() 및 설명 하나 이상. 만약 해당, 세분화 귀사의 농업/산림 기준 GHG 배출량 카테고리."
   },
   "defaultPoints": {
     "D": "5/5",
@@ -249,17 +249,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
-  "sectorTagsKo": "농산물 원자재, 식품, 음료 & 담배, 제지 및 임업",
-  "simpleHelpKo": "이 문항은 '보고 범위 1 배출량 사업 활동() 설명 제외사항., /임업 배출량.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "issueTagsKo": "기후변화",
+  "sectorTagsKo": "농산물 원자재,, &, 제지 및 임업",
+  "simpleHelpKo": "이 문항은 '보고 Scope 1 배출량 귀사의 사업 활동() 및 설명 하나 이상. 만약 해당, 세분화 귀사의 농업/산림 기준 GHG 배출량 카테고리.'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details on the commodities relevant to the mining production activities of your organization.",
-  "questionKo": "제공 세부 정보 원자재 관련된 광업 생산 활동 조직.",
+  "questionKo": "제공 세부 정보 원자재 관련성 있음 광업 생산 활동 의 귀사.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "1행"
+      "titleKo": "행 1"
     }
   ],
   "columns": [
@@ -47,15 +47,15 @@
         "",
         "",
         "",
-        "금속",
         "",
         "",
         "",
         "",
         "",
         "",
-        "기타 비- 광업 (직접 입력 명시)",
-        "기타 광업 (직접 입력 명시)"
+        "",
+        "기타 광업 (다음을)",
+        "기타 광업 (다음을)"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -68,7 +68,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": ", 미터톤",
+      "textKo": "용량, 지표 톤",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -83,7 +83,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "생산, 미터톤",
+      "textKo": "생산, 지표 톤",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -98,7 +98,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "생산, (미터톤)",
+      "textKo": "생산, -동등한 (지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -113,7 +113,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 1 배출량",
+      "textKo": "Scope 1 배출량",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -128,7 +128,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 2 배출량",
+      "textKo": "Scope 2 배출량",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -146,12 +146,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 2 배출량 접근방식",
+      "textKo": "Scope 2 배출량 접근방식",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "기준",
-        "시장-기준"
+        "위치/지역-기반",
+        "시장-기반"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -164,7 +164,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "가격제 방법론 수치",
+      "textKo": "가격 책정 방법론 에 대한 -동등한 수치",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -179,7 +179,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의견",
+      "textKo": "",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -204,7 +204,7 @@
       "type": "Requested Content",
       "text": "General \nComplete the table for each mining output product selected in column 1. \nYour production and capacity figures should be for the reporting year only (as defined by your answer to 1.4). \nIf you did not have any capacity or production in the reporting year, then enter zero (0) in the relevant field. \nNegative numbers are not allowed. \nYou should apply the same logic to your boundary definition as provided in question 7.19. \nOutput product (column 1) \nSelect the product(s) relevant to your organization's mining production activities. Select as many as applicable. You may also wish to select those with no production in the reporting year to confirm zero activity. \nIf you select \"Other non-ferrous metal mining (Please specify)\" or \"Other mining (Please specify)\", provide a label for the output product. \nCapacity, metric tons (column 2) \nEnter the production capacity in metric tons for the mined product selected in column 1. \nProduction, metric tons (column 3) \nEnter the production in metric tons resulting from mining activities, for the product selected in column 1. \nProduction, copper-equivalent units, metric tons (column 4) \nThis column appears if any option other than \"Other mining (Please specify)\" is selected in column 1.\nEnter the production in copper-equivalent units resulting from mining activities, for the product selected in column 1. \nShare the methodology used for this equivalent in column 7. \nThis column is not applicable when \"Other mining (Please specify)\" is selected in column 1 - \"Output product\" \nScope 1 emissions (column 5) \nEnter the Scope 1 emissions associated with the mined product selected in column 1. \nScope 2 emissions (column 6) \nEnter the Scope 2 emissions associated with the mined product selected in column 1. \nScope 2 emissions approach (column 7) \nThis column only appears if you select \"We are reporting a Scope 2, market-based figure\" in column \"Scope 2, market-based\" of 7.3. \nPricing methodology for copper-equivalent figure (column 8) \nThis column appears if any option other than \"Other mining (Please specify)\" is selected in column 1.\nDisclose the formula(e) and methodology used to calculate the copper-equivalent unit reported in column 4. \nComment (column 9) (optional) \nUse this column to provide any additional information relevant to the mined product selected in column 1.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
@@ -234,7 +234,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -254,7 +254,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -264,7 +264,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
@@ -290,9 +290,9 @@
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "금속 및 광업: D 8/8 | 1/1 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "No change verified and 2026 source applied",
     "q2025_textKo": "제공 세부 정보 원자재 관련성 있음 광업 생산 활동 의 귀사."
   },
@@ -324,17 +324,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "금속 및 광업",
-  "simpleHelpKo": "이 문항은 '제공 세부 정보 원자재 관련된 광업 생산 활동 조직.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '제공 세부 정보 원자재 관련성 있음 광업 생산 활동 의 귀사.'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

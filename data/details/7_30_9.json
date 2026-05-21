@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details on the electricity, heat, steam, and cooling your organization has generated and consumed in the reporting year.",
-  "questionKo": "귀사가 보고연도에 생산하고 소비한 전력, 열, 스팀 및 냉방에 대한 세부 정보를 입력하십시오",
+  "questionKo": "귀사가 보고연도에 생산하고 소비한 전기, 열, 스팀 및 냉방에 대한 세부 정보를 입력하십시오. `",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -42,7 +42,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 총 발전 (MWh)",
+      "textKo": "총 총 (MWh)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -57,7 +57,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "발전 소비한 기준 조직 (MWh)",
+      "textKo": "해당 소비한 별 조직 (MWh)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -72,7 +72,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 발전 에서 조달함 ()",
+      "textKo": "총 에서 재생에너지 배출원 (MWh)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -87,7 +87,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "발전 에서 조달함 소비한 기준 조직 ()",
+      "textKo": "에서 재생에너지 배출원 해당 소비한 별 조직 (MWh)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -106,13 +106,13 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Generation of electricity, heat, steam, or cooling\" in response to 7.30.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"발전 의 전력, 열, 스팀, 또는 냉방\" 응답 7.30."
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nGuidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh \".\nNuclear power generation is not to be included for this question, as nuclear power is covered in more detail in questions for energy utilities & power generators.\nYou should only account for heat generated in transferable mediums, i.e. the forms of heat that may also be purchased or acquired from third parties (as listed in question 7.30.1).\nThis is because the proportion of fuel combustion heat made available for use in applications after losses (e.g. direct heating for industrial process plant and equipment) may be difficult to measure or would require detailed process monitoring equipment readings.\nTotal Gross generation (MWh) (column 2) \nGross generation should be reported, where ‘Gross' covers the total output from all generating installations or facilities without deducting for electricity, steam, heat or cooling used by the generating plant or facility for the purpose of generation. This includes both the energy you produced and did not consume, as well as the amount you did consume.\nGeneration that is consumed by the organization (MWh) (column 3) \nThis column is a subset of column 2; the amount entered cannot be higher than the amount entered in column 2. If the entered amount is equal to the amount in column 2, then your organization consumed (or wasted) all of the electricity, steam, heat, or cooling that your organization generated.\nGeneration from renewable sources that is consumed by the organization (MWh) (column 5) \nThis column is a subset of column 4; the amount entered cannot be higher than the amount entered in column 4. If the entered amount is equal to the amount in column 4, then your organization consumed all of the electricity, steam, heat, or cooling that your organization generated from renewable sources. \nSources of self-generated renewable electricity might be on-site or off-site, on the grid, or entirely off-grid. Organizations must retain energy attributes to claim use of renewable electricity, potentially in the form of energy attribute certificates (EACs). If EACs are issued, organizations must retain them to claim the use of renewable electricity.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
@@ -312,7 +312,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -352,7 +352,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -392,7 +392,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -432,7 +432,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -472,7 +472,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -512,7 +512,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -532,7 +532,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -542,7 +542,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -552,7 +552,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -592,7 +592,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -632,7 +632,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "이 문항 아니요t 채점됨, 그것 아니요t 표시된 이 섹터."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -642,7 +642,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "이 문항 아니요t 채점됨, 그것 아니요t 표시된 이 섹터."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -652,7 +652,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "이 문항 아니요t 채점됨, 그것 아니요t 표시된 이 섹터."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -662,7 +662,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "이 문항 아니요t 채점됨, 그것 아니요t 표시된 이 섹터."
     },
     {
       "sector": "Financial services",
@@ -672,7 +672,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -682,7 +682,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -692,7 +692,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -702,7 +702,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -712,7 +712,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -752,7 +752,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -792,7 +792,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -832,7 +832,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -872,7 +872,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -912,7 +912,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -932,7 +932,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -942,7 +942,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -952,7 +952,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -992,7 +992,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1032,7 +1032,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1067,7 +1067,7 @@
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "귀사가 보고연도에 생산하고 소비한 전력, 열, 스팀 및 냉방에 대한 세부 정보를 입력하십시오",
+    "question_ko": "귀사가 보고연도에 생산하고 소비한 전기, 열, 스팀 및 냉방에 대한 세부 정보를 입력하십시오. `",
     "q2025": "Q7.30.9",
     "q2025_text": "Provide details on the electricity, heat, steam, and cooling your organization has generated and consumed in the reporting year.",
     "change_status": "No question-level change; detail changes",
@@ -1082,17 +1082,17 @@
     "daml_summary": "General: D 4/4 | A 1/1 | M 1/1 | L 1/1",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "detail_change_typesKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "scoring_change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "daml_summaryKo": "일반: D 4/4 | 1/1 | M 1/1 | L 1/1",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "귀사가 보고연도에 생산하고 소비한 전력, 열, 스팀 및 냉방에 대한 세부 정보를 입력하십시오"
+    "q2025_textKo": "귀사가 보고연도에 생산하고 소비한 전기, 열, 스팀 및 냉방에 대한 세부 정보를 입력하십시오. `"
   },
   "defaultPoints": {
     "D": "4/4",
@@ -1122,17 +1122,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
-  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "이 문항은 '귀사가 보고연도에 생산하고 소비한 전력, 열, 스팀 및 냉방에 대한 세부 정보를 입력하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "issueTagsKo": "기후변화",
+  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 시멘트,, &, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '귀사가 보고연도에 생산하고 소비한 전기, 열, 스팀 및 냉방에 대한 세부 정보를 입력하십시오. `'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

@@ -3,7 +3,7 @@
   "module": "12",
   "moduleTitle": "Environmental performance - Financial services",
   "questionText": "Provide details of your existing products and services that enable clients to mitigate and/or adapt to the effects of environmental issues, including any taxonomy or methodology used to classify the products and services.",
-  "questionKo": "고객이 환경이슈의 영향을 완화하거나 적응할 수 있도록 지원하는 기존 제품 및 서비스의 세부 정보와 분류체계 또는 방법론을 제공하십시오.",
+  "questionKo": "제품 및 서비스를 분류하는 데 사용되는 택소노미 또는 방법론을 포함하여 고객이 환경 문제의 영향을 완화 및 / 또는 적응할 수 있도록 하는 기존 제품 및 서비스에 대한 세부 정보를 제공하십시오. (1) 환경 이슈 환경 문제 영향 완화 및 / 또는 적응 포트폴리오 자산 등급 제품 분류 유형 해당하는 내용 모두 선택 기후변화 산림 물 해당하는 내용 모두 선택 완화 적응 은행업 (은행) 투자 (자산 관리자) 투자 (자산 소유자) 보험 인수 (보험 회사) 대출 프로젝트 파이낸스 채권 주식 투자 미사용 대출약정 고정 수입 현금성자산 / 금융 시장 상품 부동산 상품 기타, 직접입력 해당하는 내용 모두 선택 환경 및 / 또는 사회적 특성을 촉진하는 제품 지속가능한 투자가 주 목적인 제품 기타 제품 분류, 직접입력 적용 불가능",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Water, Climate Change, Forests",
@@ -51,7 +51,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "영향 환경",
+      "textKo": "Product considers principal adverse 영향 환경 factors",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -69,7 +69,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "세부 정보 어떻게 영향 환경 고려됨 이",
+      "textKo": "세부 정보 how principal adverse 영향 환경 factors considered 이 product",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -87,7 +87,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "/ 고객 완화 및/또는 기후변화",
+      "textKo": "Product/service enables 고객 완화 및/또는 adapt 기후변화",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -145,15 +145,15 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "대출",
-        "프로젝트 금융",
-        "채권",
-        "주식 투자",
-        "미인출 대출 약정",
-        "고정수익",
-        "현금 성 자산/단기금융 시장 상품",
+        "Loans",
+        "Project finance",
+        "Bonds",
+        "Equity investments",
+        "Undrawn loan commitments",
+        "Fixed income",
+        "Cash equivalents/money 시장 instruments",
         "부동산",
-        "원자재",
+        "Commodities",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -172,17 +172,17 @@
       ],
       "simple_help": "",
       "popup_help": "Please note, \"Not applicable\" cannot be selected alongside any other option.",
-      "textKo": "유형 의",
+      "textKo": "Type 의 product classification",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "제품 환경 및/또는",
-        "제품 지속가능한 그들의",
-        "기타, 직접 입력 명시",
+        "Products promote 환경 및/또는 social characteristics",
+        "Products have sustainable investment their core objective",
+        "기타 product classification, please specify",
         "해당 없음"
       ],
       "simple_helpKo": "",
-      "popup_helpKo": "이 문항은 '고객이 환경이슈의 영향을 완화하거나 적응할 수 있도록 지원하는 기존 제품 및 서비스의 세부 정보와 분류체계 또는 방법론을 제공하십시오.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
+      "popup_helpKo": "Please 아니요te, \"해당 없음\" can아니요t 선택됨 alongside 하나 이상 기타 선택지."
     },
     {
       "code": "12.6.1.6",
@@ -203,20 +203,20 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "또는 방법론 사용됨 식별",
+      "textKo": "Taxo아니요my 또는 방법론 used 식별 product characteristics",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "저탄소 ()",
-        "기후 채권",
-        "EU 지속가능한 활동",
-        "탄소- 영향 의",
-        "채권 ()",
-        "14040/44",
-        "대출",
-        "대출",
-        "사용 기타 또는 방법론, 직접 입력 명시",
-        ""
+        "Low-carbon Investment (LCI) Registry Taxo아니요my",
+        "기후 Bonds Taxo아니요my",
+        "EU Taxo아니요my environment모든y sustainable eco아니요mic 활동",
+        "Evaluating carbon-reducing 영향 의 ICT",
+        "Green Bond Principles (ICMA)",
+        "ISO 14040/44 Standards",
+        "LMA Green Loan Principles",
+        "LMA Sustainability Link Loans Principles",
+        "Extern모든y classified using 기타 taxo아니요my 또는 방법론, please specify",
+        "Intern모든y classified"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -261,44 +261,44 @@
       ],
       "simple_help": "",
       "popup_help": "Please note, \"Not applicable\" cannot be selected alongside any other option.",
-      "textKo": "유형 의 금융지원, 투자액 또는",
+      "textKo": "Type 의 solution financed, invested 또는 insured",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "탄소 제거량",
-        "기후 및 인프라",
-        "기후 식품 생산",
-        "기후 리스크 및 보험",
-        "",
-        "기후 기술, 직접 입력 명시",
-        "",
-        "에너지 회복탄력성 및",
-        "에너지 효율 측정",
-        "에너지",
-        "",
-        "/ 회복탄력성",
-        "및",
-        "및",
-        "및/또는",
-        "배출 운송",
-        "/",
-        "자연-기준",
-        "인프라 및 기술",
-        "",
-        "생산",
-        "에너지",
-        "리스크 또는",
-        "지속가능한 산림 관리",
-        "서비스",
-        "인프라",
-        "수자원 자원 및",
-        "수자원 및 인프라",
-        "수자원 인프라",
+        "Carbon removal",
+        "기후 resilient digital 및 communication infrastructure",
+        "기후 resilient food production systems",
+        "기후 리스크 transfer 및 insurance solutions",
+        "Ecosystem protection",
+        "Emerging 기후 기술, please specify",
+        "Ecosystem restoration",
+        "에너지 회복탄력성 및 backup systems",
+        "에너지 efficiency measures",
+        "에너지 system decentralization",
+        "Fortified buildings",
+        "Flood/drought 회복탄력성",
+        "Health systems 및 tech아니요logies",
+        "Green buildings 및 equipment",
+        "Landscape 및/또는 jurisdictional initiative",
+        "Low-배출 transport",
+        "Paperless/ digital service",
+        "Nature-based solutions",
+        "Physical infrastructure upgrades 및 기술 solutions",
+        "Re산림ation",
+        "Regenerative production",
+        "Renewable 에너지",
+        "리스크 transfer mechanisms under-insured 또는 uninsured",
+        "Sustainable 산림 관리",
+        "WASH 서비스",
+        "Waste수자원 treatment infrastructure",
+        "수자원 자원 및 ecosystem protection",
+        "수자원 supply 및 sewer networks infrastructure",
+        "수자원 treatment infrastructure",
         "기타, 직접 입력",
         "해당 없음"
       ],
       "simple_helpKo": "",
-      "popup_helpKo": "이 문항은 '고객이 환경이슈의 영향을 완화하거나 적응할 수 있도록 지원하는 기존 제품 및 서비스의 세부 정보와 분류체계 또는 방법론을 제공하십시오.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
+      "popup_helpKo": "Please 아니요te, \"해당 없음\" can아니요t 선택됨 alongside 하나 이상 기타 선택지."
     },
     {
       "code": "12.6.1.8",
@@ -308,7 +308,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "설명 의 /",
+      "textKo": "Description 의 product/service",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -323,7 +323,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 의 포트폴리오 부합 또는 방법론 관련 총 포트폴리오 가치",
+      "textKo": "% 의 포트폴리오 aligned taxo아니요my 또는 방법론 relation total 포트폴리오 가치",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -336,31 +336,31 @@
       "type": "Change From Last Year",
       "text": "Modified question",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "전년 대비 변경사항은 2026 CDP 원문 및 변경 추적표 기준으로 확인하십시오."
+      "textKo": "Modified 문항"
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in column \"Existing products and services that enable clients to mitigate and/or adapt to the effects of environmental issues\" of 12.6.",
       "typeKo": "문항 의존성",
-      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
+      "textKo": "이 문항 only appears 만약 귀사 선택 \"예\" 열 \"Existing products 및 서비스 enable 고객 완화 및/또는 adapt effects 의 환경이슈\" 의 12.6."
     },
     {
       "type": "Requested Content",
       "text": "General \nConsider only \nfinancial products and services. If your organization has activities in more than one sector, you may also be presented with 7.74 and 7.74.1. All other low-carbon products and services (i.e. non-financial) should be reported in 7.74 and 7.74.1.\nIf your organization undertakes a portfolio activity where financial products and services that mitigate and/or adapt to environmental issues are not applicable, then a row does not need to be reported for this portfolio.\nProduct/service enables clients to mitigate and/or adapt to climate change (column 2) \nThis column only appears if \"Climate change\" is selected in column 1 \"Environmental issue\".\nThis is only applicable to products and/or services which are related to climate change.\nAsset class (column 4) \nThis column is only shown if \"Banking (Bank)\", \"Investing (Asset manager)\" or \"Investing (Asset owner)\" is selected in column 3 \"Portfolio\".\nSelect from the dropdown list the asset classes that the products/services fall under.\nType of product classification (column 5) \nThis column is applicable to financial companies reporting on their product classification under the Sustainable Finance Disclosure Regulation (SFDR) or other fund labels or fund transparency regulations in other jurisdictions.\nThe Sustainable Finance Disclosure Regulation (SFDR) applies to financial market participants and advisers either located in the EU or located outside the EU for their financial products they market and/or manage for the EU market.\nIf this column is not applicable to your financial product, select \"Not applicable\".\nIf your product is not classified by the Sustainable Finance Disclosure Regulation (SFDR) or other product classification systems, select the dropdown \"Not applicable\".\nIf \"Not applicable\" is selected, you will not be able to select any of the other dropdowns.\n\"Products that promote environmental and/or social characteristics\" refers to Article 8 from the Sustainable Finance Disclosure Regulation.\n\"Products that have sustainable investment as their core objective\" refers to Article 9 from the Sustainable Finance Disclosure Regulation.\nIf you selected \"Other product classification, please specify\", provide a label of the product classification used.\nTaxonomy or methodology used to identify product characteristics (column 6) \nAs investors seek to increase the proportion of their portfolio invested in environmentally friendly products there is an effort to establish standardized methodologies. As for avoided emissions, methodologies to calculate avoided emissions are still being developed.\nIf you offer products enabling clients to have beneficial impacts on the environment, which have been classified using an external taxonomy or methodology not listed, select \"Externally classified using other taxonomy or methodology, please specify\" and provide a label for the taxonomy or methodology.\nIf the products you offer have been classified internally as enabling clients to have beneficial impacts on the environment, select \"Internally classified\" and describe your internal classification system in column 8 \"Description of product/service\".\nType of solution financed, invested in or insured (column 7) \nIndicate which type of sustainable solutions your financing, investments and insurance products and services cover.\nSelect \"Not applicable\" if you are reporting a product-level disclosure under the SFDR and none of the dropdowns are applicable to your financial product, e.g. Portfolios managed by credit institutions or investment firms; Alternative investment funds (AIFs) and UCITS; Insurance-based investment products (IBIPs); Pension products, workplace pension products regulated under the IORP directive and PEPP.\nIf you have selected \"Other, please specify\", provide a label of the type of solution financed, invested in or insured.\nDescription of product/service (column 8) \nFor each row, describe the product/service and explain how you ensure that it supports mitigation and/or adaptation to environmental issues.\nIf you selected \"Adaptation\" in column 2 \"Product/service enables clients to mitigate and/or adapt to climate change\", describe the assessment methodology used to determine whether each financing, investment or insurance product contributes substantially to improving adaptation, reducing vulnerability and/or enhancing resilience. The assessment should include measurable indicators that reflect exposure to physical risks, expected adaptation benefits and the long-term sustainability of those benefits.\nState how you have identified the opportunities that will come from the products/service, including any definitions or standards used.\nIf you have selected \"Internally classified\" or \"Externally classified using other taxonomy or methodology, please specify\" in column 6 \"Taxonomy or methodology used to identify product characteristics\", provide a rationale as to why you consider that this product will enable clients to mitigate and/or adapt to environmental issues.\n% of portfolio aligned with a taxonomy or methodology in relation to total portfolio value (column 9) \nEnter the percentage of portfolio value aligned with a taxonomy or methodology to the portfolio value based on assets value reported in 1.10.\nProduct considers principal adverse impacts on environmental factors (column 10) \nThis column only appears if \"Products that promote environmental and/or social characteristics\" or \"Products that have sustainable investment as their core objective\" are selected in column 5 \"Type of product classification\".\nThis column is applicable for products being reported under the Sustainable Finance Disclosure Regulation.\nFor the purpose of this column, focus on the environmental principal adverse impacts on sustainability factors.\nPrincipal adverse impacts refer to the negative effects on sustainability factors that arise from investment decisions and advice.\nDetails on how the principal adverse impacts on environmental factors are considered in this product (column 11) \nThis column only appears if \"Yes\" is selected in column 10 \"Product considers principal adverse impacts on environmental factors\".\nThis column is applicable for products being reported under the Sustainable Finance Disclosure Regulation.\nFor the purpose of this column, focus on the climate and other environmental principal adverse impacts on sustainability factors. For details on the principal adverse impacts indicators, please refer to the Sustainable Finance Disclosure Regulation (See Annex I, Table 1 and 2).\nProvide details on how the climate and other environmental principal adverse impacts are considered in this financial product.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "일반 Consider only 재무 products 및 서비스. 만약 귀사 has 활동 more than one 섹터, 귀사 할 수 있습니다 also presented 7.74 및 7.74.1. 모든 기타 low-carbon products 및 서비스 (i.e. 아니요n-재무) 해야 합니다 보고된 7.74 및 7.74.1. 만약 귀사 undertakes 포트폴리오 활동 경우 재무 products 및 서비스 완화 및/또는 adapt 환경이슈 해당 없음, then 행 does 아니요t need 보고된 이 포트폴리오. Product/service enables 고객 완화 및/또는 adapt 기후변화 (열 2) 이 열 only appears 만약 \"기후변화\" 열에서 선택 1 \"환경이슈\". 이 only applicable products 및/또는 서비스 related 기후변화. 자산군 (열 4) 이 열 only shown 만약 \"은행(은행)\", \"투자(자산운용사)\" 또는 \"투자(자산소유자)\" 열에서 선택 3 \"포트폴리오\". 선택 에서 드롭다운 list 자산군 products/서비스 f모든 under. Type 의 product classification (열 5) 이 열 applicable 재무 기업 보고ing their product classification under Sustainable Finance 공시 Regulation (SFDR) 또는 기타 fund labels 또는 fund transparency regulations 기타 jurisdictions. Sustainable Finance 공시 Regulation (SFDR) applies 재무 시장 participants 및 advisers 둘 중 하나 located EU 또는 located outside EU their 재무 products they 시장 및/또는 관리 EU 시장. 만약 이 열 해당 없음 귀사의 재무 product, 선택 \"해당 없음\". 만약 귀사의 product 아니요t classified 기준 Sustainable Finance 공시 Regulation (SFDR) 또는 기타 product classification systems, 선택 드롭다운 \"해당 없음\". 만약 \"해당 없음\" 선택됨, 귀사 아니요t able 선택 하나 이상 의 기타 드롭다운s. \"Products promote 환경 및/또는 social characteristics\" refers Article 8 에서 Sustainable Finance 공시 Regulation. \"Products have sustainable investment their core objective\" refers Article 9 에서 Sustainable Finance 공시 Regulation. 만약 귀사 선택됨 \"기타 product classification, please specify\", 제공 label 의 product classification used. Taxo아니요my 또는 방법론 used 식별 product characteristics (열 6) investors seek increase proportion 의 their 포트폴리오 invested environment모든y friendly products there effort establish standardized 방법론. avoided 배출량, 방법론 산정 avoided 배출량 still developed. 만약 귀사 offer products enabling 고객 have beneficial 영향 environment, have classified using 외부 taxo아니요my 또는 방법론 아니요t listed, 선택 \"Extern모든y classified using 기타 taxo아니요my 또는 방법론, please specify\" 및 제공 label taxo아니요my 또는 방법론. 만약 products 귀사 offer have classified intern모든y enabling 고객 have beneficial 영향 environment, 선택 \"Intern모든y classified\" 및 설명 귀사의 내부 classification system 열 8 \"Description 의 product/service\". Type 의 solution financed, invested 또는 insured (열 7) Indicate type 의 sustainable solutions 귀사의 financing, investments 및 insurance products 및 서비스 cover. 선택 \"해당 없음\" 만약 귀사 보고ing 제품 단위 공시 under SFDR 및 아니요ne 의 드롭다운s applicable 귀사의 재무 product, e.g. 포트폴리오s 관리된 기준 credit institutions 또는 investment firms; Alternative investment funds (AIFs) 및 UCITS; Insurance-based investment products (IBIPs); Pension products, workplace pension products regulated under IORP directive 및 PEPP. 만약 귀사 have 선택됨 \"기타, 직접 입력\", 제공 label 의 type 의 solution financed, invested 또는 insured. Description 의 product/service (열 8) each 행, 설명 product/service 및 설명 how 귀사 ensure it supports 완화 및/또는 적응 환경이슈. 만약 귀사 선택됨 \"적응\" 열 2 \"Product/service enables 고객 완화 및/또는 adapt 기후변화\", 설명 평가ment 방법론 used determine whether each financing, investment 또는 insurance product contributes substanti모든y improving 적응, reducing vulnerability 및/또는 enhancing 회복탄력성. 평가ment 해야 합니다 include measurable indicators reflect exposure physical 리스크, expected 적응 benefits 및 long-term sustainability 의 해당 benefits. 명시 how 귀사 have 식별된 기회 come 에서 products/service, 포함 하나 이상 definitions 또는 standards used. 만약 귀사 have 선택됨 \"Intern모든y classified\" 또는 \"Extern모든y classified using 기타 taxo아니요my 또는 방법론, please specify\" 열 6 \"Taxo아니요my 또는 방법론 used 식별 product characteristics\", 제공 근거 why 귀사 consider 이 product enable 고객 완화 및/또는 adapt 환경이슈. % 의 포트폴리오 aligned taxo아니요my 또는 방법론 relation total 포트폴리오 가치 (열 9) Enter percentage 의 포트폴리오 가치 aligned taxo아니요my 또는 방법론 포트폴리오 가치 based assets 가치 보고된 1.10. Product considers principal adverse 영향 환경 factors (열 10) 이 열 only appears 만약 \"Products promote 환경 및/또는 social characteristics\" 또는 \"Products have sustainable investment their core objective\" 열에서 선택 5 \"Type 의 product classification\". 이 열 applicable products 보고된 under Sustainable Finance 공시 Regulation. purpose 의 이 열, focus 환경 principal adverse 영향 sustainability factors. Principal adverse 영향 refer negative effects sustainability factors arise 에서 investment decisions 및 advice. 세부 정보 how principal adverse 영향 환경 factors considered 이 product (열 11) 이 열 only appears 만약 \"예\" 열에서 선택 10 \"Product considers principal adverse 영향 환경 factors\". 이 열 applicable products 보고된 under Sustainable Finance 공시 Regulation. purpose 의 이 열, focus 기후 및 기타 환경 principal adverse 영향 sustainability factors. 세부 정보 principal adverse 영향 indicators, please refer Sustainable Finance 공시 Regulation (See Annex I, Table 1 및 2). 제공 세부 정보 how 기후 및 기타 환경 principal adverse 영향 considered 이 재무 product."
     },
     {
       "type": "Ambition",
       "text": "Financial services companies develop and offer products and services that enable clients to mitigate and/or adapt to the effects of climate change, deforestation, and water insecurity.\nFinancial service companies leverage sustainable finance instruments where possible. For example, they may use sustainable finance taxonomies to identify products and services they should invest in to achieve their transition plan objectives.\nDisclosure shall include a description of the aspects of traditional products that incentivize health, safety, and/or environmentally responsible actions or behaviour (e.g., premium discounts).",
-      "typeKo": "목표수준",
-      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
+      "typeKo": "목표 수준",
+      "textKo": "금융 서비스 기업 develop 및 offer products 및 서비스 enable 고객 완화 및/또는 adapt effects 의 기후변화, de산림ation, 및 수자원 insecurity. 재무 service 기업 leverage sustainable finance instruments 경우 possible. example, they 할 수 있습니다 use sustainable finance taxo아니요mies 식별 products 및 서비스 they 해야 합니다 invest achieve their 전환계획 objectives. 공시 sh모든 include description 의 aspects 의 traditional products incentivize health, safety, 및/또는 environment모든y responsible actions 또는 behaviour (e.g., premium discounts)."
     },
     {
       "type": "Explanation of Terms",
       "text": "Adaptation: in human systems, the process of adjustment to actual or expected climate and its effects, in order to moderate harm or exploit beneficial opportunities. In natural systems, the process of adjustment to actual climate and its effects; human intervention may facilitate adjustment to expected climate and its effects ( IPCC , 2018).\nCarbon removals: solutions which remove CO2 from the atmosphere and permanently store it.\nEcosystem protection: activities aimed at protecting the integrity of existing ecosystems.\nEmerging climate technology (ECT): a commercially promising technology that addresses climate mitigation challenges but needs to attract enough investment to deploy the technology and develop business models and markets for the product or services it produces. Eventually it may become a successful innovation deployed at scale, generating new markets or profoundly disrupting established (fossil-based) ones (Auerswald et al., 2005). For a more detailed definition and guidance, refer to the ECT initiative .\nEnergy efficiency measures: solutions which require less energy, e.g. energy efficient measures in buildings or the production process. Energy efficient solutions can help to mitigate against CO2 and is key in achieving net zero emissions by 2050.\nFlood/drought resilience: solutions which can reduce the impact of a flood or drought. Resilience can be built in a variety of ways, such as improving urban drainage systems, securing multiple/diverse water sources, or building monitoring capabilities.\nFortified buildings: fortified buildings use retrofit techniques to strengthen new and existing homes, making them more resistant to storms and other severe weather events.\nGreen buildings and equipment: buildings and equipment that are energy efficient or otherwise sustainable. Mature technologies identified by the IEA found under \"Buildings\" in the ETP Clean Energy Technology Guide .\nLandscape and jurisdictional approach: a muti-stakeholder collaborative strategy to advance shared sustainability goals and build resilience at landscape scale. A jurisdictional approach is a landscape approach defined by administrative boundaries and with high level of government involvement.\nLow-emission transport: transport modes (road, rail, shipping and aviation) which results in lower emissions, e.g. electric vehicles or increased transport efficiency. Mature technologies identified by the IEA found under \"Transport\" in the ETP Clean Energy Technology Guide .\nMitigation: actions that limit the magnitude or rate of climate change, deforestation and/or water security.\nNature-based Solutions: actions to protect, conserve, restore, sustainably use and manage natural or modified terrestrial, freshwater, coastal and marine ecosystems, which address social, economic and environmental challenges effectively and adaptively, while simultaneously providing human well-being, ecosystem services and resilience and biodiversity benefits. ( UNEA-5 )\nPaperless/digital service: Providing services to customer via digital/online services as oppose to paper/posted services, e.g. online billing statements.\nReforestation: re-establishment of forest through planting and/or deliberate seeding on land classified as forest ( FAO, 2020 ).\nRegenerative Production: a range of approaches used to manage agroecosystems that provide food and materials - be it through agriculture, aquaculture or forestry etc. - in ways that create positive outcomes for nature. These outcomes include, but are not limited to, healthy soils, improved air and water quality, and higher levels of carbon sequestration. They can be achieved through a variety of context-dependent practices and can together help regenerate degraded ecosystems and build resilience on farms and in surrounding landscapes. Farmers may draw on several different schools of thought, such as regenerative agriculture, restorative aquaculture, agroecology, organic, permaculture, agroforestry, and conservation agriculture, to help them apply the most appropriate set of practices to drive regenerative outcomes in their managed agroecosystems (adapted from EMF's Circular Economy Glossary ).\nRenewable energy: energy taken from sources that are inexhaustible, e.g. wind, water, solar, geothermal energy and sustainable biofuels (adapted from the GHG protocol, 2004 ).\nRestoration: the process of assisting the recovery of an ecosystem, and its associated conservation values, that has been degraded, damaged, or destroyed ( SER, 2004 )\nRisk transfer mechanisms for under-insured or uninsured: innovative risk transfer mechanisms or insurance products, e.g. risk pools or catastrophe bonds, which help under-insured or uninsured communities to meet the challenges of a changing climate.\nSubstantial contribution to adaptation: may be delivered by directly addressing climate change impacts (direct or indirect) or by reducing pressures that contribute to or result from these impacts ( UNDRR, 2024 )\nSustainable agriculture: farming that is environmentally sound, socially responsible, and profitable for farmers. Sustainable agriculture strives for the best long-term outcomes for forests, climate stability, and water security.\nSustainable forest management: the process of managing a forest for achieving the continuous production of desired forest products and services without reducing its inherent values and future productivity, avoiding undesirable social-environmental effects.\nWASH services: water, sanitation, and hygiene services (adapted from ITTO ).\nWastewater treatment infrastructure: important infrastructure for the removal of hazardous, toxic and otherwise harmful substances from wastewater prior to its discharge to the environment.\nWater resources and ecosystem protection: practices including watershed remediation, habitat restoration, and ecosystem preservation.\nWater supply and sewer networks infrastructure: infrastructure that improves water access and the treatment of wastewater prior to its discharge to the environment. Improvements to water supply and sewer networks can reduce pipe leakage and water losses, improve the quality of water delivered to users, and reduce sewer overflows which lead to water pollution.\nWater treatment infrastructure: infrastructure that allows water to be treated to a drinking standard or another appropriate treatment level for use. E.g. Desalination infrastructure.",
       "typeKo": "용어 설명",
-      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
+      "textKo": "적응: human systems, 프로세스 의 adjustment actual 또는 expected 기후 및 its effects, order moderate harm 또는 exploit beneficial 기회. natural systems, 프로세스 의 adjustment actual 기후 및 its effects; human intervention 할 수 있습니다 facilitate adjustment expected 기후 및 its effects (IPCC, 2018). Carbon removals: solutions remove CO2 에서 atmosphere 및 permanently store it. Ecosystem protection: 활동 aimed at protecting integrity 의 existing ecosystems. Emerging 기후 기술 (ECT): commerci모든y promising 기술 addresses 기후 완화 ch모든enges but needs attract e아니요ugh investment deploy 기술 및 develop 사업 models 및 시장s product 또는 서비스 it produces. Eventu모든y it 할 수 있습니다 become successful in아니요vation deployed at scale, generating new 시장s 또는 profoundly disrupting established (fossil-based) ones (Auerswald et al., 2005). more detailed definition 및 가이던스, refer ECT initiative. 에너지 efficiency measures: solutions require less 에너지, e.g. 에너지 efficient measures buildings 또는 production 프로세스. 에너지 efficient solutions 할 수 있습니다 help 완화 against CO2 및 key achieving net zero 배출량 기준 2050. Flood/drought 회복탄력성: solutions 할 수 있습니다 reduce 영향 의 flood 또는 drought. 회복탄력성 할 수 있습니다 built variety 의 ways, such improving urban drainage systems, securing multiple/diverse 수자원 sources, 또는 building monitoring 역량. Fortified buildings: fortified buildings use retrofit techniques strengthen new 및 existing homes, making them more resistant storms 및 기타 severe weather events. Green buildings 및 equipment: buildings 및 equipment 에너지 efficient 또는 기타wise sustainable. Mature tech아니요logies 식별된 기준 IEA found under \"Buildings\" ETP Clean 에너지 기술 Guide. Landscape 및 jurisdictional approach: muti-stakeholder collaborative 전략 advance shared sustainability goals 및 build 회복탄력성 at landscape scale. jurisdictional approach landscape approach defined 기준 administrative boundaries 및 high level 의 government involvement. Low-배출 transport: transport modes (road, rail, shipping 및 항공) results lower 배출량, e.g. electric vehicles 또는 increased transport efficiency. Mature tech아니요logies 식별된 기준 IEA found under \"Transport\" ETP Clean 에너지 기술 Guide. 완화: actions limit magnitude 또는 rate 의 기후변화, de산림ation 및/또는 수자원. Nature-based Solutions: actions protect, conserve, restore, sustainably use 및 관리 natural 또는 modified terrestrial, fresh수자원, coastal 및 marine ecosystems, address social, eco아니요mic 및 환경 ch모든enges effectively 및 adaptively, while simultaneously providing human well-, ecosystem 서비스 및 회복탄력성 및 생물다양성 benefits. (UNEA-5) Paperless/digital service: Providing 서비스 고객 via digital/online 서비스 oppose paper/posted 서비스, e.g. online billing 명시ments. Re산림ation: re-establishment 의 산림 through planting 및/또는 deliberate seeding land classified 산림 (FAO, 2020). Regenerative Production: range 의 approaches used 관리 agroecosystems 제공 food 및 materials - it through agriculture, aquaculture 또는 산림ry etc. - ways create positive outcomes nature. 이 outcomes include, but 아니요t limited, healthy soils, improved air 및 수자원 quality, 및 higher levels 의 carbon sequestration. They 할 수 있습니다 achieved through variety 의 con텍스트 입력-dependent practices 및 할 수 있습니다 together help regenerate degraded ecosystems 및 build 회복탄력성 farms 및 surrounding landscapes. Farmers 할 수 있습니다 draw several different schools 의 thought, such regenerative agriculture, restorative aquaculture, agroecology, organic, permaculture, agro산림ry, 및 conservation agriculture, help them apply most appropriate set 의 practices drive regenerative outcomes their 관리된 agroecosystems (adapted 에서 EMF's Circular Eco아니요my Glossary). Renewable 에너지: 에너지 taken 에서 sources inexhaustible, e.g. wind, 수자원, solar, ge기타mal 에너지 및 sustainable biofuels (adapted 에서 GHG protocol, 2004). Restoration: 프로세스 의 assisting recovery 의 ecosystem, 및 its associated conservation values, has degraded, damaged, 또는 destroyed (SER, 2004) 리스크 transfer mechanisms under-insured 또는 uninsured: in아니요vative 리스크 transfer mechanisms 또는 insurance products, e.g. 리스크 pools 또는 catastrophe bonds, help under-insured 또는 uninsured communities meet ch모든enges 의 changing 기후. Substantial contribution 적응: 할 수 있습니다 delivered 기준 directly addressing 기후변화 영향 (direct 또는 indirect) 또는 기준 reducing pressures contribute 또는 result 에서 이 영향 (UNDRR, 2024) Sustainable agriculture: farming environment모든y sound, soci모든y responsible, 및 profitable farmers. Sustainable agriculture strives best long-term outcomes 산림, 기후 stability, 및 수자원. Sustainable 산림 관리: 프로세스 의 managing 산림 achieving continuous production 의 desired 산림 products 및 서비스 without reducing its inherent values 및 미래 productivity, avoiding undesirable social-환경 effects. WASH 서비스: 수자원, sanitation, 및 hygiene 서비스 (adapted 에서 ITTO). Waste수자원 treatment infrastructure: 중요 infrastructure removal 의 hazardous, toxic 및 기타wise harmful substances 에서 waste수자원 prior its discharge environment. 수자원 자원 및 ecosystem protection: practices 포함 수자원shed remediation, habitat restoration, 및 ecosystem preservation. 수자원 supply 및 sewer networks infrastructure: infrastructure improves 수자원 access 및 treatment 의 waste수자원 prior its discharge environment. Improvements 수자원 supply 및 sewer networks 할 수 있습니다 reduce pipe leakage 및 수자원 losses, improve quality 의 수자원 delivered users, 및 reduce sewer overflows lead 수자원 pollution. 수자원 treatment infrastructure: infrastructure 모든ows 수자원 treated drinking standard 또는 an기타 appropriate treatment level use. E.g. Desalination infrastructure."
     }
   ],
   "points": [
@@ -384,7 +384,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 행 경우 '기후변화' 열에서 선택 '환경이슈': 점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 5/5점을 받을 수 있습니다. 또는 해당 없음 경로) '기후변화' 아님 열에서 선택 '환경이슈' - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
+      "criteriaKo": "경로) 행 경우 '기후변화' 열에서 선택 '환경이슈': 점 부여됨 per 완료 셀 proportion 숫자 입력 의 행 공시된. Parti모든y 완료 행 아니요t receive full 점. 이 경로에서 최대 5/5점을 받을 수 있습니다. 또는 해당 없음 경로) '기후변화' 아님 열에서 선택 '환경이슈' - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -393,8 +393,8 @@
       "criteria": "The following conditions must be met to be eligible for Awareness points:\n- Full Disclosure points must be awarded\n- 'Climate change' selected in column 'Environmental issue' in at least one row.\nFor rows where 'Climate change' is selected in column 'Environmental issue':\nPoints will be awarded per row in proportion to the number of rows disclosed as follows:\ni) Figure greater than 0 provided in column '% of portfolio aligned with a taxonomy or methodology in relation to total portfolio value' - 1 point\nii) Any of the following options selected in column 'Type of solution financed, invested in or insured' - 1 point\n- 'Carbon removal'\n- 'Climate risk transfer and insurance solutions'\n- 'Climate-resilient digital and communication infrastructure'\n- 'Ecosystem protection'\n- 'Ecosystem restoration'\n- 'Emerging climate technology, please specify'\n- 'Energy efficiency measures'\n- 'Energy resilience and backup systems'\n- 'Energy system decentralization'\n- 'Flood/drought resilience'\n- 'Fortified buildings'\n- 'Green buildings and equipment'\n- 'Health systems and technologies'\n- 'Low-emission transport'\n- 'Nature-based solutions'\n- 'Paperless/ digital service'\n- 'Physical infrastructure upgrades and technology solutions'\n- 'Regenerative production'\n- 'Renewable energy'\n- 'Resilient food production systems'\n- 'Risk transfer mechanisms for under-insured or uninsured'\n- 'Not applicable'\nA maximum of 2/2 points is available for this question.",
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
-      "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "levelKo": "",
+      "criteriaKo": "다음 conditions 해야 합니다 met 대상 인지 점수수수: - Full 공시 점수수수 해야 합니다 부여됨 - '기후변화' 열에서 선택 '환경이슈' at least one 행. 행 경우 '기후변화' 열에서 선택 '환경이슈': 점 부여됨 per 행 proportion 숫자 입력 의 행 공시된 follows: i) 수치 greater than 0 제공된 열 '% 의 포트폴리오 aligned taxo아니요my 또는 방법론 relation total 포트폴리오 가치' - 1 점 ii) 하나 이상 의 다음 선택지 열에서 선택 'Type 의 solution financed, invested 또는 insured' - 1 점 - 'Carbon removal' - '기후 리스크 transfer 및 insurance solutions' - '기후-resilient digital 및 communication infrastructure' - 'Ecosystem protection' - 'Ecosystem restoration' - 'Emerging 기후 기술, please specify' - '에너지 efficiency measures' - '에너지 회복탄력성 및 backup systems' - '에너지 system decentralization' - 'Flood/drought 회복탄력성' - 'Fortified buildings' - 'Green buildings 및 equipment' - 'Health systems 및 tech아니요logies' - 'Low-배출 transport' - 'Nature-based solutions' - 'Paperless/ digital service' - 'Physical infrastructure upgrades 및 기술 solutions' - 'Regenerative production' - 'Renewable 에너지' - 'Resilient food production systems' - '리스크 transfer mechanisms under-insured 또는 uninsured' - '해당 없음' 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -404,7 +404,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "다음 conditions 해야 합니다 met 대상 관리 점수수수: - Full 인지 점수수수 해야 합니다 부여됨 - '기후변화' 열에서 선택 '환경이슈' at least one 행. 행 경우 '기후변화' 열에서 선택 '환경이슈': 점 부여됨 per 행 proportion 숫자 입력 의 행 공시된 follows (제외 행 경우 ‘투자(자산소유자)'열에서 선택 ‘포트폴리오'): At least one 행 공시된 경우 corresponding 선택지 열에서 선택 '포트폴리오' each 행 경우 '예'열에서 선택'활동 undertaken'문항 1.10 (제외 ‘투자(자산소유자)' 열 ‘포트폴리오') 및 다음을 제외한 선택지 중 하나 'Intern모든y classified' 열에서 선택 'Taxo아니요my 또는 방법론 used 식별 product characteristics' (제외 행 경우 '보험 인수(보험사)' 열에서 선택 '포트폴리오') - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -414,12 +414,12 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t scored."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "고객이 환경이슈의 영향을 완화하거나 적응할 수 있도록 지원하는 기존 제품 및 서비스의 세부 정보와 분류체계 또는 방법론을 제공하십시오.",
+    "question_ko": "제품 및 서비스를 분류하는 데 사용되는 택소노미 또는 방법론을 포함하여 고객이 환경 문제의 영향을 완화 및 / 또는 적응할 수 있도록 하는 기존 제품 및 서비스에 대한 세부 정보를 제공하십시오. (1) 환경 이슈 환경 문제 영향 완화 및 / 또는 적응 포트폴리오 자산 등급 제품 분류 유형 해당하는 내용 모두 선택 기후변화 산림 물 해당하는 내용 모두 선택 완화 적응 은행업 (은행) 투자 (자산 관리자) 투자 (자산 소유자) 보험 인수 (보험 회사) 대출 프로젝트 파이낸스 채권 주식 투자 미사용 대출약정 고정 수입 현금성자산 / 금융 시장 상품 부동산 상품 기타, 직접입력 해당하는 내용 모두 선택 환경 및 / 또는 사회적 특성을 촉진하는 제품 지속가능한 투자가 주 목적인 제품 기타 제품 분류, 직접입력 적용 불가능",
     "q2025": "Q12.6.1",
     "q2025_text": "Provide details of your existing products and services that enable clients to mitigate and/or adapt to the effects of environmental issues, including any taxonomy or methodology used to classify the products and services.",
     "change_status": "Modified question",
@@ -434,17 +434,17 @@
     "daml_summary": "Financial services: D 5/5 | A 2/2 | M 2/2 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_statusKo": "Modified 문항",
+    "detail_change_typesKo": "Removed 열/행, New 드롭다운 선택지, Remove tags 드롭다운 선택지, 가이던스 변경",
+    "change_summaryKo": "Removed 열 \"% 의 asset 가치 aligned taxo아니요my 또는 방법론\". New 드롭다운 선택지 added cover 적응 solutions. Up날짜 입력d 가이던스 clarify how 재무 Instituations 해야 합니다 보고 적응 measures 및 substantial contribution 적응",
+    "scoring_change_summaryKo": "CC 금융 서비스 인지 • Scoring relating 열 '% 의 asset 가치 aligned taxo아니요my 또는 방법론' 아니요 longer present. • Accepted 선택지 열 'Type 의 solution financed, invested 또는 insured' increased. Scoring up날짜 입력d reflect changes 문항naire. Removal 의 열 '% 의 asset 가치 aligned taxo아니요my 또는 방법론'. F/W 금융 서비스 인지 • Check 수치 greater than 0 제공된 열 '% 의 포트폴리오 aligned taxo아니요my 또는 방법론 relation total 포트폴리오 가치' added. Scoring up날짜 입력d alignment 의 산림 및 수자원 scoring 기후변화. • Accepted 선택지 열 'Type 의 solution financed, invested 또는 insured' increased. CC 금융 서비스 관리 • 경우 ‘투자(자산소유자) 열에서 선택 ‘포트폴리오' 이 행 excluded 에서 scoring. Scoring up날짜 입력d create 경로 asset owners 경우 they do 아니요t have 고객. F/W 금융 서비스 관리 • 수치 check moved 인지 level. • Cross check 1.10 added. 이 checks at least one 행 공시된 경우 corresponding 선택지 열에서 선택 '포트폴리오' each 행 경우 '예'열에서 선택'활동 undertaken'문항 1.10. • 경우 ‘투자(자산소유자) 열에서 선택 ‘포트폴리오' 이 행 excluded 에서 scoring. Scoring up날짜 입력d alignment 의 산림 및 수자원 scoring 기후변화. Addition모든y, up날짜 입력s have made create 경로 asset owners 경우 they do 아니요t have 고객.",
     "daml_summaryKo": "금융 서비스: D 5/5 | 2/2 | M 2/2 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "Changed 및 reflected",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "고객이 환경이슈의 영향을 완화하거나 적응할 수 있도록 지원하는 기존 제품 및 서비스의 세부 정보와 분류체계 또는 방법론을 제공하십시오."
+    "q2025_textKo": "제품 및 서비스를 분류하는 데 사용되는 택소노미 또는 방법론을 포함하여 고객이 환경 문제의 영향을 완화 및 / 또는 적응할 수 있도록 하는 기존 제품 및 서비스에 대한 세부 정보를 제공하십시오. (1) 환경 이슈 환경 문제 영향 완화 및 / 또는 적응 포트폴리오 자산 등급 제품 분류 유형 해당하는 내용 모두 선택 기후변화 산림 물 해당하는 내용 모두 선택 완화 적응 은행업 (은행) 투자 (자산 관리자) 투자 (자산 소유자) 보험 인수 (보험 회사) 대출 프로젝트 파이낸스 채권 주식 투자 미사용 대출약정 고정 수입 현금성자산 / 금융 시장 상품 부동산 상품 기타, 직접입력 해당하는 내용 모두 선택 환경 및 / 또는 사회적 특성을 촉진하는 제품 지속가능한 투자가 주 목적인 제품 기타 제품 분류, 직접입력 적용 불가능"
   },
   "defaultPoints": {
     "D": "5/5",
@@ -456,35 +456,35 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 재무 services",
+  "moduleTitleKo": "환경 performance - 금융 서비스",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "수자원, 기후 변경, 산림",
+  "issueTagsKo": "수자원, 기후변화, 산림",
   "sectorTagsKo": "금융 서비스",
-  "simpleHelpKo": "이 문항은 '고객이 환경이슈의 영향을 완화하거나 적응할 수 있도록 지원하는 기존 제품 및 서비스의 세부 정보와 분류체계 또는 방법론을 제공하십시오.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "Achieving 1.5°C, de산림ation-free 및 conversion-free, 수자원-secure world require massive investment low carbon tech아니요logies, sustainable land use, 및 sustainable agricultural 및 수자원 관리 practices. 데이터 users interested whether 재무 institutions providing 재무 products 및 서비스 meet 이 investment ch모든enge. 이 문항 useful investors seeking increase their investment 조직 providing environment모든y sustainable 재무 products 및 서비스.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "2025 Korean form + CDP glossary repair"
 }

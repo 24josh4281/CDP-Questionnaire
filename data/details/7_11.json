@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "How do your total Scope 3 emissions for the reporting year compare to those of the previous reporting year?",
-  "questionKo": "보고연도의 총 범위 3 배출량은 이전 보고연도와 비교하여 어떻게 변화했습니까?",
+  "questionKo": "어떻게 귀사의 총 Scope 3 배출량 보고연도 해당 의 이전 보고연도?",
   "questionType": "SINGLE_SELECT",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -30,7 +30,7 @@
       "type": "Requested Content",
       "text": "General \nSelect the option that best describes how your total Scope 3 emissions have changed compared with the previous year.\nIn this context, your total Scope 3 emissions are the sum of emissions reported in all Scope 3 categories in 7.8.\nIf your total Scope 3 emissions have increased because this year you have calculated additional Scope 3 categories, please select \"Increased\" and you will have the opportunity to provide further details in the following question.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -54,7 +54,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/6 점 이 경로에서 최대 0/6점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/6 점 이 경로에서 최대 0/6점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -84,7 +84,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
@@ -110,11 +110,11 @@
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "자본재: D 1/1 | 2/2 | M 0 또는 1/0 또는 1 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "보고연도의 총 범위 3 배출량은 이전 보고연도와 비교하여 어떻게 변화했습니까?"
+    "q2025_textKo": "어떻게 귀사의 총 Scope 3 배출량 보고연도 해당 의 이전 보고연도?"
   },
   "defaultPoints": {
     "D": "1/1",
@@ -144,23 +144,23 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "단일 선택",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "자본재",
-  "simpleHelpKo": "이 문항은 '보고연도의 총 범위 3 배출량은 이전 보고연도와 비교하여 어떻게 변화했습니까?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '어떻게 귀사의 총 Scope 3 배출량 보고연도 해당 의 이전 보고연도?'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [
-    "Increased",
-    "Decreased",
-    "Remained same overall",
-    "이 당사의 first 연도 의 보고",
-    "당사 don't 해당 Scope 3 배출량 데이터"
+    "증가",
+    "감소",
+    "동일",
+    "이 당사의 첫 번째 연도 보고",
+    "당사 모든 Scope 3 배출량 데이터"
   ],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

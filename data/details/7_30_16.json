@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details on the average emission factor used for all transport movements per mode that directly source energy from the grid.",
-  "questionKo": "보고연도의 국가/지역별 전력/열/스팀/냉방 소비량 세부내역을 입력하십시오",
+  "questionKo": "보고 연도의 전기 / 열 / 증기 / 냉방 소비량을 국가 / 지역별로 구분하여 제공하십시오. `",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "1행"
+      "titleKo": "행 1"
     }
   ],
   "columns": [
@@ -57,8 +57,8 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "gCO2/",
-        "gCO2e/"
+        "",
+        ""
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -86,7 +86,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의견",
+      "textKo": "",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -111,7 +111,7 @@
       "type": "Requested Content",
       "text": "General \nTo understand the differences in emissions between fuel-based and electricity-based transport movements, it is important to be aware of the average emission factors of the electricity the company is sourcing.\nThis question therefore asks for an average emission factor for all your owned transport movements in Scope 2. This does not include the emission factors of Scope 3 emissions for this year's disclosure.\nIf you do not have any transport movements that directly source energy from the grid you should specify this in the ‘Comment' column (column 4) and columns 1, 2 and 3 should remain blank\n. \nCategory (column 1) \nThis question is only asked to transport service companies who utilize rail transport, Light Duty Vehicle transport or Heavy Duty Vehicle transport in their own or outsourced transport movements, and which will be presented to you if you selected LDV, HDV and/or Rail in response to 1.21.\nWhile it is recognized that shipping transportation has demonstrated the technical feasibility of electrified transport, this has not penetrated the market to a degree where an average company-level emission factor becomes relevant for the CDP disclosure. If your organization wishes to report on innovations in this area, please refer to 7.75 and 5.5.\nEmission factor unit (column 2) \nYou may choose to report in either CO2 or CO2-equivalent for the emission factor.\nAverage emission factor: unit total (column 3) \nProvide the average emission factor for the transport movements that used electrical energy in the reporting year. This is a singular data point that averages the emission factor for all electrical energy purchased by your organization for the purposes of transporting goods and/or passengers.\nIf you were unable to obtain primary data from the use phase of your vehicles and instead used assumed emission factors, please state in the Comment column what is the source of your Test Cycle Electrical Energy consumption factors, and whether or not you have used an uplift factor to compensate for the difference between real world and test conditions.\nComment (column 4) (optional) \nYou may comment on any exclusions in the coverage of total Scope 2 emissions from transport movements for the calculation of this emission factor, and, if applicable, provide details for assumed emission factors.\nIf you do not have any transport movements that directly source energy from the grid you should specify this here.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
@@ -151,7 +151,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 3/3점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -171,7 +171,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -181,7 +181,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -191,7 +191,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 3/3점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -211,7 +211,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -221,12 +221,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "보고연도의 국가/지역별 전력/열/스팀/냉방 소비량 세부내역을 입력하십시오",
+    "question_ko": "보고 연도의 전기 / 열 / 증기 / 냉방 소비량을 국가 / 지역별로 구분하여 제공하십시오. `",
     "q2025": "Q7.30.15",
     "q2025_text": "Provide details on the average emission factor used for all transport movements per mode that directly source energy from the grid.",
     "change_status": "No change - 2026 source verified",
@@ -244,14 +244,14 @@
     "change_statusKo": "변경 없음 - 2026 원문 확인",
     "detail_change_typesKo": "",
     "change_summaryKo": "",
-    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "scoring_change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "daml_summaryKo": "항공: D 3/3 | 1/1 | M 0/0 | L 0/0 운송 서비스: D 3/3 | 1/1 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "제공 세부 정보 평균 배출 사용됨 모든 운송 마다 직접 원천 에너지 에서."
+    "q2025_textKo": "제공 세부 정보 평균 배출 사용된 모든 운송 당 배출원 에너지 에서 전력망."
   },
   "defaultPoints": {
     "D": "3/3",
@@ -281,17 +281,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "항공, 운송 서비스",
-  "simpleHelpKo": "이 문항은 '보고연도의 국가/지역별 전력/열/스팀/냉방 소비량 세부내역을 입력하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '보고 연도의 전기 / 열 / 증기 / 냉방 소비량을 국가 / 지역별로 구분하여 제공하십시오. `'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

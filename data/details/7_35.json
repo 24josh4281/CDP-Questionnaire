@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide any efficiency metrics that are appropriate for your organization's transport products and/or services.",
-  "questionKo": "귀사의 운송 제품 및/또는 서비스에 적합한 효율성 지표를 제시하십시오",
+  "questionKo": "제공 하나 이상 효율 지표 적절한 귀사의 운송 제품 및/또는 서비스.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "1행"
+      "titleKo": "행 1"
     }
   ],
   "columns": [
@@ -41,7 +41,7 @@
         "()",
         "",
         "",
-        "항공"
+        ""
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -80,9 +80,9 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "gCO2",
-        "gCO2e",
-        "tCO2",
+        "",
+        "",
+        "",
         "tCO2e",
         "MWh",
         "기타, 직접 입력"
@@ -121,21 +121,21 @@
       "mandatoryKo": "아니요",
       "optionsKo": [
         "생산:",
-        "사용:.km",
-        "사용:.",
-        "(직접 입력 설명 가정)",
+        "사용:",
+        "사용:",
+        "전과정 (설명)",
         "생산: ()",
         "생산: ()",
-        "생산: 기타, 직접 입력",
-        "사용, 직접 입력 명시",
-        ", 직접 입력 명시",
-        "재무: 매출-.km",
-        "재무: 매출-.",
-        "생산: 특정 단위, 직접 입력 명시",
-        "재무: 매출-.",
+        "생산: 기타, 다음을",
+        "사용, 다음을",
+        "전과정, 다음을",
+        "재무: 매출-톤.",
+        "재무: 매출-톤.",
+        "생산: 구체적인 단위, 다음을",
+        "재무: 매출-톤.",
         "생산:",
-        "재무: 매출 마다 ()",
-        "재무: 매출 마다 ()",
+        "재무: 매출 당 ()",
+        "재무: 매출 당 ()",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -179,7 +179,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 변경 에서 이전 연도",
+      "textKo": "% 에서 연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -213,7 +213,7 @@
       "type": "Requested Content",
       "text": "General \nDisclose any metrics outside of the primary intensity metrics in 7.50 (tCO2e per unit of transportation (passenger or ton) per unit of distance (km or mile). CDP recognizes that many other metrics are standardized across the transportation sector, such as for example measuring CO2 emissions per vehicle, per unit of distance (tCO2e/vehicle.km). Responders are invited to disclose all those metrics in this table question, by adding a row for every reported metric. \nMetrics reported, using the associated metric numerators and denominators (presented in columns 3 and 4, respectively), should be for the current reporting period (as defined by your answer to 1.4). \nWhen reporting \"% change from last year\" (column 7), the timeline used should be the 12-month period directly prior to the reporting period (as defined by your answer to 1.4), even if it does not completely overlap with the period previously reported to CDP. \nAside from in \"% change from last year field\" (column 7), negative numbers should not be inserted. \nActivity (column 1) \nSelect the activity that you would like to provide data for. \nActivity modes presented in drop-down options are determined by transport modes selected in response to 1.21. \nMetric figure (column 2) \nEnter the numerical value used to quantify the efficiency metric appropriate for your organization's products and/or services pertinent to the metric numerator (column 3) and metric denominator (column 4) within your transport activities listed in column 1. \nMetrics reported for each of the transport activities that your organization engages in can be in relation to production, vehicle use phase, life cycle, financial and any other metric denominator(s) deemed relevant for the transport mode(s) that your organization operate(s) in. Further explanation of these metrics can be provided in columns 3, 4 and 8 (Metric numerator, Metric denominator and Please explain, respectively). \nMetric numerator (column 3) \nSelect relevant metric numerator. \nIf you select \"Other, please specify\", provide a label for the Metric numerator. \nMetric denominator (column 4) \nSelect the relevant metric denominator, in line with the boundary/method used to calculate the metric. The metrics provided can pertain to production, vehicle use phase, the whole life cycle, or it can be based on financial indicators, which is reflected in the options provided. \nYou may choose to provide your own metric using the \"Other, please specify\" drop-down. If you select \"Other, please specify\", provide a label for the Metric denominator. \nVehicles are defined as per the definitions put forward in the ‘Explanation of terms' for question 1.21. \nWhen reporting any vehicle life cycle metric denominators, please ensure to explain all life cycle assumptions in column 8 (Please explain). \nPlease ensure that the combination of numerator and denominator selected for each activity provide a coherent metric. \nFor LDV and HDV manufacturers: \nThe provided metric options are for your fleet average vehicles sold. If you would like to disaggregate your response by e.g. vehicle classes, select \"Other, please specify\", provide a label for your metric and provide more details in the column 8 (Please explain). \nFor Rail equipment manufacturers: \nProduction: Other, please specify. Select this option to report efficiency metrics of production on a per vehicle basis for any vehicles other than locomotives and train cars. The vehicle unit needs to be specified in the text box provided. Provide a more detailed explanation of this metric in column 8 (Please explain) \nUse phase: please specify. Select this option to report efficiency metrics of the use phase of the vehicle sold. Input a label for your metric in the text box provided (e.g. locomotiveClass68.mile for reporting vehicle.mile for locomotive Class 68) and provide more details, including the specific vehicle type/class if relevant, in the column 8 (Please explain). \nLife cycle, please specify. Select this option to report efficiency metrics of the vehicle sold over its life cycle. Input a label for your metric in the text box provided (e.g. vehicle.km) and provide more details, including all the assumptions and the specific vehicle class if relevant, in the column 8 (Please explain). \nFor Marine equipment manufacturers: \nProduction: Specific vessel unit, please specify: select this option to report efficiency metrics on a per vessel basis. The vessel unit needs to be specified in the text box provided. If you need more than 40 characters, please use the comment box by clicking on the \"speech bubble\" icon. Provide a more detailed explanation of this metric in column 8 (Please explain) \nUse phase, please specify. Select this option to report efficiency metrics of the use phase of the vessel sold. Input a label for your metric in the text box provided (e.g. trip) and provide more details, including the specific vessel type/class if relevant, in the column 8 (Please explain). \nLife cycle, please specify. Select this option to report efficiency metrics of the vessel sold over its life cycle. Input a label for your metric in the text box provided (e.g. total lifecycle) and provide more details, including all the assumptions and the specific vehicle class if relevant, in the column 8 (Please explain). \nFor Aviation equipment manufacturers: \nProduction: Aircraft. Select this option to report efficiency metrics on the average basis for all aircrafts sold. If you would like to disaggregate your response by e.g. aircraft classification, select \"Production: Other, please specify\", specify the aircraft classification in the text box provided and give a more detailed explanation of this metric in column 8 (Please explain) \nUse phase, please specify. Select this option to report efficiency metrics of the use phase of the aircraft sold. Input a label for your metric in the text box provided (e.g. PAX) and provide more details, including the specific aircraft type/class if relevant, in the column 8 (Please explain). \nLife cycle, please specify. Select this option to report efficiency metrics of the aircraft sold over its life cycle. Input a label for your metric in the text box provided (e.g. life cycle) and provide more details, including all the assumptions and the specific vehicle class if relevant, in the column 8 (Please explain). \nMetric numerator: Unit total (column 5) \nEnter the value of the numerator selected in column 3, used to evaluate the metric figure presented (column 2), for the transport activity selected (column 1). \nMetric denominator: Unit total (column 6) \nEnter the numerical value of the denominator selected in column 4, used to evaluate the metric figure presented (column 2), for the transport activity selected (column 1). \n% change from last year (column 7) \nEnter the percentage change in the efficiency metric you are reporting on (column 2), in relation to the previous year. \nLeave the column blank if you do not have sufficient data to calculate the change from the previous year, or if this is the first year you have tracked this metric. \nIf you have experienced no change, please enter 0 (zero) in this column. \nPlease explain (column 8) \nDiscuss any assumptions made to derive, or simplifications made to establish metric numerators and denominators used. \nIf you used any relevant existing standards and/or methodologies, please mention them and discuss their use here. \nProvide any additional explanation necessary to capture the full complexity of the metric figure stated.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
@@ -243,7 +243,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 7/7점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -263,7 +263,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -273,7 +273,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
@@ -293,17 +293,17 @@
     "daml_summary": "Transport OEMS: D 7/7 | A 4/4 | M 0/0 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "detail_change_typesKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "change_summaryKo": "최대 수치 증가 999,999,999,999,999.",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "daml_summaryKo": "운송 OEM: D 7/7 | 4/4 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "귀사의 운송 제품 및/또는 서비스에 적합한 효율성 지표를 제시하십시오"
+    "q2025_textKo": "제공 하나 이상 효율 지표 적절한 귀사의 운송 제품 및/또는 서비스."
   },
   "defaultPoints": {
     "D": "7/7",
@@ -333,17 +333,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "운송 OEM",
-  "simpleHelpKo": "이 문항은 '귀사의 운송 제품 및/또는 서비스에 적합한 효율성 지표를 제시하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '제공 하나 이상 효율 지표 적절한 귀사의 운송 제품 및/또는 서비스.'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

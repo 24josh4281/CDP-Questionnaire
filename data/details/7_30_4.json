@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Report your organization's energy consumption totals (excluding feedstocks) for metals and mining production activities in MWh.",
-  "questionKo": "보고 조직의 에너지 소비량 (제외 원료) 금속 광업 생산 활동 MWh.",
+  "questionKo": "보고 귀사의 에너지 소비 총량 (제외 원료) 및 광업 생산 활동 MWh.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,32 +15,32 @@
     {
       "order": 1,
       "title": "Consumption of fuel (excluding feedstocks)",
-      "titleKo": "소비 의 연료 (제외 원료)"
+      "titleKo": "소비 연료 (제외 원료)"
     },
     {
       "order": 2,
       "title": "Consumption of purchased or acquired electricity",
-      "titleKo": "소비 의 또는 전력"
+      "titleKo": "소비 구매한 또는 전력"
     },
     {
       "order": 3,
       "title": "Consumption of purchased or acquired heat",
-      "titleKo": "소비 의 또는 열"
+      "titleKo": "소비 구매한 또는 열"
     },
     {
       "order": 4,
       "title": "Consumption of purchased or acquired steam",
-      "titleKo": "소비 의 또는 스팀"
+      "titleKo": "소비 구매한 또는 스팀"
     },
     {
       "order": 5,
       "title": "Consumption of purchased or acquired cooling",
-      "titleKo": "소비 의 또는 냉방"
+      "titleKo": "소비 구매한 또는 냉방"
     },
     {
       "order": 6,
       "title": "Consumption of self-generated non-fuel renewable energy",
-      "titleKo": "소비 의 생산한 비-연료 에너지"
+      "titleKo": "소비 -생산한 -연료 재생에너지 에너지"
     },
     {
       "order": 7,
@@ -57,7 +57,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "소비한 에서 조달함 금속 및 광업 섹터",
+      "textKo": "MWh 소비한 에서 재생에너지 배출원 및 광업 섹터 경계",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -72,7 +72,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "소비한 에서 비- 조달함 금속 및 광업 섹터",
+      "textKo": "MWh 소비한 에서 -재생에너지 배출원 및 광업 섹터 경계",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -87,7 +87,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "소비한 에서 비- 또는 배출 조달함 금속 및 광업 섹터",
+      "textKo": "MWh 소비한 에서 -재생에너지 제로 또는 -제로 배출 배출원 및 광업 섹터 경계",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -127,7 +127,7 @@
       "type": "Requested Content",
       "text": "General \nThis question is based on question 7.30.1 but is sector specific. Energy consumed outside the metal and mining sector should not be reported here.\nThe boundary surrounding your organization in the metals and mining sector shall hereby be referred to as the organizational/sector boundary. The sector boundary for energy consumption should align with the sector boundary for emissions, which is described in the guidance for question 7.19.\nFigures you provide should be for the reporting year only (as defined by your answer to 1.4).\nThis table is for gross energy consumption data only. You should not provide net consumption nor deduct for energy produced or exported from the organizational/sector boundary. Because feedstock fuels are excluded from this question, this approach should not lead to double counting.\nGuidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh \". \nReport all of your fuel data consistently using the same heating value as selected in 7.30.1.\n\"Total MWh\" will be calculated using column \"MWh consumed from renewable sources inside metals and mining sector boundary\" and column \"MWh consumed from non-renewable sources inside metals and mining sector boundary\" only (not column \"MWh consumed from non-renewable zero or near-zero emission sources inside metals and mining sector boundary\"). \nActivity (column 0) \nYou will be presented with a row for each activity selected in 7.30.\nConsumption of fuel (excluding feedstocks) \nAll fuel consumed for energy purposes inside the organizational/sector boundary should be included, regardless of whether the fuel was purchased or produced by the organization. Fuel consumed as a feedstock (used for the production of another fuel) should not be included. The produced fuel should still be included if it is consumed within the organizational boundary.\nIf you do not have exact consumption data, you may alternatively estimate your company's consumption by reviewing fuel and energy purchasing orders.\nConsumption of self-generated non-fuel renewable energy \nIf your organization produces renewable energy that is not based on fuel (such as solar, wind, hydro, geothermal, marine), then any consumption of this energy should be entered here.\nConsumption of renewable fuels (such as solid and liquid biofuels and biogas) should be excluded because these are accounted for in the row \"Consumption of fuel (excluding feedstock)\".\nAll forms of non-fuel renewable energy - electricity, heat, steam, or cooling - shall be included.\nTotal energy consumption \nThe data entered in this row should equal the sum of all the above rows (if the above rows have been fully disclosed for).\nIf you do not disclose data for specific energy carriers in the rows above, but you are able to enter the total energy consumed by your organization inside the metals and mining sector boundary, then you should do so.\nMWh consumed from renewable sources inside metals and mining sector boundary (column 1) \nWaste energy should not be included if it is derived from fossil fuels. \nHydrogen should not be included if it is derived from fossil fuels.\nBlended fuels deriving from both renewable and non-renewable sources should be split by the proportion contained from each source. For municipal waste and refuse-derived fuel, only the fraction of the fuel that is derived from biomass can be included as renewable energy, when calculating renewable energy consumption totals. Further explanations of municipal waste and a glossary of fuel definitions is provided in the CDP Technical Note: \" Fuel Definitions\" .\nMWh consumed from non-renewable sources inside metals and mining sector boundary (column 2) \nAll energy not identified as deriving from renewable sources should be entered, e.g. coal, oil, natural gas, etc. \nIn the \"Consumption of purchased or acquired electricity\" row, the figure reported in this column should be inclusive of the figure reported in column \"MWh consumed from non-renewable zero or near-zero emission sources inside metals and mining sector boundary\".\nMWh consumed from non-renewable zero or near-zero emission sources inside metals and mining sector boundary (column 3) \nThis figure should be a subset of the figure reported in column \"MWh consumed from non-renewable sources inside metals and mining sector boundary\".\nInclude electricity consumption from nuclear plants and fossil fuel plants fitted with carbon capture and storage which generate zero or near-zero emissions.\nDo not include electricity consumption from fossil-fuel plants fitted with carbon capture and storage if the emissions associated with its generation are higher than near-zero.\nDo not include natural gas, combined cycle gas turbine or fossil fuel-based combined heat and power (cogeneration). Although these sources are less carbon intensive than other means of electricity production like coal, they should not be reported in this column as they do not generate zero or near-zero emissions.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -151,7 +151,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 6/6점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 6/6점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -171,7 +171,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -181,7 +181,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
@@ -201,17 +201,17 @@
     "daml_summary": "Metals & mining: D 6/6 | A 1/1 | M 0/0 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "detail_change_typesKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "금속 및 광업: D 6/6 | 1/1 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "보고 귀사의 에너지 소비 총량 (제외 원료) 금속 및 광업 생산 활동 MWh."
+    "q2025_textKo": "보고 귀사의 에너지 소비 총량 (제외 원료) 및 광업 생산 활동 MWh."
   },
   "defaultPoints": {
     "D": "6/6",
@@ -241,17 +241,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "금속 및 광업",
-  "simpleHelpKo": "이 문항은 '보고 조직의 에너지 소비량 (제외 원료) 금속 광업 생산 활동 MWh.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '보고 귀사의 에너지 소비 총량 (제외 원료) 및 광업 생산 활동 MWh.'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

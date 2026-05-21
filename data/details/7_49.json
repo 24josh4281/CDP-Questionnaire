@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "State your organization's emissions and energy intensities by steel production process route.",
-  "questionKo": "조직의 배출량 에너지 철강 생산 프로세스 경로.",
+  "questionKo": "명시 귀사의 배출량 및 에너지 intensities 기준 철강 production 프로세스 경로.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -36,9 +36,9 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "-",
-        "전력",
-        "직접 - 전력",
+        "Blast furnace- basic oxygen furnace",
+        "Scrap-electric arc furnace",
+        "Direct reduced iron- electric arc furnace",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -52,7 +52,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "배출집약도 수치, 미터톤 CO2e 마다 지표 의 철강 생산",
+      "textKo": "배출집약도 수치, 미터톤 CO2e per 지표 ton 의 crude 철강 production",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -67,7 +67,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "에너지 집약도 수치, GJ () 마다 지표 의 철강 생산",
+      "textKo": "에너지 intensity 수치, GJ (LHV) per 지표 ton 의 crude 철강 production",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -86,12 +86,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "방법론",
+      "textKo": "방법론 applied",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "GHG 프로토콜",
-        "",
+        "GHG Protocol",
+        "World철강 Association",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -124,13 +124,13 @@
       "type": "Requested Content",
       "text": "General \nComplete this table for all process routes occurring inside your organizational boundary.\nAdd rows for routes that are not listed.\nData and information that you provide should be for the reporting year only (as defined by your answer to 1.4).\nEmissions from finishing should not be included for process routes reported in this question.\nIntensity for each process route is the aggregate of emissions or energy divided by the aggregate of crude steel produced. This equates to the weighted average intensity per process route inside the organizational boundary.\nNo calculation of hypothetical intensities for benchmarking purposes should be disclosed here. However, depending on the methodology used, credit may be awarded for energy or carbon leaving the organizational boundary.\nEmissions intensity figure, metric tons CO2e per metric ton of crude steel production (column 2) \nEnter the emissions intensity by steel production route in metric tons of CO­2-equivalent per metric ton of crude steel produced.\nEnergy intensity figure, GJ (LHV) per metric ton of crude steel production (column 3) \nEnter the energy intensity by steel production route in metric GJ (LHV) per metric ton of crude steel produced.\nHigher heating value (HHV) is also known as gross calorific value (GCV), and lower heating value (LHV) is also known as net calorific value (NCV). Typically, LHV/HHV ratio is 0.95 for solid and liquid hydrocarbon fuels, such as coal and oil, and 0.9 for gaseous hydrocarbon fuels, such as natural gas.\nMethodology applied (column 4) \nYou should apply the same methodology for energy and emissions intensity.\nSelect from the drop-down the methodology used to evaluate the emissions (metric tons of CO2-equivalent) and energy intensity (GJ(LHV)) of steel production per metric ton of crude steel produced.\nIf the methodology applied is not in the dropdown, then please specify.\nIf you choose the GHG Protocol, then you should calculate your emissions intensity using the equation below. Emissions relating to the production of purchased fuels, feedstocks, and raw materials should not be included for this methodology as it is classified under Scope 3\nCO2e intensity = (Scope 1 + Scope 2) / (Crude steel produced)\nIf you choose the GHG Protocol, then you should calculate net energy intensity. Your calculation boundary should include consumption of fuel and fuel feedstocks (as distinct from C8.2 questions which excludes fuel feedstocks). For example, this would include consumption of coal and coke at coke ovens and blast furnaces while coke oven gas and blast furnace gas consumption are balanced by their production. Consumption of purchased or acquired electricity, steam, heat, and/or cooling should also be included. Energy required for the production of purchased fuels, feedstocks, and raw materials should not be included for this methodology as it is classified under Scope 3. The general equation below describes the calculation of net energy intensity.\nNet Energy intensity = (Energy in - Energy out) / (Crude steel produced)\nCDP encourages the use of the Worldsteel methodology. This is because the Worldsteel methodology includes wider and indirect activity considerations, which improves consistency. General guidance may be referred to in this Worldsteel guide .\nFurther guidance on emissions accounting in the steel sector is provided volume 3, chapter 4, of IPCC Guidelines for National GHG inventories . Drawing from these guidelines, the GHG Protocol provide further guidance and a tool to assist in the calculation of steel sector emissions.\nComment (column 5) (optional) \nYou may provide information about the methodology and boundary used in the calculation of intensities.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "일반 완료 이 table 모든 프로세스 routes occurring inside 귀사al boundary. Add 행 routes 아니요t listed. 데이터 및 정보 귀사 제공 해야 합니다 보고연도 only (defined 기준 귀사의 answer 1.4). 배출량 에서 finishing 해야 합니다 아니요t 포함된 프로세스 routes 보고된 이 문항. Intensity each 프로세스 경로 aggregate 의 배출량 또는 에너지 divided 기준 aggregate 의 crude 철강 produced. 이 equates weighted average intensity per 프로세스 경로 inside organizational boundary. 아니요 산정 의 hypothetical intensities benchmarking purposes 해야 합니다 공시된 here. However, depending 방법론 used, credit 할 수 있습니다 부여됨 에너지 또는 carbon leaving organizational boundary. 배출집약도 수치, 미터톤 CO2e per 지표 ton 의 crude 철강 production (열 2) Enter 배출집약도 기준 철강 production 경로 미터톤 의 CO­2-equivalent per 지표 ton 의 crude 철강 produced. 에너지 intensity 수치, GJ (LHV) per 지표 ton 의 crude 철강 production (열 3) Enter 에너지 intensity 기준 철강 production 경로 지표 GJ (LHV) per 지표 ton 의 crude 철강 produced. Higher heating 가치 (HHV) also k아니요wn gross calorific 가치 (GCV), 및 lower heating 가치 (LHV) also k아니요wn net calorific 가치 (NCV). Typic모든y, LHV/HHV ratio 0.95 solid 및 liquid hydrocarbon 연료, such 석탄 및 oil, 및 0.9 gaseous hydrocarbon 연료, such natural gas. 방법론 applied (열 4) 귀사 해야 합니다 apply same 방법론 에너지 및 배출집약도. 선택 에서 drop-down 방법론 used 평가 배출량 (미터톤 의 CO2-equivalent) 및 에너지 intensity (GJ(LHV)) 의 철강 production per 지표 ton 의 crude 철강 produced. 만약 방법론 applied 아니요t 드롭다운, then please specify. 만약 귀사 choose GHG Protocol, then 귀사 해야 합니다 산정 귀사의 배출집약도 using equation below. 배출량 relating production 의 purchased 연료, feedstocks, 및 raw materials 해야 합니다 아니요t 포함된 이 방법론 it classified under Scope 3 CO2e intensity = (Scope 1 + Scope 2) / (Crude 철강 produced) 만약 귀사 choose GHG Protocol, then 귀사 해야 합니다 산정 net 에너지 intensity. 귀사의 산정 boundary 해야 합니다 include consumption 의 연료 및 연료 feedstocks (distinct 에서 C8.2 문항 excludes 연료 feedstocks). example, 이 would include consumption 의 석탄 및 coke at coke ovens 및 blast furnaces while coke oven gas 및 blast furnace gas consumption balanced 기준 their production. Consumption 의 purchased 또는 acquired 전력, 스팀, 열, 및/또는 냉방 해야 합니다 also 포함된. 에너지 required production 의 purchased 연료, feedstocks, 및 raw materials 해야 합니다 아니요t 포함된 이 방법론 it classified under Scope 3. 일반 equation below 설명s 산정 의 net 에너지 intensity. Net 에너지 intensity = (에너지 - 에너지 out) / (Crude 철강 produced) CDP encourages use 의 World철강 방법론. 이 because World철강 방법론 includes wider 및 indirect 활동 considerations, improves consistency. 일반 가이던스 할 수 있습니다 referred 이 World철강 guide. Further 가이던스 배출량 accounting 철강 섹터 제공된 volume 3, chapter 4, 의 IPCC Guidelines National GHG inventories. Drawing 에서 이 guidelines, GHG Protocol 제공 further 가이던스 및 tool assist 산정 의 철강 섹터 배출량. 의견 (열 5) (선택지al) 귀사 할 수 있습니다 제공 정보 about 방법론 및 boundary used 산정 의 intensities."
     },
     {
       "type": "Additional Information",
       "text": "GHG Protocol \nThe GHG Protocol provides a range of sector-specific tools , one of which is for Iron and Steel .\nThis tool provides a methodology to calculate CO 2 emissions from direct reduced iron (DRI) production.\nThe World Steel Association (worldsteel) \nThe worldsteel Climate Action Recognition Program aligns with a methodology that has been published as an International standard ( ISO 14404: 2013 ), a calculation method of carbon dioxide emission intensity from iron and steel production.\nThis ISO standard consists of two parts:\n- Part 1: Steel plant with blast furnace, and;\n- Part 2: Steel plant with electric arc furnace (EAF).\nThis globally consistent methodology allows production to be normalized to allow CO 2 emission comparisons between sites.",
       "typeKo": "추가 정보",
-      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
+      "textKo": "GHG Protocol GHG Protocol 제공s range 의 섹터-specific tools, one 의 Iron 및 철강. 이 tool 제공s 방법론 산정 CO 2 배출량 에서 direct reduced iron (DRI) production. World 철강 Association (world철강) world철강 기후 Action Recognition Program aligns 방법론 has published International standard (ISO 14404: 2013), 산정 method 의 carbon dioxide 배출집약도 에서 iron 및 철강 production. 이 ISO standard consists 의 two parts: - Part 1: 철강 plant blast furnace, 및; - Part 2: 철강 plant electric arc furnace (EAF). 이 glob모든y consistent 방법론 모든ows production 아니요rmalized 모든ow CO 2 배출 comparisons between sites."
     }
   ],
   "points": [
@@ -154,7 +154,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다 이 문항에서 최대 8/8점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 per 완료 셀 proportion 숫자 입력 의 행 공시된. Parti모든y 완료 행 아니요t receive full 점 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -163,8 +163,8 @@
       "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
       "sectorKo": "철강",
       "issueKo": "기후변화",
-      "levelKo": "A",
-      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
+      "levelKo": "",
+      "criteriaKo": "Table 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -174,7 +174,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t scored."
     },
     {
       "sector": "Steel",
@@ -184,7 +184,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "Full 인지 점수수수 해야 합니다 부여됨 대상 리더십 점수수수. 점 부여됨 one 행 follows: 경로) 'Blast furnace-basic oxygen furnace' 열에서 선택 '프로세스 경로' 및 수치 제공된 '배출집약도 수치, 미터톤 CO2e per 지표 ton 의 crude 철강 production' less than 1 - 0.25 점 이 경로에서 최대 0.25/0.25점을 받을 수 있습니다. 또는 경로 B) 'Direct reduced iron-electric arc furnace' 열에서 선택 '프로세스 경로' 및 수치 제공된 '배출집약도 수치, 미터톤 CO2e per 지표 ton 의 crude 철강 production' less than 0.352 - 0.25 점 이 경로에서 최대 0.25/0.25점을 받을 수 있습니다. 또는 경로 C) 'Scrap-electric arc furnace' 열에서 선택 '프로세스 경로' 및 수치 제공된 '배출집약도 수치, 미터톤 CO2e per 지표 ton 의 crude 철강 production' less than 0.352 - 0.25 점 이 경로에서 최대 0.25/0.25점을 받을 수 있습니다. 또는 경로 D) 만약 each 의 다음 선택지 아님 열에서 선택 '프로세스 경로' 하나 이상 행… - 'Blast furnace-basic oxygen furnace' - 'Direct reduced iron-electric arc furnace' - 'Scrap-electric arc furnace' … 점 부여됨 follows: '기타, 직접 입력' 열에서 선택 '프로세스 경로' - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다.."
     }
   ],
   "change": {
@@ -210,11 +210,11 @@
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "철강: D 8/8 | 1/1 | M 0/0 | L 0 또는 0.25/0 또는 0.25",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "변경 없음 verified 및 2026 source applied",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "명시 귀사의 배출량 및 에너지 기준 철강 생산 프로세스 경로."
+    "q2025_textKo": "명시 귀사의 배출량 및 에너지 intensities 기준 철강 production 프로세스 경로."
   },
   "defaultPoints": {
     "D": "8/8",
@@ -226,35 +226,35 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "철강",
-  "simpleHelpKo": "이 문항은 '조직의 배출량 에너지 철강 생산 프로세스 경로.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "high 영향 homoge아니요us 섹터, it common express 배출량 per unit 의 physical output. case 의 철강, 에너지 intensity also 중요 지표 measured 기준 industry. 철강 produced via different routes, each 의 plays key role sustainability 의 철강 supply eco아니요my. However, because typical intensities vary between routes, disclosing single comp하나 이상-wide intensity could misleading, because it masks relative contribution 에서 each 경로. 데이터 users therefore interested average intensities per 프로세스 경로. aim account 배출량 concentration across 섹터 및 조직 기준 ack아니요wledging different 프로세스 routes 내 섹터.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "2025 Korean form + CDP glossary repair"
 }

@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Do you calculate greenhouse gas emissions for each agricultural commodity reported as significant to your business?",
-  "questionKo": "산정 가스 배출량 농업 보고됨 중대한 사업?",
+  "questionKo": "귀사 산정 온실가스 배출량 각 농업 원자재 보고된 귀사의 사업?",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -50,7 +50,7 @@
     {
       "order": 8,
       "title": "Maize/corn",
-      "titleKo": "/"
+      "titleKo": ""
     },
     {
       "order": 9,
@@ -60,12 +60,12 @@
     {
       "order": 10,
       "title": "Other grain (e.g., barley, oats)",
-      "titleKo": "기타 (e.g.,,)"
+      "titleKo": "기타 (예:,,)"
     },
     {
       "order": 11,
       "title": "Other oilseeds (e.g. rapeseed oil)",
-      "titleKo": "기타 (e.g. 석유)"
+      "titleKo": "기타 (예: 석유)"
     },
     {
       "order": 12,
@@ -110,7 +110,7 @@
     {
       "order": 20,
       "title": "Tobacco",
-      "titleKo": "담배"
+      "titleKo": ""
     },
     {
       "order": 21,
@@ -146,13 +146,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "GHG 배출량 산정됨 이 원자재",
+      "textKo": "GHG 배출량 계산된 에 대한 이 원자재",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "예",
-        "아니요, 하지만 당사 산정 이 데이터 내 향후 2년",
-        "아니요, 당사 아님 산정 이 데이터 내 향후 2년"
+        ", 그러나 당사 이 데이터 내 향후 2개 연도",
+        ", 및 당사 아님 이 데이터 내 향후 2개 연도"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -168,12 +168,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "보고 배출량 기준",
+      "textKo": "보고 배출량 별",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "총",
-        "단위 의 생산"
+        "단위 생산"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -186,7 +186,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "배출량 (미터톤 CO2e)",
+      "textKo": "배출량 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -208,15 +208,15 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": ": 단위 의 생산",
+      "textKo": ": 단위 생산",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "",
         "",
-        "미터톤",
-        "단위 의",
-        "단위 의 매출",
+        "지표 톤",
+        "단위 제품",
+        "단위 매출",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -237,14 +237,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "변경 에서 최근 보고연도",
+      "textKo": "에서 최근 보고연도",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "이 귀사의 연도 의",
+        "이 당사의 첫 번째 연도",
         "",
         "",
-        "",
+        "관련 동일",
         "",
         ""
       ],
@@ -274,7 +274,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "설명 이유 귀사가 아님 산정 GHG 배출량 이 원자재",
+      "textKo": "설명 왜 귀사 아님 GHG 배출량 에 대한 이 원자재",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -299,7 +299,7 @@
       "type": "Requested Content",
       "text": "General \nOrganizations are encouraged to calculate GHG emissions data for \nall  agricultural commodities specified as significant to their business in terms of revenue.\nAgricultural commodities (column 0) \nNote that only those agricultural commodities that you indicated are significant in terms of revenue in 1.22 or 1.23 will appear in the list.\nReporting emissions by (column 2) \nThis column is only presented if you select \"Yes\" in column 1 \"GHG emissions calculated for this commodity\".\nOrganizations are encouraged to report the agricultural commodity associated emissions per unit of production, e.g. CO2e/kg of product. However, if you are unable to provide this, you may report your emissions as an absolute figure by selecting \"Total\".\nEmissions (metric tons CO2e) (column 3) \nThis column is only presented if you select \"Yes\" in column 1 \"GHG emissions calculated for this commodity\".\nThis figure should be representative of your reporting year, boundaries for data collection/calculation as indicated in column 3 \"Reporting emissions by\" and expressed in metric tons.\nDenominator: unit of production (column 4) \nThis column will appear only if you select \"Unit of production\" in column 2 \"Reporting emissions by\".\nChange from last reporting year (column 5) \nThis column is only presented if you select \"Yes\" in column 1 \"GHG emissions calculated for this commodity\".\nPlease explain (column 6) \nThis column is only presented if you select \"Yes\" in column 1 \"GHG emissions calculated for this commodity\".\nIf you used the \"Other commodity\" row to report a different commodity in 1.23, specify the name of the commodity produced or sourced by your organization.\nSpecify the boundaries used for data calculation, e.g. organization-wide, direct operations, upstream value chain or only selected facilities.\nSpecify any exclusions in the case your reported figure does not cover your entire boundary for data collection/calculation. In this, provide an explanation as to why you have excluded certain parts of your organization.\nProvide details on the methods/tools and assumptions used to calculate your figure reported in column 4 \"Emissions (metric tons CO2e)\".\nExplain why you do not calculate GHG emission for this commodity (column 7) \nThis column is only presented if you select either \"No\" option in column 1 \"GHG emissions calculated for this commodity\".\nIf you used the \"Other commodity\" row to report a different commodity in 1.23, specify the name of the commodity produced or sourced by your organization.\nIf you selected \"No, but we intend to calculate this data within the next two years\", detail your plans, by including:\nCoverage of data calculation, e.g. organization-wide, upstream/downstream value chain or only selected facilities;\nTimeframe for starting to calculate this information;\nMethods/tools you plan to use.\nIf you selected \"No, and we do not intend to calculate this data within the next two years\", specify your main reason for not collecting/calculating this data and provide an explanation.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
@@ -349,7 +349,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -379,7 +379,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "'예' 열에서 선택 'GHG 배출량 산정됨 이 원자재' 모든 행 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
+      "criteriaKo": "'예'열에서 선택'GHG 배출량 산정d 이 원자재' 모든 행 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -389,7 +389,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -419,7 +419,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "'예' 열에서 선택 'GHG 배출량 산정됨 이 원자재' 모든 행 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
+      "criteriaKo": "'예'열에서 선택'GHG 배출량 산정d 이 원자재' 모든 행 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -429,7 +429,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -459,7 +459,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "'예' 열에서 선택 'GHG 배출량 산정됨 이 원자재' 모든 행 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
+      "criteriaKo": "'예'열에서 선택'GHG 배출량 산정d 이 원자재' 모든 행 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     }
   ],
   "change": {
@@ -481,15 +481,15 @@
     "review_status": "변경 반영",
     "change_statusKo": "경미한 변경",
     "detail_change_typesKo": "행 변경 텍스트 입력, 신규 행",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "농산물 원자재: D 8/8 | 3/3 | M 1/1 | L 1/1 식음료 및 담배: D 8/8 | 3/3 | M 1/1 | L 1/1 제지 및 임업: D 8/8 | 3/3 | M 1/1 | L 1/1",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "귀사 산정 온실가스 배출량 각 농산물 원자재 보고된 중요한 귀사의 사업?"
+    "q2025_textKo": "귀사 산정 온실가스 배출량 각 농업 원자재 보고된 귀사의 사업?"
   },
   "defaultPoints": {
     "D": "8/8",
@@ -519,17 +519,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
-  "sectorTagsKo": "농산물 원자재, 식품, 음료 & 담배, 제지 및 임업",
-  "simpleHelpKo": "이 문항은 '산정 가스 배출량 보고됨 사업?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "issueTagsKo": "기후변화",
+  "sectorTagsKo": "농산물 원자재,, &, 제지 및 임업",
+  "simpleHelpKo": "이 문항은 '귀사 산정 온실가스 배출량 각 농업 원자재 보고된 귀사의 사업?'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

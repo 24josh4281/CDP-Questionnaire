@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Break down your total gross global Scope 1 emissions from coal mining activities in the reporting year by greenhouse gas type.",
-  "questionKo": "구분 전 세계 범위 1 배출량 석탄 광업 활동 보고연도 가스.",
+  "questionKo": "귀사의 총 총 전 세계 Scope 1 배출량 에서 석탄 광업 활동 보고연도 기준 온실가스 유형.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -25,7 +25,7 @@
     {
       "order": 3,
       "title": "Fugitives (Post-mining and abandoned coal mines)",
-      "titleKo": "(광업 및 석탄)"
+      "titleKo": "(-광업 및 석탄)"
     },
     {
       "order": 4,
@@ -35,7 +35,7 @@
     {
       "order": 5,
       "title": "Utilized methane",
-      "titleKo": ""
+      "titleKo": "메탄"
     },
     {
       "order": 6,
@@ -50,7 +50,7 @@
     {
       "order": 8,
       "title": "Combustion (Electricity generation)",
-      "titleKo": "(전력 발전)"
+      "titleKo": "(전력)"
     },
     {
       "order": 9,
@@ -72,7 +72,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 범위 1 CO2 배출량 (미터톤 CO2)",
+      "textKo": "총 Scope 1 CO2 배출량 (지표 톤 CO2)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -87,7 +87,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 범위 1 배출량 (미터톤 CH4)",
+      "textKo": "총 Scope 1 메탄 배출량 (지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -102,7 +102,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 총 범위 1 GHG 배출량 (미터톤 CO2e)",
+      "textKo": "총 총 Scope 1 GHG 배출량 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -117,7 +117,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의견",
+      "textKo": "",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -130,19 +130,19 @@
       "type": "Change From Last Year",
       "text": "Revised question dependency",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "전년 대비 변경사항은 2026 CDP 원문 및 변경 추적표 기준으로 확인하십시오."
+      "textKo": "개정 문항 의존도"
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes, both Scope 1 and Scope 2 emissions\" or \"Yes, Scope 1 emissions only\" in response to column 1 \"Emissions breakdown by greenhouse gas type\" of 7.15.",
       "typeKo": "문항 의존성",
-      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
+      "textKo": "이 문항 만 표시됩니다 만약 귀사 선택 \"예, 모두 Scope 1 및 Scope 2 배출량\" 또는 \"예, Scope 1 배출량 만\" 응답 열 1 \"배출량 세분화 기준 온실가스 유형\" 의 7.15."
     },
     {
       "type": "Requested Content",
       "text": "General \nThis question requests emissions data only from emission sources that fall within the chosen reporting boundary (i.e. Scope 1 emissions) and that are within the coal sector boundary.\nSome of the categories defined in this table are based on the source categories and sub-source categories defined by the 2006 IPCC Guidelines for National Greenhouse Gas Inventories . Information on fugitive emissions can be found in Volume 2, Chapter 4.1 .\nCountry/area level data from these categories is submitted through national inventory reporting to the UNFCCC and can be access via the UNFCCC data portal , under \"Detailed data by Party\". Note that categories in this source are labelled slightly differently to that in 2006 IPCC documentation. You should refer to IPCC documentation for definitions.\nThe total of GHG emissions (the sum of all rows in column 4) from this question's table is equal to the figure reported for coal production activities 7.19.\nNegative numbers are not allowed as organizations are to report gross, not net figures.\nEmissions figures should be for the reporting year only (as defined by your answer to 1.4).\nEmissions category (column 1) \nAn explanation of the emissions categories is provided in the explanation of terms.\nShould you require further information refer to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories .\nGross Scope 1 CO2 emissions (metric tons CO2) (column 2) \nReport your organization's Scope 1 CO2 emissions in metric tons CO2 for the emissions category in column 1.\nGross Scope 1 methane emissions (metric tons CH4) (column 3) \nReport your organization's Scope 1 methane emissions in metric tons CH4 for the emissions category in column 1.\nTotal Gross Scope 1 emissions (metric tons CO2e) (column 4) \nTotal greenhouse gas emissions should be aggregated and reported in units of CO2e.\nGreenhouse gas emissions include all gasses identified in the Kyoto Protocol, therefore the figure provided in this column may be higher than the sum of CO2 and CH4 (provided in columns 2 and 3, respectively)\nThe Global Warming Potential (GWP) factors used here should be consistent with your disclosures throughout the questionnaire. CDP encourages the use of the most recent GWP factors published by IPCC, in alignment with the GHG Protocol.\nFugitives (Underground coal mining) (row 1) \nThis is the total of all fugitive emissions from underground mining. You should adjust for (deduct) methane utilization or flaring if you have provided data for these sub-categories in rows 4 and 5. If you choose \nnot to disclose data for methane utilization or flaring, then you should \nnot adjust for methane utilization or flaring here, in which case Equation 4.1.1 of IPCC Guidelines is relevant.\nThis category is recognized by the IPCC as 1.B.1.a.i.1 (or 1.B.1.a.1.i in UNFCCC data terminology). The Tier 1 and Tier 2 generalized equation for calculating these emissions is described by Equation 4.1.2 in Volume 2, Chapter 4.1.3 of the IPCC Guidelines.\nFugitives (Surface coal mining) (row 2) \nThis is the total of all fugitive emissions from surface mining.\nThis category is recognized by the IPCC as 1.B.1.a.ii.1 (or 1.B.1.a.2.i in UNFCCC data terminology). The Tier 1 and Tier 2 generalized equations for calculating these emissions is described, respectively, by Equations 4.1.7 and 4.1.8 in Volume 2, Chapter 4.1.4 of the IPCC Guidelines.\nFugitives (Post-mining and abandoned coal mines) (row 3) \nThis category covers sub-source categories 1.B.1.a.i.2, 1.B.1.a.i.3, and 1.B.1.a.ii.2 as recognized by the IPCC.\nFlaring (row 4) \nThis category is recognized by the IPCC as 1.B.1.a.i.4.\nMethane drained and flared, or ventilation gas converted to CO2 by an oxidation process should be included here. This is an emission of CO2.\nThis is a subcategory of \"Fugitives (Underground coal mining)\", if it is reported here then it should not be included in your figure for row \"Fugitives (Underground coal mining)\". If you choose not to report flaring separately, then you should report it as part \"Fugitives (Underground coal mining)\".\nUtilized methane (row 5) \nThis is methane utilized for energy production i.e. methane that is recovered and combusted for energy purposes. It is therefore an emission of CO2.\nThis is a subcategory of \"Fugitives (Underground coal mining)\", if it is reported here then it should not be included in your figure for row \"Fugitives (Underground coal mining)\". If you choose not to report utilized methane separately, then you should report it as part \"Fugitives (Underground coal mining)\".\nCombustion (Underground coal mining, excluding flaring and utilization) (row 6) \nEmissions arising from the combustion of fuels for energy used for underground coal mining. This excludes energy used that is recovered from methane utilization.\nThis is primarily an emission of CO2, with traces of other greenhouse gasses expected.\nCombustion (Surface coal mining, excluding flaring and utilization) (row 7) \nEmissions arising from the combustion of fuels for energy used for surface coal mining. This excludes energy used that is recovered from methane utilization.\nThis is primarily an emission of CO2, with traces of other greenhouse gasses expected.\nCombustion (Electricity generation) (row 8) \nEmissions arising from electricity generation plant inside the organizational boundary and the coal mining sector boundary.\nThis is primarily an emission of CO2, with traces of other greenhouse gasses expected.\nCombustion (other) (row 9) \nEmissions arising from combustion from activities not reported in above rows.\nEmissions not elsewhere classified (row 10) \nThis includes any emissions occurring in the organizational/sector boundary that have not been reported in the above rows.\nFugitive emissions remaining after the above rows are accounted for can include low temperature oxidation of exposed coal and uncontrolled combustion.\nNote on fugitive emissions from coal mining \nFugitive emissions includes all intentional and unintentional emissions from the mining and handling of coal. This encompasses accidental leaks, venting, flaring, and other processes.\nFugitive emissions derive from carbon dioxide (CO2) and methane (CH4) trapped in coal seams from the geological formation of coal. These are released when the coal seam is exposed and broken during mining.\nFugitive emissions from the mine can continue during subsequent processing and handling or after the mine has been closed. These are known as post-mining or abandoned emissions and should be reported, provided the asset remains inside the organizational boundary.\nNote on sector boundary \nSector production activities relate to activities conducted by your organization relating to the high-intensity sector that this sector-specific questionnaire relates to. These activities may be directly or indirectly related to the production process itself. Given the potential complexity of production sectors, CDP encourages you to identify and remove specific activities from your organizational boundary (or business division's organizational boundary) that are not necessarily a part of the sector. Starting with your answer to question 7.6, emissions from the following sources should be deducted:\nExternal corporate entities, i.e. assets, business divisions, partnerships and subsidiaries operating outside of the high-intensity sector.\nNon-industrial buildings, e.g. offices, accommodation, other property.\nNon-production related activities, e.g. management, services, R&D, marketing, retail. o Transport, e.g. distribution, business travel, shipping, freight, logistics.\nProjects, e.g. construction, engineering and maintenance.\nAlternatively, you may consider constructing your sector boundary around activities that should be included. At a minimum, you should include in your sector boundary:\nThe production processes\nAll activities, processes and equipment that are ancillary to the production processes.\nAll other industrial installations, energy installations and other installations or activities contributing to or supplying the production processes and ancillary activities, e.g. boilers, power plant, raw material preparation and extraction, etc.\nAll buildings that house the production processes and ancillary activities and said installations, as well as buildings used for inventory storage.\nOnsite mobile combustion, e.g. forklifts and excavators, and movement of materials between industrial sites within the sector.\nAny other industrial activities that typically occur on the production sites of the high-intensity sector.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
@@ -192,7 +192,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -202,7 +202,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
@@ -222,17 +222,17 @@
     "daml_summary": "Coal: D 8/8 | A 2/2 | M 0/0 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_statusKo": "개정 문항 의존도",
+    "detail_change_typesKo": "개정 문항 의존도",
+    "change_summaryKo": "문항 표시됩니다 조직 선택 \"예, 모두 Scope 1 및 Scope 2 배출량\" 또는 \"예, Scope 1 배출량 만\" 응답 열 1 \"배출량 세분화 기준 온실가스 유형\" 의 7.15.",
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "석탄: D 8/8 | 2/2 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "분류 귀사의 총 총 전 세계 범위 1 배출량 에서 석탄 광업 활동 보고연도 기준 온실가스 유형."
+    "q2025_textKo": "귀사의 총 총 전 세계 Scope 1 배출량 에서 석탄 광업 활동 보고연도 기준 온실가스 유형."
   },
   "defaultPoints": {
     "D": "8/8",
@@ -262,17 +262,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "석탄",
-  "simpleHelpKo": "이 문항은 '구분 전 세계 범위 1 배출량 석탄 광업 보고연도 가스.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '귀사의 총 총 전 세계 Scope 1 배출량 에서 석탄 광업 활동 보고연도 기준 온실가스 유형.'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

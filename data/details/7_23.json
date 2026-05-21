@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Is your organization able to break down your emissions data for any of the subsidiaries included in your CDP response?",
-  "questionKo": "귀사는 CDP 응답에 포함된 자회사의 배출량 데이터를 구분할 수 있습니까?",
+  "questionKo": "귀사는 CDP 응답에 포함된 자회사의 배출량 데이터를 세분화할 수 있습니까? `",
   "questionType": "SINGLE_SELECT",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -28,12 +28,12 @@
       "type": "Requested Content",
       "text": "General \nThe \"consolidation approach\" (reported in 6.1) identifies which entities are included within the boundary that you are using for your disclosure of climate-related data (i.e. financial control, operational control, equity share or other).\nSelect \"Yes\" if your responses to questions 7.6, 7.7 and 7.8 include emissions data from subsidiaries, based on the approach selected in 6.1, and you are able to provide a breakdown of these emissions by subsidiary. If you select \"Yes\" you will be asked to break down your Scope 1 and Scope 2 emissions by subsidiary in the subsequent question. \nSelect \"No\" if your responses to questions 7.6, 7.7, and 7.8 include emissions data from subsidiaries, but you are not able to breakdown your emissions data by subsidiary. Note that if the subsidiaries fall within the boundary determined by your consolidation approach and you are not including emissions data from the subsidiaries in your responses to 7.6, 7.7 and 7.8, you should disclose the subsidiaries as exclusions in 7.4.1. \nSelect \"Not relevant as we do not have subsidiaries\" if there are no subsidiaries within the boundary determined by your consolidation approach.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Ambition",
       "text": "Companies are transparent about their emissions inventories, including their subsidiaries.",
-      "typeKo": "목표수준",
+      "typeKo": "목표 수준",
       "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
@@ -244,7 +244,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -254,7 +254,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "General",
@@ -264,7 +264,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "General",
@@ -274,7 +274,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -284,7 +284,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -294,7 +294,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -304,7 +304,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -314,7 +314,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -324,7 +324,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -334,7 +334,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -344,7 +344,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -354,7 +354,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Capital goods",
@@ -364,7 +364,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -374,7 +374,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Capital goods",
@@ -384,7 +384,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Capital goods",
@@ -394,7 +394,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -404,7 +404,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -414,7 +414,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -424,7 +424,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -434,7 +434,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -444,7 +444,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -454,7 +454,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -464,7 +464,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -474,7 +474,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -484,7 +484,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -494,7 +494,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -504,7 +504,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -514,7 +514,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Construction",
@@ -524,7 +524,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -534,7 +534,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Construction",
@@ -544,7 +544,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Construction",
@@ -554,7 +554,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -564,7 +564,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -574,7 +574,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -584,7 +584,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -594,7 +594,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -604,7 +604,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -614,7 +614,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -624,7 +624,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -634,7 +634,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -644,7 +644,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -654,7 +654,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -664,7 +664,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -674,7 +674,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -684,7 +684,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -694,7 +694,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -704,7 +704,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -714,7 +714,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -724,7 +724,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -734,7 +734,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -744,7 +744,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -754,7 +754,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -764,7 +764,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -774,7 +774,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -784,7 +784,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -794,7 +794,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Real estate",
@@ -804,7 +804,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -814,7 +814,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Real estate",
@@ -824,7 +824,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Real estate",
@@ -834,7 +834,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -844,7 +844,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -854,7 +854,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -864,7 +864,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -874,7 +874,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -884,7 +884,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -894,7 +894,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -904,7 +904,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -914,7 +914,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -924,7 +924,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -934,7 +934,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -944,7 +944,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -954,7 +954,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -964,7 +964,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 해당 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
+      "criteriaKo": "경로 하나 이상 선택지 선택됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 비공개 경로 선택지 아님 선택됨 - 0/4 점 이 경로에서 최대 0/4점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -974,7 +974,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -984,7 +984,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -994,12 +994,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "귀사는 CDP 응답에 포함된 자회사의 배출량 데이터를 구분할 수 있습니까?",
+    "question_ko": "귀사는 CDP 응답에 포함된 자회사의 배출량 데이터를 세분화할 수 있습니까? `",
     "q2025": "Q7.23",
     "q2025_text": "Is your organization able to break down your emissions data for any of the subsidiaries included in your CDP response?",
     "change_status": "Modified guidance",
@@ -1016,15 +1016,15 @@
     "review_status": "변경 반영",
     "change_statusKo": "가이던스 변경",
     "detail_change_typesKo": "가이던스 변경",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "일반: D 1/1 | 0/0 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "귀사는 CDP 응답에 포함된 자회사의 배출량 데이터를 구분할 수 있습니까?"
+    "q2025_textKo": "귀사는 CDP 응답에 포함된 자회사의 배출량 데이터를 세분화할 수 있습니까? `"
   },
   "defaultPoints": {
     "D": "1/1",
@@ -1054,21 +1054,21 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "단일 선택",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "이 문항은 '귀사는 CDP 응답에 포함된 자회사의 배출량 데이터를 구분할 수 있습니까?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "issueTagsKo": "기후변화",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트,, &, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '귀사는 CDP 응답에 포함된 자회사의 배출량 데이터를 세분화할 수 있습니까? `'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [
     "예",
     "아니요",
-    "관련 없음 당사 아님 해당 자회사"
+    "아님 당사 아님 모든 자회사"
   ],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

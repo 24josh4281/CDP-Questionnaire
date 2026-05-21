@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details of how your organization assesses the life cycle emissions of its products or services.",
-  "questionKo": "제공 세부 정보 조직 배출량.",
+  "questionKo": "제공 세부 정보 의 how 귀사 평가es life cycle 배출량 의 its products 또는 서비스.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -34,16 +34,16 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "제품/서비스 평가된",
+      "textKo": "Products/서비스 평가된",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "모든 기존 제품/서비스",
-        "모든 신규 제품/서비스 개발",
-        "모든 기존 및 신규 제품/서비스",
-        "선택 의 제품/서비스",
-        "기준-",
-        "제품/서비스 특정 기준 (직접 입력 명시)"
+        "모든 existing products/서비스",
+        "모든 new products/서비스 under development",
+        "모든 existing 및 new products/서비스",
+        "Representative 선택ion 의 products/서비스",
+        "case-기준-case basis",
+        "Products/서비스 meeting certain 기준 (please specify)"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -65,17 +65,17 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "(s) 가장 포함된",
+      "textKo": "Life cycle stage(s) most commonly 포함된",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "- -",
-        "- -",
-        "/ 생산",
-        "+ 의-",
-        "- -",
-        "사용",
-        "의-",
+        "Cradle--gate",
+        "Cradle--grave",
+        "Cradle--cradle/closed loop production",
+        "Cradle--gate + end-의-life stage",
+        "Gate--gate",
+        "Use stage",
+        "End-의-life stage",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -99,21 +99,21 @@
       ],
       "simple_help": "Select all that apply:",
       "popup_help": "",
-      "textKo": "방법론//도구",
+      "textKo": "방법론/standards/tools applied",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "",
-        "EU 환경 발자국 ()",
-        "환경 발자국",
-        "프로토콜 회계처리 & 보고 기준",
+        "Bilan Carbone",
+        "EU Product 환경 Footprint (EUPEF)",
+        "French Product 환경 Footprint",
+        "GHG Protocol Product Accounting & 보고ing Standard",
         "ISO 14025",
         "ISO 14040 & 14044",
         "ISO 14067",
-        "2050",
+        "PAS 2050",
         "기타, 직접 입력"
       ],
-      "simple_helpKo": "선택 모든 적용:",
+      "simple_helpKo": "해당하는 항목 모두 선택:",
       "popup_helpKo": ""
     },
     {
@@ -143,19 +143,19 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to 7.71.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" 응답 7.71."
+      "textKo": "이 문항 only appears 만약 귀사 선택 \"예\" response 7.71."
     },
     {
       "type": "Requested Content",
       "text": "General \nIt is acknowledged that your organization's approach to assessing the life cycle emissions of products or services may vary - please select the options that best describe your most common approach. \nProducts/services assessed (column 1) \nSelect the option that best describes your organization's approach to selecting products or services for assessment. If you wish to provide further details, you may do so in the \"Comment\" column.\nLife cycle stage(s) most commonly covered (column 2) \nSelect the life cycle stage(s) that you most commonly cover in your assessments. Refer to the explanation of terms below for definitions. \nComment (column 4) (optional) \nYou may use this column to provide further details of your organization's approach to assessing life cycle emissions.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "일반 It ack아니요wledged 귀사의 approach 평가ing life cycle 배출량 의 products 또는 서비스 할 수 있습니다 vary - please 선택 선택지 best 설명 귀사의 most common approach. Products/서비스 평가된 (열 1) 선택 선택지 best 설명s 귀사의 approach 선택ing products 또는 서비스 평가ment. 만약 귀사 wish 제공 further 세부 정보, 귀사 할 수 있습니다 do so \"의견\" 열. Life cycle stage(s) most commonly 포함된 (열 2) 선택 life cycle stage(s) 귀사 most commonly cover 귀사의 평가ments. Refer 용어 설명 below definitions. 의견 (열 4) (선택지al) 귀사 할 수 있습니다 use 이 열 제공 further 세부 정보 의 귀사의 approach 평가ing life cycle 배출량."
     },
     {
       "type": "Explanation of Terms",
       "text": "Gate-to-gate : The emissions and removals attributed to a studied product while it is under the ownership or control of the reporting company.\nCradle-to-gate : A partial life cycle assessment from material acquisition (cradle) through to when the product leaves the reporting company's gate (i.e. immediately following the product's production). Includes the material acquisition & pre-processing stage and the production stage.\nCradle-to-grave : A full life cycle assessment of emissions and removals attributed to a studied product from material acquisition through to the material or product end-of-life (grave). Includes the material acquisition & pre-processing stage, production stage, use stage and end-of-life stage.\nCradle-to-cradle/closed loop production : A full life cycle assessment from material acquisition though to end-of-life material or product recycling (i.e. cradle-to-grave + recycling). \nLife cycle stages (in line with the GHG Protocol Product Life Cycle Accounting and Reporting Standard ):\n- \nMaterial acquisition & pre-processing stage : A life cycle stage that begins when resources are extracted from nature and ends when the product components enter the gate of the studied product's production facility.\n-\nProduction stage : A life cycle stage that begins when the product components enter the production site for the studied product and ends when the finished studied product leaves the production gate.\n- \nUse stage : A life cycle stage that begins when the consumer takes possession of the product and ends when the used product is discarded.\n- \nEnd-of-life stage: A life cycle stage that begins when the used product is discarded by the consumer and ends when the product is returned to nature (e.g. incinerated) or allocated to another product's life cycle.",
       "typeKo": "용어 설명",
-      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
+      "textKo": "Gate--gate: 배출량 및 removals attributed studied product while it under ownership 또는 control 의 보고ing comp하나 이상. Cradle--gate: partial life cycle 평가ment 에서 material acquisition (cradle) through 경우 product leaves 보고ing comp하나 이상's gate (i.e. immediately 다음 product's production). Includes material acquisition & pre-프로세스ing stage 및 production stage. Cradle--grave: full life cycle 평가ment 의 배출량 및 removals attributed studied product 에서 material acquisition through material 또는 product end-의-life (grave). Includes material acquisition & pre-프로세스ing stage, production stage, use stage 및 end-의-life stage. Cradle--cradle/closed loop production: full life cycle 평가ment 에서 material acquisition though end-의-life material 또는 product recycling (i.e. cradle--grave + recycling). Life cycle stages (line GHG Protocol Product Life Cycle Accounting 및 보고ing Standard): - Material acquisition & pre-프로세스ing stage: life cycle stage begins 경우 자원 extracted 에서 nature 및 ends 경우 product components enter gate 의 studied product's production 시설. - Production stage: life cycle stage begins 경우 product components enter production site studied product 및 ends 경우 finished studied product leaves production gate. - Use stage: life cycle stage begins 경우 consumer takes possession 의 product 및 ends 경우 used product discarded. - End-의-life stage: life cycle stage begins 경우 used product discarded 기준 consumer 및 ends 경우 product returned nature (e.g. incinerated) 또는 모든ocated an기타 product's life cycle."
     }
   ],
   "points": [
@@ -179,7 +179,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 3/3점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 per 완료 셀 proportion 숫자 입력 의 셀 displayed. 이 문항에서 최대 3/3점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -188,8 +188,8 @@
       "criteria": "Table completed - 1 point\nA maximum of 1/1 point is available for this question.",
       "sectorKo": "자본재",
       "issueKo": "기후변화",
-      "levelKo": "A",
-      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
+      "levelKo": "",
+      "criteriaKo": "Table 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -199,7 +199,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 다음 조건을 모두 충족 - 1 점 다음 중 하나 이상 선택 열 'Products/서비스 평가된': - '모든 existing products/서비스' - '모든 new products/서비스 under development' - '모든 existing 및 new products/서비스' - 'Representative 선택ion 의 products/서비스' 및 다음 중 하나 이상 선택 열 'Life cycle stage(s) most commonly 포함된' - 'Cradle--grave' - 'Cradle--cradle/closed loop production' - 'Cradle--gate + end-의-life stage' - 'Use stage' 및 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '방법론/standards/tools applied'. 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -209,7 +209,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "'모든 기존 및 신규 제품/서비스' 열에서 선택 '제품/서비스 평가된' - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
+      "criteriaKo": "'모든 existing 및 new products/서비스' 열에서 선택 'Products/서비스 평가된' - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     }
   ],
   "change": {
@@ -235,11 +235,11 @@
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "자본재: D 3/3 | 1/1 | M 1/1 | L 1/1",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "변경 없음 verified 및 2026 source applied",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "제공 세부 정보 의 어떻게 귀사 배출량 의 그것의 제품 또는 서비스."
+    "q2025_textKo": "제공 세부 정보 의 how 귀사 평가es life cycle 배출량 의 its products 또는 서비스."
   },
   "defaultPoints": {
     "D": "3/3",
@@ -251,35 +251,35 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "자본재",
-  "simpleHelpKo": "이 문항은 '제공 세부 정보 조직 배출량.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "acquire over모든 understanding 의 total carbon 영향 의 product 또는 service, it necessary 평가 배출량 에서 production 프로세스 및 use phase, but also 배출량 associated acquisition 및 disposal 의 materials make up product. 이 문항 제공s 데이터 users 정보 귀사의 approach 평가ing product life cycle 배출량, 포함 life cycle stages 포함된 및 방법론 used.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "2025 Korean form + CDP glossary repair"
 }

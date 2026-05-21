@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Account for biogenic carbon data pertaining to your direct operations and identify any exclusions.",
-  "questionKo": "생물기원 탄소 데이터 직접 운영사업장 식별 제외사항.",
+  "questionKo": "탄소 데이터 귀사의 직접 운영사업장 및 식별 하나 이상.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,27 +15,27 @@
     {
       "order": 1,
       "title": "CO2 emissions from land use management",
-      "titleKo": "CO2 배출량 에서 사용 관리"
+      "titleKo": "CO2 배출량 에서 토지 사용 관리"
     },
     {
       "order": 2,
       "title": "CO2 removals from land use management",
-      "titleKo": "CO2 제거 에서 사용 관리"
+      "titleKo": "CO2 제거 에서 토지 사용 관리"
     },
     {
       "order": 3,
       "title": "Sequestration during land use change",
-      "titleKo": "동안 사용 변경"
+      "titleKo": "동안 토지 사용"
     },
     {
       "order": 4,
       "title": "CO2 emissions from biofuel combustion (land machinery)",
-      "titleKo": "CO2 배출량 에서 ()"
+      "titleKo": "CO2 배출량 에서 (토지)"
     },
     {
       "order": 5,
       "title": "CO2 emissions from biofuel combustion (processing/manufacturing machinery)",
-      "titleKo": "CO2 배출량 에서 (/제조)"
+      "titleKo": "CO2 배출량 에서 (프로세스)"
     },
     {
       "order": 6,
@@ -52,7 +52,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "배출량 (미터톤 CO2)",
+      "textKo": "배출량 (지표 톤 CO2)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -78,10 +78,10 @@
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "배출량",
-        "특정 배출량",
+        "배출량 계수",
+        "지역-구체적인 배출량 계수",
         "",
-        "프로세스-기준",
+        "프로세스-기반",
         "",
         "기타, 직접 입력"
       ],
@@ -109,7 +109,7 @@
       "type": "Change From Last Year",
       "text": "Modified guidance (2025 7.13.1)",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "전년 대비 변경사항은 2026 CDP 원문 및 변경 추적표 기준으로 확인하십시오."
+      "textKo": "가이던스 변경 (2025 7.13.1)"
     },
     {
       "type": "Question Dependencies",
@@ -121,7 +121,7 @@
       "type": "Requested Content",
       "text": "General \nThe GHG Protocol has developed Land Sector and Removals Standard (LSRS) and Guidance . Due to the timeline of publication, organizations are not yet able to report emissions and removals in line with the LSRS in CDP's 2026 corporate questionnaire.\nThis question remains in the 2026 CDP questionnaire to maintain alignment with the GHG Protocol Agricultural Guidance until the questionnaire is updated to enable companies to report land-related emissions in line with the LSRS. Please continue to report to this question in accordance with the GHG Protocol Agricultural Guidance . Information on how these accounting categories align with the LSRS is provided below.\nIf an accounting category present in this question is relevant but is not yet calculated, leave the relevant row blank rather than reporting 0.\nType of change (column 1) \nTo facilitate the transition to reporting in line with the LSRS, the following guidance explains the correspondence between the existing Agricultural Guidance categories and the new LSRS accounting subcategories.\nGHG \nProtocol Agricultural Guidance category (7.12.3) \nGHG Protocol Land Sector and removals Standard accounting subcategory (7.12.1) \nDetails \nCO2 emissions from land use management\nLand management net biogenic CO2 emissions\nThis reporting category corresponds to the new required \"Land management net biogenic CO2 emissions\" accounting subcategory as there is a net land carbon stock decrease.\nCO2 removals from land use management\nLand management CO2 removals\nThis reporting category corresponds to the new optional \"Land management CO2 removals\" accounting subcategory as there is a net land carbon stock increase.\nSequestration from land use change\nLand management CO2 removals\nRemovals resulting from changes in agricultural land uses under the LSRS are optionally reported as \"Land management CO2 removals\" and would be subject to the requirements of chapter 12 and 13.\nCO2 emissions from biofuel combustion (land machinery, processing/manufacturing machinery and other)\nBiogenic product emissions\nBiogenic product CO2 emissions\nUnder the LSRS, biogenic CO2 emissions are subject to Requirement 17, therefore these emissions are either reported separately as gross CO2 fluxes in the \"Biogenic product CO2 emissions\" subcategory if the criteria are met, or as \"biogenic product emissions\" if the criteria are not met.\nEmissions (metric tons CO2) (column 2) \nProvide a figure in metric tons that is representative of the \"type of change\" indicated in column 1 within your direct operations.\nMethodology (column 3) \nSelect the option(s) that best describe the methods used to calculate your emissions figure reported in column 2 \"Emissions…\".\nYou should consider the following:\nDefault emissions factors: involve the multiplication of activity data by an international default emissions factor.\nRegion-specific emissions factors: involve the multiplication of activity data by an emissions factor specific to the region.\nEmpirical models: involve using field measurements to develop statistical relationships between GHG data and activity-specific factors.\nProcess-based models: involve mathematically linking biogeochemical processes that control the production, consumption, and emission of GHGs\nIf none of the options are applicable to your organization, select \"Other, please specify\" and indicate the methodology you used to calculate the emissions figure in column 2.\nPlease explain (column 4) \nSpecify and describe the methodology and tools used to calculate your biogenic carbon figure reported in column 2 \"Emissions…\", including your assumptions.\nIf applicable, specify the sources of the biofuel used.\nSpecify and explain any exclusions.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
@@ -171,7 +171,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -181,7 +181,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -191,7 +191,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -201,7 +201,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -211,7 +211,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -221,7 +221,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -231,7 +231,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -241,7 +241,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -251,7 +251,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -261,7 +261,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -271,7 +271,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -281,7 +281,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
@@ -302,16 +302,16 @@
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
     "change_statusKo": "가이던스 변경",
-    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "detail_change_typesKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "scoring_change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "daml_summaryKo": "농산물 원자재: D 0/0 | 0/0 | M 0/0 | L 0/0 식음료 및 담배: D 0/0 | 0/0 | M 0/0 | L 0/0 제지 및 임업: D 0/0 | 0/0 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "계정 생물기원 탄소 데이터 관련된 귀사의 직접 운영사업장 및 식별 해당 제외사항."
+    "q2025_textKo": "탄소 데이터 귀사의 직접 운영사업장 및 식별 하나 이상."
   },
   "defaultPoints": {
     "D": "0/0",
@@ -341,17 +341,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
-  "sectorTagsKo": "농산물 원자재, 식품, 음료 & 담배, 제지 및 임업",
-  "simpleHelpKo": "이 문항은 '탄소 데이터 직접 운영사업장 식별 제외사항.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "issueTagsKo": "기후변화",
+  "sectorTagsKo": "농산물 원자재,, &, 제지 및 임업",
+  "simpleHelpKo": "이 문항은 '탄소 데이터 귀사의 직접 운영사업장 및 식별 하나 이상.'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Does your organization measure the efficiency of any of its products or services?",
-  "questionKo": "조직?",
+  "questionKo": "귀사 측정 효율 의 하나 이상 의 그것의 제품 또는 서비스?",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -31,13 +31,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의 / 효율",
+      "textKo": "제품/서비스 효율",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "예",
-        "아니요, 하지만 당사 계획 그렇게 내 향후 2년",
-        "아니요, 당사 아님 계획 그렇게 내 향후 2년"
+        ", 그러나 당사 계획 그렇게 내 향후 2개 연도",
+        ", 및 당사 아님 계획 그렇게 내 향후 2개 연도"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -50,7 +50,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의견",
+      "textKo": "",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -69,7 +69,7 @@
       "type": "Requested Content",
       "text": "General \nSelect \"Yes\" if you measure the efficiency of any of your products of services. You will then be requested to provide further details in the following question.\nComment (column 2) (optional) \nIf you do not measure the efficiency of any of your products or services, you may wish to explain why not and/or explain your plan to start doing so in the future.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -113,7 +113,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Capital goods",
@@ -123,7 +123,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
@@ -149,11 +149,11 @@
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "자본재: D 1/1 | 1/1 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "귀사 측정 효율 의 해당 의 그것의 제품 또는 서비스?"
+    "q2025_textKo": "귀사 측정 효율 의 하나 이상 의 그것의 제품 또는 서비스?"
   },
   "defaultPoints": {
     "D": "1/1",
@@ -183,17 +183,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "자본재",
-  "simpleHelpKo": "이 문항은 '조직?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '귀사 측정 효율 의 하나 이상 의 그것의 제품 또는 서비스?'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

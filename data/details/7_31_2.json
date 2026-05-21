@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "State the percentage, by mass, of primary resource from which your chemical feedstocks derive.",
-  "questionKo": "귀사의 화학 공급 원료가 유래하는 주요 원천의 질량별 비율을 명시하십시오",
+  "questionKo": "귀사의 화학 공급 원료가 유래하는 주요 원천의 질량별 비율을 명시하십시오. 구분 배점 평가요소 공시 1/1 ‘ 공급 원료 원천 ’ 열의 ‘ 화석 연료 (석탄, 가스, 석유를 구분할 수 없는 경우)’ 행과 ‘ 알 수 없음 또는 구분할 수 없음 ’ 행을 제외하고 각 셀을 완성함 – 1 점 1/",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -35,17 +35,17 @@
     {
       "order": 5,
       "title": "Waste (non-biomass)",
-      "titleKo": "(비-)"
+      "titleKo": "()"
     },
     {
       "order": 6,
       "title": "Fossil fuel (where coal, gas, oil cannot be\ndistinguished)",
-      "titleKo": "화석 연료 (경우 석탄, 가스, 석유 불가)"
+      "titleKo": "화석연료 (여기서 석탄, 가스, 석유)"
     },
     {
       "order": 7,
       "title": "Unknown source or unable to disaggregate",
-      "titleKo": "알 수 없음 원천 또는"
+      "titleKo": "알 수 없음 배출원 또는 불가능 세분화"
     }
   ],
   "columns": [
@@ -57,7 +57,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "비율 의 총 화학 원료 (%)",
+      "textKo": "비율 총 화학 원료 (%)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -76,13 +76,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의 변경 비율 의 총 화학 원료 에서 이전 연도",
+      "textKo": "방향 비율 총 화학 원료 에서 연도",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "",
-        "",
-        "변경 없음"
+        "증가",
+        "감소",
+        ""
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -99,18 +99,18 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to 7.31.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" 응답 7.31."
+      "textKo": "이 문항 만 표시됩니다 만약 귀사 선택 \"예\" 응답 7.31."
     },
     {
       "type": "Requested Content",
       "text": "General \nComplete this table for each of the primary feedstock sources consumed, directly or indirectly, by your organization for chemical production activities. \nFigures you provide should be for the reporting year only (as defined by your answer to 1.4). \nIf you do not use any of the feedstocks listed in column 0, and as such that feedstock does not constitute a percentage of your total chemical feedstock, enter a 0 (zero) in the relevant row in column 1. \nNegative numbers are not allowed. \nPercentage of total chemical feedstock (%) (column 1) \nEnter the percentage of the total consumption of feedstock, by the ultimately derived primary resources listed in column 0. \nStarting with the consumed feedstock, which may be a purchased feedstock or one produced upstream by the organization, determine the percentage split by primary resource and aggregate for all feedstock consumption. See \"Example response\" for further information. \nIf you are unable to disaggregate by fossil fuel type, then enter the percentage in the row \"Fossil fuel (where coal, gas, oil cannot be distinguished).\" This may be useful if you know that the feedstock is ultimately a feedstock derived from fossil fuels and is not a bio-based feedstock or derived from wastes.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Example Response",
       "text": "Worked examples of calculation of percentage of chemical feedstocks\nA petrochemicals company purchases naphtha. This naphtha is 100% derived from petroleum oil. The company also purchases ethane which is 100% derived from natural gas, and a blended bio-based feedstock derived 75% from biomass and 25% from oil. The consumption of these feedstocks in the reporting year on a mass basis is 55% naphtha, 35% ethane, and 10% bio-based blend. The final % mix is as follows: \nOil = 100% × 55% + 25% × 10% = 57.5% \nNatural Gas = 100% × 35% = 35% \nBiomass = 75% × 10% = 7.5% \nNote: As these three elements constitute total feedstock consumption, their sum is 100%. \nFeedstock source\nPercentage of total chemical feedstock (%)\nOil \n57.5 \nNatural Gas \n35 \nCoal \n0 \nBiomass \n7.5 \nWaste (non-biomass) \n0 \nFossil Fuel (where coal, gas, oil cannot be distinguished)\n0 \nUnknown source or unable to disaggregate \n0 \nIn another example, a company purchases a fully coal derived chemical Feedstock A, and Feedstock B, which incorporates an ingredient which is itself 90% derived from Oil and 10% from non-fossil fuel sources. The ingredient makes up 82% of the feedstock by mass, with the remainder deriving from unknown sources. Feedstock A makes up 25% of total feedstock tonnage consumed in the reporting year, with the remaining 75% made up of Feedstock B. The final % mix is as follows: \nCoal = 100% × 25% = 25% \nOil = 82% × 90% × 75% = 55.35% \nNote: The unknown element of Feedstock B is the remaining percentage (100 - 55.35 - 25 = 19.65%), and may be entered in the last row). \nFeedstock source \nPercentage of total chemical feedstock (%) \nOil \n55.35 \nNatural Gas \n0 \nCoal \n25 \nBiomass \n0 \nWaste (non-biomass) \n0 \nFossil Fuel (where coal, gas, oil cannot be distinguished)\n0 \nUnknown source or unable to disaggregate \n19.65 \nIn a third example, a company purchases numerous feedstocks all produced by a supplier at their integrated refineries. Based on the product information available, or on request, the company can confirm that these feedstocks are fossil fuel based. The same company purchases coal and bio-liquids for other chemicals production processes. From the total mass of feedstock consumed, 60% is purchased from the refiner, 27% is coal, and the remaining 13% is bio-liquids. The final % mix is as follows: \nFeedstock source \nPercentage of total chemical feedstock (%) \nOil \n0 \nNatural Gas \n0 \nCoal \n27 \nBiomass \n13 \nWaste (non-biomass) \n0 \nFossil Fuel (where coal, gas, oil cannot be distinguished)\n60 \nUnknown source or unable to disaggregate \n0",
-      "typeKo": "Example 응답",
+      "typeKo": "예시 응답",
       "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     }
   ],
@@ -155,7 +155,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -170,7 +170,7 @@
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "귀사의 화학 공급 원료가 유래하는 주요 원천의 질량별 비율을 명시하십시오",
+    "question_ko": "귀사의 화학 공급 원료가 유래하는 주요 원천의 질량별 비율을 명시하십시오. 구분 배점 평가요소 공시 1/1 ‘ 공급 원료 원천 ’ 열의 ‘ 화석 연료 (석탄, 가스, 석유를 구분할 수 없는 경우)’ 행과 ‘ 알 수 없음 또는 구분할 수 없음 ’ 행을 제외하고 각 셀을 완성함 – 1 점 1/",
     "q2025": "Q7.31.2",
     "q2025_text": "State the percentage, by mass, of primary resource from which your chemical feedstocks derive.",
     "change_status": "No change - 2026 source verified",
@@ -191,11 +191,11 @@
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "화학: D 5/5 | 1/1 | M 0/0 | L 1 또는 2/1 또는 2",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "귀사의 화학 공급 원료가 유래하는 주요 원천의 질량별 비율을 명시하십시오"
+    "q2025_textKo": "귀사의 화학 공급 원료가 유래하는 주요 원천의 질량별 비율을 명시하십시오. 구분 배점 평가요소 공시 1/1 ‘ 공급 원료 원천 ’ 열의 ‘ 화석 연료 (석탄, 가스, 석유를 구분할 수 없는 경우)’ 행과 ‘ 알 수 없음 또는 구분할 수 없음 ’ 행을 제외하고 각 셀을 완성함 – 1 점 1/"
   },
   "defaultPoints": {
     "D": "5/5",
@@ -225,17 +225,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "화학",
-  "simpleHelpKo": "이 문항은 '귀사의 화학 공급 원료가 유래하는 주요 원천의 질량별 비율을 명시하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '귀사의 화학 공급 원료가 유래하는 주요 원천의 질량별 비율을 명시하십시오. 구분 배점 평가요소 공시 1/1 ‘ 공급 원료 원천 ’ 열의 ‘ 화석 연료 (석탄, 가스, 석유를 구분할 수 없는 경우)’ 행과 ‘ 알 수 없음 또는 구분할 수 없음 ’ 행을 제외하고 각 셀을 완성함 – 1 점 1/'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

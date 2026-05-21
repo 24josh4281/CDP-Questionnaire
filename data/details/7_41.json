@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Report your organization's steel-related consumption, production and capacity figures by steel plant.",
-  "questionKo": "보고 조직의 철강-관련 소비량, 생산 용량 수치 철강 공장.",
+  "questionKo": "보고 귀사의 철강- 소비, 생산 및 용량 수치 기준 철강.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -20,7 +20,7 @@
     {
       "order": 2,
       "title": "Electric arc furnace",
-      "titleKo": "전력"
+      "titleKo": ""
     },
     {
       "order": 3,
@@ -42,7 +42,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "소비 (미터톤)",
+      "textKo": "소비 (지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -57,7 +57,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "소비 (미터톤)",
+      "textKo": "소비 (지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -72,7 +72,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "직접 소비 (미터톤)",
+      "textKo": "소비 (지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -87,7 +87,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "철강 생산 (미터톤)",
+      "textKo": "철강 생산 (지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -102,7 +102,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "철강 (미터톤)",
+      "textKo": "철강 용량 (지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -121,7 +121,7 @@
       "type": "Requested Content",
       "text": "General \nComplete the table for each steel plant process listed in column 1. The steel plants presented depend on the selection made in 1.20 and in some instances only the row \"Total\" will appear. \nYour consumption figures should be for the reporting year only (as defined by your answer to 1.4). \nNegative numbers are not allowed. \nIf you are presented with the row \"Other\", use it to provide data for processes other than Basic oxygen furnace or Electric arc furnace. You can use the comment box to specify the data you are reporting. \nEnter 0 (zero) if you have no activity or capacity in the relevant field. \nYou are not required to enter amounts of other metallic additives, i.e. for alloying purposes. \nMetal scrap consumption (metric tons) (column 2) \nEnter the total metal scrap consumption in metric tons for the steel plant listed in column 1. \nBlast furnace iron consumption (metric tons) (column 3) \nEnter the blast furnace iron (often described as \"pig iron\") consumption in metric tons for the steel plant process listed in column 1. \nThis is the total of \"hot metal\" and cold iron, purchased or produced inside the organization; total consumption of blast furnace iron should be entered. \nDirect reduced iron consumption (metric tons) (column 4) \nEnter the direct reduced iron (DRI), also known as \"sponge iron\", consumption in metric tons for the steel plant process listed in column 1. \nAll forms of direct reduced iron, hot or cold, purchased or produced inside the organization, should be included. \nCrude steel production (metric tons) (column 5) \nEnter the crude steel production in metric tons for the steel plant process listed in column 1. \nThough the immediate output of the steel furnace is liquid steel, crude steel production is requested here. Crude steel is the first solid state of steel after melting and is synonymous with \"raw steel\". Crude steel includes numerous forms, such as slabs, billets, blooms, ingots, and direct steel castings. \nCrude steel capacity (metric tons) (column 6) \nEnter the crude steel capacity in metric tons for the steel plant process listed in column 1.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -145,7 +145,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된 (제외 행 '기타'). 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 6/6점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -165,7 +165,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -175,7 +175,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
@@ -201,11 +201,11 @@
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "철강: D 6/6 | 1/1 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "보고 귀사의 철강-관련 소비, 생산 및 수치 기준 철강."
+    "q2025_textKo": "보고 귀사의 철강- 소비, 생산 및 용량 수치 기준 철강."
   },
   "defaultPoints": {
     "D": "6/6",
@@ -235,17 +235,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "철강",
-  "simpleHelpKo": "이 문항은 '보고 조직's 철강-관련 소비량, 생산 용량 수치 철강 공장.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '보고 귀사의 철강- 소비, 생산 및 용량 수치 기준 철강.'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

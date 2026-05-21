@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details on electricity, heat, steam, and cooling your organization has generated and consumed for chemical production activities.",
-  "questionKo": "귀사가 화학물질 생산 활동을 위해 생성하고 소비한 전기, 열, 스팀, 냉방에 대한 세부 정보를 제공하십시오",
+  "questionKo": "귀사가 화학물질 생산 활동을 위해 생성하고 소비한 전기, 열, 스팀, 냉방에 대한 세부 정보를 제공하십시오. 에너지 캐리어 화학 부문 경계 내 총 발전량 (MWh) 화학 부문 경계 내에서 소비되는 발전량 (MWh) 화학 부문 경계 내에서 재생가능 에너지원을 이용한 발전량 (MWh) 화학 부문 경계 내 연료 공급 원료 사용",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -42,7 +42,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 총 발전 화학 섹터 ()",
+      "textKo": "총 총 화학 섹터 경계 (MWh)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -57,7 +57,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "발전 소비한 화학 섹터 ()",
+      "textKo": "해당 소비한 화학 섹터 경계 (MWh)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -72,7 +72,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "발전 에서 조달함 화학 섹터 ()",
+      "textKo": "에서 재생에너지 배출원 화학 섹터 경계 (MWh)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -87,12 +87,12 @@
       "options": [],
       "simple_help": "Companies that recover waste heat/gases generated from the consumption of fuel feedstocks in a primary industrial process and utilize the waste heat/gases to produce energy in a secondary process should report the generation of electricity, heat, steam and/or cooling from the recovered waste heat/gases in this column.\nNote that this only applies for processes within the chemical sector boundary where the waste heat/gas is derived from fuel feedstocks. Please refer to the full guidance for further details.",
       "popup_help": "Companies that recover waste heat/gases generated from the consumption of fuel feedstocks in a primary industrial process and utilize the waste heat/gases to produce energy in a secondary process should report the generation of electricity, heat, steam and/or cooling from the recovered waste heat/gases in this column.\nNote that this only applies for processes within the chemical sector boundary where the waste heat/gas is derived from fuel feedstocks. Please refer to the full guidance for further details.",
-      "textKo": "발전 에서 열/ 에서 프로세스 사용 연료 원료 화학 섹터 ()",
+      "textKo": "에서 열/ 포함 에서 프로세스 사용하여 연료 원료 화학 섹터 경계 (MWh)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
-      "simple_helpKo": "이 문항은 '귀사가 화학물질 생산 활동을 위해 생성하고 소비한 전기, 열, 스팀, 냉방에 대한 세부 정보를 제공하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
-      "popup_helpKo": "이 문항은 '귀사가 화학물질 생산 활동을 위해 생성하고 소비한 전기, 열, 스팀, 냉방에 대한 세부 정보를 제공하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
+      "simple_helpKo": "이 문항은 '귀사가 화학물질 생산 활동을 위해 생성하고 소비한 전기, 열, 스팀, 냉방에 대한 세부 정보를 제공하십시오. 에너지 캐리어 화학 부문 경계 내 총 발전량 (MWh) 화학 부문 경계 내에서 소비되는 발전량 (MWh) 화학 부문 경계 내에서 재생가능 에너지원을 이용한 발전량 (MWh) 화학 부문 경계 내 연료 공급 원료 사용'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+      "popup_helpKo": "이 문항은 '귀사가 화학물질 생산 활동을 위해 생성하고 소비한 전기, 열, 스팀, 냉방에 대한 세부 정보를 제공하십시오. 에너지 캐리어 화학 부문 경계 내 총 발전량 (MWh) 화학 부문 경계 내에서 소비되는 발전량 (MWh) 화학 부문 경계 내에서 재생가능 에너지원을 이용한 발전량 (MWh) 화학 부문 경계 내 연료 공급 원료 사용'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
     }
   ],
   "guidance": [
@@ -106,13 +106,13 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" to \"Generation of electricity, heat, steam, or cooling\" in response to 7.30.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" \"발전 의 전력, 열, 스팀, 또는 냉방\" 응답 7.30."
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nThis question is based on question 7.30.9 but is sector specific. Energy carriers generated from outside the chemicals sector boundary should not be reported here.\nThe boundary surrounding your organization in the chemicals sector shall hereby be referred to as the organizational/sector boundary. The sector boundary for energy consumption should align with the sector boundary for emissions, which is described in the guidance to question 7.19.\nFigures you provide should be for the reporting year only (as defined by your answer to 1.4).\nGuidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh . \"\nNuclear power generation should not be included for this question, as nuclear power is covered in more detail in questions for electric utilities.\nYou should only account for heat generated in transferable mediums, i.e. the forms of heat that may also be purchased or acquired from third parties (as listed in question 7.30.1).\nThis is because the proportion of fuel combustion heat made available for use in applications after losses (e.g. direct heating for industrial process plant and equipment) may be difficult to measure or would require detailed process monitoring equipment readings.\nOrganizations that recover waste heat/gases generated from the consumption of fuel feedstocks in a primary industrial process and utilize the waste heat/gases to produce energy in a secondary process should report the generation of electricity, heat, steam and/or cooling from the recovered waste heat/gases in column 5 \"Generation from waste heat/gases recovered from processes using fuel feedstocks inside chemical sector boundary (MWh)\". An example of such a process is the generation of electricity from recovered excess heat from the exothermic reaction in the process of sulfuric acid production.\nTotal gross generation inside chemicals sector boundary (MWh) (column 2) \nGross generation should be reported, where ‘Gross' covers the total output from all generating installations of facilities inside the chemical sector boundary without deducting for electricity, steam, heat or cooling used by the generation plant or facility for the purpose of generation. This includes both the energy you produced and did not consume, as well as the amount you did consume.\nGeneration that is consumed inside chemicals sector boundary (MWh) (column 3) \nThis column is a subset of column 2; the amount entered cannot be higher than the amount entered in column 2. If the entered amount is equal to the amount in column 2, then your organization consumed in the chemicals sector all of the electricity, steam, and/or heat that your organization generated in the chemicals sector. \nGeneration from renewable sources inside chemical sector boundary (MWh) (column 4) \nNote that generation from waste heat/gases recovered from processes using fuel feedstocks should not be included here. Although low carbon, this source of energy is considered non-renewable and will be captured in column 5.\nGeneration from waste heat/gases recovered from processes using fuel feedstocks inside chemical sector boundary (MWh) (column 5) \nCompanies that recover waste heat/gases generated from the consumption of fuel feedstocks in a primary industrial process and utilize the waste heat/gases to produce energy in a secondary process should report the generation of electricity, heat, steam and/or cooling from the recovered waste heat/gases in this column.\nNote that this only applies for processes within the chemical sector boundary where the waste heat/gas is derived from fuel feedstocks - generation of energy from waste heat/gas that is derived from fuels should not be included in this column.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
@@ -142,7 +142,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -177,7 +177,7 @@
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "귀사가 화학물질 생산 활동을 위해 생성하고 소비한 전기, 열, 스팀, 냉방에 대한 세부 정보를 제공하십시오",
+    "question_ko": "귀사가 화학물질 생산 활동을 위해 생성하고 소비한 전기, 열, 스팀, 냉방에 대한 세부 정보를 제공하십시오. 에너지 캐리어 화학 부문 경계 내 총 발전량 (MWh) 화학 부문 경계 내에서 소비되는 발전량 (MWh) 화학 부문 경계 내에서 재생가능 에너지원을 이용한 발전량 (MWh) 화학 부문 경계 내 연료 공급 원료 사용",
     "q2025": "Q7.30.11",
     "q2025_text": "Provide details on electricity, heat, steam, and cooling your organization has generated and consumed for chemical production activities.",
     "change_status": "No change - 2026 source verified",
@@ -198,11 +198,11 @@
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "화학: D 4/4 | 1/1 | M 1/1 | L 1/1",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "귀사가 화학물질 생산 활동을 위해 생성하고 소비한 전기, 열, 스팀, 냉방에 대한 세부 정보를 제공하십시오"
+    "q2025_textKo": "귀사가 화학물질 생산 활동을 위해 생성하고 소비한 전기, 열, 스팀, 냉방에 대한 세부 정보를 제공하십시오. 에너지 캐리어 화학 부문 경계 내 총 발전량 (MWh) 화학 부문 경계 내에서 소비되는 발전량 (MWh) 화학 부문 경계 내에서 재생가능 에너지원을 이용한 발전량 (MWh) 화학 부문 경계 내 연료 공급 원료 사용"
   },
   "defaultPoints": {
     "D": "4/4",
@@ -232,17 +232,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "화학",
-  "simpleHelpKo": "이 문항은 '귀사가 화학물질 생산 활동을 위해 생성하고 소비한 전기, 열, 스팀, 냉방에 대한 세부 정보를 제공하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '귀사가 화학물질 생산 활동을 위해 생성하고 소비한 전기, 열, 스팀, 냉방에 대한 세부 정보를 제공하십시오. 에너지 캐리어 화학 부문 경계 내 총 발전량 (MWh) 화학 부문 경계 내에서 소비되는 발전량 (MWh) 화학 부문 경계 내에서 재생가능 에너지원을 이용한 발전량 (MWh) 화학 부문 경계 내 연료 공급 원료 사용'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

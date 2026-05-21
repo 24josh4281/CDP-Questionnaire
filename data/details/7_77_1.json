@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details of new construction or major renovations projects completed in the last 3 years that were designed as net zero carbon.",
-  "questionKo": "탄소중립으로 설계된 지난 3년 간 완성된 신축 또는 주요 재건축 프로젝트의 세부 정보를 제공하십시오",
+  "questionKo": "탄소중립으로 설계된 지난 3 년 간 완성된 신축 또는 주요 재건축 프로젝트의 세부 정보를 제공하십시오. 부동산 부문 탄소중립 정의 지난 3 년 간 완성된 건물 중 탄소중립 건물 비율 건물 탄소중립 인증 여부 지난 3 년 간 완성된 건물 중 탄소중립 인증을 받은 건물 비율 소매 사무실 산업 주거 호텔 숙박, 레저 및 레크리",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -39,20 +39,20 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "섹터",
+      "textKo": "Property 섹터",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "소매",
-        "",
-        "",
-        "",
-        "",
-        ", 및",
-        "",
-        "기술/",
-        "",
-        "사용",
+        "Retail",
+        "Office",
+        "Industrial",
+        "Residential",
+        "Hotel",
+        "Lodging, Leisure 및 Recreation",
+        "Education",
+        "기술/Science",
+        "Healthcare",
+        "Mixed use",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -71,16 +71,16 @@
       ],
       "simple_help": "Select all that apply:",
       "popup_help": "",
-      "textKo": "(s) 의 탄소",
+      "textKo": "Definition(s) 의 net zero carbon applied",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "/ 기준, 직접 입력 명시",
-        "/ 기준, 직접 입력 명시",
-        "기준, 직접 입력 명시",
+        "National/local green building council standard, please specify",
+        "National/local government standard, please specify",
+        "International standard, please specify",
         "기타, 직접 입력"
       ],
-      "simple_helpKo": "선택 모든 적용:",
+      "simple_helpKo": "해당하는 항목 모두 선택:",
       "popup_helpKo": ""
     },
     {
@@ -91,7 +91,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 의 탄소 총 숫자 입력 의 완료 최근 3 년",
+      "textKo": "% 의 net zero carbon buildings total 숫자 입력 의 buildings 완료 last 3 연도s",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -109,7 +109,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "해당 의 탄소?",
+      "textKo": "Have 하나 이상 의 buildings certified net zero carbon?",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -127,7 +127,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 의 탄소 총 숫자 입력 의 완료 최근 3 년",
+      "textKo": "% 의 buildings certified net zero carbon total 숫자 입력 의 buildings 완료 last 3 연도s",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -161,30 +161,30 @@
       ],
       "simple_help": "Select all that apply:",
       "popup_help": "",
-      "textKo": "(s)",
+      "textKo": "Certification scheme(s)",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "탄소 기준 -",
-        "탄소 탄소 기준 통해 에너지",
-        "탄소 탄소 기준 통해 -",
-        "()",
-        "E+C- (Énergie & Réduction)",
-        "탄소",
-        "기후 ()",
-        "에너지 기준",
-        "/ 탄소",
-        "()",
-        "에너지 기준",
-        "",
-        "탄소",
-        "에너지",
-        "탄소",
-        "에너지",
-        "NollCO2 ()",
+        "CaGBC Zero Carbon Building Standard - Performance",
+        "Carbon neutral certification against National Carbon Offset Standard Building through NABERS 에너지",
+        "Carbon neutral certification against National Carbon Offset Standard Building through Green Star - Performance In아니요vation Ch모든enges",
+        "carboNZeroCertTM (NZGBC)",
+        "E+C- Label (Énergie Positive & Réduction Carbone)",
+        "EDGE Zero Carbon",
+        "기후 Positive (DGNB)",
+        "GBC Brazil Zero 에너지 Standard",
+        "GBCSA Net Zero/Net Positive Carbon Certification",
+        "GREENSHIP Zero (GBC Indonesia)",
+        "Indian GBC Zero 에너지 Standard",
+        "ILFI Living Building Ch모든enge",
+        "ILFI Zero Carbon Certification",
+        "ILFI Zero 에너지 Building Certification",
+        "LEED Zero Carbon",
+        "LEED Zero 에너지",
+        "아니요llCO2 (SwedenGBC)",
         "기타, 직접 입력"
       ],
-      "simple_helpKo": "선택 모든 적용:",
+      "simple_helpKo": "해당하는 항목 모두 선택:",
       "popup_helpKo": ""
     },
     {
@@ -214,25 +214,25 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to 7.77.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" 응답 7.77."
+      "textKo": "이 문항 only appears 만약 귀사 선택 \"예\" response 7.77."
     },
     {
       "type": "Requested Content",
       "text": "General \nThis question requests data on net zero buildings aggregated per property sector. \nDefinition(s) of net zero carbon applied (column 2) \nIf your projects are located in countries/areas where the definition of a net zero carbon building has been defined in a legal document (e.g. building regulations and energy decrees) or by the local Green Building Council, you should apply that definition when responding to this question. \nIf your projects are located in multiple jurisdictions, different definitions of net zero may apply to them. You are requested to specify all of them in that case.\n% of net zero carbon buildings in the total number of buildings completed in the last 3 years (column 3) \nIndicate the percentage that the net zero carbon buildings within this property sector contribute to the total number of buildings completed in the last 3 years.\nThe sum of all rows for this column should give the total proportion of the buildings completed in the last three years which are net zero carbon (i.e. a total sum of 100% will indicate that all buildings that you completed in the last three years were designed as net zero carbon)\nHave any of the buildings been certified as net zero carbon? (column 4) \nIndicate if any of your net zero carbon buildings have been certified. If you respond \"Yes\", you will be requested to provide details in the following columns.\nIt is acknowledged that certification schemes for net zero carbon buildings are not yet widely available, but where they are, they provide additional credibility to self-evaluated and reported statements regarding net zero carbon.\n% of buildings certified as net zero carbon in the total number of buildings completed in the last 3 years (column 5) \nThis column will appear only if you selected \"Yes\" in column 4.\nIndicate the percentage that the certified net zero carbon buildings within this property sector contribute to the total number of buildings completed in the last 3 years.\nThe sum of all rows for this column should give the total proportion of the buildings completed in the last three years which are certified as net zero carbon (i.e. a total sum of 100% will indicate that all buildings that you completed in the last three years were certified as net zero carbon)\nComment (column 7) (optional) \nYou may provide additional information to contextualize your response e.g. the location of your projects and any discrepancies in the definitions of net zero carbon buildings applied in these jurisdictions.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "일반 이 문항 requests 데이터 net zero buildings aggregated per property 섹터. Definition(s) 의 net zero carbon applied (열 2) 만약 귀사의 projects located 국가/지역 경우 definition 의 net zero carbon building has defined legal document (e.g. building regulations 및 에너지 decrees) 또는 기준 local Green Building Council, 귀사 해야 합니다 apply definition 경우 responding 이 문항. 만약 귀사의 projects located multiple jurisdictions, different definitions 의 net zero 할 수 있습니다 apply them. 귀사 requested specify 모든 의 them case. % 의 net zero carbon buildings total 숫자 입력 의 buildings 완료 last 3 연도s (열 3) Indicate percentage net zero carbon buildings 내 이 property 섹터 contribute total 숫자 입력 의 buildings 완료 last 3 연도s. sum 의 모든 행 이 열 해야 합니다 give total proportion 의 buildings 완료 last three 연도s net zero carbon (i.e. total sum 의 100% indicate 모든 buildings 귀사 완료 last three 연도s were designed net zero carbon) Have 하나 이상 의 buildings certified net zero carbon? (열 4) Indicate 만약 하나 이상 의 귀사의 net zero carbon buildings have certified. 만약 귀사 respond \"예\", 귀사 requested 제공 세부 정보 다음 열. It ack아니요wledged certification schemes net zero carbon buildings 아니요t yet widely 사용 가능, but 경우 they, they 제공 additional credibility self-평가된 및 보고된 명시ments regarding net zero carbon. % 의 buildings certified net zero carbon total 숫자 입력 의 buildings 완료 last 3 연도s (열 5) 이 열 appear only 만약 귀사 선택됨 \"예\" 열 4. Indicate percentage certified net zero carbon buildings 내 이 property 섹터 contribute total 숫자 입력 의 buildings 완료 last 3 연도s. sum 의 모든 행 이 열 해야 합니다 give total proportion 의 buildings 완료 last three 연도s certified net zero carbon (i.e. total sum 의 100% indicate 모든 buildings 귀사 완료 last three 연도s were certified net zero carbon) 의견 (열 7) (선택지al) 귀사 할 수 있습니다 제공 추가 정보 con텍스트 입력ualize 귀사의 response e.g. location 의 귀사의 projects 및 하나 이상 discrepancies definitions 의 net zero carbon buildings applied 이 jurisdictions."
     },
     {
       "type": "Additional Information",
       "text": "Certification schemes for net zero carbon buildings \nWorld Green Building Council released a call to action report From Thousands to Billions in May 2017 compelling business, governments and NGOs to take urgent and coordinated action towards achieving 100% net zero carbon buildings by 2050. The report set out a vision for all new buildings to be net zero carbon in operation by 2030, and all existing buildings by 2050. It also set out four key principles for best practice application of net zero. Utilizing these principles, Green Building Councils have developed and adapted net zero carbon certification schemes to encourage and recognize net zero carbon leadership in their local context. As of December 2019, there are a total of 11 Green Building Council certification schemes for net zero which have been released, with several more in development. For more information, please visit the WorldGBC website .",
       "typeKo": "추가 정보",
-      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
+      "textKo": "Certification schemes net zero carbon buildings World Green Building Council released c모든 action 보고 에서 Thousands Billions 할 수 있습니다 2017 compelling 사업, governments 및 NGOs take urgent 및 coordinated action towards achieving 100% net zero carbon buildings 기준 2050. 보고 set out vision 모든 new buildings net zero carbon operation 기준 2030, 및 모든 existing buildings 기준 2050. It also set out four key principles best practice application 의 net zero. Utilizing 이 principles, Green Building Councils have developed 및 adapted net zero carbon certification schemes encourage 및 recognize net zero carbon 리더십 their local con텍스트 입력. 의 December 2019, there total 의 11 Green Building Council certification schemes net zero have released, several more development. more 정보, please visit WorldGBC website."
     },
     {
       "type": "Explanation of Terms",
       "text": "Property sectors (in line with 2021 GRESB Real Estate Assessment)\nRetail: Includes the following property types:\nRetail, High street : retail buildings located on the high street in a particular area, usually terraced properties located in the city center or other high-traffic pedestrian zones. \nRetail centers : shopping centers, strip malls, lifestyle centers and warehouses.\nRestaurants/Bars : buildings used primarily for social/entertainment purposes and characterized by most of the revenue being generated from the sale of beverages or food.\nOther : other retail properties that do not fit in the aforementioned property types.\nOffice: Includes the following property types:\nCorporate : low-rise, mid-rise and high-rise office properties.\nMedical office : examples may include but are not limited to offices specifically used for the purpose of medical administration, secondary research or other purposes, exclusive of the property types specified for Healthcare center. \nBusiness park : a group of office properties being classified as a single financial asset and for which individual property consumption data is not available.\nOther : other office properties that do not fit in the aforementioned property types.\nIndustrial \n: Includes the following property types:\nDistribution warehouses : industrial buildings used for the purpose of storing, processing and distribution of goods to wholesalers, retailers and/or consumers.\nManufacturing: industrial buildings used for the purpose of manufacturing. Otherwise known as a factory or manufacturing plant.\nIndustrial parks : areas zoned for the purpose of industrial development, where (lightweight) industrial buildings are grouped together with offices. Examples may include, but are not limited to: industrial estates, trading estates and enterprise zones.\nOther : other industrial properties that do not fit in the aforementioned property types.\nResidential: Includes the following property types:\nResidential Multi-family : multiple residential dwelling spaces contained within one building. This includes low-, mid- and high-rise multi-family residential buildings.\nFamily homes : includes both single-family homes and multi-dwelling units not including apartment blocks. A single-family home is a separate, free-standing residential building. A multi-dwelling family home includes those such as two-flats, duplex, semi-detached, and townhouses. Synonyms include: single-family home, single-detached dwelling, detached house, single-family residence, separate house, free-standing house, townhouse, duplex, condo, semidetached, villa.\nStudent housing : residential buildings used for the purpose of housing students, otherwise known as student apartments, student houses, student residences, student quarters, and student accommodations.\nRetirement living: otherwise known as retirement villages - communities comprised of people at a similar stage in life who are seeking a specific lifestyle. Retirement villages are made up of private homes and usually offer a range of shared facilities.\nOther : other residential properties that do not fit in the aforementioned property types.\nHotel \n: includes hotels, motels, youth hostels and resorts.\nLodging, leisure & recreation: indoor center used for the purpose of leisure and recreation. Examples include but not limited to: indoor arenas, fitness centers, performing arts centers, swimming centers and museums/galleries.\nEducation: includes schools, universities, libraries and other education properties.\nTechnology/Science: includes data centers, laboratory/life sciences properties and other specifically designed and equipped technology/science properties.\nHealthcare: Includes the following property types:\nHealthcare center : buildings used for the purpose of primary healthcare. Examples may include, but are not limited to: hospitals, clinics, physical therapy centers and mental health centers. \nSenior homes : healthcare properties used for the purpose of housing seniors, otherwise known as senior assisted living homes, old-age homes, or aged care.\nOther : other healthcare properties that do not fit in the aforementioned property types.\nMixed use \n: Mixed-use buildings that lack data availability by individual property type components.\nOther \n: includes parking (indoors), self-storage, and other properties that do not fit in the aforementioned property types.",
       "typeKo": "용어 설명",
-      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
+      "textKo": "Property 섹터 (line 2021 GRESB 부동산 평가ment) Retail: Includes 다음 property types: Retail, High street: retail buildings located high street particular area, usu모든y terraced properties located city center 또는 기타 high-traffic pedestrian zones. Retail centers: shopping centers, strip m모든s, lifestyle centers 및 warehouses. Restaurants/Bars: buildings used primarily social/entertainment purposes 및 characterized 기준 most 의 revenue generated 에서 sale 의 beverages 또는 food. 기타: 기타 retail properties do 아니요t fit aforementioned property types. Office: Includes 다음 property types: Corporate: low-rise, mid-rise 및 high-rise office properties. Medical office: examples 할 수 있습니다 include but 아니요t limited offices specific모든y used purpose 의 medical administration, secondary research 또는 기타 purposes, exclusive 의 property types specified Healthcare center. 사업 park: group 의 office properties classified single 재무 asset 및 individual property consumption 데이터 아니요t 사용 가능. 기타: 기타 office properties do 아니요t fit aforementioned property types. Industrial: Includes 다음 property types: Distribution warehouses: industrial buildings used purpose 의 storing, 프로세스ing 및 distribution 의 goods wholesalers, retailers 및/또는 consumers. Manufacturing: industrial buildings used purpose 의 manufacturing. 기타wise k아니요wn factory 또는 manufacturing plant. Industrial parks: areas zoned purpose 의 industrial development, 경우 (lightweight) industrial buildings grouped together offices. Examples 할 수 있습니다 include, but 아니요t limited: industrial e명시s, trading e명시s 및 enterprise zones. 기타: 기타 industrial properties do 아니요t fit aforementioned property types. Residential: Includes 다음 property types: Residential Multi-family: multiple residential dwelling spaces contained 내 one building. 이 includes low-, mid- 및 high-rise multi-family residential buildings. Family homes: includes 모두 single-family homes 및 multi-dwelling units 아니요t 포함 apartment blocks. single-family home separate, free-standing residential building. multi-dwelling family home includes 해당 such two-flats, duplex, semi-detached, 및 townhouses. Sy아니요nyms include: single-family home, single-detached dwelling, detached house, single-family residence, separate house, free-standing house, townhouse, duplex, condo, semidetached, villa. Student housing: residential buildings used purpose 의 housing students, 기타wise k아니요wn student apartments, student houses, student residences, student quarters, 및 student accommodations. Retirement living: 기타wise k아니요wn retirement villages - communities comprised 의 people at similar stage life who seeking specific lifestyle. Retirement villages made up 의 private homes 및 usu모든y offer range 의 shared 시설. 기타: 기타 residential properties do 아니요t fit aforementioned property types. Hotel: includes hotels, motels, youth hostels 및 resorts. Lodging, leisure & recreation: indoor center used purpose 의 leisure 및 recreation. Examples include but 아니요t limited: indoor arenas, fitness centers, performing arts centers, swimming centers 및 museums/g모든eries. Education: includes schools, universities, libraries 및 기타 education properties. 기술/Science: includes 데이터 centers, laboratory/life sciences properties 및 기타 specific모든y designed 및 equipped 기술/science properties. Healthcare: Includes 다음 property types: Healthcare center: buildings used purpose 의 주된 healthcare. Examples 할 수 있습니다 include, but 아니요t limited: hospitals, clinics, physical therapy centers 및 mental health centers. Senior homes: healthcare properties used purpose 의 housing seniors, 기타wise k아니요wn senior assisted living homes, old-age homes, 또는 aged care. 기타: 기타 healthcare properties do 아니요t fit aforementioned property types. Mixed use: Mixed-use buildings lack 데이터 availability 기준 individual property type components. 기타: includes parking (indoors), self-storage, 및 기타 properties do 아니요t fit aforementioned property types."
     }
   ],
   "points": [
@@ -266,7 +266,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 6/6점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 per 완료 셀 proportion 숫자 입력 의 행 공시된. Parti모든y 완료 행 아니요t receive full 점. 이 문항에서 최대 6/6점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -275,8 +275,8 @@
       "criteria": "ROUTE A)\nAll of the following met - 2 points\nTable completed AND\nSum of figures provided in column '% of net zero carbon buildings in the total number of buildings completed in the last 3 years' is less than or equal to 100 AND\nSum of figures provided in column '% of buildings certified as net zero carbon in the total number of buildings completed in the last 3 years' is less than or equal to 100.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2 points\nTable completed AND\nSum of figures provided in column '% of net zero carbon buildings in the total number of buildings completed in the last 3 years' is less than or equal to 100 AND\n'No' selected in column 'Have any of the buildings been certified as net zero carbon?'.\nA maximum of 2/2 points is available for this route.",
       "sectorKo": "건설",
       "issueKo": "기후변화",
-      "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "levelKo": "",
+      "criteriaKo": "경로) 다음 조건을 모두 충족 - 2 점 Table 완료 및 Sum 의 수치 제공된 열 '% 의 net zero carbon buildings total 숫자 입력 의 buildings 완료 last 3 연도s' less than 또는 equal 100 및 Sum 의 수치 제공된 열 '% 의 buildings certified net zero carbon total 숫자 입력 의 buildings 완료 last 3 연도s' less than 또는 equal 100. 이 경로에서 최대 2/2점을 받을 수 있습니다. 또는 경로 B) 다음 조건을 모두 충족 - 2 점 Table 완료 및 Sum 의 수치 제공된 열 '% 의 net zero carbon buildings total 숫자 입력 의 buildings 완료 last 3 연도s' less than 또는 equal 100 및 '아니요' 열에서 선택 'Have 하나 이상 의 buildings certified net zero carbon?'. 이 경로에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -286,7 +286,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. '예'열에서 선택'Have 하나 이상 의 buildings certified net zero carbon?'및 다음을 제외한 선택지 중 하나'기타, 직접 입력'열에서 선택'Certification scheme(s)' - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다. 1개 행 평가."
     },
     {
       "sector": "Construction",
@@ -296,7 +296,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "Sum 의 수치 제공된 열 '% 의 net zero carbon buildings total 숫자 입력 의 buildings 완료 last 3 연도s' greater than 또는 equal 43% - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -306,7 +306,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 6/6점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 per 완료 셀 proportion 숫자 입력 의 행 공시된. Parti모든y 완료 행 아니요t receive full 점. 이 문항에서 최대 6/6점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -315,8 +315,8 @@
       "criteria": "ROUTE A)\nAll of the following met - 2 points\nTable completed AND\nSum of figures provided in column '% of net zero carbon buildings in the total number of buildings completed in the last 3 years' is less than or equal to 100 AND\nSum of figures provided in column '% of buildings certified as net zero carbon in the total number of buildings completed in the last 3 years' is less than or equal to 100.\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAll of the following met - 2 points\nTable completed AND\nSum of figures provided in column '% of net zero carbon buildings in the total number of buildings completed in the last 3 years' is less than or equal to 100 AND\n'No' selected in column 'Have any of the buildings been certified as net zero carbon?'.\nA maximum of 2/2 points is available for this route.",
       "sectorKo": "부동산",
       "issueKo": "기후변화",
-      "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "levelKo": "",
+      "criteriaKo": "경로) 다음 조건을 모두 충족 - 2 점 Table 완료 및 Sum 의 수치 제공된 열 '% 의 net zero carbon buildings total 숫자 입력 의 buildings 완료 last 3 연도s' less than 또는 equal 100 및 Sum 의 수치 제공된 열 '% 의 buildings certified net zero carbon total 숫자 입력 의 buildings 완료 last 3 연도s' less than 또는 equal 100. 이 경로에서 최대 2/2점을 받을 수 있습니다. 또는 경로 B) 다음 조건을 모두 충족 - 2 점 Table 완료 및 Sum 의 수치 제공된 열 '% 의 net zero carbon buildings total 숫자 입력 의 buildings 완료 last 3 연도s' less than 또는 equal 100 및 '아니요' 열에서 선택 'Have 하나 이상 의 buildings certified net zero carbon?'. 이 경로에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -326,7 +326,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. '예'열에서 선택'Have 하나 이상 의 buildings certified net zero carbon?'및 다음을 제외한 선택지 중 하나'기타, 직접 입력'열에서 선택'Certification scheme(s)' - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다. 1개 행 평가."
     },
     {
       "sector": "Real estate",
@@ -336,12 +336,12 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "Sum 의 수치 제공된 열 '% 의 net zero carbon buildings total 숫자 입력 의 buildings 완료 last 3 연도s' greater than 또는 equal 43% - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "탄소중립으로 설계된 지난 3년 간 완성된 신축 또는 주요 재건축 프로젝트의 세부 정보를 제공하십시오",
+    "question_ko": "탄소중립으로 설계된 지난 3 년 간 완성된 신축 또는 주요 재건축 프로젝트의 세부 정보를 제공하십시오. 부동산 부문 탄소중립 정의 지난 3 년 간 완성된 건물 중 탄소중립 건물 비율 건물 탄소중립 인증 여부 지난 3 년 간 완성된 건물 중 탄소중립 인증을 받은 건물 비율 소매 사무실 산업 주거 호텔 숙박, 레저 및 레크리",
     "q2025": "Q7.77.1",
     "q2025_text": "Provide details of new construction or major renovations projects completed in the last 3 years that were designed as net zero carbon.",
     "change_status": "No change - 2026 source verified",
@@ -359,14 +359,14 @@
     "change_statusKo": "변경 없음 - 2026 원문 확인",
     "detail_change_typesKo": "",
     "change_summaryKo": "",
-    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "scoring_change_summaryKo": "CC 건설 및 부동산 리더십 • Percentage reference changed 에서 24% 43%. Annual up날짜 입력 이 threshold based IEA Net Zero 기준 2050.",
     "daml_summaryKo": "건설: D 6/6 | 2/2 | M 1/1 | L 1/1 부동산: D 6/6 | 2/2 | M 1/1 | L 1/1",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "Changed 및 reflected",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "탄소중립으로 설계된 지난 3년 간 완성된 신축 또는 주요 재건축 프로젝트의 세부 정보를 제공하십시오"
+    "q2025_textKo": "탄소중립으로 설계된 지난 3 년 간 완성된 신축 또는 주요 재건축 프로젝트의 세부 정보를 제공하십시오. 부동산 부문 탄소중립 정의 지난 3 년 간 완성된 건물 중 탄소중립 건물 비율 건물 탄소중립 인증 여부 지난 3 년 간 완성된 건물 중 탄소중립 인증을 받은 건물 비율 소매 사무실 산업 주거 호텔 숙박, 레저 및 레크리"
   },
   "defaultPoints": {
     "D": "6/6",
@@ -378,35 +378,35 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "부동산, 건설",
-  "simpleHelpKo": "이 문항은 '탄소중립으로 설계된 지난 3년 간 완성된 신축 또는 주요 재건축 프로젝트의 세부 정보를 제공하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "Understanding percentage 의 귀사' new 건설 또는 major re아니요vations projects were designed net zero carbon 제공s investors indication 의 potential 영향 의 regulatory measures 귀사의 사업. It ack아니요wledged certification schemes net zero carbon buildings 아니요t yet widely 사용 가능, but 경우 they, they 제공 additional credibility self-평가된 및 보고된 명시ments regarding net zero carbon.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "2025 Korean form + CDP glossary repair"
 }

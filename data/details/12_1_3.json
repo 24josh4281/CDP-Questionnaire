@@ -3,7 +3,7 @@
   "module": "12",
   "moduleTitle": "Environmental performance - Financial services",
   "questionText": "Provide details of the other metrics used to track the impact of your portfolio on the environment.",
-  "questionKo": "포트폴리오가 환경에 미치는 영향을 추적하기 위해 사용하는 기타 지표의 세부 정보를 제공하십시오.",
+  "questionKo": "제공 세부 정보 의 기타 지표 used track 영향 의 귀사의 포트폴리오 environment.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Water, Biodiversity, Climate Change, Forests",
@@ -74,18 +74,18 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "가중 평균 탄소 집약도 (tCO2e/백만 매출)",
-        "가중 평균 탄소 집약도 (tco2 / 백만)",
-        "포트폴리오 탄소 발자국 (tCO2e/백만 투자액)",
-        "탄소 집약도 (tCO2e/백만 매출)",
-        "회피된 배출량 금융지원 (tCO2e)",
-        "탄소 제거 금융지원 (tCO2e)",
-        "보험-관련된 배출량 (tCO2e)",
-        "촉진 배출량 (tCO2e)",
-        "에너지 소비 (GWh/백만 매출 의 투자대상 기업)",
-        "기타 지표 영향 기후변화 직접 입력 명시",
-        "가중 평균 배출량 수자원 (미터톤 의 배출량 수자원 생산한 기준 투자대상 기업/ 백만 투자액)",
-        "기타 지표 영향 수자원, 직접 입력 명시"
+        "Weighted average carbon intensity (tCO2e/Million revenue)",
+        "Weighted average carbon intensity (tco2 / mln EVIC)",
+        "포트폴리오 carbon footprint (tCO2e/Million invested)",
+        "Carbon intensity (tCO2e/Million revenue)",
+        "Avoided 배출량 financed (tCO2e)",
+        "Carbon removals financed (tCO2e)",
+        "Insurance-associated 배출량 (tCO2e)",
+        "Facilitated 배출량 (tCO2e)",
+        "에너지 consumption (GWh/Million revenue 의 투자대상 comp하나 이상)",
+        "기타 지표 영향 기후변화 please specify",
+        "Weighted average 배출량 수자원 (미터톤 의 배출량 수자원 generated 기준 투자대상 기업/ Million invested)",
+        "기타 지표 영향 수자원, please specify"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -113,7 +113,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 의 포트폴리오 포함된 관련 총 포트폴리오 가치",
+      "textKo": "% 의 포트폴리오 포함된 relation total 포트폴리오 가치",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -128,7 +128,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 가치 의 자산 포함된 산정",
+      "textKo": "Total 가치 의 assets 포함된 산정",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -143,7 +143,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 의 배출량 산정됨 사용 데이터 확보됨 에서 고객/투자대상",
+      "textKo": "% 의 배출량 산정d using 데이터 obtained 에서 고객/투자대상",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -158,7 +158,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "직접 입력 설명 세부 정보 및 주요 가정 사용됨 귀사의 평가",
+      "textKo": "설명하십시오 세부 정보 및 key assumptions used 귀사의 평가ment",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -177,25 +177,25 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in column \"We measure the impact of our portfolio on the climate.\" and \"Other carbon footprinting and/or exposure metrics (as defined by TCFD)\" or \"Other, please specify\" in column 2 \"Disclosure metric\" of 12.1. It also appears if you select \"Yes\" in column 5 \"We measure the impact of our portfolio on forests\"or column 8 \"We measure the impact of our portfolio on water \" or column 11 \"We measure the impact of our portfolio on biodiversity\" in 12.1.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" 열 \"포트폴리오가 기후에 미치는 영향을 측정함.\" 및 \"기타 탄소 발자국 산정 및/또는 익스포저 지표 (정의된 기준 TCFD)\" 또는 \"기타, 직접 입력\" 열 2 \"공시 지표\" 의 12.1. It 또한 표시됨 만약 귀사 선택 \"예\" 열 5 \"당사 측정 영향 의 귀사의 포트폴리오 산림\"또는 열 8 \"포트폴리오가 수자원에 미치는 영향을 측정함\" 또는 열 11 \"당사 측정 영향 의 귀사의 포트폴리오 생물다양성\" 12.1."
+      "textKo": "이 문항 only appears 만약 귀사 선택 \"예\" 열 \"포트폴리오가 기후에 미치는 영향을 측정함.\" 및 \"기타 carbon footprinting 및/또는 exposure 지표 (defined 기준 TCFD)\" 또는 \"기타, 직접 입력\" 열 2 \"공시 지표\" 의 12.1. It also appears 만약 귀사 선택 \"예\" 열 5 \"당사 measure 영향 의 당사의 포트폴리오 산림\"또는 열 8 \"포트폴리오가 수자원에 미치는 영향을 측정함 \" 또는 열 11 \"당사 measure 영향 의 당사의 포트폴리오 생물다양성\" 12.1."
     },
     {
       "type": "Requested Content",
       "text": "Portfolio (column 2) \nYou are requested to complete all rows in this table, adding a row for each portfolio (column 2) for which you measure the impact to the corresponding environmental issue, as reported in 12.1. \nWeighted average carbon intensities (WACI) should be reported here. \nThe options presented in the table are driven by your response to question 12.1. \nPortfolio metric (column 3) \nSelect the environmental footprinting and/or exposure metric(s) and the corresponding metric unit that you use to track and report of your portfolio on the environment, as defined in the TCFD Supplemental Guidance for the Financial Sector, the Global GHG Accounting and Reporting Standard, the TNFD Financial institutions metrics supplement and others. \nOption \"Insurance-associated emissions\" only appears if \"Insurance underwriting (Insurance company)\" is selected in column 2 \"Portfolio\". \nAny of the \"Share of investments in …\" metric options only appears if \"Investing (Asset manager)\" or \"Investing (Asset owner)\" is selected in column 2 \"Portfolio\". Enter the share as a percentage in column 4 \"Metric value in the reporting year\". \nIf you use any alternative portfolio impact metric not included in the options, select \"Other, please specify\" and give the metric a label. If you select \"Other, please specify\", explain your approach and outline the calculation methodology in column 8 \"Please explain the details and assumptions used in your assessment \". \n% of portfolio covered in relation to total portfolio value (column 5) \nEnter the percentage of portfolio value covered in the calculation to the portfolio value based on assets value as reported in 1.10 \nTotal value of assets included in the financed emissions calculation (column 6) \nEnter the total value of assets included in the calculation, based on the percentage provided in column 5 \"% of portfolio covered in relation to total portfolio value\" and the portfolio value based on assets value reported for the corresponding portfolio in question 1.10. \nReport the value of assets included in the calculation in the currency selected in 1.2. \n% of emissions calculated using data obtained from clients/investees (column 7) \nSuch data obtained from value chain partners (clients or investees) may take the form of primary activity data or emissions data calculated by value chain partners. More information on this can be found in Chapter 7, Collecting Data, of the GHG Protocol's Corporate Value Chain (Scope 3) Accounting and Reporting Standard . \nPlease explain the details and key assumptions used in your assessment (column 8) \nYour response should include a short description of the types and sources of data used to measure the impact of your portfolio on the environment (e.g. activity data, emission factors or GWP values), a short description of the methodologies, assumptions and allocation methods used to make the calculations, and any further details for the metric you have used. \nFor details on methodologies to calculate carbon footprinting and exposure metrics please consult TCFD's Supplemental Guidance for the Financial Sector and/or the Global GHG Accounting and Reporting Standard . Explain why the metric was chosen and how the coverage has been determined and whether you consider it to be substantive to your organization. \nIf you wish to provide any additional context to your calculation, including any exclusions within your portfolio, you can also do that in this column.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "포트폴리오 (열 2) 귀사 requested 완료 모든 행 이 table, adding 행 each 포트폴리오 (열 2) 귀사 measure 영향 corresponding 환경이슈, 보고된 12.1. Weighted average carbon intensities (WACI) 해야 합니다 보고된 here. 선택지 presented table driven 기준 귀사의 response 문항 12.1. 포트폴리오 지표 (열 3) 선택 환경 footprinting 및/또는 exposure 지표(s) 및 corresponding 지표 unit 귀사 use track 및 보고 의 귀사의 포트폴리오 environment, defined TCFD Supplemental 가이던스 재무 섹터, Global GHG Accounting 및 보고ing Standard, TNFD 재무 institutions 지표 supplement 및 기타s. 선택지 \"Insurance-associated 배출량\" only appears 만약 \"보험 인수(보험사)\" 열에서 선택 2 \"포트폴리오\". 하나 이상 의 \"Share 의 investments …\" 지표 선택지 only appears 만약 \"투자(자산운용사)\" 또는 \"투자(자산소유자)\" 열에서 선택 2 \"포트폴리오\". Enter share percentage 열 4 \"지표 가치 보고연도\". 만약 귀사 use 하나 이상 alternative 포트폴리오 영향 지표 아니요t 포함된 선택지, 선택 \"기타, 직접 입력\" 및 give 지표 label. 만약 귀사 선택 \"기타, 직접 입력\", 설명 귀사의 approach 및 outline 산정 방법론 열 8 \"설명하십시오 세부 정보 및 assumptions used 귀사의 평가ment \". % 의 포트폴리오 포함된 relation total 포트폴리오 가치 (열 5) Enter percentage 의 포트폴리오 가치 포함된 산정 포트폴리오 가치 based assets 가치 보고된 1.10 Total 가치 의 assets 포함된 금융배출량 산정 (열 6) Enter total 가치 의 assets 포함된 산정, based percentage 제공된 열 5 \"% 의 포트폴리오 포함된 relation total 포트폴리오 가치\" 및 포트폴리오 가치 based assets 가치 보고된 corresponding 포트폴리오 문항 1.10. 보고 가치 의 assets 포함된 산정 currency 선택됨 1.2. % 의 배출량 산정d using 데이터 obtained 에서 고객/투자대상 (열 7) Such 데이터 obtained 에서 가치사슬 partners (고객 또는 투자대상) 할 수 있습니다 take form 의 주된 활동 데이터 또는 배출량 데이터 산정d 기준 가치사슬 partners. More 정보 이 할 수 있습니다 found Chapter 7, Collecting 데이터, 의 GHG Protocol's Corporate 가치사슬 (Scope 3) Accounting 및 보고ing Standard. 설명하십시오 세부 정보 및 key assumptions used 귀사의 평가ment (열 8) 귀사의 response 해야 합니다 include short description 의 types 및 sources 의 데이터 used measure 영향 의 귀사의 포트폴리오 environment (e.g. 활동 데이터, 배출 factors 또는 GWP values), short description 의 방법론, assumptions 및 모든ocation methods used make 산정s, 및 하나 이상 further 세부 정보 지표 귀사 have used. 세부 정보 방법론 산정 carbon footprinting 및 exposure 지표 please consult TCFD's Supplemental 가이던스 재무 섹터 및/또는 Global GHG Accounting 및 보고ing Standard. 설명 why 지표 was chosen 및 how 범위 has determined 및 whether 귀사 consider it substantive 귀사. 만약 귀사 wish 제공 하나 이상 additional con텍스트 입력 귀사의 산정, 포함 하나 이상 exclusions 내 귀사의 포트폴리오, 귀사 할 수 있습니다 also do 이 열."
     },
     {
       "type": "Ambition",
       "text": "Financial services companies measure and disclose the impact of their portfolios on the environment.",
-      "typeKo": "목표수준",
-      "textKo": "금융 서비스 기업 측정 및 공시 영향 의 그들의 포트폴리오 환경."
+      "typeKo": "목표 수준",
+      "textKo": "금융 서비스 기업 measure 및 공시 영향 의 their 포트폴리오s environment."
     },
     {
       "type": "Explanation of Terms",
       "text": "Avoided emissions: the reduction in emissions achieved by a project compared to a baseline of what would have been emitted in the absence of the project. Project financing for renewable energy projects such as wind or solar energy generation are common, and achieve avoided emissions compared to energy generation using fossil fuels.\n(Portfolio) carbon footprint: total carbon emissions for a portfolio normalized by the market value of the portfolio, expressed in tons CO2e/$M invested.\nCarbon intensity: volume of carbon emissions per million dollars of revenue (carbon efficiency of a portfolio), expressed in tons tCO2e/Million revenue.\nCarbon removals: CO2 sequestered or removed from the atmosphere and stored, preventing its harmful global warming effect.\nConversion: loss of a natural ecosystem as a result of its replacement with agriculture or another land use, or due to a profound and sustained change in the natural ecosystem's species composition, structure, or function.\nDeforestation is one form of conversion (conversion of natural forests)\nConversion includes severe degradation or the introduction of management practices that result in a profound and sustained change in the ecosystem's species composition, structure, or function.\nChange to natural ecosystems that meets this definition is considered to be conversion regardless of whether or not it is legal ( AFi, 2024 ).\nCutoff date: the date after which deforestation or conversion renders a given area or production unit non-compliant with no-deforestation or no-conversion, commitments, policies, goals, targets, or other obligations ( AFi, 2024 ).\nDeforestation: loss of natural forest as a result of: i) conversion to agriculture or other non-forest land use; ii) conversion to a tree plantation; or iii) severe and sustained degradation.\nSevere and sustained degradation (scenario iii in the definition) constitutes deforestation even if the land is not subsequently used for non-forest land use.\nLoss of natural forest that meets this definition is considered to be deforestation regardless of whether or not it is legal.\nThe definition of deforestation signifies gross deforestation of a natural forest where \"gross\" is used in the sense of \"total; aggregate; without deduction for reforestation or other offset\" (adapted from AFi, 2024 ).\nDeforestation- and conversion-free (also referred to as \"no-conversion\"): commodity production, sourcing, or financial investments that do not cause or contribute to deforestation and the conversion of natural ecosystems.\nConversion-free refers to no gross conversion of natural ecosystems, which the Accountability Framework specifies as the appropriate policy and goal on this topic for companies and supply chains.\nDeforestation-free refers to no gross deforestation of natural forests, which the Accountability Framework specifies as the appropriate policy and goal on this topic for companies and supply chains.\nIn the context of the Accountability Framework, deforestation refers to the loss of natural forest (see definition of deforestation).\nThe terms \"no-conversion\", and \"deforestation- and conversion-free\" are used in favor of \"zero-conversion\" because \"zero\" can imply an absolutist approach that may be at odds with the need to sometimes accommodate minimal levels of conversion at the site level in the interest of facilitating optimal conservation and production outcomes (see AFi's definition for minimal level [of deforestation or conversion], 2024 ) (adapted from AFi, 2024 ).\nDeforestation-free (also referred to as: no-deforestation): commodity production, sourcing, or financial investments that do not cause or contribute to deforestation.\nDeforestation-free refers to no gross deforestation of natural forests, which the Accountability Framework specifies as the appropriate policy and goal on this topic for companies and supply chains.\nIn the context of the Accountability Framework, deforestation refers to the loss of natural forest (see definition of deforestation).\nThe terms \"no-deforestation\" and \"deforestation-free\" are used in favor of \"zero deforestation\" because \"zero\" can imply an absolutist approach that may be at odds with the need sometimes to accommodate minimal levels of conversion at the site level in the interest of facilitating optimal conservation and production outcomes (see AFi's definition for minimal level [of deforestation or conversion], 2024) (adapted from AFi, 2024 ).\nExposure to carbon-related assets: the amount or percentage of carbon-related assets in the portfolio expressed in Million revenue or percentage of the current portfolio value.\nCarbon-related assets: The TCFD Annex suggests defining carbon-related assets as those assets tied to the four non-financial groups (1. Energy, 2. Transportation, 3. Materials and Buildings, and 4. Agriculture, Food, and Forest Products) identified by the TCFD.\nEmissions to water: This metric tracks the mass of any solid, liquid or gaseous pollutants or contaminants, such as nitrates and pesticides, released to bodies of water by your organization's counterparties in the reporting year. \nInsurance-associated emissions: absolute insurance-associated emissions (tCO2e) are a supplementary accounting note to the GHG Protocol Scope 3 Category 15 \"Investments\". The Partnership for Carbon Accounting Financials (PCAF) describes insurance associated emissions here .\nFinanced absolute biodiversity footprint (MSA/km2/year) & (PDF/km2/year): impact metrics suggested by TNFD in the sector specific guidance for financial institutions, see page 34 in \"Additional guidance for financial institutions\" .\nMSA: Mean Species Abundance (MSA) estimates ecosystem condition (i.e. intactness) as a function of select anthropogenic pressures on terrestrial and freshwater ecosystems. It measures condition in terms of the average abundance of species in selected groups compared to a natural reference state. For more, refer to TNFD's \"Biodiversity footprinting approaches for financial institutions\" discussion paper.\nOther carbon footprinting and/or exposure metrics: metrics organizations in the financial sector can use to understand how their financial portfolio impacts the climate, as identified by the TCFD and to be used alongside portfolio emission metrics.\nPDF: Potentially Disappeared Fraction (PDF) of species is a metric developed for life cycle impact assessments (LCA) as a measure of local loss of ecosystem condition caused by specific anthropogenic pressures. While PDF is often considered an ecosystem metric, some applications of it are actually more closely related to measures of species extinction risk. For more, refer to TNFD's \"Biodiversity footprinting approaches for financial institutions\" discussion paper.\nWeighted average carbon intensity: portfolio's exposure to carbon-intensive companies, expressed in tons CO2e/Million revenue. This is the metric recommended by the TCFD.",
       "typeKo": "용어 설명",
-      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
+      "textKo": "Avoided 배출량: reduction 배출량 achieved 기준 project compared baseline 의 what would have emitted absence 의 project. Project financing renewable 에너지 projects such wind 또는 solar 에너지 generation common, 및 achieve avoided 배출량 compared 에너지 generation using fossil 연료. (포트폴리오) carbon footprint: total carbon 배출량 포트폴리오 아니요rmalized 기준 시장 가치 의 포트폴리오, expressed tons CO2e/$M invested. Carbon intensity: volume 의 carbon 배출량 per million dollars 의 revenue (carbon efficiency 의 포트폴리오), expressed tons tCO2e/Million revenue. Carbon removals: CO2 sequestered 또는 removed 에서 atmosphere 및 stored, preventing its harmful global warming effect. Conversion: loss 의 natural ecosystem result 의 its repla시멘트 agriculture 또는 an기타 land use, 또는 due profound 및 sustained change natural ecosystem's species composition, structure, 또는 function. De산림ation one form 의 conversion (conversion 의 natural 산림) Conversion includes severe degradation 또는 소개 의 관리 practices result profound 및 sustained change ecosystem's species composition, structure, 또는 function. Change natural ecosystems meets 이 definition considered conversion regardless 의 whether 또는 아니요t it legal (AFi, 2024). Cutoff 날짜 입력: 날짜 입력 after de산림ation 또는 conversion renders given area 또는 production unit 아니요n-compliant 아니요-de산림ation 또는 아니요-conversion, commitments, 정책, goals, 목표, 또는 기타 obligations (AFi, 2024). De산림ation: loss 의 natural 산림 result 의: i) conversion agriculture 또는 기타 아니요n-산림 land use; ii) conversion tree plantation; 또는 iii) severe 및 sustained degradation. Severe 및 sustained degradation (시나리오 iii definition) constitutes de산림ation even 만약 land 아니요t subsequently used 아니요n-산림 land use. Loss 의 natural 산림 meets 이 definition considered de산림ation regardless 의 whether 또는 아니요t it legal. definition 의 de산림ation signifies gross de산림ation 의 natural 산림 경우 \"gross\" used sense 의 \"total; aggregate; without deduction re산림ation 또는 기타 offset\" (adapted 에서 AFi, 2024). De산림ation- 및 conversion-free (also referred \"아니요-conversion\"): commodity production, sourcing, 또는 재무 investments do 아니요t cause 또는 contribute de산림ation 및 conversion 의 natural ecosystems. Conversion-free refers 아니요 gross conversion 의 natural ecosystems, Accountability Framework specifies appropriate 정책 및 goal 이 topic 기업 및 공급망s. De산림ation-free refers 아니요 gross de산림ation 의 natural 산림, Accountability Framework specifies appropriate 정책 및 goal 이 topic 기업 및 공급망s. con텍스트 입력 의 Accountability Framework, de산림ation refers loss 의 natural 산림 (see definition 의 de산림ation). terms \"아니요-conversion\", 및 \"de산림ation- 및 conversion-free\" used favor 의 \"zero-conversion\" because \"zero\" 할 수 있습니다 imply absolutist approach 할 수 있습니다 at odds need sometimes accommo날짜 입력 minimal levels 의 conversion at site level interest 의 facilitating optimal conservation 및 production outcomes (see AFi's definition minimal level [의 de산림ation 또는 conversion], 2024) (adapted 에서 AFi, 2024). De산림ation-free (also referred: 아니요-de산림ation): commodity production, sourcing, 또는 재무 investments do 아니요t cause 또는 contribute de산림ation. De산림ation-free refers 아니요 gross de산림ation 의 natural 산림, Accountability Framework specifies appropriate 정책 및 goal 이 topic 기업 및 공급망s. con텍스트 입력 의 Accountability Framework, de산림ation refers loss 의 natural 산림 (see definition 의 de산림ation). terms \"아니요-de산림ation\" 및 \"de산림ation-free\" used favor 의 \"zero de산림ation\" because \"zero\" 할 수 있습니다 imply absolutist approach 할 수 있습니다 at odds need sometimes accommo날짜 입력 minimal levels 의 conversion at site level interest 의 facilitating optimal conservation 및 production outcomes (see AFi's definition minimal level [의 de산림ation 또는 conversion], 2024) (adapted 에서 AFi, 2024). Exposure carbon-related assets: amount 또는 percentage 의 carbon-related assets 포트폴리오 expressed Million revenue 또는 percentage 의 현재 포트폴리오 가치. Carbon-related assets: TCFD Annex suggests defining carbon-related assets 해당 assets tied four 아니요n-재무 groups (1. 에너지, 2. Transportation, 3. Materials 및 Buildings, 및 4. Agriculture, Food, 및 산림 Products) 식별된 기준 TCFD. 배출량 수자원: 이 지표 tracks mass 의 하나 이상 solid, liquid 또는 gaseous pollutants 또는 contaminants, such nitrates 및 pesticides, released bodies 의 수자원 기준 귀사의 counterparties 보고연도. Insurance-associated 배출량: absolute insurance-associated 배출량 (tCO2e) supplementary accounting 아니요te GHG Protocol Scope 3 Category 15 \"Investments\". Partnership Carbon Accounting Financials (PCAF) 설명s insurance associated 배출량 here. Financed absolute 생물다양성 footprint (MSA/km2/연도) & (PDF/km2/연도): 영향 지표 suggested 기준 TNFD 섹터 specific 가이던스 재무 institutions, see page 34 \"Additional 가이던스 재무 institutions\". MSA: Mean Species Abundance (MSA) 추정s ecosystem condition (i.e. intactness) function 의 선택 anthropogenic pressures terrestrial 및 fresh수자원 ecosystems. It measures condition terms 의 average abundance 의 species 선택됨 groups compared natural reference 명시. more, refer TNFD's \"생물다양성 footprinting approaches 재무 institutions\" discussion paper. 기타 carbon footprinting 및/또는 exposure 지표: 지표 조직 재무 섹터 할 수 있습니다 use understand how their 재무 포트폴리오 영향 기후, 식별된 기준 TCFD 및 used alongside 포트폴리오 배출 지표. PDF: Potenti모든y Disappeared Fraction (PDF) 의 species 지표 developed life cycle 영향 평가ments (LCA) measure 의 local loss 의 ecosystem condition caused 기준 specific anthropogenic pressures. While PDF often considered ecosystem 지표, some applications 의 it actu모든y more closely related measures 의 species extinction 리스크. more, refer TNFD's \"생물다양성 footprinting approaches 재무 institutions\" discussion paper. Weighted average carbon intensity: 포트폴리오's exposure carbon-intensive 기업, expressed tons CO2e/Million revenue. 이 지표 recommended 기준 TCFD."
     }
   ],
   "points": [
@@ -219,7 +219,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) 행 경우 '기후변화' 열에서 선택 '환경이슈' 및 다음 중 하나 이상 선택 열 ‘포트폴리오': - ‘은행(은행)' - ‘투자(자산운용사)' - ‘투자(자산소유자)' 표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다 (제외 열 '% 의 배출량 산정됨 사용 데이터 확보됨 에서 고객/투자대상' 및 '총 가치 의 자산 포함된 산정'). 이 경로에서 최대 7/7점을 받을 수 있습니다. 또는 경로 B) 행 경우 '기후변화' 열에서 선택 '환경이슈' 및 ‘보험 인수(보험사)'열에서 선택 ‘포트폴리오'. 표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다 (제외 열 '% 의 포트폴리오 포함된 관련 총 포트폴리오 가치' 및 '% 의 배출량 산정됨 사용 데이터 확보됨 에서 고객/투자대상' 및 '총 가치 의 자산 포함된 산정'). 이 경로에서 최대 7/7점을 받을 수 있습니다. 또는 해당 없음 경로) '기후변화' 아님 열에서 선택 '환경이슈' 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
+      "criteriaKo": "경로) 행 경우 '기후변화' 열에서 선택 '환경이슈' 및 다음 중 하나 이상 선택 열 ‘포트폴리오': - ‘은행(은행)' - ‘투자(자산운용사)' - ‘투자(자산소유자)' 점 부여됨 per 완료 셀 proportion 숫자 입력 의 셀 displayed (제외 열 '% 의 배출량 산정d using 데이터 obtained 에서 고객/투자대상' 및 'Total 가치 의 assets 포함된 산정'). 이 경로에서 최대 7/7점을 받을 수 있습니다. 또는 경로 B) 행 경우 '기후변화' 열에서 선택 '환경이슈' 및 ‘보험 인수(보험사)'열에서 선택 ‘포트폴리오'. 점 부여됨 per 완료 셀 proportion 숫자 입력 의 셀 displayed (제외 열 '% 의 포트폴리오 포함된 relation total 포트폴리오 가치' 및 '% 의 배출량 산정d using 데이터 obtained 에서 고객/투자대상' 및 'Total 가치 의 assets 포함된 산정'). 이 경로에서 최대 7/7점을 받을 수 있습니다. 또는 해당 없음 경로) '기후변화' 아님 열에서 선택 '환경이슈' 하나 이상 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -228,8 +228,8 @@
       "criteria": "ROUTE A)\nFor rows where 'Climate change' is selected in column 'Environmental issue' AND any of the following selected in column ‘Portfolio':\n- ‘Banking (Bank)'\n- ‘Investing (Asset manager)'\n- ‘Investing (Asset owner)'\nPoints will be awarded per completed row in proportion to the number of rows disclosed (excluding column '% of emissions calculated using data obtained from clients/investees' AND 'Total value of assets included in the calculation').\nA maximum of 1/1 point is available for this route.\nROUTE B)\nFor rows where 'Climate change' is selected in column 'Environmental issue' AND ‘Insurance underwriting (insurance company)' selected in column ‘Portfolio'\nPoints will be awarded per completed row in proportion to the number of rows displayed (excluding columns '% of portfolio covered in relation to total portfolio value' AND '% of emissions calculated using data obtained from clients/investees' AND 'Total value of assets included in the calculation').\nA maximum of 1/1 point is available for this route.\nOR\nNOT APPLICABLE ROUTE)\n'Climate change' NOT selected in column 'Environmental issue' in any row - 0/0 points\nA maximum of 0/0 points is available for this route.",
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
-      "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "levelKo": "",
+      "criteriaKo": "경로) 행 경우 '기후변화' 열에서 선택 '환경이슈' 및 다음 중 하나 이상 선택 열 ‘포트폴리오': - ‘은행(은행)' - ‘투자(자산운용사)' - ‘투자(자산소유자)' 점 부여됨 per 완료 행 proportion 숫자 입력 의 행 공시된 (제외 열 '% 의 배출량 산정d using 데이터 obtained 에서 고객/투자대상' 및 'Total 가치 의 assets 포함된 산정'). 이 경로에서 최대 1/1점을 받을 수 있습니다. 경로 B) 행 경우 '기후변화' 열에서 선택 '환경이슈' 및 ‘보험 인수(보험사)'열에서 선택 ‘포트폴리오' 점 부여됨 per 완료 행 proportion 숫자 입력 의 행 displayed (제외 열 '% 의 포트폴리오 포함된 relation total 포트폴리오 가치' 및 '% 의 배출량 산정d using 데이터 obtained 에서 고객/투자대상' 및 'Total 가치 의 assets 포함된 산정'). 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 해당 없음 경로) '기후변화' 아님 열에서 선택 '환경이슈' 하나 이상 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -239,7 +239,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 경로) 행 경우 '기후변화' 열에서 선택 '환경이슈' 및 다음 중 하나 이상 선택 열 ‘포트폴리오': - ‘은행(은행)' - ‘투자(자산운용사)' - ‘투자(자산소유자)' i) 수치 초과 보다 0 제공된 열 '% 의 배출량 산정됨 사용 데이터 확보됨 에서 고객/투자대상' 및 수치 초과 보다 0 제공된 열 '지표 가치 보고연도' 및 수치 초과 보다 0 제공된 열 '% 의 포트폴리오 포함된 관련 총 포트폴리오 가치' - 1 점 ii) 다음을 제외한 선택지 중 하나 '회피된 배출량 금융지원 (tCO2e)' 및 해당 '기타, 직접 입력' 선택지 열에서 선택 '포트폴리오 지표' - 1 점 이 경로에서 최대 2/2점을 받을 수 있습니다. 1개 행 평가. 또는 경로 B) 행 경우 '기후변화' 열에서 선택 '환경이슈' 및 ‘보험 인수(보험사)'열에서 선택 ‘포트폴리오': i) 수치 초과 보다 0 제공된 열 '% 의 배출량 산정됨 사용 데이터 확보됨 에서 고객/투자대상' 및 수치 초과 보다 0 제공된 열 '지표 가치 보고연도' - 1 점 ii) 다음을 제외한 선택지 중 하나 '회피된 배출량 금융지원 (tCO2e)' 및 해당 '기타, 직접 입력' 선택지 열에서 선택 '포트폴리오 지표' - 1 점 이 경로에서 최대 2/2점을 받을 수 있습니다. 1개 행 평가. 해당 없음 경로) '기후변화' 아님 열에서 선택 '환경이슈' 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 경로) 행 경우 '기후변화' 열에서 선택 '환경이슈' 및 다음 중 하나 이상 선택 열 ‘포트폴리오': - ‘은행(은행)' - ‘투자(자산운용사)' - ‘투자(자산소유자)' i) 수치 greater than 0 제공된 열 '% 의 배출량 산정d using 데이터 obtained 에서 고객/투자대상' 및 수치 greater than 0 제공된 열 '지표 가치 보고연도' 및 수치 greater than 0 제공된 열 '% 의 포트폴리오 포함된 relation total 포트폴리오 가치' - 1 점 ii) 다음을 제외한 선택지 중 하나 'Avoided 배출량 financed (tCO2e)' 및 하나 이상 '기타, 직접 입력' 선택지 열에서 선택 '포트폴리오 지표' - 1 점 이 경로에서 최대 2/2점을 받을 수 있습니다. 1개 행 평가. 또는 경로 B) 행 경우 '기후변화' 열에서 선택 '환경이슈' 및 ‘보험 인수(보험사)'열에서 선택 ‘포트폴리오': i) 수치 greater than 0 제공된 열 '% 의 배출량 산정d using 데이터 obtained 에서 고객/투자대상' 및 수치 greater than 0 제공된 열 '지표 가치 보고연도' - 1 점 ii) 다음을 제외한 선택지 중 하나 'Avoided 배출량 financed (tCO2e)' 및 하나 이상 '기타, 직접 입력' 선택지 열에서 선택 '포트폴리오 지표' - 1 점 이 경로에서 최대 2/2점을 받을 수 있습니다. 1개 행 평가. 해당 없음 경로) '기후변화' 아님 열에서 선택 '환경이슈' 하나 이상 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -249,7 +249,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로) 행 경우 '기후변화' 열에서 선택 '환경이슈': 전체 관리 점수수수 부여됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 해당 없음 경로) '기후변화' 아님 열에서 선택 '환경이슈' 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
+      "criteriaKo": "경로) 행 경우 '기후변화' 열에서 선택 '환경이슈': Full 관리 점수수수 부여됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 해당 없음 경로) '기후변화' 아님 열에서 선택 '환경이슈' 하나 이상 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
     }
   ],
   "change": {
@@ -270,16 +270,16 @@
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
     "change_statusKo": "경미한 변경",
-    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "detail_change_typesKo": "New 드롭다운 선택지, Change conditional logic",
+    "change_summaryKo": "드롭다운 선택지 \"Weighted average carbon intensity (tco2 / mln EVIC)\" has added. Conditional logic fix - 드롭다운s presented depending 드롭다운 열에서 선택 1 \"포트폴리오\"",
+    "scoring_change_summaryKo": "CC/F/W 금융 서비스 공시 & 인지 • 열 '% 의 포트폴리오 포함된 relation total 포트폴리오 가치' was 이전ly excluded 2025 아니요w scored. • 경로 added ‘은행(은행)', ‘Investing (Assent 관리r)', ‘투자(자산소유자)'. • 경로 B added ‘보험 인수(보험사)'. Driven 기준 alignment ISSB S2 score assets 모든 재무 institutions except insurance. CC/F/W 금융 서비스 관리 • Additional check added 경로 criterion i) 평가 whether 수치 greater than 0 제공된 열 '% 의 포트폴리오 포함된 relation total 포트폴리오 가치'. Driven 기준 alignment ISSB S2 score assets 모든 재무 institutions except insurance. • 경로 added ‘은행(은행)', ‘Investing (Assent 관리r)', ‘투자(자산소유자)'. • 경로 B added ‘보험 인수(보험사)'.",
     "daml_summaryKo": "금융 서비스: D 7/7 | 1/1 | M 2/2 | L 1/1",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "Changed 및 reflected",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "포트폴리오가 환경에 미치는 영향을 추적하기 위해 사용하는 기타 지표의 세부 정보를 제공하십시오."
+    "q2025_textKo": "제공 세부 정보 의 기타 지표 used track 영향 의 귀사의 포트폴리오 environment."
   },
   "defaultPoints": {
     "D": "7/7",
@@ -291,35 +291,35 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 재무 services",
+  "moduleTitleKo": "환경 performance - 금융 서비스",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "수자원, 생물다양성, 기후 변경, 산림",
+  "issueTagsKo": "수자원, 생물다양성, 기후변화, 산림",
   "sectorTagsKo": "금융 서비스",
-  "simpleHelpKo": "이 문항은 '포트폴리오가 환경에 미치는 영향을 추적하기 위해 사용하는 기타 지표의 세부 정보를 제공하십시오.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항 ack아니요wledges addition GHG 배출량 accounting, there 숫자 입력 의 기타 지표 조직 재무 섹터 할 수 있습니다 use understand how their 포트폴리오 영향 environment. 지표 measuring 포트폴리오 영향 산림, 수자원 및 생물다양성 their infancy, so 이 문항 모든ows 재무 institutions 설명 how they 평가 영향 의 their 포트폴리오 environment. 이 문항 모든ows 귀사 express 영향 의 귀사의 포트폴리오 environment using 기타 지표 식별된 기준 TCFD 또는 기타 leading 환경 frameworks 및 standards.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "2025 Korean form + CDP glossary repair"
 }

@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Break down your organization's total gross global Scope 2 emissions by sector production activity in metric tons CO2e.",
-  "questionKo": "귀사의 총 범위 2 배출량 합계를 부문별 생산 활동별로 분석하십시오",
+  "questionKo": "귀사의 총 Scope 2 배출량 합계를 부문별 생산 활동별로 분석하십시오. 구분 배점 평가요소 공시 4/4 경로 A) 7.3 번 문항의 ‘Scope 2- 시장 기반 ‘ 열에서 ‘ 사업장이 없습니다 ‘ 또는 ‘ 사업장이 있지만 Scope 2 배출량을 보고하지 못합니다 ‘ 를 선택한 경우: ‘Scope 2",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Cement production activities",
-      "titleKo": "시멘트 생산 활동"
+      "titleKo": "생산 활동"
     },
     {
       "order": 2,
@@ -30,12 +30,12 @@
     {
       "order": 4,
       "title": "Metals and mining production activities",
-      "titleKo": "금속 및 광업 생산 활동"
+      "titleKo": "및 광업 생산 활동"
     },
     {
       "order": 5,
       "title": "Oil and gas production activities (upstream)",
-      "titleKo": "석유 및 가스 생산 활동 (업스트림)"
+      "titleKo": "석유 및 가스 생산 활동 ()"
     },
     {
       "order": 6,
@@ -45,7 +45,7 @@
     {
       "order": 7,
       "title": "Oil and gas production activities (downstream)",
-      "titleKo": "석유 및 가스 생산 활동 (다운스트림)"
+      "titleKo": "석유 및 가스 생산 활동 ()"
     },
     {
       "order": 8,
@@ -55,7 +55,7 @@
     {
       "order": 9,
       "title": "Transport OEM activities",
-      "titleKo": "운송 활동"
+      "titleKo": "운송 OEM 활동"
     },
     {
       "order": 10,
@@ -72,7 +72,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 2, 기준, 미터톤 CO2e",
+      "textKo": "Scope 2, 위치/지역-기반, 지표 톤 CO2e",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -87,7 +87,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 2, 시장-기준 (만약 해당되는 경우), 미터톤 CO2e",
+      "textKo": "Scope 2, 시장-기반 (만약 해당), 지표 톤 CO2e",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -102,7 +102,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의견",
+      "textKo": "",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -121,7 +121,7 @@
       "type": "Requested Content",
       "text": "General \nThis question requests gross global Scope 2 emissions (location- and market-based) by sector production activity, i.e. aggregated across all business divisions and/or facilities. \nThis question is based on question 7.7 but is sector specific. Emissions deriving from the generation of electricity, steam, heat, and cooling that is purchased or acquired for consumption outside of your presented sector, should not be reported here. See the guidance in 7.19 for sector boundary definition. \nIf your organization only operates within the presented sector, then the emissions figures you report here are still likely to be lower than the figures you reported in 7.7. This is because for this question CDP encourages you to exclude activities that are not dependent on being in the presented high-intensity sector. The purpose is to improve the consistency and accuracy of sector emissions reporting. \nIf your organization operates in or owns assets across multiple sectors, then you should report emissions only for the presented sectors business division(s). Therefore, the figures you report here should be lower than the figures you reported in 7.7. \nIf your organization is active across multiple high intensity sectors, complete this table as it is presented. \nEmissions must be reported in gross, not net figures. Therefore, negative numbers are not allowed. \nEmission figures should be for the reporting year only (as defined by your answer to 1.4). \nIf your organization imports electricity, steam, heat or cooling from an entity which is outside the sector boundary, but is nonetheless owned by the wider organization, then you should count for this here as a Scope 2 emission. Because the emissions occur outside of your Scope 1 boundary, they are Scope 2 emissions. \nEmissions estimates are acceptable, as long as there is transparency with regards to the estimation approach (what is estimated and how) and the data used for the analysis is adequate to support the objectives of the inventory. \nFor more information on how to report Scope 2 emissions, see the Technical Note on \"Accounting of Scope 2 emissions\" , where you can find guidance on emission factors and the types that can be applied. Please also note that CH4 and N2O from electricity production should be included in the emissions factor calculation. \nFor further information, see GHG Protocol Scope 2 Guidance . \nWhen accounting for your Scope 2 emissions, and should you need more information than provided in this guidance, you may want to consult your electricity suppliers, carbon advisor or verifier/assurer. \nScope 2, location-based (metric tons CO2e) (column 2) \nReport your organization's total gross global Scope 2 emissions in CO2-equivalent for sector production activity listed in column 1, on a location-based method, i.e. reflecting the average emissions intensity of grids on which energy consumption occurs. \nScope 2, market-based (if applicable), metric tons CO2e (column 3) \nReport your organization's total gross global Scope 2 emissions in CO2-equivalent for sector production activity listed in column 1, on a market-based method, i.e. reflecting emissions from electricity that companies have purposefully chosen (or their lack of choice). \nComment (column 4) (optional) \nYou can use this text field to enter any additional relevant information. \nNote for aviation sector \nInclude emissions associated with activities in the aviation sector in row \"Transport services activities\".\nNote for oil and gas sector \nThis question splits oil and gas activities into upstream, midstream and downstream as follows: \nRows will appear in this question corresponding to your selections in question 1.19\nUpstream includes exploration, development, and production of oil and gas. \nMidstream includes the transportation, storage, and distribution of crude oil and natural gas. \nDownstream includes refining, processing, distribution, and marketing of products derived. For this question, CDP also includes \nChemicals in this category, which includes the manufacture, distribution and marketing of chemical products derived from oil and gas (petrochemicals). \nTransport, storage, and distribution activities considered a defining part of the oil and gas sector value chain, e.g. midstream activities, should be included for oil and gas production activities. \nProjects considered an essential part of the oil and gas sector, such as exploration and extraction projects, should be included for oil and gas production activities.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -235,7 +235,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -245,7 +245,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -255,7 +255,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -275,7 +275,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -285,7 +285,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -295,7 +295,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -315,7 +315,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -325,7 +325,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -335,7 +335,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -355,7 +355,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -365,7 +365,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -375,7 +375,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -395,7 +395,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -405,7 +405,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -415,7 +415,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -435,7 +435,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -445,7 +445,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -455,7 +455,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -475,7 +475,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -485,7 +485,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -495,7 +495,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -515,7 +515,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -525,7 +525,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -535,7 +535,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -555,7 +555,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -565,7 +565,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -575,12 +575,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "귀사의 총 범위 2 배출량 합계를 부문별 생산 활동별로 분석하십시오",
+    "question_ko": "귀사의 총 Scope 2 배출량 합계를 부문별 생산 활동별로 분석하십시오. 구분 배점 평가요소 공시 4/4 경로 A) 7.3 번 문항의 ‘Scope 2- 시장 기반 ‘ 열에서 ‘ 사업장이 없습니다 ‘ 또는 ‘ 사업장이 있지만 Scope 2 배출량을 보고하지 못합니다 ‘ 를 선택한 경우: ‘Scope 2",
     "q2025": "Q7.21",
     "q2025_text": "Break down your organization's total gross global Scope 2 emissions by sector production activity in metric tons CO2e.",
     "change_status": "No change - 2026 source verified",
@@ -599,13 +599,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "daml_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "귀사의 총 범위 2 배출량 합계를 부문별 생산 활동별로 분석하십시오"
+    "q2025_textKo": "귀사의 총 Scope 2 배출량 합계를 부문별 생산 활동별로 분석하십시오. 구분 배점 평가요소 공시 4/4 경로 A) 7.3 번 문항의 ‘Scope 2- 시장 기반 ‘ 열에서 ‘ 사업장이 없습니다 ‘ 또는 ‘ 사업장이 있지만 Scope 2 배출량을 보고하지 못합니다 ‘ 를 선택한 경우: ‘Scope 2"
   },
   "defaultPoints": {
     "D": "4/4",
@@ -635,17 +635,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "석유 및 가스, 석탄, 항공, 화학, 금속 및 광업, 운송 서비스, 철강, 운송 OEM, 시멘트",
-  "simpleHelpKo": "이 문항은 '귀사의 총 범위 2 배출량 합계를 부문별 생산 활동별로 분석하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '귀사의 총 Scope 2 배출량 합계를 부문별 생산 활동별로 분석하십시오. 구분 배점 평가요소 공시 4/4 경로 A) 7.3 번 문항의 ‘Scope 2- 시장 기반 ‘ 열에서 ‘ 사업장이 없습니다 ‘ 또는 ‘ 사업장이 있지만 Scope 2 배출량을 보고하지 못합니다 ‘ 를 선택한 경우: ‘Scope 2'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

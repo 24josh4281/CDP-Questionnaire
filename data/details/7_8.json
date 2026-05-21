@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Purchased goods and services",
-      "titleKo": "및 서비스"
+      "titleKo": "구매한 및 서비스"
     },
     {
       "order": 2,
@@ -25,17 +25,17 @@
     {
       "order": 3,
       "title": "Fuel-and-energy-related activities (not included in Scope 1 or 2)",
-      "titleKo": "연료-및-에너지-관련 활동 (아니요t 포함된 범위 1 또는 2)"
+      "titleKo": "연료-및-에너지- 활동 (아님 포함된 Scope 1 또는 2)"
     },
     {
       "order": 4,
       "title": "Upstream transportation and distribution",
-      "titleKo": "업스트림 및"
+      "titleKo": "운송 및 유통"
     },
     {
       "order": 5,
       "title": "Waste generated in operations",
-      "titleKo": "생산한 운영사업장"
+      "titleKo": "생산한 운영"
     },
     {
       "order": 6,
@@ -50,32 +50,32 @@
     {
       "order": 8,
       "title": "Upstream leased assets",
-      "titleKo": "업스트림 자산"
+      "titleKo": "자산"
     },
     {
       "order": 9,
       "title": "Downstream transportation and distribution",
-      "titleKo": "다운스트림 및"
+      "titleKo": "운송 및 유통"
     },
     {
       "order": 10,
       "title": "Processing of sold products",
-      "titleKo": "프로세스ing 의"
+      "titleKo": "프로세스 판매된 제품"
     },
     {
       "order": 11,
       "title": "Use of sold products",
-      "titleKo": "사용 의"
+      "titleKo": "사용 판매된 제품"
     },
     {
       "order": 12,
       "title": "End of life treatment of sold products",
-      "titleKo": "의 의"
+      "titleKo": "판매된 제품"
     },
     {
       "order": 13,
       "title": "Downstream leased assets",
-      "titleKo": "다운스트림 자산"
+      "titleKo": "자산"
     },
     {
       "order": 14,
@@ -90,12 +90,12 @@
     {
       "order": 16,
       "title": "Other (upstream)",
-      "titleKo": "기타 (업스트림)"
+      "titleKo": "기타 ()"
     },
     {
       "order": 17,
       "title": "Other (downstream)",
-      "titleKo": "기타 (다운스트림)"
+      "titleKo": "기타 ()"
     }
   ],
   "columns": [
@@ -113,15 +113,15 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "",
+      "textKo": "상태",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "관련성 있음, 산정d",
-        "관련성 있음, 아니요t 산정d",
-        "관련 없음, 산정d",
-        "관련 없음, 제공된",
-        "아니요t 평가된"
+        ", 계산된",
+        ", 아님 계산된",
+        "아님, 계산된",
+        "아님, 제공된",
+        "아님 평가된"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -134,7 +134,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "배출량 보고연도 (미터톤 CO2e)",
+      "textKo": "배출량 보고연도 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -171,22 +171,22 @@
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "자산-",
-        "평균 데이터",
-        "평균 제품",
-        "평균",
-        "",
-        "",
-        "연료-",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "공급업체-",
-        "",
-        "방법론 직접 사용 배출량, 직접 입력",
-        "방법론 사용 배출량, 직접 입력",
+        "자산-구체적인 방법",
+        "평균 데이터 방법",
+        "평균 제품 방법",
+        "평균 -기반 방법",
+        "-기반 방법",
+        "-구체적인 방법",
+        "연료-기반 방법",
+        "방법",
+        "투자-구체적인 방법",
+        "-구체적인 방법",
+        "-구체적인 방법",
+        "-기반 방법",
+        "공급업체-구체적인 방법",
+        "-유형-구체적인 방법",
+        "방법론 에 대한 사용 배출량, 다음을",
+        "방법론 에 대한 간접 사용 배출량, 다음을",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "해당하는 항목 모두 선택",
@@ -200,7 +200,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의 배출량 산정d 사용 데이터 에서 공급업체 또는 가치사슬",
+      "textKo": "비율 배출량 계산된 사용하여 데이터 에서 공급업체 또는 가치사슬",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -223,15 +223,15 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "이유 이 아니요t 관련성 있음",
+      "textKo": "에 대한 이 카테고리 아님",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "해당 없음 귀사의 조직's 활동",
-        "배출량 포함된 범위 1 또는 2",
-        "배출량 포함된 an기타 범위 3, 직접 입력",
-        "배출량 관련 없음 섹터 귀사의 조직 방법론 문항 7.2",
-        "배출량 에서 경우 사용 알 수 없음",
+        "아님 해당 당사의 조직's 활동",
+        "배출량 포함 1 또는 2",
+        "배출량 포함 3 카테고리, 다음을",
+        "배출량 아님 섹터 해당 당사의 조직 따라 방법론 문항 7.2",
+        "배출량 에서 제품 여기서 -사용 알 수 없음",
         "배출량 추정",
         "기타, 직접 입력"
       ],
@@ -276,7 +276,7 @@
     {
       "type": "Example Response",
       "text": "Example Response\nExample response for the selection of \"Relevant, calculated\" in column 2. \nScope 3 category\nEvaluation status\nEmissions in reporting year (metric tons CO2e)\nEmissions calculation methodology\nPercentage of emissions calculated using data obtained from suppliers or value chain partners\nReason for this category not being relevant \nPlease explain\nDownstream transportation and distribution \nRelevant, calculated \n486,000 \nDistance-based method \n80 \nN/A \nTo calculate upstream product transportation and distribution we used shipping weight and distance data provided by our logistics division based on fiscal year 2021 shipment data, which provides resolution to final destinations at the UK county level. \nEmissions were calculated using UK Government GHG Conversion Factors for Company Reporting, using a kgCO2e per tonne.km emission factor for an average-laden HGV. \nWhere data was not available, final truck shipment from distribution centers to final destinations was estimated as 200 kilometers. \nExample response for the selection of \"Not relevant, explanation provided\" in column 2. \nScope 3 category\nEvaluation status\nEmissions in reporting year (metric tons CO2e)\nEmissions calculation methodology\nPercentage of emissions calculated using data obtained from suppliers or value chain partners\nReason for this category not being relevant \nPlease explain\nFranchises \nNot relevant, explanation provided \nN/A \nN/A \nN/A \nNot applicable to our organization's activities \nWe do not have any franchises, so this category is not relevant to our organization.",
-      "typeKo": "Example 응답",
+      "typeKo": "예시 응답",
       "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
@@ -1279,29 +1279,29 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
-      "versionKo": "Released April 22, 2026"
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 문항naire Changes Tracker 2026",
-      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP Full Corporate Scoring Changes 2026",
-      "versionKo": "Released April 30, 2026"
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
-      "versionKo": "Released April 30, 2026"
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
   "issueTagsKo": "기후 변경",
@@ -1309,5 +1309,5 @@
   "simpleHelpKo": "이 문항은 '귀사의 글로벌 범위 3 총 배출량을 계산하여 예외 사항을 공개하고 설명하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

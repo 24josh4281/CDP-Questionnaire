@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Break down your total gross global Scope 1 and Scope 2 emissions by greenhouse gas type and provide the source of each used global warming potential (GWP).",
-  "questionKo": "귀사의 글로벌 총 범위 1 배출량을 온실가스 유형별로 세분화하고, 사용한 각 지구온난화지수(GWP)의 출처를 제공하십시오",
+  "questionKo": "온실가스 유형별로 전 세계 총 Scope 1 배출량을 세분화하고 사용된 각 지구온난화지수 (GWP) 의 출처를 제공하십시오. `",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "1행"
+      "titleKo": "행 1"
     }
   ],
   "columns": [
@@ -36,17 +36,17 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "온실가스",
+      "textKo": "가스",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "CO2",
-        "CH4",
-        "N2O",
         "",
         "",
-        "SF6",
-        "NF3",
+        "",
+        "",
+        "",
+        "",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -60,7 +60,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 1 배출량 (미터톤 의 선택됨 가스)",
+      "textKo": "Scope 1 배출량 (지표 톤 선택됨 가스)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -75,7 +75,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 1 배출량 (미터톤 의 CO2e)",
+      "textKo": "Scope 1 배출량 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -90,7 +90,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 2 기준 배출량 (미터톤 의 선택됨 가스)",
+      "textKo": "Scope 2 위치/지역-기반 배출량 (지표 톤 선택됨 가스)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -105,7 +105,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 2 기준 배출량 (미터톤 의 CO2e)",
+      "textKo": "Scope 2 위치/지역-기반 배출량 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -120,7 +120,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 2 시장-기준 배출량 (미터톤 의 선택됨 가스)",
+      "textKo": "Scope 2 시장-기반 배출량 (지표 톤 선택됨 가스)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -135,7 +135,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 2 시장-기준 배출량 (미터톤 의 CO2e)",
+      "textKo": "Scope 2 시장-기반 배출량 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -162,20 +162,20 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "GWP",
+      "textKo": "GWP 참조",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "평가 보고 (AR6 - 100 연도)",
-        "평가 보고 (AR5 - 100 연도)",
-        "평가 보고 (AR4 - 100 연도)",
-        "평가 보고 (- 100 연도)",
-        "평가 보고 (- 100 연도)",
-        "평가 보고 (AR6 - 20 연도)",
-        "평가 보고 (AR5 - 20 연도)",
-        "평가 보고 (AR4 - 20 연도)",
-        "평가 보고 (- 20 연도)",
-        "평가 보고 (- 20 연도)",
+        "IPCC 평가 보고 (- 100 연도)",
+        "IPCC 평가 보고 (- 100 연도)",
+        "IPCC 평가 보고 (- 100 연도)",
+        "IPCC 제3자 평가 보고 (- 100 연도)",
+        "IPCC 평가 보고 (- 100 연도)",
+        "IPCC 평가 보고 (- 20 연도)",
+        "IPCC 평가 보고 (- 20 연도)",
+        "IPCC 평가 보고 (- 20 연도)",
+        "IPCC 제3자 평가 보고 (- 20 연도)",
+        "IPCC 평가 보고 (- 20 연도)",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -193,13 +193,13 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes, both Scope 1 and Scope 2 emissions\", \"Yes, Scope 1 emissions only\" or \"Yes, Scope 2 emissions only\" in response to to column 1 \"Emissions breakdown by greenhouse gas type\" in 7.15.",
       "typeKo": "문항 의존성",
-      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
+      "textKo": "이 문항 만 표시됩니다 만약 귀사 선택 \"예, 모두 Scope 1 및 Scope 2 배출량\", \"예, Scope 1 배출량 만\" 또는 \"예, Scope 2 배출량 만\" 응답 열 1 \"배출량 세분화 기준 온실가스 유형\" 7.15."
     },
     {
       "type": "Requested Content",
       "text": "General \nPlease report your organization's emissions of the Kyoto greenhouse gases, which are:\nCarbon dioxide (CO2);\nMethane (CH4);\nNitrous oxide (N2O);\nHydrofluorocarbon family of gases (HFCs);\nPerfluorocarbon family of gases (PFCs);\nSulfur hexafluoride (SF6).\nNitrogen trifluoride (NF3).\nThe total value for emissions reported in column 3 \"Scope 1 emissions (metric tons of CO2e)\" should equal the value for gross global Scope 1 emissions reported in 7.6.\nThe total value for emissions reported in column 5 \"Scope 2 location-based emissions (metric tons of CO2e)\", should equal the value for gross global Scope 2, location-based emissions reported in 7.7. \nThe total value for emissions reported in column 7 \"Scope 2 market-based emissions (metric tons of CO2e)\", should equal the value gross global Scope 2, market-based emissions reported in 7.7. \nGreenhouse gas (column 1) \nYou can add rows for multiple greenhouse gas types and we request that you also add a row to report CO2.\nScope 1 and 2 (location and market-based) emissions (metric tons of selected gas) (columns 2, 4 and 6) \nReport your organization's emissions of the greenhouse gas selected in column 1 \"Greenhouse gas\" in metric tons (i.e., before applying global warming potential (GWP) values to convert to CO2-equivalents (CO2e)).\nScope 1 and 2 (location and market-based) emissions (metric tons of CO2e) (columns 3, 5 and 7) \nApply global warming potential (GWP) values to convert your organization's emissions in metric tons of the greenhouse gas selected in column 1 \"Greenhouse gas\" into CO2-equivalents (CO2e).\nIf using Global Warming potentials from the IPCC Sixth Assessment Report (AR6 - 100 year or AR6 - 20 year) to calculate your Scope 1 emissions CO2e from CH4, you should first calculate the CO2e emissions from fossil CH4 and non-fossil CH4 separately using the relevant GWP, then sum these figures to provide in column 2 the total Scope 1 CO2e emissions from both fossil and non-fossil CH4.\nGWP Reference (column 8) \nIdentify the GWP your organization has used to convert the selected greenhouse gas into a carbon dioxide equivalent (CO2e). If you have used a calculation tool and do not know which GWPs have been applied to your data, consult the tool documentation or reference sources.\nIf you select \"Other, please specify\", provide a label for the GWP Reference.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
@@ -405,7 +405,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -415,7 +415,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -425,7 +425,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "General",
@@ -435,7 +435,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -445,7 +445,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -455,7 +455,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -465,7 +465,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -475,7 +475,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -485,7 +485,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -495,7 +495,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -505,7 +505,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -515,7 +515,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Capital goods",
@@ -525,7 +525,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -535,7 +535,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -545,7 +545,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Capital goods",
@@ -555,7 +555,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -565,7 +565,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -575,7 +575,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -585,7 +585,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -595,7 +595,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -605,7 +605,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -615,7 +615,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -625,7 +625,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -635,7 +635,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -645,7 +645,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -655,7 +655,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -665,7 +665,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -675,7 +675,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Construction",
@@ -685,7 +685,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -695,7 +695,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -705,7 +705,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Construction",
@@ -715,7 +715,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -725,7 +725,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -735,7 +735,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -745,7 +745,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -755,7 +755,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -765,7 +765,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "이 문항 아니요t 채점됨, 그것 아니요t 표시된 이 섹터."
     },
     {
       "sector": "Financial services",
@@ -775,7 +775,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "이 문항 아니요t 채점됨, 그것 아니요t 표시된 이 섹터."
     },
     {
       "sector": "Financial services",
@@ -785,7 +785,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "이 문항 아니요t 채점됨, 그것 아니요t 표시된 이 섹터."
     },
     {
       "sector": "Financial services",
@@ -795,7 +795,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "이 문항 아니요t 채점됨, 그것 아니요t 표시된 이 섹터."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -805,7 +805,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -815,7 +815,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -825,7 +825,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -835,7 +835,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -845,7 +845,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -855,7 +855,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -865,7 +865,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -875,7 +875,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -885,7 +885,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -895,7 +895,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -905,7 +905,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -915,7 +915,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -925,7 +925,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -935,7 +935,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -945,7 +945,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -955,7 +955,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Real estate",
@@ -965,7 +965,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -975,7 +975,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -985,7 +985,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Real estate",
@@ -995,7 +995,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -1005,7 +1005,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1015,7 +1015,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -1025,7 +1025,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -1035,7 +1035,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -1045,7 +1045,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1055,7 +1055,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -1065,7 +1065,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -1075,7 +1075,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1085,7 +1085,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1095,7 +1095,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1105,7 +1105,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1115,7 +1115,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -1125,7 +1125,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '온실가스' 에서 최소 1개 행 대상 점. 행 경우 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 선택됨: 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1135,7 +1135,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "인지 점수 대상이 되려면 공시 점수를 모두 획득해야 합니다. 경로 합계 의 수치 제공된 열 'Scope 1 배출량…' 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) 합계 의 수치 제공된 열 'Scope 1 배출량…' 아니요t 같음 수치 제공된 열 '총 전 세계 Scope 1 배출량…' 행 '보고연도' 문항 7.6 (± 5%) - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -1145,7 +1145,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -1155,12 +1155,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "귀사의 글로벌 총 범위 1 배출량을 온실가스 유형별로 세분화하고, 사용한 각 지구온난화지수(GWP)의 출처를 제공하십시오",
+    "question_ko": "온실가스 유형별로 전 세계 총 Scope 1 배출량을 세분화하고 사용된 각 지구온난화지수 (GWP) 의 출처를 제공하십시오. `",
     "q2025": "Q7.15.1",
     "q2025_text": "Break down your total gross global Scope 1 emissions by greenhouse gas type and provide the source of each used global warming potential (GWP).",
     "change_status": "Modified question",
@@ -1175,17 +1175,17 @@
     "daml_summary": "General: D 4/4 | A 0 or 1/1 or 3 | M 0/0 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "detail_change_typesKo": "개정 문항 의존도, 신규 열",
+    "change_summaryKo": "문항 표시됩니다 조직 선택 \"예, 모두 Scope 1 및 Scope 2 배출량\" 또는 \"예, Scope 1 배출량 만\" 응답 열 1 \"배출량 세분화 기준 온실가스 유형\" 의 7.15. 신규 열",
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "일반: D 4/4 | 0 또는 1/1 또는 3 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "귀사의 글로벌 총 범위 1 배출량을 온실가스 유형별로 세분화하고, 사용한 각 지구온난화지수(GWP)의 출처를 제공하십시오"
+    "q2025_textKo": "온실가스 유형별로 전 세계 총 Scope 1 배출량을 세분화하고 사용된 각 지구온난화지수 (GWP) 의 출처를 제공하십시오. `"
   },
   "defaultPoints": {
     "D": "4/4",
@@ -1215,17 +1215,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
-  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "이 문항은 '귀사의 글로벌 총 범위 1 배출량을 온실가스 유형별로 세분화하고, 사용한 각 지구온난화지수(GWP)의 출처를 제공하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "issueTagsKo": "기후변화",
+  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트,, &, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '온실가스 유형별로 전 세계 총 Scope 1 배출량을 세분화하고 사용된 각 지구온난화지수 (GWP) 의 출처를 제공하십시오. `'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

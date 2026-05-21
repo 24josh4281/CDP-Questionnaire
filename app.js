@@ -1352,7 +1352,7 @@ function setSelectOptionText(id, value, text) {
 }
 
 async function loadIndex() {
-  const response = await fetch("./data/index.json");
+  const response = await fetch("./data/index.json", { cache: "no-store" });
   if (!response.ok) throw new Error(`index.json load failed: ${response.status}`);
   state.index = await response.json();
   state.filtered = state.index.questions;
@@ -1530,7 +1530,7 @@ async function loadDetail(code) {
   if (state.detailCache.has(code)) return state.detailCache.get(code);
   const question = state.index.questions.find((item) => item.code === code);
   if (!question) return null;
-  const response = await fetch(`./data/${question.detailFile}`);
+  const response = await fetch(`./data/${question.detailFile}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`${code} detail load failed`);
   const detail = await response.json();
   state.detailCache.set(code, detail);

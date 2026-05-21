@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Disclose coal reserves and production by coal type attributable to your organization in the reporting year.",
-  "questionKo": "공시 석탄 생산 석탄 조직 보고연도.",
+  "questionKo": "공시 석탄 매장량 및 생산 기준 석탄 유형 귀속되는 귀사 보고연도.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -42,7 +42,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "매장량 (백만 미터톤)",
+      "textKo": "매장량 (지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -57,7 +57,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "매장량 (백만 미터톤)",
+      "textKo": "매장량 (지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -72,7 +72,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "생산 (백만 미터톤)",
+      "textKo": "생산 (지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -87,7 +87,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "에너지 의 생산 (GJ 마다 지표)",
+      "textKo": "에너지 생산 (GJ 당 지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -112,7 +112,7 @@
       "optionsKo": [
         "",
         "",
-        "가치"
+        "불가능 가치"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -125,7 +125,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "배출 의 생산 (미터톤 CO2e 마다 지표)",
+      "textKo": "배출 생산 (지표 톤 CO2e 당 지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -140,7 +140,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의견",
+      "textKo": "",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -159,7 +159,7 @@
       "type": "Requested Content",
       "text": "Coal type (column 1) \nThis column specifies the coal type for which you are disclosing reserves, production, and other information. \nThermal coal is coal that is combusted for energy purposes, e.g. thermal power generation. \nMetallurgical coal includes coking coals and blast furnace coals (PCI), or any other coal used in the steel industry. \nProven reserves (million metric tons) (column 2) \nEnter your organization's proven reserves of the coal grade you are reporting. \nYou should apply the same methodology for estimating reserves as used in your annual reporting. You will be asked to explain which listing requirements or other methodologies you have used to provide reserves data in 7.44. \nIf your raw data is not in metric tons, then you should convert it. For example, from short tons, multiply by 0.907185 to calculate metric tons. Common conversion factors are included in the Technical Note \" Units of Measure Conversions\". \nProbable reserves (million metric tons) (column 3) \nEnter your organization's probable reserves of the coal grade you are reporting. \nYou should apply the same methodology for estimating reserves as used in annual reporting. \nIf your raw data is not in metric tons, then you should convert it. For example, from short tons, multiply by 0.907185 to calculate metric tons. Common conversion factors are included in the Technical Note \" Units of Measure Conversions\". \nProduction (million metric tons) (column 4) \nEnter your organization's production of the coal type you are reporting. \nIf your raw data is not in metric tons, then you should convert it. For example, from short tons, multiply by 0.907185 to calculate metric tons. Common conversion factors are included in the Technical Note \" Units of Measure Conversions\". \nEnergy content of production (GJ per metric ton) (column 5) \nEnter the energy content of the coal type you are reporting in Giga-Joules per metric ton. The following are common conversions: \nFrom million Btu, multiply by 1.05506 to calculate GJ. \nFrom million kcal, multiply by 4.184 to calculate GJ. \nFrom Btu per lb., multiply by 0.002326 to calculate GJ per metric ton. \nFrom kcal per kg, multiply by 0.004187 to calculate GJ per metric ton. \nFrom kJ per kg, multiply by 0.001 to calculate GJ per metric ton. \nFor coals, the LHV typically falls inside the range 10-30 GJ per metric ton. \nHeating value (column 6) \nYou should specify the heating value relevant to the figure you reported in Energy content of production (GJ per metric ton) (column 5). \nHigher heating value (HHV) is also known as gross calorific value (GCV), and lower heating value (LHV) is also known as net calorific value (NCV). Typically, LHV/HHV ratio is 0.95 for coal. \nEmission factor of production (kg CO2e per metric ton) (column 7) \nEnter the emissions factor of the coal type you are reporting. \nIn the absence of relevant data, assume 100% combustion (oxidation factor = 1) \nComment (column 8) (optional) \nUse the \"Comment\" column to define and explain your reported reserves and production figure(s). \nIf you provide data in the \"Other coal\" row then use this column to provide more information on the coal type(s) you are reporting. \nIf you have applied an oxidation factor of less than 1, then you can state the factor used here.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -183,7 +183,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된 (제외 행 '기타 석탄'). 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 6/6점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -203,7 +203,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -213,7 +213,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
@@ -239,9 +239,9 @@
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "석탄: D 6/6 | 2/2 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "No change verified and 2026 source applied",
     "q2025_textKo": "공시 석탄 매장량 및 생산 기준 석탄 유형 귀속되는 귀사 보고연도."
   },
@@ -273,17 +273,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "석탄",
-  "simpleHelpKo": "이 문항은 '공시 석탄 생산 석탄 조직 보고연도.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '공시 석탄 매장량 및 생산 기준 석탄 유형 귀속되는 귀사 보고연도.'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

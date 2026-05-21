@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Does your organization have significant land sector activities in its operations or value chain?",
-  "questionKo": "생물의 연소를 통해 발생한 이산화탄소의 배출이 있습니까?",
+  "questionKo": "생물성 탄소로 인한 이산화탄소 배출이 조직과 관련이 있습니까? `",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -33,14 +33,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "농업, 임업 또는 기타 섹터 활동",
+      "textKo": ", 또는 기타 토지 섹터 활동",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "예, 귀사의 직접 운영사업장",
-        "예, 귀사의 업스트림/다운스트림 가치사슬",
-        "예, 귀사의 직접 운영사업장 및 귀사의 업스트림/다운스트림 가치사슬",
-        "아니요, 설명 제공된",
+        "예, 당사의 직접 운영사업장",
+        "예, 당사의 업스트림/다운스트림 가치사슬",
+        "예, 모두 당사의 직접 운영사업장 및 당사의 업스트림/다운스트림 가치사슬",
+        ", 제공된",
         "아님 평가된"
       ],
       "simple_helpKo": "",
@@ -57,12 +57,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "표시 만약 이 활동 만 관련 산림 및/또는 비-, 비-산림",
+      "textKo": "표시하십시오 만약 이러한 활동 만 관련된 산림 및/또는, -산림",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "예, 이 활동 만 관련 산림 및/또는 비-, 비-산림",
-        "아니요, 이 활동 포함 해당 관련 농산물"
+        "예, 이러한 활동 만 관련된 산림 및/또는, -산림",
+        ", 이러한 활동 포함 해당 관련된 농업"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -80,14 +80,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "명시 이유 아니요 중요한 활동",
+      "textKo": "에 대한 활동",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "아니요 관련성 있음 활동 식별된",
-        "관련성 있음 활동 식별된 하지만 평가된",
-        "아니요 관련성 있음 활동 관련 농산물 식별된",
-        "활동 관련 농산물 식별된 하지만 평가된"
+        "활동 식별된",
+        "활동 식별된 그러나 평가된",
+        "활동 관련된 농업 식별된",
+        "활동 관련된 농업 식별된 그러나 평가된"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -119,7 +119,7 @@
       "type": "Requested Content",
       "text": "General \nThis question allows you to indicate the relevance of land sector emissions and removals for your organization in line with the GHG Protocol Land Sector and Removals Standard (LSRS) and Guidance.\nBased on selections in this question, you may be presented with 7.12.1 which allows you to report which LSRS land sector accounting subcategories are relevant, and which you calculate. However, complete reporting of emissions and removals in these categories is not yet enabled in CDP's 2026 corporate questionnaire.\nAgriculture, forestry or other land sector activities (column 1) \n\"Agriculture, forestry or other land sector activities\" encompass activities related to agricultural, forest and non-productive, non-forest lands occurring in an organization's operations or other parts of the value chain. \nThese activities might be relevant to your organization if:\nyou own or control significant areas of land (e.g., agricultural or forestry producers, or land developers);\nyou purchase, consume, process, or sell significant amounts of food, fiber, feed, forest products, bioenergy, or other biogenic products (e.g., food and beverage organizations, consumer goods organizations, bioenergy producers and consumers, biomaterial producers and consumers, retailers, or food service organizations);\nyou supply significant amounts of products to agricultural or forestry producers; or\nyou manage significant areas of lands to increase carbon stored in biomass or soil.\nNote that the LSRS also refers to agricultural, forestry, and other land sector activities collectively as the \"land sector\".\nIndicate if these activities are only related to forest lands and/or non-productive, non-forest lands. (column 2) \nEmissions calculation methodologies and associated reporting requirements for accounting for emissions from forests and non-productive, non-forest lands (non-forest lands outside of agricultural production) are still under review by the Independent Standards Board of the GHG Protocol. The current version of the LSRS does not apply to forests and non-productive, non-forest lands. \nIf your organization's land sector activities are only related to forests and/or non-productive, non-forest lands (i.e., none of your land sector activities are related to agricultural lands), the question 7.12.1 \"Which of the following land sector accounting subcategories are relevant to your organization in the reporting year?\" will not apply. \nSignificance threshold (column 4) \nThe GHG Protocol makes no specific recommendations as to what constitutes a \"significant\" exclusion threshold. \nReport details of any significance threshold used to determine whether your organization has significant agricultural, forestry, or other land sector activities in its operations or value chain.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
@@ -329,7 +329,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -349,7 +349,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "General",
@@ -359,7 +359,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -369,7 +369,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -389,7 +389,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -399,7 +399,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -409,7 +409,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -429,7 +429,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -439,7 +439,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Capital goods",
@@ -449,7 +449,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -469,7 +469,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Capital goods",
@@ -479,7 +479,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -489,7 +489,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -509,7 +509,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -519,7 +519,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -529,7 +529,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -549,7 +549,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -559,7 +559,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -569,7 +569,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -589,7 +589,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -599,7 +599,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Construction",
@@ -609,7 +609,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -629,7 +629,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Construction",
@@ -639,7 +639,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -649,7 +649,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -669,7 +669,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -679,7 +679,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -689,7 +689,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -709,7 +709,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -719,7 +719,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -729,7 +729,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -749,7 +749,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -759,7 +759,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -769,7 +769,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -789,7 +789,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -799,7 +799,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -809,7 +809,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -829,7 +829,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -839,7 +839,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -849,7 +849,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -869,7 +869,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -879,7 +879,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Real estate",
@@ -889,7 +889,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -909,7 +909,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Real estate",
@@ -919,7 +919,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -929,7 +929,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -949,7 +949,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -959,7 +959,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -969,7 +969,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -989,7 +989,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -999,7 +999,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1009,7 +1009,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1029,7 +1029,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1039,7 +1039,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -1049,7 +1049,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 셀 표시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -1069,7 +1069,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -1079,12 +1079,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "생물의 연소를 통해 발생한 이산화탄소의 배출이 있습니까?",
+    "question_ko": "생물성 탄소로 인한 이산화탄소 배출이 조직과 관련이 있습니까? `",
     "q2025": "New 2026",
     "q2025_text": "New 2026",
     "change_status": "New question",
@@ -1102,12 +1102,12 @@
     "change_statusKo": "신규 문항",
     "detail_change_typesKo": "신규 문항, 신규 열",
     "change_summaryKo": "신규 문항 신규 열",
-    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "scoring_change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "daml_summaryKo": "일반: D 4/4 | 1/1 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
     "q2025_textKo": "신규 2026"
   },
@@ -1139,17 +1139,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "이 문항은 '생물의 연소를 통해 발생한 이산화탄소의 배출이 있습니까?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "issueTagsKo": "기후변화",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트,, &, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '생물성 탄소로 인한 이산화탄소 배출이 조직과 관련이 있습니까? `'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

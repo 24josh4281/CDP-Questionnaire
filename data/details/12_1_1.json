@@ -3,7 +3,7 @@
   "module": "12",
   "moduleTitle": "Environmental performance - Financial services",
   "questionText": "Provide details of your organization's financed emissions in the reporting year and in the base year.",
-  "questionKo": "보고연도 및 기준연도의 금융배출량에 대한 세부 정보를 제공하십시오.",
+  "questionKo": "보고연도 및 기준연도의 금융 배출량에 대한 세부 정보를 제공하십시오. 포트폴리오 계산에 포함되는 자산 등급 보고연도 금융배출량 (tCO2e) 총 포트폴리오 가치 중 계산에 포함되는 포트폴리오 비율 금융배출량 계산에 포함된 총 자산 가치 [ 자동 계산 ] 고객 / 피투자자가 제공한 데이터를 사용하여 계산한 금융배출량 비율 (선택사항) 은행업 (은행) 해당하는 내용 모두 선택 대출 프로젝트 파이낸스 채권 주식 투자 미사용 대출약정 고정 수입 현금성자산 / 금융 시장 상품 부동산 상품 기타, 직접입력 숫자 입력 소수점 3 자리까지 입력 % 입력 % 입력",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -57,15 +57,15 @@
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "대출",
-        "프로젝트 금융",
-        "채권",
-        "주식 투자",
-        "미인출 대출 약정",
-        "고정수익",
-        "현금 성 자산/단기금융 시장 상품",
+        "Loans",
+        "Project finance",
+        "Bonds",
+        "Equity investments",
+        "Undrawn loan commitments",
+        "Fixed income",
+        "Cash equivalents/money 시장 instruments",
         "부동산",
-        "원자재",
+        "Commodities",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -79,7 +79,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 의 미인출 대출 약정 포함된 금융배출량 산정",
+      "textKo": "% 의 undrawn loan commitments 포함된 금융배출량 산정",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -94,7 +94,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "직접 입력 설명 세부 정보 의 및 가정 사용됨 귀사의 산정",
+      "textKo": "설명하십시오 세부 정보 의 및 assumptions used 귀사의 산정",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -109,7 +109,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "금융배출량 (지표 단위 톤 CO2e) 보고연도",
+      "textKo": "금융배출량 (지표 unit tons CO2e) 보고연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -124,7 +124,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 의 포트폴리오 포함된 관련 총 포트폴리오 가치",
+      "textKo": "% 의 포트폴리오 포함된 relation total 포트폴리오 가치",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -139,7 +139,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 가치 의 자산 포함된 금융배출량 산정",
+      "textKo": "Total 가치 의 assets 포함된 금융배출량 산정",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -154,7 +154,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 의 금융배출량 산정됨 사용 데이터 확보됨 에서 고객/투자대상 (선택)",
+      "textKo": "% 의 금융배출량 산정d using 데이터 obtained 에서 고객/투자대상 (선택지al)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -177,8 +177,8 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "전 세계 GHG 회계처리 및 보고 기준 재무 산업 (PCAF)",
-        "GHG 프로토콜: 기업 회계처리 및 보고 기준",
+        "Global GHG Accounting 및 보고ing Standard 재무 Industry (PCAF)",
+        "GHG Protocol: Corporate Accounting 및 보고ing Standard",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -192,7 +192,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "가중 데이터 품질 점수 (부합 데이터 품질 점수 만)",
+      "textKo": "Weighted 데이터 quality score (PCAF-aligned 데이터 quality scores only)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -207,7 +207,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "금융배출량 (지표 단위 톤 CO2e) 기준연도",
+      "textKo": "금융배출량 (지표 unit tons CO2e) 기준연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -227,7 +227,7 @@
       "mandatoryKo": "아니요",
       "optionsKo": [],
       "simple_helpKo": "",
-      "popup_helpKo": "날짜 입력 불가 이후 보다 날짜 입력 입력된 1.4 \"명시 종료일 의 연도 귀사 보고 데이터.\""
+      "popup_helpKo": "날짜 입력 can아니요t later than 날짜 입력 entered 1.4 \"명시 종료일 의 연도 귀사 보고ing 데이터.\""
     }
   ],
   "guidance": [
@@ -241,25 +241,25 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in column 1 \"We measure the impact of our portfolio on the climate\" and \"Financed emissions\" in column 2 \"Disclosure metric\" of 12.1.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" 열 1 \"포트폴리오가 기후에 미치는 영향을 측정함\" 및 \"금융배출량\" 열 2 \"공시 지표\" 의 12.1."
+      "textKo": "이 문항 only appears 만약 귀사 선택 \"예\" 열 1 \"포트폴리오가 기후에 미치는 영향을 측정함\" 및 \"금융배출량\" 열 2 \"공시 지표\" 의 12.1."
     },
     {
       "type": "Requested Content",
       "text": "General \nMetrics other than absolute emissions (in tCO2e) should not be reported in this question, and should be reported in 12.1.3. \nFor example, weighted average carbon intensities (WACI) should be reported in 12.1.3. \nPortfolio (column 0) \nThe options which appear are driven by the activities you selected in 1.10. \nYou are requested to complete all rows in this table. \nFinanced emissions (metric unit tons CO2e) in the reporting year (column 2) \nUse gross figures for reporting absolute emissions, not net figures. For funded amounts, gross exposure shall be calculated as the funded carrying amounts (before subtracting the loss allowance, when applicable), whether prepared in accordance with IFRS Accounting Standards or other GAAP. \nEnter the emissions in metric unit tons CO2e, entering numbers only up to 99,999,999,999 without commas and up to three decimal places. \nNegative numbers are not allowed as reporting needs to be gross, not net figures. Emission figures should be for the reporting year only. \nEntering 0 implies that you have measured and calculated emissions from this source and they are equal to zero. \n% of portfolio covered in relation to total portfolio value (column 3) \nEnter the percentage of portfolio value that has been covered by the financed emissions calculation to the portfolio value based on the assets value reported in 1.10. \nTotal value of assets included in the financed emissions calculation (column 4) \nThe value will be auto calculated based on the percentage provided in column 3 \"% of portfolio covered in relation to total portfolio value\" and the portfolio value based on assets value reported for the corresponding portfolio in question 1.10. \n% of financed emissions calculated using data obtained from clients/investees (optional) (column 5) \nSuch data obtained from value chain partners (clients or investees) may take the form of primary activity data or emissions data calculated by value chain partners. More information on this can be found in Chapter 7, Collecting Data, of the GHG Protocol's Corporate Value Chain (Scope 3) Accounting and Reporting Standard. \nWeighted data quality score (for PCAF-aligned data quality scores only) (column 7) \nIf you are using the Partnership for Carbon Accounting Financials (PCAF) quality score for your data, enter the relevant score (from 1 to 5). \nA score of 1 reflects the best quality data and means that the investee company has performed an emissions calculation that has been verified by a third-party auditor. A score of 5 is the lowest and estimates the emissions of the investee company based on sector and region averages or benchmarks. \nFinanced emissions (metric unit tons CO2e) in the base year (column 8) \nThe base year is the year against which you are comparing your financed emissions. \nThe base year cannot be after the reporting year. \nEnter the emissions in metric unit tons CO2e, entering numbers only up to 99,999,999,999 without commas and up to three decimal places. \nNegative numbers are not allowed as reporting needs to be gross, not net figures. Emission figures should be for the reporting year only. \nEntering 0 implies that you have measured and calculated emissions from this source and they are equal to zero. \nBase year end (column 9) \nThe base year is the year against which you are comparing your financed emissions. \nThe base year cannot be after the reporting year. \nThe start date of the base year will automatically be assumed to be exactly 365 days before the listed end date. For example, if you enter an end date of 31/12/2023, the start date of the base year will automatically be assumed to be 01/01/2023. \n% of undrawn loan commitments included in the financed emissions calculation (column 10) \nDisclose separately the percentage of undrawn loan commitments included in the financed emissions calculation. \nFor portfolios that don't have any undrawn loan commitments enter 0 as a response. \nPlease explain the details of and assumptions used in your calculation (column 11) \nInclude the following information: \nThe method of allocation the entity used to attribute its share of emissions in relation to the size of its gross exposure; \nThe portfolios and/or asset classes that have been excluded from the calculation and the reasons for excluding them; \nIf a portfolio or an asset class is not fully covered in the calculation, explain the exclusion and the reasons for not covering 100% of it; \nThe scopes considered when measuring emissions associated with assets in your portfolio; \nThe sources of data if primary data was used in calculating portfolio emissions; \nThe approach taken to modelling or estimating emissions when primary data was not used; and \nAny assumptions used in the calculation. \nSee the CDP Technical Note: Portfolio Impact Metrics for Financial Services Sector Companies for further information.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "일반 지표 기타 than absolute 배출량 (tCO2e) 해야 합니다 아니요t 보고된 이 문항, 및 해야 합니다 보고된 12.1.3. example, weighted average carbon intensities (WACI) 해야 합니다 보고된 12.1.3. 포트폴리오 (열 0) 선택지 appear driven 기준 활동 귀사 선택됨 1.10. 귀사 requested 완료 모든 행 이 table. 금융배출량 (지표 unit tons CO2e) 보고연도 (열 2) Use gross 수치 보고ing absolute 배출량, 아니요t net 수치. funded amounts, gross exposure sh모든 산정d funded carrying amounts (before subtracting loss 모든owance, 경우 applicable), whether prepared accordance IFRS Accounting Standards 또는 기타 GAAP. Enter 배출량 지표 unit tons CO2e, entering 숫자 입력s only up 99,999,999,999 without commas 및 up three decimal places. Negative 숫자 입력s 아니요t 모든owed 보고ing needs gross, 아니요t net 수치. 배출 수치 해야 합니다 보고연도 only. Entering 0 implies 귀사 have measured 및 산정d 배출량 에서 이 source 및 they equal zero. % 의 포트폴리오 포함된 relation total 포트폴리오 가치 (열 3) Enter percentage 의 포트폴리오 가치 has 포함된 기준 금융배출량 산정 포트폴리오 가치 based assets 가치 보고된 1.10. Total 가치 의 assets 포함된 금융배출량 산정 (열 4) 가치 auto 산정d based percentage 제공된 열 3 \"% 의 포트폴리오 포함된 relation total 포트폴리오 가치\" 및 포트폴리오 가치 based assets 가치 보고된 corresponding 포트폴리오 문항 1.10. % 의 금융배출량 산정d using 데이터 obtained 에서 고객/투자대상 (선택지al) (열 5) Such 데이터 obtained 에서 가치사슬 partners (고객 또는 투자대상) 할 수 있습니다 take form 의 주된 활동 데이터 또는 배출량 데이터 산정d 기준 가치사슬 partners. More 정보 이 할 수 있습니다 found Chapter 7, Collecting 데이터, 의 GHG Protocol's Corporate 가치사슬 (Scope 3) Accounting 및 보고ing Standard. Weighted 데이터 quality score (PCAF-aligned 데이터 quality scores only) (열 7) 만약 귀사 using Partnership Carbon Accounting Financials (PCAF) quality score 귀사의 데이터, enter 관련성 있음 score (에서 1 5). score 의 1 reflects best quality 데이터 및 means 투자대상 comp하나 이상 has performed 배출량 산정 has verified 기준 third-party auditor. score 의 5 lowest 및 추정s 배출량 의 투자대상 comp하나 이상 based 섹터 및 region averages 또는 benchmarks. 금융배출량 (지표 unit tons CO2e) 기준연도 (열 8) 기준연도 연도 against 귀사 comparing 귀사의 금융배출량. 기준연도 can아니요t after 보고연도. Enter 배출량 지표 unit tons CO2e, entering 숫자 입력s only up 99,999,999,999 without commas 및 up three decimal places. Negative 숫자 입력s 아니요t 모든owed 보고ing needs gross, 아니요t net 수치. 배출 수치 해야 합니다 보고연도 only. Entering 0 implies 귀사 have measured 및 산정d 배출량 에서 이 source 및 they equal zero. 기준연도 종료일 (열 9) 기준연도 연도 against 귀사 comparing 귀사의 금융배출량. 기준연도 can아니요t after 보고연도. 시작일 의 기준연도 automatic모든y assumed exactly 365 days before listed 종료일. example, 만약 귀사 enter 종료일 의 31/12/2023, 시작일 의 기준연도 automatic모든y assumed 01/01/2023. % 의 undrawn loan commitments 포함된 금융배출량 산정 (열 10) 공시 separately percentage 의 undrawn loan commitments 포함된 금융배출량 산정. 포트폴리오s don't have 하나 이상 undrawn loan commitments enter 0 response. 설명하십시오 세부 정보 의 및 assumptions used 귀사의 산정 (열 11) Include 다음 정보: method 의 모든ocation entity used attribute its share 의 배출량 relation size 의 its gross exposure; 포트폴리오s 및/또는 자산군 have excluded 에서 산정 및 이유s 제외 them; 만약 포트폴리오 또는 자산군 아니요t fully 포함된 산정, 설명 exclusion 및 이유s 아니요t covering 100% 의 it; scopes considered 경우 measuring 배출량 associated assets 귀사의 포트폴리오; sources 의 데이터 만약 주된 데이터 was used calculating 포트폴리오 배출량; approach taken modelling 또는 estimating 배출량 경우 주된 데이터 was 아니요t used; 및 하나 이상 assumptions used 산정. See CDP Technical 아니요te: 포트폴리오 영향 지표 금융 서비스 섹터 기업 further 정보."
     },
     {
       "type": "Ambition",
       "text": "Financial institutions monitor and manage climate-related risks by measuring and disclosing the emissions associated with their financing, also known as \"financed emissions\".\nFinancial institutions disclose the methodology used to calculate the financed emissions, including the method of allocation the organization uses to attribute its share of emissions in relation to the value of its total assets as well as the total amount of assets/gross exposure included in the financed emissions disclosure and any exclusions from the calculation.",
-      "typeKo": "목표수준",
-      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
+      "typeKo": "목표 수준",
+      "textKo": "재무 institutions monitor 및 관리 기후-related 리스크 기준 measuring 및 disclosing 배출량 associated their financing, also k아니요wn \"금융배출량\". 재무 institutions 공시 방법론 used 산정 금융배출량, 포함 method 의 모든ocation 조직 uses attribute its share 의 배출량 relation 가치 의 its total assets well total amount 의 assets/gross exposure 포함된 금융배출량 공시 및 하나 이상 exclusions 에서 산정."
     },
     {
       "type": "Explanation of Terms",
       "text": "Financed emissions: the absolute greenhouse gas emissions associated with a portfolio, expressed in tons CO2e. For financial institutions, the indirect emissions caused by their financing activities are relevant and their emissions inventory would be incomplete without accounting for them. The GHG Protocol classifies these emissions in Scope 3 Category 15 Investments. They are also known as portfolio emissions or financed emissions. Put simply, they are emissions that occur at sources owned or controlled by other organizations, but which are made possible because those organizations are financed by the lending and investment of financial institutions; and therefore are indirect to the financial institution and should be included in the financial institution's Scope 3 inventory.",
       "typeKo": "용어 설명",
-      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
+      "textKo": "금융배출량: absolute 온실가스 배출량 associated 포트폴리오, expressed tons CO2e. 재무 institutions, indirect 배출량 caused 기준 their financing 활동 관련성 있음 및 their 배출량 inventory would incomplete without accounting them. GHG Protocol classifies 이 배출량 Scope 3 Category 15 Investments. They also k아니요wn 포트폴리오 배출량 또는 금융배출량. Put simply, they 배출량 occur at sources owned 또는 controlled 기준 기타 조직, but made possible because 해당 조직 financed 기준 lending 및 investment 의 재무 institutions; 및 therefore indirect 재무 institution 및 해야 합니다 포함된 재무 institution's Scope 3 inventory."
     }
   ],
   "points": [
@@ -283,7 +283,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로) '예' 열 '포트폴리오가 기후에 미치는 영향을 측정함' 및 '금융배출량' 열에서 선택 '공시 지표' 해당 의 다음 행 문항 12.1: - '은행(은행)' - '투자(자산운용사)' - '투자(자산소유자)' 표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다 (제외 열 '% 의 금융배출량 산정됨 사용 데이터 확보됨 에서 고객/투자대상 (선택)' 및 행 '보험 인수(보험사)'). 이 경로에서 최대 4/4점을 받을 수 있습니다. 또는 경로 B) 다음을 제외한 선택지 중 하나 '예' 열에서 선택 '포트폴리오가 기후에 미치는 영향을 측정함' 또는 다음을 제외한 선택지 중 하나 '금융배출량' 열에서 선택 '공시 지표' 모든 의 다음 행 문항 12.1 - '은행(은행)' - '투자(자산운용사)' - '투자(자산소유자)' 및 '예' 열에서 선택 '포트폴리오가 기후에 미치는 영향을 측정함' 행 '보험 인수(보험사) 문항 12.1 및'금융배출량'열에서 선택'공시 지표'행'보험 인수(보험사) 문항 12.1 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
+      "criteriaKo": "경로) '예'열'포트폴리오가 기후에 미치는 영향을 측정함'및'금융배출량'열에서 선택'공시 지표' 하나 이상 의 다음 행 문항 12.1: - '은행(은행)' - '투자(자산운용사)' - '투자(자산소유자)' 점 부여됨 per 완료 셀 proportion 숫자 입력 의 셀 displayed (제외 열 '% 의 금융배출량 산정d using 데이터 obtained 에서 고객/투자대상 (선택지al)' 및 행 '보험 인수(보험사)'). 이 경로에서 최대 4/4점을 받을 수 있습니다. 또는 경로 B) 다음을 제외한 선택지 중 하나 '예'열에서 선택'포트폴리오가 기후에 미치는 영향을 측정함'또는 다음을 제외한 선택지 중 하나'금융배출량'열에서 선택'공시 지표' 모든 의 다음 행 문항 12.1 - '은행(은행)' - '투자(자산운용사)' - '투자(자산소유자)' 및 '예'열에서 선택'포트폴리오가 기후에 미치는 영향을 측정함'행'보험 인수(보험사) 문항 12.1 및 '금융배출량' 열에서 선택 '공시 지표' 행 '보험 인수(보험사) 문항 12.1 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -292,8 +292,8 @@
       "criteria": "ROUTE A)\n'Yes' in column 'We measure the impact of our portfolio on the climate' AND 'Financed emissions' selected in column 'Disclosure metric' in any of the following rows in question 12.1:\n- 'Banking (Bank)'\n- 'Investing (Asset manager)'\n- 'Investing (Asset owner)'\nTable completed (excluding column '% of financed emissions calculated using data obtained from clients/investees (optional)' AND row 'Insurance underwriting (Insurance company)') - 2 points\nA maximum of 2/2 points is available for this route.\nOR\nROUTE B)\nAny option excluding 'Yes' selected in column 'We measure the impact of our portfolio on the climate' OR Any option excluding 'Financed emissions' selected in column 'Disclosure metric' in all of the following rows in question 12.1:\n- 'Banking (Bank)'\n- 'Investing (Asset manager)'\n- 'Investing (Asset owner)'\nAND\n'Yes' selected in column 'We measure the impact of our portfolio on the climate' in row 'Insurance underwriting (Insurance company) in question 12.1 AND 'Financed emissions' selected in column 'Disclosure metric' in row 'Insurance underwriting (Insurance company) in question 12.1 - 0/0 points\nA maximum of 0/0 points is available for this route.",
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
-      "levelKo": "A",
-      "criteriaKo": "경로) '예' 열 '포트폴리오가 기후에 미치는 영향을 측정함' 및 '금융배출량' 열에서 선택 '공시 지표' 해당 의 다음 행 문항 12.1: - '은행(은행)' - '투자(자산운용사)' - '투자(자산소유자)' 표 완료 (제외 열 '% 의 금융배출량 산정됨 사용 데이터 확보됨 에서 고객/투자대상 (선택)' 및 행 '보험 인수(보험사)') - 2 점 이 경로에서 최대 2/2점을 받을 수 있습니다. 또는 경로 B) 다음을 제외한 선택지 중 하나 '예' 열에서 선택 '포트폴리오가 기후에 미치는 영향을 측정함' 또는 다음을 제외한 선택지 중 하나 '금융배출량' 열에서 선택 '공시 지표' 모든 의 다음 행 문항 12.1: - '은행(은행)' - '투자(자산운용사)' - '투자(자산소유자)' 및 '예' 열에서 선택 '포트폴리오가 기후에 미치는 영향을 측정함' 행 '보험 인수(보험사) 문항 12.1 및'금융배출량'열에서 선택'공시 지표'행'보험 인수(보험사) 문항 12.1 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
+      "levelKo": "",
+      "criteriaKo": "경로) '예'열'포트폴리오가 기후에 미치는 영향을 측정함'및'금융배출량'열에서 선택'공시 지표' 하나 이상 의 다음 행 문항 12.1: - '은행(은행)' - '투자(자산운용사)' - '투자(자산소유자)' Table 완료 (제외 열 '% 의 금융배출량 산정d using 데이터 obtained 에서 고객/투자대상 (선택지al)' 및 행 '보험 인수(보험사)') - 2 점 이 경로에서 최대 2/2점을 받을 수 있습니다. 또는 경로 B) 다음을 제외한 선택지 중 하나 '예'열에서 선택'포트폴리오가 기후에 미치는 영향을 측정함'또는 다음을 제외한 선택지 중 하나'금융배출량'열에서 선택'공시 지표' 모든 의 다음 행 문항 12.1: - '은행(은행)' - '투자(자산운용사)' - '투자(자산소유자)' 및 '예'열에서 선택'포트폴리오가 기후에 미치는 영향을 측정함'행'보험 인수(보험사) 문항 12.1 및 '금융배출량' 열에서 선택 '공시 지표' 행 '보험 인수(보험사) 문항 12.1 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -303,7 +303,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로) 관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 수치 초과 보다 10% 제공된 열 '% 의 포트폴리오 포함된 관련 총 포트폴리오 가치' 및 열 '금융배출량 (지표 단위 톤 CO2e) 보고연도' 완료 모든 행 (제외 행 '보험 인수(보험사)') - 2 점 이 경로에서 최대 2/2점을 받을 수 있습니다. 또는 경로 B) 다음을 제외한 선택지 중 하나 '예' 열에서 선택 '포트폴리오가 기후에 미치는 영향을 측정함' 또는 다음을 제외한 선택지 중 하나 '금융배출량' 열에서 선택 '공시 지표' 모든 의 다음 행 문항 12.1 - '은행(은행)' - '투자(자산운용사)' - '투자(자산소유자)' 및 '예' 열에서 선택 '포트폴리오가 기후에 미치는 영향을 측정함' 행 '보험 인수(보험사) 문항 12.1 및'금융배출량'열에서 선택'공시 지표'행'보험 인수(보험사) 문항 12.1 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
+      "criteriaKo": "경로) 관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 수치 greater than 10% 제공된 열 '% 의 포트폴리오 포함된 relation total 포트폴리오 가치' 및 열 '금융배출량 (지표 unit tons CO2e) 보고연도' 완료 모든 행 (제외 행 '보험 인수(보험사)') - 2 점 이 경로에서 최대 2/2점을 받을 수 있습니다. 또는 경로 B) 다음을 제외한 선택지 중 하나 '예'열에서 선택'포트폴리오가 기후에 미치는 영향을 측정함'또는 다음을 제외한 선택지 중 하나'금융배출량'열에서 선택'공시 지표' 모든 의 다음 행 문항 12.1 - '은행(은행)' - '투자(자산운용사)' - '투자(자산소유자)' 및 '예'열에서 선택'포트폴리오가 기후에 미치는 영향을 측정함'행'보험 인수(보험사) 문항 12.1 및 '금융배출량' 열에서 선택 '공시 지표' 행 '보험 인수(보험사) 문항 12.1 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -313,12 +313,12 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
+      "criteriaKo": "Full 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "보고연도 및 기준연도의 금융배출량에 대한 세부 정보를 제공하십시오.",
+    "question_ko": "보고연도 및 기준연도의 금융 배출량에 대한 세부 정보를 제공하십시오. 포트폴리오 계산에 포함되는 자산 등급 보고연도 금융배출량 (tCO2e) 총 포트폴리오 가치 중 계산에 포함되는 포트폴리오 비율 금융배출량 계산에 포함된 총 자산 가치 [ 자동 계산 ] 고객 / 피투자자가 제공한 데이터를 사용하여 계산한 금융배출량 비율 (선택사항) 은행업 (은행) 해당하는 내용 모두 선택 대출 프로젝트 파이낸스 채권 주식 투자 미사용 대출약정 고정 수입 현금성자산 / 금융 시장 상품 부동산 상품 기타, 직접입력 숫자 입력 소수점 3 자리까지 입력 % 입력 % 입력",
     "q2025": "Q12.1.1",
     "q2025_text": "Provide details of your organization's financed emissions in the reporting year and in the base year.",
     "change_status": "No change - 2026 source verified",
@@ -336,14 +336,14 @@
     "change_statusKo": "변경 없음 - 2026 원문 확인",
     "detail_change_typesKo": "",
     "change_summaryKo": "",
-    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "scoring_change_summaryKo": "CC 금융 서비스 관리 • Scoring up날짜 입력 request 수치 greater than 10% 제공된 열 ‘% 포트폴리오 포함된 relation total 포트폴리오 가치'. Percentage increased raise 목표 수준 및 encourage 재무 institutions 보고 greater percentage 의 their 포트폴리오.",
     "daml_summaryKo": "금융 서비스: D 0 또는 4/0 또는 4 | 0 또는 2/0 또는 2 | M 0 또는 2/0 또는 2 | L 1/1",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "Changed 및 reflected",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "보고연도 및 기준연도의 금융배출량에 대한 세부 정보를 제공하십시오."
+    "q2025_textKo": "보고연도 및 기준연도의 금융 배출량에 대한 세부 정보를 제공하십시오. 포트폴리오 계산에 포함되는 자산 등급 보고연도 금융배출량 (tCO2e) 총 포트폴리오 가치 중 계산에 포함되는 포트폴리오 비율 금융배출량 계산에 포함된 총 자산 가치 [ 자동 계산 ] 고객 / 피투자자가 제공한 데이터를 사용하여 계산한 금융배출량 비율 (선택사항) 은행업 (은행) 해당하는 내용 모두 선택 대출 프로젝트 파이낸스 채권 주식 투자 미사용 대출약정 고정 수입 현금성자산 / 금융 시장 상품 부동산 상품 기타, 직접입력 숫자 입력 소수점 3 자리까지 입력 % 입력 % 입력"
   },
   "defaultPoints": {
     "D": "0 or 4/0 or 4",
@@ -355,35 +355,35 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 재무 services",
+  "moduleTitleKo": "환경 performance - 금융 서비스",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "금융 서비스",
-  "simpleHelpKo": "이 문항은 '보고연도 및 기준연도의 금융배출량에 대한 세부 정보를 제공하십시오.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "GHG 배출량 accounting one 의 주된 지표 조직 재무 섹터 할 수 있습니다 use understand how their 포트폴리오 영향 기후. addition highlighting 리스크 및 기회, 포트폴리오 배출량 공시 pre-requisite 재무 institutions measure improvements 기후 performance 의 their 포트폴리오s, 및 measure progress towards net zero commitments increasingly made. 중요 아니요TE: 이 문항 asks 귀사 공시 귀사의 금융배출량 (also k아니요wn Scope 3 Category 15 \"Investments\" total absolute 배출량). 조직 재무 섹터, Scope 3 Category 15 \"Investments\" total absolute 배출량 has pulled out 의 문항 7.8 majority 의 배출량 occur investment 사슬, relation 재무 products 및 서비스 및/또는 investments. 포트폴리오 배출량 (또는 Scope 3 Category 15 \"Investments\" total absolute 배출량 defined 기준 GHG Protocol) most 관련성 있음 category 금융 서비스 조직. 이 문항, 조직 재무 섹터 only requested 공시 their Scope 3 Category 15 \"Investments\" total absolute 배출량, Categories 1-14 및 만약 applicable 기타 upstream 또는 downstream Scope 3 배출량 해야 합니다 공시된 7.8.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "2025 Korean form + CDP glossary repair"
 }

@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "1행"
+      "titleKo": "행 1"
     }
   ],
   "columns": [
@@ -38,7 +38,7 @@
       "mandatoryKo": "아니요",
       "optionsKo": [
         "",
-        "기타",
+        "기타 규제",
         "",
         "",
         "기타, 직접 입력"
@@ -57,7 +57,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "귀사의 기준 또는?",
+      "textKo": "귀사의 라인 와/과 a 기준 또는 프레임워크?",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -82,7 +82,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "기준 또는",
+      "textKo": "기준 또는 프레임워크 라인 와/과",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -107,7 +107,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "환경이슈 포함된",
+      "textKo": "환경 이슈 포함",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -129,13 +129,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의",
+      "textKo": "상태",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "완료",
-        "- 이전 연도",
-        "- 이 귀사의 연도"
+        "진행 중 - 연도 첨부됨",
+        "진행 중 - 이 당사의 첫 번째 연도"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -166,17 +166,17 @@
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "의 환경 정책",
-        "지배구조",
-        "공공정책 인게이지먼트",
-        "의존도 & 영향",
+        "환경 정책",
+        "",
+        "정책",
+        "의존성 & 영향s",
         "리스크 & 기회",
         "전략",
-        "가치사슬 인게이지먼트",
-        "온실가스 배출량 수치",
-        "기후-관련 목표",
-        "수자원-관련 목표",
-        "수자원 회계처리 수치",
+        "가치사슬",
+        "가스 배출량 수치",
+        "기후-",
+        "수자원-",
+        "수자원 회계 수치",
         "수자원",
         "기타, 직접 입력"
       ],
@@ -191,7 +191,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "/",
+      "textKo": "참조",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -206,7 +206,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "관련성 있음",
+      "textKo": "첨부",
       "typeKo": "첨부파일",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -221,7 +221,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의견",
+      "textKo": "",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -1266,7 +1266,7 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
@@ -1278,5 +1278,5 @@
   "simpleHelpKo": "이 문항은 '보고연도에 귀사의 환경이슈와 관련된 정보를 CDP 가 아닌 다른 곳에 공개한 것에 대한 세부 정보를 입력하 십시오. 관련 문서나 보고서를 첨부하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

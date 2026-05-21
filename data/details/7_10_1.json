@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Identify the reasons for any change in your gross global emissions (Scope 1 and 2 combined), and for each of them specify how your emissions compare to the previous year.",
-  "questionKo": "글로벌 총 배출량(범위 1과 범위 2를 합산한 총량)의 변화의 원인을 명시하고, 각 원인별 배출량의 변화를 지난해와 비교하여 입력하십시오",
+  "questionKo": "총 배출량 (Scope 1 과 2 합산) 에 변화가 있는 경우 그 이유를 파악하고, 각각에 대해 배출량이 전년도와 어떻게 비교되는지 구체적으로 설명하십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,17 +15,17 @@
     {
       "order": 1,
       "title": "Change in renewable energy consumption",
-      "titleKo": "변경 에너지 소비"
+      "titleKo": "재생에너지 에너지 소비"
     },
     {
       "order": 2,
       "title": "Other emissions reduction activities",
-      "titleKo": "기타 배출량 활동"
+      "titleKo": "기타 배출량 감축 활동"
     },
     {
       "order": 3,
       "title": "Divestment",
-      "titleKo": "매각"
+      "titleKo": ""
     },
     {
       "order": 4,
@@ -40,22 +40,22 @@
     {
       "order": 6,
       "title": "Change in output",
-      "titleKo": "변경"
+      "titleKo": ""
     },
     {
       "order": 7,
       "title": "Change in methodology",
-      "titleKo": "변경 방법론"
+      "titleKo": "방법론"
     },
     {
       "order": 8,
       "title": "Change in boundary",
-      "titleKo": "변경"
+      "titleKo": "경계"
     },
     {
       "order": 9,
       "title": "Change in physical operating conditions",
-      "titleKo": "변경"
+      "titleKo": ""
     },
     {
       "order": 10,
@@ -77,7 +77,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "변경 배출량 (미터톤 CO2e)",
+      "textKo": "배출량 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -96,13 +96,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의 변경 배출량",
+      "textKo": "방향 배출량",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "",
-        "",
-        "변경 없음"
+        "증가",
+        "감소",
+        ""
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -130,7 +130,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "직접 입력 설명 산정",
+      "textKo": "설명 산정",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -155,12 +155,12 @@
       "type": "Requested Content",
       "text": "General \nCategorize the changes that have occurred in your gross global emissions. You are asked to break down all the different factors that have influenced any overall change in Scope 1+2 emissions; whether increasing or decreasing factors.\nBreak down each applicable factor, describe each in a separate row, and provide the value for the change in overall emissions that is attributed to each of the factors.\nEven if companies have experienced no change overall or an increase in absolute emissions for Scopes 1 and 2, companies should still disclose reduction activities.\nEmissions reduction activities could arise from a number of different sources, including reductions in energy consumption or lower emission equipment/processes. If your emissions have changed compared to the previous reporting year due to several emissions reduction activities, you should aggregate the emissions change that occurred due to these activities and provide this information in row 2 \"Other emissions reduction activities\".\nAny changes in emissions that are attributed to a decline or an increase in your business output (products or services) due to the COVID-19 pandemic should be reported using row \"Change in output\". Please state how your output was affected in \"Please explain calculation\". \nTo report the change in emissions due to a switch from fossil fuels to biofuels, organizations should use row 2 \"Other emissions reduction activities\" to report the changes in emissions directly attributable to the switch. \nReason (column 1) \nThis column is fixed; however, if a row does not apply to you, for e.g. your company did not experience any mergers or acquisitions during the reporting year, leave that row blank.\nFurther details on each of the options are provided below:\nChange in renewable energy consumption (row 2)\nReport the change in your organization's emissions because of the consumption of self-generated or purchased renewable energy.\nIn cases where you have purchased renewable energy, you may include this on the provision that you have accounted for those renewable energy purchases in your market-based Scope 2 figure reported in 7.7 and the purchases reported here were \nadditional purchases in the reporting year.\nDue to the change in accounting practices around Scope 2 with the addition of Scope 2 market-based emissions and low-carbon energy, companies may see their Scope 2 emissions decrease. Any change in Scope 2 emissions due to the change in accounting method from Scope 2 location-based to Scope 2 market-based should not be reported here, but rather under \"Change in methodology\" (see below).\nCDP requires disclosure of gross emissions. Gross means total emissions before any deductions or other adjustments are made to take account of offset credits, avoided emissions from the use of goods and services, and/or reductions attributable to the sequestration or transfer of GHGs.\nOther emissions reduction activities (row 3)\nThis refers to changes in emissions that have occurred because of proactive emissions reduction initiatives or activities, for example those listed in question 7.55.2, other than those caused by a change in renewable energy consumption (which should be reported in the row \"Change in renewable energy consumption\").\nDivestment (row 4)\nThis refers to changes that occur as a result of selling off certain aspects of the businesses.\nAcquisitions (row 5)\nThis refers to changes that occur as a result of purchasing or obtaining another company/subsidiary/facility.\nMergers (row 6)\nThis refers to changes that occur as a result of business mergers.\nChange in output (row 7)\nThis refers to changes that occur as a result of changes (increases or decreases) in your business output (i.e. a product or service); this could be, for example, organic growth, purchases of additional facilities due to business expansion, declines in sales due to a global recession, or release of a new product.\nChange in methodology (row 8)\nThis refers to changes that occur due to modifications in the way that the inventory is calculated, for e.g. changes in emissions factors used or changes in methodology protocol followed.\nCompanies that have amended their Scope 2 emissions figure as a result of the changes in Scope 2 accounting practices for low carbon energy should report this here.\nChange in boundary (row 9)\nThis refers to changes in the boundary used for your inventory calculation, i.e. changing from financial control to operational control. This option could also apply if you have incorporated facilities into your inventory that were excluded in previous years.\nChange in physical operating conditions (row 10)\nThis refers to changes in weather that have a significant influence on how the company operates, but that cannot be accounted for under the other options available, e.g. increase production of hydroelectricity because of increased rainfall.\nUnidentified (row 11)\nComplete this row if you are not able to identify the reason for the change in emissions from year to year.\nOther (row 12)\nComplete this row if there is an alternative reason(s) for the change. Where you have used this option, please provide details of the reason(s) for the change in the \"Please explain\" column.\nDirection of change in emissions (column 3) \nEnter the direction of change of gross global (Scope 1 + Scope 2) emissions due to the reason specified, i.e. increased; decreased, or; No change.\nYou should only select \"No change\" if the percentage change is exactly zero, or zero to four decimal places (e.g. 0.00003).\nEmissions value (percentage) (column 4) \nEnter the change in emissions attributed to the reason (factor) provided in column 1 as a percentage of the Scope 1 and 2 combined emissions. This value should not be greater than 999 and should not have more than four decimal places. If the value rounds to less than zero to four decimal places (e.g. 0.00003), you should enter 0.0000. There is no need to enter the % symbol, and direction of change will be indicated in column 3. This value should be calculated as follows:\n((Change in Scope 1 + 2 emissions attributed to the reason described in column 1) / (Previous year Scope 1+2 emissions)) × 100\nPlease explain calculation (column 5) \nReport the figures used in the calculation for the figure in the \"emissions value %\" column.\nYou may also use this field to provide any additional explanation that is relevant to capture the full complexity of the emissions changes.\nNote for Energy utilities & power generators sector \nVariations in emissions may be attributable to changes in capacity (that translated into changes in output), plant outages (which can also translate into changes in output) and weather events (changes in physical operating conditions). If so, this should be included in your answer to 7.10.1.\nYou can specify the specific drivers (e.g. changes in output due to the utilization of additional capacity coming in operation) in the comment box.\nNote for organizations with significant land sector activities in their operations or value chain and/or that choose to account for and report CO2 removals \nIf you have calculated emissions in line with the GHG Protocol Land Sector and Removals Standard (LSRS) and Guidance for the first time and this has resulted in changes to the scope 1 and/or scope 2 emissions figures reported in 7.6 and/or 7.7, report the change in row \"Change in methodology\".",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Example Response",
       "text": "Worked example of reporting change in emissions \nExample 1 : The gross global emissions (Scope 1 + 2) of company X for this reporting year are 208 metric tons of CO2e. Its gross global emissions for the previous reporting year were 200 metric tons of CO2e. This means that the total change in emissions is 8 metric tons of CO2e, equal to a 4% increase, according to the formula in the explanation of terms, above: (8/200) * 100 = 4%. \nThe change from 200 to 208 metric tons is attributed to two reasons: 1) an increase in 12 metric tons of CO2e emissions due to increased production (i.e. a change in output); and 2) an estimated reduction of 4 metric tons of CO2e achieved due to emissions reduction activities. \nThe emissions value (percentage) for each of these two individual factors can also be calculated using the same formula described in the guidance, above. \nIn this example, the percentage change in emissions due to increased production is: (12/200) * 100 = 6%. This represents a 6% increase in emissions due to increased production. \nThe percentage change in emissions due to emissions reduction activities: (-4/200) * 100 = -2%. This represents a 2% decrease in emissions due to emissions reduction activities. \nThis company should respond in the following way to questions 7.10 and 7.10.1: \n(7.10) How do your gross global emissions (Scope 1 and 2 combined) for the reporting year compare to those of the previous reporting year? \nIncreased \n(7.10.1) Identify the reasons for any change in your gross global emissions (Scope 1 and 2 combined) and for each of them specify how your emissions compare to the previous year.\nReason\nChange in emissions (metric tons CO2e)\nDirection of change in emissions\nEmissions value (percentage)\nPlease explain calculation\nOther emissions reduction activities \n4 \nDecreased \n2 \nDue to ‘other emissions reduction activities' implemented during the year, despite an increase in production, emissions have not grown as high as could be expected. Last year 4 tons of CO 2e were reduced by our emissions reduction projects, and our total Scope 1 and Scope 2 emissions in the previous year was 200 tCO 2e, therefore we arrived at -2% through (-4/200) * 100= -2% (i.e. a 2% decrease in emissions). \nChange in output \n12 \nIncreased \n6 \nIf no measures had been introduced, increased demand leading to increase output would have generated an extra 6% more of emissions.",
-      "typeKo": "Example 응답",
+      "typeKo": "예시 응답",
       "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     }
   ],
@@ -365,7 +365,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -395,7 +395,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -405,7 +405,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -435,7 +435,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -445,7 +445,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -475,7 +475,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Capital goods",
@@ -485,7 +485,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -515,7 +515,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -525,7 +525,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -555,7 +555,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -565,7 +565,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -595,7 +595,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -605,7 +605,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -635,7 +635,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Construction",
@@ -645,7 +645,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -675,7 +675,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -685,7 +685,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -715,7 +715,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -725,7 +725,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -755,7 +755,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -765,7 +765,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -795,7 +795,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -805,7 +805,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -835,7 +835,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -845,7 +845,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -875,7 +875,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -885,7 +885,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -915,7 +915,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Real estate",
@@ -925,7 +925,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -955,7 +955,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -965,7 +965,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -995,7 +995,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -1005,7 +1005,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1035,7 +1035,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1045,7 +1045,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1075,7 +1075,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -1085,7 +1085,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "에서 최소 1개 행 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1115,12 +1115,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "글로벌 총 배출량(범위 1과 범위 2를 합산한 총량)의 변화의 원인을 명시하고, 각 원인별 배출량의 변화를 지난해와 비교하여 입력하십시오",
+    "question_ko": "총 배출량 (Scope 1 과 2 합산) 에 변화가 있는 경우 그 이유를 파악하고, 각각에 대해 배출량이 전년도와 어떻게 비교되는지 구체적으로 설명하십시오",
     "q2025": "Q7.10.1",
     "q2025_text": "Identify the reasons for any change in your gross global emissions (Scope 1 and 2 combined), and for each of them specify how your emissions compare to the previous year.",
     "change_status": "Modified guidance",
@@ -1137,15 +1137,15 @@
     "review_status": "변경 반영",
     "change_statusKo": "가이던스 변경",
     "detail_change_typesKo": "신규 가이던스",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "일반: D 4/4 | 0 또는 3/1 또는 3 | M 1/1 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "글로벌 총 배출량(범위 1과 범위 2를 합산한 총량)의 변화의 원인을 명시하고, 각 원인별 배출량의 변화를 지난해와 비교하여 입력하십시오"
+    "q2025_textKo": "총 배출량 (Scope 1 과 2 합산) 에 변화가 있는 경우 그 이유를 파악하고, 각각에 대해 배출량이 전년도와 어떻게 비교되는지 구체적으로 설명하십시오"
   },
   "defaultPoints": {
     "D": "4/4",
@@ -1175,17 +1175,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "이 문항은 '글로벌 총 배출량(범위 1과 범위 2를 합산한 총량)의 변화의 원인을 명시하고, 각 원인별 배출량의 변화를 지난해와 비교하여 입력하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "issueTagsKo": "기후변화",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트,, &, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '총 배출량 (Scope 1 과 2 합산) 에 변화가 있는 경우 그 이유를 파악하고, 각각에 대해 배출량이 전년도와 어떻게 비교되는지 구체적으로 설명하십시오'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

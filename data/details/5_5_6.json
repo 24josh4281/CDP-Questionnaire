@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "1행"
+      "titleKo": "행 1"
     }
   ],
   "columns": [
@@ -56,23 +56,23 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "기술",
+      "textKo": "기술 지역",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "열",
-        "수자원 열",
+        "--수자원 열",
         "",
         "",
         "()",
-        "PV 및 열",
+        "및 열",
         "응답",
         "",
-        "직접 현재",
-        "",
+        "현재 시스템",
+        "전력망",
         "냉방",
         "",
-        "열",
+        "-배출원 열",
         "열",
         "열",
         "",
@@ -81,13 +81,13 @@
         "",
         "",
         "및",
-        "/",
-        "자재",
         "",
         "",
+        "",
+        "저장",
         "수자원 열",
         "기타, 직접 입력",
-        "기준 기술"
+        "불가능 세분화 별 기술 지역"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -107,15 +107,15 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의 보고연도",
+      "textKo": "개발 보고연도",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "/",
-        "및",
         "",
-        "/",
-        "Sm모든",
+        "및 개발",
+        "파일럿",
+        "전체/",
+        "",
         ""
       ],
       "simple_helpKo": "",
@@ -129,7 +129,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "평균 % 의 R&D 3 연도s",
+      "textKo": "평균 % 총 R&D 투자 동안 최근 3 연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -144,7 +144,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "R&D 수치 보고연도 (단위 통화 선택됨 1.2) (선택지al)",
+      "textKo": "R&D 투자 수치 보고연도 (단위 통화 선택됨 1.2) (선택)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -159,7 +159,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "평균 % 의 R&D 계획된 5 연도s",
+      "textKo": "평균 % 총 R&D 투자 계획된 동안 향후 5 연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -174,7 +174,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "설명 귀사의 R&D 이 기술 부합 귀사의 기후 및/또는 기후 전환계획",
+      "textKo": "설명 어떻게 귀사의 R&D 투자 이 기술 지역 부합하는 와/과 귀사의 기후 공약 및/또는 기후 전환 계획",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -351,26 +351,26 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
-      "versionKo": "Released April 22, 2026"
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 문항naire Changes Tracker 2026",
-      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP Full Corporate Scoring Changes 2026",
-      "versionKo": "Released April 30, 2026"
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
-      "versionKo": "Released April 30, 2026"
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
     }
   ],
   "moduleTitleKo": "사업전략",
@@ -381,5 +381,5 @@
   "simpleHelpKo": "이 문항은 '제공 세부 정보 조직's 탄소 R&D 부동산 부동산 건설 연도.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

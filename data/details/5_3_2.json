@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "1행"
+      "titleKo": "행 1"
     }
   ],
   "columns": [
@@ -40,21 +40,21 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "재무 계획",
+      "textKo": "재무 해당 영향받은",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "",
-        "직접",
+        "비용",
+        "간접 비용",
         "",
         "",
-        "모든ocation",
         "및",
         "",
         "자산",
-        "",
-        "또는 일반",
-        "",
+        "부채",
+        "또는 매장량",
+        "매장량",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -72,12 +72,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "영향",
+      "textKo": "유형",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "리스크",
-        "리스크",
+        "전환 리스크",
         "기회"
       ],
       "simple_helpKo": "",
@@ -94,7 +94,7 @@
       ],
       "simple_help": "",
       "popup_help": "At least one environmental issue must be selected.",
-      "textKo": "환경이슈 관련성 있음 리스크 및/또는 기회 이 재무 계획",
+      "textKo": "환경 이슈 리스크 및/또는 기회 해당 영향받은 이러한 재무",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -112,7 +112,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "설명 환경 리스크 및/또는 기회 이 재무 계획",
+      "textKo": "어떻게 환경 리스크 및/또는 기회 영향받은 이러한 재무",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -1145,26 +1145,26 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
-      "versionKo": "Released April 22, 2026"
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 문항naire Changes Tracker 2026",
-      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP Full Corporate Scoring Changes 2026",
-      "versionKo": "Released April 30, 2026"
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
-      "versionKo": "Released April 30, 2026"
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
     }
   ],
   "moduleTitleKo": "사업전략",
@@ -1175,5 +1175,5 @@
   "simpleHelpKo": "이 문항은 '환경 리스크와 기회가 귀사의 재무계획에 어떤 영향을 미쳤는지 설명하십시오. M5. 사업 전략'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Break down your gross Scope 1 and Scope 2 emissions by subsidiary.",
-  "questionKo": "자회사별로 총 범위 1 및 범위 2 배출량을 세분화하십시오",
+  "questionKo": "자회사별로 총 Scope 1 및 Scope 2 배출량을 세분화하십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "1행"
+      "titleKo": "행 1"
     }
   ],
   "columns": [
@@ -27,7 +27,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "",
+      "textKo": "자회사 명칭",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -42,7 +42,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "숫자 입력",
+      "textKo": "번호",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -57,7 +57,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "기타",
+      "textKo": "기타 고유 식별자",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -72,7 +72,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 1 배출량 (미터톤 CO2e)",
+      "textKo": "Scope 1 배출량 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -87,7 +87,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 2, 기준 배출량 (미터톤 CO2e)",
+      "textKo": "Scope 2, 위치/지역-기반 배출량 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -102,7 +102,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 2, 시장-기준 배출량 (미터톤 CO2e)",
+      "textKo": "Scope 2, 시장-기반 배출량 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -117,7 +117,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의견",
+      "textKo": "",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -347,7 +347,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "주된 활동",
+      "textKo": "주요 활동",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -356,19 +356,19 @@
         "",
         "",
         "",
-        "농산물 화학",
-        "농산물 제품",
-        "농업, 건설 & 광업",
+        "농업 화학",
+        "농업 제품",
+        ", 건설 & 광업",
         "",
         "",
-        "대체",
         "",
         "",
+        "프로세스",
         "제품",
-        "의류 & 제조",
-        "의류",
+        "&",
         "",
-        "자산 관리자",
+        "",
+        "자산",
         "",
         "",
         "&",
@@ -378,24 +378,24 @@
         "광업",
         "",
         "",
-        "발전",
+        "",
         "",
         "&",
         "",
-        "발전",
-        "시멘트",
         "",
-        "화학 & 배전",
         "",
-        "석탄 &",
-        "석탄 발전",
+        "",
+        "화학 & 유통",
+        "",
+        "석탄 & 프로세스",
+        "석탄",
         "",
         "",
         "서비스",
         "",
         "",
-        "제품",
-        "건설 & 자재 & 배전",
+        "콘크리트 제품",
+        "건설 & & 유통",
         "&",
         "서비스",
         "",
@@ -403,28 +403,28 @@
         "&",
         "& 제품",
         "",
-        "소매",
+        "",
         "서비스",
         "",
         "전력",
         "",
         "",
-        "에너지 인프라 건설",
+        "에너지 건설",
         "에너지 서비스 &",
         "서비스",
         "&",
         "",
-        "식품",
+        "",
         "제품",
         "",
-        "식품 & 음료",
-        "식품 & 음료",
+        "&",
+        "&",
         "",
-        ", &",
+        ", & 프로세스",
         "",
         "",
-        "가스 유틸리티",
-        "발전",
+        "가스",
+        "",
         "제품",
         "",
         "",
@@ -432,7 +432,7 @@
         "",
         "&",
         "&",
-        "시설",
+        "",
         "서비스",
         "",
         "",
@@ -440,21 +440,21 @@
         "",
         "&",
         "",
-        "발전",
+        "",
         "&",
         "",
-        "배전",
+        "유통",
         "서비스",
-        "인프라 & 관리",
-        "기반 화학",
+        "& 관리",
+        "화학",
         "보험",
         "운송",
         "& 철강",
         "광업",
-        "IT 서비스",
-        "&",
+        "그것 서비스",
+        "토지 &",
         "",
-        "- 3rd",
+        "- 3rd 기관",
         "- 운송",
         "&",
         "",
@@ -462,109 +462,109 @@
         "",
         "",
         "&",
-        "",
-        "금속, &",
-        "광업 & 금속 서비스",
+        "프로세스",
+        ", & 거래",
+        "광업 & 서비스",
         "",
         "가스",
         "",
-        "비-",
-        "비- 발전",
-        "비-",
-        "비-",
-        "비- 건설",
-        "발전",
-        "석유 및 가스",
-        "석유 및 가스 & 소매ing",
-        "석유 및 가스 & 저장",
-        "석유 및 가스",
         "",
-        "기타 &",
-        "기타 기반 화학",
+        "",
+        "",
+        "",
+        "건설",
+        "",
+        "석유 & 가스",
+        "석유 & 가스 &",
+        "석유 & 가스 & 저장",
+        "석유 & 가스",
+        "프로세스",
+        "기타 & 프로세스",
+        "기타 화학",
         "기타 제품",
         "기타 &",
         "기타",
         "기타 재무",
-        "기타 식품",
-        "기타 비- 금속",
-        "기타 비- 광업",
-        "기타 비-",
-        "기타 비- 자재",
+        "기타 프로세스",
+        "기타",
+        "기타 광업",
+        "기타",
+        "기타",
         "기타",
         "기타 서비스",
-        "기타 에너지",
-        "기타 발전",
+        "기타 재생에너지 에너지",
+        "기타 재생에너지",
         "기타 &",
         "석유",
-        "석유",
-        "제지",
-        "제지 제품",
+        "석유 프로세스",
+        "",
+        "제품",
         "",
         "",
         "& 제품",
-        "& & 배전",
+        "& & 유통",
         "",
-        "플라스틱 제품",
+        "제품",
         "통제",
         "&",
-        "금속",
-        "금속 & 광업",
+        "",
+        "& 광업",
         "",
         "서비스",
-        "& 제지",
+        "&",
         "",
         "",
         "부동산 &",
         "부동산 서비스",
-        "& 시설",
+        "&",
         "",
         "",
         "",
-        "에너지 건설",
+        "재생에너지 에너지 건설",
         "건설",
         "",
         "",
         "",
         "제품",
-        "& 자재",
-        "",
+        "&",
+        "프로세스",
         "",
         "& 데이터",
         "",
         "",
         "에너지",
-        "발전",
         "",
         "",
-        "소매",
+        "프로세스",
+        "",
         "화학",
         "",
         "",
         "",
-        ", 식품 &",
+        ", &",
         "",
         "",
-        "기술 & 배전",
+        "기술 & 유통",
         "서비스",
-        "& 의류",
-        "",
-        "",
-        "담배 제품",
         "&",
+        "",
+        "",
+        "제품",
         "&",
-        "인프라 & 기타 건설",
+        "운송 &",
+        "운송 & 기타 건설",
+        "운송 서비스",
         "서비스",
-        "서비스",
-        "건설",
+        "유틸리티 라인 건설",
         "",
         "& &",
-        "발전",
+        "",
         "관리",
         "수자원 관리",
         "수자원",
-        "기준 서비스",
-        "발전",
-        "& 제지 제품"
+        "-기반 서비스",
+        "",
+        "& 제품"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -587,22 +587,22 @@
       ],
       "simple_help": "Select all that apply",
       "popup_help": "\"No unique identifier\" cannot be selected alongside any other option",
-      "textKo": "선택 귀사 가능 제공 이",
+      "textKo": "선택 고유 식별자 귀사 가능 제공 에 대한 이 자회사",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "- 채권",
-        "- 주식",
-        "숫자 입력",
+        "ISIN -",
+        "ISIN - 지분",
+        "CUSIP 번호",
         "Ticker",
         "",
-        "숫자 입력",
-        "숫자 입력",
-        "기타, 직접 입력 명시",
-        "아니요"
+        "번호",
+        "번호",
+        "기타 고유 식별자, 다음을",
+        "고유 식별자"
       ],
       "simple_helpKo": "해당하는 항목 모두 선택",
-      "popup_helpKo": "이 문항은 '자회사별로 총 범위 1 및 범위 2 배출량을 세분화하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
+      "popup_helpKo": "이 문항은 '자회사별로 총 Scope 1 및 Scope 2 배출량을 세분화하십시오'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
     },
     {
       "code": "7.23.1.4",
@@ -612,7 +612,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "- 채권",
+      "textKo": "ISIN -",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -627,7 +627,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "- 주식",
+      "textKo": "ISIN - 지분",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -642,7 +642,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "숫자 입력",
+      "textKo": "CUSIP 번호",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -687,7 +687,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "숫자 입력",
+      "textKo": "번호",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -706,18 +706,18 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to 7.23.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" 응답 7.23."
+      "textKo": "이 문항 만 표시됩니다 만약 귀사 선택 \"예\" 응답 7.23."
     },
     {
       "type": "Requested Content",
       "text": "General \nAdd a new row for each subsidiary you are providing emissions data for. You should aim to break down your Scope 1 and Scope 2 emissions by all subsidiaries that fall within the boundary determined by your consolidation approach (reported in 6.1). But note that the total emissions entered will not be cross-checked by CDP for consistency with your total emissions reported in 7.6 and 7.7.\nOrganizations should consistently apply the consolidation approach they have detailed in 6.1 to their subsidiaries. E.g. If using an equity share approach, you should disclose your subsidiaries' emissions according to this approach. This should be explained in the ‘Comment' column.\nIf you are not able to provide a breakdown for all subsidiaries, please ensure that you have included at a minimum any subsidiaries that were requested to disclose to investors for the reporting year.\nIf no subsidiaries were requested to disclose to CDP in the reporting year, it is up to your organization to decide which subsidiaries to report on e.g. reporting on the subsidies that represent the largest proportion of emissions.\nEmissions must be reported in gross, not net figures. Therefore, negative numbers are not allowed.\nEmissions figures should be for the reporting year only (as defined by your answer to 1.4).\nIf you are unable to provide either a Scope 1 or Scope 2 emissions figure for a subsidiary, leave the relevant column blank and do not enter zero.\nEntering zero indicates that you have measured the emissions and that they are equal to zero.\nSubsidiary name (column 1) \nProvide the full legal entity name of the subsidiary you are entering data for.\nThe subsidiary name provided should be in its original language, not a translation.\nPrimary activity (column 2) \nSelect the option that best describes the primary activity from which the subsidiary derives revenue. If the subsidiary engages in multiple activities, select the activity from which it derives the greatest share of its revenue.\nFor a full list of classifications including descriptions of each activity, see CDP's Activity Classification System .\nSelect the unique identifier(s) you are able to provide for this subsidiary (column 3) \nIf your subsidiary organization has multiple unique identifiers, select all the unique identifiers you are able to provide.\nFor each unique identifier selected, column 11 will appear for you to enter the unique identifier.\nEnsure that you enter the correct format for the unique identifier(s) you are providing. For example, ISIN codes include a two-letter country code, followed by a nine-character alphanumeric identifier and a single check digit.\nScope 2, market-based emissions (metric tons CO2e) (column 14) \nThis column only appears if you select \"We are reporting a Scope 2, market-based figure\" in column \"Scope 2, market-based\" of 7.3.\nComment (column 15) \nYou can use this text field to enter any additional relevant information. For example, you may wish to provide context to the subsidiaries you have included within your response to this question, based on your chosen consolidation approach.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Ambition",
       "text": "Companies are transparent about their emissions inventories, including their subsidiaries.",
-      "typeKo": "목표수준",
+      "typeKo": "목표 수준",
       "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
@@ -928,7 +928,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "General",
@@ -938,7 +938,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "General",
@@ -948,7 +948,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "General",
@@ -958,7 +958,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -968,7 +968,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Agricultural commodities",
@@ -978,7 +978,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -988,7 +988,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Agricultural commodities",
@@ -998,7 +998,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -1008,7 +1008,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Aviation",
@@ -1018,7 +1018,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -1028,7 +1028,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Aviation",
@@ -1038,7 +1038,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Capital goods",
@@ -1048,7 +1048,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Capital goods",
@@ -1058,7 +1058,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Capital goods",
@@ -1068,7 +1068,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Capital goods",
@@ -1078,7 +1078,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -1088,7 +1088,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Cement",
@@ -1098,7 +1098,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -1108,7 +1108,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Cement",
@@ -1118,7 +1118,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -1128,7 +1128,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Chemicals",
@@ -1138,7 +1138,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -1148,7 +1148,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Chemicals",
@@ -1158,7 +1158,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -1168,7 +1168,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Coal",
@@ -1178,7 +1178,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -1188,7 +1188,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Coal",
@@ -1198,7 +1198,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Construction",
@@ -1208,7 +1208,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Construction",
@@ -1218,7 +1218,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Construction",
@@ -1228,7 +1228,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Construction",
@@ -1238,7 +1238,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -1248,7 +1248,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -1258,7 +1258,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -1268,7 +1268,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -1278,7 +1278,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -1288,7 +1288,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Financial services",
@@ -1298,7 +1298,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -1308,7 +1308,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Financial services",
@@ -1318,7 +1318,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -1328,7 +1328,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -1338,7 +1338,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -1348,7 +1348,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -1358,7 +1358,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -1368,7 +1368,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Metals & mining",
@@ -1378,7 +1378,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -1388,7 +1388,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Metals & mining",
@@ -1398,7 +1398,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -1408,7 +1408,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Oil & Gas",
@@ -1418,7 +1418,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -1428,7 +1428,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Oil & Gas",
@@ -1438,7 +1438,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -1448,7 +1448,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Paper & forestry",
@@ -1458,7 +1458,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -1468,7 +1468,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Paper & forestry",
@@ -1478,7 +1478,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Real estate",
@@ -1488,7 +1488,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Real estate",
@@ -1498,7 +1498,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Real estate",
@@ -1508,7 +1508,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Real estate",
@@ -1518,7 +1518,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -1528,7 +1528,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Steel",
@@ -1538,7 +1538,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -1548,7 +1548,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -1558,7 +1558,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -1568,7 +1568,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Transport OEMS",
@@ -1578,7 +1578,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -1588,7 +1588,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS",
@@ -1598,7 +1598,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1608,7 +1608,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1618,7 +1618,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1628,7 +1628,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1638,7 +1638,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -1648,7 +1648,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 당 완료 셀 비율 숫자 입력 의 행 공시된 다음 열: - '자회사 명칭' - 'Scope 1 배출량 (미터톤 CO2e)' - 둘 중 하나 'Scope 2, 위치/지역-기반 배출량 (미터톤 CO2e)' 또는 'Scope 2, 시장-기반 배출량 (미터톤 CO2e)' 최대 3/3 점 사용 가능 이 문항."
     },
     {
       "sector": "Transport services",
@@ -1658,7 +1658,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -1668,7 +1668,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Transport services",
@@ -1678,12 +1678,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "자회사별로 총 범위 1 및 범위 2 배출량을 세분화하십시오",
+    "question_ko": "자회사별로 총 Scope 1 및 Scope 2 배출량을 세분화하십시오",
     "q2025": "Q7.23.1",
     "q2025_text": "Break down your gross Scope 1 and Scope 2 emissions by subsidiary.",
     "change_status": "No question-level change; detail changes",
@@ -1698,17 +1698,17 @@
     "daml_summary": "General: D 3/3 | A 0/0 | M 0/0 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "detail_change_typesKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "일반: D 3/3 | 0/0 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "자회사별로 총 범위 1 및 범위 2 배출량을 세분화하십시오"
+    "q2025_textKo": "자회사별로 총 Scope 1 및 Scope 2 배출량을 세분화하십시오"
   },
   "defaultPoints": {
     "D": "3/3",
@@ -1738,17 +1738,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "이 문항은 '총 범위 1 및 범위 2 배출량을 자회사별로 구분하여 입력하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "issueTagsKo": "기후변화",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트,, &, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '자회사별로 총 Scope 1 및 Scope 2 배출량을 세분화하십시오'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

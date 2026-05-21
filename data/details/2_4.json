@@ -35,12 +35,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "유형 의",
+      "textKo": "유형 정의",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "정성적",
-        "정량적"
+        "",
+        ""
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -72,27 +72,27 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "사용됨 정의 중대한 영향",
+      "textKo": "지표 사용된 정의 중대한 영향",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "자산 가치",
-        "배점",
+        "",
         "",
         "리스크",
-        "고객",
-        "직접",
+        "",
+        "비용",
         "",
         "",
-        "간접",
-        "",
-        "시장 주식",
-        "생산",
+        "간접 비용",
+        "부채",
+        "시장 비중",
+        "생산 용량",
         "매출",
-        "주식 가격",
-        "주주 가치",
+        "비중 가격",
+        "가치",
         "자산",
-        "전략적 고객",
+        "",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -111,12 +111,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "변경",
+      "textKo": "지표",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "절대",
-        "절대",
+        "",
+        "",
         "%",
         "%"
       ],
@@ -144,7 +144,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 변경",
+      "textKo": "% 지표",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -172,7 +172,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "절대 / 수치",
+      "textKo": "/ 수치",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -192,13 +192,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "지표 고려됨",
+      "textKo": "지표 고려된 정의",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "빈도 의 영향",
-        "시간 범위 동안 영향",
-        "의 영향",
+        "",
+        "시간 동안 발생합니다",
+        "",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -212,7 +212,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의",
+      "textKo": "정의",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -1257,7 +1257,7 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
@@ -1269,5 +1269,5 @@
   "simpleHelpKo": "이 문항은 '귀사가 정의하는 중대한 영향 (중대한 영향) 의 기준을 설명하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

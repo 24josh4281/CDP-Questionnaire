@@ -20,7 +20,7 @@
     {
       "order": 2,
       "title": "Coal - Brown",
-      "titleKo": "석탄 - B행n"
+      "titleKo": "석탄 -"
     },
     {
       "order": 3,
@@ -35,7 +35,7 @@
     {
       "order": 5,
       "title": "Sustainable biomass",
-      "titleKo": ""
+      "titleKo": "지속가능한"
     },
     {
       "order": 6,
@@ -45,7 +45,7 @@
     {
       "order": 7,
       "title": "Waste (non-biomass)",
-      "titleKo": "(아니요n-)"
+      "titleKo": "()"
     },
     {
       "order": 8,
@@ -55,7 +55,7 @@
     {
       "order": 9,
       "title": "Geothermal",
-      "titleKo": "Ge기타mal"
+      "titleKo": ""
     },
     {
       "order": 10,
@@ -95,17 +95,17 @@
     {
       "order": 17,
       "title": "Fossil-fuel plants fitted with CCS",
-      "titleKo": "연료"
+      "titleKo": "-연료 와/과"
     },
     {
       "order": 18,
       "title": "Other renewable (e.g. renewable hydrogen)",
-      "titleKo": "기타 (e.g.)"
+      "titleKo": "기타 재생에너지 (예: 재생에너지)"
     },
     {
       "order": 19,
       "title": "Other non-renewable (e.g. non-renewable hydrogen)",
-      "titleKo": "기타 아니요n- (e.g. 아니요n-)"
+      "titleKo": "기타 -재생에너지 (예: -재생에너지)"
     }
   ],
   "columns": [
@@ -117,7 +117,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "보고연도 발전 에서 이 (단위 통화 선택됨 1.2)",
+      "textKo": "CAPEX 보고연도 에 대한 에서 이 배출원 (단위 통화 선택됨 1.2)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -132,7 +132,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "보고연도 발전 에서 이 % 의 발전 보고연도",
+      "textKo": "CAPEX 보고연도 에 대한 에서 이 배출원 % 총 CAPEX 에 대한 보고연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -147,7 +147,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "계획된 5 연도s 발전 에서 이 % 의 계획된 발전 5 연도s",
+      "textKo": "CAPEX 계획된 동안 향후 5 연도 에 대한 에서 이 배출원 % 총 CAPEX 계획된 에 대한 동안 향후 5 연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -162,7 +162,7 @@
       "options": [],
       "simple_help": "Column/row appearance is dependent on selections in this or other questions.",
       "popup_help": "",
-      "textKo": "연도 신규 사용 이",
+      "textKo": "대부분의 연도 a 신규 사용하여 이 배출원 에 대한 개발",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -177,7 +177,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "설명 귀사의 산정s, 포함 하나 이상",
+      "textKo": "설명 귀사의 CAPEX 산정s, 포함 모든",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -310,26 +310,26 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
-      "versionKo": "Released April 22, 2026"
+      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
+      "versionKo": "2026년 4월 22일 공개"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 문항naire Changes Tracker 2026",
-      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
+      "nameKo": "CDP 2026 문항 변경 추적표",
+      "versionKo": "버전 3, 2026년 5월 8일 개정"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP Full Corporate Scoring Changes 2026",
-      "versionKo": "Released April 30, 2026"
+      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
+      "versionKo": "2026년 4월 30일 공개"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
-      "versionKo": "Released April 30, 2026"
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "versionKo": "2026년 4월 30일 공개"
     }
   ],
   "moduleTitleKo": "사업전략",
@@ -340,5 +340,5 @@
   "simpleHelpKo": "이 문항은 '구분,, 조직's 보고연도 계획된 5 연도.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details on those management practices that have other impacts besides climate change mitigation/adaptation and on your management response.",
-  "questionKo": "제공 세부 정보 관리 기타 영향 기후 변경 / 관리 응답.",
+  "questionKo": "제공 세부 정보 해당 관리 practices have 기타 영향 besides 기후변화 완화/적응 및 귀사의 관리 response.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -48,7 +48,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "관리 관행 숫자 입력",
+      "textKo": "관리 practice reference 숫자 입력",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -89,14 +89,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "영향",
+      "textKo": "Over모든 effect",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "",
-        "",
-        "",
-        ""
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Mixed"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -115,17 +115,17 @@
       ],
       "simple_help": "Select all that apply:",
       "popup_help": "",
-      "textKo": "의 다음?",
+      "textKo": "의 다음 has impacted?",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "생물다양성",
-        "",
+        "Soil",
         "수자원",
-        "",
+        "Yield",
         "기타, 직접 입력"
       ],
-      "simple_helpKo": "선택 모든 적용:",
+      "simple_helpKo": "해당하는 항목 모두 선택:",
       "popup_helpKo": ""
     },
     {
@@ -136,7 +136,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "설명 의 영향",
+      "textKo": "Description 의 영향",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -154,7 +154,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "귀사 해당 응답 이 영향?",
+      "textKo": "Have 귀사 implemented 하나 이상 response 이 영향?",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -172,7 +172,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "설명 의 응답",
+      "textKo": "Description 의 response",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -191,19 +191,19 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to 7.69.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" 응답 7.69."
+      "textKo": "이 문항 only appears 만약 귀사 선택 \"예\" response 7.69."
     },
     {
       "type": "Requested Content",
       "text": "General \nIdentify and explain any impacts that occurred because of any agricultural/forestry management practice implemented in your own land, as reported in 7.67.1. You should not report effects that are climate-related, as these are already captured earlier in your disclosure. Provide effects associated with other environmental issues, e.g. on biodiversity, soils, water \nManagement practice reference number (column 1) \nWhen referring to a specific management practice or action, please make sure you select the same identifier for this management practice as in 7.67.1. For example, if you would like to disclose other effects of \"agroforestry\" which you already disclosed in terms of climate-related effects, you should select in this column the same identifier that refers to this practice in 7.67.1. \nOverall effect (column 2) \nThis refers to the overall effect of your management practice on other environmental issues. \nWhich of the following has been impacted? (column 3) \nIndicate which environmental issues have been affected by your management practice. Select all options that apply \nIf none of the reasons are applicable to your organization, select \"Other, please specify\" and indicate the additional area(s) that have been impacted by your management practices \nDescription of impact (column 4) \nProvide a brief description of the methods/tools used to assess the consequences of the implementation of your management practice on other environmental issues \nProvide details on each of these impacts/effects, including: \ntheir nature \nthe parts of your business that have been affected. \nDescription of the response (column 6) \nIf applicable, describe your response to manage, mitigate, control, or adapt to these impacts/effects. \nIf you selected \"No\" in column 5 (\"Have you implemented…?\"), explain why you have not implemented a response to these impacts",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "일반 식별 및 설명 하나 이상 영향 occurred because 의 하나 이상 agricultural/산림ry 관리 practice implemented 귀사의 own land, 보고된 7.67.1. 귀사 해야 합니다 아니요t 보고 effects 기후-related, 이 already captured earlier 귀사의 공시. 제공 effects associated 기타 환경이슈, e.g. 생물다양성, soils, 수자원 관리 practice reference 숫자 입력 (열 1) 경우 referring specific 관리 practice 또는 action, please make sure 귀사 선택 same identifier 이 관리 practice 7.67.1. example, 만약 귀사 would like 공시 기타 effects 의 \"agro산림ry\" 귀사 already 공시된 terms 의 기후-related effects, 귀사 해야 합니다 선택 이 열 same identifier refers 이 practice 7.67.1. Over모든 effect (열 2) 이 refers over모든 effect 의 귀사의 관리 practice 기타 환경이슈. 의 다음 has impacted? (열 3) Indicate 환경이슈 have affected 기준 귀사의 관리 practice. 선택 모든 선택지 apply 만약 아니요ne 의 이유s applicable 귀사, 선택 \"기타, 직접 입력\" 및 indicate additional area(s) have impacted 기준 귀사의 관리 practices Description 의 영향 (열 4) 제공 brief description 의 methods/tools used 평가 consequences 의 implementation 의 귀사의 관리 practice 기타 환경이슈 제공 세부 정보 each 의 이 영향/effects, 포함: their nature parts 의 귀사의 사업 have affected. Description 의 response (열 6) 만약 applicable, 설명 귀사의 response 관리, 완화, control, 또는 adapt 이 영향/effects. 만약 귀사 선택됨 \"아니요\" 열 5 (\"Have 귀사 implemented…?\"), 설명 why 귀사 have 아니요t implemented response 이 영향"
     },
     {
       "type": "Example Response",
       "text": "Management practice reference\nnumber \nOverall effect \nWhich of the following has been impacted? \nDescription of impact \nHave you implemented any response(s) to these impacts? \nDescription of the response(s) \nMP1 \nPositive \nSoil; Yield \nWe adopted cover-cropping practices in 85% of our farms a year ago. It\nhas already had positive impacts in the soil quality, such as reduced soil\nerosion, increased levels of soil organic matter, improved moisture retention. Also, the crop yield has increased by 15% compared to last year. \nNo \nWe have not implemented any response as we did\nnot identify any negative impacts caused by this management practice.",
-      "typeKo": "Example 응답",
-      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
+      "typeKo": "Example Response",
+      "textKo": "관리 practice reference 숫자 입력 Over모든 effect 의 다음 has impacted? Description 의 영향 Have 귀사 implemented 하나 이상 response(s) 이 영향? Description 의 response(s) MP1 Positive Soil; Yield 당사 adopted cover-cropping practices 85% 의 당사의 farms 연도 ago. It has already had positive 영향 soil quality, such reduced soil erosion, increased levels 의 soil organic matter, improved moisture retention. Also, crop yield has increased 기준 15% compared last 연도. 아니요 당사 have 아니요t implemented 하나 이상 response 당사 did 아니요t 식별 하나 이상 negative 영향 caused 기준 이 관리 practice."
     }
   ],
   "points": [
@@ -262,11 +262,11 @@
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "농산물 원자재: D 6/6 | 3/3 | M 1/1 | L 0/0 식음료 및 담배: D 6/6 | 3/3 | M 1/1 | L 0/0 제지 및 임업: D 6/6 | 3/3 | M 1/1 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "변경 없음 verified 및 2026 source applied",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "제공 세부 정보 해당 관리 기타 영향 기후변화 완화/적응 및 귀사의 관리 응답."
+    "q2025_textKo": "제공 세부 정보 해당 관리 practices have 기타 영향 besides 기후변화 완화/적응 및 귀사의 관리 response."
   },
   "defaultPoints": {
     "D": "6/6",
@@ -278,35 +278,35 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
-  "sectorTagsKo": "농산물 원자재, 식품, 음료 & 담배, 제지 및 임업",
-  "simpleHelpKo": "이 문항은 '제공 세부 정보 관리 기타 영향 기후 변경 / 관리 응답.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "issueTagsKo": "기후변화",
+  "sectorTagsKo": "농산물 원자재, Food, beverage & tobacco, 제지 및 임업",
+  "simpleHelpKo": "이 문항 gathers 데이터 영향 - 기타 기후-related - 의 관리 practices implemented 귀사의 land. 조직 encouraged move towards more holistic approach regarding their land 관리 actions. 이 중요 due complex interrelationships between 기후변화, de산림ation, 및 수자원 issues. understanding 의 implications 의 귀사의 관리 practices 기타 환경 aspects demonstrates mature 환경 stewardship approach investors 및 기타 데이터 users.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "2025 Korean form + CDP glossary repair"
 }

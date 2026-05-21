@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Break down your total gross global Scope 1 emissions from electric utilities value chain activities by greenhouse gas type.",
-  "questionKo": "구분 전 세계 범위 1 배출량 가치 사슬 활동 가스.",
+  "questionKo": "귀사의 총 총 전 세계 Scope 1 배출량 에서 전력 유틸리티 가치사슬 활동 기준 온실가스 유형.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -25,7 +25,7 @@
     {
       "order": 3,
       "title": "Combustion (Gas utilities)",
-      "titleKo": "(가스 유틸리티)"
+      "titleKo": "(가스)"
     },
     {
       "order": 4,
@@ -47,7 +47,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 범위 1 CO2 배출량 (미터톤 CO2)",
+      "textKo": "총 Scope 1 CO2 배출량 (지표 톤 CO2)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -62,7 +62,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 범위 1 배출량 (미터톤 CH4)",
+      "textKo": "총 Scope 1 메탄 배출량 (지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -77,7 +77,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 범위 1 SF6 배출량 (미터톤 SF6)",
+      "textKo": "총 Scope 1 배출량 (지표 톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -92,7 +92,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 총 범위 1 배출량 (미터톤 CO2e)",
+      "textKo": "총 총 Scope 1 배출량 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -107,7 +107,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의견",
+      "textKo": "",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -120,19 +120,19 @@
       "type": "Change From Last Year",
       "text": "Revised question dependency",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "전년 대비 변경사항은 2026 CDP 원문 및 변경 추적표 기준으로 확인하십시오."
+      "textKo": "개정 문항 의존도"
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes, both Scope 1 and Scope 2 emissions\" or \"Yes, Scope 1 emissions only\" in response to column 1 \"Emissions breakdown by greenhouse gas type\" of 7.15.",
       "typeKo": "문항 의존성",
-      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
+      "textKo": "이 문항 만 표시됩니다 만약 귀사 선택 \"예, 모두 Scope 1 및 Scope 2 배출량\" 또는 \"예, Scope 1 배출량 만\" 응답 열 1 \"배출량 세분화 기준 온실가스 유형\" 의 7.15."
     },
     {
       "type": "Requested Content",
       "text": "General \nThis question requests emissions data only from emission sources that fall within the chosen reporting boundary (i.e. Scope 1 emissions) and that are within the energy utilities & power generators sector boundary.\nUtility companies that purchase wholesale electricity supplied by independent power producers for resale to their customers should consider reporting these emissions under Scope 3.\nWhen providing emissions resulting from combustion activities please note for the purposes of this question combustion is divided into three categories comprising electric utilities, gas utilities, and other.\nEmissions not elsewhere classified includes any emissions occurring in the organizational/sector boundary that have not been reported in the above rows. Therefore, the sum of GHG emissions in all rows should equal the figure reported in 7.19.\nThe Global Warming Potential (GWP) factors used here should be consistent with your disclosures throughout the questionnaire. CDP encourages the use of the most recent GWP factors published by IPCC, in alignment with the GHG Protocol.\nNegative numbers are not allowed as you are requested to report gross, not net figures.\nEmissions figures should be for the reporting year only (as defined by your answer to 1.4).\nEmissions sources (column 1) \nAn explanation of the emissions categories is provided in the explanation of terms.\nGross Scope 1 CO2 emissions (metric tons CO2) (column 2) \nReport your organization's Scope 1 CO2 emissions for the emissions category in column 1.\nGross Scope 1 methane emissions (metric tons CH4) (column 3) \nReport your organization's Scope 1 methane emissions in CH4 for the emissions category in column 1.\nGross Scope 1 SF6 emissions (metric tons SF6) (column 4) \nReport your organization's Scope 1 sulphur hexafluoride emissions in SF6 for the emissions category in column 1.\nTotal gross Scope 1 emissions (metric tons CO2e) (column 5) \nTotal greenhouse gas emissions - from CO2, CH4 SF6\nand any other greenhouse gases such as HFC's etc., if applicable, should be aggregated and reported in units of CO2e.\nNote on sector boundary \nSector production activities relate to activities conducted by your organization relating to the high-intensity sector that this sector-specific questionnaire relates to. These activities may be directly or indirectly related to the production process itself. Given the potential complexity of production sectors, CDP encourages you to identify and remove specific activities from your organizational boundary (or business division's organizational boundary) that are not necessarily a part of the sector. Starting with your answer to question 7.6, emissions from the following sources should be deducted:\nExternal corporate entities, i.e. assets, business divisions, partnerships and subsidiaries operating outside of the high-intensity sector.\nNon-industrial buildings, e.g. offices, accommodation, other property.\nNon-production related activities, e.g. management, services, R&D, marketing, retail. o Transport, e.g. distribution, business travel, shipping, freight, logistics.\nProjects, e.g. construction, engineering and maintenance.\nAlternatively, you may consider constructing your sector boundary around activities that should be included. At a minimum, you should include in your sector boundary:\nThe production processes\nAll activities, processes and equipment that are ancillary to the production processes.\nAll other industrial installations, energy installations and other installations or activities contributing to or supplying the production processes and ancillary activities, e.g. boilers, power plant, raw material preparation and extraction, etc.\nAll buildings that house the production processes and ancillary activities and said installations, as well as buildings used for inventory storage.\nOnsite mobile combustion, e.g. forklifts and excavators, and movement of materials between industrial sites within the sector.\nAny other industrial activities that typically occur on the production sites of the high-intensity sector.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
@@ -171,17 +171,17 @@
     "daml_summary": "Energy utilities & power generators: D 3/3 | A 2/2 | M 0/0 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_statusKo": "개정 문항 의존도",
+    "detail_change_typesKo": "개정 문항 의존도",
+    "change_summaryKo": "문항 표시됩니다 조직 선택 \"예, 모두 Scope 1 및 Scope 2 배출량\" 또는 \"예, Scope 1 배출량 만\" 응답 열 1 \"배출량 세분화 기준 온실가스 유형\" 의 7.15.",
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "에너지 유틸리티 및 발전: D 3/3 | 2/2 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "분류 귀사의 총 총 전 세계 범위 1 배출량 에서 전력 유틸리티 가치사슬 활동 기준 온실가스 유형."
+    "q2025_textKo": "귀사의 총 총 전 세계 Scope 1 배출량 에서 전력 유틸리티 가치사슬 활동 기준 온실가스 유형."
   },
   "defaultPoints": {
     "D": "3/3",
@@ -211,17 +211,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "에너지 유틸리티 및 발전",
-  "simpleHelpKo": "이 문항은 '구분 전 세계 범위 1 배출량 가치 사슬 가스.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '귀사의 총 총 전 세계 Scope 1 배출량 에서 전력 유틸리티 가치사슬 활동 기준 온실가스 유형.'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

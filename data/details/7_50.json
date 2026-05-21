@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide primary intensity metrics that are appropriate to your indirect emissions in Scope 3 Category 11: Use of sold products from transport.",
-  "questionKo": "범위 3 카테고리 11. 판매제품의 사용 – 운송에서 귀사의 간접 배출에 적합한 주요 집약도 지표를 제시하십시오",
+  "questionKo": "Scope 3 카테고리 11. 판매제품의 사용 – 운송에서 귀사의 간접 배출에 적합한 주요 집약도 지표를 제시하십시오. 활동 배출량 집약도 수치 지표 분자 (Scope 3 카테고리 11. 판매제품의 사용) (tCO2e) 지표 분모 지표 분모: 단위 총합 1.21 번 문항에서 선택한 운송 모드에 따라 옵션 선택 경량자동차",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -37,10 +37,10 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "()",
-        "()",
-        "",
-        "",
+        "Light Duty Vehicles (LDV)",
+        "Heavy Duty Vehicles (HDV)",
+        "Rail",
+        "Marine",
         "항공"
       ],
       "simple_helpKo": "",
@@ -54,7 +54,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "",
+      "textKo": "Load factor",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -69,7 +69,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "직접 입력 설명 변경사항, 및 관련성 있음 /방법론 사용됨",
+      "textKo": "설명하십시오 changes, 및 관련성 있음 standards/방법론 used",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -99,7 +99,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "지표 (범위 3 배출량: 사용 의 제품) 미터톤 CO2e",
+      "textKo": "지표 numerator (Scope 3 배출량: use 의 sold products) 미터톤 CO2e",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -121,16 +121,16 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "지표",
+      "textKo": "지표 de아니요minator",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "p.km",
         "t.km",
-        "p.",
-        "t.",
-        "p.",
-        "t."
+        "p.mile",
+        "t.mile",
+        "p.nautical mile",
+        "t.nautical mile"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -143,7 +143,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "지표: 단위 총",
+      "textKo": "지표 de아니요minator: Unit total",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -158,7 +158,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 변경 에서 이전 연도",
+      "textKo": "% change 에서 이전 연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -173,7 +173,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "단위 보고연도",
+      "textKo": "Vehicle unit sales 보고연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -188,7 +188,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "년",
+      "textKo": "Vehicle lifetime 연도s",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -203,7 +203,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "km 또는 (단위 기준 열 4)",
+      "textKo": "Annual distance km 또는 miles (unit specified 기준 열 4)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -222,19 +222,19 @@
       "type": "Requested Content",
       "text": "General \nThis question requests primary intensity metrics that give an indication of the emissions performance of units sold by the transport OEM, normalized by units of transport and distance. \nThe metrics required in this question are all in the format of tons of CO2e, per unit of transport (passenger or ton), per unit of distance (kilometer or mile). Please see the Technical Note on \"Measuring the emissions intensity of transport movements\" for more information and guidance on the measurement of these indicators. for more information and guidance on the measurement of these indicators. \nThis emissions intensity metric is requested as an average for the total fleet of vehicles of a particular mode sold by the responding OEM. \nFor example, for an automobile manufacturer, this metric represents the average CO2e emitted by cars produced in the reporting year, per passenger, per kilometer travelled. This can be calculated from the average CO2e per vehicle kilometer metric by adding in a load factor for the average expected number of passengers. \nThe question is made up of 11 fields for each transport mode, whereby an intensity figure is requested, its numerator and denominator, as well as the input parameters and assumptions used to calculate this. This provides data users with the possibility to compare methods and gain an insight in the assumptions that OEMs use. \nAny other metrics, such as intensity per vehicle instead of per passenger/ton, should not be reported here, but in question 7.35. \nActivity (column 1) \nSelect the activity that you would like to provide data for. \nActivity modes presented in drop-down options are determined by transport modes selected in response to 1.21. \nEmissions intensity figure (column 2) \nReport the intensity figure that corresponds with the activity in column 1. \nThis is the direct emissions intensity figure, calculated using the numerator you are asked for in column 3, and the denominator reported in column 5 using the denominator units selected in column 4. \nMetric numerator (Scope 3 emissions: use of sold products) in Metric tons CO2e (column 3) \nProvide the total emissions figure for the activity selected in column 1, in metric tons CO2e. \nThis figure is usually derived by multiplying the average emissions per kilometer per vehicle by the total number of all vehicle units sold in reported year (column 7) by the average annual distance in kilometers expected for each vehicle (reported in column 9), and then multiplied by the average vehicle lifetime in years (reported in column 8). \nMetric denominator (column 4) \nSelect the relevant metric denominator: \np.km - passenger-kilometers \nt.km - ton-kilometers \np.mile - passenger-miles \nt.mile - ton-miles \np.nautical mile - passenger-nautical miles \nt.nautical mile - ton-nautical miles \nYou are expected to provide data separately for vehicles intended for passenger and freight modes of transport, respectively. You may choose to add more rows to split up your intensity metric by vehicle sub-modes. In this case, please give a brief description of the mode boundary you use in column 11. \nYou are only asked to report on the metric that is most significant for the vehicles types that you are selling. For example, if you produce and market passenger automobiles, then it is expected these are intended for passenger transport, thus a freight intensity figure in t.km would not be meaningful. \nMetric denominator: Unit total (column 5) \nEnter the numerical value of the denominator selected in column 4, which should be derived by multiplying the number of vehicles sold (column 7) by total lifetime distance in km or miles (column 8 and 9) by the load factor (reported in column 10) \n% change from previous year (column 6) \nIf you have experienced no change, please enter 0 (zero) in this column. \nLeave the column blank if you do not have sufficient data to calculate the change from the previous year, or if this is the first year you have tracked this metric. \nPutting in zero would suggest that you have compared your emissions to the 12-month period prior, and that they were equal to zero. \nVehicle unit sales in reporting year (column 7) \nReport the total vehicle unit sales for the vehicles that fall into the category selected in column 1, which you have used for the calculation of this metric. \nVehicle lifetime in years (column 8) \nReport the average vehicle lifetime assumption used to calculate the total ton of passenger-kilometers. \nAnnual distance in km (column 9) \nReport the average annual travel distance assumption for a vehicle sold. \nLoad factor (column 10) \nFor OEMs, to calculate this metric an assumption will have to be made on the load factor. \nThis is a free text field, as companies are invited to explain more about their load factor assumptions. \nFor data on passenger-kilometers, companies are asked to report the number of passengers expected per average trip. For light duty vehicles, this is expected to be between 1 and 2 passengers, depending on geography and weighted sales of vehicle modes. \nAs the load factor can be an assumption (as companies may not have actual data), it is acceptable to use default factors from other sources. e.g. passenger load factors used in MoMo, 2017 (Annex ii, Transport science-based target setting guidance, Science based Targets 2018). OEMs who do not have data or default factors to make any reasonable assumption on the freight load factor of their vehicles, or whose range may be too diverse to make such an assumption, are invited to report the average maximum load in tons for all vehicles sold in the reporting year. \nCompanies may choose to report multiple rows of data for different vehicle modes, whereby the load factor in tons or number of passengers will be the primary differentiator. \nPlease explain the changes, and relevant standards/methodologies used (column 11) \nExplain any changes in primary intensity metrics compared to previous year, reported in column 6. \nIf you used any relevant existing standards and/or methodologies to calculate your emission intensities, mention them here. \nYou may use this text field to provide any additional explanation relevant to capture the calculation methodology and other important notes and caveats that exist in your calculation of this metric.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "일반 이 문항 requests 주된 intensity 지표 give indication 의 배출량 performance 의 units sold 기준 transport OEM, 아니요rmalized 기준 units 의 transport 및 distance. 지표 required 이 문항 모든 format 의 tons 의 CO2e, per unit 의 transport (passenger 또는 ton), per unit 의 distance (kilometer 또는 mile). Please see Technical 아니요te \"Measuring 배출집약도 의 transport movements\" more 정보 및 가이던스 measurement 의 이 indicators. more 정보 및 가이던스 measurement 의 이 indicators. 이 배출집약도 지표 requested average total fleet 의 vehicles 의 particular mode sold 기준 responding OEM. example, automobile manufacturer, 이 지표 represents average CO2e emitted 기준 cars produced 보고연도, per passenger, per kilometer travelled. 이 할 수 있습니다 산정d 에서 average CO2e per vehicle kilometer 지표 기준 adding load factor average expected 숫자 입력 의 passengers. 문항 made up 의 11 fields each transport mode, whereby intensity 수치 requested, its numerator 및 de아니요minator, well input parameters 및 assumptions used 산정 이. 이 제공s 데이터 users possibility compare methods 및 gain insight assumptions OEMs use. 하나 이상 기타 지표, such intensity per vehicle instead 의 per passenger/ton, 해야 합니다 아니요t 보고된 here, but 문항 7.35. 활동 (열 1) 선택 활동 귀사 would like 제공 데이터. 활동 modes presented drop-down 선택지 determined 기준 transport modes 선택됨 response 1.21. 배출집약도 수치 (열 2) 보고 intensity 수치 corresponds 활동 열 1. 이 direct 배출집약도 수치, 산정d using numerator 귀사 asked 열 3, 및 de아니요minator 보고된 열 5 using de아니요minator units 열에서 선택 4. 지표 numerator (Scope 3 배출량: use 의 sold products) 미터톤 CO2e (열 3) 제공 total 배출량 수치 활동 열에서 선택 1, 미터톤 CO2e. 이 수치 usu모든y derived 기준 multiplying average 배출량 per kilometer per vehicle 기준 total 숫자 입력 의 모든 vehicle units sold 보고된 연도 (열 7) 기준 average annual distance kilometers expected each vehicle (보고된 열 9), 및 then multiplied 기준 average vehicle lifetime 연도s (보고된 열 8). 지표 de아니요minator (열 4) 선택 관련성 있음 지표 de아니요minator: p.km - passenger-kilometers t.km - ton-kilometers p.mile - passenger-miles t.mile - ton-miles p.nautical mile - passenger-nautical miles t.nautical mile - ton-nautical miles 귀사 expected 제공 데이터 separately vehicles intended passenger 및 freight modes 의 transport, respectively. 귀사 할 수 있습니다 choose add more 행 split up 귀사의 intensity 지표 기준 vehicle sub-modes. 이 case, please give brief description 의 mode boundary 귀사 use 열 11. 귀사 only asked 보고 지표 most significant vehicles types 귀사 selling. example, 만약 귀사 produce 및 시장 passenger automobiles, then it expected 이 intended passenger transport, thus freight intensity 수치 t.km would 아니요t meaningful. 지표 de아니요minator: Unit total (열 5) Enter 숫자 입력al 가치 의 de아니요minator 열에서 선택 4, 해야 합니다 derived 기준 multiplying 숫자 입력 의 vehicles sold (열 7) 기준 total lifetime distance km 또는 miles (열 8 및 9) 기준 load factor (보고된 열 10) % change 에서 이전 연도 (열 6) 만약 귀사 have experienced 변경 없음, please enter 0 (zero) 이 열. Leave 열 blank 만약 귀사 do 아니요t have sufficient 데이터 산정 change 에서 이전 연도, 또는 만약 이 first 연도 귀사 have tracked 이 지표. Putting zero would suggest 귀사 have compared 귀사의 배출량 12-month period prior, 및 they were equal zero. Vehicle unit sales 보고연도 (열 7) 보고 total vehicle unit sales vehicles f모든 into category 열에서 선택 1, 귀사 have used 산정 의 이 지표. Vehicle lifetime 연도s (열 8) 보고 average vehicle lifetime assumption used 산정 total ton 의 passenger-kilometers. Annual distance km (열 9) 보고 average annual travel distance assumption vehicle sold. Load factor (열 10) OEMs, 산정 이 지표 assumption have made load factor. 이 free 텍스트 입력, 기업 invited 설명 more about their load factor assumptions. 데이터 passenger-kilometers, 기업 asked 보고 숫자 입력 의 passengers expected per average trip. light duty vehicles, 이 expected between 1 및 2 passengers, depending geography 및 weighted sales 의 vehicle modes. load factor 할 수 있습니다 assumption (기업 할 수 있습니다 아니요t have actual 데이터), it acceptable use default factors 에서 기타 sources. e.g. passenger load factors used MoMo, 2017 (Annex ii, Transport science-based 목표 setting 가이던스, Science based 목표 2018). OEMs who do 아니요t have 데이터 또는 default factors make 하나 이상 이유able assumption freight load factor 의 their vehicles, 또는 whose range 할 수 있습니다 too diverse make such assumption, invited 보고 average 최대 load tons 모든 vehicles sold 보고연도. 기업 할 수 있습니다 choose 보고 multiple 행 의 데이터 different vehicle modes, whereby load factor tons 또는 숫자 입력 의 passengers 주된 differentiator. 설명하십시오 changes, 및 관련성 있음 standards/방법론 used (열 11) 설명 하나 이상 changes 주된 intensity 지표 compared 이전 연도, 보고된 열 6. 만약 귀사 used 하나 이상 관련성 있음 existing standards 및/또는 방법론 산정 귀사의 배출 intensities, mention them here. 귀사 할 수 있습니다 use 이 텍스트 입력 제공 하나 이상 additional explanation 관련성 있음 capture 산정 방법론 및 기타 중요 아니요tes 및 caveats exist 귀사의 산정 의 이 지표."
     },
     {
       "type": "Example Response",
       "text": "Worked example for calculating primary intensity metrics \nThe example company is an automobile manufacturer which has annual sales of 2,653,900 vehicles in the reporting year (column 7). These units are categorized in the LDV category of this questionnaire (column 1). The company does not produce a significant number of vehicles in any of the other 4 categories. The expected lifetime of vehicles is 10 years (column 8) and annual kilometers expected for each vehicle are 15,000 km (column 9). The average emissions per kilometer, which is a figure established as part of the vehicle certification, are 147 gCO2e/v.km (or 0.000147 tCO2e/v.km). The example company has established using research that 1.4 passengers is the average passenger figure for the territories in which it sells cars (column 10).\nTo get the emission intensity metric (column 2), a load factor must be applied that adjusts for the average number of passengers in the vehicle during its lifetime, which gives a final intensity figure of 0.000147 /1.4 = 0.000105 gCO2e/p.km. This represents a reduction of 1.2% compared to last year (reported in column 11).\nIn this case, the actual Scope 3 category 11 emissions (metric nominator) and passenger-kilometers (metric denominator) are not needed for the calculation of the emission intensity metric, but they are nevertheless requested here for transparency.\nTo calculate their Scope 3 emissions in category 11, use of sold products, (column 3) the company multiplies the average emissions per vehicle-kilometer by the total number of all vehicle units sold in the reporting year (column 7) by the average annual distance in kilometers expected for each vehicle (column 9), and then multiplied by the average vehicle lifetime in years (column 8):\n0.000147 tCO2e/v.km x 2,653,900 vehicles x 15,000 km x 10 years = 58,518,495 tCO2e.\nMetric denominator (column 4), is derived by multiplying the number of vehicles sold (column 7) by total lifetime distance in km (column 8 and 9) by the load factor (reported in column 10): 2,653,900 x 10 x 15,000 x 1.4 = 557,319,000,000 p.km\nPlease see in the tables below how this information should be presented in the question 7.50.\nActivity\nEmissions intensity figure\nMetric numerator (Scope 3 emissions: use of sold products) in Metric tons CO2e\nMetric denominator\nMetric denominator: Unit total\n% Change from previous year \nLDV \n0.000105 \n58,518,495 \np.km \n557,319,000,000 \n-1.2% \nVehicle unit sales in reporting year\nVehicle lifetime in years\nAnnual distance in km or miles (unit specified by column 4)\nLoad factor\nPlease explain the changes, and relevant standards/methodologies used\n2,653,900 \n10 \n15,000 \n1.4 \nWe have had a reduction of 1.2% in emission intensity compared to last year due to replacement of an old vehicle model with a new and more efficient version. \nWe established using research from the European Environment Agency that 1.4 passengers is the average passenger figure for the territories in which we sell cars.",
-      "typeKo": "Example 응답",
-      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
+      "typeKo": "Example Response",
+      "textKo": "Worked example calculating 주된 intensity 지표 example comp하나 이상 automobile manufacturer has annual sales 의 2,653,900 vehicles 보고연도 (열 7). 이 units categorized LDV category 의 이 문항naire (열 1). comp하나 이상 does 아니요t produce significant 숫자 입력 의 vehicles 하나 이상 의 기타 4 categories. expected lifetime 의 vehicles 10 연도s (열 8) 및 annual kilometers expected each vehicle 15,000 km (열 9). average 배출량 per kilometer, 수치 established part 의 vehicle certification, 147 gCO2e/v.km (또는 0.000147 tCO2e/v.km). example comp하나 이상 has established using research 1.4 passengers average passenger 수치 territories it sells cars (열 10). get 배출집약도 지표 (열 2), load factor 해야 합니다 applied adjusts average 숫자 입력 의 passengers vehicle during its lifetime, gives final intensity 수치 의 0.000147 /1.4 = 0.000105 gCO2e/p.km. 이 represents reduction 의 1.2% compared last 연도 (보고된 열 11). 이 case, actual Scope 3 category 11 배출량 (지표 아니요minator) 및 passenger-kilometers (지표 de아니요minator) 아니요t needed 산정 의 배출집약도 지표, but they nevertheless requested here transparency. 산정 their Scope 3 배출량 category 11, use 의 sold products, (열 3) comp하나 이상 multiplies average 배출량 per vehicle-kilometer 기준 total 숫자 입력 의 모든 vehicle units sold 보고연도 (열 7) 기준 average annual distance kilometers expected each vehicle (열 9), 및 then multiplied 기준 average vehicle lifetime 연도s (열 8): 0.000147 tCO2e/v.km x 2,653,900 vehicles x 15,000 km x 10 연도s = 58,518,495 tCO2e. 지표 de아니요minator (열 4), derived 기준 multiplying 숫자 입력 의 vehicles sold (열 7) 기준 total lifetime distance km (열 8 및 9) 기준 load factor (보고된 열 10): 2,653,900 x 10 x 15,000 x 1.4 = 557,319,000,000 p.km Please see tables below how 이 정보 해야 합니다 presented 문항 7.50. 활동 배출집약도 수치 지표 numerator (Scope 3 배출량: use 의 sold products) 미터톤 CO2e 지표 de아니요minator 지표 de아니요minator: Unit total % Change 에서 이전 연도 LDV 0.000105 58,518,495 p.km 557,319,000,000 -1.2% Vehicle unit sales 보고연도 Vehicle lifetime 연도s Annual distance km 또는 miles (unit specified 기준 열 4) Load factor 설명하십시오 changes, 및 관련성 있음 standards/방법론 used 2,653,900 10 15,000 1.4 당사 have had reduction 의 1.2% 배출집약도 compared last 연도 due repla시멘트 의 old vehicle model new 및 more efficient version. 당사 established using research 에서 European Environment Agency 1.4 passengers average passenger 수치 territories 당사 sell cars."
     },
     {
       "type": "Explanation of Terms",
       "text": "Metric tons of CO 2 -equivalent (tCO 2 e): a metric that allows for other Greenhouse Gases (GHGs) to be expressed in relation to CO 2 based on their Global Warming Potentials (GWPs). A metric ton is 1000 kg, equivalent to 2204.62 lbs.\nPrimary intensity metric: This transport-specific intensity metric allows for the direct comparison of vehicle performance to climate-related scenarios. These metrics measure the efficiency of transportation based on the actual work being done. The amount of work done comprises the goods and/or passengers moved and the effective distance that these goods/passengers are moved, from origin to destination. For the organization, the efficiency of total work done is determined by combining the total of transported units and the distance driven with these units. The standard unit is metric ton of CO 2 e per ton-kilometer or passenger-kilometer.\nPassenger-kilometer (p.km): a unit of measurement which represents the transportation of one passenger by a defined mode of transport over a distance of one kilometer.\nPassenger-mile (p.mile): a unit of measurement which represents the transportation of one passenger by a defined mode of transport over a distance of one mile.\nPassenger-nautical mile (p.nautical mile) \n: a unit of measurement which represents the transportation of one passenger by a defined mode of transport over a distance of one nautical mile.\nTon-kilometer (t.km): a unit of measurement which represents the transportation of one metric ton of goods (including packaging and tare weights of intermodal transport units), by a given transport mode over a distance of one kilometer.\nT \non-mile (t.mile): a unit of measurement which represents the transportation of one metric ton of goods (including packaging and tare weights of intermodal transport units), by a given transport mode over a distance of one mile.\nT \non-nautical mile (t.nautical mile): a unit of measurement which represents the transportation of one metric ton of goods (including packaging and tare weights of intermodal transport units), by a given transport mode over a distance of one nautical mile.",
       "typeKo": "용어 설명",
-      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
+      "textKo": "미터톤 의 CO 2 -equivalent (tCO 2 e): 지표 모든ows 기타 온실가스 (GHGs) expressed relation CO 2 based their Global Warming Potentials (GWPs). 지표 ton 1000 kg, equivalent 2204.62 lbs. 주된 intensity 지표: 이 transport-specific intensity 지표 모든ows direct comparison 의 vehicle performance 기후-related scenarios. 이 지표 measure efficiency 의 transportation based actual work done. amount 의 work done comprises goods 및/또는 passengers moved 및 effective distance 이 goods/passengers moved, 에서 origin destination. 조직, efficiency 의 total work done determined 기준 combining total 의 transported units 및 distance driven 이 units. standard unit 지표 ton 의 CO 2 e per ton-kilometer 또는 passenger-kilometer. Passenger-kilometer (p.km): unit 의 measurement represents transportation 의 one passenger 기준 defined mode 의 transport over distance 의 one kilometer. Passenger-mile (p.mile): unit 의 measurement represents transportation 의 one passenger 기준 defined mode 의 transport over distance 의 one mile. Passenger-nautical mile (p.nautical mile): unit 의 measurement represents transportation 의 one passenger 기준 defined mode 의 transport over distance 의 one nautical mile. Ton-kilometer (t.km): unit 의 measurement represents transportation 의 one 지표 ton 의 goods (포함 packaging 및 tare weights 의 intermodal transport units), 기준 given transport mode over distance 의 one kilometer. T -mile (t.mile): unit 의 measurement represents transportation 의 one 지표 ton 의 goods (포함 packaging 및 tare weights 의 intermodal transport units), 기준 given transport mode over distance 의 one mile. T -nautical mile (t.nautical mile): unit 의 measurement represents transportation 의 one 지표 ton 의 goods (포함 packaging 및 tare weights 의 intermodal transport units), 기준 given transport mode over distance 의 one nautical mile."
     }
   ],
   "points": [
@@ -258,7 +258,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 5/5점을 받을 수 있습니다."
+      "criteriaKo": "점 부여됨 per 완료 셀 proportion 숫자 입력 의 행 공시된. Parti모든y 완료 행 아니요t receive full 점. 이 문항에서 최대 5/5점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -267,8 +267,8 @@
       "criteria": "Table completed - 2 points\nA maximum of 2/2 points is available for this question.",
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
-      "levelKo": "A",
-      "criteriaKo": "표 완료 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
+      "levelKo": "",
+      "criteriaKo": "Table 완료 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -278,7 +278,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t scored."
     },
     {
       "sector": "Transport OEMS",
@@ -288,12 +288,12 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t scored."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "범위 3 카테고리 11. 판매제품의 사용 – 운송에서 귀사의 간접 배출에 적합한 주요 집약도 지표를 제시하십시오",
+    "question_ko": "Scope 3 카테고리 11. 판매제품의 사용 – 운송에서 귀사의 간접 배출에 적합한 주요 집약도 지표를 제시하십시오. 활동 배출량 집약도 수치 지표 분자 (Scope 3 카테고리 11. 판매제품의 사용) (tCO2e) 지표 분모 지표 분모: 단위 총합 1.21 번 문항에서 선택한 운송 모드에 따라 옵션 선택 경량자동차",
     "q2025": "Q7.50",
     "q2025_text": "Provide primary intensity metrics that are appropriate to your indirect emissions in Scope 3 Category 11: Use of sold products from transport.",
     "change_status": "No question-level change; detail changes",
@@ -308,17 +308,17 @@
     "daml_summary": "Transport OEMS: D 5/5 | A 2/2 | M 0/0 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_statusKo": "아니요 문항-level change; detail changes",
+    "detail_change_typesKo": "Modified validation",
+    "change_summaryKo": "최대 수치 increased 999,999,999,999,999.",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "daml_summaryKo": "운송 OEM: D 5/5 | 2/2 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "Changed 및 reflected",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "범위 3 카테고리 11. 판매제품의 사용 – 운송에서 귀사의 간접 배출에 적합한 주요 집약도 지표를 제시하십시오"
+    "q2025_textKo": "Scope 3 카테고리 11. 판매제품의 사용 – 운송에서 귀사의 간접 배출에 적합한 주요 집약도 지표를 제시하십시오. 활동 배출량 집약도 수치 지표 분자 (Scope 3 카테고리 11. 판매제품의 사용) (tCO2e) 지표 분모 지표 분모: 단위 총합 1.21 번 문항에서 선택한 운송 모드에 따라 옵션 선택 경량자동차"
   },
   "defaultPoints": {
     "D": "5/5",
@@ -330,35 +330,35 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "운송 OEM",
-  "simpleHelpKo": "이 문항은 '범위 3 카테고리 11. 판매제품의 사용 – 운송에서 귀사의 간접 배출에 적합한 주요 집약도 지표를 제시하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "Intensity 지표 할 수 있습니다 help investors 및 데이터 users compare performance 의 귀사의 products 기타s similar purpose, well 정책 및 시장 trends.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "2025 Korean form + CDP glossary repair"
 }

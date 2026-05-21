@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Break down your total gross global Scope 1 emissions by business facility.",
-  "questionKo": "사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `",
+  "questionKo": "사업장 별로 총 글로벌 Scope 1 배출량을 세분화하십시오. `",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "1행"
+      "titleKo": "행 1"
     }
   ],
   "columns": [
@@ -42,7 +42,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "범위 1 배출량 (미터톤 CO2e)",
+      "textKo": "Scope 1 배출량 (지표 톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -61,8 +61,8 @@
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
-      "simple_helpKo": "이 문항은 '사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
-      "popup_helpKo": "이 문항은 '사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
+      "simple_helpKo": "이 문항은 '사업장 별로 총 글로벌 Scope 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+      "popup_helpKo": "이 문항은 '사업장 별로 총 글로벌 Scope 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
     },
     {
       "code": "7.17.2.4",
@@ -76,8 +76,8 @@
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
-      "simple_helpKo": "이 문항은 '사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
-      "popup_helpKo": "이 문항은 '사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
+      "simple_helpKo": "이 문항은 '사업장 별로 총 글로벌 Scope 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+      "popup_helpKo": "이 문항은 '사업장 별로 총 글로벌 Scope 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
     }
   ],
   "guidance": [
@@ -91,13 +91,13 @@
       "type": "Question Dependencies",
       "text": "Question dependencies\nThis question only appears if you select \"By facility\" in response to 7.17.",
       "typeKo": "문항 의존성",
-      "textKo": "문항 의존도 이 문항 만 표시됨 만약 귀사 선택 \"기준 시설\" 응답 7.17."
+      "textKo": "문항 의존성 이 문항 만 표시됩니다 만약 귀사 선택 \"기준 시설\" 응답 7.17."
     },
     {
       "type": "Requested Content",
       "text": "General \nCDP provides a place for companies to provide basic data for the geo-location of their facilities. This information will be useful to link CDP data with other sources of information and can help investors assess physical risks of climate change and exposure of assets. It will also help CDP to link the information requested by investors to cities preparing their inventory for CDP.\nIf your organization has Scope 1 emissions from non-stationary sources (i.e. transportation vehicles) that cannot be attributed to a specific facility, then you can report the emissions from these sources collectively in one row. You can identify these emissions by inputting \"Non-stationary sources\" in column 1 \"Facility\", and entering 0 in both column 3 \"Latitude\" and column 4 \"Longitude\".\nIf using the Export/Import functionality, it is essential that you check that data has entered correctly into each field in a question.\nFacility (column 1) \nUsing no more than 500 characters, identify the facility you are disclosing Scope 1 emissions for.\nFor more details on reporting your facilities, see guidance to 7.17.\nScope 1 emissions (metric tons CO2e) (column 2) \nReport your organization's greenhouse gas emissions in CO2-equivalent for the facility identified in column 1.\nNegative numbers are not allowed as organizations are to report gross, not net figures.\nEmissions figures should be for the reporting year only (as defined by your answer to 1.4).\nLatitude (column 3) \nUsing standard geographic coordinates specify the north-south position (+90° to -90°) of the facility that you are reporting Scope 1 emissions for in column 2.\nLongitude (column 4) \nUsing standard geographic coordinates specify the east-west position (+180° to -180°) of the facility that you are reporting Scope 1 emissions for in column 2.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
@@ -291,7 +291,7 @@
   "criteria": [],
   "change": {
     "location": "Excel",
-    "question_ko": "사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `",
+    "question_ko": "사업장 별로 총 글로벌 Scope 1 배출량을 세분화하십시오. `",
     "q2025": "Q7.17.2",
     "q2025_text": "Break down your total gross global Scope 1 emissions by business facility.",
     "change_status": "No change - 2026 source verified",
@@ -312,11 +312,11 @@
     "scoring_change_summaryKo": "",
     "daml_summaryKo": "일반: D 4/4 | 0 또는 1/1 또는 3 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 및 2026 원천",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `"
+    "q2025_textKo": "사업장 별로 총 글로벌 Scope 1 배출량을 세분화하십시오. `"
   },
   "defaultPoints": {
     "D": "4/4",
@@ -346,17 +346,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
-  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "이 문항은 '귀사의 글로벌 총 범위 1 배출량을 시설(사업장) 단위로 구분하여 입력하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "issueTagsKo": "기후변화",
+  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트,, &, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '사업장 별로 총 글로벌 Scope 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }

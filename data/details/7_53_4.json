@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details of the climate-related targets for your portfolio.",
-  "questionKo": "포트폴리오의 기후 관련 목표에 대한 세부 정보를 제공하십시오",
+  "questionKo": "포트폴리오의 기후 관련 목표에 대한 세부 정보를 제공하십시오. (4) 목표 및 지표 상세 설명 목표 범위 및 예외 설명 목표 목적 설명",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -128,7 +128,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표 숫자 입력",
+      "textKo": "목표 reference 숫자 입력",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -259,15 +259,15 @@
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "대출",
-        "프로젝트 금융",
-        "채권",
-        "주식 투자",
-        "미인출 대출 약정",
-        "고정수익",
-        "현금 성 자산/단기금융 시장 상품",
+        "Loans",
+        "Project finance",
+        "Bonds",
+        "Equity investments",
+        "Undrawn loan commitments",
+        "Fixed income",
+        "Cash equivalents/money 시장 instruments",
         "부동산",
-        "원자재",
+        "Commodities",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -299,19 +299,19 @@
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "의류",
-        "바이오·헬스케어·제약",
-        "식품, 음료 & 농업",
-        "화석 연료",
-        "숙박·관광",
-        "인프라",
-        "국제기구",
-        "제조",
-        "자재",
-        "발전",
-        "소매",
+        "Apparel",
+        "Biotech, health care & pharma",
+        "Food, beverage & agriculture",
+        "Fossil 연료",
+        "Hospitality",
+        "Infrastructure",
+        "International bodies",
+        "Manufacturing",
+        "Materials",
+        "Power generation",
+        "Retail",
         "서비스",
-        "서비스"
+        "Transportation 서비스"
       ],
       "simple_helpKo": "해당하는 항목 모두 선택",
       "popup_helpKo": ""
@@ -327,12 +327,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표 유형: 절대 또는 집약도",
+      "textKo": "목표 type: Absolute 또는 intensity",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "절대",
-        "집약도"
+        "Absolute",
+        "Intensity"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -348,12 +348,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "배출량 의 포트폴리오 기업 포함된 기준 목표",
+      "textKo": "배출량 scopes 의 포트폴리오 기업 포함된 기준 목표",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "범위 1 + 2",
-        "범위 1 + 2 + 3"
+        "Scope 1 + 2",
+        "Scope 1 + 2 + 3"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -413,24 +413,24 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "지표 (또는 목표 만약 집약도)",
+      "textKo": "지표 (또는 목표 numerator 만약 intensity)",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "총 금융 및 촉진 (단위 통화 보고된 1.2)",
-        "총 투자 (단위 통화 보고된 1.2)",
-        "총 채권 미상환 (단위 통화 보고된 1.2)",
-        "총 상품 미상환 (단위 통화 보고된 1.2)",
-        "자산 기준 보고연도",
-        "자산 기준 보고연도",
-        "기타, 금융 지표, 직접 입력 명시",
+        "Total green finance raised 및 facilitated (unit currency 보고된 1.2)",
+        "Total green investments (unit currency 보고된 1.2)",
+        "Total green bonds outstanding (unit currency 보고된 1.2)",
+        "Total green debt instruments outstanding (unit currency 보고된 1.2)",
+        "Green asset ratio based tur아니요ver 보고연도",
+        "Green asset ratio based CAPEX 보고연도",
+        "기타, green finance 지표, please specify",
         "미터톤 CO2e",
-        "기타, 지표 직접 입력 명시",
-        "% 의 포트폴리오 기준 목표",
-        "% 의",
-        "% 의 포트폴리오 포함된 전환 금융",
-        "기타, 포트폴리오 범위 지표 직접 입력 명시",
-        "의",
+        "기타, SDA 지표 please specify",
+        "% 의 포트폴리오 setting Science-Based 목표",
+        "% 의 taxo아니요my alignment",
+        "% 의 포트폴리오 포함된 under transition finance framework",
+        "기타, 포트폴리오 범위 지표 please specify",
+        "Degrees 의 warming",
         "tCO2e",
         "기타, 직접 입력"
       ],
@@ -465,28 +465,28 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표",
+      "textKo": "목표 de아니요minator",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "총 금융 및 촉진 (단위 통화 보고된 1.2)",
-        "총 투자 (단위 통화 보고된 1.2)",
-        "총 채권 미상환 (단위 통화 보고된 1.2)",
-        "총 상품 미상환 (단위 통화 보고된 1.2)",
-        "기타, 금융 직접 입력 명시",
-        "",
-        "",
-        "시멘트",
-        "및 제지",
+        "Total finance raised 및 facilitated (unit currency 보고된 1.2)",
+        "Total investments (unit currency 보고된 1.2)",
+        "Total bonds outstanding (unit currency 보고된 1.2)",
+        "Total debt instruments outstanding (unit currency 보고된 1.2)",
+        "기타, green finance de아니요minator please specify",
+        "Meters squared",
+        "kWh",
+        "Ton 시멘트",
+        "Ton pulp 및 paper",
         "km",
-        "km",
-        "km",
-        "km",
-        "및 철강",
-        "",
-        "기타, 직접 입력 명시",
-        "백만 (단위 통화 보고된 1.2)",
-        "백만 투자액 (단위 통화 보고된 1.2)",
+        "Passenger km",
+        "Ton km",
+        "Vehicle km",
+        "Ton iron 및 철강",
+        "Ton aluminum",
+        "기타, SDA de아니요minator please specify",
+        "Million revenues (unit currency 보고된 1.2)",
+        "Million invested (unit currency 보고된 1.2)",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -500,7 +500,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 의 포트폴리오 포함된 관련 총 포트폴리오 가치",
+      "textKo": "% 의 포트폴리오 포함된 relation total 포트폴리오 가치",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -515,7 +515,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "총 가치 의 자산 포함된 기준 목표",
+      "textKo": "Total 가치 의 assets 포함된 기준 목표",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -540,16 +540,16 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표 유형",
+      "textKo": "목표 type",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "금융",
-        "섹터 접근방식 ()",
+        "Green finance",
+        "섹터 Decarbonization Approach (SDA)",
         "포트폴리오 범위",
-        "포트폴리오 온도 목표",
+        "포트폴리오 temperature rating 목표",
         "포트폴리오 배출량",
-        "가중 평균 탄소 집약도",
+        "Weighted average carbon intensity",
         "인게이지먼트 목표",
         "적응 및 회복탄력성 목표",
         "기타, 직접 입력"
@@ -565,7 +565,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 의 자산군 포함된 기준 목표, 기준 총 가치 의 이 자산군",
+      "textKo": "% 의 자산군 포함된 기준 목표, based total 가치 의 이 자산군",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -586,14 +586,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "빈도 의 목표",
+      "textKo": "빈도 의 목표 reviews",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "",
+        "Quarterly",
+        "Semi-매년",
         "매년",
-        "매년",
-        "년",
+        "Every five 연도s",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -640,7 +640,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "당사 목표",
+      "textKo": "당사 have interim 목표",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -658,7 +658,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의 목표 연도",
+      "textKo": "End 의 interim 목표 연도",
       "typeKo": "날짜 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -673,7 +673,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "수치 목표 연도",
+      "textKo": "수치 interim 목표 연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -736,11 +736,11 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "또는 사용됨 정의 \" 금융\"",
+      "textKo": "Taxo아니요my 또는 framework used define \"green finance\"",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "EU 지속가능한 활동",
+        "EU Taxo아니요my Sustainable 활동",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -754,7 +754,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 의 목표 기준연도",
+      "textKo": "% 의 목표 achieved relative 기준연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -777,17 +777,17 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표 보고연도",
+      "textKo": "목표 status 보고연도",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "신규",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "New",
+        "Underway",
+        "Achieved",
+        "Expired",
+        "Revised",
+        "Replaced",
+        "Retired"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -809,17 +809,17 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "사용됨",
+      "textKo": "Aggregation weighting used",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "가중 평균 온도 점수 ()",
-        "총 배출량 가중 온도 점수 ()",
-        "시장 배출량 가중 온도 점수 ()",
-        "배출량 가중 온도 점수 ()",
-        "가치 (EV) + 현금 배출량 가중 온도 점수 ()",
-        "총 자산 배출량 가중 온도 점수 ()",
-        "매출 배출량 가중 온도 점수 ()",
+        "Weighted average temperature score (WATS)",
+        "Total 배출량 weighted temperature score (TETS)",
+        "시장 owned 배출량 weighted temperature score (MOTS)",
+        "Enterprise owned 배출량 weighted temperature score (EOTS)",
+        "Enterprise 가치 (EV) + cash 배출량 weighted temperature score (ECOTS)",
+        "Total assets 배출량 weighted temperature score (AOTS)",
+        "Revenue owned 배출량 weighted temperature score (ROTS)",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -833,7 +833,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% 의 온도 점수 산정됨 보고연도 기준 기업 목표",
+      "textKo": "% 의 temperature score 산정d 보고연도 based comp하나 이상 목표",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -857,18 +857,18 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "이 기준 목표?",
+      "textKo": "이 science-based 목표?",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "예, 이 목표 기준 기준 목표",
-        "예, 당사 고려 이 기준 목표, 및 당사 의 이 목표 기준 기준 목표 향후 2년",
-        "예, 당사 고려 이 기준 목표, 및 목표 기준 기준 목표",
-        "예, 당사 고려 이 기준 목표, it 재무 () 약정, 및 당사 기준, 또는 it 기준, 기준 목표",
-        "예, 당사 고려 이 기준 목표, 및 it 재무 () 약정, 하지만 당사 아님 기준 기준 목표 내 향후 2년",
-        "아니요, 하지만 당사 보고 목표 기준",
-        "아니요, 하지만 당사 1개 2 년",
-        "아니요, 당사 아님 1개 2 년"
+        "예, 이 목표 has approved 기준 Science-Based 목표 initiative",
+        "예, 당사 consider 이 science-based 목표, 및 당사 have committed seek validation 의 이 목표 기준 Science-based 목표 initiative next two 연도s",
+        "예, 당사 consider 이 science-based 목표, 및 목표 현재ly reviewed 기준 Science-based 목표 initiative",
+        "예, 당사 consider 이 science-based 목표, it has set line Glasgow 재무 모든iance Net Zero (GFANZ) commitments, 및 당사 have committed seek validation 기준, 또는 it 현재ly reviewed 기준, Science Based 목표 initiative",
+        "예, 당사 consider 이 science-based 목표, 및 it has set line Glasgow 재무 모든iance Net Zero (GFANZ) commitments, but 당사 have 아니요t committed seek validation 기준 Science Based 목표 initiative 내 next two 연도s",
+        "아니요, but 당사 보고ing an기타 목표 science-based",
+        "아니요, but 당사 anticipate setting one next 2 연도s",
+        "아니요, 당사 do 아니요t anticipate setting one next 2 연도s"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -890,9 +890,9 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "1.5°C 부합",
-        "2°C 부합",
-        "2°C 부합",
+        "1.5°C aligned",
+        "Well-below 2°C aligned",
+        "2°C aligned",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -921,7 +921,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "직접 입력 설명 목표 범위 및 식별 해당 제외사항",
+      "textKo": "설명하십시오 목표 범위 및 식별 하나 이상 exclusions",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -936,7 +936,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표",
+      "textKo": "목표 objective",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -960,18 +960,18 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "방법론 사용됨 경우 목표",
+      "textKo": "방법론 used 경우 setting 목표",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "'s",
-        "SBTi 재무 기관",
-        "목표 프로토콜",
-        "목표",
-        "목표 프로토콜",
-        "의 위 항목",
-        "방법론",
-        "기타 직접 입력 명시"
+        "PAII's Net Zero Investment Framework",
+        "SBTi 재무 Institutions",
+        "NZAOA 목표 Setting Protocol",
+        "NZBA 목표 Setting Guidelines",
+        "NZIA 목표 Setting Protocol",
+        "combination 의 above",
+        "Own 방법론",
+        "기타 please specify"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -984,7 +984,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "날짜 입력 목표",
+      "textKo": "날짜 입력 목표 was set",
       "typeKo": "날짜 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -1003,13 +1003,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표 및 it 에서",
+      "textKo": "목표 set 및 progress against it tracked at",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "섹터",
-        "포트폴리오",
-        "자산군"
+        "섹터 level",
+        "포트폴리오 level",
+        "자산군 level"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -1040,19 +1040,19 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "의류",
-        "바이오·헬스케어·제약",
-        "식품, 음료 & 농업",
-        "화석 연료",
-        "숙박·관광",
-        "인프라",
-        "국제기구",
-        "제조",
-        "자재",
-        "발전",
-        "소매",
+        "Apparel",
+        "Biotech, health care & pharma",
+        "Food, beverage & agriculture",
+        "Fossil 연료",
+        "Hospitality",
+        "Infrastructure",
+        "International bodies",
+        "Manufacturing",
+        "Materials",
+        "Power generation",
+        "Retail",
         "서비스",
-        "서비스"
+        "Transportation 서비스"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -1070,7 +1070,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "포트폴리오 포함된 기준 목표",
+      "textKo": "포트폴리오s 포함된 기준 목표",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -1119,31 +1119,31 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Portfolio target\" in response to 7.53.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"포트폴리오 목표\" 응답 7.53."
+      "textKo": "이 문항 only appears 만약 귀사 선택 \"포트폴리오 목표\" response 7.53."
     },
     {
       "type": "Requested Content",
       "text": "Target reference number (column 1) \nSelect a unique target reference from the drop-down menu provided to identify the target in subsequent questions and to track progress against the target in subsequent reporting years. \nTarget type (column 2) \nSelect which type of target you have implemented for your portfolio. \nGreen finance: refers to the aim of providing loans, investments and/or other financial products and services to green projects. \nSectoral Decarbonization Approach (SDA): a method for setting physical intensity targets that uses convergence of emissions intensity. \nPortfolio coverage: a method for setting target to drive the adoption of science-based emissions reduction targets by borrowers and/or investees. \nPortfolio temperature alignment: a method that enables financial institutions to set targets to align their base year portfolio temperature score to a long-term temperature goal. \nPortfolio emissions: setting targets to reduce absolute portfolio emissions or emissions intensity\nWeighted average carbon intensity: a target on the weighted average carbon intensity (WACI), which is the weighted sum of carbon emissions per million of revenue. \nEngagement target: implies targeted engagement with the highest emitting assets in an investor's portfolio. The engagement threshold target should ensure that at least 70% of financed emissions in material sectors are either net zero, aligned with a net zero pathway, or are the subject of engagement and stewardship actions (either direct or collective). This target is supported by other tools IIGCC has released including the Net Zero Stewardship Toolkit \nAdaptation and resilience target: setting a target for aligning finance with adaptation and climate-resilient development. \nTaxonomy or framework used to define \"green finance\" (column 3) \nThis column is only presented if you have selected \"Green finance\" in column 2 \"Target type\". \nDate target was set (column 5) \nEnter the date on which your company set the target. \nThis must be either before or during the reporting year but cannot be after the reporting year or after the end date of the target. \nIf you have a year-on-year rolling target, enter the date your company first set the target. This can be before the base year. \nIf you set the target based on financial years, enter the date that applies to the end of your company's financial year and specify this in the \"Explain target coverage and identify any exclusions\" column. \nIf you do not know the exact date on which your company set the target, enter the end of the year that the target was set. \nIf you are reporting a science-based target that has been revised, the date the target was set should refer to the date the target was revised rather than the date the original target was set. \nTarget is set and progress against it is tracked at (column 6) \nIndicate whether your target refers to a portfolio, a specific sector or specific asset class(es). \nFor example, if your portfolio target concerns companies in specific sectors (i.e. sector decarbonization approach), and select which sector it relates to in column 7 \"Sector\". \nYour selection here will drive the options presented in subsequent columns. \nSector (column 7) \nThis column is only presented if you selected \"Sector level\" in column 6 \"Target is set and progress against it is tracked at\". \nSelect one sector per row and add rows if disclosing on multiple sectors.\nPortfolios covered by the target (column 8) \nThis column is only presented if your target is set on a sector level and refers to a specific sector, driven by selecting \"Sector level\" in column 6 \"Target is set and progress against it is tracked at\". \nSee Explanation of Terms for definition of \"Portfolio\". \nPortfolio (column 9) \nThe options in this column are driven by your selections in 1.10. \nThis column only appears if your target refers to a specific portfolio or asset classes. \nAsset classes covered by the target (column 10) \nSelect all of the asset classes covered by the target you are reporting. \nIf the target also covers asset classes not listed, use the \"Other, please specify\" option and provide the name of the asset class. \nSectors covered by the target (column 11) \nSelect all of the sectors included within the target. \nSelect \"All sectors\" if your portfolio target concerns all your clients/investees.\nThis column is only presented when \"Portfolio level\" or \"Asset class level\" is selected in column 6 \"Target is set and progress against it is tracked at\".\nTarget type: Absolute or intensity (column 12) \nThis column only appears if \"Green finance\", \"Sectoral Decarbonization Approach (SDA)\", \"Portfolio emissions \", \"Weighted average carbon intensity\", \"Engagement target\" or \"Other, please specify\" is selected in column 2 \"Target type\".\nSelect whether the target is an absolute target or an intensity target, e.g., targets related to tCO2e are absolute targets, whereas targets related to an intensity metric such as tCO2e/kWh are intensity targets. \nIf you select \"absolute\", note that CDP is requesting data on gross emissions. Gross means total emissions before any deductions or other adjustments are made to take account of offset credits, avoided emissions from the use of goods and services and/or reductions attributable to the sequestration or transfer of GHGs. If you have a target that will be met in part by offsetting (including carbon neutrality targets), only the proportion of the target that relates to emissions reductions (and not offset purchases) should be considered here. \nEmissions scopes of portfolio companies covered by the target (column 13) \nThis column only appears if \"Portfolio temperature rating target\" is selected in column 2 \"Target type\". \n% of portfolio emissions covered by the target (column 14) \nEnter the percentage of total emissions in the portfolio selected in column 9 that is covered by the target. E.g., if a banking portfolio is selected in column 8 \"Portfolios covered by the target\", the company should report the percentage of total banking portfolio emissions covered by the target. \nIf you are reporting a sector level target, and it covers multiple portfolios, enter the percentage of total emissions in the portfolios selected in column 8 \"Portfolios covered by the target\". \n% of asset class emissions covered by the target (column 15) \nIf your target covers only one type of asset class, enter the percentage of total emissions in the asset class selected in column 10 \"Asset classes covered by the target\". \nTarget denominator (column 17) \nThis column only appears if \"Intensity\" is selected in column 12 \"Target type: Absolute or intensity\".\nThe dropdowns which appear are based on the selection made in column 2 \"Target type\".\nIf you select \"Other, please specify,\" provide a label for the metric.\n% of portfolio covered in relation to total portfolio value (column 18) \nEnter the percentage of portfolio value covered by the target to the total portfolio value based on assets value as reported in 1.10. \nFrequency of target reviews (column 21) \nSelect the frequency for how often you review your target. \nEnd date of base year (column 22) \nThe base year is the year against which you are comparing your emissions reduction target. \nThe base year cannot be after the reporting year. \nIf you have a year-on-year rolling target, the end date of the base year will be within the previous reporting year. \nIf you have a target based on financial years, enter the date that applies to the end of your financial year and specify this in column 36 \"Provide details of your target and metrics\". \nIf you have a target based on average emissions over a period of time (e.g. 5-year average), enter the date that applies to the end of the average period and specify this in the column 36 \"Provide details of your target and metrics\". \nFigure in base year (column 23) \nEnter the measured figure in the base year against which progress towards the target is measured. \nThe figure provided should be in the metric (or target numerator if intensity) provided in column 16 \"Metric (or target numerator if intensity)\". \nIf your target is an intensity target, note that the intensity figure should be calculated by dividing the emissions covered by the target by the intensity metric denominator, as selected in columns 16 \"Metric (or target numerator if intensity)\" and 17 \"Target denominator\". \nEnd of interim target year (column 25) \nIf you have an interim target, enter the target date of the interim target. \nIf you set the target based on financial years, enter the date that applies to the end of your company's financial year and specify this in the \"Explain target coverage and identify any exclusions\" column. \nFigure in interim target year (column 26) \nEnter the figure in the interim year covered by the target. \nIf the interim year is in the past, enter the measured figure. \nIf the interim year is in the future, enter the figure you expect to achieve in the interim year. \nThe figure provided should be in the metric (or target numerator if intensity) provided in column 16 \"Metric (or target numerator if intensity)\". \nIf your target is an intensity target, note that the intensity figure should be calculated by dividing the emissions covered by the target by the intensity metric denominator, as selected in columns 16 \"Metric (or target numerator if intensity)\" and 17 \"Target denominator\". \nEnd date of target (column 27) \nEnter the date that the target ends. For example, if the target is to reduce emissions intensity by 50% by the end of 2030, the end date of the target is 31st December 2030. \nIf you have a year-on-year rolling target, the end date of the target will be within the reporting year. \nIf you have a target based on financial years, enter the date that applies to the end of your financial year and specify in the column 36 \"Provide details of your target and metrics\". \nIf you have a target based on average emissions over a period of time (e.g. 5-year average), enter the date that applies to the end of the average period and specify this in the column 36 \"Provide details of your target and metrics\". \nYou should not report any target that was achieved before the start of the reporting year. \nFigure in target year (column 28) \nEnter the targeted figure you expect to achieve in target year. \nThe figure provided should be in the metric (or target numerator if intensity) provided in column 16 \"Metric (or target numerator if intensity)\". \nIf your target is an intensity target, note that the intensity figure should be calculated by dividing the emissions covered by the target by the intensity metric denominator, as selected in columns 16 \"Metric (or target numerator if intensity)\" and 17 \"Target denominator\". \nFigure in reporting year (column 29) \nEnter the corresponding figure in the reporting year covered by the target. \nThe figure provided should be in the metric (or target numerator if intensity) provided in column 16 \"Metric (or target numerator if intensity)\". \nIf your target is an intensity target, note that the intensity figure should be calculated by dividing the emissions covered by the target by the intensity metric denominator, as selected in columns 16 \"Metric (or target numerator if intensity)\" and 17 \"Target denominator\". \n% of target achieved relative to base year (column 30) \nThis column is auto-calculated based on your responses in columns 23 \"Figure in base year\", 28 \"Figure in target year\" and 29 \"Figure in reporting year\". \nTarget status in reporting year (column 31) \nNew - Select this option for targets that have been set in the reporting year and are still in progress. \nUnderway - Select this option for targets that were set before the reporting year, with a target year in the future, that have not been achieved and continue to be pursued. \nAchieved - Select this option for targets that have been achieved or exceeded in the reporting year. \nExpired - Select this option for targets with a target year of the reporting year, that have not been achieved and have therefore expired in the reporting year. \nRevised - Select this option for targets that were set before the reporting year but a revision has been made to any of the elements in columns 2 \"Target type\" to 14 \"% of portfolio emissions covered by the target \" in the reporting year, for example due to a recalculation of the base year emissions intensity or a change to the end date of the target. Note that the target status should be reported as \"revised\" only for the reporting year when the update was conducted. \nReplaced - Select this option for previously reported targets that have been replaced with another target in the reporting year, for example where a facility target has been incorporated into an organization-wide target. \nRetired - Select this option for targets with a target year in the future, that have not been achieved, but will no longer be pursued. Provide more information as to why this target was retired in the \"Please explain (including target coverage)\" column. \nAggregation weighting used (column 32) \nThis column only appears if \"Portfolio coverage\" or \"Portfolio temperature rating target\" is selected in column 2 \"Target type\". \nIf you disclose a Portfolio coverage or Portfolio temperature alignment target, select the aggregation weighting used. \nWeighted average temperature score (WATS): Temperature scores are allocated based on portfolio weights. \nTotal emissions weighted temperature score (TETS): Temperature scores are allocated based on historical emission weights using total company emissions. \nMarket owned emissions weighted temperature score (MOTS): Temperature scores are allocated based on an equity ownership approach. \nEnterprise owned emissions weighted temperature score (EOTS): Temperature scores are allocated based on an enterprise ownership approach. \nEV + cash emissions weighted temperature score (ECOTS): Temperature scores are allocated based on an enterprise value (EV) plus cash & equivalents ownership approach. \nTotal assets emissions weighted temperature score (AOTS): Temperature scores are allocated based on a total assets ownership approach. \nRevenue owned emissions weighted temperature score (ROTS): Temperature scores are allocated based on the share of revenue. \nIf you select \"Other, please specify\", specify the aggregation weighting used. \n% of the temperature score calculated in the reporting year based on company targets (column 33) \nThis column only appears if you selected \"Portfolio temperature rating target\" as target type in column 2 \"Target type\". \nIndicate the proportion of the temperature score calculated in the reporting year based on company targets (i.e. not based on a default score for the company). \nThis column is only relevant for portfolio temperature alignment targets. Further guidance on these and the process of setting a portfolio temperature alignment target can be found in the SBTi ‘ Financial-Sector-Science-Based-Targets-Guidance ' (see page 85). \nIs this a science-based target? (column 34) \nThis column only appears if \"Banking\" or \"Investing\" is selected in either columns 8 \"Portfolios covered by the target\" or 9 \"Portfolio\". \nRefer to the CDP Technical Note on Science-Based Targets for what qualifies as a science-based target and how to assess your target against the Science Based Targets initiative's criteria. \nYes, and this target has been approved by the Science Based Targets initiative - Companies are very strongly encouraged to have their targets officially evaluated by the Science Based Targets initiative (SBTi). CDP considers targets approved by the initiative to reflect best practice in science-based target setting. Select this option only if the target has been officially approved by the SBTi by the CDP scoring deadline. \nYes, we consider this a science-based target, and the target is currently being reviewed by the Science Based Targets initiative - If your company has set a target and has self-assessed it to be science-based, and it has been submitted to the SBTi for validation and is currently being reviewed by the SBTi, you should select this option. You should use the \"Please explain target coverage and identify any exclusions\" column to explain why you believe your target to be science-based. \nYes, we consider this a science-based target, and we have committed to seek validation of this target by the Science Based Targets initiative in the next two years - Not all companies have had their target assessed by the SBTi. If your company has set a target and has self-assessed it to be science-based but has not yet submitted it to the SBTi for validation, you should select this option. You should use the \"Please explain target coverage and identify any exclusions\" column to explain why you believe your target to be science-based. If you are currently in the process of revising your target to meet SBTi criteria, indicate this by selecting \"No, but we anticipate setting one in the next 2 years.\" \nYes, we consider this a science-based target, it has been set in line with the Glasgow Financial Alliance for Net Zero (GFANZ) commitments, and we have committed to seek validation by, or it is currently being reviewed by, the Science Based Targets initiative - Many financial institutions committed to accelerating the decarbonization of the economy do so by joining the GFANZ coalition and by primarily setting targets based on the GFANZ commitments. If your company has set such a target and has self-assessed it to be science-based, and it has been submitted to the SBTi for validation, or you are in the process of doing so, you should select this option. \nYes, we consider this a science-based target, and it has been set in line with the Glasgow Financial Alliance for Net Zero (GFANZ) commitments, but we have not committed to seek validation by the Science Based Targets initiative within the next two years - Many financial institutions committed to accelerating the decarbonization of the economy do so by joining the GFANZ coalition and by primarily setting targets based on the GFANZ commitments. If your company has set such a target and has self-assessed it to be science-based, but you have not committed to seek validation by SBTi, you should select this option. \nNo, but we are reporting another target that is science-based - Another target (absolute or intensity) disclosed is science-based, either in another row in this table, or in 7.53.2. \nNo, but we anticipate setting one in the next 2 years - It is recommended that your company publicly states this by making a commitment via the SBTi Services Validation Portal. \nNo, and we do not anticipate setting one in the next 2 years - No science-based targets have been set and there are no plans in place to set one in the next 2 years. \nTarget ambition (column 35) \nThis column only appears if you select any \"Yes\" option in column 34 \"Is this a science-based target?\". \nSelect the level of ambition of your science-based target. Note that as of July 2021 the SBTi currently requires Scope 1 and 2 targets to be consistent with the level of decarbonization required to keep global temperature increase to 1.5°C compared to pre-industrial temperatures, and Scope 3 targets to be consistent with the level of decarbonization required to keep global temperature increase to well-below 2°C compared to pre-industrial temperatures. \nProvide details of your target and metrics (column 36) \nThis column only appears if you select \"Adaptation and resilience target\" in column 2 \"Target type\". \nProvide the metric used for your target, as well as any other details. \nProvide how you measure progress against your target, what is the base year figure against which you compare. \nFigure in interim year, if applicable. \nAny other details you wish to provide. \nPlease explain target coverage and identify any exclusions (column 37) \nProvide further details of your target coverage in this column and any exclusions. \nYou can use this column to identify where you have a financial year or average year based target. \nIf your target was originally in a different format, you may wish to give the original target before it was converted into the format required for the purposes of this table. \nIf your target is part of a wider carbon neutrality goal, a regulatory requirement, or a longer-term target, you can also explain this here. \nTarget objective (column 38) \nDescribe the strategic objective for the target and how it links to your strategy. E.g. the objective of the target may be to meet a regulatory target or reduce the costs of compliance with an emissions trading scheme.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "목표 reference 숫자 입력 (열 1) 선택 unique 목표 reference 에서 drop-down menu 제공된 식별 목표 subsequent 문항 및 track progress against 목표 subsequent 보고연도s. 목표 type (열 2) 선택 type 의 목표 귀사 have implemented 귀사의 포트폴리오. Green finance: refers aim 의 providing loans, investments 및/또는 기타 재무 products 및 서비스 green projects. Sectoral Decarbonization Approach (SDA): method setting physical intensity 목표 uses convergence 의 배출집약도. 포트폴리오 범위: method setting 목표 drive ad선택지 의 science-based 배출량 reduction 목표 기준 bor행ers 및/또는 투자대상. 포트폴리오 temperature alignment: method enables 재무 institutions set 목표 align their 기준연도 포트폴리오 temperature score long-term temperature goal. 포트폴리오 배출량: setting 목표 reduce absolute 포트폴리오 배출량 또는 배출집약도 Weighted average carbon intensity: 목표 weighted average carbon intensity (WACI), weighted sum 의 carbon 배출량 per million 의 revenue. 인게이지먼트 목표: implies 목표ed 인게이지먼트 highest emitting assets investor's 포트폴리오. 인게이지먼트 threshold 목표 해야 합니다 ensure at least 70% 의 금융배출량 material 섹터 둘 중 하나 net zero, aligned net zero pathway, 또는 subject 의 인게이지먼트 및 stewardship actions (둘 중 하나 direct 또는 collective). 이 목표 supported 기준 기타 tools IIGCC has released 포함 Net Zero Stewardship Toolkit 적응 및 회복탄력성 목표: setting 목표 aligning finance 적응 및 기후-resilient development. Taxo아니요my 또는 framework used define \"green finance\" (열 3) 이 열 only presented 만약 귀사 have 선택됨 \"Green finance\" 열 2 \"목표 type\". 날짜 입력 목표 was set (열 5) Enter 날짜 입력 귀사의 comp하나 이상 set 목표. 이 해야 합니다 둘 중 하나 before 또는 during 보고연도 but can아니요t after 보고연도 또는 after 종료일 의 목표. 만약 귀사 have 연도--연도 rolling 목표, enter 날짜 입력 귀사의 comp하나 이상 first set 목표. 이 할 수 있습니다 before 기준연도. 만약 귀사 set 목표 based 재무 연도s, enter 날짜 입력 applies end 의 귀사의 comp하나 이상's 재무 연도 및 specify 이 \"설명 목표 범위 및 식별 하나 이상 exclusions\" 열. 만약 귀사 do 아니요t k아니요w exact 날짜 입력 귀사의 comp하나 이상 set 목표, enter end 의 연도 목표 was set. 만약 귀사 보고ing science-based 목표 has revised, 날짜 입력 목표 was set 해야 합니다 refer 날짜 입력 목표 was revised rather than 날짜 입력 original 목표 was set. 목표 set 및 progress against it tracked at (열 6) Indicate whether 귀사의 목표 refers 포트폴리오, specific 섹터 또는 specific 자산군(es). example, 만약 귀사의 포트폴리오 목표 concerns 기업 specific 섹터 (i.e. 섹터 decarbonization approach), 및 선택 섹터 it relates 열 7 \"섹터\". 귀사의 선택ion here drive 선택지 presented subsequent 열. 섹터 (열 7) 이 열 only presented 만약 귀사 선택됨 \"섹터 level\" 열 6 \"목표 set 및 progress against it tracked at\". 선택 one 섹터 per 행 및 add 행 만약 disclosing multiple 섹터. 포트폴리오s 포함된 기준 목표 (열 8) 이 열 only presented 만약 귀사의 목표 set 섹터 level 및 refers specific 섹터, driven 기준 선택ing \"섹터 level\" 열 6 \"목표 set 및 progress against it tracked at\". See 용어 설명 definition 의 \"포트폴리오\". 포트폴리오 (열 9) 선택지 이 열 driven 기준 귀사의 선택ions 1.10. 이 열 only appears 만약 귀사의 목표 refers specific 포트폴리오 또는 자산군. 자산군 포함된 기준 목표 (열 10) 선택 모든 의 자산군 포함된 기준 목표 귀사 보고ing. 만약 목표 also covers 자산군 아니요t listed, use \"기타, 직접 입력\" 선택지 및 제공 name 의 자산군. 섹터 포함된 기준 목표 (열 11) 선택 모든 의 섹터 포함된 내 목표. 선택 \"모든 섹터\" 만약 귀사의 포트폴리오 목표 concerns 모든 귀사의 고객/투자대상. 이 열 only presented 경우 \"포트폴리오 level\" 또는 \"자산군 level\" 열에서 선택 6 \"목표 set 및 progress against it tracked at\". 목표 type: Absolute 또는 intensity (열 12) 이 열 only appears 만약 \"Green finance\", \"Sectoral Decarbonization Approach (SDA)\", \"포트폴리오 배출량 \", \"Weighted average carbon intensity\", \"인게이지먼트 목표\" 또는 \"기타, 직접 입력\" 열에서 선택 2 \"목표 type\". 선택 whether 목표 absolute 목표 또는 intensity 목표, e.g., 목표 related tCO2e absolute 목표, whereas 목표 related intensity 지표 such tCO2e/kWh intensity 목표. 만약 귀사 선택 \"absolute\", 아니요te CDP requesting 데이터 총배출량. Gross means total 배출량 before 하나 이상 deductions 또는 기타 adjustments made take account 의 offset credits, avoided 배출량 에서 use 의 goods 및 서비스 및/또는 reductions attributable sequestration 또는 transfer 의 GHGs. 만약 귀사 have 목표 met part 기준 offsetting (포함 carbon neutrality 목표), only proportion 의 목표 relates 배출량 reductions (및 아니요t offset purchases) 해야 합니다 considered here. 배출량 scopes 의 포트폴리오 기업 포함된 기준 목표 (열 13) 이 열 only appears 만약 \"포트폴리오 temperature rating 목표\" 열에서 선택 2 \"목표 type\". % 의 포트폴리오 배출량 포함된 기준 목표 (열 14) Enter percentage 의 total 배출량 포트폴리오 열에서 선택 9 포함된 기준 목표. E.g., 만약 banking 포트폴리오 열에서 선택 8 \"포트폴리오s 포함된 기준 목표\", comp하나 이상 해야 합니다 보고 percentage 의 total banking 포트폴리오 배출량 포함된 기준 목표. 만약 귀사 보고ing 섹터 level 목표, 및 it covers multiple 포트폴리오s, enter percentage 의 total 배출량 포트폴리오s 열에서 선택 8 \"포트폴리오s 포함된 기준 목표\". % 의 자산군 배출량 포함된 기준 목표 (열 15) 만약 귀사의 목표 covers only one type 의 자산군, enter percentage 의 total 배출량 자산군 열에서 선택 10 \"자산군 포함된 기준 목표\". 목표 de아니요minator (열 17) 이 열 only appears 만약 \"Intensity\" 열에서 선택 12 \"목표 type: Absolute 또는 intensity\". 드롭다운s appear based 선택ion made 열 2 \"목표 type\". 만약 귀사 선택 \"기타, 직접 입력,\" 제공 label 지표. % 의 포트폴리오 포함된 relation total 포트폴리오 가치 (열 18) Enter percentage 의 포트폴리오 가치 포함된 기준 목표 total 포트폴리오 가치 based assets 가치 보고된 1.10. 빈도 의 목표 reviews (열 21) 선택 빈도 how often 귀사 review 귀사의 목표. 종료일 의 기준연도 (열 22) 기준연도 연도 against 귀사 comparing 귀사의 배출량 reduction 목표. 기준연도 can아니요t after 보고연도. 만약 귀사 have 연도--연도 rolling 목표, 종료일 의 기준연도 내 이전 보고연도. 만약 귀사 have 목표 based 재무 연도s, enter 날짜 입력 applies end 의 귀사의 재무 연도 및 specify 이 열 36 \"제공 세부 정보 의 귀사의 목표 및 지표\". 만약 귀사 have 목표 based average 배출량 over period 의 time (e.g. 5-연도 average), enter 날짜 입력 applies end 의 average period 및 specify 이 열 36 \"제공 세부 정보 의 귀사의 목표 및 지표\". 수치 기준연도 (열 23) Enter measured 수치 기준연도 against progress towards 목표 measured. 수치 제공된 해야 합니다 지표 (또는 목표 numerator 만약 intensity) 제공된 열 16 \"지표 (또는 목표 numerator 만약 intensity)\". 만약 귀사의 목표 intensity 목표, 아니요te intensity 수치 해야 합니다 산정d 기준 dividing 배출량 포함된 기준 목표 기준 intensity 지표 de아니요minator, 열에서 선택s 16 \"지표 (또는 목표 numerator 만약 intensity)\" 및 17 \"목표 de아니요minator\". End 의 interim 목표 연도 (열 25) 만약 귀사 have interim 목표, enter 목표 날짜 입력 의 interim 목표. 만약 귀사 set 목표 based 재무 연도s, enter 날짜 입력 applies end 의 귀사의 comp하나 이상's 재무 연도 및 specify 이 \"설명 목표 범위 및 식별 하나 이상 exclusions\" 열. 수치 interim 목표 연도 (열 26) Enter 수치 interim 연도 포함된 기준 목표. 만약 interim 연도 past, enter measured 수치. 만약 interim 연도 미래, enter 수치 귀사 expect achieve interim 연도. 수치 제공된 해야 합니다 지표 (또는 목표 numerator 만약 intensity) 제공된 열 16 \"지표 (또는 목표 numerator 만약 intensity)\". 만약 귀사의 목표 intensity 목표, 아니요te intensity 수치 해야 합니다 산정d 기준 dividing 배출량 포함된 기준 목표 기준 intensity 지표 de아니요minator, 열에서 선택s 16 \"지표 (또는 목표 numerator 만약 intensity)\" 및 17 \"목표 de아니요minator\". 종료일 의 목표 (열 27) Enter 날짜 입력 목표 ends. example, 만약 목표 reduce 배출집약도 기준 50% 기준 end 의 2030, 종료일 의 목표 31st December 2030. 만약 귀사 have 연도--연도 rolling 목표, 종료일 의 목표 내 보고연도. 만약 귀사 have 목표 based 재무 연도s, enter 날짜 입력 applies end 의 귀사의 재무 연도 및 specify 열 36 \"제공 세부 정보 의 귀사의 목표 및 지표\". 만약 귀사 have 목표 based average 배출량 over period 의 time (e.g. 5-연도 average), enter 날짜 입력 applies end 의 average period 및 specify 이 열 36 \"제공 세부 정보 의 귀사의 목표 및 지표\". 귀사 해야 합니다 아니요t 보고 하나 이상 목표 was achieved before start 의 보고연도. 수치 목표 연도 (열 28) Enter 목표ed 수치 귀사 expect achieve 목표 연도. 수치 제공된 해야 합니다 지표 (또는 목표 numerator 만약 intensity) 제공된 열 16 \"지표 (또는 목표 numerator 만약 intensity)\". 만약 귀사의 목표 intensity 목표, 아니요te intensity 수치 해야 합니다 산정d 기준 dividing 배출량 포함된 기준 목표 기준 intensity 지표 de아니요minator, 열에서 선택s 16 \"지표 (또는 목표 numerator 만약 intensity)\" 및 17 \"목표 de아니요minator\". 수치 보고연도 (열 29) Enter corresponding 수치 보고연도 포함된 기준 목표. 수치 제공된 해야 합니다 지표 (또는 목표 numerator 만약 intensity) 제공된 열 16 \"지표 (또는 목표 numerator 만약 intensity)\". 만약 귀사의 목표 intensity 목표, 아니요te intensity 수치 해야 합니다 산정d 기준 dividing 배출량 포함된 기준 목표 기준 intensity 지표 de아니요minator, 열에서 선택s 16 \"지표 (또는 목표 numerator 만약 intensity)\" 및 17 \"목표 de아니요minator\". % 의 목표 achieved relative 기준연도 (열 30) 이 열 auto-산정d based 귀사의 responses 열 23 \"수치 기준연도\", 28 \"수치 목표 연도\" 및 29 \"수치 보고연도\". 목표 status 보고연도 (열 31) New - 선택 이 선택지 목표 have set 보고연도 및 still 진행 중. Underway - 선택 이 선택지 목표 were set before 보고연도, 목표 연도 미래, have 아니요t achieved 및 continue pursued. Achieved - 선택 이 선택지 목표 have achieved 또는 exceeded 보고연도. Expired - 선택 이 선택지 목표 목표 연도 의 보고연도, have 아니요t achieved 및 have therefore expired 보고연도. Revised - 선택 이 선택지 목표 were set before 보고연도 but revision has made 하나 이상 의 elements 열 2 \"목표 type\" 14 \"% 의 포트폴리오 배출량 포함된 기준 목표 \" 보고연도, example due re산정 의 기준연도 배출집약도 또는 change 종료일 의 목표. 아니요te 목표 status 해야 합니다 보고된 \"revised\" only 보고연도 경우 up날짜 입력 was conducted. Replaced - 선택 이 선택지 이전ly 보고된 목표 have replaced an기타 목표 보고연도, example 경우 시설 목표 has incorporated into 전사 목표. Retired - 선택 이 선택지 목표 목표 연도 미래, have 아니요t achieved, but 아니요 longer pursued. 제공 more 정보 why 이 목표 was retired \"설명하십시오 (포함 목표 범위)\" 열. Aggregation weighting used (열 32) 이 열 only appears 만약 \"포트폴리오 범위\" 또는 \"포트폴리오 temperature rating 목표\" 열에서 선택 2 \"목표 type\". 만약 귀사 공시 포트폴리오 범위 또는 포트폴리오 temperature alignment 목표, 선택 aggregation weighting used. Weighted average temperature score (WATS): Temperature scores 모든ocated based 포트폴리오 weights. Total 배출량 weighted temperature score (TETS): Temperature scores 모든ocated based historical 배출 weights using total comp하나 이상 배출량. 시장 owned 배출량 weighted temperature score (MOTS): Temperature scores 모든ocated based equity ownership approach. Enterprise owned 배출량 weighted temperature score (EOTS): Temperature scores 모든ocated based enterprise ownership approach. EV + cash 배출량 weighted temperature score (ECOTS): Temperature scores 모든ocated based enterprise 가치 (EV) plus cash & equivalents ownership approach. Total assets 배출량 weighted temperature score (AOTS): Temperature scores 모든ocated based total assets ownership approach. Revenue owned 배출량 weighted temperature score (ROTS): Temperature scores 모든ocated based share 의 revenue. 만약 귀사 선택 \"기타, 직접 입력\", specify aggregation weighting used. % 의 temperature score 산정d 보고연도 based comp하나 이상 목표 (열 33) 이 열 only appears 만약 귀사 선택됨 \"포트폴리오 temperature rating 목표\" 목표 type 열 2 \"목표 type\". Indicate proportion 의 temperature score 산정d 보고연도 based comp하나 이상 목표 (i.e. 아니요t based default score comp하나 이상). 이 열 only 관련성 있음 포트폴리오 temperature alignment 목표. Further 가이던스 이 및 프로세스 의 setting 포트폴리오 temperature alignment 목표 할 수 있습니다 found SBTi ‘ 재무-섹터-Science-Based-목표-가이던스 ' (see page 85). 이 science-based 목표? (열 34) 이 열 only appears 만약 \"Banking\" 또는 \"Investing\" 선택됨 둘 중 하나 열 8 \"포트폴리오s 포함된 기준 목표\" 또는 9 \"포트폴리오\". Refer CDP Technical 아니요te Science-Based 목표 what qualifies science-based 목표 및 how 평가 귀사의 목표 against Science Based 목표 initiative's 기준. 예, 이 목표 has approved 기준 Science Based 목표 initiative - 기업 very strongly encouraged have their 목표 offici모든y 평가된 기준 Science Based 목표 initiative (SBTi). CDP considers 목표 approved 기준 initiative reflect best practice science-based 목표 setting. 선택 이 선택지 only 만약 목표 has offici모든y approved 기준 SBTi 기준 CDP scoring deadline. 예, 당사 consider 이 science-based 목표, 및 목표 현재ly reviewed 기준 Science Based 목표 initiative - 만약 귀사의 comp하나 이상 has set 목표 및 has self-평가된 it science-based, 및 it has submitted SBTi validation 및 현재ly reviewed 기준 SBTi, 귀사 해야 합니다 선택 이 선택지. 귀사 해야 합니다 use \"설명하십시오 목표 범위 및 식별 하나 이상 exclusions\" 열 설명 why 귀사 believe 귀사의 목표 science-based. 예, 당사 consider 이 science-based 목표, 및 당사 have committed seek validation 의 이 목표 기준 Science Based 목표 initiative next two 연도s - 아니요t 모든 기업 have had their 목표 평가된 기준 SBTi. 만약 귀사의 comp하나 이상 has set 목표 및 has self-평가된 it science-based but has 아니요t yet submitted it SBTi validation, 귀사 해야 합니다 선택 이 선택지. 귀사 해야 합니다 use \"설명하십시오 목표 범위 및 식별 하나 이상 exclusions\" 열 설명 why 귀사 believe 귀사의 목표 science-based. 만약 귀사 현재ly 프로세스 의 revising 귀사의 목표 meet SBTi 기준, indicate 이 기준 선택ing \"아니요, but 당사 anticipate setting one next 2 연도s.\" 예, 당사 consider 이 science-based 목표, it has set line Glasgow 재무 모든iance Net Zero (GFANZ) commitments, 및 당사 have committed seek validation 기준, 또는 it 현재ly reviewed 기준, Science Based 목표 initiative - M하나 이상 재무 institutions committed accelerating decarbonization 의 eco아니요my do so 기준 joining GFANZ 석탄ition 및 기준 primarily setting 목표 based GFANZ commitments. 만약 귀사의 comp하나 이상 has set such 목표 및 has self-평가된 it science-based, 및 it has submitted SBTi validation, 또는 귀사 프로세스 의 doing so, 귀사 해야 합니다 선택 이 선택지. 예, 당사 consider 이 science-based 목표, 및 it has set line Glasgow 재무 모든iance Net Zero (GFANZ) commitments, but 당사 have 아니요t committed seek validation 기준 Science Based 목표 initiative 내 next two 연도s - M하나 이상 재무 institutions committed accelerating decarbonization 의 eco아니요my do so 기준 joining GFANZ 석탄ition 및 기준 primarily setting 목표 based GFANZ commitments. 만약 귀사의 comp하나 이상 has set such 목표 및 has self-평가된 it science-based, but 귀사 have 아니요t committed seek validation 기준 SBTi, 귀사 해야 합니다 선택 이 선택지. 아니요, but 당사 보고ing an기타 목표 science-based - An기타 목표 (absolute 또는 intensity) 공시된 science-based, 둘 중 하나 an기타 행 이 table, 또는 7.53.2. 아니요, but 당사 anticipate setting one next 2 연도s - It recommended 귀사의 comp하나 이상 publicly 명시s 이 기준 making commitment via SBTi 서비스 Validation Portal. 아니요, 당사 do 아니요t anticipate setting one next 2 연도s - 아니요 science-based 목표 have set 및 there 아니요 plans place set one next 2 연도s. 목표 목표 수준 (열 35) 이 열 only appears 만약 귀사 선택 하나 이상 \"예\" 선택지 열 34 \" 이 science-based 목표?\". 선택 level 의 목표 수준 의 귀사의 science-based 목표. 아니요te 의 July 2021 SBTi 현재ly requires Scope 1 및 2 목표 consistent level 의 decarbonization required keep global temperature increase 1.5°C compared pre-industrial temperatures, 및 Scope 3 목표 consistent level 의 decarbonization required keep global temperature increase well-below 2°C compared pre-industrial temperatures. 제공 세부 정보 의 귀사의 목표 및 지표 (열 36) 이 열 only appears 만약 귀사 선택 \"적응 및 회복탄력성 목표\" 열 2 \"목표 type\". 제공 지표 used 귀사의 목표, well 하나 이상 기타 세부 정보. 제공 how 귀사 measure progress against 귀사의 목표, what 기준연도 수치 against 귀사 compare. 수치 interim 연도, 만약 applicable. 하나 이상 기타 세부 정보 귀사 wish 제공. 설명하십시오 목표 범위 및 식별 하나 이상 exclusions (열 37) 제공 further 세부 정보 의 귀사의 목표 범위 이 열 및 하나 이상 exclusions. 귀사 할 수 있습니다 use 이 열 식별 경우 귀사 have 재무 연도 또는 average 연도 based 목표. 만약 귀사의 목표 was origin모든y different format, 귀사 할 수 있습니다 wish give original 목표 before it was converted into format required purposes 의 이 table. 만약 귀사의 목표 part 의 wider carbon neutrality goal, regulatory requirement, 또는 longer-term 목표, 귀사 할 수 있습니다 also 설명 이 here. 목표 objective (열 38) 설명 전략적 objective 목표 및 how it links 귀사의 전략. E.g. objective 의 목표 할 수 있습니다 meet regulatory 목표 또는 reduce costs 의 compliance 배출량 trading scheme."
     },
     {
       "type": "Additional Information",
       "text": "Financial institutions can go further once they have calculated portfolio impact metrics by using the metrics to set targets for reducing their climate change impact and to inform actions they can take to reduce their impact. Reporting on progress through effective environmental disclosures is important at every stage of the journey.\nThere are a number of methodologies organizations in the financial sector can use to set and/or communicate portfolio targets. Some resources that may help you set and/or communicate a target include:\nSBTi - Financial Sector Science-Based Targets Guidance \nNet-Zero Asset Owner Alliance - Target Setting Protocol \nNet-Zero Banking Alliance - Guidelines for Climate Target Setting \nIIGCC - Paris Aligned Investment Initiative",
       "typeKo": "추가 정보",
-      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
+      "textKo": "재무 institutions 할 수 있습니다 go further once they have 산정d 포트폴리오 영향 지표 기준 using 지표 set 목표 reducing their 기후변화 영향 및 inform actions they 할 수 있습니다 take reduce their 영향. 보고ing progress through effective 환경 공시s 중요 at every stage 의 journey. There 숫자 입력 의 방법론 조직 재무 섹터 할 수 있습니다 use set 및/또는 communicate 포트폴리오 목표. Some 자원 할 수 있습니다 help 귀사 set 및/또는 communicate 목표 include: SBTi - 재무 섹터 Science-Based 목표 가이던스 Net-Zero Asset Owner 모든iance - 목표 Setting Protocol Net-Zero Banking 모든iance - Guidelines 기후 목표 Setting IIGCC - Paris Aligned Investment Initiative"
     },
     {
       "type": "Ambition",
       "text": "Financial services companies set and progress climate-related targets for lending, investing and/or insuring that align with their commitment to achieve net zero by 2050.",
-      "typeKo": "목표수준",
-      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
+      "typeKo": "목표 수준",
+      "textKo": "금융 서비스 기업 set 및 progress 기후-related 목표 lending, investing 및/또는 insuring align their commitment achieve net zero 기준 2050."
     },
     {
       "type": "Explanation of Terms",
       "text": "Year-on-year rolling target: a target to achieve a certain level of performance every year (e.g., a target to reduce scope 1 emissions by 5% compared to the previous year).\nPortfolio : in the context of this questionnaire your portfolio is the entire collection of your core financing activities and insurance policies that you offer. For bank lending, this is the entire collection of products and loans held on your balance sheet for which you own the receivable stream. For asset managers, this is the entire collection of your products and investments that you hold and/or manage on behalf of your clients. For asset owners, this is the entire collection of products, funds and investments owned and controlled by your company. For investment portfolios, asset managers should consider discretionary investments, those where the company has discretion over investment decision. For insurance underwriting, this is the entire collection of products and insurance policies you provide to your clients.",
       "typeKo": "용어 설명",
-      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
+      "textKo": "연도--연도 rolling 목표: 목표 achieve certain level 의 performance every 연도 (e.g., 목표 reduce Scope 1 배출량 기준 5% compared 이전 연도). 포트폴리오: con텍스트 입력 의 이 문항naire 귀사의 포트폴리오 entire collection 의 귀사의 core financing 활동 및 insurance 정책 귀사 offer. bank lending, 이 entire collection 의 products 및 loans held 귀사의 balance sheet 귀사 own receivable stream. asset 관리rs, 이 entire collection 의 귀사의 products 및 investments 귀사 hold 및/또는 관리 behalf 의 귀사의 고객. asset owners, 이 entire collection 의 products, funds 및 investments owned 및 controlled 기준 귀사의 comp하나 이상. investment 포트폴리오s, asset 관리rs 해야 합니다 consider discretionary investments, 해당 경우 comp하나 이상 has discretion over investment decision. insurance underwriting, 이 entire collection 의 products 및 insurance 정책 귀사 제공 귀사의 고객."
     }
   ],
   "points": [
@@ -1167,7 +1167,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "점 부여됨 per 완료 셀 proportion 숫자 입력 의 행 공시된 제외 다음 열: - '% 의 포트폴리오 포함된 relation total 포트폴리오 가치' - 'End 의 interim 목표 연도' - '% 의 목표 achieved relative 기준연도' - '수치 interim 목표 연도' Parti모든y 완료 행 아니요t receive full 점. 이 문항에서 최대 13/13점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -1176,8 +1176,8 @@
       "criteria": "The following conditions must be met to be eligible for Awareness points:\nAt least 10 Disclosure points awarded AND\nDate provided in column 'Date target was set' is not before date provided in column 'End date of base year'\ni) Either of the following met - 2 points\n'No' selected in column 'We have an interim target' AND\nDate provided in column 'End date of target' is 4 years or more after date provided in column 'Date target was set'\nOR\n'Yes' selected in column 'We have an interim target' AND\nDate provided in column 'End date of target' is 4 years or more after date provided in column 'Date target was set' AND\nDate provided in column 'End of interim target year' is greater than date provided in column 'Date target was set' AND less than date provided in 'End date of target'.\nii) Any option excluding 'No, and we do not anticipate setting one in the next 2 years' selected in column 'Is this a science-based target?' - 1 point\niii) Figure greater than 0 provided in column '% of target achieved relative to base year' OR\n'New' selected in column 'Target status in reporting year' AND date provided in column 'Date target was set' is the same as date provided in column 'End date of reporting year' in question 1.4 OR\nThe figure provided in column 'Figure in base year' is equal to the figure provided in column 'Figure in target year' OR\nThe figure provided in column 'Figure in target year' is equal to the figure provided in column 'Figure in reporting year' - 2 points\niv) Any of the following met - 1 point\n'Sector level' selected in column 'Target is set and progress against it is tracked at' AND column 'Sector' completed OR\n'Portfolio level' selected in column 'Target is set and progress against it is tracked at' AND column 'Portfolio' completed OR\n'Asset class level' selected in column 'Target is set and progress against it is tracked at' AND column 'Asset classes covered by the target' completed.\nA maximum of 6/6 points is available for this question.\nOne row scored.",
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
-      "levelKo": "A",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "levelKo": "",
+      "criteriaKo": "다음 conditions 해야 합니다 met 대상 인지 점수수수: At least 10 공시 점수수수 부여됨 및 날짜 입력 제공된 열 '날짜 입력 목표 was set' 아니요t before 날짜 입력 제공된 열 '종료일 의 기준연도' i) 둘 중 하나 의 다음 met - 2 점 '아니요' 열에서 선택 '당사 have interim 목표' 및 날짜 입력 제공된 열 '종료일 의 목표' 4 연도s 또는 more after 날짜 입력 제공된 열 '날짜 입력 목표 was set' 또는 '예'열에서 선택'당사 have interim 목표' 및 날짜 입력 제공된 열 '종료일 의 목표' 4 연도s 또는 more after 날짜 입력 제공된 열 '날짜 입력 목표 was set' 및 날짜 입력 제공된 열 'End 의 interim 목표 연도' greater than 날짜 입력 제공된 열 '날짜 입력 목표 was set' 및 less than 날짜 입력 제공된 '종료일 의 목표'. ii) 다음을 제외한 선택지 중 하나 '아니요, 당사 do 아니요t anticipate setting one next 2 연도s' 열에서 선택 '이 science-based 목표?' - 1 점 iii) 수치 greater than 0 제공된 열 '% 의 목표 achieved relative 기준연도' 또는 'New' 열에서 선택 '목표 status 보고연도' 및 날짜 입력 제공된 열 '날짜 입력 목표 was set' same 날짜 입력 제공된 열 '종료일 의 보고연도' 문항 1.4 또는 수치 제공된 열 '수치 기준연도' equal 수치 제공된 열 '수치 목표 연도' 또는 수치 제공된 열 '수치 목표 연도' equal 수치 제공된 열 '수치 보고연도' - 2 점 iv) 하나 이상 의 다음 met - 1 점 '섹터 level' 열에서 선택 '목표 set 및 progress against it tracked at' 및 열 '섹터' 완료 또는 '포트폴리오 level' 열에서 선택 '목표 set 및 progress against it tracked at' 및 열 '포트폴리오' 완료 또는 '자산군 level' 열에서 선택 '목표 set 및 progress against it tracked at' 및 열 '자산군 포함된 기준 목표' 완료. 이 문항에서 최대 6/6점을 받을 수 있습니다. 1개 행 평가."
     },
     {
       "sector": "Financial services",
@@ -1187,7 +1187,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "하나 이상 의 다음 해야 합니다 열에서 선택 '목표 status 보고연도' 대상 관리 점수수수: - 'New' - 'Underway' - 'Achieved' - 'Revised' 경로) i) 다음을 제외한 선택지 중 하나 '아니요, but 당사 anticipate setting one next 2 연도s' 또는 '아니요, 당사 do 아니요t anticipate setting one next 2 연도s' 열에서 선택 '이 science-based 목표?' - 0.5 점 ii) 다음을 제외한 선택지 중 하나 ‘포트폴리오 범위'또는 ‘포트폴리오 temperature rating 목표' 열에서 선택 ‘목표 type' 및 둘 중 하나 의 다음 met - 0.5 점: 날짜 입력 제공된 열 '종료일 의 목표' between 5 및 10 연도s after 날짜 입력 제공된 열 '날짜 입력 목표 was set' 또는 날짜 입력 제공된 열 '종료일 의 목표' 11 연도s 또는 more after 날짜 입력 제공된 열 '날짜 입력 목표 was set' 및 '예'열에서 선택'당사 have interim 목표' 및 날짜 입력 제공된 열 'End 의 interim 목표 연도' between 5 및 10 연도s after 날짜 입력 제공된 열 '날짜 입력 목표 was set' 이 경로에서 최대 1/1점을 받을 수 있습니다. 경로 B) i) 다음을 제외한 선택지 중 하나 '아니요, but 당사 anticipate setting one next 2 연도s' 또는 '아니요, 당사 do 아니요t anticipate setting one next 2 연도s' 열에서 선택 '이 science-based 목표?' - 0.5 점 ii) ‘포트폴리오 범위'또는 ‘포트폴리오 temperature rating 목표' 열에서 선택 ‘목표 type' 및 하나 이상 의 다음 met - 0.5 점: 날짜 입력 제공된 열 '종료일 의 목표' 30/06/2031 또는 earlier 및 날짜 입력 제공된 열 '종료일 의 목표' greater than 날짜 입력 제공된 열 '날짜 입력 목표 was set' 또는 날짜 입력 제공된 열 '종료일 의 목표' 5 연도s 또는 earlier after 날짜 입력 제공된 열 '날짜 입력 목표 was set' 및 날짜 입력 제공된 열 '종료일 의 목표' greater than 날짜 입력 제공된 열 '날짜 입력 목표 was set' 또는 날짜 입력 제공된 열 '종료일 의 목표' after 30/06/2031 및 '예'열에서 선택'당사 have interim 목표' 및 날짜 입력 제공된 열 'End 의 interim 목표 연도' 30/06/2031 또는 earlier 및 날짜 입력 제공된 열 'End 의 interim 목표 연도' after 날짜 입력 제공된 열 '날짜 입력 목표 was set' 또는 날짜 입력 제공된 열 '종료일 의 목표' after 30/06/2031 및 '예'열에서 선택'당사 have interim 목표' 및 날짜 입력 제공된 열 'End 의 interim 목표 연도' 5 연도s 또는 earlier after 날짜 입력 제공된 열 '날짜 입력 목표 was set' 및 날짜 입력 제공된 열 'End 의 interim 목표 연도' after 날짜 입력 제공된 열 '날짜 입력 목표 was set' 이 경로에서 최대 1/1점을 받을 수 있습니다. 경로 C) i) 다음을 제외한 선택지 중 하나 '아니요, but 당사 anticipate setting one next 2 연도s' 또는 '아니요, 당사 do 아니요t anticipate setting one next 2 연도s' 열에서 선택 '이 science-based 목표?' - 0.5 점 ii) 하나 이상 선택지 기타 than ‘포트폴리오 범위'또는 ‘포트폴리오 temperature rating 목표' 열에서 선택 ‘목표 type' 및 둘 중 하나 의 다음 met- 0.5 점: 날짜 입력 제공된 열 '종료일 의 목표' 5 연도s 또는 earlier than 날짜 입력 제공된 열 '날짜 입력 목표 was set' 또는 ‘예'열에서 선택 ‘당사 have interim 목표' 및 날짜 입력 제공된 열 'End 의 interim 목표 연도' 5 연도s 또는 earlier than 날짜 입력 제공된 열 '날짜 입력 목표 was set' 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 D) '예'열에서 선택'Does 귀사 undertake 이 활동?'행'보험 인수(보험사)'및'아니요'열에서 선택'Does 귀사 undertake 이 활동?' 다음 행 문항 1.10 - 0/0 점: - '은행(은행)' - '투자(자산운용사)' - 'Investing (Asset owners)' 이 경로에서 최대 0/0점을 받을 수 있습니다. 1개 행 평가."
     },
     {
       "sector": "Financial services",
@@ -1197,12 +1197,12 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
+      "criteriaKo": "경로) 다음 conditions 해야 합니다 met 대상 리더십 점수수수: Full 관리 점수수수 부여됨 및 each 활동 제공된 제외 '보험 인수(보험사) 문항 1.10 corresponding 행 해야 합니다 완료. i) 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '빈도 의 목표 reviews' - 1 점 ii) 다음 중 하나 이상 선택 열 '목표 목표 수준: '1.5⁰C aligned' - 1 점 또는 'Well-below 2⁰C aligned' - 0.75/1 점 또는 '2⁰C aligned' - 0.5/1 점 이 경로에서 최대 2/2점을 받을 수 있습니다. 경로 B) '예'열에서 선택'Does 귀사 undertake 이 활동?'행'보험 인수(보험사)'및'아니요'열에서 선택'Does 귀사 undertake 이 활동?' 다음 행 문항 1.10 - 0/0 점 - '은행(은행)' - '투자(자산운용사)' - 'Investing (Asset owners)' 이 경로에서 최대 0/0점을 받을 수 있습니다. 1개 행 평가."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "포트폴리오의 기후 관련 목표에 대한 세부 정보를 제공하십시오",
+    "question_ko": "포트폴리오의 기후 관련 목표에 대한 세부 정보를 제공하십시오. (4) 목표 및 지표 상세 설명 목표 범위 및 예외 설명 목표 목적 설명",
     "q2025": "Q7.53.4",
     "q2025_text": "Provide details of the climate-related targets for your portfolio.",
     "change_status": "Minor change",
@@ -1218,16 +1218,16 @@
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
     "change_statusKo": "경미한 변경",
-    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "detail_change_typesKo": "New 드롭다운 선택지, Removed 드롭다운 선택지, New 드롭다운 선택지, 가이던스 변경",
+    "change_summaryKo": "Removed 선택지 \"Absolute 포트폴리오 배출량\" 및 \"포트폴리오 배출집약도\" 및 replaced 선택지 \"Portoflio 배출량\". Added 드롭다운 선택지 '기타, 직접 입력' 목표 type: \"포트폴리오 배출량\". Added 가이던스 선택지 \"예, 이 목표 has approved 기준 Science Based 목표 initiative\" clarify SBTs 할 수 있습니다 approved 기준 scoring deadline. Added 가이던스 선택지 \"아니요, but 당사 anticipate setting one next two 연도s \" updating 공시rs 명시 their commitment SBTi portal 및 아니요t through letter 이 아니요t used 하나 이상more.",
+    "scoring_change_summaryKo": "CC 금융 서비스 관리 • Eligibility 기준 up날짜 입력d apply 모든 routes. • Two new routes have added variations interim 목표. Scoring up날짜 입력d regard length 의 목표 공시된. New proposed 경로 및 B aligned near term SBTi 기준. 경로 C aligned FINZs.",
     "daml_summaryKo": "금융 서비스: D 13/13 | 6/6 | M 0 또는 1/0 또는 1 | L 0 또는 2/0 또는 2",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "Changed 및 reflected",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "포트폴리오의 기후 관련 목표에 대한 세부 정보를 제공하십시오"
+    "q2025_textKo": "포트폴리오의 기후 관련 목표에 대한 세부 정보를 제공하십시오. (4) 목표 및 지표 상세 설명 목표 범위 및 예외 설명 목표 목적 설명"
   },
   "defaultPoints": {
     "D": "13/13",
@@ -1239,35 +1239,35 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "금융 서비스",
-  "simpleHelpKo": "이 문항은 '포트폴리오의 기후 관련 목표에 대한 세부 정보를 제공하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "Achieving net zero 기준 2050 require major redirection 의 capital into sustainable solutions 및 low-carbon tech아니요logies, only 금융 서비스 섹터 할 수 있습니다 제공. 이 profound influence wider eco아니요my means 재무 institutions' 기후-related 영향 occurs mostly their 포트폴리오s, rather than through their 직접 운영사업장. Thus, setting 목표 및 보고ing progress at 포트폴리오 level considered best practice 재무 institutions 및 할 수 있습니다 help them align their financing, investment 및 insurance underwriting 1.5ºC world.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "2025 Korean form + CDP glossary repair"
 }

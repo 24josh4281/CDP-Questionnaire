@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Disclose details on your organization's consumption of feedstocks for steel production activities.",
-  "questionKo": "공시 세부 정보 조직의 소비량 원료 철강 생산 활동.",
+  "questionKo": "공시 세부 정보 귀사의 소비 의 원료 철강 생산 활동.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "1행"
+      "titleKo": "행 1"
     }
   ],
   "columns": [
@@ -58,15 +58,15 @@
         "가스",
         "가스",
         "가스",
-        "",
-        "에서 비- 조달함, 탄소 및 저장",
-        "기타 비-",
-        "",
+        "재생에너지",
+        "에서 -재생에너지 배출원, 와/과 탄소 및 저장",
+        "기타 -재생에너지",
+        "석탄",
         "기타",
-        "액체",
         "",
         "",
-        "비-",
+        "",
+        "",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -116,20 +116,20 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "미터톤",
-        "미터톤",
+        "지표 톤",
+        "지표 톤",
         "",
         "",
         "",
         "",
         "",
-        "백만",
         "",
         "",
-        "백만",
         "",
         "",
-        "백만",
+        "",
+        "",
+        "",
         "",
         ""
       ],
@@ -165,7 +165,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "탄소 배출 의 원료, 미터톤 CO2 마다 소비 단위",
+      "textKo": "탄소 배출 원료, 지표 톤 CO2 당 소비 단위",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -180,7 +180,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "가치 의 원료, 마다 소비 단위",
+      "textKo": "가치 원료, MWh 당 소비 단위",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -195,7 +195,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "의견",
+      "textKo": "",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -214,7 +214,7 @@
       "type": "Requested Content",
       "text": "General \nFigures you provide should be for the reporting year only (as defined by your answer to 1.4). \nAll fuel feedstocks (feedstocks that can also be fuels) consumed inside the organizational/sector boundary should be included, regardless of whether the feedstock was purchased or produced by the organization. For example, coking coal consumed at coke ovens may have been purchased or mined by your organization. Equally, coke at the blast furnace may have been purchased or produced in coke ovens owned by your organization. \nThe sector boundary should align with the sector boundary for emissions, which is described in the guidance to question 7.19. \nBecause feedstocks specified are fuel feedstocks, this excludes non-fuel feedstocks such as limestone, sinter, iron ore, etc. All fuels that serve as a reducing agent, or have another function other than just heat provision, are considered feedstocks and should be included. \nIf your organization has consumed a feedstock listed but only for heat provision, e.g. coke for process heat at the sinter plant, then it should not be included.\nGuidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh \".\nReport all of your fuel data consistently using the same heating value as selected in 7.30.1.\nFeedstocks (column 1) \nRenewably derived hydrogen is generated from energy sources that are inexhaustible such as wind, solar, hydropower, geothermal, biomass and marine (tidal and wave energy). This option should not be selected if the hydrogen is derived from fossil fuels. \nDry or wet basis? (column 4) \nSelect whether the feedstock is measured on a wet basis (moisture content measured as the amount of water per unit mass of the total material, including water) or dry basis (measured as the amount of water per unit mass of the dry material, excluding water).\nInherent carbon dioxide emission factor of feedstock, metric tons CO2 per consumption unit (column 5) \nYou should respond by entering the inherent carbon dioxide emission factor by metric tons CO2 per consumption unit (selected in column 3). \nInherent carbon dioxide emission factor is strictly defined as the feedstock's carbon content (by mass), multiplied by the molecular ratio between carbon dioxide and carbon (CO2 = C × 44 / 12). If carbon content data is unavailable, then you can use the feedstock's CO2 emission factor assuming 100% combustion (oxidation factor = 1). \nHeating value of feedstock, MWh per consumption unit (column 6) \nYou should respond by entering the heating value of the feedstock in MWh per consumption unit (selected in column 3).\nComment (column 7) (optional) \nThe purpose of requesting the inherent carbon dioxide emission factor of your feedstock is to provide transparency on the level of carbon feedstocks consumed by your organization in the steel sector. This can be useful for quality checking your emissions disclosure in question 7.19. As such, you are encouraged to provide comments on the nature of the feedstock's use and approximate level of oxidation in this column.",
       "typeKo": "요청 내용",
-      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
@@ -244,7 +244,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 최대 6/6 점 사용 가능 이 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -264,7 +264,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     },
     {
       "sector": "Steel",
@@ -274,7 +274,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "평가 제외."
+      "criteriaKo": "아니요t 채점됨."
     }
   ],
   "change": {
@@ -294,15 +294,15 @@
     "daml_summary": "Steel: D 6/6 | A 1/1 | M 0/0 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "detail_change_typesKo": "신규 가이던스",
-    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
-    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
+    "scoring_change_summaryKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "daml_summaryKo": "철강: D 6/6 | 1/1 | M 0/0 | L 0/0",
     "reflectedKo": "",
-    "locationKo": "정량적",
+    "locationKo": "정량적 Excel",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경됨 및",
+    "review_statusKo": "2026 CDP 변경 추적표 기준으로 세부 변경사항을 확인하십시오.",
     "review_statusEn": "Changed and reflected",
     "q2025_textKo": "공시 세부 정보 귀사의 소비 의 원료 철강 생산 활동."
   },
@@ -334,17 +334,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
+      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후 변경",
+  "moduleTitleKo": "환경성과 - 기후변화",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "기후 변경",
+  "issueTagsKo": "기후변화",
   "sectorTagsKo": "철강",
-  "simpleHelpKo": "이 문항은 '공시 세부 정보 조직's 소비량 원료 철강 생산 활동.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "simpleHelpKo": "이 문항은 '공시 세부 정보 귀사의 소비 의 원료 철강 생산 활동.'에 대한 배경 설명입니다. 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
-  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
+  "translationSourceKo": "CDP 국문 양식 기반 국문 보정"
 }
