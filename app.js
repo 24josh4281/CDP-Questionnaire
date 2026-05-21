@@ -202,7 +202,7 @@ const UI = {
 };
 
 const PUBLIC_BASE_URL = "https://24josh4281.github.io/CDP-Questionnaire/";
-const URL_STATE_VERSION = "favorites-v6";
+const URL_STATE_VERSION = "list-title-v7";
 const FAVORITES_STORAGE_KEY = "cdpQuestionDbFavorites";
 
 const SECTOR_KO = {
@@ -1340,6 +1340,55 @@ function compact(value, max = 180) {
   return text.length <= max ? text : `${text.slice(0, max - 3)}...`;
 }
 
+function questionTitleOnly(value) {
+  const text = String(value ?? "").replace(/\s+/g, " ").trim();
+  if (!text) return "";
+
+  const questionEnd = text.search(/[?？]/);
+  if (questionEnd >= 0 && questionEnd < 280) return text.slice(0, questionEnd + 1).trim();
+
+  const instructionEndings = [
+    "제공하십시오.",
+    "제공하십시오",
+    "입력하십시오.",
+    "입력하십시오",
+    "설명하십시오.",
+    "설명하십시오",
+    "명시하십시오.",
+    "명시하십시오",
+    "보고하십시오.",
+    "보고하십시오",
+    "선택하십시오.",
+    "선택하십시오",
+    "작성하십시오.",
+    "작성하십시오",
+    "공시하십시오.",
+    "공시하십시오",
+  ];
+  const endingPositions = instructionEndings
+    .map((ending) => {
+      const index = text.indexOf(ending);
+      return index >= 18 && index < 280 ? index + ending.length : -1;
+    })
+    .filter((index) => index > 0);
+  if (endingPositions.length) return text.slice(0, Math.min(...endingPositions)).trim();
+
+  for (let index = 24; index < Math.min(text.length, 260); index += 1) {
+    if (text[index] !== ".") continue;
+    const previous = text[index - 1] || "";
+    const next = text[index + 1] || "";
+    if (/\d/.test(previous) && /\d/.test(next)) continue;
+    if (/[A-Za-z]/.test(previous) && /[A-Za-z]/.test(next)) continue;
+    return text.slice(0, index + 1).trim();
+  }
+
+  return compact(text, 150);
+}
+
+function questionListTitle(question) {
+  return questionTitleOnly(textBy(question, "questionText", "questionKo"));
+}
+
 function chip(text, className = "") {
   if (!text) return "";
   return `<span class="chip ${className}">${escapeHtml(text)}</span>`;
@@ -1743,13 +1792,13 @@ function renderQuestionList() {
       const changedChip = question.isChanged ? chip(t("changedApplied"), "changed") : chip(t("noChangeVerified"), "ok");
       const favoriteChip = state.favorites.has(question.code) ? chip(t("favoriteChip"), "favorite") : "";
       const pointText = `D ${question.daml.D} · A ${question.daml.A} · M ${question.daml.M} · L ${question.daml.L}`;
-      const title = textBy(question, "questionText", "questionKo");
+      const title = questionListTitle(question);
       return `<button class="question-row ${state.density === "compact" ? "compact" : ""} ${question.code === state.selectedCode ? "active" : ""}" data-code="${escapeHtml(question.code)}" type="button">
         <div class="question-topline">
           <span class="q-code">M${escapeHtml(question.code)}</span>
           <span class="row-chip-group">${favoriteChip}${changedChip}</span>
         </div>
-        <div class="q-title">${escapeHtml(compact(title, state.density === "compact" ? 120 : 210))}</div>
+        <div class="q-title">${escapeHtml(compact(title, state.density === "compact" ? 90 : 150))}</div>
         <div class="q-meta">
           ${chip(locationLabel(question.location), "blue")}
           ${chip(textBy(question, "questionType", "questionTypeKo"))}
