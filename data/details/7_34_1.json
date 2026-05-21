@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details of the metrics used to measure the efficiency of your organization's products or services.",
-  "questionKo": "the metrics used to measure the efficiency of 귀사의 products 또는 services.에 대한 세부 정보를 입력하십시오.",
+  "questionKo": "제공 세부 정보 지표 사용됨 조직의.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "행 1"
+      "titleKo": "1행"
     }
   ],
   "columns": [
@@ -38,19 +38,19 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Category of product 또는 service",
+      "textKo": "카테고리 의 또는",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Agriculture, construction & mining machinery",
-        "Batteries (포함 fuel cells)",
-        "Heating & cooling systems",
-        "Industrial machinery",
-        "발전 equipment",
-        "Power transmission, transformation 및 distribution equipment",
-        "Power tools",
-        "Solar energy equipment",
-        "Stationary generators",
+        "농업, 건설 & 광업",
+        "(포함 연료 셀)",
+        "& 냉방",
+        "",
+        "발전",
+        "송전, 및 배전",
+        "도구",
+        "에너지",
+        "",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -64,7 +64,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Product 또는 service (optional)",
+      "textKo": "또는 (선택)",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -79,7 +79,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% of 매출 from this product 또는 service in the 보고연도",
+      "textKo": "% 의 매출 에서 이 또는 보고연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -94,7 +94,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Efficiency figure in the 보고연도",
+      "textKo": "효율 수치 보고연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -122,20 +122,20 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Metric numerator",
+      "textKo": "지표",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "GJ",
-        "Btu",
-        "watt-hour",
-        "megawatt hour (MWh)",
+        "",
+        "",
+        "()",
         "tCO2",
         "tCO2e",
-        "liter",
-        "metric ton",
+        "",
+        "지표",
         "kg",
-        "amp-hour",
+        "",
         "%",
         "기타, 직접 입력"
       ],
@@ -164,21 +164,21 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Metric denominator",
+      "textKo": "지표",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "kilometer",
-        "square meter",
-        "square foot",
-        "watt-hour",
-        "megawatt hour (MWh)",
-        "metric ton of product",
-        "unit hour worked",
-        "unit of production",
-        "unit of service 입력",
-        "unit 매출",
-        "USD ($) value-added",
+        "",
+        "",
+        "",
+        "",
+        "()",
+        "지표 의",
+        "단위",
+        "단위 의 생산",
+        "단위 의 제공된",
+        "단위 매출",
+        "USD ($) 가치-추가됨",
         "해당 없음",
         "기타, 직접 입력"
       ],
@@ -193,7 +193,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Comment",
+      "textKo": "의견",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -211,20 +211,20 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to 7.34.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 7.34."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" 응답 7.34."
     },
     {
       "type": "Requested Content",
       "text": "General \nMetrics reported should be for the products and/or services sold in the reporting period.\nCategory of product or service (column 1) \nSelect the option from the drop-down list that best describes the type of product or service you would like to provide data for.\nNote that these are broad categories only - you may optionally provide a more specific description of the product or service in column 2.\nProduct or service (optional) (column 2) \nIf you wish to do so, state the product or service you would like to provide data for.\n% of revenue from this product or service in the reporting year (column 3) \nEnter the proportion of your total revenue from capital goods sector activities that the measured product or service generated in the reporting year. Do not include products and/or services outside of the capital goods sector boundary in this calculation.\nE.g. If you are providing efficiency data for a product which generated 10% of your total revenue from all capital goods-related products and services in the reporting year, enter 10 here.\nNote that entering a value of 100 indicates that the measured product or service generated 100% your revenue from products or services in the reporting year.\nEfficiency figure in the reporting year (column 4) \nEnter the numerical value used to quantify the efficiency metric for the product or service, relating to the metric numerator and denominator.\nE.g. If you measure the efficiency of the cooling equipment that you produce as a ratio of total cooling output (e.g. in Btu) to the total electric energy input (e.g. in watt-hours), and the efficiency figure in the reporting year is 15 Btu/Wh, enter 15 here.\nMetric numerator (column 5) \nSelect the relevant numerator for your efficiency metric.\nE.g. In the example provided above, the numerator was Btu.\nMetric denominator (column 6) \nSelect the relevant denominator for your efficiency metric.\nE.g. In the example provided above, the denominator was watt-hour.\nComment (column 7) (optional) \nYou can use this column to provide any additional explanation necessary to capture the full complexity of the efficiency metric stated.\nIf you used any relevant existing standards and/or methodologies, you may wish to mention them here.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Metrics 보고 해야 합니다 be 에 대한 products 및/또는 services sold in the reporting period. Category of product 또는 service (열 1) Select the option from the drop-down list that best 설명s the type of product 또는 service you would like to provide data for. Note that these are broad categories only - you may optionally provide a more specific description 의 product 또는 service in 열 2. Product 또는 service (optional) (열 2) 만약 you wish to do so, state the product 또는 service you would like to provide data for. % of 매출 from this product 또는 service in the 보고연도 (열 3) Enter the proportion of your total 매출 from capital goods sector activities that the measured product 또는 service generated in the 보고연도. Do not include products 및/또는 services outside 의 capital goods sector boundary in this 계산. E.g. 만약 you are providing efficiency data for a product which generated 10% of your total 매출 from all capital goods-related 제품 및 서비스 in the 보고연도, enter 10 here. Note that entering a value of 100 indicates that the measured product 또는 service generated 100% your 매출 from products 또는 services in the 보고연도. Efficiency figure in the 보고연도 (열 4) Enter the numerical value used to quantify the efficiency metric 에 대한 product 또는 service, relating to the metric numerator 및 denominator. E.g. 만약 you measure the efficiency 의 cooling equipment that you produce as a ratio of total cooling output (e.g. in Btu) to the total electric energy input (e.g. in watt-hours), 및 the efficiency figure in the 보고연도 is 15 Btu/Wh, enter 15 here. Metric numerator (열 5) Select the 관련 numerator 귀사의 efficiency metric. E.g. In the example 입력 above, the numerator was Btu. Metric denominator (열 6) Select the 관련 denominator 귀사의 efficiency metric. E.g. In the example 입력 above, the denominator was watt-hour. Comment (열 7) (optional) You can use this 열 to provide 하나 이상 additional 설명 necessary to capture the full complexity 의 efficiency metric stated. 만약 you used 하나 이상 관련 existing 기준 및/또는 methodologies, you may wish to mention them here."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
       "text": "Note on capital goods sector activities \nWhen calculating revenue in this question, CDP encourages you to identify and remove specific revenue streams that are not necessarily a part of the sector. CDP broadly defines the capital goods sector as organizations that produce products or services relating to agricultural, construction & mining machinery, batteries, electrical equipment, industrial machinery, solar energy equipment, or other renewable energy equipment.",
       "typeKo": "추가 정보",
-      "textKo": "Note on capital goods sector activities 경우 calculating 매출 in this 문항, CDP encourages you to identify 및 remove specific 매출 streams that are not necessarily a part 의 sector. CDP broadly defines the capital goods sector as organizations that produce products 또는 services relating to agricultural, construction & mining machinery, batteries, electrical equipment, industrial machinery, solar energy equipment, 또는 other 재생에너지 equipment."
+      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
     }
   ],
   "points": [
@@ -248,7 +248,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개 (제외 열 'Product 또는 service (optional)'). 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -258,7 +258,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 제외 열 'Product 또는 service (optional)' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -268,7 +268,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -278,12 +278,12 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Provide details of the metrics used to measure the efficiency of your organization's products or services.",
+    "question_ko": "제공 세부 정보 지표 사용됨 조직의.",
     "q2025": "Q7.34.1",
     "q2025_text": "Provide details of the metrics used to measure the efficiency of your organization's products or services.",
     "change_status": "No change - 2026 source verified",
@@ -302,13 +302,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Capital goods: D 5/5 | A 1/1 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "자본재: D 5/5 | 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "the metrics used to measure the efficiency of 귀사의 products 또는 services.에 대한 세부 정보를 입력하십시오."
+    "q2025_textKo": "제공 세부 정보 의 지표 사용됨 측정 효율 의 귀사의 제품 또는 서비스."
   },
   "defaultPoints": {
     "D": "5/5",
@@ -338,16 +338,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "자본재",
-  "simpleHelpKo": "In line with the TCFD recommendations, the efficiency levels achieved by organizations in this sector provide investors with an indication 의 vulnerability 의 product 포트폴리오 to transition risk 및 thus the earning capacity 의 organization. This 문항 provides 데이터 사용자 with information on the metrics companies are using to measure the efficiency 의ir 제품 및 서비스, 포함 the proportion 의 total product range measured.",
+  "simpleHelpKo": "이 문항은 '제공 세부 정보 지표 사용됨 조직's.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

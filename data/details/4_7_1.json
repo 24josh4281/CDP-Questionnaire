@@ -3,7 +3,7 @@
   "module": "4",
   "moduleTitle": "Governance",
   "questionText": "Provide details of the policies which include environmental requirements that clients/investees need to meet.",
-  "questionKo": "the policies which include environmental requirements that 고객/투자대상 need to meet.에 대한 세부 정보를 입력하십시오.",
+  "questionKo": "고객 / 피투자자가 충족해야 하는 환경 요구 사항을 포함한 정책의 세부 사항을 제공하십시오. (2)",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Water, Biodiversity, Climate Change, Forests",
@@ -15,22 +15,22 @@
     {
       "order": 1,
       "title": "Banking (Bank)",
-      "titleKo": "Banking (Bank)"
+      "titleKo": "은행(은행)"
     },
     {
       "order": 2,
       "title": "Investing (Asset manager)",
-      "titleKo": "Investing (Asset manager)"
+      "titleKo": "투자(자산운용사)"
     },
     {
       "order": 3,
       "title": "Investing (Asset owner)",
-      "titleKo": "Investing (Asset owner)"
+      "titleKo": "투자(자산소유자)"
     },
     {
       "order": 4,
       "title": "Insurance (Insurance company)",
-      "titleKo": "Insurance (Insurance company)"
+      "titleKo": "보험 (보험 기업)"
     }
   ],
   "columns": [
@@ -45,7 +45,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "환경 이슈 covered",
+      "textKo": "환경이슈 포함된",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -72,17 +72,17 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Basis of exceptions to 정책",
+      "textKo": "의 정책",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Geography",
-        "Subsidiaries",
-        "Industry sector",
-        "Line of Business",
+        "",
+        "자회사",
+        "산업 섹터",
+        "의 사업",
         "제품 및 서비스",
-        "Transaction size",
-        "Segment 의 가치사슬",
+        "",
+        "의 가치사슬",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -96,7 +96,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Explain how 기준 coverage 및/또는 exceptions have been determined",
+      "textKo": "설명 어떻게 기준 범위 및/또는",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -172,70 +172,70 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Requirements for 고객/투자대상",
+      "textKo": "요구사항 고객/투자대상",
       "typeKo": "GROUPED_OPTIONS",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Environmental commitments | Commitment to a circular economy 전략",
-        "Environmental commitments | Commitment to avoidance of negative impacts on threatened 및 protected species",
-        "Environmental commitments | Commitment to comply with regulations 및 mandatory 기준",
-        "Environmental commitments | Commitment to take environmental action beyond regulatory compliance",
-        "Environmental commitments | Commitment to engage in integrated, multi-이해관계자 landscape (포함 river basin) 이니셔티브 to promote shared sustainability goals",
-        "Environmental commitments | Commitment to 이행 of 자연기반해법 that support landscape restoration 및 long-term protection of natural ecosystems",
-        "Environmental commitments | Commitment to Net Positive Gain",
-        "Environmental commitments | Commitment to No Net Loss",
-        "Environmental commitments | Commitment to no trade of CITES listed species",
-        "Environmental commitments | Commitment to respect legally designated protected areas",
-        "Environmental commitments | Commitment to 이해관계자 참여 및 capacity building on 환경 이슈",
-        "Environmental commitments | Other environmental commitment, 직접 입력",
-        "Climate-specific commitments | Commitment to 100% 재생에너지",
-        "Climate-specific commitments | Commitment to develop a 기후 전환계획",
-        "Climate-specific commitments | Commitment to disclose Scope 1 배출량",
-        "Climate-specific commitments | Commitment to disclose Scope 2 배출량",
-        "Climate-specific commitments | Commitment to disclose Scope 3 배출량",
-        "Climate-specific commitments | Commitment to net-zero emissions",
-        "Climate-specific commitments | Commitment to not funding climate-denial 또는 lobbying against climate regulations",
-        "Climate-specific commitments | Commitment to no 신규 financial activities involving 신규 buildings that are not zero carbon-ready",
-        "Climate-specific commitments | Commitment to not invest in fossil-fuel expansion",
-        "Climate-specific commitments | Commitment to set a science-based emissions reduction 목표",
-        "Climate-specific commitments | Other climate-related commitment, 직접 입력",
-        "Forests-specific commitments | Commitment to best 관리 practices for soils 및 peat",
-        "Forests-specific commitments | Commitment to conduct 또는 support restoration 및/또는 compensation to remedy for past deforestation 또는 conversion",
-        "Forests-specific commitments | Commitment to facilitate the inclusion of smallholders into the 가치사슬",
-        "Forests-specific commitments | Commitment to no deforestation, to no planting on peatlands, 및 to no exploitation (NDPE) by 목표 date, 직접 입력",
-        "Forests-specific commitments | Commitment to no development on peat regardless of depth",
-        "Forests-specific commitments | Commitment to no land clearance by burning 또는 clearcutting",
-        "Forests-specific commitments | Commitment to no-conversion of natural ecosystems by 목표 date, 직접 입력",
-        "Forests-specific commitments | Commitment to no-deforestation by 목표 date, 직접 입력",
-        "Forests-specific commitments | Commitment to the use 의 High 보전 Value (HCV) approach",
-        "Forests-specific commitments | Other forests-related commitment, 직접 입력",
-        "Water-specific commitments | Commitment to reduce 또는 phase out hazardous substances",
-        "Water-specific commitments | Commitment to control/reduce/eliminate water pollution",
-        "Water-specific commitments | Commitment to reduce water consumption volumes",
-        "Water-specific commitments | Commitment to reduce water withdrawal volumes",
-        "Water-specific commitments | Commitment to safely managed WASH in 지역사회",
-        "Water-specific commitments | Commitment to the 보전 of freshwater ecosystems",
-        "Water-specific commitments | Commitment to water stewardship 및/또는 collective action",
-        "Water-specific commitments | Other water-related commitment, 직접 입력",
-        "Social commitments | Adoption 의 UN International Labour Organization principles",
-        "Social commitments | Commitment to promote gender equality 및 women's empowerment",
-        "Social commitments | Commitment to respect 및 protect the customary rights to land, resources, 및 territory of Indigenous Peoples 및 지역사회",
-        "Social commitments | Commitment to respect internationally recognized human rights",
-        "Social commitments | Commitment to secure Free, Prior, 및 Informed Consent (FPIC) of indigenous people 및 지역사회",
-        "Social commitments | Other social commitment, 직접 입력",
-        "Additional references/Descriptions | Acknowledgement 의 human right to water 및 sanitation",
-        "Additional references/Descriptions | Description of biodiversity-related performance 기준",
-        "Additional references/Descriptions | Description of commodities covered by the 정책",
-        "Additional references/Descriptions | Description of dependencies on natural resources 및 ecosystems",
-        "Additional references/Descriptions | Description of impacts on natural resources 및 ecosystems",
-        "Additional references/Descriptions | Description of environmental requirements for procurement",
-        "Additional references/Descriptions | Description of grievance/whistleblower mechanism to monitor non-compliance with the environmental 정책 및 raise/address/escalate 하나 이상 other greenwashing concerns",
-        "Additional references/Descriptions | Description of membership 및 financial support 입력 to organizations that seek to influence 공개 정책",
-        "Additional references/Descriptions | Description of re신규able electricity procurement practices",
-        "Additional references/Descriptions | Description of 신규 financial activities in the fossil fuel sector",
-        "Additional references/Descriptions | Recognition of environmental linkages 및 trade-offs",
-        "Additional references/Descriptions | Reference to timebound environmental milestones 및 목표",
-        "Additional references/Descriptions | Other additional reference/description, 직접 입력"
+        "환경 약정 | 약정 경제 전략",
+        "환경 약정 | 약정 의 영향 및",
+        "환경 약정 | 약정 규제 및",
+        "환경 약정 | 약정 환경 컴플라이언스",
+        "환경 약정 | 약정, (포함)",
+        "환경 약정 | 약정 의 자연-기준 및 장기-기간 의",
+        "환경 약정 | 약정",
+        "환경 약정 | 약정 아니요 손실",
+        "환경 약정 | 약정 아니요 의",
+        "환경 약정 | 약정",
+        "환경 약정 | 약정 인게이지먼트 및 역량 강화 환경이슈",
+        "환경 약정 | 기타 환경 약정, 직접 입력 명시",
+        "기후-특정 약정 | 약정 100% 에너지",
+        "기후-특정 약정 | 약정 기후 전환계획",
+        "기후-특정 약정 | 약정 공시 범위 1 배출량",
+        "기후-특정 약정 | 약정 공시 범위 2 배출량",
+        "기후-특정 약정 | 약정 공시 범위 3 배출량",
+        "기후-특정 약정 | 약정 배출량",
+        "기후-특정 약정 | 약정 아님 기후- 또는 기후 규제",
+        "기후-특정 약정 | 약정 아니요 신규 재무 활동 신규 아님 탄소-",
+        "기후-특정 약정 | 약정 아님 화석-연료 확장",
+        "기후-특정 약정 | 약정 기준 배출량 목표",
+        "기후-특정 약정 | 기타 기후-관련 약정, 직접 입력 명시",
+        "산림-특정 약정 | 약정 관리 및",
+        "산림-특정 약정 | 약정 또는 및/또는 과거 또는",
+        "산림-특정 약정 | 약정 의 가치사슬",
+        "산림-특정 약정 | 약정 아니요, 아니요, 및 아니요 () 기준 목표 날짜 입력, 직접 입력 명시",
+        "산림-특정 약정 | 약정 아니요 개발 의",
+        "산림-특정 약정 | 약정 아니요 기준 또는",
+        "산림-특정 약정 | 약정 아니요- 의 기준 목표 날짜 입력, 직접 입력 명시",
+        "산림-특정 약정 | 약정 아니요- 기준 목표 날짜 입력, 직접 입력 명시",
+        "산림-특정 약정 | 약정 사용 의 가치 () 접근방식",
+        "산림-특정 약정 | 기타 산림-관련 약정, 직접 입력 명시",
+        "수자원-특정 약정 | 약정 감축 또는",
+        "수자원-특정 약정 | 약정 /감축/ 수자원",
+        "수자원-특정 약정 | 약정 감축 수자원 소비",
+        "수자원-특정 약정 | 약정 감축 수자원",
+        "수자원-특정 약정 | 약정 관리된",
+        "수자원-특정 약정 | 약정 의",
+        "수자원-특정 약정 | 약정 수자원 및/또는",
+        "수자원-특정 약정 | 기타 수자원-관련 약정, 직접 입력 명시",
+        "약정 | 의 UN 조직",
+        "약정 | 약정 및 's",
+        "약정 | 약정 및, 자원, 및 의 및",
+        "약정 | 약정",
+        "약정 | 약정,, 및 () 의 및",
+        "약정 | 기타 약정, 직접 입력 명시",
+        "/ | 의 수자원 및",
+        "/ | 설명 의 생물다양성-관련",
+        "/ | 설명 의 원자재 포함된 기준 정책",
+        "/ | 설명 의 의존도 자원 및",
+        "/ | 설명 의 영향 자원 및",
+        "/ | 설명 의 환경 요구사항",
+        "/ | 설명 의 / 비-컴플라이언스 환경 정책 및 // 해당 기타",
+        "/ | 설명 의 및 재무 제공된 조직 공공정책",
+        "/ | 설명 의 전력",
+        "/ | 설명 의 신규 재무 활동 화석 연료 섹터",
+        "/ | 의 환경 및",
+        "/ | 환경 및 목표",
+        "/ | 기타 /설명, 직접 입력 명시"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -252,13 +252,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Measurement of proportion of 고객/투자대상 compliant with the 정책",
+      "textKo": "의 비례 의 고객/투자대상 정책",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "예",
-        "No, but we plan to measure this within the next two years",
-        "No, 및 we do not plan to measure this in the next two years"
+        "아니요, 하지만 당사 계획 측정 이 내 향후 2년",
+        "아니요, 당사 아님 계획 측정 이 향후 2년"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -271,7 +271,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% of 고객/투자대상 compliant with the 정책",
+      "textKo": "% 의 고객/투자대상 정책",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -286,7 +286,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% of 포트폴리오 value that is compliant with the 정책",
+      "textKo": "% 의 포트폴리오 가치 정책",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -309,17 +309,17 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표 year for 100% compliance",
+      "textKo": "목표 연도 100% 컴플라이언스",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Already met",
-        "Within the next year",
-        "Within the next 2 years",
-        "Within the next 5 years",
-        "In more than 5 years",
-        "No timeframe",
-        "We have not set a 목표 for 100% compliance"
+        "",
+        "내 연도",
+        "내 2 년",
+        "내 5 년",
+        "둘 이상의 5 년",
+        "아니요",
+        "당사 아님 목표 100% 컴플라이언스"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -332,7 +332,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "그 이유를 설명 귀사 does not measure the % of 고객/투자대상 compliant with the 정책",
+      "textKo": "설명 이유 귀사가 아님 측정 % 의 고객/투자대상 정책",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -362,24 +362,24 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Type of 정책",
+      "textKo": "유형 의 정책",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Credit/lending 정책",
+        "/ 정책",
         "리스크 정책",
-        "Underwriting 정책",
-        "참여 정책",
-        "Pricing 정책",
-        "Other banking 정책, 직접 입력",
-        "Credit 정책",
-        "Sustainable/Responsible Investment 정책",
-        "Investment 정책/전략",
-        "Stewardship 정책",
-        "Active ownership 정책",
-        "Other investing 정책, 직접 입력",
-        "Insurance underwriting 정책",
-        "Other insurance 정책, 직접 입력"
+        "정책",
+        "인게이지먼트 정책",
+        "가격제 정책",
+        "기타 정책, 직접 입력 명시",
+        "정책",
+        "지속가능한/ 정책",
+        "정책/전략",
+        "정책",
+        "정책",
+        "기타 정책, 직접 입력 명시",
+        "보험 정책",
+        "기타 보험 정책, 직접 입력 명시"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -395,12 +395,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "공개 availability",
+      "textKo": "가용성",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "공개되어 있음",
-        "Not 공개되어 있음"
+        "사용 가능",
+        "아님 사용 가능"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -413,8 +413,8 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Attach the 정책",
-      "typeKo": "파일 첨부",
+      "textKo": "정책",
+      "typeKo": "첨부파일",
       "mandatoryKo": "아니요",
       "optionsKo": [],
       "simple_helpKo": "",
@@ -431,12 +431,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "가치사슬 stages of 고객/투자대상 covered by 정책",
+      "textKo": "가치사슬 의 고객/투자대상 포함된 기준 정책",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "직접 운영사업장",
-        "직접 운영사업장 및 upstream/다운스트림 가치사슬"
+        "직접 운영사업장 및 업스트림/다운스트림 가치사슬"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -463,23 +463,23 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Industry sectors covered by the 정책",
+      "textKo": "산업 섹터 포함된 기준 정책",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Apparel",
-        "Biotech, health care & pharma",
-        "Food, beverage & agriculture",
-        "Fossil Fuels",
-        "Hospitality",
+        "의류",
+        "바이오·헬스케어·제약",
+        "식품, 음료 & 농업",
+        "화석 연료",
+        "숙박·관광",
         "인프라",
-        "International bodies",
-        "Manufacturing",
-        "Materials",
+        "국제기구",
+        "제조",
+        "자재",
         "발전",
-        "Retail",
-        "Services",
-        "Transportation services"
+        "소매",
+        "서비스",
+        "서비스"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -501,18 +501,18 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Commodities covered by the 정책",
+      "textKo": "원자재 포함된 기준 정책",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "All 농산물 원자재",
-        "Timber products",
-        "Palm oil",
-        "Cattle products",
-        "Soy",
-        "Rubber",
-        "Cocoa",
-        "Coffee"
+        "모든 농산물 원자재",
+        "제품",
+        "석유",
+        "제품",
+        "",
+        "",
+        "",
+        ""
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -531,15 +531,15 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Commodity 가치사슬 stage covered by the 정책",
+      "textKo": "원자재 가치사슬 포함된 기준 정책",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Production",
-        "프로세스ing",
-        "Trading",
-        "Manufacturing",
-        "Retailing"
+        "생산",
+        "",
+        "",
+        "제조",
+        "소매ing"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -552,7 +552,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% of 포트폴리오 covered by the 정책 in relation to total 포트폴리오 value",
+      "textKo": "% 의 포트폴리오 포함된 기준 정책 관련 총 포트폴리오 가치",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -565,31 +565,31 @@
       "type": "Change From Last Year",
       "text": "Minor change",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "Minor change"
+      "textKo": "경미한 변경"
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes, our policies include environmental requirements that clients/investees need to meet\" or \"Yes, our framework includes both policies with client/investee requirements and environmental exclusion policies\" in response to column 1 \"Policy framework for portfolio activities include environmental requirements for clients/investees, and/or exclusion policies\" of 4.7.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"예, our policies include environmental requirements that 고객/투자대상 need to meet\" 또는 \"예, our framework includes both policies with 고객/투자대상 requirements 및 environmental exclusion policies\" in response to 열 1 \"정책 프레임워크 for 포트폴리오 activities include environmental requirements for 고객/투자대상, 및/또는 exclusion policies\" of 4.7."
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nAdd at least one row for each portfolio presented in column 1 \"Portfolio\".\nIf you have policies with different specifics in a single portfolio, add a separate row for each type of policy.\nPortfolio (column 1) \nThe options in this column appear dependent on the activities selected in 1.10.\nType of policy (column 3) \nThe options in this column appear dependent on the activity indicated in column 1 \"Portfolio\" for the row.\nSelect all the policies into which environmental issues are integrated.\nIf there are policies within your organization's policy framework into which environmental issues are integrated, and which are not well represented by any of the drop-down options, select \"Other, please specify\" and provide a label.\nPublic availability (column 4) \nIndicate whether the selected policy is available to the general public or not.\nAttach the policy (column 5) \nThis column is optional if you select \"Not publicly available\" in column \"Public availability\".\nValue chain stages of client/investee covered by policy (column 6) \nIndicate whether the requirement listed in column 13 \"Requirements for clients/investees\" is applicable to clients/investees operational activities only, or whether the requirement must also be fulfilled in other parts of the value chain.\nIndustry sectors covered by the policy (column 7) \nIndicate the industry sectors the requirements apply to, as stated in the written policy.\nIf it is stated in the written policy that the requirement should be applied to all industry sectors, indicate this by selecting \"Other, please specify\" and writing \"all sectors\".\nCommodities covered by the policy (column 8) \nIndicate the commodities that the requirements apply to, as stated in the written policy.\nYou are able to select \"All agricultural commodities\" if either this coverage is stated explicitly in the policy or if the commodities covered by the policy encompass all agricultural commodities you have exposure to within your portfolio.\nCommodities in this question could include:\nTimber products: this includes all forms of solid timber, including logs and other wood fiber, processed forms of timber (e.g., boards or pulp), and wood by-products (e.g., sawdust). Please note, this also includes products made from wood fiber such as paper, packaging, cardboard and specialty fibers, e.g., viscose, as well as, timber products used in biofuel production.\nPalm oil: this includes all forms of palm oil, including palm nuts and kernels, processed forms of palm oil (e.g., crude palm oil or palm kernel oil), palm oil by-products (e.g., oilcake or glycerol), and any of their derivatives. Please note, this also includes palm oil used as ingredients in products (such as food, household, or animal feed products), as well as palm oil used in biofuel production.\nCattle products: this includes all forms of cattle products, including beef, processed forms of cattle (e.g., leather), cattle by-products (e.g., glycerin, gelatin or tallow), and all other products derived from cattle. Please note, this also includes cattle products used as ingredients in other products (such as food, household and apparel products), as well as tallow used in biofuel production. Dairy products are not included in this category.\nSoy: this includes all forms of soy, including whole soybean, processed forms of soy (e.g., soybean oil, meal, or flour), soy by-products (e.g., oilcake or soy lecithin) and any of their derivatives. Please note, this also includes soy used as ingredients in products (such as food, household, or animal feed products), as well as soy used in biofuel production. In addition, soy which has been embedded as animal feed in animal products e.g., meat, farmed fish, dairy, eggs, or other animal products as ingredients is included in this category.\nRubber: this includes all forms of natural rubber, including, processed forms of rubber (vulcanized and unvulcanized forms), and all other products derived from rubber. Please note, this also includes rubber used in products such as tires, conveyer belts, tubes, and apparel.\nCocoa: this includes all forms of cocoa, including cocoa beans (raw and roasted), cocoa by-products (e.g. cocoa husks), processed forms of cocoa (e.g. paste, powder or butter), and all other products derived from cocoa. Please note, this also includes cocoa used as ingredients in food products (such as food, household, or animal feed products).\nCoffee : this includes all forms of coffee, including coffee beans (raw and roasted), coffee by-products (e.g. coffee husks), processed forms of coffee (e.g. coffee contained within coffee substitutes), and all other products derived from coffee. Please note, this also includes coffee used as ingredients in products (such as food or household products).\nCommodity value chain stage covered by the policy (column 9) \nIndicate the commodity value chain stage of the client/investee that is covered by the policy. For example, a bank disclosing a lending policy that specifies requirements for the direct operations of its client, who is a timber producer, should disclose \"Direct operations\" in column \"Value chain stages of client/investee covered by policy\") and \"Production\" in the column \"Commodity value chain stage covered by the policy\".\n% of portfolio covered by the policy in relation to total portfolio value (column 10) \nEnter the percentage of portfolio value that has been covered by the policy in relation to the portfolio value based on the assets value reported in 1.10.\nCoverage by portfolio value can be based on either total or outstanding commitments, premiums, committed capital, and/or other.\nBasis of exceptions to policy (column 11) \nThis column appears if you enter any value lower than 100% in column 10 \"% of portfolio covered by the policy in relation to total portfolio value\".\nIf the policy does not apply to all of your portfolio, indicate the basis for the exceptions. For example, if the policy only applies to transactions above $10m, select \"Transaction size\".\nExplain how criteria coverage and/or exceptions have been determined (column 12) \nExplain how you calculated the percentage of portfolio coverage in column 10 \"% of portfolio covered by the policy in relation to total portfolio value\".\nProvide details of the exception criteria you selected in column 11 and explain why you chose these specific exceptions, if applicable.\nRequirements for clients/investees (column 13) \nSelect all the requirements for your clients/investees, indicate e.g., if you require your clients/investees to commit to a circular economy strategy.\nRequirements can refer to actions that must be taken, or to other possible criteria which clients/investees must fulfil.\nNet-Zero Banking Alliance (NZBA) members disclosing on their NZBA commitment on \"engaging on corporate and industry (financial and real economy) action, as well as public policies, to help support a net-zero transition of economic sectors in line with science and giving consideration to associated social impacts\" should select \"Commitment to net-zero emissions\".\nSelect \"Other, please specify\" to add any requirement not listed.\nMeasurement of proportion of clients/investees compliant with the policy (column 14) \nFor each portfolio covered by environmental requirements, select if you are able to provide data on the clients/investees compliant with your requirements.\nIf you have environmental requirements for clients/investees but you do not record compliance against the requirements, but you plan to within the next two years, select \"No, but we plan to measure this within the next two years\".\nIf you have environmental requirements for clients/investees but you do not record compliance against the requirements, and do not plan to within the next two years, select \"No, and we do not plan to measure this in the next two years\".\n% of clients/investees compliant with the policy (column 15) \nProvide a percentage value for the number of clients/investees that meet all your requirements, in relation to the total number of clients/investees within the portfolio.\n% of portfolio value that is compliant with the policy (column 16) \nProvide a percentage value for the portfolio exposure to clients/investees that meet all your requirements, in relation to the total exposure to all clients/investees within the portfolio.\nTarget year for 100% compliance (column 17) \nFor each row, select the target timeframe for achieving 100% compliance of the portfolio with the reported requirement/s.\nIf you have set a target to achieve 100% compliance, but do not have a specific deadline, select \"No timeframe\".\nIf you do not plan on achieving 100% compliance, select \"We have not set a target for 100% compliance\".\nExplain why your organization does not measure the % of clients/investees compliant with the policy (column 18) \nIf you have not provided percentages for clients/investees compliant with environmental requirements, explain why here.\nIf applicable, give details of your organization's plans to measure compliance with environmental requirements in the future.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Add 최소 one 행 for each 포트폴리오 presented in 열 1 \"포트폴리오\". 만약 you have policies with different specifics in a single 포트폴리오, add a separate 행 for each type of 정책. 포트폴리오 (열 1) The options in this 열 appear dependent on the activities 선택 in 1.10. Type of 정책 (열 3) The options in this 열 appear dependent on the activity indicated in 열 1 \"포트폴리오\" 에 대한 행. Select all the policies into which 환경 이슈 are integrated. 만약 there are policies within 귀사의 정책 프레임워크 into which 환경 이슈 are integrated, 및 which are not well represented by 하나 이상 의 drop-down options, select \"Other, 직접 입력\" 및 provide a label. 공개 availability (열 4) Indicate whether the 선택 정책 is available to the general 공개 또는 not. Attach the 정책 (열 5) This 열 is optional 만약 you select \"Not 공개되어 있음\" in 열 \"공개 availability\". 가치사슬 stages of 고객/투자대상 covered by 정책 (열 6) Indicate whether the requirement listed in 열 13 \"Requirements for 고객/투자대상\" is 해당되는 경우 to 고객/투자대상 operational activities only, 또는 whether the requirement 해야 합니다 also be fulfilled in other parts 의 가치사슬. Industry sectors covered by the 정책 (열 7) Indicate the industry sectors the requirements apply to, as stated in the written 정책. 만약 it is stated in the written 정책 that the requirement 해야 합니다 be applied to all industry sectors, indicate this by selecting \"Other, 직접 입력\" 및 writing \"전 섹터\". Commodities covered by the 정책 (열 8) Indicate the commodities that the requirements apply to, as stated in the written 정책. You are able to select \"All 농산물 원자재\" 만약 either this coverage is stated explicitly in the 정책 또는 만약 the commodities covered by the 정책 encompass all 농산물 원자재 you have exposure to within your 포트폴리오. Commodities in this 문항 could include: Timber products: this includes all forms of solid timber, 포함 logs 및 other wood fiber, 프로세스ed forms of timber (e.g., 이사회s 또는 pulp), 및 wood by-products (e.g., sawdust). Please note, this also includes products made from wood fiber such as paper, packaging, card이사회 및 specialty fibers, e.g., viscose, as well as, timber products used in biofuel production. Palm oil: this includes all forms of palm oil, 포함 palm nuts 및 kernels, 프로세스ed forms of palm oil (e.g., crude palm oil 또는 palm kernel oil), palm oil by-products (e.g., oilcake 또는 glycerol), 및 하나 이상 의ir derivatives. Please note, this also includes palm oil used as ingredients in products (such as food, household, 또는 animal feed products), as well as palm oil used in biofuel production. Cattle products: this includes all forms of cattle products, 포함 beef, 프로세스ed forms of cattle (e.g., leather), cattle by-products (e.g., glycerin, gelatin 또는 tallow), 및 all other products derived from cattle. Please note, this also includes cattle products used as ingredients in other products (such as food, household 및 apparel products), as well as tallow used in biofuel production. Dairy products are not included in this category. Soy: this includes all forms of soy, 포함 whole soybean, 프로세스ed forms of soy (e.g., soybean oil, meal, 또는 flour), soy by-products (e.g., oilcake 또는 soy lecithin) 및 하나 이상 의ir derivatives. Please note, this also includes soy used as ingredients in products (such as food, household, 또는 animal feed products), as well as soy used in biofuel production. In addition, soy which has been embedded as animal feed in animal products e.g., meat, farmed fish, dairy, eggs, 또는 other animal products as ingredients is included in this category. Rubber: this includes all forms of natural rubber, 포함, 프로세스ed forms of rubber (vulcanized 및 unvulcanized forms), 및 all other products derived from rubber. Please note, this also includes rubber used in products such as tires, conveyer belts, tubes, 및 apparel. Cocoa: this includes all forms of cocoa, 포함 cocoa beans (raw 및 roasted), cocoa by-products (e.g. cocoa husks), 프로세스ed forms of cocoa (e.g. paste, powder 또는 butter), 및 all other products derived from cocoa. Please note, this also includes cocoa used as ingredients in food products (such as food, household, 또는 animal feed products). Coffee: this includes all forms of coffee, 포함 coffee beans (raw 및 roasted), coffee by-products (e.g. coffee husks), 프로세스ed forms of coffee (e.g. coffee contained within coffee substitutes), 및 all other products derived from coffee. Please note, this also includes coffee used as ingredients in products (such as food 또는 household products). Commodity 가치사슬 stage covered by the 정책 (열 9) Indicate the commodity 가치사슬 stage 의 고객/투자대상 that is covered by the 정책. For example, a bank disclosing a lending 정책 that specifies requirements 에 대한 직접 운영사업장 of its client, who is a timber producer, 해야 합니다 disclose \"직접 운영사업장\" in 열 \"가치사슬 stages of 고객/투자대상 covered by 정책\") 및 \"Production\" in the 열 \"Commodity 가치사슬 stage covered by the 정책\". % of 포트폴리오 covered by the 정책 in relation to total 포트폴리오 value (열 10) Enter the percentage of 포트폴리오 value that has been covered by the 정책 in relation to the 포트폴리오 value based on the 자산 value 보고 in 1.10. Coverage by 포트폴리오 value can be based on either total 또는 outstanding commitments, premiums, committed capital, 및/또는 other. Basis of exceptions to 정책 (열 11) This 열 appears 만약 you enter 하나 이상 value lower than 100% in 열 10 \"% of 포트폴리오 covered by the 정책 in relation to total 포트폴리오 value\". 만약 the 정책 does not apply to all of your 포트폴리오, indicate the basis 에 대한 exceptions. For example, 만약 the 정책 only applies to transactions above $10m, select \"Transaction size\". Explain how 기준 coverage 및/또는 exceptions have been determined (열 12) Explain how you calculated the percentage of 포트폴리오 coverage in 열 10 \"% of 포트폴리오 covered by the 정책 in relation to total 포트폴리오 value\". 세부 정보를 입력 의 exception 기준 you 선택 in 열 11 및 그 이유를 설명 you chose these specific exceptions, 만약 해당되는 경우. Requirements for 고객/투자대상 (열 13) Select all the requirements 귀사의 고객/투자대상, indicate e.g., 만약 you require your 고객/투자대상 to commit to a circular economy 전략. Requirements can refer to actions that 해야 합니다 be taken, 또는 to other possible 기준 which 고객/투자대상 해야 합니다 fulfil. Net-Zero Banking Alliance (NZBA) members disclosing on their NZBA commitment on \"engaging on corporate 및 industry (financial 및 real economy) action, as well as 공개 policies, to help support a net-zero transition of economic sectors in line with science 및 giving consideration to associated social impacts\" 해야 합니다 select \"Commitment to net-zero emissions\". Select \"Other, 직접 입력\" to add 하나 이상 requirement not listed. Measurement of proportion of 고객/투자대상 compliant with the 정책 (열 14) For each 포트폴리오 covered by environmental requirements, select 만약 you are able to provide data on the 고객/투자대상 compliant with your requirements. 만약 you have environmental requirements for 고객/투자대상 but you do not record compliance against the requirements, but you plan to within the next two years, select \"No, but we plan to measure this within the next two years\". 만약 you have environmental requirements for 고객/투자대상 but you do not record compliance against the requirements, 및 do not plan to within the next two years, select \"No, 및 we do not plan to measure this in the next two years\". % of 고객/투자대상 compliant with the 정책 (열 15) Provide a percentage value 에 대한 number of 고객/투자대상 that meet all your requirements, in relation to the total number of 고객/투자대상 within the 포트폴리오. % of 포트폴리오 value that is compliant with the 정책 (열 16) Provide a percentage value 에 대한 포트폴리오 exposure to 고객/투자대상 that meet all your requirements, in relation to the total exposure to all 고객/투자대상 within the 포트폴리오. 목표 year for 100% compliance (열 17) For each 행, select the 목표 timeframe for achieving 100% compliance 의 포트폴리오 with the 보고 requirement/s. 만약 you have set a 목표 to achieve 100% compliance, but do not have a specific deadline, select \"No timeframe\". 만약 you do not plan on achieving 100% compliance, select \"We have not set a 목표 for 100% compliance\". 그 이유를 설명 귀사 does not measure the % of 고객/투자대상 compliant with the 정책 (열 18) 만약 you have not 입력 percentages for 고객/투자대상 compliant with environmental requirements, 그 이유를 설명 here. 만약 해당되는 경우, give details of 귀사의 plans to measure compliance with environmental requirements in the future."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Ambition",
       "text": "The organization has publicly available policies which address environmental dependencies, impacts, risks, and opportunities related to the organization and its value chain.\nThe policies apply organization-wide, and to the organization's value chain where relevant.\nThe organization specifies whether and how its policies are linked to absolute and interim timebound, quantifiable and measurable targets that include reference dates/cut-off dates/boundaries/coverage/exclusions.\nFinancial institutions have policies which include environmental requirements that clients/investees need to meet.",
-      "typeKo": "Ambition",
-      "textKo": "The organization has 공개되어 있음 policies which address 환경 의존성, 임팩트, 리스크 및 기회 related to the organization 및 its 가치사슬. The policies apply organization-wide, 및 to the 조직의 가치사슬 여기서 관련. The organization specifies whether 및 how its policies are linked to absolute 및 interim timebound, quantifiable 및 measurable 목표 that include reference dates/cut-off dates/boundaries/coverage/제외사항. Financial institutions have policies which include environmental requirements that 고객/투자대상 need to meet."
+      "typeKo": "목표수준",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Forests policy: a statement by a portfolio organization specifying the goals or targets that it intends to meet or the actions it intends to take regarding its management of forest-related issues. \nLandscape: defined geographic area with common and interacting ecological and socioeconomic characteristics. They may be delineated based on river basins, seascapes, ecosystems, jurisdictional boundaries, or in other ways (adapted from AFi, 2024 ). ​ \nLandscape and jurisdictional initiative:  an on-the-ground collaborative program to set common goals, take collective action while reconciling different interests, and monitor progress towards improving social, environmental, and economic outcomes at a landscape/jurisdictional scale. \nManufacturing: the series of actions, methods, and techniques that transform raw or processed materials into final products ready for human use/consumption. \nIn palm oil and soybean value chains, this stage may include the refining of oil into shortening and the use of ingredients in the manufacture of bakery products. \nFor timber products, the manufacturing stage involves the secondary processing of wood into multiple products. This may include furniture, flooring, plywood and boards, as well as other building materials. For pulp and paper, this may include the conversion of pulp to printing and writing paper, newsprint, tissue, container boards, and packaging. \nOrganizations may manufacture cattle products into products containing beef (e.g., retail meat products, fast food, byproducts including glycerin/gelatin) and leather products for various industries (e.g., footwear, clothing, furniture and car upholstery) (adapted from Global Canopy, 2018 and AFi, 2024 ). \nPortfolio:  in the context of this questionnaire your portfolio is your entire collection of your core financing activities and insurance policies that you offer. For banking, this is the entire collection of products, securities and loans held on your balance sheet for which you own the receivable stream. For asset managers, this is the entire collection of your products and investments that you hold and/or manage on behalf of your clients. For asset owners, this is the entire collection of products, funds and investments owned and controlled by your company. For investment portfolios, asset managers should consider discretionary investments, those where the company has discretion over investment decision. For insurance underwriting, this is the entire collection of products and insurance policies you provide to your clients \nProcessing: the series of actions that transform raw materials from their natural state to an initial processed state in preparation for market or further processing/manufacturing. \nOrganizations involved in the production of crude palm oil from crushed fruit or the production of soybean oil and soybean meal from soybean would select this activity. Further processing activities in the form of refining and fractionation should be considered in the manufacturing stage. \nIn the case of timber products, organizations whose activities include the initial processing of timber products in mills (i.e., sawmills, plywood and veneer mills, pulp, and paper mills) would select this stage. \nFor cattle products, these activities primarily involve the slaughtering of cattle and the processing of raw hide into leather (adapted from Global Canopy, 2018 and AFi, 2024 ). \nProduction: the first stage of the upstream value chain, often entailing the production of raw agricultural and forest products by farm owners, smallholders, and communities. Vertically integrated companies are also involved in producing activities if they own or manage land used for production (adapted from Global Canopy, 2018 and AFi, 2024 ). \nRetailing: selling products directly to individual consumers. This includes supermarkets, convenience stores, lumber and home improvement stores, home furnishing stores, online retailers, and restaurant chains (adapted from Global Canopy, 2018 and AFi, 2024 ). \nTrading: purchasing and selling raw or primary processed agricultural or forestry materials to domestic or export markets. This includes shipments, transport, and storage of the commodities (adapted from Global Canopy, 2018 and AFi, 2024 ). \nZero‐carbon‐ready building: a building that is highly energy efficient based on local rating schemes and uses either renewable energy directly or an energy supply that will be fully decarbonized by 2050, such as electricity or district heat ( SBTi, adapted from IEA, 2025 ).",
-      "typeKo": "설명 of Terms",
-      "textKo": "Forests 정책: a statement by a 포트폴리오 organization specifying the goals 또는 목표 that it intends to meet 또는 the actions it intends to take regarding its 관리 of forest-related issues. Landscape: defined geographic area with common 및 interacting ecological 및 socioeconomic characteristics. They may be delineated based on river basins, seascapes, ecosystems, jurisdictional boundaries, 또는 in other ways (adapted from AFi, 2024). ​ Landscape 및 jurisdictional 이니셔티브: an on-the-ground collaborative program to set common goals, take collective action while reconciling different interests, 및 monitor progress towards improving social, environmental, 및 economic outcomes at a landscape/jurisdictional scale. Manufacturing: the series of actions, methods, 및 techniques that transform raw 또는 프로세스ed materials into final products ready for human use/consumption. In palm oil 및 soybean 가치사슬s, this stage may include the refining of oil into shortening 및 the use of ingredients in the manufacture of bakery products. For timber products, the manufacturing stage involves the secondary 프로세스ing of wood into multiple products. This may include furniture, flooring, plywood 및 이사회s, as well as other building materials. For pulp 및 paper, this may include the conversion of pulp to printing 및 writing paper, 신규sprint, tissue, container 이사회s, 및 packaging. Organizations may manufacture cattle products into products containing beef (e.g., retail meat products, fast food, byproducts 포함 glycerin/gelatin) 및 leather products for various industries (e.g., footwear, clothing, furniture 및 car upholstery) (adapted from Global Canopy, 2018 및 AFi, 2024). 포트폴리오: in the context of this 질문서 your 포트폴리오 is your entire collection of your core financing activities 및 insurance policies that you offer. For banking, this is the entire collection of products, securities 및 loans held on your balance sheet for which you own the receivable stream. For 자산운용사, this is the entire collection of your products 및 investments that you hold 및/또는 manage on behalf of your clients. For asset owners, this is the entire collection of products, funds 및 investments owned 및 controlled by your company. For investment 포트폴리오s, 자산운용사 해야 합니다 consider discretionary investments, those 여기서 the company has discretion over investment decision. For insurance underwriting, this is the entire collection of products 및 insurance policies you provide to your clients 프로세스ing: the series of actions that transform raw materials from their natural state to an initial 프로세스ed state in preparation for market 또는 further 프로세스ing/manufacturing. Organizations involved in the production of crude palm oil from crushed fruit 또는 the production of soybean oil 및 soybean meal from soybean would select this activity. Further 프로세스ing activities in the form of refining 및 fractionation 해야 합니다 be considered in the manufacturing stage. In the case of timber products, organizations whose activities include the initial 프로세스ing of timber products in mills (i.e., sawmills, plywood 및 veneer mills, pulp, 및 paper mills) would select this stage. For cattle products, these activities primarily involve the slaughtering of cattle 및 the 프로세스ing of raw hide into leather (adapted from Global Canopy, 2018 및 AFi, 2024). Production: the first stage 의 업스트림 가치사슬, often entailing the production of raw agricultural 및 forest products by farm owners, smallholders, 및 communities. Vertically integrated companies are also involved in producing activities 만약 they own 또는 manage land used for production (adapted from Global Canopy, 2018 및 AFi, 2024). Retailing: selling products directly to individual consumers. This includes super시장, convenience stores, lumber 및 home improvement stores, home furnishing stores, online retailers, 및 restaurant chains (adapted from Global Canopy, 2018 및 AFi, 2024). Trading: purchasing 및 selling raw 또는 primary 프로세스ed agricultural 또는 forestry materials to domestic 또는 export 시장. This includes shipments, transport, 및 storage 의 commodities (adapted from Global Canopy, 2018 및 AFi, 2024). Zero‐carbon‐ready building: a building that is highly energy efficient based on local rating schemes 및 uses either 재생에너지 directly 또는 an energy supply that will be fully decarbonized by 2050, such as electricity 또는 district heat (SBTi, adapted from IEA, 2025)."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -613,7 +613,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 '환경 이슈 covered' 그리고 '공개되어 있음' 선택 in 열 '공개 availability' 또는 열 '공개 availability' is not 완성: 표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) For 행 여기서 '기후변화' is 선택 in 열 '환경 이슈 covered' 그리고 'Not 공개되어 있음' 선택 in 열 '공개 availability': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Attach the 정책'). A 최고 of 3.5/3.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 '환경 이슈 covered' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -623,7 +623,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: - 공시에서 최고점 획득 - '기후변화' 선택 in 열 '환경 이슈 covered' in 최소 one 행 For 행 여기서 '기후변화' is 선택 in 열 '환경 이슈 covered': i) '공개되어 있음' 선택 in 열 '공개 availability' - 0.5 점 ii) Figure 초과 0 입력 in 열 '% of 포트폴리오 covered by the 정책…' - 0.5 점 iii) 하나 이상 option 제외 하나 이상 'Other, 직접 입력' option 선택 in 열 'Requirements for 고객/투자대상' - 0.5 점 iv) '예' 선택 in 열 'Measurement of proportion of 고객/투자대상 compliant with the 정책' - 0.5 점 또는 'No, but we plan to measure this within the next two years' 선택 in 열 'Measurement of proportion of 고객/투자대상 compliant with the 정책' - 0.25/0.5 점 이 문항에서 획득 가능한 최고점은 2/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -633,7 +633,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: - 인지에서 최고점 획득 - '기후변화' is 선택 in 열 '환경 이슈 covered' in 최소 one 행 For 행 여기서 '기후변화' is 선택 in 열 '환경 이슈 covered': i) Both 'Commitment to disclose Scope 1 배출량' 그리고 'Commitment to disclose Scope 2 배출량' 선택 in 열 'Requirements for 고객/투자대상' 그리고 Either 'Commitment to disclose Scope 3 배출량' 또는 'Commitment to develop a 기후 전환계획' 선택 in 열 'Requirements for 고객/투자대상' - 2 점 ii) Figure 초과 0 입력 in either 열 '% of 고객/투자대상 compliant with the 정책' 또는 열 '% of 포트폴리오 value that is compliant with the 정책' - 1 점 iii) 하나 이상 option 제외 both 'No timeframe' 그리고 'We have not set a 목표 for 100% compliance' 선택 in 열 '목표 year for 100% compliance' - 1 점 이 문항에서 획득 가능한 최고점은 4/4점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -643,12 +643,12 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: - 관리에서 최고점 획득 - '기후변화' 선택 in 열 '환경 이슈 covered' in 최소 one 행 For 행 여기서 '기후변화' is 선택 in 열 '환경 이슈 covered': Three 또는 more 의 following options are 선택 in 열 'Requirements for 고객/투자대상' - 2 점 - 'Commitment to 100% 재생에너지' - 'Commitment to net-zero emissions' - 'Commitment to not funding climate-denial 또는 lobbying against climate regulations' - 'Commitment to not invest in fossil-fuel expansion' - 'Commitment to set a science-based emissions reduction 목표' - 'Commitment to 이해관계자 참여 및 capacity building on 환경 이슈' 이 문항에서 획득 가능한 최고점은 2/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     }
   ],
   "change": {
     "location": "PPT",
-    "question_ko": "[국문 번역 검토 필요] Provide details of the policies which include environmental requirements that clients/investees need to meet.",
+    "question_ko": "고객 / 피투자자가 충족해야 하는 환경 요구 사항을 포함한 정책의 세부 사항을 제공하십시오. (2)",
     "q2025": "Q4.7.1",
     "q2025_text": "Provide details of the policies which include environmental requirements that clients/investees need to meet.",
     "change_status": "Minor change",
@@ -665,15 +665,15 @@
     "review_status": "변경 반영",
     "change_statusKo": "경미한 변경",
     "detail_change_typesKo": "신규 드롭다운 선택지",
-    "change_summaryKo": "신규 드롭다운 추가 to cover Ocean 공시 및 to align with SBTi FINZ.",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "금융 서비스: D 3.5 또는 4/3.5 또는 4 | A 2/2 | M 4/4 | L 2/2",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정성 PPT",
+    "daml_summaryKo": "금융 서비스: D 3.5 또는 4/3.5 또는 4 | 2/2 | M 4/4 | L 2/2",
+    "reflectedKo": "",
+    "locationKo": "정성적",
     "locationEn": "Qualitative PPT",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "the policies which include environmental requirements that 고객/투자대상 need to meet.에 대한 세부 정보를 입력하십시오."
+    "q2025_textKo": "고객 / 피투자자가 충족해야 하는 환경 요구 사항을 포함한 정책의 세부 사항을 제공하십시오. (2)"
   },
   "defaultPoints": {
     "D": "3.5 or 4/3.5 or 4",
@@ -703,16 +703,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "지배구조",
+  "moduleTitleKo": "거버넌스",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "수자원, 생물다양성, Climate Change, 산림",
+  "issueTagsKo": "수자원, 생물다양성, 기후 변경, 산림",
   "sectorTagsKo": "금융 서비스",
-  "simpleHelpKo": "To help manage environmental 리스크, organizations 해야 합니다 integrate 환경 이슈 into existing 정책 프레임워크s. These policies may apply across the organization 및 may be based on sectors, geographies, business lines, asset classes 또는 other. Although the wave of environmental policies 및 regulations is g행ing, their 이행 varies across organizations. This 문항 helps 데이터 사용자 understand which corporate policies integrate 환경 이슈, 및 what proportion of a 금융 서비스 company's 포트폴리오 is covered by the 정책.",
+  "simpleHelpKo": "이 문항은 '고객 / 피투자자가 충족해야 하는 환경 요구 사항을 포함한 정책의 세부 사항을 제공하십시오. (2) 정책에 포함되는 상품 정책에 포함되는 상품 가치 사슬의 범위 총 포트폴리오 가치 중 정책에 포함되는 포트폴리오의 비율 정책 예외 기준 기준 적용 범위 및 / 또는 예외사항 설명 해당하는 내용 모두 선택 모든 농업 상품'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

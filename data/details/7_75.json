@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide tracking metrics for the implementation of low-carbon transport technology over the reporting year.",
-  "questionKo": "추적 지표 에 대한 저탄소 운송 기술 이행 over the 보고연도.을/를 입력하십시오.",
+  "questionKo": "보고 연도 동안 저탄소 운송 기술 구현을 위한 추적 지표를 제시하십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "행 1"
+      "titleKo": "1행"
     }
   ],
   "columns": [
@@ -33,15 +33,15 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Activity",
+      "textKo": "활동",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Light Duty Vehicles (LDV)",
-        "Heavy Duty Vehicles (HDV)",
-        "Rail",
-        "Marine",
-        "Aviation"
+        "()",
+        "()",
+        "",
+        "",
+        "항공"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -60,14 +60,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Metric",
+      "textKo": "지표",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Production",
-        "Sales",
-        "Fleet adoption",
-        "Yearly purchase",
+        "생산",
+        "",
+        "",
+        "",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -92,11 +92,11 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Vehicle using bio-fuel",
-        "Conventional hybrid",
-        "Plug-in hybrid vehicle (PHEV)",
-        "Battery electric vehicle (BEV)",
-        "Fuel cell electric vehicle (FCEV)",
+        "사용 연료",
+        "",
+        "- ()",
+        "전력 ()",
+        "연료 셀 전력 ()",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -110,7 +110,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Metric figure",
+      "textKo": "지표 수치",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -134,17 +134,17 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Metric unit",
+      "textKo": "지표 단위",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Units",
-        "% of fleet",
-        "% of total sales",
-        "% of estimated yearly VKT",
-        "% of estimated yearly VMT",
-        "% of estimated lifetime VKT",
-        "% of estimated lifetime VMT",
+        "",
+        "% 의",
+        "% 의 총",
+        "% 의 추정",
+        "% 의 추정",
+        "% 의 추정",
+        "% 의 추정",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -177,13 +177,13 @@
       "type": "Requested Content",
       "text": "Activity (column 1) \nSelect the activity that you would like to provide data for. \nActivity modes presented in drop-down options are determined by transport modes selected in response to 1.21 . \nMetric (column 2) \nSelect the relevant drop-down that best describes the transport metric for transport sales and/or services that you will present information for in columns 3 - 6. \nIf you select \"Other, please specify\", provide a label for the Metric. \nTechnology (column 3) \nSelect the relevant drop-down that best describes the low-carbon vehicle transport technology that you will quantify in columns 4 and 5. \nIf you select \"Other, please specify\", provide a label for the technology. \nMetric figure (column 4) \nState the numerical value of the metric used to quantify the level of implementation of low-carbon technologies within your transport activities in the reporting year. \nYou may enter a number no larger than 999,999,999,999, using a maximum of 2 decimals places. Negative numbers are not allowed. \nMetric unit (column 5) \nSelect relevant metric unit. \nIf you select \"Other, please specify\", provide a label for the Metric unit. \nExplanation (column 6) \nDiscuss any assumptions, or simplifications made to derive or establish metric values. \nIf you used any industry or relevant existing standards and/or methodologies, please mention them and discuss their use here. \nProvide any additional explanation necessary to capture the full complexity of the metric reported.",
       "typeKo": "요청 내용",
-      "textKo": "Activity (열 1) Select the activity that you would like to provide data for. Activity modes presented in drop-down options are determined by transport modes 선택 in response to 1.21. Metric (열 2) Select the 관련 drop-down that best 설명s the transport metric for transport sales 및/또는 services that you will present information for in 열 3 - 6. 만약 you select \"Other, 직접 입력\", provide a label 에 대한 Metric. 기술 (열 3) Select the 관련 drop-down that best 설명s the low-carbon vehicle transport 기술 that you will quantify in 열 4 및 5. 만약 you select \"Other, 직접 입력\", provide a label 에 대한 기술. Metric figure (열 4) State the numerical value 의 metric used to quantify the level of 이행 of low-carbon technologies within your transport activities in the 보고연도. You may enter a number no larger than 999,999,999,999, using a 최고 of 2 decimals places. Negative numbers are not allowed. Metric unit (열 5) Select 관련 metric unit. 만약 you select \"Other, 직접 입력\", provide a label 에 대한 Metric unit. 설명 (열 6) Discuss 하나 이상 assumptions, 또는 simplifications made to derive 또는 establish metric values. 만약 you used 하나 이상 industry 또는 관련 existing 기준 및/또는 methodologies, please mention them 및 discuss their use here. Provide 하나 이상 additional 설명 necessary to capture the full complexity 의 metric 보고."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Vehicle Kilometers Traveled (VKT): the total kilometers traveled by all vehicles on a transport system during a given period of time.\nVehicle Miles Traveled (VMT): the total miles traveled by all vehicles on a transport system during a given period of time.",
-      "typeKo": "설명 of Terms",
-      "textKo": "Vehicle Kilometers Traveled (VKT): the total kilometers traveled by all vehicles on a transport system during a given period of time. Vehicle Miles Traveled (VMT): the total miles traveled by all vehicles on a transport system during a given period of time."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -227,7 +227,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 5/5점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -237,7 +237,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "표 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -247,7 +247,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -257,7 +257,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -267,7 +267,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 5/5점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -277,7 +277,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "표 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -287,7 +287,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -297,7 +297,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -307,7 +307,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 5/5점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 5/5점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -317,7 +317,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "표 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -327,7 +327,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -337,12 +337,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Provide tracking metrics for the implementation of low-carbon transport technology over the reporting year.",
+    "question_ko": "보고 연도 동안 저탄소 운송 기술 구현을 위한 추적 지표를 제시하십시오",
     "q2025": "Q7.75",
     "q2025_text": "Provide tracking metrics for the implementation of low-carbon transport technology over the reporting year.",
     "change_status": "No change - 2026 source verified",
@@ -361,13 +361,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Aviation: D 5/5 | A 4/4 | M 0/0 | L 0/0 Transport OEMS: D 5/5 | A 4/4 | M 0/0 | L 0/0 Transport services: D 5/5 | A 4/4 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "추적 지표 에 대한 저탄소 운송 기술 이행 over the 보고연도.을/를 입력하십시오."
+    "q2025_textKo": "보고 연도 동안 저탄소 운송 기술 구현을 위한 추적 지표를 제시하십시오"
   },
   "defaultPoints": {
     "D": "5/5",
@@ -397,16 +397,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "항공, 운송 서비스, 운송 OEM",
-  "simpleHelpKo": "This 문항 seeks to understand how low-carbon transport technologies are being implemented by analyzing the level of proliferation 및 market penetration of alternative drive train 및 engine technologies. This is mostly 관련 for LDV 및 HDV, for which alternative technologies are available 또는 being piloted. This is also 관련 for aviation, rail 및 marine companies who can use this as a more open-ended 문항 to indicate what they are doing in the low-carbon 기술 field.",
+  "simpleHelpKo": "이 문항은 '보고 연도 동안 저탄소 운송 기술 구현을 위한 추적 지표를 제시하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

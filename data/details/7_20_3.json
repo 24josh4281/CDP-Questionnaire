@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Break down your total gross global Scope 2 emissions by business activity.",
-  "questionKo": "귀사의 글로벌 총 Scope 2 배출량을 사업활동(activity) 단위로 구분하여 입력하십시오.",
+  "questionKo": "사업 활동별로 총 글로벌 범위 3 배출량을 세분화하십시오. `",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "행 1"
+      "titleKo": "1행"
     }
   ],
   "columns": [
@@ -42,7 +42,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "지역기반 Scope 2 배출량(metric tons CO2e)",
+      "textKo": "범위 2, 기준 (미터톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -57,7 +57,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "시장기반 Scope 2 배출량(metric tons CO2e)",
+      "textKo": "범위 2, 시장-기준 (미터톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -75,14 +75,14 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"By activity\" in response to 7.20.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"By 활동\" in response to 7.20."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"기준 활동\" 응답 7.20."
     },
     {
       "type": "Requested Content",
       "text": "Activity (column 1) \nUsing no more than 500 characters, disclose the activity you are disclosing Scope 2 emissions for.\nScope 2, location-based (metric tons CO2e) (column 2) \nReport your organization's Scope 2 emissions in CO2e for the activity reported in column 1, on a location-based method, i.e. reflecting the average emissions intensity of grids on which energy consumption occurs.\nNegative numbers are not allowed as organizations are to report gross, not net figures.\nEmissions figures should be for the reporting year only (as defined by your answer to 1.4).\nScope 2, market-based (metric tons CO2e) (column 3) \nThis column only appears if you select \"We are reporting a Scope 2, market-based figure\" in column \"Scope 2, market-based\" of 7.3.\nReport your organization's Scope 2 emissions in CO2e for the activity reported in column 1, on a market-based method, i.e. reflecting emissions from electricity that companies have purposefully chosen (or their lack of choice).\nNegative numbers are not allowed as organizations are to report gross, not net figures.\nEmissions figures should be for the reporting year only (as defined by your answer to 1.4).\nNote for agricultural sectors \nYou should provide Scope 2 emissions data pertaining to all your relevant business activity areas (i.e., agriculture/forestry, processing/manufacturing, and/or distribution), as indicated in 1.11.\nNote for organizations responding to high-impact sector requests \nIf your company's primary CDP sector is one of the following: OG, CO,TO, TS, MM, ST, CH or CE, the response to 7.20.3 is not required. Organizations responding to these requests are presented with additional questions on this topic (7.21,, 7.42, 7.42.1) relating specifically to activities in the sector. Your primary CDP sector is displayed in your response dashboard.",
       "typeKo": "요청 내용",
-      "textKo": "활동 (열 1) Using no more than 500 characters, disclose the 활동 you are disclosing Scope 2 배출량 for. Scope 2, 지역기반 (미터톤 CO2e) (열 2) Report 귀사의 Scope 2 배출량 in CO2e 에 대한 활동 보고 in 열 1, on a 지역기반 method, i.e. reflecting the average 배출집약도 of grids on which 에너지 소비량 occurs. Negative numbers are not allowed as organizations are to report gross, not net figures. Emissions figures 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). Scope 2, 시장기반 (미터톤 CO2e) (열 3) This 열 only appears 만약 you select \"We are reporting a Scope 2, 시장기반 figure\" in 열 \"Scope 2, 시장기반\" of 7.3. Report 귀사의 Scope 2 배출량 in CO2e 에 대한 활동 보고 in 열 1, on a 시장기반 method, i.e. reflecting emissions from electricity that companies have purposefully chosen (or their 부족 choice). Negative numbers are not allowed as organizations are to report gross, not net figures. Emissions figures 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). Note for agricultural sectors You 해야 합니다 provide Scope 2 배출량 data 관련 to all your 관련 business 활동 areas (i.e., agriculture/forestry, 프로세스ing/manufacturing, 및/또는 distribution), as indicated in 1.11. Note for organizations responding to high-impact sector requests 만약 your company's primary CDP sector is one 의 following: OG, CO,TO, TS, MM, ST, CH 또는 CE, the response to 7.20.3 is not required. Organizations responding to these requests are presented with additional 문항 on this topic (7.21,, 7.42, 7.42.1) relating specifically to activities in the sector. Your primary CDP sector is displayed in your response dash이사회."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -266,7 +266,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -276,7 +276,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -286,7 +286,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "General",
@@ -296,7 +296,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -306,7 +306,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -316,7 +316,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -326,7 +326,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -336,7 +336,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -346,7 +346,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -356,7 +356,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -366,7 +366,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -376,7 +376,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -386,7 +386,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -396,7 +396,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -406,7 +406,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -416,7 +416,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -426,7 +426,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -436,7 +436,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -446,7 +446,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -456,7 +456,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -466,7 +466,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -476,7 +476,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -486,7 +486,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -496,7 +496,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -506,7 +506,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -516,7 +516,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -526,7 +526,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -536,7 +536,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Construction",
@@ -546,7 +546,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -556,7 +556,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -566,7 +566,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Construction",
@@ -576,7 +576,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -586,7 +586,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector(s)."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -596,7 +596,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector(s)."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -606,7 +606,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector(s)."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -616,7 +616,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector(s)."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -626,7 +626,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector(s)."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -636,7 +636,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector(s)."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -646,7 +646,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector(s)."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -656,7 +656,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "This 문항 is not scored, as it is not displayed for this sector(s)."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -666,7 +666,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -676,7 +676,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -686,7 +686,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -696,7 +696,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -706,7 +706,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -716,7 +716,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -726,7 +726,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -736,7 +736,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -746,7 +746,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -756,7 +756,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -766,7 +766,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -776,7 +776,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -786,7 +786,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -796,7 +796,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -806,7 +806,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -816,7 +816,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -826,7 +826,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -836,7 +836,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -846,7 +846,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -856,7 +856,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -866,7 +866,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -876,7 +876,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -886,7 +886,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -896,7 +896,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -906,7 +906,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -916,7 +916,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -926,7 +926,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -936,7 +936,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -946,7 +946,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -956,7 +956,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -966,7 +966,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -976,7 +976,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -986,7 +986,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 as follows: Either 열 'Scope 2, 지역기반 (미터톤 CO2e)' 또는 'Scope 2, 시장기반 (미터톤 CO2e)' 완성. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -996,7 +996,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 또는 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Scope 2, 지역기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 지역기반' in 행 '보고연도' in 문항 7.7 (± 5%) 그리고 Sum of figures 입력 in 열 'Scope 2, 시장기반 (미터톤 CO2e)' is NOT equal to the figure 입력 in 열 'Scope 2, 시장기반...' in 행 '보고연도' in 문항 7.7 (± 5%) - 0/3 점 이 경로에서 획득 가능한 최고점은 0/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1006,7 +1006,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -1016,12 +1016,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "사업 활동별로 총 글로벌 Scope 3 배출량을 세분화하십시오 . ` M7. Environmental Performance - Climate Change 사업 활동 Scope 2 위치 기반 배출량 (CO2e 미터톤 ) Scope 2 시장 기반 배출량 (CO2e 미터톤 ) 사업 부문별을 최대 500 자로 작성 숫자 입력 소수점 최대 3 자리 입력 숫자 입력 소수점 최대 3 자리 입력",
+    "question_ko": "사업 활동별로 총 글로벌 범위 3 배출량을 세분화하십시오. `",
     "q2025": "Q7.20.3",
     "q2025_text": "Break down your total gross global Scope 2 emissions by business activity.",
     "change_status": "No change - 2026 source verified",
@@ -1039,14 +1039,14 @@
     "change_statusKo": "변경 없음 - 2026 원문 확인",
     "detail_change_typesKo": "",
     "change_summaryKo": "",
-    "scoring_change_summaryKo": "CC 전 섹터 제외 금융 서비스 인지 • Clarification to 경로 B that this checks 만약 both cross checks with 7.7 are not met for location 및 market based. Clarification added to make 경로 B distinct from 경로 A.",
-    "daml_summaryKo": "일반: D 4/4 | A 0 또는 1/1 또는 3 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "daml_summaryKo": "일반: D 4/4 | 0 또는 1/1 또는 3 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "your total 전 세계 총 Scope 2 배출량 by business activity.을/를 세분화하여 입력하십시오."
+    "q2025_textKo": "사업 활동별로 총 글로벌 범위 3 배출량을 세분화하십시오. `"
   },
   "defaultPoints": {
     "D": "4/4",
@@ -1076,16 +1076,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "Reporting emissions by activity allows a more in-depth understanding of business 리스크 related to future regulation 및 기후 관련 이슈, 및 allows organizations to identify potential 기회 to reduce emissions associated with operational activities.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '귀사의 글로벌 총 범위 2 배출량을 사업활동(활동) 단위로 구분하여 입력하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

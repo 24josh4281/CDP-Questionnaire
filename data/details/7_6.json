@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "What were your organization's gross global Scope 1 emissions in metric tons CO2e?",
-  "questionKo": "귀사의 글로벌 총 Scope 1 배출량(metric tons CO2e)을 입력하십시오.",
+  "questionKo": "귀사의 글로벌 범위 1 총 배출량 (미터톤 CO2e) 은 얼마입니까?",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -20,27 +20,27 @@
     {
       "order": 2,
       "title": "Past year 1",
-      "titleKo": "Past year 1"
+      "titleKo": "연도 1"
     },
     {
       "order": 3,
       "title": "Past year 2",
-      "titleKo": "Past year 2"
+      "titleKo": "연도 2"
     },
     {
       "order": 4,
       "title": "Past year 3",
-      "titleKo": "Past year 3"
+      "titleKo": "연도 3"
     },
     {
       "order": 5,
       "title": "Past year 4",
-      "titleKo": "Past year 4"
+      "titleKo": "연도 4"
     },
     {
       "order": 6,
       "title": "Past year 5",
-      "titleKo": "Past year 5"
+      "titleKo": "연도 5"
     }
   ],
   "columns": [
@@ -52,7 +52,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "연도",
+      "textKo": "전 세계 범위 1 배출량 (미터톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -67,7 +67,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "글로벌 총 Scope 1 배출량(metric tons CO2e)",
+      "textKo": "종료일",
       "typeKo": "날짜 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -82,7 +82,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "종료 날짜",
+      "textKo": "세부 정보",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -101,19 +101,19 @@
       "type": "Requested Content",
       "text": "General \nEmissions must be reported in gross, not net figures. Therefore, negative numbers are not allowed.\nPutting in zero suggests that you have measured your emissions and that they are equal to zero.\nRows in this question are presented depending on your selection in column 4 \"Number of past reporting years you will be providing Scope 1 emissions data for\" of question 1.4.\nGross emissions are requested so that data users can account for GHG emissions from sources owned or controlled by your organization before any reductions for offs are made, as per the GHG Protocol Corporate Standard. This transparency is meant to provide users with the most accurate portrayal of the emissions created within your company's boundary.\nScope 1 emissions should be reported in metric tons of CO2e. Common conversion factors are included in the Technical Note \"Units of Measure Conversions\" .\nSpecial requirements for carbon sequestration, captured & stored and transferred CO2, transfer in - transfer out, and enhanced oil recovery are explained in the Technical Note \"Special conditions for reporting Scope 1 emissions\" .\nEmissions estimates are acceptable, as long as there is transparency with regard to the estimation approach (what is estimated and how) and the data used for the analysis is adequate to support the objectives of the inventory. If applicable to your organization's reporting of Scope 1 emissions, outline this in the methodological details column.\nFor further guidance on leased assets, consult the Greenhouse Gas Protocol guidance on categorizing emissions from leased assets .\nEnd date (column 2) \nThe start date of each past year will be automatically assumed to be exactly 365 days before the listed date. For example, if you enter an end date of 31/12/2023, your start date will be automatically assumed to be 01/01/2023.\nThis column does not appear for the \"Reporting year\" row as the end date of the reporting year is specified in question 1.4.\nMethodological details (column 3) \nInclude the measurement approach, emissions factors, inputs, and assumptions used to measure your Scope 1 emissions, and a rationale for your choices.\nNote for first-time responders \nIf you are a first-time responder, provide gross global Scope 1 emissions data for the current reporting year and up to five years prior to the current reporting year.\nThe number of past year rows that will appear is dependent on your selection in column 4 \"Number of past reporting years you will be providing Scope 1 emissions data for\" of 1.4.\nInput the gross global Scope 1 emissions data for the current reporting year in the first row and work backwards from the current reporting year.\nEnsure that the reporting period represents only one full year that has already passed. Reporting periods should not be in the future. This information is important for others to understand the time dimension of your disclosure.\nUse the methodological details column to report relevant information regarding your organization's past Scope 1 emissions data.\nNote for restatements \nIf you have chosen to restate your organization's gross global Scope 1 emissions data previously supplied to CDP (as indicated in column 4 \"Number of past reporting years you will be providing Scope 1 emissions data for \" of 1.4), you may do so here.\nThe number of past year rows that will appear is dependent on your selection in column 4 \"Number of past reporting years you will be providing Scope 1 emissions data for\" of 1.4.\nReporting recalculated figures for these years is optional.\nAll years Scope 1 emissions data needs to be entered in reverse order, with the current reporting year first, i.e. you should first input the current reporting year emissions data and work backwards from the most recent reporting year.\nEnsure that the reporting period represents only one full year that has already passed. Reporting periods should not be in the future. This information is important for others to understand the time dimension of your disclosure.\nUse the methodological details column to identify that this is restated data and the reason for the restatement.\nFor more information on restatements see CDP's technical note on restatements here .\nNote on biogas: \nCarbon dioxide emitted from the combustion of biomass/biofuel or fermentation should not be included in your response to question 7.6 but instead should be reported in 7.12.\nWhen gas is sourced from a shared pipeline network with multiple sources including both renewable and non-renewable sources, certificates are required to demonstrate the renewable origin of gas (i.e. \"certified biogas\" or \"green gas certificates\") and the following conditions need to be met:\nThe company combusts gas sourced from a shared gas pipeline network;\nIt also owns or purchases green gas certificates that originated from one of the gas producers on the pipeline network - these need not necessarily be purchased directly from the biogas producers;\nThe company permanently retains the environmental attributes of the gas consumption, including any energy attribute certificates.\nThe appropriateness of using market-based instruments such as green gas certificates for the emissions inventories is a contested issue. The GHG Protocol is undertaking a process to determine the need and scope for additional guidance building on the existing set of corporate GHG accounting and reporting standards for Scope 1, Scope 2, and Scope 3 emissions. As part of this process, the GHG Protocol plans to holistically examine the appropriateness of market-based accounting methods across sectors, end-uses, and scopes. CDP intends to align with any revisions to the GHG Protocol standards and guidance resulting from this process, including on the use of green gas certificates for emissions accounting.\nWhile the GHG Protocol process is ongoing, companies are encouraged to make their own judgement of the appropriateness of using green gas certificates in their emissions accounting, for example by consulting with their auditors and consider rules provided by relevant target-setting programs or applicable regulatory schemes. Companies should be transparent about any such use of green gas certificates by providing relevant details in column 4 \"Methodological details\" in question 7.6, and in 7.12.1.\nIf your organization uses biogas that is sourced from a dedicated pipeline and the source is renewable, then you do not need certificates to prove the renewable origin.\nFor more information on the use of green gas certificates refer to CDP Technical Note: Accounting of Scope 2 emissions .\nNote for agricultural sector companies: \nDirect emissions from agricultural/forestry, processing/manufacturing and/or distribution activities should be reported as part of Scope 1 emissions in this question.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Emissions 해야 합니다 be 보고 in gross, not net figures. Therefore, negative numbers are not allowed. Putting in zero suggests that you have measured your emissions 및 that they are equal to zero. 행 in this 문항 are presented depending on your 선택 in 열 4 \"Number of past 보고연도s you will be providing Scope 1 배출량 data for\" of 문항 1.4. Gross emissions are requested so that 데이터 사용자 can account for 온실가스 배출량 from sources owned 또는 controlled by 귀사 before 하나 이상 reductions for offs are made, as per the GHG Protocol Corporate Standard. This transparency is meant to provide users with the most accurate portrayal 의 emissions created within your company's boundary. Scope 1 배출량 해야 합니다 be 보고 in metric tons of CO2e. Common conversion factors are included in the Technical Note \"Units of Measure Conversions\". Special requirements for carbon sequestration, captured & stored 및 transferred CO2, transfer in - transfer out, 및 enhanced oil recovery are explained in the Technical Note \"Special conditions for reporting Scope 1 배출량\". Emissions estimates are acceptable, as long as there is transparency with regard to the estimation approach (what is estimated 및 how) 및 the data used 에 대한 analysis is adequate to support the objectives 의 inventory. 만약 해당되는 경우 to 귀사의 reporting of Scope 1 배출량, outline this in the 종료 날짜 열. For further guidance on leased 자산, consult the Greenhouse Gas Protocol guidance on categorizing emissions from leased 자산. 글로벌 총 Scope 1 배출량(metric tons CO2e) (열 2) The start date of each past year will be automatically assumed to be exactly 365 days before the listed date. For example, 만약 you enter an 글로벌 총 Scope 1 배출량(metric tons CO2e) of 31/12/2023, your start date will be automatically assumed to be 01/01/2023. This 열 does not appear 에 대한 \"보고연도\" 행 as the 글로벌 총 Scope 1 배출량(metric tons CO2e) 의 보고연도 is specified in 문항 1.4. 종료 날짜 (열 3) Include the measurement approach, emissions factors, inputs, 및 assumptions used to measure your Scope 1 배출량, 및 a rationale 귀사의 choices. Note for first-time responders 만약 you are a first-time responder, provide 전 세계 총 Scope 1 배출량 data 에 대한 current 보고연도 및 up to five years prior to the current 보고연도. The number of past year 행 that will appear is dependent on your 선택 in 열 4 \"Number of past 보고연도s you will be providing Scope 1 배출량 data for\" of 1.4. Input the 전 세계 총 Scope 1 배출량 data 에 대한 current 보고연도 in the first 행 및 work backwards from the current 보고연도. Ensure that the reporting period represents only one full year that has already passed. Reporting periods 해야 합니다 not be in the future. This information is important for others to understand the time dimension of your 공시. Use the 종료 날짜 열 to report 관련 information regarding 귀사의 past Scope 1 배출량 data. Note for restatements 만약 you have chosen to restate 귀사의 전 세계 총 Scope 1 배출량 data previously supplied to CDP (as indicated in 열 4 \"Number of past 보고연도s you will be providing Scope 1 배출량 data for \" of 1.4), you may do so here. The number of past year 행 that will appear is dependent on your 선택 in 열 4 \"Number of past 보고연도s you will be providing Scope 1 배출량 data for\" of 1.4. Reporting recalculated figures 에 대한se years is optional. All years Scope 1 배출량 data needs to be entered in reverse order, with the current 보고연도 first, i.e. you 해야 합니다 first input the current 보고연도 배출량 데이터 및 work backwards from the most recent 보고연도. Ensure that the reporting period represents only one full year that has already passed. Reporting periods 해야 합니다 not be in the future. This information is important for others to understand the time dimension of your 공시. Use the 종료 날짜 열 to identify that this is restated data 및 the reason 에 대한 restatement. For more information on restatements see CDP's technical note on restatements here. Note on biogas: Carbon dioxide emitted from the combustion of biomass/biofuel 또는 fermentation 해야 합니다 not be included in your response to 문항 7.6 but instead 해야 합니다 be 보고 in 7.12. 경우 gas is sourced from a shared pipeline network with multiple sources 포함 both re신규able 및 non-re신규able sources, certificates are required to demonstrate the re신규able origin of gas (i.e. \"certified biogas\" 또는 \"green gas certificates\") 및 the following conditions need to be met: The company combusts gas sourced from a shared gas pipeline network; It also owns 또는 purchases green gas certificates that originated from one 의 gas producers on the pipeline network - these need not necessarily be purchased directly from the biogas producers; The company permanently retains the environmental attributes 의 gas consumption, 포함 하나 이상 energy attribute certificates. The appropriateness of using 시장기반 instruments such as green gas certificates 에 대한 emissions inventories is a contested issue. The GHG Protocol is undertaking a 프로세스 to determine the need 및 scope for additional guidance building on the existing set of corporate GHG accounting 및 reporting 기준 for Scope 1, Scope 2, 및 Scope 3 배출량. 의 일부로 this 프로세스, the GHG Protocol plans to holistically examine the appropriateness of 시장기반 accounting methods across sectors, end-uses, 및 scopes. CDP intends to align with 하나 이상 revisions to the GHG Protocol 기준 및 guidance resulting from this 프로세스, 포함 on the use of green gas certificates for 배출량 회계. While the GHG Protocol 프로세스 is ongoing, companies are encouraged to make their own judgement 의 appropriateness of using green gas certificates in their 배출량 회계, for example by consulting with their auditors 및 consider rules 입력 by 관련 목표-setting programs 또는 해당되는 경우 regulatory schemes. Companies 해야 합니다 be transparent about 하나 이상 such use of green gas certificates by providing 관련 details in 열 4 \"종료 날짜\" in 문항 7.6, 및 in 7.12.1. 만약 귀사 uses biogas that is sourced from a dedicated pipeline 및 the source is re신규able, then you do not need certificates to prove the re신규able origin. For more information on the use of green gas certificates refer to CDP Technical Note: Accounting of Scope 2 배출량. Note for agricultural sector companies: Direct emissions from agricultural/forestry, 프로세스ing/manufacturing 및/또는 distribution activities 해야 합니다 be 보고 의 일부로 Scope 1 배출량 in this 문항."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Ambition",
       "text": "Organizations disclose that their Scope 1 emissions in the reporting year have reduced in line with a 1.5 °C-aligned pathway.",
-      "typeKo": "Ambition",
-      "textKo": "Organizations disclose that their Scope 1 배출량 in the 보고연도 have reduced in line with a 1.5 °C-aligned pathway."
+      "typeKo": "목표수준",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Biogas: A gas derived principally from the anaerobic fermentation of biomass and solid wastes and combusted to produce heat and/or power. Included in this category are landfill gas and sludge gas (sewage gas and gas from animal slurries) and other biogas.",
-      "typeKo": "설명 of Terms",
-      "textKo": "Biogas: A gas derived principally from the anaerobic fermentation of biomass 및 solid wastes 및 combusted to produce heat 및/또는 power. Included in this category are landfill gas 및 sludge gas (sewage gas 및 gas from animal slurries) 및 other biogas."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -317,7 +317,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -327,7 +327,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -337,7 +337,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -347,7 +347,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -357,7 +357,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -367,7 +367,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -377,7 +377,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -387,7 +387,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -397,7 +397,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -407,7 +407,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -417,7 +417,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -427,7 +427,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -437,7 +437,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -447,7 +447,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -457,7 +457,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -467,7 +467,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -477,7 +477,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -487,7 +487,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -497,7 +497,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -507,7 +507,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -517,7 +517,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -527,7 +527,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -537,7 +537,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -547,7 +547,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -557,7 +557,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -567,7 +567,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -577,7 +577,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -587,7 +587,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -597,7 +597,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -607,7 +607,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -617,7 +617,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -627,7 +627,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -637,7 +637,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -647,7 +647,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -657,7 +657,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -667,7 +667,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -677,7 +677,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -687,7 +687,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -697,7 +697,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -707,7 +707,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -717,7 +717,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -727,7 +727,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -737,7 +737,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -747,7 +747,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -757,7 +757,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -767,7 +767,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -777,7 +777,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -787,7 +787,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -797,7 +797,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -807,7 +807,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -817,7 +817,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -827,7 +827,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -837,7 +837,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -847,7 +847,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -857,7 +857,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -867,7 +867,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -877,7 +877,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -887,7 +887,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -897,7 +897,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -907,7 +907,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -917,7 +917,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -927,7 +927,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -937,7 +937,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -947,7 +947,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -957,7 +957,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -967,7 +967,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -977,7 +977,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -987,7 +987,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -997,7 +997,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1007,7 +1007,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1017,7 +1017,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1027,7 +1027,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1037,7 +1037,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 공시에서 최고점 획득 in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 그리고 행 '보고연도' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) Full 공시 점 NOT awarded in all the following 문항: - 7.1 - 7.1.1 - 7.1.2 - 7.1.3 - 7.2 - 7.4 - 7.5 또는 행 '보고연도' NOT 완성 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1047,7 +1047,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1057,7 +1057,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1067,12 +1067,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "귀사의 글로벌 Scope 1 총 배출량 ( 미터톤 CO2e) 은 얼마입니까 ? ` M7. Environmental Performance - Climate Change 연도 총 Scope 1 배출량 ( 미터톤 CO2e) 종료 일자 방법론 상세 별도 행으로 작성 보고연도 과거 연도 1 [M1.4 응답 결과에 따라 생성 ] 과거 연도 2 과거 연도 3 숫자 입력 소수점 이하 최대 3 자리 사용 DD/MM/YYYY 최대 2,500 자 작성",
+    "question_ko": "귀사의 글로벌 범위 1 총 배출량 (미터톤 CO2e) 은 얼마입니까?",
     "q2025": "Q7.6",
     "q2025_text": "What were your organization's gross global Scope 1 emissions in metric tons CO2e?",
     "change_status": "No change - 2026 source verified",
@@ -1091,13 +1091,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "일반: D 0 또는 1/1 또는 8 | A 2/2 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "일반: D 0 또는 1/1 또는 8 | 2/2 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "What were 귀사의 전 세계 총 Scope 1 배출량 in 미터톤 CO2e?"
+    "q2025_textKo": "귀사의 글로벌 범위 1 총 배출량 (미터톤 CO2e) 은 얼마입니까?"
   },
   "defaultPoints": {
     "D": "0 or 1/1 or 8",
@@ -1109,34 +1109,35 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "Reporting emissions is a prerequisite to understanding 및 reducing negative environmental impacts. This 문항 aims to ensure organizations are measuring their carbon footprints from direct emissions.",
-  "popupHelpKo": "The end of your 보고연도 해야 합니다 match what you have entered in 1.4. The end date for \"Past year 1/2/3/4/5\" 해야 합니다 be 최소 365 days before the end date 의 \"보고연도\"/\"Past Year 1/2/3/4/5\".",
-  "baseOptionsKo": []
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '귀사의 글로벌 범위 1 총 배출량 (미터톤 CO2e) 은 얼마입니까?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "popupHelpKo": "이 문항은 '귀사의 글로벌 범위 1 총 배출량 (미터톤 CO2e) 은 얼마입니까?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

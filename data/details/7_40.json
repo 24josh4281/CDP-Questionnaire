@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Break down the coal production attributed to your organization in the reporting year by grade.",
-  "questionKo": "the coal production attributed to 귀사 in the 보고연도 by grade.을/를 세분화하여 입력하십시오.",
+  "questionKo": "구분 석탄 생산 조직 보고연도.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,22 +15,22 @@
     {
       "order": 1,
       "title": "Lignite",
-      "titleKo": "Lignite"
+      "titleKo": ""
     },
     {
       "order": 2,
       "title": "Subbituminous",
-      "titleKo": "Subbituminous"
+      "titleKo": ""
     },
     {
       "order": 3,
       "title": "Bituminous",
-      "titleKo": "Bituminous"
+      "titleKo": ""
     },
     {
       "order": 4,
       "title": "Anthracite",
-      "titleKo": "Anthracite"
+      "titleKo": ""
     },
     {
       "order": 5,
@@ -47,7 +47,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Production (%)",
+      "textKo": "생산 (%)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -62,7 +62,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Comment",
+      "textKo": "의견",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -81,13 +81,13 @@
       "type": "Requested Content",
       "text": "General Coal grade (column 1) \nAn explanation of the coal grades listed is provided in the explanation of terms.\nProduction (%) (column 2) \nEnter the percentage that the applicable coal grade represents for your organizations total coal production in the reporting year.\nThe sum of all coal grade production figures provided should equal 100%.\nComment (column 3) (optional) \nUse the \"Comment\" column to define and explain your reported percentage breakdown of production.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Coal grade (열 1) An 설명 의 coal grades listed is 입력 in the 설명 of terms. Production (%) (열 2) Enter the percentage that the 해당되는 경우 coal grade represents for 귀사s total coal production in the 보고연도. The sum of all coal grade production figures 입력 해야 합니다 equal 100%. Comment (열 3) (optional) Use the \"Comment\" 열 to define 및 explain your 보고 percentage breakdown of production."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
       "text": "Explanations of the coal grades listed are available in the following Technical Note: \" Fuel Definitions \".",
       "typeKo": "추가 정보",
-      "textKo": "설명s 의 coal grades listed are available in the following Technical Note: \" Fuel Definitions \"."
+      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
     }
   ],
   "points": [
@@ -111,7 +111,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 행 '기타'). 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된 (제외 행 '기타'). 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -121,7 +121,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "열 'Production (%)' 완성 in all 행 제외 행 '기타' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "열 '생산 (%)' 완료 모든 행 제외 행 '기타' - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -131,7 +131,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -141,12 +141,12 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Break down the coal production attributed to your organization in the reporting year by grade.",
+    "question_ko": "구분 석탄 생산 조직 보고연도.",
     "q2025": "Q7.40",
     "q2025_text": "Break down the coal production attributed to your organization in the reporting year by grade.",
     "change_status": "No change - 2026 source verified",
@@ -165,13 +165,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Coal: D 4/4 | A 1/1 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "석탄: D 4/4 | 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "the coal production attributed to 귀사 in the 보고연도 by grade.을/를 세분화하여 입력하십시오."
+    "q2025_textKo": "분류 석탄 생산 귀사 보고연도 기준."
   },
   "defaultPoints": {
     "D": "4/4",
@@ -201,16 +201,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "석탄",
-  "simpleHelpKo": "Investors 및 데이터 사용자 are interested in information relating to the production of different coal grades due to the environmental impacts associated with each.",
+  "simpleHelpKo": "투자자 및 데이터 사용자 관심 있음 정보 관련된 생산 의 다양한 석탄 등급 때문에 환경 영향 관련된 각.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

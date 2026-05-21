@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Does your electric utility organization have a transmission and distribution business?",
-  "questionKo": "귀사의 전력 유틸리티 조직은 송전 및 배전 사업을 보유하고 있습니까?",
+  "questionKo": "조직 사업?",
   "questionType": "SINGLE_SELECT",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -26,8 +26,8 @@
     {
       "type": "Explanation of Terms",
       "text": "Distribution: The delivery of electricity to retail customers (including homes, businesses, etc.). Distribution (low voltage) is the lower-voltage electrical distribution of power from distribution substations to final customer, usually below 35kV. In contrast to the transmission system, the distribution system usually is radial, meaning that there is only one path from the distribution substation to a given consumer.\nTransmission: The movement or transfer of electricity over an interconnected group of lines and associated equipment between points of supply and points at which it is transformed for delivery to consumers or is delivered to other electric systems. Transmission (high voltage) relates to transmitting electric power from generation plants in high-voltage (e.g. 230 kilovolts [kV] up to 765 kV) to distribution substations. The transmission system is configured as a network, meaning that power has multiple paths to follow from the generator to the distribution substation.",
-      "typeKo": "설명 of Terms",
-      "textKo": "Distribution: The delivery of electricity to retail 고객 (포함 homes, businesses, etc.). Distribution (low voltage) is the lower-voltage electrical distribution of power from distribution substations to final customer, usually below 35kV. In contrast to the transmission system, the distribution system usually is radial, meaning that there is only one path from the distribution substation to a given consumer. Transmission: The movement 또는 transfer of electricity over an interconnected group of lines 및 associated equipment between 점 of supply 및 점 at which it is transformed for delivery to consumers 또는 is delivered to other electric systems. Transmission (high voltage) relates to transmitting electric power from generation plants in high-voltage (e.g. 230 kilovolts [kV] up to 765 kV) to distribution substations. The transmission system is configured as a network, meaning that power has multiple paths to follow from the generator to the distribution substation."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -51,7 +51,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "해당 선택지 선택됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -61,7 +61,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -71,7 +71,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -81,12 +81,12 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Does your electric utility organization have a transmission and distribution business?",
+    "question_ko": "조직 사업?",
     "q2025": "Q7.33",
     "q2025_text": "Does your electric utility organization have a transmission and distribution business?",
     "change_status": "No change - 2026 source verified",
@@ -105,13 +105,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Energy utilities & power generators: D 2/2 | A 0/0 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 드롭다운/응답 선택지 연결\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "에너지 유틸리티 및 발전: D 2/2 | 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "귀사의 전력 유틸리티 조직은 송전 및 배전 사업을 보유하고 있습니까?"
+    "q2025_textKo": "귀사의 전력 조직 송전 및 배전 사업?"
   },
   "defaultPoints": {
     "D": "2/2",
@@ -141,19 +141,20 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "단일 선택",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "에너지 유틸리티 및 발전",
-  "simpleHelpKo": "Transmission 및 distribution companies play an important role in enabling the transition to low-carbon electricity systems. Transmission 및 distribution systems also have significant energy losses. Therefore, 데이터 사용자 are interested in what transmission 및 distribution companies are doing to reduce their own carbon footprint (energy losses) 및 the carbon footprint 의 grids they operate (grid decarbonization).",
+  "simpleHelpKo": "이 문항은 '조직 사업?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [
     "예",
     "아니요"
-  ]
+  ],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

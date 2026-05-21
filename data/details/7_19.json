@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Break down your organization's total gross global Scope 1 emissions by sector production activity in metric tons CO2e.",
-  "questionKo": "귀사의 total 전 세계 총 Scope 1 배출량 by sector production activity in 미터톤 CO2e.을/를 세분화하여 입력하십시오.",
+  "questionKo": "귀사의 총 범위 1 배출량 합계를 부문별 생산 활동별로 분석하십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -20,17 +20,17 @@
     {
       "order": 2,
       "title": "Chemicals production activities",
-      "titleKo": "Chemicals production activities"
+      "titleKo": "화학 생산 활동"
     },
     {
       "order": 3,
       "title": "Coal production activities",
-      "titleKo": "Coal production activities"
+      "titleKo": "석탄 생산 활동"
     },
     {
       "order": 4,
       "title": "Energy utility & power generators",
-      "titleKo": "Energy utility & power generators"
+      "titleKo": "에너지 &"
     },
     {
       "order": 5,
@@ -40,17 +40,17 @@
     {
       "order": 6,
       "title": "Oil and gas production activities (upstream)",
-      "titleKo": "Oil 및 gas production activities (upstream)"
+      "titleKo": "석유 및 가스 생산 활동 (업스트림)"
     },
     {
       "order": 7,
       "title": "Oil and gas production activities (midstream)",
-      "titleKo": "Oil 및 gas production activities (midstream)"
+      "titleKo": "석유 및 가스 생산 활동 ()"
     },
     {
       "order": 8,
       "title": "Oil and gas production activities (downstream)",
-      "titleKo": "Oil 및 gas production activities (downstream)"
+      "titleKo": "석유 및 가스 생산 활동 (다운스트림)"
     },
     {
       "order": 9,
@@ -60,12 +60,12 @@
     {
       "order": 10,
       "title": "Transport OEM activities",
-      "titleKo": "Transport OEM activities"
+      "titleKo": "운송 활동"
     },
     {
       "order": 11,
       "title": "Transport services activities",
-      "titleKo": "Transport services activities"
+      "titleKo": "운송 서비스 활동"
     }
   ],
   "columns": [
@@ -77,7 +77,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Gross Scope 1 배출량, 미터톤 CO2e",
+      "textKo": "총 범위 1 배출량, 미터톤 CO2e",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -92,7 +92,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Net Scope 1 배출량, 미터톤 CO2e",
+      "textKo": "범위 1 배출량, 미터톤 CO2e",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -107,7 +107,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Comment",
+      "textKo": "의견",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -120,19 +120,19 @@
       "type": "Change From Last Year",
       "text": "Minor change",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "Minor change"
+      "textKo": "경미한 변경"
     },
     {
       "type": "Requested Content",
       "text": "General \nThis question requests gross global Scope 1 emissions by sector production activity, i.e. aggregated across all business divisions and/or facilities for that sector. \nIt is based on question 7.6 but is sector specific. Emissions occurring outside of the presented sector, should not be reported here. Therefore, the figure you report here should be lower than the figure you reported in 7.6. \nSector production activities are activities conducted by your organization within the high-intensity sector that this sector-specific questionnaire relates to. These activities may be directly or indirectly related to the production process itself. \nGiven the potential complexity of production sectors, CDP encourages you to identify and remove specific activities from your organizational boundary (or business division's organizational boundary) that are not necessarily a part of the sector. Starting with your answer to question 7.6, emissions from the following sources should be deducted: \nExternal corporate entities, i.e. assets, business divisions, partnerships and subsidiaries operating outside of the high-intensity sector. \nNon-industrial buildings, e.g. offices, accommodation, other property. \nNon-production related activities, e.g. management, services, R&D, marketing, retail. \nTransport, e.g. distribution, business travel, shipping, freight, logistics. \nProjects, e.g. construction, engineering and maintenance. \nAlternatively, you may consider constructing your sector boundary around activities that should be included . At a \nminimum , you should include in your sector boundary: \nThe production processes \nAll activities, processes and equipment that are ancillary to the production processes. \nAll other industrial installations, energy installations and other installations or activities contributing to or supplying the production processes and ancillary activities, e.g. boilers, power plant, raw material preparation and extraction, etc. \nAll buildings that house the production processes and ancillary activities and said installations, as well as buildings used for inventory storage. \nOnsite mobile combustion, e.g. forklifts and excavators, and movement of materials between industrial sites within the sector. \nAny other industrial activities that typically occur on the production sites of the high-intensity sector. \nYou should report direct emissions occurring inside the organizational boundary and the sector boundary. \nIf your organization only operates within the presented high-intensity sector, then the emissions figure you report here is still likely to be lower than the figure you reported in 7.6. This is because for this question CDP encourages you to exclude activities that are not dependent on being in the presented sector. The purpose is to improve the consistency and accuracy of sector emissions reporting. \nIf your organization is active across multiple high-intensity sectors, complete this table as it is presented, providing gross global Scope 1 emissions for each sector production activity listed. \nScope 1 emissions (metric tons CO2e) (column 2) \nEmissions must be reported in gross, not net figures. Therefore, negative numbers are not allowed. Gross emissions are requested so that users of the information can account for the GHG emissions from sources owned or controlled by your organization, before any reductions for offsets are made, as per the GHG Protocol Corporate Standard. This transparency is meant to provide users with the most accurate portrayal of the emissions created within your company boundary. \nEmission figures should be for the reporting year only (as defined by your answer to 1.4). \nPutting in zero would suggest that you have measured your emissions and that they are equal to zero (0). \nScope 1 emissions should be reported in metric tons of CO2e. Common conversion factors are included in the Technical Note on \"Units of Measure Conversions\" . \nSpecial requirements for carbon sequestration, captured & stored and transferred CO2, transfer in - transfer out, and enhanced oil recovery are explained in the Technical Note on \"Special conditions for reporting Scope 1 emissions\" . \nComment (column 3/column 4 for cement) (optional) \nYou are encouraged to comment on the activity boundary applied to your disclosure. Comment on any activities that may be part of your organization or, if you also operate in other sectors, the relevant division of your organization, but have not been included here because they are not dependent on being part of the sector. If your methodology employs sector-based guidelines for accounting, then you should also mention them here. Any other comments you deem relevant to your response may also be provided here. \nNet Scope 1 emissions, metric tons CO2e (column 3 - for cement sector only) \nThis column only appears for the Cement sector\nNet emissions are gross emissions minus credits for indirect GHG savings. Credits may be awarded for the use of \"alternative fuels and raw\" materials (AFR). AFR come in the form of recovered wastes which displace the use of fossil fuels. Subtracting credits is in-effect applying a zero-emission factor to the combustion of these wastes.\nEmission figures should be for the reporting year only (as defined by your answer to 1.4). \nPutting in zero would suggest that you have measured your emissions and that they are equal to zero (0). \nScope 1 emissions should be reported in metric tons of CO2e. Common conversion factors are included in the Technical Note on \"Units of Measure Conversions\" . \nSpecial requirements for carbon sequestration, captured & stored and transferred CO2, transfer in - transfer out, and enhanced oil recovery are explained in the Technical Note on \"Special conditions for reporting Scope 1 emissions\" .\nNote for aviation sector \nInclude emissions associated with activities in the aviation sector in row \"Transport services activities\".\nNote for oil and gas sector \nThis question splits oil and gas activities into upstream, midstream and downstream as follows: \nUpstream includes exploration, development, and production of oil and gas. \nMidstream includes the transportation, storage, and distribution of crude oil and natural gas. \nDownstream includes refining, processing, distribution, and marketing of products derived. For the purpose of this question, \nChemicals are also included in this Downstream category, which comprises the manufacture, distribution and marketing of chemical products derived from oil and gas (petrochemicals). \nTransport, storage, and distribution activities considered a defining part of the oil and gas sector value chain, e.g. midstream activities, should be included for oil and gas production activities. \nProjects considered an essential part of the oil and gas sector, such as exploration and extraction projects, should be included for oil and gas production activities.",
       "typeKo": "요청 내용",
-      "textKo": "일반 This 문항 requests 전 세계 총 Scope 1 배출량 by sector production activity, i.e. aggregated across all business divisions 및/또는 facilities for that sector. It is based on 문항 7.6 but is sector specific. Emissions occurring outside 의 presented sector, 해야 합니다 not be 보고 here. Therefore, the figure you report here 해야 합니다 be lower than the figure you 보고 in 7.6. Sector production activities are activities conducted by 귀사 within the high-intensity sector that this sector-specific 질문서 relates to. These activities may be directly 또는 indirectly related to the production 프로세스 itself. Given the potential complexity of production sectors, CDP encourages you to identify 및 remove specific activities from your 조직경계 (or business division's 조직경계) that are not necessarily a part 의 sector. Starting with your answer to 문항 7.6, emissions from the following sources 해야 합니다 be deducted: External corporate entities, i.e. 자산, business divisions, partnerships 및 subsidiaries operating outside 의 high-intensity sector. Non-industrial buildings, e.g. offices, accommodation, other property. Non-production related activities, e.g. 관리, services, R&D, marketing, retail. Transport, e.g. distribution, business travel, shipping, freight, logistics. Projects, e.g. construction, engineering 및 maintenance. Alternatively, you may consider constructing your sector boundary around activities that 해야 합니다 be included. At a 최소, you 해야 합니다 include in your sector boundary: The production 프로세스es All activities, 프로세스es 및 equipment that are ancillary to the production 프로세스es. All other industrial installations, energy installations 및 other installations 또는 activities contributing to 또는 supplying the production 프로세스es 및 ancillary activities, e.g. boilers, power plant, raw material preparation 및 extraction, etc. All buildings that house the production 프로세스es 및 ancillary activities 및 said installations, as well as buildings used for inventory storage. Onsite mobile combustion, e.g. forklifts 및 excavators, 및 movement of materials between industrial sites within the sector. 하나 이상 other industrial activities that typically occur on the production sites 의 high-intensity sector. You 해야 합니다 report direct emissions occurring inside the 조직경계 및 the sector boundary. 만약 귀사 only operates within the presented high-intensity sector, then the emissions figure you report here is still likely to be lower than the figure you 보고 in 7.6. This is because for this 문항 CDP encourages you to exclude activities that are not dependent on being in the presented sector. The purpose is to improve the consistency 및 accuracy of sector emissions reporting. 만약 귀사 is active across multiple high-intensity sectors, complete this table as it is presented, providing 전 세계 총 Scope 1 배출량 for each sector production activity listed. Scope 1 배출량 (미터톤 CO2e) (열 2) Emissions 해야 합니다 be 보고 in gross, not net figures. Therefore, negative numbers are not allowed. Gross emissions are requested so that users 의 information can account 에 대한 온실가스 배출량 from sources owned 또는 controlled by 귀사, before 하나 이상 reductions for offsets are made, as per the GHG Protocol Corporate Standard. This transparency is meant to provide users with the most accurate portrayal 의 emissions created within your company boundary. Emission figures 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). Putting in zero would suggest that you have measured your emissions 및 that they are equal to zero (0). Scope 1 배출량 해야 합니다 be 보고 in metric tons of CO2e. Common conversion factors are included in the Technical Note on \"Units of Measure Conversions\". Special requirements for carbon sequestration, captured & stored 및 transferred CO2, transfer in - transfer out, 및 enhanced oil recovery are explained in the Technical Note on \"Special conditions for reporting Scope 1 배출량\". Comment (열 3/열 4 for cement) (optional) You are encouraged to comment on the activity boundary applied to your 공시. Comment on 하나 이상 activities that may be part of 귀사 or, 만약 you also operate in other sectors, the 관련 division of 귀사, but have not been included here because they are not dependent on being part 의 sector. 만약 your 방법론 employs sector-based guidelines for accounting, then you 해야 합니다 also mention them here. 하나 이상 other comments you deem 관련 to your response may also be 입력 here. Net Scope 1 배출량, 미터톤 CO2e (열 3 - for cement sector only) This 열 only appears 에 대한 Cement sector Net emissions are gross emissions minus credits for indirect GHG savings. Credits may be awarded 에 대한 use of \"alternative fuels 및 raw\" materials (AFR). AFR come in the form of recovered wastes which displace the use of fossil fuels. Subtracting credits is in-effect applying a zero-emission factor to the combustion 의se wastes. Emission figures 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). Putting in zero would suggest that you have measured your emissions 및 that they are equal to zero (0). Scope 1 배출량 해야 합니다 be 보고 in metric tons of CO2e. Common conversion factors are included in the Technical Note on \"Units of Measure Conversions\". Special requirements for carbon sequestration, captured & stored 및 transferred CO2, transfer in - transfer out, 및 enhanced oil recovery are explained in the Technical Note on \"Special conditions for reporting Scope 1 배출량\". Note for aviation sector Include emissions associated with activities in the aviation sector in 행 \"Transport services activities\". Note for oil 및 gas sector This 문항 splits oil 및 gas activities into upstream, midstream 및 downstream as follows: Upstream includes exploration, development, 및 production of oil 및 gas. Midstream includes the transportation, storage, 및 distribution of crude oil 및 natural gas. Downstream includes refining, 프로세스ing, distribution, 및 marketing of products derived. 에 대한 purpose of this 문항, Chemicals are also included in this Downstream category, which comprises the manufacture, distribution 및 marketing of chemical products derived from oil 및 gas (petrochemicals). Transport, storage, 및 distribution activities considered a defining part 의 oil 및 gas sector 가치사슬, e.g. midstream activities, 해야 합니다 be included for oil 및 gas production activities. Projects considered an essential part 의 oil 및 gas sector, such as exploration 및 extraction projects, 해야 합니다 be included for oil 및 gas production activities."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
       "text": "A note on biogas \nCarbon dioxide emitted from the combustion of biomass/biofuel or fermentation should not be included in your response to question 7.6 but instead should be reported in 7.12. This applies to self-generated biogas, and biogas delivered by a direct, dedicated pipeline. \nWhen gas is sourced from a shared pipeline network with multiple sources including both renewable and non-renewable sources, certificates are required to demonstrate the renewable origin of gas (i.e. \"certified biogas\" or \"green gas certificates\") and the following conditions need to be met: \nThe company combusts gas sourced from a shared gas pipeline network; \nIt also owns or purchases green gas certificates that originated from one of the gas producers on the pipeline network - these need not necessarily be purchased directly from the biogas producers; \nThe company permanently retains the environmental attributes of the gas consumption, including any energy attribute certificates. \nThe appropriateness of using market-based instruments such as green gas certificates for the emissions inventories is a contested issue. The GHG Protocol is undertaking a process to determine the need and scope for additional guidance building on the existing set of corporate GHG accounting and reporting standards for Scope 1, Scope 2, and Scope 3 emissions. As part of this process, the GHG Protocol plans to holistically examine the appropriateness of market-based accounting methods across sectors, end-uses, and scopes. CDP intends to align with any revisions to the GHG Protocol standards and guidance resulting from this process, including on the use of green gas certificates for emissions accounting. \nWhile the GHG Protocol process is ongoing, companies are encouraged to make their own judgement of the appropriateness of using green gas certificates in their emissions accounting. Companies should be transparent about any such use of green gas certificates by providing relevant details in the \"Comment\" column (column 5) in question 7.6, and in 7.12.1. \nIf the company uses biogas that is sourced from a dedicated pipeline and the source is renewable, then they do not need certificates to prove the renewable origin. \nCDP does not have specific requirements or recommendations for biogas certification. Certified biogas is defined as a contractual instrument that meets the Scope 2 Quality Criteria in GHG Protocol Scope 2 Guidance. For more information on this refer to CDP Technical Note: Accounting of Scope 2 emissions.",
       "typeKo": "추가 정보",
-      "textKo": "A note on biogas Carbon dioxide emitted from the combustion of biomass/biofuel 또는 fermentation 해야 합니다 not be included in your response to 문항 7.6 but instead 해야 합니다 be 보고 in 7.12. This applies to self-generated biogas, 및 biogas delivered by a direct, dedicated pipeline. 경우 gas is sourced from a shared pipeline network with multiple sources 포함 both re신규able 및 non-re신규able sources, certificates are required to demonstrate the re신규able origin of gas (i.e. \"certified biogas\" 또는 \"green gas certificates\") 및 the following conditions need to be met: The company combusts gas sourced from a shared gas pipeline network; It also owns 또는 purchases green gas certificates that originated from one 의 gas producers on the pipeline network - these need not necessarily be purchased directly from the biogas producers; The company permanently retains the environmental attributes 의 gas consumption, 포함 하나 이상 energy attribute certificates. The appropriateness of using 시장기반 instruments such as green gas certificates 에 대한 emissions inventories is a contested issue. The GHG Protocol is undertaking a 프로세스 to determine the need 및 scope for additional guidance building on the existing set of corporate GHG accounting 및 reporting 기준 for Scope 1, Scope 2, 및 Scope 3 배출량. 의 일부로 this 프로세스, the GHG Protocol plans to holistically examine the appropriateness of 시장기반 accounting methods across sectors, end-uses, 및 scopes. CDP intends to align with 하나 이상 revisions to the GHG Protocol 기준 및 guidance resulting from this 프로세스, 포함 on the use of green gas certificates for 배출량 회계. While the GHG Protocol 프로세스 is ongoing, companies are encouraged to make their own judgement 의 appropriateness of using green gas certificates in their 배출량 회계. Companies 해야 합니다 be transparent about 하나 이상 such use of green gas certificates by providing 관련 details in the \"Comment\" 열 (열 5) in 문항 7.6, 및 in 7.12.1. 만약 the company uses biogas that is sourced from a dedicated pipeline 및 the source is re신규able, then they do not need certificates to prove the re신규able origin. CDP does not have specific requirements 또는 recommendations for biogas certification. Certified biogas is defined as a contractual instrument that meets the Scope 2 Quality 기준 in GHG Protocol Scope 2 Guidance. For more information on this refer to CDP Technical Note: Accounting of Scope 2 배출량."
+      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
     }
   ],
   "points": [
@@ -246,7 +246,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -256,7 +256,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -266,7 +266,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -276,7 +276,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -286,7 +286,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -296,7 +296,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -306,7 +306,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -316,7 +316,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -326,7 +326,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -336,7 +336,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -346,7 +346,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -356,7 +356,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -366,7 +366,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -376,7 +376,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -386,7 +386,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -396,7 +396,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -406,7 +406,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -416,7 +416,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -426,7 +426,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -436,7 +436,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -446,7 +446,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -456,7 +456,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -466,7 +466,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -476,7 +476,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -486,7 +486,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -496,7 +496,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -506,7 +506,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -516,7 +516,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -526,7 +526,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -536,7 +536,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -546,7 +546,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -556,7 +556,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -566,7 +566,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -576,7 +576,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -586,7 +586,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -596,7 +596,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -606,7 +606,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -616,7 +616,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -626,7 +626,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -636,12 +636,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Break down your organization's total gross global Scope 1 emissions by sector production activity in metric tons CO2e.",
+    "question_ko": "귀사의 총 범위 1 배출량 합계를 부문별 생산 활동별로 분석하십시오",
     "q2025": "Q7.19",
     "q2025_text": "Break down your organization's total gross global Scope 1 emissions by sector production activity in metric tons CO2e.",
     "change_status": "Minor change",
@@ -657,16 +657,16 @@
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
     "change_statusKo": "경미한 변경",
-    "detail_change_typesKo": "행 문구 수정",
-    "change_summaryKo": "행 \"전력 유틸리티 활동\" has been changed to \"Energy utility & power generators activities\"",
+    "detail_change_typesKo": "행 변경 텍스트 입력",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Aviation: D 2/2 | A 0/0 | M 0/0 | L 0/0 Cement: D 2/2 | A 0/0 | M 0/0 | L 0/0 Chemicals: D 2/2 | A 0/0 | M 0/0 | L 0/0 +7 sector-specific variants",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "귀사의 total 전 세계 총 Scope 1 배출량 by sector production activity in 미터톤 CO2e.을/를 세분화하여 입력하십시오."
+    "q2025_textKo": "귀사의 총 범위 1 배출량 합계를 부문별 생산 활동별로 분석하십시오"
   },
   "defaultPoints": {
     "D": "2/2",
@@ -696,16 +696,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "석유 및 가스, 석탄, 항공, 화학, 금속 및 광업, 운송 서비스, 철강, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트",
-  "simpleHelpKo": "Reporting emissions by activity allows a more in-depth understanding of business 리스크 related to future regulation 및 기후 관련 이슈, 및 allows organizations to identify potential 기회 to reduce emissions associated with operational activities.",
+  "simpleHelpKo": "이 문항은 '귀사의 총 범위 1 배출량 합계를 부문별 생산 활동별로 분석하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

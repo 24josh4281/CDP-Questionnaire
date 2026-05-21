@@ -3,7 +3,7 @@
   "module": "1",
   "moduleTitle": "Introduction",
   "questionText": "For your electricity generation activities, provide details of your nameplate capacity and electricity generation specifics for each technology employed.",
-  "questionKo": "For your electricity generation activities, 세부 정보를 입력 of your nameplate capacity 및 electricity generation specifics for each technology employed.",
+  "questionKo": "전력 활동, 제공 세부 정보 용량 전력.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Water, Ocean, Climate Change",
@@ -15,102 +15,102 @@
     {
       "order": 1,
       "title": "Coal - Hard",
-      "titleKo": "Coal - Hard"
+      "titleKo": "석탄 -"
     },
     {
       "order": 2,
       "title": "Coal - Brown",
-      "titleKo": "Coal - B행n"
+      "titleKo": "석탄 -"
     },
     {
       "order": 3,
       "title": "Oil",
-      "titleKo": "Oil"
+      "titleKo": "석유"
     },
     {
       "order": 4,
       "title": "Gas",
-      "titleKo": "Gas"
+      "titleKo": "가스"
     },
     {
       "order": 5,
       "title": "Sustainable biomass",
-      "titleKo": "Sustainable biomass"
+      "titleKo": "지속가능한"
     },
     {
       "order": 6,
       "title": "Other biomass",
-      "titleKo": "Other biomass"
+      "titleKo": "기타"
     },
     {
       "order": 7,
       "title": "Waste (non-biomass)",
-      "titleKo": "Waste (non-biomass)"
+      "titleKo": "(비-)"
     },
     {
       "order": 8,
       "title": "Nuclear",
-      "titleKo": "Nuclear"
+      "titleKo": ""
     },
     {
       "order": 9,
       "title": "Fossil-fuel plants fitted with carbon capture and storage",
-      "titleKo": "Fossil-fuel plants fitted with carbon capture 및 storage"
+      "titleKo": "화석-연료 탄소 및 저장"
     },
     {
       "order": 10,
       "title": "Geothermal",
-      "titleKo": "Geothermal"
+      "titleKo": ""
     },
     {
       "order": 11,
       "title": "Ocean thermal",
-      "titleKo": "Ocean thermal"
+      "titleKo": "해양"
     },
     {
       "order": 12,
       "title": "Hydropower",
-      "titleKo": "Hydropower"
+      "titleKo": ""
     },
     {
       "order": 13,
       "title": "Onshore wind",
-      "titleKo": "Onshore wind"
+      "titleKo": ""
     },
     {
       "order": 14,
       "title": "Offshore wind",
-      "titleKo": "Offshore wind"
+      "titleKo": ""
     },
     {
       "order": 15,
       "title": "Solar",
-      "titleKo": "Solar"
+      "titleKo": ""
     },
     {
       "order": 16,
       "title": "Wave",
-      "titleKo": "Wave"
+      "titleKo": ""
     },
     {
       "order": 17,
       "title": "Tidal",
-      "titleKo": "Tidal"
+      "titleKo": ""
     },
     {
       "order": 18,
       "title": "Other renewable",
-      "titleKo": "Other re신규able"
+      "titleKo": "기타"
     },
     {
       "order": 19,
       "title": "Other non-renewable",
-      "titleKo": "Other non-re신규able"
+      "titleKo": "기타 비-"
     },
     {
       "order": 20,
       "title": "Total",
-      "titleKo": "Total"
+      "titleKo": "총"
     }
   ],
   "columns": [
@@ -125,7 +125,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Own 또는 control operations which use this 발전 source",
+      "textKo": "또는 운영사업장 사용 이 발전 원천",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -143,7 +143,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Nameplate capacity (MW)",
+      "textKo": "(MW)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -158,7 +158,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Gross electricity generation (GWh)",
+      "textKo": "총 전력 발전 (GWh)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -173,7 +173,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Net electricity generation (GWh)",
+      "textKo": "전력 발전 ()",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -188,7 +188,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Comment",
+      "textKo": "의견",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -201,25 +201,25 @@
       "type": "Change From Last Year",
       "text": "Modified question",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "수정 문항"
+      "textKo": "전년 대비 변경사항은 2026 CDP 원문 및 변경 추적표 기준으로 확인하십시오."
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if ‘Electricity generation' is selected in 1.16.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 ‘Electricity generation' is 선택 in 1.16."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 ‘전력 발전' 선택됨 1.16."
     },
     {
       "type": "Requested Content",
       "text": "General \nReport nameplate capacity by primary power generation sources owned or controlled by your organization.\nReport your preferred measure (gross or net) of generation. Although CDP encourages disclosure of both, reporting one measure is sufficient.\nRefer to the CDP Technical note on Biofuels for guidance on biomass/biofuel sustainability.\nPower generation source (column 0) \nSee guidance for specific power generation sources below. The examples are illustrative and are not meant to be exhaustive:\n\"Coal - Hard\": report coal generation using anthracite and/or bituminous coal.\n\"Coal - Brown\": report coal generation using sub-bituminous coal and/or lignite.\n\"Sustainable biomass\" and\n\"Other biomass\" : biomass may be combusted on its own or co-fired with other fuels. Provide aggregated data for the biomass that you combust on its own and biomass that you co-combust with other fuel sources. \n\"Waste (non-biomass)\" : waste can include tire-derived fuels and other refuse-derived fuels. When reporting in this category, only report the nameplate capacity and gross electricity generation data from the non-biomass fraction. The biomass fraction should be reported under either biomass option. \n\"Hydropower\" : hydropower does not include pumped storage operations for the reporting of nameplate capacity and gross electricity generation. CDP regards it as a form of managing or storing energy rather than primary generation. Note you will be asked to report water accounting volumes for these operations. \n\"\nWave \": wave energy can include technologies such as point absorbers, hinge rafts/attenuators, oscillating wave surge converters or water columns.\n\"\nTidal \": tidal technology can include energy generation from rise and fall tides, ebb and flood currents, as well as the use of horizontal or vertical-axis turbines.\nIf you are using hydrogen for power generation:\nReport generation using renewably derived hydrogen in row \n\"Other renewable\". \nReport generation using hydrogen derived from fossil fuels in row \n\"Other non-renewable\". \nReport generation using hydrogen produced from fossil fuels using carbon capture and storage technology (i.e. blue hydrogen) in row \n\"Fossil-fuel plants fitted with carbon capture and storage\" .\nIn all cases, provide the nameplate capacity and generation figures associated with this in the Comment field.\nIf part of your organization's power plant capacity is composed of multiple mixed small-scale generation technologies that are difficult to report by specific power generation source, then these can be aggregated by renewable and non-renewable sources. Report the total capacity of aggregated renewable sources under \"Other renewable\" and the total capacity of aggregated non-renewable sources under \"Other non-renewable\". You can explain the methodology utilized and list the small-scale technologies used in the comment section. \nComment (column 5) (optional) \nUse this column to provide any additional relevant information.\nIf you report information in the \"Sustainable biomass\" row, provide the criteria used to classify the biomass as sustainable (e.g. certification).\nIf you report information in any of the biomass rows, specify if the biomass technology refers to bioenergy plants fitted with carbon capture and storage (BECCS).",
       "typeKo": "요청 내용",
-      "textKo": "일반 Report nameplate capacity by primary 발전 sources owned 또는 controlled by 귀사. Report your preferred measure (gross 또는 net) of generation. Although CDP encourages 공시 of both, reporting one measure is sufficient. Refer to the CDP Technical note on Biofuels for guidance on biomass/biofuel sustainability. 발전 source (열 0) See guidance for specific 발전 sources below. The examples are illustrative 및 are not meant to be exhaustive: \"Coal - Hard\": report coal generation using anthracite 및/또는 bituminous coal. \"Coal - B행n\": report coal generation using sub-bituminous coal 및/또는 lignite. \"Sustainable biomass\" 및 \"Other biomass\": biomass may be combusted on its own 또는 co-fired with other fuels. Provide aggregated data 에 대한 biomass that you combust on its own 및 biomass that you co-combust with other fuel sources. \"Waste (non-biomass)\": waste can include tire-derived fuels 및 other refuse-derived fuels. 경우 reporting in this category, only report the nameplate capacity 및 gross electricity generation data from the non-biomass fraction. The biomass fraction 해야 합니다 be 보고 under either biomass option. \"Hydropower\": hydropower does not include pumped storage operations 에 대한 reporting of nameplate capacity 및 gross electricity generation. CDP regards it as a form of managing 또는 storing energy rather than primary generation. Note you will be asked to report water accounting volumes 에 대한se operations. \" Wave \": wave energy can include technologies such as 점 absorbers, hinge rafts/attenuators, oscillating wave surge converters 또는 water 열. \" Tidal \": tidal 기술 can include energy generation from rise 및 fall tides, ebb 및 flood currents, as well as the use of horizontal 또는 vertical-axis turbines. 만약 you are using hydrogen for 발전: Report generation using re신규ably derived hydrogen in 행 \"Other re신규able\". Report generation using hydrogen derived from fossil fuels in 행 \"Other non-re신규able\". Report generation using hydrogen produced from fossil fuels using carbon capture 및 storage 기술 (i.e. blue hydrogen) in 행 \"Fossil-fuel plants fitted with carbon capture 및 storage\". In all cases, provide the nameplate capacity 및 generation figures associated with this in the Comment field. 만약 part of 귀사의 power plant capacity is composed of multiple mixed small-scale generation technologies that are difficult to report by specific 발전 source, then these can be aggregated by re신규able 및 non-re신규able sources. Report the total capacity of aggregated re신규able sources under \"Other re신규able\" 및 the total capacity of aggregated non-re신규able sources under \"Other non-re신규able\". You can explain the 방법론 utilized 및 list the small-scale technologies used in the comment section. Comment (열 5) (optional) Use this 열 to provide 하나 이상 additional 관련 information. 만약 you report information in the \"Sustainable biomass\" 행, provide the 기준 used to classify the biomass as sustainable (e.g. certification). 만약 you report information in 하나 이상 의 biomass 행, specify 만약 the biomass 기술 refers to bioenergy plants fitted with carbon capture 및 storage (BECCS)."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Biomass: any organic matter, i.e. biological material, available on a renewable basis. Includes feedstock derived from animals or plants, such as wood and agricultural crops, and organic waste from municipal and industrial sources. Biomass fuels should be sustainably sourced and certified where possible, and include: \nSolid biofuels: solid fuels derived from biomass. Includes feedstock derived from animals or plants, such as wood and agricultural crops, and organic waste from municipal and industrial sources. \nBiogas: a mixture of methane (CH4) and carbon dioxide (CO2) used as fuel and produced by bacterial degradation of organic matter or through gasification of biomass. \nLiquid biofuels: liquid fuels derived from biomass such as ethanol and biodiesel. \nCarbon capture and storage (CCS): as defined by the IEA, a family of technologies and techniques that enable the capture of carbon dioxide (CO2) from fuel combustion or industrial processes, the transport of CO2 via shops or pipelines, and its storage underground, in depleted oil and gas fields and deep saline formations. \nGross electricity generation: the total amount of electricity produced by a power generation plant before accounting for any internal consumption or losses within the plant itself. It is typically measured in gigawatt-hours (GWh). \nNameplate capacity: the maximum rated output of a generator, prime mover, or other electric power production equipment under specific conditions designated by the manufacturer. It is typically measured in megawatts (MW). \nNet electricity generation: the total electricity output from a power generation plant available for external use or distribution after deducting the electricity consumed internally for the plant's own operational needs. It is typically measured in gigawatt-hours (GWh). \nRenewable energy : energy taken from the sources that are inexhaustible, e.g. wind, water, solar, geothermal energy and sustainable biofuels (adapted from GHG Protocol, 2004 ).",
-      "typeKo": "설명 of Terms",
-      "textKo": "Biomass: 하나 이상 organic matter, i.e. biological material, available on a re신규able basis. Includes feedstock derived from animals 또는 plants, such as wood 및 agricultural crops, 및 organic waste from municipal 및 industrial sources. Biomass fuels 해야 합니다 be sustainably sourced 및 certified 여기서 possible, 및 include: Solid biofuels: solid fuels derived from biomass. Includes feedstock derived from animals 또는 plants, such as wood 및 agricultural crops, 및 organic waste from municipal 및 industrial sources. Biogas: a mixture of methane (CH4) 및 carbon dioxide (CO2) used as fuel 및 produced by bacterial degradation of organic matter 또는 through gasification of biomass. Liquid biofuels: liquid fuels derived from biomass such as ethanol 및 biodiesel. Carbon capture 및 storage (CCS): as defined by the IEA, a family of technologies 및 techniques that enable the capture of carbon dioxide (CO2) from fuel combustion 또는 industrial 프로세스es, the transport of CO2 via shops 또는 pipelines, 및 its storage underground, in depleted oil 및 gas fields 및 deep saline formations. Gross electricity generation: the total amount of electricity produced by a 발전 plant before accounting for 하나 이상 internal consumption 또는 losses within the plant itself. It is typically measured in gigawatt-hours (GWh). Nameplate capacity: the 최고 rated output of a generator, prime mover, 또는 other electric power production equipment under specific conditions designated by the manufacturer. It is typically measured in megawatts (MW). Net electricity generation: the total electricity output from a 발전 plant available for external use 또는 distribution after deducting the electricity consumed internally 에 대한 plant's own operational needs. It is typically measured in gigawatt-hours (GWh). 재생에너지: energy taken from the sources that are inexhaustible, e.g. wind, water, solar, geothermal energy 및 sustainable biofuels (adapted from GHG Protocol, 2004)."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -243,7 +243,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 both 행 'Other re신규able' 그리고 'Other non-re신규able'). 부분적으로 완성된 행은 최고점을 받을 수 없습니다. Either 열 'Gross electricity generation (GWh)' 또는 열 'Net electricity generation (GWh)' is 완성 in addition to all other 열. A 최고 of 8.5/8.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -253,7 +253,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. i) Figure in 행 'Total' in 열 'Gross electricity generation (GWh)' is equal to (± 5%) sum of figures in 열 'Gross electricity generation (GWh)' 제외 행 'Total' 또는 Figure in 행 'Total' in 열 'Net electricity generation (GWh)' is equal to (± 5%) sum of figures in 열 'Net electricity generation (GWh)' 제외 행 'Total' - 2 점 ii) Figure in 행 'Total' in 열 'Nameplate capacity (MW)' is equal to (± 5%) sum of figures in 열 'Nameplate capacity (MW)' 제외 행 'Total' - 2 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -263,7 +263,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in either 열 'Gross electricity generation (GWh)' 또는 'Net electricity generation (GWh)' in 행 with the following options 선택 in 열 '발전 source'... - 'Sustainable biomass' - 'Nuclear' - 'Fossil-fuel plants fitted with Carbon Capture 및 Storage' - 'Geothermal' - 'Ocean thermal' - 'Hydropower' - 'Onshore wind' - 'Offshore wind' - 'Solar' - 'Wave' - 'Tidal' - 'Other re신규able'...accounts for 초과 25% 의 sum of figures 입력 in either 열 'Gross electricity generation (GWh)' 또는 'Net electricity generation (GWh)' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Gross electricity generation (GWh)' 또는 'Net electricity generation (GWh)' in 행 with the following options 선택 in 열 '발전 source'... - 'Sustainable biomass' - 'Nuclear' - 'Fossil-fuel plants fitted with Carbon Capture 및 Storage' - 'Geothermal' - 'Ocean thermal' - 'Hydropower' - 'Onshore wind' - 'Offshore wind' - 'Solar' - 'Wave' - 'Tidal' - 'Other re신규able'... accounts for between 10% 및 25% 의 sum of figures 입력 in either 열 'Gross electricity generation (GWh)' 또는 'Net electricity generation (GWh)' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -273,12 +273,12 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in 열 'Gross electricity generation (GWh)' 또는 'Net electricity generation (GWh)' in 행 with the following options 선택 in 열 '발전 source'... - 'Sustainable biomass' - 'Nuclear' - 'Fossil-fuel plants fitted with Carbon Capture 및 Storage' - 'Geothermal' - ‘Ocean thermal' - 'Hydropower' - ‘Onshore wind' - ‘Offshore wind' - 'Solar' - ‘Wave' - ‘Tidal' - 'Other re신규able'...accounts for 초과 90% 의 sum of figures 입력 in either 열 'Gross electricity generation (GWh)' 또는 'Net electricity generation (GWh)' - 3 점. 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) Sum of figures 입력 in 열 'Gross electricity generation (GWh)' 또는 'Net electricity generation (GWh)' in 행 with the following options 선택 in 열 '발전 source'... - 'Sustainable biomass' - 'Nuclear' - 'Fossil-fuel plants fitted with Carbon Capture 및 Storage' - 'Geothermal' - ‘Ocean thermal' - 'Hydropower' - ‘Onshore wind' - ‘Offshore wind' - 'Solar' - ‘Wave' - ‘Tidal' - 'Other re신규able'...accounts for 초과 75% 의 sum of figures 입력 in either 열 'Gross electricity generation (GWh)' 또는 'Net electricity generation (GWh)' - 2/3 점. 이 경로에서 획득 가능한 최고점은 2/3점입니다. 또는 경로 C) Sum of figures 입력 in 열 'Gross electricity generation (GWh)' 또는 'Net electricity generation (GWh)' in 행 with the following options 선택 in 열 '발전 source'... - 'Sustainable biomass' - 'Nuclear' - 'Fossil-fuel plants fitted with Carbon Capture 및 Storage' - 'Geothermal' - ‘Ocean thermal' - 'Hydropower' - ‘Onshore wind' - ‘Offshore wind' - 'Solar' - ‘Wave' - ‘Tidal' - 'Other re신규able'...accounts for 초과 50% 의 sum of figures 입력 in either 열 'Gross electricity generation (GWh)' 또는 'Net electricity generation (GWh) - 1/3 점. 이 경로에서 획득 가능한 최고점은 1/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     }
   ],
   "change": {
     "location": "PPT",
-    "question_ko": "[국문 번역 검토 필요] For your electricity generation activities, provide details of your nameplate capacity and electricity generation specifics for each technology employed.",
+    "question_ko": "전력 활동, 제공 세부 정보 용량 전력.",
     "q2025": "Q1.16.1",
     "q2025_text": "For your electricity generation activities, provide details of your nameplate capacity and electricity generation specifics for each technology employed.",
     "change_status": "Modified question",
@@ -293,17 +293,17 @@
     "daml_summary": "Energy utilities & power generators: D / | A / | M / | L /",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "문항 수정",
+    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
     "detail_change_typesKo": "신규 행, 신규 가이던스",
-    "change_summaryKo": "행 \"Ocean thermal\"; \"Wave\"; \"Tidal\" added. 행 \"Wind\" replaced with \"Onshore wind 및 \"Offshore wind\". 행 \"Lignite\" replaced with \"Coal-b행n\". Additional guidance added to clarify the reporting of blue hydrogen.",
-    "scoring_change_summaryKo": "CC/W Energy utilities 및 power generators 공시 • 점 allocation 증가 from 7.5 to 8.5 to reflect additional 발전 sources added to 문항; ‘Ocean thermal', ‘Onshore wind', ‘Offshore wind', ‘Wave & Tidal' are 신규ly added while ‘Wind' & ‘Marine' have been 삭제. 문항 변경에 맞춰 업데이트. CC Energy utilities 및 power generators 관리 • 경로 A updated to reflect additional 발전 sources added to 문항; ‘Ocean thermal', ‘Onshore wind', ‘Offshore wind', ‘Wave & Tidal' are 신규ly added while ‘Wind' & ‘Marine' have been 삭제. 문항 변경에 맞춰 업데이트. CC Energy utilities 및 power generators 리더십 • 경로 A updated to reflect additional 발전 sources added to 문항; ‘Ocean thermal', ‘Onshore wind', ‘Offshore wind', ‘Wave & Tidal' are 신규ly added while ‘Wind' & ‘Marine' have been 삭제. 문항 변경에 맞춰 업데이트.",
-    "daml_summaryKo": "Energy utilities & power generators: D / | A / | M / | L /",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정성 PPT",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "daml_summaryKo": "에너지 유틸리티 및 발전: D / | / | M / | L /",
+    "reflectedKo": "",
+    "locationKo": "정성적",
     "locationEn": "Qualitative PPT",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "귀사의 electricity generation activities에 대해 details of your nameplate capacity 및 electricity generation specifics for each 기술 employed.을/를 입력하십시오."
+    "q2025_textKo": "귀사의 전력 발전 활동, 제공 세부 정보 의 귀사의 및 전력 발전 각 기술."
   },
   "defaultPoints": {
     "D": "/",
@@ -333,16 +333,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
   "moduleTitleKo": "소개",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "수자원, 해양, Climate Change",
+  "issueTagsKo": "수자원, 해양, 기후 변경",
   "sectorTagsKo": "에너지 유틸리티 및 발전",
-  "simpleHelpKo": "Each 발전 source is associated with specific dependencies, impacts, 리스크, 및 기회, requiring tailored 관리 절차s 및 future planning. For example, hydropower will use 및 impact water resources in a different way to biomass 발전 plants. Asking organizations to disclose their 발전 sources provides 데이터 사용자 with the contextual information necessary to understand 및 evaluate how they assess 및 manage climate- 및 water-related dependencies, impacts, 리스크, 및 기회. This also enables 데이터 사용자 to make more accurate cross-organizational 및 cross-industry comparisons.",
+  "simpleHelpKo": "이 문항은 '전력, 제공 세부 정보 전력.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

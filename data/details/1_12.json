@@ -3,7 +3,7 @@
   "module": "1",
   "moduleTitle": "Introduction",
   "questionText": "Which part of the concrete value chain does your organization operate in?",
-  "questionKo": "귀사는 concrete 가치사슬의 어느 단계에서 운영합니까?",
+  "questionKo": "귀사는 콘크리트 가치사슬의 일부를 운영하고 있습니까?",
   "questionType": "MULTI_SELECT",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -35,13 +35,13 @@
       "type": "Requested Content",
       "text": "General \nSelect all activities that occur inside your organizational boundary.\nProduction of raw materials or intermediary products for sale or own consumption is applicable.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Select all activities that occur inside your 조직경계. Production of raw materials 또는 intermediary products for sale 또는 own consumption is 해당되는 경우."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Alternative \"low CO 2 \" cementitious materials (also referred to as\n\"low-CO 2 materials\" and \"alternative low-CO 2 cements/binders\"): Alternative binding systems that represent a major shift from the traditional process of producing Portland clinker and cement, e.g. alkali activated cements. These alternative cements reduce CO 2 process emissions, which are significant and inherent in Portland clinker production.",
-      "typeKo": "설명 of Terms",
-      "textKo": "Alternative \"low CO 2 \" cementitious materials (also referred to as \"low-CO 2 materials\" 및 \"alternative low-CO 2 cements/binders\"): Alternative binding systems that represent a major shift from the traditional 프로세스 of producing Portland clinker 및 cement, e.g. alkali activated cements. These alternative cements reduce CO 2 프로세스 emissions, which are significant 및 inherent in Portland clinker production."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -65,7 +65,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 - 4/4 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 비공개 경로) 선택지가 선택되지 않은 경우 - 0/8 점 이 경로에서 획득 가능한 최고점은 0/8점입니다."
+      "criteriaKo": "경로) 해당 선택지 선택됨 - 4/4 점 이 경로에서 최대 4/4점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/8 점 이 경로에서 최대 0/8점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -75,7 +75,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -85,7 +85,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -95,12 +95,12 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "PPT",
-    "question_ko": "[국문 번역 검토 필요] Which part of the concrete value chain does your organization operate in?",
+    "question_ko": "귀사는 콘크리트 가치사슬의 일부를 운영하고 있습니까?",
     "q2025": "Q1.12",
     "q2025_text": "Which part of the concrete value chain does your organization operate in?",
     "change_status": "No change - 2026 source verified",
@@ -119,13 +119,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Cement: D 4/4 | A 0/0 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 드롭다운/응답 선택지 연결\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정성 PPT",
+    "daml_summaryKo": "시멘트: D 4/4 | 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정성적",
     "locationEn": "Qualitative PPT",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "귀사는 concrete 가치사슬의 어느 단계에서 운영합니까?"
+    "q2025_textKo": "귀사는 콘크리트 가치사슬의 일부를 운영하고 있습니까?"
   },
   "defaultPoints": {
     "D": "4/4",
@@ -155,27 +155,28 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
   "moduleTitleKo": "소개",
   "questionTypeKo": "복수 선택",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "시멘트",
-  "simpleHelpKo": "CDP aims to deliver a more focused 질문서 for organizations that operate in the 콘크리트 가치사슬. Answers given here allow investors 및 데이터 사용자 to more accurately compare responses across organizations 및 industries.",
+  "simpleHelpKo": "이 문항은 '귀사는 콘크리트 가치사슬의 일부를 운영하고 있습니까?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [
     "Limestone quarrying",
-    "Clinker production",
-    "Portland cement manufacturing",
-    "Blended cement",
+    "Clinker 생산",
+    "Portland 시멘트 manufacturing",
+    "Blended 시멘트",
     "Belite cements",
-    "Alternative ‘low CO2' cementitious materials production",
-    "Aggregates production",
-    "Concrete production",
+    "Alternative ‘low CO2' cementitious materials 생산",
+    "Aggregates 생산",
+    "Concrete 생산",
     "Concrete pavement / asphalt / tarmac",
-    "Lime production"
-  ]
+    "Lime 생산"
+  ],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

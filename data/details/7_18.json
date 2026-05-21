@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Do you include emissions pertaining to your business activity(ies) in your direct operations as part of your global gross Scope 1 figure?",
-  "questionKo": "귀사는 include emissions pertaining to your business activity(ies) in your 직접 운영사업장 as part of your global gross Scope 1 figure입니까?",
+  "questionKo": "포함 배출량 사업 활동 직접 운영사업장 일부 전 세계 범위 1?",
   "questionType": "SINGLE_SELECT",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -22,19 +22,19 @@
       "type": "Change From Last Year",
       "text": "Additional guidance",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "추가 가이던스"
+      "textKo": "전년 대비 변경사항은 2026 CDP 원문 및 변경 추적표 기준으로 확인하십시오."
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Own land only\" or \"Value chain (including own land)\" in response to column \"Relevance of emissions and/or water-related impacts\" for the \"Production\" row of 1.11, or you select \"Direct operations\" or \"Both direct operations and upstream/downstream value chain\" in response to column \" Relevance of emissions and/or water-related impacts\" for the \"Processing/Manufacturing\" or \"Distribution\" rows of 1.11.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Own land only\" 또는 \"가치사슬 (포함 own land)\" in response to 열 \"Relevance of emissions 및/또는 water-related impacts\" 에 대한 \"Production\" 행 of 1.11, 또는 you select \"직접 운영사업장\" 또는 \"Both 직접 운영사업장 및 upstream/다운스트림 가치사슬\" in response to 열 \" Relevance of emissions 및/또는 water-related impacts\" 에 대한 \"프로세스ing/Manufacturing\" 또는 \"Distribution\" 행 of 1.11."
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nIf your organization has calculated emissions from your relevant business activities (i.e. agricultural/forestry, processing/manufacturing and/or distribution) and these emissions are included in the global gross Scope 1 emissions figure reported in 7.6, please select \"Yes\", if these emissions have been included in their entirety, or \"Partially\", if some of these emissions were included. Otherwise, select \"No\". \nThe GHG Protocol has developed new Land Sector and Removals Standard (LSRS) and Guidance. Due to the timeline of publication, organizations are not yet able to report emissions and removals in line with the LSRS in CDP's 2026 corporate questionnaire. Organizations responding to this question during the 2026 disclosure cycle should report in accordance with other GHG Protocol corporate standards.",
       "typeKo": "요청 내용",
-      "textKo": "일반 만약 귀사 has calculated emissions from your 관련 business activities (i.e. agricultural/forestry, 프로세스ing/manufacturing 및/또는 distribution) 및 these emissions are included in the global gross Scope 1 배출량 figure 보고 in 7.6, please select \"예\", 만약 these emissions have been included in their entirety, 또는 \"Partially\", 만약 some 의se emissions were included. Otherwise, select \"아니요\". The GHG Protocol has developed 신규 Land Sector 및 Removals Standard (LSRS) 및 Guidance. Due to the timeline of 공개ation, organizations are not yet able to report emissions 및 removals in line with the LSRS in CDP's 2026 corporate 질문서. Organizations responding to this 문항 during the 2026 공시 cycle 해야 합니다 report in accordance with other GHG Protocol corporate 기준."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -78,7 +78,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1.5 점 A 최고 of 1.5/1.5 점 is available for this 문항."
+      "criteriaKo": "해당 선택지 선택됨 - 1.5 점 이 문항에서 최대 1.5/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -88,7 +88,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Either '예' 또는 'Partially' 선택 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "둘 중 하나 '예' 또는 '부분적으로' 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -98,7 +98,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -108,7 +108,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -118,7 +118,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1.5 점 A 최고 of 1.5/1.5 점 is available for this 문항."
+      "criteriaKo": "해당 선택지 선택됨 - 1.5 점 이 문항에서 최대 1.5/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -128,7 +128,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Either '예' 또는 'Partially' 선택 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "둘 중 하나 '예' 또는 '부분적으로' 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -138,7 +138,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -148,7 +148,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -158,7 +158,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1.5 점 A 최고 of 1.5/1.5 점 is available for this 문항."
+      "criteriaKo": "해당 선택지 선택됨 - 1.5 점 이 문항에서 최대 1.5/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -168,7 +168,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Either '예' 또는 'Partially' 선택 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "둘 중 하나 '예' 또는 '부분적으로' 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -178,7 +178,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -188,12 +188,12 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Do you include emissions pertaining to your business activity(ies) in your direct operations as part of your global gross Scope 1 figure?",
+    "question_ko": "포함 배출량 사업 활동 직접 운영사업장 일부 전 세계 범위 1?",
     "q2025": "Q7.18",
     "q2025_text": "Do you include emissions pertaining to your business activity(ies) in your direct operations as part of your global gross Scope 1 figure?",
     "change_status": "Additional guidance",
@@ -208,17 +208,17 @@
     "daml_summary": "Agricultural commodities: D 1.5/1.5 | A 1/1 | M 0/0 | L 0/0\nFood, beverage & tobacco: D 1.5/1.5 | A 1/1 | M 0/0 | L 0/0\nPaper & forestry: D 1.5/1.5 | A 1/1 | M 0/0 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 options linked\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "추가 가이던스",
+    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
     "detail_change_typesKo": "신규 가이던스",
-    "change_summaryKo": "Added guidance regarding the 공개ation of Land Sector 및 Removals Standard.",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "농산물 원자재: D 1.5/1.5 | A 1/1 | M 0/0 | L 0/0 Food, beverage & tobacco: D 1.5/1.5 | A 1/1 | M 0/0 | L 0/0 Paper & forestry: D 1.5/1.5 | A 1/1 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 드롭다운/응답 선택지 연결\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "농산물 원자재: D 1.5/1.5 | 1/1 | M 0/0 | L 0/0 식음료 및 담배: D 1.5/1.5 | 1/1 | M 0/0 | L 0/0 제지 및 임업: D 1.5/1.5 | 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "귀사는 include emissions 관련 to your business activity(ies) in your 직접 운영사업장 의 일부로 your global gross Scope 1 figure입니까?"
+    "q2025_textKo": "귀사 포함 배출량 관련된 귀사의 사업 활동() 귀사의 직접 운영사업장 일환 의 귀사의 전 세계 총 범위 1 수치?"
   },
   "defaultPoints": {
     "D": "1.5/1.5",
@@ -248,20 +248,21 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "단일 선택",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "농산물 원자재, Food, beverage & tobacco, 제지 및 임업",
-  "simpleHelpKo": "This 문항 gathers data on whether an emissions figure has been calculated for activities 관련 this sector, taking place within your 조직경계, 및 is being 보고 의 일부로 your gross Scope 1. This informs 데이터 사용자 on whether your Scope 1 figure is representative of your business' activities 및 their associated climate-related impacts.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "농산물 원자재, 식품, 음료 & 담배, 제지 및 임업",
+  "simpleHelpKo": "이 문항은 '포함 배출량 사업 활동() 직접 운영사업장 전 세계 범위 1?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [
     "예",
-    "Partially",
+    "부분적으로",
     "아니요"
-  ]
+  ],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

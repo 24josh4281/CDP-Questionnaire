@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Why do you not encourage your suppliers to undertake any agricultural/forest management practices with climate change mitigation and/or adaptation benefits?",
-  "questionKo": "공급업체가 기후변화 완화 및/또는 적응 편익이 있는 농업/산림 관리 관행을 수행하도록 권장하지 않는 이유를 설명하십시오.",
+  "questionKo": "농업/산림 관리 기후 변경 /?",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -38,11 +38,11 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "부족 internal resources",
-        "We plan to introduce a 프로세스 in the next two years",
-        "Not an immediate business priority",
-        "Judged to be unimportant",
-        "No instruction from 관리",
+        "내부 자원 부족",
+        "당사 계획 프로세스 향후 2년",
+        "아님 사업 우선순위",
+        "판단됨 중요하지 않음",
+        "아니요 에서 관리",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -56,7 +56,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Please explain",
+      "textKo": "설명하십시오",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -74,14 +74,14 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"No\" in response to 7.68.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"No\" in response to 7.68."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"아니요\" 응답 7.68."
     },
     {
       "type": "Requested Content",
       "text": "Primary reason (column 1) \nSelect the option that best describes the primary reason why you indicated that you do not encourage your suppliers to undertake any agricultural/forestry management practices or actions with climate change benefits.\nIf none of the reasons are applicable to your organization, select ‘Other, please specify' and indicate the primary reason you do not encourage suppliers in this context.\nPlease explain (column 2) \nIf you selected ‘Lack of internal resources,' specify the main challenges you experience to performing such engagement.\nIf you selected ‘We plan to introduce a process in the next two years,' describe your plans for engagement, by including:\n- The percentage of suppliers you are planning to cover. \n- Which practices you will encourage your suppliers to adopt and why. \n- Brief explanation of how the implementation of these practices may benefit your suppliers and consequently your business. \n- How you plan to approach and support your suppliers on the implementation of these management practices.",
       "typeKo": "요청 내용",
-      "textKo": "주된 이유 (열 1) Select the option that best 설명s the 주된 이유 why you indicated that you do not 공급업체가 수행하도록 권장 하나 이상 agricultural/forestry 관리 practices 또는 actions with climate change benefits. 만약 none 의 reasons are 해당되는 경우 to 귀사, select ‘Other, 직접 입력' 및 indicate the 주된 이유 you do not encourage 공급업체 in this context. Please explain (열 2) 만약 you 선택 ‘부족 internal resources,' specify the main challenges you experience to performing such 참여. 만약 you 선택 ‘We plan to introduce a 프로세스 in the next two years,' 설명 your plans for 참여, by 포함: - The percentage of 공급업체 you are planning to cover. - Which practices you will encourage your 공급업체 to adopt 및 why. - Brief 설명 of how the 이행 의se practices may benefit your 공급업체 및 consequently your business. - How you plan to approach 및 support your 공급업체 on the 이행 의se 관리 practices."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -125,7 +125,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -135,7 +135,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. Either 'We plan to introduce a 프로세스 in the next two years' 또는 'Other, 직접 입력' 선택 in 열 '주된 이유' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -145,7 +145,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -155,7 +155,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -165,7 +165,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -175,7 +175,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. Either 'We plan to introduce a 프로세스 in the next two years' 또는 'Other, 직접 입력' 선택 in 열 '주된 이유' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -185,7 +185,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -195,7 +195,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -205,7 +205,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -215,7 +215,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. Either 'We plan to introduce a 프로세스 in the next two years' 또는 'Other, 직접 입력' 선택 in 열 '주된 이유' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -225,7 +225,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -235,12 +235,12 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Why do you not encourage your suppliers to undertake any agricultural/forest management practices with climate change mitigation and/or adaptation benefits?",
+    "question_ko": "농업/산림 관리 기후 변경 /?",
     "q2025": "Q7.68.3",
     "q2025_text": "Why do you not encourage your suppliers to undertake any agricultural/forest management practices with climate change mitigation and/or adaptation benefits?",
     "change_status": "No change - 2026 source verified",
@@ -259,13 +259,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "농산물 원자재: D 2/2 | A 1/1 | M 0/0 | L 0/0 Food, beverage & tobacco: D 2/2 | A 1/1 | M 0/0 | L 0/0 Paper & forestry: D 2/2 | A 1/1 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "농산물 원자재: D 2/2 | 1/1 | M 0/0 | L 0/0 식음료 및 담배: D 2/2 | 1/1 | M 0/0 | L 0/0 제지 및 임업: D 2/2 | 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "왜 공급업체가 수행하도록 권장 하나 이상 농업/산림 관리 관행 기후변화 완화 및/또는 적응 편익이 있는하지 않습니까?"
+    "q2025_textKo": "이유 귀사가 아님 귀사의 공급업체 수행 해당 농산물/산림 관리 기후변화 완화 및/또는 적응?"
   },
   "defaultPoints": {
     "D": "2/2",
@@ -295,16 +295,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "농산물 원자재, Food, beverage & tobacco, 제지 및 임업",
-  "simpleHelpKo": "데이터 사용자 wish to know the main reason why you do not 공급업체가 수행하도록 권장 하나 이상 관리 practices with climate change benefits 및 하나 이상 plans you might have to engage with your 공급업체 regarding managing practices in the next two years.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "농산물 원자재, 식품, 음료 & 담배, 제지 및 임업",
+  "simpleHelpKo": "이 문항은 '/산림 관리 기후 변경 /?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

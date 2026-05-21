@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details on your organization's chemical products.",
-  "questionKo": "details on 귀사의 chemical products.을/를 입력하십시오.",
+  "questionKo": "귀사의 화학 제품에 대한 세부 정보를 제공하십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "행 1"
+      "titleKo": "1행"
     }
   ],
   "columns": [
@@ -45,26 +45,26 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Output product",
+      "textKo": "제품",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "High Value Chemicals (Steam cracking)",
-        "Ammonia",
-        "Aromatics extraction",
-        "Methanol",
-        "Butylene",
-        "Propylene (FCC)",
-        "Ethanol",
-        "Butadiene (C4 sep.)",
-        "Nitric acid",
-        "Adipic acid",
-        "Caprolactam",
-        "Soda ash",
-        "Carbon black",
-        "Polymers",
-        "Specialty chemicals",
-        "Other base chemicals",
+        "가치 화학 (스팀)",
+        "",
+        "",
+        "",
+        "",
+        "()",
+        "",
+        "(C4.)",
+        "",
+        "",
+        "",
+        "",
+        "탄소",
+        "",
+        "화학",
+        "기타 기반 화학",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -78,7 +78,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Production (metric tons)",
+      "textKo": "생산 (미터톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -93,7 +93,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Capacity (metric tons)",
+      "textKo": "(미터톤)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -108,7 +108,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Direct 배출집약도 (미터톤 CO2e per metric ton of product)",
+      "textKo": "직접 배출집약도 (미터톤 CO2e 마다 지표 의)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -123,7 +123,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Electricity intensity (MWh per metric ton of product)",
+      "textKo": "전력 집약도 (마다 지표 의)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -138,7 +138,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Steam intensity (MWh per metric ton of product)",
+      "textKo": "스팀 집약도 (마다 지표 의)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -153,7 +153,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Steam/ heat recovered (MWh per metric ton of product)",
+      "textKo": "스팀/ 열 (마다 지표 의)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -168,7 +168,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Comment",
+      "textKo": "의견",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -187,13 +187,13 @@
       "type": "Requested Content",
       "text": "General \nComplete the table for each chemical output product selected in column 1. \nYour production, capacity, and intensity figures should be for the reporting year only (as defined by your answer to 1.4). \nIf you did not have any capacity, production or intensity in the reporting year then enter 0 (zero) in the relevant field. \nNegative numbers are not allowed. \nYou should apply the same logic to your boundary definition as provided in question 7.19. \nOutput product (column 1) \nSelect the product(s) relevant to your organization's chemical-related activities. Select as many as applicable. You may also wish to select those with no production in the reporting year to confirm zero activity. \nIf you select \"Other (Please specify),\" provide a label for the output product. \nProduction (metric tons) (column 2) \nEnter the production in metric tons, for the product selected in column 1. \nCapacity (metric tons) (column 3) \nEnter the production capacity in metric tons of the output product selected in column 1. \nDirect emissions intensity (metric tons CO2e per metric ton of product) (column 4) \nReport the direct emissions intensity, in metric tons CO2e per metric ton of chemical product, in the reporting year, for the product selected in column 1. \nDirect emissions include emissions from the use of fuel for process heating and feedstock related emissions (process emissions). \nElectricity intensity (MWh per metric ton of product) (column 5) \nReport the electric intensity, in MWh per metric ton of chemical product, in the reporting year, for the product selected in column 1. \nBecause this question relates to the process-level, Scope 1 and Scope 2 terminology is not used here. No distinction needs to be made on whether the electricity is sourced from inside or outside of the organizational boundary. \nScope 2 emissions are not requested to avoid the influence of emission factors that are unrelated to the process. \nSteam intensity (MWh per metric ton of product) (column 6) \nReport the steam intensity, in MWh per metric ton of chemical product, in the reporting year, for the product selected in column 1. \nSteam/heat recovered (MWh per metric ton of product) (column 7) \nReport the steam/heat recovered, in MWh per metric ton of chemical product, in the reporting year, for the product selected in column 1. \nMany processes in the chemicals sector are exothermic. You should enter here the MWh of steam/heat that is recovered from the process. \nComment (column 8) (optional) \nUse this column to provide any additional information relevant to the chemical product selected in column 1.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Complete the table for each chemical output product 선택 in 열 1. Your production, capacity, 및 intensity figures 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). 만약 you did not have 하나 이상 capacity, production 또는 intensity in the 보고연도 then enter 0 (zero) in the 관련 field. Negative numbers are not allowed. You 해야 합니다 apply the same logic to your boundary definition as 입력 in 문항 7.19. Output product (열 1) Select the product(s) 관련 to 귀사의 chemical-related activities. Select as many as 해당되는 경우. You may also wish to select those with no production in the 보고연도 to confirm zero activity. 만약 you select \"Other (직접 입력),\" provide a label 에 대한 output product. Production (metric tons) (열 2) Enter the production in metric tons, 에 대한 product 선택 in 열 1. Capacity (metric tons) (열 3) Enter the production capacity in metric tons 의 output product 선택 in 열 1. Direct 배출집약도 (미터톤 CO2e per metric ton of product) (열 4) Report the direct 배출집약도, in 미터톤 CO2e per metric ton of chemical product, in the 보고연도, 에 대한 product 선택 in 열 1. Direct emissions include emissions from the use of fuel for 프로세스 heating 및 feedstock related emissions (프로세스 emissions). Electricity intensity (MWh per metric ton of product) (열 5) Report the electric intensity, in MWh per metric ton of chemical product, in the 보고연도, 에 대한 product 선택 in 열 1. Because this 문항 relates to the 프로세스-level, Scope 1 및 Scope 2 terminology is not used here. No distinction needs to be made on whether the electricity is sourced from inside 또는 outside 의 조직경계. Scope 2 배출량 are not requested to avoid the influence of emission factors that are unrelated to the 프로세스. Steam intensity (MWh per metric ton of product) (열 6) Report the steam intensity, in MWh per metric ton of chemical product, in the 보고연도, 에 대한 product 선택 in 열 1. Steam/heat recovered (MWh per metric ton of product) (열 7) Report the steam/heat recovered, in MWh per metric ton of chemical product, in the 보고연도, 에 대한 product 선택 in 열 1. Many 프로세스es in the chemicals sector are exothermic. You 해야 합니다 enter here the MWh of steam/heat that is recovered from the 프로세스. Comment (열 8) (optional) Use this 열 to provide 하나 이상 additional information 관련 to the chemical product 선택 in 열 1."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "High Value Chemicals (Steam cracking): High value chemicals (HVCs) produced via steam cracking include ethylene, propylene from the pyrolysis gas of steam crackers, benzene (contained amounts, excluding extracted amounts), butadiene (also contained), acetylene, and hydrogen sold (as fuel).\nSteam cracking: Steam cracking is the main method of breaking down large molecules of hydrocarbons, in which a gaseous or liquid hydrocarbon is diluted with steam and then heated. The main product for steam cracking process is HVCs.",
-      "typeKo": "설명 of Terms",
-      "textKo": "High Value Chemicals (Steam cracking): High value chemicals (HVCs) produced via steam cracking include ethylene, propylene from the pyrolysis gas of steam crackers, benzene (contained amounts, 제외 extracted amounts), butadiene (also contained), acetylene, 및 hydrogen sold (as fuel). Steam cracking: Steam cracking is the main method of breaking down large molecules of hydrocarbons, in which a gaseous 또는 liquid hydrocarbon is diluted with steam 및 then heated. The main product for steam cracking 프로세스 is HVCs."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -217,7 +217,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 7/7점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 7/7점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -227,7 +227,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표 완료 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -237,7 +237,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -247,12 +247,12 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Provide details on your organization's chemical products.",
+    "question_ko": "귀사의 화학 제품에 대한 세부 정보를 제공하십시오",
     "q2025": "Q7.39",
     "q2025_text": "Provide details on your organization's chemical products.",
     "change_status": "No change - 2026 source verified",
@@ -271,13 +271,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Chemicals: D 7/7 | A 2/2 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "화학: D 7/7 | 2/2 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "details on 귀사의 chemical products.을/를 입력하십시오."
+    "q2025_textKo": "귀사의 화학 제품에 대한 세부 정보를 제공하십시오"
   },
   "defaultPoints": {
     "D": "7/7",
@@ -307,16 +307,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "화학",
-  "simpleHelpKo": "Unlike most other high-impact sectors identified by CDP, the chemicals sector is heterogeneous 및 highly diverse in structure, 및 can even be characterized as a group of disparate subsectors. It is, therefore, problematic to consider sector-wide intensities. However, it is useful to identify the most important chemical production 프로세스es from an environmental 또는 transition risk perspective 및 shed light on the presence 및 impact 의m within 및 between organizations.",
+  "simpleHelpKo": "이 문항은 '귀사의 화학 제품에 대한 세부 정보를 제공하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

@@ -3,7 +3,7 @@
   "module": "1",
   "moduleTitle": "Introduction",
   "questionText": "What was the size of your organization based on total assets value at the end of the reporting period?",
-  "questionKo": "보고기간 말 기준 총자산 가치로 본 귀사의 규모는 얼마입니까?",
+  "questionKo": "보고 기간 말의 총 자산 가치를 기준으로 한 귀사의 규모는 얼마입니까?",
   "questionType": "NUMERIC",
   "mandatory": "False",
   "issueTags": "Water, Biodiversity, Plastics, Climate Change, Forests",
@@ -24,7 +24,7 @@
       "type": "Requested Content",
       "text": "General \nProvide the figure of your total gross value of assets owned, assets under management (AUM), assets under advisory and assets insured, reported in the currency selected in question 1.2.\nThe value figure should be reported as the market value at the end of the reporting year.\nWhen market value is unavailable, you should report the latest net releasable value estimate of those assets.\nThe total assets figure should include uncalled commitments (e.g. in private equity or infrastructure) and policyholders' funds, off-balance-sheet assets and their portion of joint venture (JV) assets (where relevant).",
       "typeKo": "요청 내용",
-      "textKo": "일반 Provide the figure of your total gross value of 자산 owned, 자산 under 관리 (AUM), 자산 under advisory 및 자산 insured, 보고 in the currency 선택 in 문항 1.2. The value figure 해야 합니다 be 보고 as the market value at the end 의 보고연도. 경우 market value is unavailable, you 해야 합니다 report the latest net releasable value estimate of those 자산. The total 자산 figure 해야 합니다 include uncalled commitments (e.g. in private equity 또는 인프라) 및 정책holders' funds, off-balance-sheet 자산 및 their portion of joint venture (JV) 자산 (여기서 관련)."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -48,7 +48,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -58,7 +58,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -68,7 +68,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -78,12 +78,12 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "PPT",
-    "question_ko": "[국문 번역 검토 필요] What was the size of your organization based on total assets value at the end of the reporting period?",
+    "question_ko": "보고 기간 말의 총 자산 가치를 기준으로 한 귀사의 규모는 얼마입니까?",
     "q2025": "Q1.9",
     "q2025_text": "What was the size of your organization based on total assets value at the end of the reporting period?",
     "change_status": "No change - 2026 source verified",
@@ -102,13 +102,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "금융 서비스: D 0/0 | A 0/0 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정성 PPT",
+    "daml_summaryKo": "금융 서비스: D 0/0 | 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정성적",
     "locationEn": "Qualitative PPT",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "보고기간 말 기준 총자산 가치로 본 귀사의 규모는 얼마입니까?"
+    "q2025_textKo": "보고 기간 말의 총 자산 가치를 기준으로 한 귀사의 규모는 얼마입니까?"
   },
   "defaultPoints": {
     "D": "0/0",
@@ -138,16 +138,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
   "moduleTitleKo": "소개",
   "questionTypeKo": "숫자 입력",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "수자원, 생물다양성, 플라스틱, Climate Change, 산림",
+  "issueTagsKo": "수자원, 생물다양성, 플라스틱, 기후 변경, 산림",
   "sectorTagsKo": "금융 서비스",
-  "simpleHelpKo": "This 문항 helps 데이터 사용자 interpret how your responses relate to your operations by providing context on your financing 및/또는 activities 공개 via CDP in relation to your total activities.",
+  "simpleHelpKo": "이 문항은 '보고 기간 말의 총 자산 가치를 기준으로 한 귀사의 규모는 얼마입니까?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

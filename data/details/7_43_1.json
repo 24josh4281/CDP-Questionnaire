@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Disclose feedstocks processed in the reporting year in million barrels per year.",
-  "questionKo": "Disclose feedstocks 프로세스ed in the 보고연도 in million barrels per year.",
+  "questionKo": "보고 연도에 처리한 공급원료를 연간 백만 배럴 단위로 공개하세요",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,17 +15,17 @@
     {
       "order": 1,
       "title": "Oil",
-      "titleKo": "Oil"
+      "titleKo": "석유"
     },
     {
       "order": 2,
       "title": "Other feedstocks",
-      "titleKo": "Other feedstocks"
+      "titleKo": "기타 원료"
     },
     {
       "order": 3,
       "title": "Total",
-      "titleKo": "Total"
+      "titleKo": "총"
     }
   ],
   "columns": [
@@ -37,7 +37,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Throughput (Million barrels)",
+      "textKo": "(백만)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -52,7 +52,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Comment",
+      "textKo": "의견",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -70,20 +70,20 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Downstream\" in response to 1.19.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Downstream\" in response to 1.19."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"다운스트림\" 응답 1.19."
     },
     {
       "type": "Requested Content",
       "text": "Throughput (Million barrels) (column 2)\nEnter the throughput for the reporting year in million barrels for the feedstocks (oil or other feedstocks) relevant to your organization.\nThe \"Other feedstocks\" option is in the \"Feedstock\" column to allow flexibility in the reporting of refined products.\nThe total row should equal the sum of rows above it (i.e. oil and other feedstocks).",
       "typeKo": "요청 내용",
-      "textKo": "Throughput (Million barrels) (열 2) Enter the throughput 에 대한 보고연도 in million barrels 에 대한 feedstocks (oil 또는 other feedstocks) 관련 to 귀사. The \"Other feedstocks\" option is in the \"Feedstock\" 열 to allow flexibility in the reporting of refined products. The total 행 해야 합니다 equal the sum of 행 above it (i.e. oil 및 other feedstocks)."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
       "text": "Explanations of the feedstocks listed are available in the following Technical Note: \" Fuel Definitions \".",
       "typeKo": "추가 정보",
-      "textKo": "설명s 의 feedstocks listed are available in the following Technical Note: \" Fuel Definitions \"."
+      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
     }
   ],
   "points": [
@@ -107,7 +107,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 6/6점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -117,7 +117,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -127,7 +127,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -137,12 +137,12 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Disclose feedstocks processed in the reporting year in million barrels per year.",
+    "question_ko": "보고 연도에 처리한 공급원료를 연간 백만 배럴 단위로 공개하세요",
     "q2025": "Q7.43.1",
     "q2025_text": "Disclose feedstocks processed in the reporting year in million barrels per year.",
     "change_status": "No change - 2026 source verified",
@@ -161,13 +161,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Oil & Gas: D 6/6 | A 0/0 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "석유 및 가스: D 6/6 | 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "Disclose feedstocks 프로세스ed in the 보고연도 in million barrels per year."
+    "q2025_textKo": "보고 연도에 처리한 공급원료를 연간 백만 배럴 단위로 공개하세요"
   },
   "defaultPoints": {
     "D": "6/6",
@@ -197,16 +197,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "석유 및 가스",
-  "simpleHelpKo": "There is a significant environmental impact due to the energy intensive nature 및 emissions output associated with the 프로세스ing of feedstocks. Understanding the throughput of feedstocks 프로세스ed in the 보고연도 is important for investment analysis.",
+  "simpleHelpKo": "이 문항은 '보고 연도에 처리한 공급원료를 연간 백만 배럴 단위로 공개하세요'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Which of the following removals accounting subcategories are relevant to your organization in the reporting year?",
-  "questionKo": "다음 중 removals accounting subcategories are relevant to 귀사 in the 보고연도에",
+  "questionKo": "제거량 관련된 조직 보고연도?",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,27 +15,27 @@
     {
       "order": 1,
       "title": "Captured biogenic CO2 with geologic storage",
-      "titleKo": "Captured biogenic CO2 with geologic storage"
+      "titleKo": "포집된 생물기원 CO2 지질학적 저장"
     },
     {
       "order": 2,
       "title": "Technological CO2 removals with geologic storage",
-      "titleKo": "Technological CO2 removals with geologic storage"
+      "titleKo": "기술 기반 CO2 제거 지질학적 저장"
     },
     {
       "order": 3,
       "title": "TCDR-based product CO2 emissions (as gross CO2 fluxes)",
-      "titleKo": "TCDR-based product CO2 emissions (as gross CO2 fluxes)"
+      "titleKo": "기준 CO2 배출량 (총 CO2)"
     },
     {
       "order": 4,
       "title": "Gross CO2 emissions from geologic storage",
-      "titleKo": "Gross CO2 emissions from geologic storage"
+      "titleKo": "총 CO2 배출량 에서 지질학적 저장"
     },
     {
       "order": 5,
       "title": "Reversals of CO2 removals with geologic storage",
-      "titleKo": "Reversals of CO2 removals with geologic storage"
+      "titleKo": "의 CO2 제거 지질학적 저장"
     }
   ],
   "columns": [
@@ -52,14 +52,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Scope 1",
+      "textKo": "범위 1",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "관련, calculated",
-        "관련, not yet calculated",
-        "Not 관련, 설명 입력",
-        "Not evaluated"
+        "관련성 있음, 산정됨",
+        "관련성 있음, 아님 산정됨",
+        "관련 없음, 설명 제공된",
+        "아님 평가된"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -77,14 +77,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Scope 2",
+      "textKo": "범위 2",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "관련, calculated",
-        "관련, not yet calculated",
-        "Not 관련, 설명 입력",
-        "Not evaluated"
+        "관련성 있음, 산정됨",
+        "관련성 있음, 아님 산정됨",
+        "관련 없음, 설명 제공된",
+        "아님 평가된"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -102,14 +102,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Scope 3",
+      "textKo": "범위 3",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "관련, calculated",
-        "관련, not yet calculated",
-        "Not 관련, 설명 입력",
-        "Not evaluated"
+        "관련성 있음, 산정됨",
+        "관련성 있음, 아님 산정됨",
+        "관련 없음, 설명 제공된",
+        "아님 평가된"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -122,7 +122,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Please explain",
+      "textKo": "설명하십시오",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -140,20 +140,20 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes, in our direct operations\", \"Yes, in our upstream/downstream value chain\" or \"Yes, in both our direct operations and our upstream/downstream value chain\" in response to 7.13 column \"Technological CO2 removals or captured CO2 with geologic storage in the reporting year\", or if you select \"Yes\" in response to 7.13 column \"Technological CO2 removals or captured CO2 with geologic storage were accounted for and reported in previous years\"",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Yes, in our 직접 운영사업장\", \"Yes, in our upstream/다운스트림 가치사슬\" 또는 \"Yes, in both our 직접 운영사업장 및 our upstream/다운스트림 가치사슬\" in response to 7.13 열 \"Technological CO2 removals 또는 captured CO2 with geologic storage in the 보고연도\", 또는 만약 you select \"Yes\" in response to 7.13 열 \"Technological CO2 removals 또는 captured CO2 with geologic storage were accounted for 및 보고 in previous years\""
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nThis question asks which of the GHG Protocol Land Sector and Removals Standard (LSRS) physical GHG inventory accounting subcategories and additional accounting subcategories for technological removal and captured CO2 with geologic storage value chains are relevant to your organization.\nThe evaluation status includes two components: whether an accounting subcategory is relevant to your business and whether you have calculated the data in that subcategory.\nRelevance may be affected by your significance threshold. The GHG Protocol makes no specific recommendations as to what constitutes a \"significant\" exclusion threshold. If you deem a subcategory not relevant on the basis of your significance threshold, provide the details of the threshold applied in the \"Please explain\" column.\nNote: if you have calculated emissions in line with the LSRS for the first time and this has resulted in changes to the scope 1, scope 2 and/or cope 3 emissions figures reported in 7.6, 7.7 and/or 7.8, report this as a change in methodology in 7.1.2 and report details of the change in emissions as a result of the change in methodology in 7.10.1 and 7.11.1 (if applicable).\nFor more details on each of the subcategories, see the \"Explanation of Terms\" and refer to the GHG Protocol Land Sector and Removals Standard and Guidance.\nTCDR-based product CO2 emissions (as gross CO2 fluxes) (row 3) \nAccording to \"Requirement 18: TCDR-based product emissions accounting\" of the LSRS, CO2 emissions from technological carbon dioxide removal (TCDR)-based products should be reported as gross CO2 fluxes (separately from \"Fossil fuel and industrial emissions\") in the scope corresponding to the point of oxidation (i.e., when they are released to the atmosphere) if:\nyou have information on the origin of the CO2 or carbon in the product that demonstrates the CO2 is technologically removed CO2; and\nyou account for and report all life cycle GHG emissions associated with the TCDR-based product in scope 3.\nSelect one of the \"Relevant…\" options if you meet these criteria for any TCDR-based products.\nIf you do not meet these criteria for any TCDR-based products, select \"Not relevant, explanation provided\" and report CO2 emissions from TCDR-based products as \"Fossil fuel and industrial emissions\".\nNote that \"Fossil fuel and industrial emissions\" are currently part of the emissions figures reported in questions 7.6, 7.7 and 7.8.\nReversals of CO2 removals with geologic storage (row 5) \nReversals are emissions from carbon pools which store carbon associated with previously reported removals in cases where the carbon pool is no longer within the company's operations or value chain.\nIn cases where the carbon pool remains within the organization's operations or value chain, any associated emissions should be reported as \"Fossil fuel and industrial emissions\" (in 7.6 and/or 7.8).\nIf you have never previously reported CO2 removals with geologic storage, select \"Not relevant, explanation provided\" in this row, and use the \"Please explain\" column to explain that this is the reason why reversals are not relevant.\nNote that in 2026, organizations are not expected to report reversals of CO2 removals with geologic storage since 2026 is the first year they are able to report CO2 removals with geologic storage in line with the LSRS.\nPlease explain (column 4) \nFor all accounting subcategories identified as \"Not relevant, explanation provided\" in columns \"Scope 1\", \"Scope 2\", and/or \"Scope 3\", explain how you have reached the conclusion that the subcategory is not relevant and include details of any significance thresholds applied.\nIf relevant, use this column to explain your approach to reporting TCDR-based product emissions, including whether these emissions are currently included in 7.6, 7.7 and/or 7.8. See LSRS \"Requirement 18: TCDR-based product emissions accounting\" for further details.",
       "typeKo": "요청 내용",
-      "textKo": "일반 This 문항 asks which 의 GHG Protocol Land Sector 및 Removals Standard (LSRS) physical GHG inventory accounting subcategories 및 additional accounting subcategories for technological removal 및 captured CO2 with geologic storage 가치사슬s are 관련 to 귀사. The evaluation status includes two components: whether an accounting subcategory is 관련 to your business 및 whether you have calculated the data in that subcategory. Relevance may be affected by your significance threshold. The GHG Protocol makes no specific recommendations as to what constitutes a \"significant\" exclusion threshold. 만약 you deem a subcategory not 관련 on the basis of your significance threshold, provide the details 의 threshold applied in the \"Please explain\" 열. Note: 만약 you have calculated emissions in line with the LSRS 에 대한 first time 및 this has resulted in changes to the scope 1, scope 2 및/또는 cope 3 emissions figures 보고 in 7.6, 7.7 및/또는 7.8, report this as a change in 방법론 in 7.1.2 및 report details 의 change in emissions as a result 의 change in 방법론 in 7.10.1 및 7.11.1 (만약 해당되는 경우). For more details on each 의 subcategories, see the \"설명 of Terms\" 및 refer to the GHG Protocol Land Sector 및 Removals Standard 및 Guidance. TCDR-based product CO2 emissions (as gross CO2 fluxes) (행 3) According to \"Requirement 18: TCDR-based product 배출량 회계\" 의 LSRS, CO2 emissions from technological carbon dioxide removal (TCDR)-based products 해야 합니다 be 보고 as gross CO2 fluxes (separately from \"Fossil fuel 및 industrial emissions\") in the scope corresponding to the 점 of oxidation (i.e., 경우 they are released to the atmosphere) 만약: you have information on the origin 의 CO2 또는 carbon in the product that demonstrates the CO2 is technologically 삭제 CO2; 및 you account for 및 report all life cycle 온실가스 배출량 associated with the TCDR-based product in scope 3. Select one 의 \"관련…\" options 만약 you meet these 기준 for 하나 이상 TCDR-based products. 만약 you do not meet these 기준 for 하나 이상 TCDR-based products, select \"Not 관련, 설명 입력\" 및 report CO2 emissions from TCDR-based products as \"Fossil fuel 및 industrial emissions\". Note that \"Fossil fuel 및 industrial emissions\" are currently part 의 emissions figures 보고 in 문항 7.6, 7.7 및 7.8. Reversals of CO2 removals with geologic storage (행 5) Reversals are emissions from carbon pools which store carbon associated with previously 보고 removals in cases 여기서 the carbon pool is no longer within the company's operations 또는 가치사슬. In cases 여기서 the carbon pool remains within the 조직의 operations 또는 가치사슬, 하나 이상 associated emissions 해야 합니다 be 보고 as \"Fossil fuel 및 industrial emissions\" (in 7.6 및/또는 7.8). 만약 you have never previously 보고 CO2 removals with geologic storage, select \"Not 관련, 설명 입력\" in this 행, 및 use the \"Please explain\" 열 to explain that this is the reason why reversals are not 관련. Note that in 2026, organizations are not expected to report reversals of CO2 removals with geologic storage since 2026 is the first year they are able to report CO2 removals with geologic storage in line with the LSRS. Please explain (열 4) For all accounting subcategories identified as \"Not 관련, 설명 입력\" in 열 \"Scope 1\", \"Scope 2\", 및/또는 \"Scope 3\", explain how you have reached the conclusion that the subcategory is not 관련 및 include details of 하나 이상 significance thresholds applied. 만약 관련, use this 열 to explain your approach to reporting TCDR-based product emissions, 포함 whether these emissions are currently included in 7.6, 7.7 및/또는 7.8. See LSRS \"Requirement 18: TCDR-based product 배출량 회계\" for further details."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Captured biogenic CO2 with geologic storage: net CO2 removals resulting from annual net increases to carbon stored in geologic carbon pools from carbon derived from biological sinks ( GHG Protocol ).\nGross CO2 emissions from geologic storage: gross CO2 emissions from fugitive CO2 emissions or other CO2 losses to the atmosphere from a geologic reservoir containing captured and stored CO2 ( GHG Protocol ).\nReversals: an emission from a carbon pool that stores carbon associated with a removal that was previously reported by the reporting organization, and that it is no longer within the inventory boundary ( GHG Protocol ).\nTCDR-based product CO2 emissions (as gross CO2 fluxes): gross CO2 emissions from the combustion, degradation or other losses from technological carbon dioxide removal-based product carbon pools to the atmosphere ( GHG Protocol ).\nTechnological CO2 removals with geologic storage: net CO2 removals resulting from annual net increases to carbon stored in geologic carbon pools from carbon derived from technological sinks ( GHG Protocol ).",
-      "typeKo": "설명 of Terms",
-      "textKo": "Captured biogenic CO2 with geologic storage: net CO2 removals resulting from annual net increases to carbon stored in geologic carbon pools from carbon derived from biological sinks (GHG Protocol). Gross CO2 emissions from geologic storage: gross CO2 emissions from fugitive CO2 emissions 또는 other CO2 losses to the atmosphere from a geologic reservoir containing captured 및 stored CO2 (GHG Protocol). Reversals: an emission from a carbon pool that stores carbon associated with a removal that was previously 보고 by the reporting organization, 및 that it is no longer within the inventory boundary (GHG Protocol). TCDR-based product CO2 emissions (as gross CO2 fluxes): gross CO2 emissions from the combustion, degradation 또는 other losses from technological carbon dioxide removal-based product carbon pools to the atmosphere (GHG Protocol). Technological CO2 removals with geologic storage: net CO2 removals resulting from annual net increases to carbon stored in geologic carbon pools from carbon derived from technological sinks (GHG Protocol)."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -357,7 +357,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -367,7 +367,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -377,7 +377,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "General",
@@ -387,7 +387,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -397,7 +397,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -407,7 +407,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -417,7 +417,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -427,7 +427,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -437,7 +437,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -447,7 +447,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -457,7 +457,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -467,7 +467,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -477,7 +477,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -487,7 +487,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -497,7 +497,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -507,7 +507,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -517,7 +517,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -527,7 +527,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -537,7 +537,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -547,7 +547,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -557,7 +557,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -567,7 +567,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -577,7 +577,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -587,7 +587,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -597,7 +597,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -607,7 +607,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -617,7 +617,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -627,7 +627,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Construction",
@@ -637,7 +637,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -647,7 +647,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -657,7 +657,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Construction",
@@ -667,7 +667,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -677,7 +677,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -687,7 +687,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -697,7 +697,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -707,7 +707,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -717,7 +717,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -727,7 +727,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -737,7 +737,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -747,7 +747,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -757,7 +757,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -767,7 +767,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -777,7 +777,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -787,7 +787,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -797,7 +797,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -807,7 +807,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -817,7 +817,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -827,7 +827,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -837,7 +837,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -847,7 +847,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -857,7 +857,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -867,7 +867,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -877,7 +877,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -887,7 +887,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -897,7 +897,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -907,7 +907,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -917,7 +917,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -927,7 +927,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -937,7 +937,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -947,7 +947,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -957,7 +957,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -967,7 +967,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -977,7 +977,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -987,7 +987,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -997,7 +997,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1007,7 +1007,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1017,7 +1017,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -1027,7 +1027,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1037,7 +1037,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1047,7 +1047,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1057,7 +1057,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1067,7 +1067,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -1077,7 +1077,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 displayed. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1087,7 +1087,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table complete - 1 점 A 최고 of 1/1 점 are available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1097,7 +1097,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -1107,12 +1107,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Which of the following removals accounting subcategories are relevant to your organization in the reporting year?",
+    "question_ko": "제거량 관련된 조직 보고연도?",
     "q2025": "New 2026",
     "q2025_text": "New 2026",
     "change_status": "New question",
@@ -1130,12 +1130,12 @@
     "change_statusKo": "신규 문항",
     "detail_change_typesKo": "신규 문항, 신규 열",
     "change_summaryKo": "신규 문항 신규 열",
-    "scoring_change_summaryKo": "CC 전 섹터 공시, 인지 & 관리 • 문항 scored for completion 의 table. Proportionally at 공시 level 및 for a complete table at 인지 level. • 관리 level is not scored. Scoring updated to account for change in 문항.",
-    "daml_summaryKo": "일반: D 4/4 | A 1/1 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "daml_summaryKo": "일반: D 4/4 | 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
     "q2025_textKo": "신규 2026"
   },
@@ -1167,16 +1167,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "The global scientific consensus makes it clear that the world needs to reduce greenhouse gas (GHG) emissions 및 remove carbon dioxide (CO2) from the atmosphere to avoid a 1.5°C (or even 2°C) rise in global average temperature compared to pre-industrial levels. Both land sector mitigation approaches along with 신규 CO2 removal technologies will play an important role in reducing, halting, 및 ultimately reversing, the accumulation of greenhouse gases in the atmosphere. The Greenhouse Gas Protocol Land Sector 및 Removals Standard (LSRS) establishes requirements 및 recommendations to account for, report 및 track 온실가스 배출량, CO2 removals 및 other 관련 metrics that reflect anthropogenic activities in the land sector, as well as other CO2 removals technologies.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '제거량 조직 보고연도?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

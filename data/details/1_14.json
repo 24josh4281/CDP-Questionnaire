@@ -3,7 +3,7 @@
   "module": "1",
   "moduleTitle": "Introduction",
   "questionText": "In which part of the chemicals value chain does your organization operate?",
-  "questionKo": "귀사는 chemicals 가치사슬의 어느 단계에서 운영합니까?",
+  "questionKo": "귀사는 화학 물질 가치 사슬의 어느 부분에서 사업을 운영하고 있습니까?",
   "questionType": "GROUPED_OPTIONS",
   "mandatory": "False",
   "issueTags": "Water, Climate Change",
@@ -45,7 +45,7 @@
       "type": "Requested Content",
       "text": "General \nSelect all aspects of production within your organizational boundary. If your organization purchases the product but does not produce it, do not select it.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Select all aspects of production within your 조직경계. 만약 귀사 purchases the product but does not produce it, do not select it."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -56,7 +56,7 @@
       "A": "0/0",
       "M": "0/0",
       "L": "0/0",
-      "sectorKo": "Chemical",
+      "sectorKo": "화학",
       "issueKo": "기후변화"
     }
   ],
@@ -69,7 +69,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Table 완성 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "표 완료 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -79,7 +79,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -89,7 +89,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -99,12 +99,12 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "PPT",
-    "question_ko": "[국문 번역 검토 필요] In which part of the chemicals value chain does your organization operate?",
+    "question_ko": "귀사는 화학 물질 가치 사슬의 어느 부분에서 사업을 운영하고 있습니까?",
     "q2025": "Q1.14",
     "q2025_text": "In which part of the chemicals value chain does your organization operate?",
     "change_status": "No change - 2026 source verified",
@@ -123,13 +123,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Chemical: D 4/4 | A 0/0 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 드롭다운/응답 선택지 연결\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정성 PPT",
+    "daml_summaryKo": "화학: D 4/4 | 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정성적",
     "locationEn": "Qualitative PPT",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "귀사는 chemicals 가치사슬의 어느 단계에서 운영합니까?"
+    "q2025_textKo": "귀사는 화학 물질 가치 사슬의 어느 부분에서 사업을 운영하고 있습니까?"
   },
   "defaultPoints": {
     "D": "4/4",
@@ -159,37 +159,38 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
   "moduleTitleKo": "소개",
   "questionTypeKo": "GROUPED_OPTIONS",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "수자원, Climate Change",
+  "issueTagsKo": "수자원, 기후 변경",
   "sectorTagsKo": "화학",
-  "simpleHelpKo": "Business activities within the chemicals sector are directly related to 온실가스 배출량 및 water usage. Disclosing the activities that these organizations engage in provides 데이터 사용자 with the contextual information necessary to understand 및 evaluate how they assess 및 manage climate- 및 water-related dependencies, impacts, 리스크, 및 기회. This also enables 데이터 사용자 to make more accurate cross-organizational 및 cross-industry comparisons.",
+  "simpleHelpKo": "이 문항은 '귀사는 화학 물질 가치 사슬의 어느 부분에서 사업을 운영하고 있습니까?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [
-    "Bulk inorganic chemicals | Ammonia",
-    "Bulk inorganic chemicals | Carbon black",
-    "Bulk inorganic chemicals | Chlorine 및 Sodium hydroxide",
-    "Bulk inorganic chemicals | Fertilizers",
-    "Bulk inorganic chemicals | Hydrogen",
-    "Bulk inorganic chemicals | Nitric acid",
-    "Bulk inorganic chemicals | Other industrial gases",
-    "Bulk inorganic chemicals | Oxygen",
-    "Bulk inorganic chemicals | Soda ash",
-    "Bulk inorganic chemicals | Titanium dioxide",
-    "Bulk organic chemicals | Adipic acid",
-    "Bulk organic chemicals | Aromatics",
-    "Bulk organic chemicals | Ethanol",
-    "Bulk organic chemicals | Ethylene oxide & Ethylene glycol",
-    "Bulk organic chemicals | Lower olefins (cracking)",
-    "Bulk organic chemicals | Methanol",
-    "Bulk organic chemicals | Polymers",
-    "Other chemicals | Specialty inorganic chemicals",
-    "Other chemicals | Specialty organic chemicals",
-    "Other chemicals | 기타, 직접 입력"
-  ]
+    "Bulk inorganic 화학 | Ammonia",
+    "Bulk inorganic 화학 | 탄소 black",
+    "Bulk inorganic 화학 | Chlorine 및 Sodium hydroxide",
+    "Bulk inorganic 화학 | Fertilizers",
+    "Bulk inorganic 화학 | Hydrogen",
+    "Bulk inorganic 화학 | Nitric acid",
+    "Bulk inorganic 화학 | 기타 industrial gases",
+    "Bulk inorganic 화학 | Oxygen",
+    "Bulk inorganic 화학 | Soda ash",
+    "Bulk inorganic 화학 | Titanium dioxide",
+    "Bulk organic 화학 | Adipic acid",
+    "Bulk organic 화학 | Aromatics",
+    "Bulk organic 화학 | Ethanol",
+    "Bulk organic 화학 | Ethylene oxide & Ethylene glycol",
+    "Bulk organic 화학 | Lower olefins (cracking)",
+    "Bulk organic 화학 | Methanol",
+    "Bulk organic 화학 | Polymers",
+    "기타 화학 | Specialty inorganic 화학",
+    "기타 화학 | Specialty organic 화학",
+    "기타 화학 | 기타, 직접 입력"
+  ],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

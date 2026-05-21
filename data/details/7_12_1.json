@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Which of the following land sector accounting subcategories are relevant to your organization in the reporting year?",
-  "questionKo": "생물의 연소를 통해 발생한 이산화탄소 배출량을 metric tons CO2e 단위로 입력하십시오.",
+  "questionKo": "조직과 관련된 생물성 탄소 배출량을 미터톤 CO2 단위로 입력하십시오. `",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,47 +15,47 @@
     {
       "order": 1,
       "title": "Land use change emissions",
-      "titleKo": "Land use change emissions"
+      "titleKo": "사용 변경 배출량"
     },
     {
       "order": 2,
       "title": "Land management net biogenic CO2 emissions",
-      "titleKo": "Land 관리 net biogenic CO2 emissions"
+      "titleKo": "관리 생물기원 CO2 배출량"
     },
     {
       "order": 3,
       "title": "Land management production emissions",
-      "titleKo": "Land 관리 production emissions"
+      "titleKo": "관리 생산 배출량"
     },
     {
       "order": 4,
       "title": "Biogenic product emissions",
-      "titleKo": "Biogenic product emissions"
+      "titleKo": "생물기원 배출량"
     },
     {
       "order": 5,
       "title": "Land management CO2 removals",
-      "titleKo": "Land 관리 CO2 removals"
+      "titleKo": "관리 CO2 제거"
     },
     {
       "order": 6,
       "title": "Land occupation",
-      "titleKo": "Land occupation"
+      "titleKo": ""
     },
     {
       "order": 7,
       "title": "Land carbon leakage",
-      "titleKo": "Land carbon leakage"
+      "titleKo": "탄소"
     },
     {
       "order": 8,
       "title": "Biogenic product CO2 emissions (as gross CO2 fluxes)",
-      "titleKo": "Biogenic product CO2 emissions (as gross CO2 fluxes)"
+      "titleKo": "생물기원 CO2 배출량 (총 CO2)"
     },
     {
       "order": 9,
       "title": "Reversals of land management CO2 removals",
-      "titleKo": "Reversals of land 관리 CO2 removals"
+      "titleKo": "의 관리 CO2 제거"
     }
   ],
   "columns": [
@@ -72,14 +72,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "생물의 연소를 통해 발생한 이산화탄소 배출량 (metric tons CO2e)",
+      "textKo": "범위 1",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "관련, calculated",
-        "관련, not yet calculated",
-        "Not 관련, 설명 입력",
-        "Not evaluated"
+        "관련성 있음, 산정됨",
+        "관련성 있음, 아님 산정됨",
+        "관련 없음, 설명 제공된",
+        "아님 평가된"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -97,14 +97,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "비고",
+      "textKo": "범위 2",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "관련, calculated",
-        "관련, not yet calculated",
-        "Not 관련, 설명 입력",
-        "Not evaluated"
+        "관련성 있음, 산정됨",
+        "관련성 있음, 아님 산정됨",
+        "관련 없음, 설명 제공된",
+        "아님 평가된"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -122,14 +122,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Scope 3",
+      "textKo": "범위 3",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "관련, calculated",
-        "관련, not yet calculated",
-        "Not 관련, 설명 입력",
-        "Not evaluated"
+        "관련성 있음, 산정됨",
+        "관련성 있음, 아님 산정됨",
+        "관련 없음, 설명 제공된",
+        "아님 평가된"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -142,7 +142,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Please explain",
+      "textKo": "설명하십시오",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -160,20 +160,20 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"No, these activities include those related to agricultural lands\" in response to 7.12 column \"Indicate if these activities are only related to forest lands and/or non-productive, non-forest lands.\"",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"No, these activities include those related to agricultural lands\" in response to 7.12 열 \"Indicate 만약 these activities are only related to forest lands 및/또는 non-productive, non-forest lands.\""
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nThis question asks which of the GHG Protocol Land Sector and Removals Standard (LSRS) physical GHG inventory accounting subcategories and required additional accounting subcategories for land sector value chains are relevant to your organization.\nThe evaluation for each scope includes two components: whether an accounting subcategory is relevant to your business and whether you have calculated the data in that subcategory.\nRelevance may be affected by your significance threshold. The GHG Protocol makes no specific recommendations as to what constitutes a \"significant\" exclusion threshold. If you deem a subcategory not relevant on the basis of your significance threshold, provide the details of the threshold applied in the \"Please explain\" column.\nNote: if you have calculated emissions in line with the LSRS for the first time and this has resulted in changes to the scope 1, scope 2 and/or scope 3 emissions figures reported in 7.6, 7.7 and/or 7.8, report this as a change in methodology in 7.1.2 and report details of the change in emissions as a result of the change in methodology in 7.10.1 and 7.11.1 (if applicable).\nFor more details on each of the subcategories, see the \"Explanation of Terms\" and refer to the GHG Protocol Land Sector and Removals Standard and Guidance.\nLand management production emissions (row 3) \nIn the LSRS, organizations are given the choice as to whether to report land management production emissions within their \"Fossil fuel and industrial emissions\" (part of the emissions figures reported in 7.6 and/or 7.8) or in a separate subcategory \"Land management production emissions\". This subcategory encompasses the following sources of emissions:\nemissions from on-site fuel and energy consumption,\nlife cycle emissions from products used to produce the agricultural products (e.g., GHG emissions from feed crops, fertilizers and other agricultural input production),\nair-conditioning and refrigerant use,\non-site waste or wastewater management, and\nindirect emissions from purchased energy associated with land management production activities\nIndicate in columns \"Scope 1\" and \"Scope 3\" if land management production emissions are relevant and/or calculated, and state in column \"Please explain\" your approach to reporting these emissions\nLand occupation (row 6) \nAgricultural land is an input to agricultural production and typically requires the loss of carbon from native vegetation and soils. Regardless of when agricultural land was cleared, the total area of agricultural land required by a company (land occupation) contributes to global land pressure that leads to land use change emissions from net global land use change. Accounting for agricultural land use helps to quantify a company's contribution to global land use and conversion pressure.\nLand carbon leakage (row 7) \nIn the land sector, where land area is finite and competition for land is increasing, there is a high potential for land carbon leakage in which displacement of food or feed production drives agricultural land expansion, leading to land use change beyond the lands in a company's operations or value chain. By quantifying land carbon leakage, companies can properly account for these impacts and aim to reduce their total emissions.\nBiogenic product CO2 emissions (as gross CO2 fluxes) (row 8) \nCells in this row only appear if you select \"Relevant, calculated\" or \"Relevant, not yet calculated\" in the row \"Biogenic product emissions\" for the corresponding scope. See the \"Explanation of Terms\" for definitions of these subcategories.\nAccording to \"Requirement 17: Biogenic product emissions accounting\" of the LSRS, biogenic product CO2 emissions should be reported as gross CO2 fluxes (separately from \"Biogenic product emissions\") in the scope corresponding to the point of oxidation (i.e., when they are released to the atmosphere), if:\nyou can account for and report all life cycle GHG emissions associated with the biogenic product, including the annual net land carbon stock changes of sourcing lands;\nyou have information on where the biogenic product was sourced from, at minimum country of origin (or more precise levels of traceability); and\nyou can account for and report land use and land carbon leakage (where required) associated with the biogenic product.\nSelect one of the \"Relevant…\" options if you meet these criteria for any biogenic products.\nIf you do not meet these criteria for any biogenic products, select \"Not relevant, explanation provided\".\nReversals of land management CO2 removals (row 9) \nReversals are emissions from carbon pools that store carbon associated with previously reported removals in cases where the carbon pool is no longer within the organization's operations or value chain.\nIn cases where the carbon pool remains within the organization's operations or value chain, any associated emissions should be reported as \"Land management net biogenic CO2 emissions\".\nIf you have never previously reported land management CO2 removals, select \"Not relevant, explanation provided\" in this row, and use the \"Please explain\" column to explain that this is the reason why reversals are not relevant.\nPlease explain (column 4) \nFor all accounting subcategories identified as \"Not relevant, explanation provided\" in columns \"Scope 1\", \"Scope 2\", and/or \"Scope 3\", explain how you have reached the conclusion that the subcategory is not relevant and include details of any significance thresholds applied.\nIf relevant, use this column to explain your approach to reporting land management production emissions, including whether these emissions are currently included in 7.6 and/or 7.8.\nIf relevant, use this column to explain your approach to reporting biogenic product CO2 emissions, including whether and how you meet the criteria described in the guidance for row \"Biogenic product CO2 emissions (as gross CO2 fluxes)\". See LSRS \"Requirement 17: Biogenic product emissions accounting\" for further details.\nNote for agricultural commodities, paper & forestry, and food, beverage and tobacco sector companies: \nThe accounting subcategories in this question correspond to the GHG Protocol Land Sector and Removals Standard and Guidance , which will replace the existing GHG Protocol Agricultural Guidance .\nTo facilitate the transition to reporting in line with the LSRS, the following guidance explains the correspondence between the new LSRS accounting subcategories and the existing Agricultural Guidance categories which are requested in 7.12.3 \"Account for biogenic carbon data pertaining to your direct operations and identify any exclusions.\"\nGHG Protocol Agricultural Guidance category (7.12.3) \nGHG Protocol Land Sector and removals Standard accounting subcategory (7.12.1) \nDetails \nCO2 emissions from land use management\nLand management net biogenic CO2 emissions\nThis reporting category corresponds to the new required \"Land management net biogenic CO2 emissions\" accounting subcategory as there is a net land carbon stock decrease.\nCO2 removals from land use management\nLand management CO2 removals\nThis reporting category corresponds to the new optional \"Land management CO2 removals\" accounting subcategory as there is a net land carbon stock increase.\nSequestration from land use change\nLand management CO2 removals\nRemovals resulting from changes in agricultural land uses under the LSRS are optionally reported as \"Land management CO2 removals\" and would be subject to the requirements of chapter 12 and 13.\nCO2 emissions from biofuel combustion (land machinery, processing/manufacturing machinery and other)\nBiogenic product emissions\nBiogenic product CO2 emissions\nUnder the LSRS, biogenic CO2 emissions are subject to Requirement 17, therefore these emissions are either reported separately as gross CO2 fluxes in the \"Biogenic product CO2 emissions\" subcategory if the criteria are met, or as \"biogenic product emissions\" if the criteria are not met.",
       "typeKo": "요청 내용",
-      "textKo": "일반 This 문항 asks which 의 GHG Protocol Land Sector 및 Removals Standard (LSRS) physical GHG inventory accounting subcategories 및 required additional accounting subcategories for land sector 가치사슬s are 관련 to 귀사. The evaluation for each scope includes two components: whether an accounting subcategory is 관련 to your business 및 whether you have calculated the data in that subcategory. Relevance may be affected by your significance threshold. The GHG Protocol makes no specific recommendations as to what constitutes a \"significant\" exclusion threshold. 만약 you deem a subcategory not 관련 on the basis of your significance threshold, provide the details 의 threshold applied in the \"Please explain\" 열. Note: 만약 you have calculated emissions in line with the LSRS 에 대한 first time 및 this has resulted in changes to the 생물의 연소를 통해 발생한 이산화탄소 배출량 (metric tons CO2e), 비고 및/또는 Scope 3 배출량 figures 보고 in 7.6, 7.7 및/또는 7.8, report this as a change in 방법론 in 7.1.2 및 report details 의 change in emissions as a result 의 change in 방법론 in 7.10.1 및 7.11.1 (만약 해당되는 경우). For more details on each 의 subcategories, see the \"설명 of Terms\" 및 refer to the GHG Protocol Land Sector 및 Removals Standard 및 Guidance. Land 관리 production emissions (행 3) In the LSRS, organizations are given the choice as to whether to report land 관리 production emissions within their \"Fossil fuel 및 industrial emissions\" (part 의 emissions figures 보고 in 7.6 및/또는 7.8) 또는 in a separate subcategory \"Land 관리 production emissions\". This subcategory encompasses the following sources of emissions: emissions from on-site fuel 및 에너지 소비량, life cycle emissions from products used to produce the agricultural products (e.g., 온실가스 배출량 from feed crops, fertilizers 및 other agricultural input production), air-conditioning 및 refrigerant use, on-site waste 또는 wastewater 관리, 및 indirect emissions from purchased energy associated with land 관리 production activities Indicate in 열 \"생물의 연소를 통해 발생한 이산화탄소 배출량 (metric tons CO2e)\" 및 \"Scope 3\" 만약 land 관리 production emissions are 관련 및/또는 calculated, 및 state in 열 \"Please explain\" your approach to reporting these emissions Land occupation (행 6) Agricultural land is an input to agricultural production 및 typically requires the 손실 carbon from native vegetation 및 soils. Regardless of 경우 agricultural land was cleared, the total area of agricultural land required by a company (land occupation) contributes to global land pressure that leads to land use change emissions from net global land use change. Accounting for agricultural land use helps to quantify a company's contribution to global land use 및 conversion pressure. Land carbon leakage (행 7) In the land sector, 여기서 land area is finite 및 competition for land is increasing, there is a high potential for land carbon leakage in which displacement of food 또는 feed production drives agricultural land expansion, leading to land use change beyond the lands in a company's operations 또는 가치사슬. By quantifying land carbon leakage, companies can properly account 에 대한se impacts 및 aim to reduce their total emissions. Biogenic product CO2 emissions (as gross CO2 fluxes) (행 8) Cells in this 행 only appear 만약 you select \"관련, calculated\" 또는 \"관련, not yet calculated\" in the 행 \"Biogenic product emissions\" 에 대한 corresponding scope. See the \"설명 of Terms\" for definitions 의se subcategories. According to \"Requirement 17: Biogenic product 배출량 회계\" 의 LSRS, biogenic product CO2 emissions 해야 합니다 be 보고 as gross CO2 fluxes (separately from \"Biogenic product emissions\") in the scope corresponding to the 점 of oxidation (i.e., 경우 they are released to the atmosphere), 만약: you can account for 및 report all life cycle 온실가스 배출량 associated with the biogenic product, 포함 the annual net land carbon stock changes of sourcing lands; you have information on 여기서 the biogenic product was sourced from, at 최소 country of origin (or more precise levels of traceability); 및 you can account for 및 report land use 및 land carbon leakage (여기서 required) associated with the biogenic product. Select one 의 \"관련…\" options 만약 you meet these 기준 for 하나 이상 biogenic products. 만약 you do not meet these 기준 for 하나 이상 biogenic products, select \"Not 관련, 설명 입력\". Reversals of land 관리 CO2 removals (행 9) Reversals are emissions from carbon pools that store carbon associated with previously 보고 removals in cases 여기서 the carbon pool is no longer within the 조직의 operations 또는 가치사슬. In cases 여기서 the carbon pool remains within the 조직의 operations 또는 가치사슬, 하나 이상 associated emissions 해야 합니다 be 보고 as \"Land 관리 net biogenic CO2 emissions\". 만약 you have never previously 보고 land 관리 CO2 removals, select \"Not 관련, 설명 입력\" in this 행, 및 use the \"Please explain\" 열 to explain that this is the reason why reversals are not 관련. Please explain (열 4) For all accounting subcategories identified as \"Not 관련, 설명 입력\" in 열 \"생물의 연소를 통해 발생한 이산화탄소 배출량 (metric tons CO2e)\", \"비고\", 및/또는 \"Scope 3\", explain how you have reached the conclusion that the subcategory is not 관련 및 include details of 하나 이상 significance thresholds applied. 만약 관련, use this 열 to explain your approach to reporting land 관리 production emissions, 포함 whether these emissions are currently included in 7.6 및/또는 7.8. 만약 관련, use this 열 to explain your approach to reporting biogenic product CO2 emissions, 포함 whether 및 how you meet the 기준 설명d in the guidance for 행 \"Biogenic product CO2 emissions (as gross CO2 fluxes)\". See LSRS \"Requirement 17: Biogenic product 배출량 회계\" for further details. Note for 농산물 원자재, paper & forestry, 및 food, beverage 및 tobacco sector companies: The accounting subcategories in this 문항 correspond to the GHG Protocol Land Sector 및 Removals Standard 및 Guidance, which will replace the existing GHG Protocol Agricultural Guidance. To facilitate the transition to reporting in line with the LSRS, the following guidance explains the correspondence between the 신규 LSRS accounting subcategories 및 the existing Agricultural Guidance categories which are requested in 7.12.3 \"Account for 생물기원 탄소 data 관련 to your 직접 운영사업장 및 identify 제외사항.\" GHG Protocol Agricultural Guidance category (7.12.3) GHG Protocol Land Sector 및 removals Standard accounting subcategory (7.12.1) Details CO2 emissions from land use 관리 Land 관리 net biogenic CO2 emissions This reporting category corresponds to the 신규 required \"Land 관리 net biogenic CO2 emissions\" accounting subcategory as there is a net land carbon stock decrease. CO2 removals from land use 관리 Land 관리 CO2 removals This reporting category corresponds to the 신규 optional \"Land 관리 CO2 removals\" accounting subcategory as there is a net land carbon stock increase. Sequestration from land use change Land 관리 CO2 removals Removals resulting from changes in agricultural land uses under the LSRS are optionally 보고 as \"Land 관리 CO2 removals\" 및 would be subject to the requirements of chapter 12 및 13. CO2 emissions from biofuel combustion (land machinery, 프로세스ing/manufacturing machinery 및 other) Biogenic product emissions Biogenic product CO2 emissions Under the LSRS, biogenic CO2 emissions are subject 요구하기 위해ment 17, therefore these emissions are either 보고 separately as gross CO2 fluxes in the \"Biogenic product CO2 emissions\" subcategory 만약 the 기준 are met, 또는 as \"biogenic product emissions\" 만약 the 기준 are not met."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Biogenic product CO2 emissions (as gross CO2 fluxes): gross CO2 emissions from combustion, biodegradation or other losses from biogenic product carbon pools to the atmosphere ( GHG Protocol ).\nBiogenic product emissions : gross CH4, N2O and, if applicable, CO2 emissions from combustion, biodegradation or other losses from biogenic product carbon pools to the atmosphere ( GHG Protocol ).\nCarbon pool : A physical reservoir or medium where carbon is stored ( GHG Protocol ).\nLand carbon leakage: a specific type of leakage, driven by increased demand for agricultural products and a fixed amount of global land, that occurs when corporate actions displace food or feed production to locations beyond the lands in their operations or value chain, leading to agricultural expansion and land use change ( GHG Protocol ).\nLand management CO2 removals: net biogenic CO2 removals resulting from net land carbon stock increases due to ongoing land management practices. All land management CO2 removals are from biological sinks ( GHG Protocol ).\nLand management net biogenic CO2 emissions: net biogenic CO2 emissions resulting from net land carbon stock losses due to ongoing land management practices ( GHG Protocol ).\nLand management production emissions: CH4, N2O and non-biogenic CO2 emissions due to ongoing land management practices ( GHG Protocol ).\nLand occupation: the amount of agricultural land occupied in the reporting year to produce a product, measured in hectares ( GHG Protocol ).\nLand use change emissions: emissions (primarily from carbon stock losses) due to recent land conversion ( GHG Protocol ).\nReversals: an emission from a carbon pool that stores carbon associated with a removal that was previously reported by the reporting organization, and that it is no longer within the inventory boundary ( GHG Protocol ).",
-      "typeKo": "설명 of Terms",
-      "textKo": "Biogenic product CO2 emissions (as gross CO2 fluxes): gross CO2 emissions from combustion, biodegradation 또는 other losses from biogenic product carbon pools to the atmosphere (GHG Protocol). Biogenic product emissions: gross CH4, N2O and, 만약 해당되는 경우, CO2 emissions from combustion, biodegradation 또는 other losses from biogenic product carbon pools to the atmosphere (GHG Protocol). Carbon pool: A physical reservoir 또는 medium 여기서 carbon is stored (GHG Protocol). Land carbon leakage: a specific type of leakage, driven by 증가 demand for agricultural products 및 a fixed amount of global land, that occurs 경우 corporate actions displace food 또는 feed production to locations beyond the lands in their operations 또는 가치사슬, leading to agricultural expansion 및 land use change (GHG Protocol). Land 관리 CO2 removals: net biogenic CO2 removals resulting from net land carbon stock increases due to ongoing land 관리 practices. All land 관리 CO2 removals are from biological sinks (GHG Protocol). Land 관리 net biogenic CO2 emissions: net biogenic CO2 emissions resulting from net land carbon stock losses due to ongoing land 관리 practices (GHG Protocol). Land 관리 production emissions: CH4, N2O 및 non-biogenic CO2 emissions due to ongoing land 관리 practices (GHG Protocol). Land occupation: the amount of agricultural land occupied in the 보고연도 to produce a product, measured in hectares (GHG Protocol). Land use change emissions: emissions (primarily from carbon stock losses) due to recent land conversion (GHG Protocol). Reversals: an emission from a carbon pool that stores carbon associated with a removal that was previously 보고 by the reporting organization, 및 that it is no longer within the inventory boundary (GHG Protocol)."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -377,7 +377,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -387,7 +387,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -397,7 +397,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "General",
@@ -407,7 +407,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -417,7 +417,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -427,7 +427,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -437,7 +437,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -447,7 +447,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -457,7 +457,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -467,7 +467,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -477,7 +477,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -487,7 +487,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -497,7 +497,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -507,7 +507,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -517,7 +517,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -527,7 +527,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -537,7 +537,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -547,7 +547,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -557,7 +557,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -567,7 +567,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -577,7 +577,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -587,7 +587,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -597,7 +597,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -607,7 +607,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -617,7 +617,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -627,7 +627,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -637,7 +637,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -647,7 +647,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Construction",
@@ -657,7 +657,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -667,7 +667,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -677,7 +677,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Construction",
@@ -687,7 +687,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -697,7 +697,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -707,7 +707,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -717,7 +717,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -727,7 +727,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -737,7 +737,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -747,7 +747,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -757,7 +757,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -767,7 +767,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -777,7 +777,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -787,7 +787,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -797,7 +797,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -807,7 +807,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -817,7 +817,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -827,7 +827,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -837,7 +837,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -847,7 +847,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -857,7 +857,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -867,7 +867,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -877,7 +877,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -887,7 +887,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -897,7 +897,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -907,7 +907,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -917,7 +917,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -927,7 +927,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -937,7 +937,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -947,7 +947,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -957,7 +957,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -967,7 +967,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -977,7 +977,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -987,7 +987,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -997,7 +997,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -1007,7 +1007,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -1017,7 +1017,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -1027,7 +1027,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -1037,7 +1037,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -1047,7 +1047,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1057,7 +1057,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1067,7 +1067,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1077,7 +1077,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1087,7 +1087,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -1097,7 +1097,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -1107,7 +1107,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -1117,7 +1117,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -1127,12 +1127,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "조직과 관련된 생물성 탄소 배출량을 미터톤 CO2 단위로 입력하십시오 . ` M7. Environmental Performance - Climate Change 생물성 탄소로 인한 CO2 배출량 ( 미터톤 CO2) 관련 설명 숫자 입력 소수점 최대 3 자리 입력 최대 2,400 자 작성",
+    "question_ko": "조직과 관련된 생물성 탄소 배출량을 미터톤 CO2 단위로 입력하십시오. `",
     "q2025": "New 2026",
     "q2025_text": "New 2026",
     "change_status": "New question",
@@ -1150,12 +1150,12 @@
     "change_statusKo": "신규 문항",
     "detail_change_typesKo": "신규 문항, 신규 열",
     "change_summaryKo": "신규 문항 신규 열",
-    "scoring_change_summaryKo": "CC 전 섹터 제외 농산물 원자재, Food, beverage & 공시 & 인지 • 문항 scored for completion 의 table. Proportionally at 공시 level 및 for a complete table at 인지 level. Scoring updated to account for change in 문항. tobacco 및 Paper & forestry.",
-    "daml_summaryKo": "일반: D 4/4 | A 1/1 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "daml_summaryKo": "일반: D 4/4 | 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
     "q2025_textKo": "신규 2026"
   },
@@ -1187,16 +1187,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "Globally, the agriculture, forestry 및 other land use sector is responsible for approximately 22% of annual net anthropogenic 온실가스 배출량. Investors, 고객, non-governmental organizations, 및 other 이해관계자 are increasingly demanding transparent 및 credible 공시 의 climate impacts associated with corporate land sector 및 removal activities. The Greenhouse Gas Protocol Land Sector 및 Removals Standard (LSRS) establishes requirements 및 recommendations to account for, report 및 track 온실가스 배출량, CO2 removals 및 other 관련 metrics that reflect anthropogenic activities in the land sector, as well as other CO2 removals technologies.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '생물의 연소를 통해 발생한 이산화탄소 배출량을 지표 톤 CO2e 단위로 입력하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

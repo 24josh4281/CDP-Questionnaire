@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Is your organization involved in the sequestration of CO2?",
-  "questionKo": "organization involved in the sequestration of CO2 여부를 선택하십시오.",
+  "questionKo": "귀사는 CO2 격리에 참여하고 있습니까?",
   "questionType": "SINGLE_SELECT",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -26,20 +26,20 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Carbon capture and storage/utilization\" in response to 1.19.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Carbon capture 및 storage/utilization\" in response to 1.19."
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nSelect Yes if your organization is involved in sequestration of CO 2 .",
       "typeKo": "요청 내용",
-      "textKo": "일반 Select 예 만약 귀사 is involved in sequestration of CO 2."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Sequestration of \nCO 2: The fixation of atmospheric carbon dioxide in a carbon sink through biological or physical processes.",
-      "typeKo": "설명 of Terms",
-      "textKo": "Sequestration of CO 2: The fixation of atmospheric carbon dioxide in a carbon sink through biological 또는 physical 프로세스es."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -63,7 +63,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 비공개 경로) 선택지가 선택되지 않은 경우 - 0/12 점 이 경로에서 획득 가능한 최고점은 0/12점입니다."
+      "criteriaKo": "경로) 해당 선택지 선택됨 - 2 점 이 경로에서 최대 2/2점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/12 점 이 경로에서 최대 0/12점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -73,7 +73,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 선택지가 선택되지 않은 경우 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+      "criteriaKo": "경로) 해당 선택지 선택됨 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/1 점 이 경로에서 최대 0/1점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -83,7 +83,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 선택지가 하나라도 선택된 경우 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 선택지가 선택되지 않은 경우 - 0/1 점 이 경로에서 획득 가능한 최고점은 0/1점입니다."
+      "criteriaKo": "경로) 해당 선택지 선택됨 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 선택지 선택하지 않음 - 0/1 점 이 경로에서 최대 0/1점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -93,12 +93,12 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Is your organization involved in the sequestration of CO2?",
+    "question_ko": "귀사는 CO2 격리에 참여하고 있습니까?",
     "q2025": "Q7.66",
     "q2025_text": "Is your organization involved in the sequestration of CO2?",
     "change_status": "No change - 2026 source verified",
@@ -117,13 +117,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Oil & Gas: D 2/2 | A 0/0 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 드롭다운/응답 선택지 연결\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "석유 및 가스: D 2/2 | 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "Is 귀사 involved in the sequestration of CO2?"
+    "q2025_textKo": "귀사는 CO2 격리에 참여하고 있습니까?"
   },
   "defaultPoints": {
     "D": "2/2",
@@ -153,19 +153,20 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "단일 선택",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "석유 및 가스",
-  "simpleHelpKo": "Carbon capture 및 storage/utilization (CCS/U) is often presented as one 의 key technologies in tackling climate change, to the 점 여기서 in the majority of climate models, CCS/U is critical to meeting decarbonization goals set by the Paris Agreement to limit global warming to well below 2 degrees by 2100.",
+  "simpleHelpKo": "이 문항은 '귀사는 CO2 격리에 참여하고 있습니까?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [
     "예",
     "아니요"
-  ]
+  ],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Disclose your net liquid and gas hydrocarbon production (total of subsidiaries and equity-accounted entities).",
-  "questionKo": "Disclose your net liquid 및 gas hydrocarbon production (total of subsidiaries 및 equity-accounted entities).",
+  "questionKo": "순 액체 및 기체 탄화수소 생산량(자회사 및 지분 회계 법인 합계)을 공개하세요",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,22 +15,22 @@
     {
       "order": 1,
       "title": "Crude oil and condensate, million barrels",
-      "titleKo": "Crude oil 및 condensate, million barrels"
+      "titleKo": "석유 및, 백만"
     },
     {
       "order": 2,
       "title": "Natural gas liquids, million barrels",
-      "titleKo": "Natural gas liquids, million barrels"
+      "titleKo": "가스, 백만"
     },
     {
       "order": 3,
       "title": "Oil sands, million barrels (includes bitumen and synthetic crude)",
-      "titleKo": "Oil sands, million barrels (includes bitumen 및 synthetic crude)"
+      "titleKo": "석유, 백만 (포함함 및)"
     },
     {
       "order": 4,
       "title": "Natural gas, billion cubic feet",
-      "titleKo": "Natural gas, billion cubic feet"
+      "titleKo": "가스,"
     }
   ],
   "columns": [
@@ -42,7 +42,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "In-year net production",
+      "textKo": "-연도 생산",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -57,7 +57,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Comment",
+      "textKo": "의견",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -75,20 +75,20 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Upstream\" in response to 1.19.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Upstream\" in response to 1.19."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"업스트림\" 응답 1.19."
     },
     {
       "type": "Requested Content",
       "text": "In-year net production (column 2)\nEnter your in-year net production for each applicable hydrocarbon category.\nIn-year net production is the lifting of oil and gas to the surface and gathering, treating, field processing (as in the case of processing gas to extract liquid hydrocarbons,) and field storage. The production function shall normally be regarded as terminating at the outlet valve on the lease or field production storage tank. If unusual physical or operational circumstances exist, it may be more appropriate to regard the production function as terminating at the first point at which oil, gas, or gas liquids are delivered to a main pipeline, a common carrier, a refinery, or a marine terminal.\nPlease note that if you are reporting crude oil and condensate, natural liquids or oil sands, to report these in units of million barrels.\nIf you are reporting natural gas, please do so in units of billion cubic feet.\nComment (column 3) (optional)\nUse the \"Comment\" column to define and explain your hydrocarbon accounting and reported production figure(s), especially if your organizational boundary for emissions accounting and hydrocarbon accounting differ.",
       "typeKo": "요청 내용",
-      "textKo": "In-year net production (열 2) Enter your in-year net production for each 해당되는 경우 hydrocarbon category. In-year net production is the lifting of oil 및 gas to the surface 및 gathering, treating, field 프로세스ing (as in the case of 프로세스ing gas to extract liquid hydrocarbons,) 및 field storage. The production function shall normally be regarded as terminating at the outlet valve on the lease 또는 field production storage tank. 만약 unusual physical 또는 operational circumstances exist, it may be more appropriate to regard the production function as terminating at the first 점 at which oil, gas, 또는 gas liquids are delivered to a main pipeline, a common carrier, a refinery, 또는 a marine terminal. Please note that 만약 you are reporting crude oil 및 condensate, natural liquids 또는 oil sands, to report these in units of million barrels. 만약 you are reporting natural gas, please do so in units of billion cubic feet. Comment (열 3) (optional) Use the \"Comment\" 열 to define 및 explain your hydrocarbon accounting 및 보고 production figure(s), especially 만약 your 조직경계 for 배출량 회계 및 hydrocarbon accounting differ."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
       "text": "Explanations of the hydrocarbon categories listed are available in the following Technical Note: \" Fuel Definitions \".",
       "typeKo": "추가 정보",
-      "textKo": "설명s 의 hydrocarbon categories listed are available in the following Technical Note: \" Fuel Definitions \"."
+      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
     }
   ],
   "points": [
@@ -112,7 +112,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -122,7 +122,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "열 'In-year net production' 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -132,7 +132,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -142,12 +142,12 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Disclose your net liquid and gas hydrocarbon production (total of subsidiaries and equity-accounted entities).",
+    "question_ko": "순 액체 및 기체 탄화수소 생산량(자회사 및 지분 회계 법인 합계)을 공개하세요",
     "q2025": "Q7.38",
     "q2025_text": "Disclose your net liquid and gas hydrocarbon production (total of subsidiaries and equity-accounted entities).",
     "change_status": "No change - 2026 source verified",
@@ -166,13 +166,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Oil & Gas: D 8/8 | A 1/1 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "석유 및 가스: D 8/8 | 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "Disclose your net liquid 및 gas hydrocarbon production (total of subsidiaries 및 equity-accounted entities)."
+    "q2025_textKo": "순 액체 및 기체 탄화수소 생산량(자회사 및 지분 회계 법인 합계)을 공개하세요"
   },
   "defaultPoints": {
     "D": "8/8",
@@ -202,16 +202,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "석유 및 가스",
-  "simpleHelpKo": "Investors 및 other 데이터 사용자 are interested in information relating to the production of different hydrocarbon categories due to the differing environmental impacts associated with each.",
+  "simpleHelpKo": "이 문항은 '순 액체 및 기체 탄화수소 생산량(자회사 및 지분 회계 법인 합계)을 공개하세요'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

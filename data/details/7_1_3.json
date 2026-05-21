@@ -33,15 +33,15 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "기준연도 배출량 재산정 여부",
+      "textKo": "기준연도 re산정",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "예",
-        "No, because we have not evaluated whether the changes 해야 합니다 trigger a 기준연도 re계산",
-        "No, because the impact does not meet our significance threshold",
-        "No, because the operations acquired 또는 divested did not exist in the 기준연도",
-        "No, because we do not have the data yet 및 plan to recalculate next year"
+        "아니요, 당사 아니요t 평가된 변경 해야 합니다 기준연도 re산정",
+        "아니요, 영향 아니요t 귀사의",
+        "아니요, 운영사업장 인수한 또는 매각한 아니요t 기준연도",
+        "아니요, 당사 아니요t 데이터 및 계획 re산정 연도"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -59,16 +59,16 @@
       ],
       "simple_help": "Select all that apply",
       "popup_help": "",
-      "textKo": "재산정 배출량 범위",
+      "textKo": "re산정d",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Scope 1",
-        "Scope 2, 지역기반",
-        "Scope 2, 시장기반",
-        "Scope 3"
+        "범위 1",
+        "범위 2,",
+        "범위 2, 시장-",
+        "범위 3"
       ],
-      "simple_helpKo": "all that apply을/를 선택하십시오.",
+      "simple_helpKo": "해당하는 항목 모두 선택",
       "popup_helpKo": ""
     },
     {
@@ -97,27 +97,27 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "기준연도 배출량 재산정 정책(중대성 기준(sig nificance threshold) 포함)",
+      "textKo": "범위 3 re산정d",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Purchased goods 및 services",
-        "Capital goods",
-        "Fuel 및 energy-related activities (not included in Scope 1or 2)",
-        "Upstream transportation 및 distribution",
-        "Waste generated in operations",
-        "Business travel",
-        "Employee commuting",
-        "Upstream leased 자산",
-        "Downstream transportation 및 distribution",
-        "프로세스ing of sold products",
-        "Use of sold products",
-        "End of life treatment of sold products",
-        "Downstream leased 자산",
-        "Franchises",
-        "Investments",
-        "Other (upstream)",
-        "Other (downstream)"
+        "및 서비스",
+        "자본재",
+        "연료 및 에너지-관련 활동 (아니요t 포함된 범위 1or 2)",
+        "업스트림 및",
+        "생산한 운영사업장",
+        "사업",
+        "",
+        "업스트림 자산",
+        "다운스트림 및",
+        "프로세스ing 의",
+        "사용 의",
+        "의 의",
+        "다운스트림 자산",
+        "",
+        "투자",
+        "기타 (업스트림)",
+        "기타 (다운스트림)"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -130,7 +130,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "과거연도 배출량 재산정 여부",
+      "textKo": "기준연도 배출량 re산정 정책, 포함",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -148,7 +148,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Past years' re계산",
+      "textKo": "연도s' re산정",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -164,31 +164,31 @@
       "type": "Change From Last Year",
       "text": "Modified question",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "수정 문항"
+      "textKo": "전년 대비 변경사항은 2026 CDP 원문 및 변경 추적표 기준으로 확인하십시오."
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if any of the \"Yes\" options are selected in 7.1.1, or if any of the \"Yes\" options or \"No, but we have discovered significant errors in our previous response\" is selected in response to 7.1.2.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 하나 이상 의 \"예\" options are 선택 in 7.1.1, 또는 만약 하나 이상 의 \"예\" options 또는 \"No, but we have discovered significant errors in our previous response\" is 선택 in response to 7.1.2."
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nThe GHG Protocol Corporate Standard states that you should recalculate your base year emissions if your organization has changed structurally through acquisitions and/or divestments, the methodology or boundary used to calculate your emissions has changed, you have found significant errors in previous calculations, or if there have been changes to your excluded sources. This is so that your base year emissions can be directly compared with your current/reporting year emissions.\nA company may, however, decide not to do this if the impact on emissions is not material or significant. It is up to each company to determine the threshold for what is considered significant or material by developing a base year recalculation policy. Organizations should apply their base year recalculation policy in a consistent manner (i.e. you should recalculate for both emissions increases and decreases).\nCompanies recalculating their base year emissions may also, as per the GHG Protocol, optionally recalculate GHG emissions data for past years between the base year and the reporting year.\nBase year recalculation (column 1) \nSelect \"Yes\" if your organization has recalculated your base year emissions as a result of the changes or errors disclosed in 7.1.1 and/or 7.1.2. The basis of the recalculation should be consistent with your recalculation policy (as described in column 2) and should be reflected in the base year emissions figures you disclose in 7.5.\nSelect \"No, because we have not evaluated a recalculation of our base year\" if you do not have a base year recalculation policy, or you have not evaluated whether the changes or errors identified in 7.1.1 and/or 7.1.2 should trigger a base year recalculation as per your policy.\nSelect \"No, because the impact does not meet our significance threshold\" if you have a base year recalculation policy and you have evaluated that the changes or errors identified in 7.1.1 and/or 7.1.2 do not meet your policy's significance threshold and therefore the impact on emissions is deemed to be non-material.\nSelect \"No, because we do not have the data yet and plan to recalculate next year\" if your organization has merged with or acquired a company and you do not yet have the emissions data for the organization you have merged with or acquired. As per the GHG Protocol Corporate standard, \"if it is not possible to make a recalculation in the year of the structural change (e.g. due to lack of data for an acquired company), the recalculation may be carried out the following year\". In this scenario, the emissions from the company your organization has merged with or acquired should be reported as an excluded source of emissions in 7.4.1 in this CDP response.\nScopes recalculated (column 2) \nThis column only appears if you select \"Yes\" in column 1 \"Base year recalculation\".\nDepending on the changes that have triggered a base year calculation (as disclosed in 7.1.1 and/or 7.1.2), it may not be necessary to recalculate your organization's base year emissions for all scopes. For example, you may have found a significant error in your calculation of a single category of scope 3 emissions.\nIndicate in this column the scopes for which you have recalculated your base year emissions.\nScope 3 categories recalculated (column 3) \nThis column only appears if you select \"Scope 3\" in column 2 \"Scopes recalculated\"\nIndicate in this column the scope 3 categories for which you have recalculated your base year emissions.\nBase year emissions recalculation policy, including significance threshold (column 4) \nDescribe your organization's base year recalculation policy, and if \"Yes\" was selected in column 1, clearly articulate the basis and context of the recalculation.\nEnsure to include the significance threshold applied for determining base year recalculations.\nPast years' recalculation (column 5) \nSelect \"Yes\" if, due to changes or errors reported in 7.1.1 and/or 7.5.2, in addition to your base year recalculation you have also recalculated emissions data for past years, and are restating them in 7.6, 7.7, and 7.8.\nIf you select \"Yes\" in this column, ensure you have also selected \"Yes\" in column 3 of 1.4 and indicated the number of past years of emissions you wish to restate for each Scope in columns 4-6 of 1.4.",
       "typeKo": "요청 내용",
-      "textKo": "일반 The GHG Protocol Corporate Standard states that you 해야 합니다 recalculate your 기준연도 emissions 만약 귀사 has changed structurally through acquisitions 및/또는 divestments, the 방법론 또는 boundary used to calculate your emissions has changed, you have found significant errors in previous 계산s, 또는 만약 there have been changes to your excluded sources. This is so that your 기준연도 emissions can be directly compared with your current/보고연도 emissions. A company may, however, decide not to do this 만약 the impact on emissions is not material 또는 significant. It is up to each company to determine the threshold for what is considered significant 또는 material by developing a 기준연도 re계산 정책. Organizations 해야 합니다 apply their 기준연도 re계산 정책 in a consistent manner (i.e. you 해야 합니다 recalculate for both emissions increases 및 decreases). Companies recalculating their 기준연도 emissions may also, as per the GHG Protocol, optionally recalculate GHG 배출량 데이터 for past years between the 기준연도 및 the 보고연도. 기준연도 re계산 (열 1) Select \"예\" 만약 귀사 has recalculated your 기준연도 emissions as a result 의 changes 또는 errors 공개 in 7.1.1 및/또는 7.1.2. The basis 의 re계산 해야 합니다 be consistent with your re계산 정책 (as 설명d in 열 2) 및 해야 합니다 be reflected in the 기준연도 emissions figures you disclose in 7.5. Select \"No, because we have not evaluated a re계산 of our 기준연도\" 만약 you do not have a 기준연도 re계산 정책, 또는 you have not evaluated whether the changes 또는 errors identified in 7.1.1 및/또는 7.1.2 해야 합니다 trigger a 기준연도 re계산 as per your 정책. Select \"No, because the impact does not meet our significance threshold\" 만약 you have a 기준연도 re계산 정책 및 you have evaluated that the changes 또는 errors identified in 7.1.1 및/또는 7.1.2 do not meet your 정책's significance threshold 및 therefore the impact on emissions is deemed to be non-material. Select \"No, because we do not have the data yet 및 plan to recalculate next year\" 만약 귀사 has merged with 또는 acquired a company 및 you do not yet have the 배출량 데이터 에 대한 organization you have merged with 또는 acquired. As per the GHG Protocol Corporate standard, \"만약 it is not possible to make a re계산 in the year 의 structural change (e.g. due to 부족 data for an acquired company), the re계산 may be carried out the following year\". In this scenario, the emissions from the company 귀사 has merged with 또는 acquired 해야 합니다 be 보고 as an excluded source of emissions in 7.4.1 in this CDP response. 재산정 배출량 범위 (열 2) This 열 only appears 만약 you select \"예\" in 열 1 \"기준연도 re계산\". Depending on the changes that have triggered a 기준연도 계산 (as 공개 in 7.1.1 및/또는 7.1.2), it may not be necessary to recalculate 귀사의 기준연도 emissions for all scopes. For example, you may have found a significant error in your 계산 of a single category of Scope 3 배출량. Indicate in this 열 the scopes for which you have recalculated your 기준연도 emissions. 기준연도 배출량 재산정 정책(중대성 기준(sig nificance threshold) 포함) (열 3) This 열 only appears 만약 you select \"Scope 3\" in 열 2 \"재산정 배출량 범위\" Indicate in this 열 the scope 3 categories for which you have recalculated your 기준연도 emissions. 기준연도 emissions re계산 정책, 포함 significance threshold (열 4) 설명 귀사의 기준연도 re계산 정책, 및 만약 \"예\" was 선택 in 열 1, clearly articulate the basis 및 context 의 re계산. Ensure to include the significance threshold applied for determining 기준연도 re계산s. Past years' re계산 (열 5) Select \"예\" 만약, due to changes 또는 errors 보고 in 7.1.1 및/또는 7.5.2, in addition to your 기준연도 re계산 you have also recalculated 배출량 데이터 for past years, 및 are restating them in 7.6, 7.7, 및 7.8. 만약 you select \"예\" in this 열, ensure you have also 선택 \"예\" in 열 3 of 1.4 및 indicated the number of past years of emissions you wish to restate for each Scope in 열 4-6 of 1.4."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Ambition",
       "text": "Companies recalculate base year emissions, and emissions from previous years to reflect changes that would otherwise compromise the consistency and relevance of the reported GHG emissions information.",
-      "typeKo": "Ambition",
-      "textKo": "Companies recalculate 기준연도 emissions, 및 emissions from previous years to reflect changes that would otherwise compromise the consistency 및 relevance 의 보고 온실가스 배출량 information."
+      "typeKo": "목표수준",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Significance threshold: As noted on page 35 of the GHG Protocol Corporate Standard , a significance threshold is a \"qualitative and/or quantitative criterion used to define any significant change to the data, inventory boundary, methods, or any other relevant factors. It is the responsibility of the company to determine the significance threshold that triggers base year emissions recalculation and to disclose it.\"",
-      "typeKo": "설명 of Terms",
-      "textKo": "Significance threshold: As noted on page 35 의 GHG Protocol Corporate Standard, a significance threshold is a \"qualitative 및/또는 quantitative criterion used to define 하나 이상 significant change to the data, inventory boundary, methods, 또는 하나 이상 other 관련 factors. It is the responsibility 의 company to determine the significance threshold that triggers 기준연도 emissions re계산 및 to disclose it.\""
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -392,7 +392,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -402,7 +402,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -412,7 +412,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -422,7 +422,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -432,7 +432,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -442,7 +442,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -452,7 +452,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -462,7 +462,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -472,7 +472,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -482,7 +482,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -492,7 +492,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -502,7 +502,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -512,7 +512,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -522,7 +522,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -532,7 +532,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -542,7 +542,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -552,7 +552,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -562,7 +562,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -572,7 +572,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -582,7 +582,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -592,7 +592,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -602,7 +602,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -612,7 +612,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -622,7 +622,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -632,7 +632,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -642,7 +642,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -652,7 +652,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -662,7 +662,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -672,7 +672,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -682,7 +682,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -692,7 +692,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -702,7 +702,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -712,7 +712,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -722,7 +722,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -732,7 +732,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -742,7 +742,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -752,7 +752,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -762,7 +762,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -772,7 +772,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -782,7 +782,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -792,7 +792,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -802,7 +802,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -812,7 +812,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -822,7 +822,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -832,7 +832,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -842,7 +842,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -852,7 +852,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -862,7 +862,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -872,7 +872,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -882,7 +882,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -892,7 +892,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -902,7 +902,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -912,7 +912,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -922,7 +922,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -932,7 +932,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -942,7 +942,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -952,7 +952,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -962,7 +962,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -972,7 +972,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -982,7 +982,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -992,7 +992,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1002,7 +1002,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1012,7 +1012,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1022,7 +1022,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1032,7 +1032,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1042,7 +1042,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1052,7 +1052,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1062,7 +1062,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1072,7 +1072,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1082,7 +1082,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1092,7 +1092,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1102,7 +1102,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1112,7 +1112,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1122,7 +1122,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 인지 점: 공시에서 최고점 획득 그리고 공시에서 최고점 획득 in all 의 following 문항: - 7.1 - 7.1.1 - 7.1.2 하나 이상 option 제외 'No, because we have not evaluated...' 선택 in 열 '기준연도 re계산' - 3 점 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1132,7 +1132,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 하나 이상 의 following 선택 in 열 '기준연도 re계산' - 2 점 - '예' - 'No, because the impact does not meet our significance threshold' - 'No, because the operations acquired 또는 divested did not exist in the 기준연도' 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No, because we do not have the data yet 및 plan to recalculate next year' 선택 in 열 '기준연도 re계산'- 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1142,7 +1142,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     }
   ],
   "change": {
@@ -1162,17 +1162,17 @@
     "daml_summary": "General: D 2/2 | A 3/3 | M 1.5 or 2/2 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "문항 수정",
+    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
     "detail_change_typesKo": "신규 열",
-    "change_summaryKo": "신규 열 added",
+    "change_summaryKo": "신규 열 추가됨",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "일반: D 2/2 | A 3/3 | M 1.5 또는 2/2 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "일반: D 2/2 | 3/3 | M 1.5 또는 2/2 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "Have 귀사의 기준연도 emissions 및 past years' emissions been recalculated as a result of 하나 이상 changes 또는 errors 보고 in 7.1.1 및/또는 7.1.2?"
+    "q2025_textKo": "7.1.1 및/또는 7.1.2 문항에서 보고한 변경 사항이나 오류로 인해 조직의 기준연도 배출량과 과거연도 배출량을 재산정했습니까?"
   },
   "defaultPoints": {
     "D": "2/2",
@@ -1184,34 +1184,35 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "Significant changes (structural, methodological, boundary etc.) can alter a company's emissions profile, making meaningful historical comparisons difficult. To maintain consistency over time, 기준연도 emissions 해야 합니다 be retroactively recalculated to reflect changes in the company that would otherwise compromise the consistency 및 relevance of a company's 온실가스 배출량 inventory. This 문항 allows 데이터 사용자 to understand whether the company has recalculated their 기준연도 emissions as a result 의 changes 또는 errors 공개 in 7.1.1 및 7.1.2.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '7.1.1 및/또는 7.1.2 문항에서 보고한 변경 사항이나 오류로 인해 조직의 기준연도 배출량과 과거연도 배출량을 재산정했습니까?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

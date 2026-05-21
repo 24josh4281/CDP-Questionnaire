@@ -3,7 +3,7 @@
   "module": "12",
   "moduleTitle": "Environmental performance - Financial services",
   "questionText": "Break down your organization's financed emissions and other portfolio carbon footprinting metrics by asset class, by industry, and/or by scope.",
-  "questionKo": "귀사의 financed emissions 및 other 포트폴리오 carbon footprinting metrics by asset class, by industry, 및/또는 by scope.을/를 세분화하여 입력하십시오.",
+  "questionKo": "금융배출량 및 기타 포트폴리오 탄소발자국 지표를 자산군, 산업 및/또는 범위별로 구분하십시오.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "행 1"
+      "titleKo": "1행"
     }
   ],
   "columns": [
@@ -36,10 +36,10 @@
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Banking (Bank)",
-        "Investing (Asset manager)",
-        "Investing (Asset owner)",
-        "Insurance underwriting (Insurance company)"
+        "은행(은행)",
+        "투자(자산운용사)",
+        "투자(자산소유자)",
+        "보험 인수(보험사)"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -52,7 +52,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Value of 자산 covered in the 계산 based on outstanding loan amounts",
+      "textKo": "가치 의 자산 포함된 산정 기준 미상환 대출 금액",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -67,7 +67,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Value of 자산 covered in the 계산 포함 undrawn loan commitments",
+      "textKo": "가치 의 자산 포함된 산정 포함 미인출 대출 약정",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -82,7 +82,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Explain the details, assumptions 및 제외사항 in your 계산",
+      "textKo": "설명 세부 정보, 가정 및 제외사항 귀사의 산정",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -111,22 +111,22 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "포트폴리오 metric",
+      "textKo": "포트폴리오 지표",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Absolute 포트폴리오 emissions (tCO2e)",
-        "Avoided emissions financed (tCO2e)",
-        "Carbon intensity (tCO2e/Million 매출)",
-        "Carbon removals financed (tCO2e)",
+        "절대 포트폴리오 배출량 (tCO2e)",
+        "회피된 배출량 금융지원 (tCO2e)",
+        "탄소 집약도 (tCO2e/백만 매출)",
+        "탄소 제거 금융지원 (tCO2e)",
         "배출집약도 (tCO2e/m2)",
         "배출집약도 (tCO2e/MWh)",
-        "배출집약도 (tCO2e/tonne steel produced)",
-        "에너지 소비량 (GWh/Million 매출 of investee company)",
-        "Facilitated emissions (tCO2e)",
-        "Insurance-associated emissions (tCO2e)",
-        "포트폴리오 carbon footprint (tCO2e/Million invested)",
-        "Weighted average carbon intensity (tCO2e/Million 매출)",
+        "배출집약도 (tCO2e/톤 철강 생산량)",
+        "에너지 소비 (GWh/백만 매출 의 투자대상 기업)",
+        "촉진 배출량 (tCO2e)",
+        "보험-관련된 배출량 (tCO2e)",
+        "포트폴리오 탄소 발자국 (tCO2e/백만 투자액)",
+        "가중 평균 탄소 집약도 (tCO2e/백만 매출)",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -154,23 +154,23 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Industry",
+      "textKo": "산업",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Apparel",
-        "Biotech, health care & pharma",
-        "Food, beverage & agriculture",
-        "Fossil Fuels",
-        "Hospitality",
+        "의류",
+        "바이오·헬스케어·제약",
+        "식음료 및 농업",
+        "화석 연료",
+        "숙박·관광",
         "인프라",
-        "International bodies",
-        "Manufacturing",
-        "Materials",
+        "국제기구",
+        "제조",
+        "자재",
         "발전",
-        "Retail",
-        "Services",
-        "Transportation services"
+        "소매",
+        "서비스",
+        "서비스"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -194,19 +194,19 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Asset class",
+      "textKo": "자산군",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Loans",
-        "Project finance",
-        "Bonds",
-        "Equity investments",
-        "Undrawn loan commitments",
-        "Fixed income",
-        "Cash equivalents/money market instruments",
-        "Real estate",
-        "Commodities",
+        "대출",
+        "프로젝트 금융",
+        "채권",
+        "주식 투자",
+        "미인출 대출 약정",
+        "고정수익",
+        "현금 성 자산/단기금융 시장 상품",
+        "부동산",
+        "원자재",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -224,13 +224,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Clients'/investees' scope",
+      "textKo": "고객'/투자대상' 범위",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Scope 1",
-        "Scope 2",
-        "Scope 3"
+        "범위 1",
+        "범위 2",
+        "범위 3"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -243,7 +243,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% of asset class emissions calculated in the 보고연도 based on total value of 자산",
+      "textKo": "% 의 자산군 배출량 산정됨 보고연도 기준 총 가치 의 자산",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -258,7 +258,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Value of 자산 covered in the 계산",
+      "textKo": "가치 의 자산 포함된 산정",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -273,7 +273,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "금융배출량 또는 alternative metric",
+      "textKo": "금융배출량 또는 대체 지표",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -292,7 +292,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "the gross exposure 귀사의 undrawn loan commitment separately from the drawn loan commitment을/를 제공할 수 있습니까?",
+      "textKo": "귀사 가능 제공 총 익스포저 귀사의 미인출 대출 약정 에서 대출 약정?",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -309,31 +309,31 @@
       "type": "Change From Last Year",
       "text": "Modified guidance",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "가이던스 수정"
+      "textKo": "가이던스 변경"
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes, by asset class\", \"Yes, by industry\", or \"Yes, by scope\" in column 1 \"Portfolio breakdown\" of 12.2.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"예, by asset class\", \"예, by industry\", 또는 \"예, by scope\" in 열 1 \"포트폴리오 breakdown\" of 12.2."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예, 기준 자산군\", \"예, 기준 산업\", 또는 \"예, 기준 범위\" 열 1 \"포트폴리오 세분화\" 의 12.2."
     },
     {
       "type": "Requested Content",
       "text": "General \nAdd a row for each portfolio for which you are able to provide a breakdown of your organization's portfolio impact. \nIf you are able to provide a breakdown of multiple scopes for a single portfolio, industry or asset class, add a separate row for each scope . \nPortfolio metric (column 2) \nDisclose the quantitative emissions associated with the respective scope, industry and/or asset class. \nFor details on methodologies to calculate portfolio metrics please consult the CDP Technical Note on Portfolio Impact Metrics for Financial Services Sector Companies . \nIf you are reporting absolute emissions or emissions intensity, use gross, not net figures. For funded amounts, gross exposure shall be calculated as the funded carrying amounts (before subtracting the loss allowance, when applicable), whether prepared in accordance with IFRS Accounting Standards or other GAAP. \nIndustry (column 3) \nSelect from the drop-down list the industry for which you are able to disclose a figure for, adding one row for each industry.  \nAsset class (column 4) \nSelect from the drop-down list the asset classes that you are able to disclose a figure for. \nAdd a row for each asset class for which you can disclose a figure by using the \"Add Row\" button at the bottom of the table. \nIf there are other asset classes for which you are able to disclose a figure for but are not listed in the drop-down list, select \"Other, please specify\" and disclose the asset class. \nIf you are disclosing emissions for each industry by asset class, make sure to indicate the industry for which you are reporting in column 2 \"Industry\". \n% of asset class emissions calculated in the reporting year based on total value of assets (column 6) \nThis column is only presented if you are providing a breakdown of your emissions on asset class level. \nProvide the proportion of the asset class covered by the emissions calculation based on the total value of this asset class. \nValue of assets covered in the calculation (column 7) \nProvide the value of the assets covered by the emissions calculation. \nAll values should be reported in the currency selected in 1.2. \nValue of assets covered in the calculation based on outstanding loan amounts (column 10) \nDisclose the full amount of the commitment separately from the drawn portion of loan commitments included in the emissions calculation. \nAll values should be reported in the currency selected in 1.2. \nValue of assets covered in the calculation including undrawn loan commitments (column 11) \nDisclose the full amount of the commitment separately from the drawn portion of loan commitments included in the emissions calculation. \nFor undrawn loan commitments, calculate the percentage by dividing the full amount of undrawn loan commitments to carbon related industries by the full amount of undrawn loan commitments to all industries. \nAll values should be reported in the currency selected in 1.2. \nExplain the details, assumptions and exclusions in your calculation (column 12) \nIf you are not able to provide the emissions value for all of the scopes (Scope 1, Scope 2, Scope 3) for each of your asset classes or industries, explain why you are not able to. \nFor your scope 2 financed emissions, explain if market-based and/or location-based method has been used. \nExplain how any methodological changes have influenced the calculation of financed emissions. Note that emissions methodology changes should be disclosed in questions 7.1-7.1.2.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Add a 행 for each 포트폴리오 for which you are able to 세부 내역 제공 귀사의 포트폴리오 impact. 만약 you are able to 세부 내역 제공 multiple scopes for a single 포트폴리오, industry 또는 asset class, add a separate 행 for each scope. 포트폴리오 metric (열 2) Disclose the quantitative emissions associated with the respective scope, industry 및/또는 asset class. For details on methodologies to calculate 포트폴리오 metrics please consult the CDP Technical Note on 포트폴리오 Impact Metrics for 금융 서비스 Sector Companies. 만약 you are reporting absolute emissions 또는 배출집약도, use gross, not net figures. For funded amounts, gross exposure shall be calculated as the funded carrying amounts (before subtracting the loss allowance, 경우 해당되는 경우), whether prepared in accordance with IFRS Accounting 기준 또는 other GAAP. Industry (열 3) Select from the drop-down list the industry for which you are able to disclose a figure for, adding one 행 for each industry. Asset class (열 4) Select from the drop-down list the asset classes that you are able to disclose a figure for. Add a 행 for each asset class for which you can disclose a figure by using the \"Add 행\" button at the bottom 의 table. 만약 there are other asset classes for which you are able to disclose a figure for but are not listed in the drop-down list, select \"Other, 직접 입력\" 및 disclose the asset class. 만약 you are disclosing emissions for each industry by asset class, make sure to indicate the industry for which you are reporting in 열 2 \"Industry\". % of asset class emissions calculated in the 보고연도 based on total value of 자산 (열 6) This 열 is only presented 만약 you are providing a breakdown of your emissions on asset class level. Provide the proportion 의 asset class covered by the emissions 계산 based on the total value of this asset class. Value of 자산 covered in the 계산 (열 7) Provide the value 의 자산 covered by the emissions 계산. All values 해야 합니다 be 보고 in the currency 선택 in 1.2. Value of 자산 covered in the 계산 based on outstanding loan amounts (열 10) Disclose the full amount 의 commitment separately from the drawn portion of loan commitments included in the emissions 계산. All values 해야 합니다 be 보고 in the currency 선택 in 1.2. Value of 자산 covered in the 계산 포함 undrawn loan commitments (열 11) Disclose the full amount 의 commitment separately from the drawn portion of loan commitments included in the emissions 계산. For undrawn loan commitments, calculate the percentage by dividing the full amount of undrawn loan commitments to carbon related industries by the full amount of undrawn loan commitments to all industries. All values 해야 합니다 be 보고 in the currency 선택 in 1.2. Explain the details, assumptions 및 제외사항 in your 계산 (열 12) 만약 you are not able to provide the emissions value for all 의 scopes (Scope 1, Scope 2, Scope 3) for each of your asset classes 또는 industries, 그 이유를 설명 you are not able to. 귀사의 scope 2 금융배출량, explain 만약 시장기반 및/또는 지역기반 method has been used. Explain how 하나 이상 methodological changes have influenced the 계산 of 금융배출량. Note that emissions 방법론 changes 해야 합니다 be 공개 in 문항 7.1-7.1.2."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Ambition",
       "text": "Financial institutions disclose absolute gross financed emissions, disaggregated by Scope 1, Scope 2 and Scope 3 greenhouse gas emissions. \nFinancial institutions report gross exposure to each industry by asset class, expressed in the presentation currency of the entity's financial statements. \nFunded amounts-gross exposure shall be calculated as the funded carrying amounts (before subtracting the loss allowance, when applicable), whether prepared in accordance with IFRS Accounting Standards or other GAAP. \nUndrawn loan commitments-the entity shall disclose the full amount of the commitment separately from the drawn portion of loan commitments.",
-      "typeKo": "Ambition",
-      "textKo": "Financial institutions disclose absolute gross 금융배출량, disaggregated by Scope 1, Scope 2 및 Scope 3 온실가스 배출량. Financial institutions report gross exposure to each industry by asset class, expressed in the presentation currency 의 entity's 재무제표. Funded amounts-gross exposure shall be calculated as the funded carrying amounts (before subtracting the loss allowance, 경우 해당되는 경우), whether prepared in accordance with IFRS Accounting 기준 또는 other GAAP. Undrawn loan commitments-the entity shall disclose the full amount 의 commitment separately from the drawn portion of loan commitments."
+      "typeKo": "목표수준",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Gross emissions: GHGs emitted into the atmosphere before accounting for offsets or credits that have reduced or compensated for emissions.",
-      "typeKo": "설명 of Terms",
-      "textKo": "Gross emissions: GHGs emitted into the atmosphere before accounting for offsets 또는 credits that have reduced 또는 compensated for emissions."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -357,7 +357,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개 as follows: 하나 이상 의 following 열 완성 per 행: - 'Asset Class' - 'Industry' - 'Clients'/investees' scope 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된 다음과 같음: 해당 의 다음 열 완료 마다 행: - '자산군' - '산업' - '고객'/투자대상' 범위 이 문항에서 최대 3/3점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -367,7 +367,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 그리고 최소 one option 선택 in 열 '포트폴리오' per 행 여기서 '예…' is 선택 in 열 '포트폴리오 breakdown' in 문항 12.2 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 및 에서 최소 1개 선택지 열에서 선택 '포트폴리오' 마다 행 경우 '예…' 열에서 선택 '포트폴리오 세분화' 문항 12.2 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -377,7 +377,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -387,12 +387,12 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Break down your organization's financed emissions and other portfolio carbon footprinting metrics by asset class, by industry, and/or by scope.",
+    "question_ko": "금융배출량 및 기타 포트폴리오 탄소발자국 지표를 자산군, 산업 및/또는 범위별로 구분하십시오.",
     "q2025": "Q12.2.1",
     "q2025_text": "Break down your organization's financed emissions and other portfolio carbon footprinting metrics by asset class, by industry, and/or by scope.",
     "change_status": "Modified guidance",
@@ -407,17 +407,17 @@
     "daml_summary": "Financial services: D 3/3 | A 1/1 | M 0/0 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "가이던스 수정",
+    "change_statusKo": "가이던스 변경",
     "detail_change_typesKo": "신규 가이던스",
-    "change_summaryKo": "Added guidance to highlight that changes in emission 방법론 해야 합니다 be 보고 in 7.1.2. Added guidance to clarify that changes in emission 방법론 해야 합니다 be 보고 in 7.1.2",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "금융 서비스: D 3/3 | A 1/1 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "금융 서비스: D 3/3 | 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "귀사의 금융배출량 및 other 포트폴리오 탄소발자국 지표 by asset class, by industry, 및/또는 by scope.을/를 세분화하여 입력하십시오."
+    "q2025_textKo": "금융배출량 및 기타 포트폴리오 탄소발자국 지표를 자산군, 산업 및/또는 범위별로 구분하십시오."
   },
   "defaultPoints": {
     "D": "3/3",
@@ -447,16 +447,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 금융 서비스",
+  "moduleTitleKo": "환경 성과 - 재무 services",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "금융 서비스",
-  "simpleHelpKo": "Current methodologies for calculating 포트폴리오 emissions can lead to double counting across scopes. Breaking down absolute emissions 및/또는 other carbon footprinting metrics of a 포트폴리오 by scope can help financial institutions identify emissions throughout the 가치사슬 of companies in their 포트폴리오. Reporting at this level can provide a useful indicator for making comparisons between your financial activities in different industries. Furthermore, breaking down emissions 및 other carbon footprinting 및/또는 exposure metrics by asset class can give an indication 의 relative 온실가스 배출량 performance 및/또는 exposure to climate-related 리스크 of your company's 자산. 경우 보고 over time, 귀사 및 데이터 사용자 will be able to review improvements 또는 declines in asset performance with considerations 귀사의 포트폴리오's impact on the climate.",
+  "simpleHelpKo": "이 문항은 '금융배출량 및 기타 포트폴리오 탄소발자국 지표를 자산군, 산업 및/또는 범위별로 구분하십시오.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

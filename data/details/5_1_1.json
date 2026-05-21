@@ -3,7 +3,7 @@
   "module": "5",
   "moduleTitle": "Business strategy",
   "questionText": "Provide details of the scenarios used in your organization's scenario analysis.",
-  "questionKo": "귀사의 시나리오 분석에 사용한 시나리오에 대한 세부 정보를 입력하십시오 .",
+  "questionKo": "귀사의 시나리오 분석에 사용한 시나리오에 대한 세부 정보를 입력하십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Water, Climate Change, Forests",
@@ -61,38 +61,38 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Scenario used",
+      "textKo": "사용한 시나리오",
       "typeKo": "GROUPED_OPTIONS",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Climate transition scenarios | IEA NZE 2050",
-        "Climate transition scenarios | IEA B2DS",
-        "Climate transition scenarios | IEA 2DS",
-        "Climate transition scenarios | IEA 450",
-        "Climate transition scenarios | IEA SDS",
-        "Climate transition scenarios | IEA APS",
-        "Climate transition scenarios | IEA STEPS (previously IEA NPS)",
-        "Climate transition scenarios | IEA CPS",
-        "Climate transition scenarios | Greenpeace",
-        "Climate transition scenarios | DDP",
-        "Climate transition scenarios | IRENA",
-        "Climate transition scenarios | BNEF NEO",
-        "Climate transition scenarios | NGFS scenarios framework, 직접 입력",
-        "Climate transition scenarios | Customized 공개되어 있음 climate transition scenario, 직접 입력",
-        "Climate transition scenarios | Bespoke climate transition scenario",
-        "Physical climate scenarios | RCP 1.9",
-        "Physical climate scenarios | RCP 2.6",
-        "Physical climate scenarios | RCP 3.4",
-        "Physical climate scenarios | RCP 4.5",
-        "Physical climate scenarios | RCP 6.0",
-        "Physical climate scenarios | RCP 7.0",
-        "Physical climate scenarios | RCP 8.5",
-        "Physical climate scenarios | Customized 공개되어 있음 climate physical scenario, 직접 입력",
-        "Physical climate scenarios | Bespoke physical climate scenario",
-        "물 시나리오 | WRI Aqueduct",
-        "물 시나리오 | WWF Water Risk Filter",
-        "물 시나리오 | Customized 공개되어 있음 water scenario, 직접 입력",
-        "물 시나리오 | Bespoke water scenario"
+        "기후 전환 시나리오 | 2050",
+        "기후 전환 시나리오 | IEA B2DS",
+        "기후 전환 시나리오 | IEA 2DS",
+        "기후 전환 시나리오 | IEA 450",
+        "기후 전환 시나리오 |",
+        "기후 전환 시나리오 |",
+        "기후 전환 시나리오 | (이전)",
+        "기후 전환 시나리오 |",
+        "기후 전환 시나리오 | 그린피스",
+        "기후 전환 시나리오 |",
+        "기후 전환 시나리오 |",
+        "기후 전환 시나리오 |",
+        "기후 전환 시나리오 | 시나리오, 직접 입력 명시",
+        "기후 전환 시나리오 | 사용 가능 기후 전환 시나리오, 직접 입력 명시",
+        "기후 전환 시나리오 | 기후 전환 시나리오",
+        "물리적 기후 시나리오 | 1.9",
+        "물리적 기후 시나리오 | 2.6",
+        "물리적 기후 시나리오 | 3.4",
+        "물리적 기후 시나리오 | 4.5",
+        "물리적 기후 시나리오 | 6.0",
+        "물리적 기후 시나리오 | 7.0",
+        "물리적 기후 시나리오 | 8.5",
+        "기후 시나리오 | 사용 가능 기후 시나리오, 직접 입력 명시",
+        "기후 시나리오 | 기후 시나리오",
+        "수자원 시나리오 |",
+        "수자원 시나리오 | 수자원 리스크",
+        "수자원 시나리오 | 사용 가능 수자원 시나리오, 직접 입력 명시",
+        "수자원 시나리오 | 수자원 시나리오"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -105,7 +105,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Assumptions, uncertainties 및 constraints in scenario",
+      "textKo": "시나리오의 가정, 불확실성 및 제약 조건",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -120,7 +120,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Rationale for choice of scenario",
+      "textKo": "시나리오 선택 근거",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -142,7 +142,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "SSPs used in conjunction with scenario",
+      "textKo": "시나리오와 함께 사용한",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -151,7 +151,7 @@
         "SSP3",
         "SSP4",
         "SSP5",
-        "No SSP used"
+        "사용 안 함"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -168,13 +168,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Approach to scenario",
+      "textKo": "시나리오 접근 방식",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Qualitative",
-        "Quantitative",
-        "Qualitative 및 quantitative"
+        "정성적",
+        "정량적",
+        "정성적 및 정량적"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -197,17 +197,17 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Scenario coverage",
+      "textKo": "시나리오 분석 범위",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Organization-wide",
-        "Organization-wide 제외 포트폴리오",
-        "Business division",
-        "Business activity",
-        "Facility",
+        "전사",
+        "포트폴리오 제외 전사",
+        "사업 부문",
+        "사업 활동",
+        "시설",
         "국가/지역",
-        "Product-level",
+        "제품 단위",
         "포트폴리오",
         "기타, 직접 입력"
       ],
@@ -230,14 +230,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Risk types considered in scenario",
+      "textKo": "시나리오에서 고려한 리스크 유형",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "급성 물리적 리스크",
-        "만성 물리적 리스크",
+        "급성 물리적",
+        "만성 물리적",
         "정책",
-        "Market",
+        "시장",
         "평판",
         "기술",
         "법적 책임"
@@ -262,18 +262,18 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Temperature alignment of scenario",
+      "textKo": "시나리오의 온도 정합성",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "1.5°C 또는 lower",
+        "1.5°C 이하",
         "1.6ºC - 1.9ºC",
         "2.0ºC - 2.4ºC",
         "2.5ºC - 2.9ºC",
         "3.0ºC - 3.4ºC",
         "3.5ºC - 3.9ºC",
-        "4.0ºC 및 above",
-        "Unknown"
+        "4.0ºC 및 위 항목",
+        "알 수 없음"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -286,7 +286,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Reference year",
+      "textKo": "기준연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -312,7 +312,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Timeframes covered",
+      "textKo": "포함된 시간 범위",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -369,40 +369,40 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Driving forces in scenario",
+      "textKo": "시나리오의 동인",
       "typeKo": "GROUPED_OPTIONS",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Local ecosystem asset interactions, dependencies 및 impacts | Changes to the state of nature",
-        "Local ecosystem asset interactions, dependencies 및 impacts | Number of ecosystems impacted",
-        "Local ecosystem asset interactions, dependencies 및 impacts | Changes in ecosystem services provision",
-        "Local ecosystem asset interactions, dependencies 및 impacts | Speed of change (to state of nature 및/또는 ecosystem services)",
-        "Local ecosystem asset interactions, dependencies 및 impacts | Climate change (one of five drivers of nature change)",
-        "Local ecosystem asset interactions, dependencies 및 impacts | Other local ecosystem asset interactions, dependencies 및 impacts driving forces, 직접 입력",
-        "Finance 및 insurance | Cost of capital",
-        "Finance 및 insurance | Sensitivity of capital (to nature impacts 및 dependencies)",
-        "Finance 및 insurance | Other finance 및 insurance driving forces, 직접 입력",
-        "이해관계자 및 customer demands | Consumer sentiment",
-        "이해관계자 및 customer demands | Consumer attention to impact",
-        "이해관계자 및 customer demands | Impact of nature footprint on 평판",
-        "이해관계자 및 customer demands | Impact of nature service delivery on consumer",
-        "이해관계자 및 customer demands | Sensitivity to inequity of nature impacts",
-        "이해관계자 및 customer demands | Other 이해관계자 및 customer demands driving forces, 직접 입력",
-        "Regulators, legal 및 정책 regimes | Global regulation",
-        "Regulators, legal 및 정책 regimes | Political impact of science (from galvanizing to paralyzing)",
-        "Regulators, legal 및 정책 regimes | Level of action (from local to global)",
-        "Regulators, legal 및 정책 regimes | Global 목표",
-        "Regulators, legal 및 정책 regimes | Methodologies 및 expectations for science-based 목표",
-        "Regulators, legal 및 정책 regimes | Other regulators, legal 및 정책 regimes driving forces, 직접 입력",
-        "관련 기술 및 science | Granularity of available data (from aggregated to local)",
-        "관련 기술 및 science | Data regime (from closed to open)",
-        "관련 기술 및 science | Other 관련 기술 및 science driving forces, 직접 입력",
-        "Direct interaction with climate | On asset values, on the corporate",
-        "Direct interaction with climate | Perception of efficacy of climate regime",
-        "Direct interaction with climate | Other direct interaction with climate driving forces, 직접 입력",
-        "Macro 및 microeconomy | Domestic g행th",
-        "Macro 및 microeconomy | Globalizing 시장",
-        "Macro 및 microeconomy | Other macro 및 microeconomy driving forces, 직접 입력"
+        "자산, 의존도 및 영향 | 변경사항 명시 의 자연",
+        "자산, 의존도 및 영향 | 숫자 입력 의",
+        "자산, 의존도 및 영향 | 변경사항 서비스",
+        "자산, 의존도 및 영향 | 의 변경 (명시 의 자연 및/또는 서비스)",
+        "자산, 의존도 및 영향 | 기후변화 (1개 의 의 자연 변경)",
+        "자산, 의존도 및 영향 | 기타 자산, 의존도 및 영향, 직접 입력 명시",
+        "금융 및 보험 | 의",
+        "금융 및 보험 | 의 (자연 영향 및 의존도)",
+        "금융 및 보험 | 기타 금융 및 보험, 직접 입력 명시",
+        "및 고객 |",
+        "및 고객 | 영향",
+        "및 고객 | 영향 의 자연 발자국 평판",
+        "및 고객 | 영향 의 자연",
+        "및 고객 | 의 자연 영향",
+        "및 고객 | 기타 및 고객, 직접 입력 명시",
+        ", 법적 및 정책 | 전 세계 규제",
+        ", 법적 및 정책 | 영향 의 (에서)",
+        ", 법적 및 정책 | 의 (에서 전 세계)",
+        ", 법적 및 정책 | 전 세계 목표",
+        ", 법적 및 정책 | 방법론 및 기준 목표",
+        ", 법적 및 정책 | 기타, 법적 및 정책, 직접 입력 명시",
+        "관련성 있음 기술 및 | 의 사용 가능 데이터 (에서)",
+        "관련성 있음 기술 및 | 데이터 (에서)",
+        "관련성 있음 기술 및 | 기타 관련성 있음 기술 및, 직접 입력 명시",
+        "직접 기후 | 자산, 기업",
+        "직접 기후 | 의 의 기후",
+        "직접 기후 | 기타 직접 기후, 직접 입력 명시",
+        "및 |",
+        "및 | 시장",
+        "및 | 기타 및, 직접 입력 명시"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -413,31 +413,31 @@
       "type": "Change From Last Year",
       "text": "Modified guidance",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "가이던스 수정"
+      "textKo": "가이던스 변경"
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to any row of column 1 \"Use of scenario analysis\" of 5.1.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 하나 이상 행 of 열 1 \"Use of 시나리오 분석\" of 5.1."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" 응답 해당 행 의 열 1 \"시나리오 분석 사용 여부\" 의 5.1."
     },
     {
       "type": "Requested Content",
       "text": "General \nAdd a row for each scenario, or scenario variation, used in your scenario analysis. \nFor climate-related scenario analysis, as recommended by TCFD, scenarios should be sufficiently diverse to allow challenging \"what-if\" analyses and capture a wide range of insights about uncertain futures. In assessing transition risks, an organization should consider using or developing a 1.5°C scenario. In assessing physical risks, an organization should use the current GHG pathway based on government policies currently in place, which according to latest estimates from the Climate Action Tracker would result in warming of about 2.7°C above pre-industrial levels. 2.7°C is the median of the low and high ends of current policy projections. \nOrganizations using customized or bespoke scenarios should have a robust and accountable process to ensure that the scenarios used are objective and diverse, and should transparently disclose this process and the content of the scenarios in this question. \nThe CDP Technical Note on Scenario Analysis provides further guidance on conducting and disclosing scenario analysis. \nEnvironmental issue this scenario has been used to analyze (column 0) \nA row will automatically be added to this column for each environmental issue you select \"Yes\" in question 5.1. \nScenario used (column 1) \nNote that a scenario linked to one environmental issue can be used in the scenario analysis of another. For instance, a climate change scenario can be used to analyze outcomes for forests. \nIf you have based your scenario on a publicly available one but adjusted it for the purposes of your analysis, please select the relevant \"Customized publicly available...\" option. \nSSPs used in conjunction with scenario (column 2) \nThis column only appears if you select a RCP scenario in the \"Scenario used\" column. \nBy design, the RCP emission and concentration pathways were stripped of their association with a certain socio-economic development. Shared Socio-economic Pathways (SSPs) have been developed to complement them. SSP1, SSP2, …, SSP5 are used to denote the five socio-economic scenario families used in conjunction with the RCPs. \nReference year (column 7) \nThe reference year is the designated start date for the scenario. \nTimeframes covered (column 8) \nSelect all time horizons covered by the scenario that you use for analysis (example: if the scenario runs to 2100 but you only use 2030 and 2040 time horizons for analysis, only select 2030 and 2040).\nDriving forces in scenario (column 9) \nSpecify the key external factors that influence the events, trends, and patterns that determine the outcomes in the scenario. \nConsult the TNFD Guidance on scenario analysis for further information on the driving forces presented in this column. \nAssumptions, uncertainties and constraints in scenario (column 10) \nOutline the major assumptions your organization has made regarding: \nPolicies in the jurisdictions covered by the scenario; \nMacroeconomic trends; \nNational- or regional-level variables (e.g. local weather patterns, demographics, land use, infrastructure and availability of natural resources); \nDevelopments in technology and; \nEnergy usage and mix. \nDiscuss the assumptions your organization has made on the severity or intensity of the driving forces identified in column 10 \"Driving forces in scenario\". \nHighlight the uncertainties and constraints that may affect the outcomes of the scenario analysis. \nIf the scenario does not cover your entire organization, provide further details of the coverage. \nRationale for choice of scenario (column 11) \nDescribe why the chosen scenario is relevant to the resilience of your organization's business strategy, and how it aligns with critical assumptions in your organization's strategy and financial planning. \nIf disclosing on climate change, include why the scenarios are relevant to assessing your organization's resilience to climate-related changes, developments or uncertainties. Specify if any of the climate-related scenarios used were aligned with the latest international agreement on climate change. \nProvide further details on the sources of the scenarios used, including data sources and models used if applicable. \nFinancial services sector companies should state if your organization uses environmental scenario analysis to understand the impact of environmental issues on lending, financial intermediary, investment and/or insurance underwriting activities, in addition to operational activities.\nNote for companies in the financial services sector \nNote that \"Organization-wide\" in column 3 \"Scenario coverage\" refers to the reporting boundary as disclosed in the introduction module. Financial services sector companies using scenario analysis on their portfolios should select \"Portfolio\", even when the scenario covers all financial activities and portfolios. In column \"Scenario coverage\", select \"Company-wide\" if referring to direct operations AND portfolio activities related to lending, investing and or insurance. Select \"Company-wide excluding portfolio\" if referring only to your direct operations and nothing related to your lending, insurance and investing activities. \nBoth physical and transition pathway risks should be considered in your scenario analysis. \nBanks: \nBanks are encouraged to use the Network for Greening the Financial System (NGFS) scenarios framework. \nInsurance companies: \nInsurance companies that perform climate-related scenario analysis on their underwriting activities should provide the following information: \nInformation on the time frames used for the climate-related scenarios, including short-, medium-, and long-term milestone; and \nCompanies with substantial exposure to weather-related perils should consider a greater than 2°C scenario to account for physical effects of climate change.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Add a 행 for each scenario, 또는 scenario variation, used in your 시나리오 분석. For climate-related 시나리오 분석, as recommended by TCFD, scenarios 해야 합니다 be sufficiently diverse to allow challenging \"what-만약\" analyses 및 capture a wide range of insights about uncertain futures. In assessing transition 리스크, an organization 해야 합니다 consider using 또는 developing a 1.5°C scenario. In assessing physical 리스크, an organization 해야 합니다 use the current GHG pathway based on government policies currently in place, which according to latest estimates from the Climate Action Tracker would result in warming of about 2.7°C above pre-industrial levels. 2.7°C is the median 의 low 및 high ends of current 정책 projections. Organizations using customized 또는 bespoke scenarios 해야 합니다 have a robust 및 accountable 프로세스 to ensure that the scenarios used are objective 및 diverse, 및 해야 합니다 transparently disclose this 프로세스 및 the content 의 scenarios in this 문항. The CDP Technical Note on 시나리오 분석 provides further guidance on conducting 및 disclosing 시나리오 분석. Environmental issue this scenario has been used to analyze (열 0) A 행 will automatically be added to this 열 for each environmental issue you select \"Yes\" in 문항 5.1. Scenario used (열 1) Note that a scenario linked to one environmental issue can be used in the 시나리오 분석 of another. For instance, a 기후변화 scenario can be used to analyze outcomes for forests. 만약 you have based your scenario on a 공개되어 있음 one but adjusted it 에 대한 purposes of your analysis, please select the 관련 \"Customized 공개되어 있음...\" option. SSPs used in conjunction with scenario (열 2) This 열 only appears 만약 you select a RCP scenario in the \"Scenario used\" 열. By design, the RCP emission 및 concentration pathways were stripped 의ir association with a certain socio-economic development. Shared Socio-economic Pathways (SSPs) have been developed to complement them. SSP1, SSP2, …, SSP5 are used to denote the five socio-economic scenario families used in conjunction with the RCPs. Reference year (열 7) The reference year is the designated start date 에 대한 scenario. Timeframes covered (열 8) Select all time horizons covered by the scenario that you use for analysis (example: 만약 the scenario runs to 2100 but you only use 2030 및 2040 time horizons for analysis, only select 2030 및 2040). Driving forces in scenario (열 9) Specify the key external factors that influence the events, trends, 및 patterns that determine the outcomes in the scenario. Consult the TNFD Guidance on 시나리오 분석 for further information on the driving forces presented in this 열. Assumptions, uncertainties 및 constraints in scenario (열 10) Outline the major assumptions 귀사 has made regarding: Policies in the jurisdictions covered by the scenario; Macroeconomic trends; National- 또는 regional-level variables (e.g. local weather patterns, demographics, land use, 인프라 및 availability of natural resources); Developments in 기술 and; Energy usage 및 mix. Discuss the assumptions 귀사 has made on the severity 또는 intensity 의 driving forces identified in 열 10 \"Driving forces in scenario\". Highlight the uncertainties 및 constraints that may affect the outcomes 의 시나리오 분석. 만약 the scenario does not cover your entire organization, provide further details 의 coverage. Rationale for choice of scenario (열 11) 설명 why the chosen scenario is 관련 to the resilience of 귀사의 사업전략, 및 how it aligns with critical assumptions in 귀사의 전략 및 재무계획. 만약 disclosing on 기후변화, include why the scenarios are 관련 to assessing 귀사의 resilience to climate-related changes, developments 또는 uncertainties. Specify 만약 하나 이상 의 climate-related scenarios used were aligned with the latest international agreement on 기후변화. Provide further details on the sources 의 scenarios used, 포함 data sources 및 models used 만약 해당되는 경우. 금융 서비스 sector companies 해야 합니다 state 만약 귀사 uses environmental 시나리오 분석 to understand the impact of 환경 이슈 on lending, financial intermediary, investment 및/또는 insurance underwriting activities, in addition to operational activities. Note for companies in the 금융 서비스 sector Note that \"Organization-wide\" in 열 3 \"Scenario coverage\" refers to the 보고경계 as 공개 in the introduction module. 금융 서비스 sector companies using 시나리오 분석 on their 포트폴리오s 해야 합니다 select \"포트폴리오\", even 경우 the scenario covers all financial activities 및 포트폴리오s. In 열 \"Scenario coverage\", select \"Company-wide\" 만약 referring to 직접 운영사업장 그리고 포트폴리오 activities related to lending, investing 및 또는 insurance. Select \"Company-wide 제외 포트폴리오\" 만약 referring only to your 직접 운영사업장 및 nothing related to your lending, insurance 및 investing activities. Both physical 및 transition pathway 리스크 해야 합니다 be considered in your 시나리오 분석. Banks: Banks are encouraged to use the Network for Greening the Financial System (NGFS) scenarios framework. Insurance companies: Insurance companies that perform climate-related 시나리오 분석 on their underwriting activities 해야 합니다 provide the following information: Information on the time frames used 에 대한 climate-related scenarios, 포함 short-, medium-, 및 long-term milestone; 및 Companies with substantial exposure to weather-related perils 해야 합니다 consider a 초과 2°C scenario to account for physical effects of 기후변화."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Ambition",
       "text": "The organization describes how the scenarios chosen were developed, including: \nSources of scenarios used and rationale for the choice; \nNarratives and constraints including inputs, assumptions and uncertainties; and \nTime-horizons considered. \nThe scenario analysis performed includes the following: \nThe chosen assumptions, narratives and time horizons should be robust and internally consistent. I.e., they should: \nBe consistent with critical environmental assumptions made in the organization's strategy and financial planning; and \nBe relevant to and cover the organization's plausible dependencies, impacts, risks, and opportunities. \nA range of scenarios covering all environmental topics that are relevant to the organization, including quantitative and qualitative components. For example, changing hydrological patterns, changes in water use/exploitation, land use change, and socio-economic changes. Consider ecological thresholds and tipping points where possible. \nConsideration of interdependencies between environmental scenarios. \nA nature-wide analysis approach where feasible. \nClimate-scenario analysis should include: \nAt least one 1.5°C or lower scenario for organization-wide climate transition risk assessment; \nAt least one high emission scenario (3°C or higher) for organization-wide physical risk assessment, with location-based analysis specific to the organization's locations where possible; and \nThe decarbonization scenarios used should be from credible, well recognized sources (e.g., International Energy Agency (IEA)). \n(Financial Services sector) Companies in the financial services sector use a range of scenarios as part of their scenario analysis, focusing on climate risks associated with their financing activities (lending, investing and insurance underwriting), at least one of which is a 1.5ºC temperature aligned scenario.",
-      "typeKo": "Ambition",
-      "textKo": "The organization 설명s how the scenarios chosen were developed, 포함: Sources of scenarios used 및 rationale 에 대한 choice; Narratives 및 constraints 포함 inputs, assumptions 및 uncertainties; 및 Time-horizons considered. The 시나리오 분석 performed includes the following: The chosen assumptions, narratives 및 time horizons 해야 합니다 be robust 및 internally consistent. I.e., they 해야 합니다: Be consistent with critical environmental assumptions made in the 조직의 전략 및 재무계획; 및 Be 관련 to 및 cover the 조직의 plausible dependencies, impacts, 리스크, 및 기회. A range of scenarios covering all environmental topics that are 관련 to the organization, 포함 quantitative 및 qualitative components. For example, changing hydrological patterns, changes in 수자원 use/exploitation, land use change, 및 socio-economic changes. Consider ecological thresholds 및 tipping 점 여기서 possible. Consideration of interdependencies between environmental scenarios. A nature-wide analysis approach 여기서 feasible. Climate-시나리오 분석 해야 합니다 include: 최소 one 1.5°C 또는 lower scenario for organization-wide climate transition risk assessment; 최소 one high emission scenario (3°C 또는 higher) for organization-wide physical risk assessment, with 지역기반 analysis specific to the 조직의 locations 여기서 possible; 및 The decarbonization scenarios used 해야 합니다 be from credible, well recognized sources (e.g., International Energy Agency (IEA)). (금융 서비스 sector) Companies in the 금융 서비스 sector use a range of scenarios 의 일부로 their 시나리오 분석, focusing on climate 리스크 associated with their financing activities (lending, investing 및 insurance underwriting), 최소 one of which is a 1.5ºC temperature aligned scenario."
+      "typeKo": "목표수준",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "1.5°C or lower scenario: a core element of the TCFD's Strategy recommendation c) \"Describe the resilience of the organization's strategy, taking into consideration different climate-related scenarios, including a 2°C or lower scenario\". As noted on page 26 of The TCFD Guidance on Scenario Analysis for Non-Financial Companies , the TCFD now recommends that in assessing transition risks, companies should consider using or developing a 1.5°C scenario for the \"2°C or lower scenario\", stating that \"a 1.5°C scenario would provide stronger diversity in assumptions about future policies and technologies. A 1.5°C scenario also aligns with the latest scientific research from the IPCC, the growing momentum of pledges to limit emissions to net-zero by 2050, and the spirit of the Paris Agreement, demonstrating a company's alignment to recognized temperature targets.\" \nBNEF NEO: Bloomberg New Energy Finance's (BNEF) New Energy Outlook (NEO) focusses on the annual long-term economic analysis of the world's power sector out to 2050. 2021's edition presents three scenarios that are aligned with the Paris Agreement, achieving net-zero emissions in 2050. The Green Scenario is a net-zero pathway where so-called ‘green hydrogen' complements greater electricity use, recycling and bioenergy. The Grey Scenario assumes greater use of electricity and renewable power is complemented by carbon capture and storage technology and allows for the continued use of some fossil fuels. The Red Scenario assumes smaller, modular nuclear is deployed to complement wind, solar and battery technology in the power sector, with dedicated nuclear plants manufacturing so-called \"red hydrogen\". \nDDP: the Deep Decarbonization Pathways (DDP) initiative builds and brings to the public debate realistic decarbonization pathways to 2050. These are designed to deeply reduce carbon emissions while satisfying socio-economic objectives. The pathways are developed country/area by country/area, considering in each case the specific context and highlighting key drivers of the transformation and their potential effects. \nDriving forces : the underlying external causes of change in relation to the focal question. For a process to be considered as a driver it needs to (1) be continuous over a period of time and (2) influence the outcomes of the focal question durably and consistently. A time-bound, episodic process may not be a driver but rather a crisis or shock. \nGreenpeace: the Advanced Energy [R]evolution scenario. Based on Greenpeace's basic Energy [R]evolution scenario, which includes significant efforts to exploit opportunities for energy efficiency, along with large-scale integration of renewables, biofuels, and hydrogen into the energy mix, the Advanced Energy [R]evolution scenario sets out an ambitions pathway towards a fully decarbonized energy system by 2050 through much stronger efforts to move energy towards a 100% renewable energy supply. Consumption pathways remain similar to the basic scenario, but faster introduction of technologies leads to complete decarbonization. The IEA's Current Policies Scenario serves as the reference point in the development of Greenpeace's Advanced Energy Revolution scenario. \nIEA 2DS: IEA's 2°C Scenario is built on a projected warming limit of 2°C and is part of the annual publication \"Energy Technology Perspectives\", providing scenario analysis based on the development of lower carbon technology and its deployment in various sectors. The IEA ETP 2DS sets out an energy system development pathway and an emissions trajectory consistent with at least a 50% chance of limiting the average global temperature rise to 2°C. It sets the target of cutting CO2 emissions by almost 60% by 2050 (compared with 2013), followed by continued decline after 2050 until carbon neutrality is reached. It also identifies changes that help ensure a secure and affordable energy system in the long run, while emphasizing that transforming the energy sector is vital, but not enough on its own. \nIEA 450: IEA's World Energy Outlook 450 scenario is expressed as realizing a 50% chance of limiting warming to a 2°C rise by 2100 (originally based upon a projected warming limit of 2°C through limiting the concentration of GHG's to around 450ppm of CO2 equivalent) and offers steps by which that goal might be achieved. It references many separate measures which are required to reduce energy-related emissions from 2015 to 2040, including stronger deployment of technologies that are familiar and available at a commercial scale today, delivering close to 60% of the emissions reductions. Technologies referenced include the building of significant additional nuclear capacity and rapid CCS expansion. \nIEA APS: IEA's Announced Pledges Scenario (APS) takes account of all climate commitments made by governments around the world including Nationally Determined Contributions (NDCs) as well as longer-term net-zero targets and assumes they will be met in full and on time. The global emissions difference between the APS and the NZE represents the \"ambition gap\" that needs to be closed for governments to achieve the goals agreed in the 2015 Paris Agreement. \nIEA B2DS: IEA's Beyond 2°C Scenario (B2DS) sets out a rapid decarbonization pathway in line with international policy goals. The B2DS looks at how far known clean energy technologies could go if pushed to practical limits, in line with countries' ambitious aspirations in the Paris Agreement. In this scenario, the energy sector reaches carbon neutrality by 2060 to limit future temperature increases to 1.75°C by 2100. This pathway implies that all available policy levers are activated throughout the outlook period in every sector worldwide, requiring unprecedented policy action as well as effort and engagement from all stakeholders. \nIEA CPS: IEA's Current Policies Scenario (CPS) includes only existing energy policies. This default setting for the energy system is a benchmark against which the impact of \"new\" policies can be measured. \nIEA NZE 2050: IEA's Net Zero by 2050 scenario presents a roadmap for the energy sector to transition to a net zero energy system by 2050. It assumes that advanced economies will reach net zero in advance of 2050 and sets out an emissions trajectory consistent with a 50% chance of limiting the global temperature rise to 1.5°C without a temperature overshoot. \nIEA SDS: IEA's Sustainable Development Scenario (SDS) is compatible with the Paris Agreement's less ambitious \"well-below 2°C\" goal. It assumes all energy-related SDGs and all current net-zero pledges are achieved, with advanced economies reaching net zero emissions by 2050, China by 2060 and all others by 2070 at the latest. It has a 50% probability of limiting global temperature rise to 1.65°C, assuming no extensive net negative emissions. With some net negative emissions after 2070, temperature rise could be reduced to 1.5°C by 2100. \nIEA STEPS (previously IEA NPS): IEA's Stated Policies Scenario (STEPS) does not take for granted that governments will meet all announced goals. It instead looks at where the energy system might go without additional policy implementation, looking at existing policies and measures and those under development. The global emissions difference between the STEPS and the APS represents the \"implementation gap\" that needs to be closed for governments to achieve their announced decarbonization targets. \nIRENA: IRENA's REmap determines the potential for countries, regions and the world to scale up renewables in order to ensure an affordable and sustainable energy future. REmap assesses worldwide renewable energy potential assembled from the bottom-up, starting with country/area analyses - in collaboration with country/area experts, and then aggregating these results to arrive at a global picture. REmap accounts for renewable power technologies, but also considers technology options in heating, cooling and transport. In determining the potential to scale up renewables, REmap focuses on possible technologies pathways and assesses numerous other metrics, including: technology, sector and system costs; investment needs; externalities relating to air pollution and climate; CO2 emissions; and economic indicators such as employment and economic growth. Based on these country/area driven results, REmap provides insights to policy and decision makers for areas in which action is needed. \nNGFS scenarios framework : to facilitate the uptake of climate scenario analysis by central banks, financial regulators, and the larger financial community, the NGFS developed a global set of scenarios and published guidance on conducting such analysis. \nPhysical risks: \nAcute - occurrence of short term, specific events that change the state of nature. For example, oil spills, forest fires or pests affecting a harvest; \nChronic - gradual changes to the state of nature. For example, pollution stemming from pesticide use or climate change. \nPublicly available scenarios: scenarios which are: \nused/referenced and issued by an independent body; \nwherever possible, supported by publicly available datasets; \nupdated on a regular basis; and \nlinked to functional tools (e.g., visualizers, calculators, and mapping tools) that can be applied by organizations [from TCFD recommendations ]. \nQualitative scenarios: a high level, narrative approach to scenario analysis, suitable for organizations familiarizing themselves with the process. Qualitative scenario analysis explores relationships and trends for which little or no numerical data is available. \nQuantitative scenarios: a more detailed method for conducting scenario analysis, with greater rigor and sophistication in the use of data sets and quantitative models which may warrant further analysis. Quantitative scenario analysis can be used to assess measurable trends and relationships using models and other analytical techniques. \nRCP 1.9: Representative Concentration Pathway (RCP) 1.9 is the IPCC's lowest emission pathway that focuses on limiting warming to below 1.5°C by the end of the century, which is the aspirational goal of the Paris Agreement. RCPs provide a quantitative description of atmospheric pollutions over time, as well as radiative forces in 2100. In RCP 1.9, radiative forcing is limited to no more than 1.9 W/m2 above pre-industrial levels. \nRCP 2.6: in RCP 2.6, radiative forcing peaks at 3.1 W/m2 before returning to 2.6 W/m2 by 2100, achieved through; a shift to renewable energy sources; CO2 remaining at today's level until 2020, then decline and becoming negative in 2100; and CO2 concentrations peaking by 2050, followed by a modest decline to around 400 ppm by 2100. \nRCP 3.4: RCP 3.4 represents the IPCC's intermediate pathway between the very stringent RCP2.6 and the less stringent mitigation efforts associated with RCP4.5. \nRCP 4.5: RCP 4.5 represents one of IPCC's intermediate stabilization pathways in which radiative forcing is stabilized at approximately 4.5 W/m2 after 2100. \nRCP 6.0: RCP 6.0 represents one of IPCC's intermediate stabilization pathways in which radiative forcing is stabilized at approximately 6.0 W/m2 after 2100. \nRCP 7.0: RCP 7.0 consists of a baseline outcome rather than a mitigation target, and represents the medium-to-high end of the range of future emissions and warming resulting from no additional climate policy. \nRCP 8.5: RCP 8.5 represents the IPCC's high-end pathway in which radiative forcing reaches greater than 8.5 W/m2 by 2100, and continues to rise for some time afterwards. \nTransition risks: \nPolicy - changes in the policy context due to new (or enforcement of existing) policies to create positive impacts on nature or mitigate negative impacts on nature; \nTechnology - substitution of products or services with a reduced impact on nature and/or reduced dependency on nature. For example, the replacement of plastics with biodegradable containers; \nMarket - changing dynamics in overall markets, including changes in consumer preferences, which arise from changing physical, regulatory, technological and reputational conditions and stakeholder dynamics. For example, the market value of a company is affected by assets that have decreased in value because there is insufficient freshwater for the production process, or the value of the business' production process is reduced by the emergence of new technologies that require less water to operate; \nReputation - changes in perception concerning an organisation's actual or perceived nature impacts, including at the local, economic and societal level. This can result from direct company impacts, industry impacts and/or impacts of activities upstream and/or downstream in a value chain. \nLiability - liability risks that arise directly or indirectly from legal claims. As laws, regulations and case law related to an organisation's preparedness for nature action evolves, the incident or probability of contingent liabilities arising from an organisation may increase. ( TNFD , 2023)",
-      "typeKo": "설명 of Terms",
-      "textKo": "1.5°C 또는 lower scenario: a core element 의 TCFD's 전략 recommendation c) \"설명 the resilience 의 조직의 전략, taking into consideration different climate-related scenarios, 포함 a 2°C 또는 lower scenario\". As noted on page 26 의 TCFD Guidance on 시나리오 분석 for Non-Financial Companies, the TCFD now recommends that in assessing transition 리스크, companies 해야 합니다 consider using 또는 developing a 1.5°C scenario 에 대한 \"2°C 또는 lower scenario\", stating that \"a 1.5°C scenario would provide stronger diversity in assumptions about future policies 및 technologies. A 1.5°C scenario also aligns with the latest scientific research from the IPCC, the g행ing momentum of pledges to limit emissions to net-zero by 2050, 및 the spirit 의 Paris Agreement, demonstrating a company's alignment to recognized temperature 목표.\" BNEF NEO: Bloomberg 신규 Energy Finance's (BNEF) 신규 Energy Outlook (NEO) focusses on the annual long-term economic analysis 의 world's power sector out to 2050. 2021's edition presents three scenarios that are aligned with the Paris Agreement, achieving net-zero emissions in 2050. The Green Scenario is a net-zero pathway 여기서 so-called ‘green hydrogen' complements greater electricity use, recycling 및 bioenergy. The Grey Scenario assumes greater use of electricity 및 re신규able power is complemented by carbon capture 및 storage 기술 및 allows 에 대한 continued use of some fossil fuels. The Red Scenario assumes smaller, modular nuclear is deployed to complement wind, solar 및 battery 기술 in the power sector, with dedicated nuclear plants manufacturing so-called \"red hydrogen\". DDP: the Deep Decarbonization Pathways (DDP) 이니셔티브 builds 및 brings to the 공개 debate realistic decarbonization pathways to 2050. These are designed to deeply reduce carbon emissions while satisfying socio-economic objectives. The pathways are developed 국가/지역 by 국가/지역, considering in each case the specific context 및 highlighting key drivers 의 transformation 및 their potential effects. Driving forces: the underlying external causes of change in relation to the focal 문항. For a 프로세스 to be considered as a driver it needs to (1) be continuous over a period of time 및 (2) influence the outcomes 의 focal 문항 durably 및 consistently. A time-bound, episodic 프로세스 may not be a driver but rather a crisis 또는 shock. Greenpeace: the Advanced Energy [R]evolution scenario. Based on Greenpeace's basic Energy [R]evolution scenario, which includes significant efforts to exploit 기회 for energy efficiency, along with large-scale integration of re신규ables, biofuels, 및 hydrogen into the energy mix, the Advanced Energy [R]evolution scenario sets out an ambitions pathway towards a fully decarbonized energy system by 2050 through much stronger efforts to move energy towards a 100% 재생에너지 supply. Consumption pathways remain similar to the basic scenario, but faster introduction of technologies leads to complete decarbonization. The IEA's Current Policies Scenario serves as the reference 점 in the development of Greenpeace's Advanced Energy Revolution scenario. IEA 2DS: IEA's 2°C Scenario is built on a projected warming limit of 2°C 및 is part 의 annual 공개ation \"Energy 기술 Perspectives\", providing 시나리오 분석 based on the development of lower carbon 기술 및 its deployment in various sectors. The IEA ETP 2DS sets out an energy system development pathway 및 an emissions trajectory consistent with 최소 a 50% chance of limiting the average global temperature rise to 2°C. It sets the 목표 of cutting CO2 emissions by almost 60% by 2050 (compared with 2013), followed by continued decline after 2050 until carbon neutrality is reached. It also identifies changes that help ensure a secure 및 affordable energy system in the long run, while emphasizing that transforming the energy sector is vital, but not enough on its own. IEA 450: IEA's World Energy Outlook 450 scenario is expressed as realizing a 50% chance of limiting warming to a 2°C rise by 2100 (originally based upon a projected warming limit of 2°C through limiting the concentration of GHG's to around 450ppm of CO2 equivalent) 및 offers steps by which that goal might be achieved. It references many separate measures which are required to reduce energy-related emissions from 2015 to 2040, 포함 stronger deployment of technologies that are familiar 및 available at a commercial scale today, delivering close to 60% 의 emissions reductions. Technologies referenced include the building of significant additional nuclear capacity 및 rapid CCS expansion. IEA APS: IEA's Announced Pledges Scenario (APS) takes account of all climate commitments made by governments around the world 포함 Nationally Determined Contributions (NDCs) as well as longer-term net-zero 목표 및 assumes they will be met in full 및 on time. The global emissions difference between the APS 및 the NZE represents the \"ambition gap\" that needs to be closed for governments to achieve the goals agreed in the 2015 Paris Agreement. IEA B2DS: IEA's Beyond 2°C Scenario (B2DS) sets out a rapid decarbonization pathway in line with international 정책 goals. The B2DS looks at how far known clean energy technologies could go 만약 pushed to practical limits, in line with countries' ambitious aspirations in the Paris Agreement. In this scenario, the energy sector reaches carbon neutrality by 2060 to limit future temperature increases to 1.75°C by 2100. This pathway implies that all available 정책 levers are activated throughout the outlook period in every sector worldwide, requiring unprecedented 정책 action as well as effort 및 참여 from all 이해관계자. IEA CPS: IEA's Current Policies Scenario (CPS) includes only existing energy policies. This default setting 에 대한 energy system is a benchmark against which the impact of \"신규\" policies can be measured. IEA NZE 2050: IEA's Net Zero by 2050 scenario presents a roadmap 에 대한 energy sector to transition to a net zero energy system by 2050. It assumes that advanced economies will reach net zero in advance of 2050 및 sets out an emissions trajectory consistent with a 50% chance of limiting the global temperature rise to 1.5°C without a temperature overshoot. IEA SDS: IEA's Sustainable Development Scenario (SDS) is compatible with the Paris Agreement's less ambitious \"well-below 2°C\" goal. It assumes all energy-related SDGs 및 all current net-zero pledges are achieved, with advanced economies reaching net zero emissions by 2050, China by 2060 및 all others by 2070 at the latest. It has a 50% probability of limiting global temperature rise to 1.65°C, assuming no extensive net negative emissions. With some net negative emissions after 2070, temperature rise could be reduced to 1.5°C by 2100. IEA STEPS (previously IEA NPS): IEA's Stated Policies Scenario (STEPS) does not take for granted that governments will meet all announced goals. It instead looks at 여기서 the energy system might go without additional 정책 이행, looking at existing policies 및 measures 및 those under development. The global emissions difference between the STEPS 및 the APS represents the \"이행 gap\" that needs to be closed for governments to achieve their announced decarbonization 목표. IRENA: IRENA's REmap determines the potential for countries, regions 및 the world to scale up re신규ables in order to ensure an affordable 및 sustainable energy future. REmap assesses worldwide 재생에너지 potential assembled from the bottom-up, starting with 국가/지역 analyses - in collaboration with 국가/지역 experts, 및 then aggregating these results to arrive at a global picture. REmap accounts for re신규able power technologies, but also considers 기술 options in heating, cooling 및 transport. In determining the potential to scale up re신규ables, REmap focuses on possible technologies pathways 및 assesses numerous other metrics, 포함: 기술, sector 및 system costs; investment needs; externalities relating to air pollution 및 climate; CO2 emissions; 및 economic indicators such as employment 및 economic g행th. Based on these 국가/지역 driven results, REmap provides insights to 정책 및 decision makers for areas in which action is needed. NGFS scenarios framework: to facilitate the uptake of climate 시나리오 분석 by central banks, financial regulators, 및 the larger financial community, the NGFS developed a global set of scenarios 및 published guidance on conducting such analysis. Physical 리스크: Acute - occurrence of short term, specific events that change the state of nature. For example, oil spills, forest fires 또는 pests affecting a harvest; Chronic - gradual changes to the state of nature. For example, pollution stemming from pesticide use 또는 기후변화. 공개되어 있음 scenarios: scenarios which are: used/referenced 및 issued by an independent body; wherever possible, supported by 공개되어 있음 datasets; updated on a regular basis; 및 linked to functional tools (e.g., visualizers, calculators, 및 mapping tools) that can be applied by organizations [from TCFD recommendations ]. Qualitative scenarios: a high level, narrative approach to 시나리오 분석, suitable for organizations familiarizing themselves with the 프로세스. Qualitative 시나리오 분석 explores relationships 및 trends for which little 또는 no numerical data is available. Quantitative scenarios: a more detailed method for conducting 시나리오 분석, with greater rigor 및 sophistication in the use of data sets 및 quantitative models which may warrant further analysis. Quantitative 시나리오 분석 can be used to assess measurable trends 및 relationships using models 및 other analytical techniques. RCP 1.9: Representative Concentration Pathway (RCP) 1.9 is the IPCC's lowest emission pathway that focuses on limiting warming to below 1.5°C by the end 의 century, which is the aspirational goal 의 Paris Agreement. RCPs provide a quantitative description of atmospheric pollutions over time, as well as radiative forces in 2100. In RCP 1.9, radiative forcing is limited to no more than 1.9 W/m2 above pre-industrial levels. RCP 2.6: in RCP 2.6, radiative forcing peaks at 3.1 W/m2 before returning to 2.6 W/m2 by 2100, achieved through; a shift to 재생에너지 sources; CO2 remaining at today's level until 2020, then decline 및 becoming negative in 2100; 및 CO2 concentrations peaking by 2050, followed by a modest decline to around 400 ppm by 2100. RCP 3.4: RCP 3.4 represents the IPCC's intermediate pathway between the very stringent RCP2.6 및 the less stringent mitigation efforts associated with RCP4.5. RCP 4.5: RCP 4.5 represents one of IPCC's intermediate stabilization pathways in which radiative forcing is stabilized at approximately 4.5 W/m2 after 2100. RCP 6.0: RCP 6.0 represents one of IPCC's intermediate stabilization pathways in which radiative forcing is stabilized at approximately 6.0 W/m2 after 2100. RCP 7.0: RCP 7.0 consists of a baseline outcome rather than a mitigation 목표, 및 represents the medium-to-high end 의 range of future emissions 및 warming resulting from no additional climate 정책. RCP 8.5: RCP 8.5 represents the IPCC's high-end pathway in which radiative forcing reaches 초과 8.5 W/m2 by 2100, 및 continues to rise for some time afterwards. Transition 리스크: 정책 - changes in the 정책 context due to 신규 (or enforcement of existing) policies to create positive impacts on nature 또는 mitigate negative impacts on nature; 기술 - substitution of products 또는 services with a reduced impact on nature 및/또는 reduced dependency on nature. For example, the replacement of plastics with biodegradable containers; Market - changing dynamics in overall 시장, 포함 changes in consumer preferences, which arise from changing physical, regulatory, technological 및 평판al conditions 및 이해관계자 dynamics. For example, the market value of a company is affected by 자산 that have decreased in value because there is insufficient fresh수자원 에 대한 production 프로세스, 또는 the value 의 business' production 프로세스 is reduced by the emergence of 신규 technologies that require less 수자원 to operate; 평판 - changes in perception concerning an organisation's actual 또는 perceived nature impacts, 포함 at the local, economic 및 societal level. This can result from direct company impacts, industry impacts 및/또는 impacts of activities upstream 및/또는 downstream in a 가치사슬. 법적 책임 - 법적 책임 리스크 that arise directly 또는 indirectly from legal claims. As laws, regulations 및 case law related to an organisation's preparedness for nature action evolves, the incident 또는 probability of contingent 부채 arising from an organisation may increase. (TNFD, 2023)"
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -641,7 +641,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -651,7 +651,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -661,7 +661,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -671,7 +671,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -681,7 +681,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -691,7 +691,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -701,7 +701,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -711,7 +711,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -721,7 +721,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -731,7 +731,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -741,7 +741,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -751,7 +751,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -761,7 +761,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -771,7 +771,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -781,7 +781,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -791,7 +791,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -801,7 +801,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -811,7 +811,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -821,7 +821,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -831,7 +831,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -841,7 +841,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -851,7 +851,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -861,7 +861,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -871,7 +871,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -881,7 +881,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -891,7 +891,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -901,7 +901,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -911,7 +911,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -921,7 +921,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -931,7 +931,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -941,7 +941,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -951,7 +951,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -961,7 +961,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -971,7 +971,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -981,7 +981,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -991,7 +991,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -1001,7 +1001,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -1011,7 +1011,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -1021,7 +1021,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 최소 one 행. ii) Either '포트폴리오' 또는 'Organization wide' 선택 in 열 'Scenario coverage' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. Best 행(s) scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -1031,7 +1031,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -1041,7 +1041,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -1051,7 +1051,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -1061,7 +1061,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -1071,7 +1071,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -1081,7 +1081,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -1091,7 +1091,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -1101,7 +1101,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -1111,7 +1111,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -1121,7 +1121,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -1131,7 +1131,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -1141,7 +1141,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -1151,7 +1151,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1161,7 +1161,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1171,7 +1171,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1181,7 +1181,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1191,7 +1191,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1201,7 +1201,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1211,7 +1211,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1221,7 +1221,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1231,7 +1231,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1241,7 +1241,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1251,7 +1251,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1261,7 +1261,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1271,7 +1271,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1281,7 +1281,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1291,7 +1291,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1301,7 +1301,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1311,7 +1311,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1321,7 +1321,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1331,7 +1331,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1341,7 +1341,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1351,7 +1351,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1361,7 +1361,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. A 최고 of 5.5/5.5 점 is available for this 경로. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1371,7 +1371,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': All 행 완성 - 3 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1381,7 +1381,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) Either 의 following met - 1 점 'Qualitative 및 quantitative' 선택 in 'Approach to scenario' in 최소 one 행 또는 'Qualitative' 선택 in 열 'Approach to scenario' in 최소 one 행 그리고 'Quantitative' 선택 in 열 'Approach to scenario' in 최소 one 행. ii) Either 의 following met - 1 점 하나 이상 의 following (2 degrees 또는 lower transition scenarios) 선택 in 열 'Scenario used': - 'IEA 2DS' - 'IEA 450' - 'IEA B2DS' - 'IEA SDS' - 'IEA APS' - 'IEA NZE 2050' - 'IRENA' - 'DDP' - 'BNEF NEO' - 'Greenpeace' 또는 Either '1.5°C 또는 lower' 또는 '1.6ºC- 1.9ºC' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following (transition scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' 만약 criterion ii) is met additional 점수가 부여됩니다 에 대한 following one criterion: iii) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 iv) Either 의 following met - 1 점 하나 이상 의 following (초과 2 degrees aligned physical scenarios) 선택 in 열 'Scenario used': - 'RCP 3.4' - 'RCP 4.5' - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following 선택 in 열 'Temperature alignment of scenario': - '2.0ºC - 2.4ºC' - '2.5ºC - 2.9ºC' - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC ' - '4.0ºC 및 above' 그리고 하나 이상 의 following (physical scenarios) 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' 만약 criterion iv) is met additional 점수가 부여됩니다 에 대한 following one criterion: v) 'Organization-wide' 선택 in 열 'Scenario coverage' - 0.5 점 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1391,12 +1391,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) For 행 여기서 '기후변화' is 선택 in 열 'Environmental issue this scenario has been used to analyze': 리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. i) Either 의 following met - 1.5 점 하나 이상 의 following 선택 in 열 'Scenario used': - 'IEA NZE 2050' - 'BNEF NEO' - 'IRENA' 또는 '1.5°C 또는 lower' 선택 in 열 'Temperature alignment of scenario' 그리고 하나 이상 의 following transition scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate transition scenario, 직접 입력' - 'Bespoke climate transition scenario' - 'NGFS scenarios framework, 직접 입력' ii) Either 의 following met - 1.5 점: 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'RCP 6.0' - 'RCP 7.0' - 'RCP 8.5' 또는 하나 이상 의 following options 선택 in 'Temperature alignment of scenario': - '3.0ºC - 3.4ºC' - '3.5ºC - 3.9ºC' - '4.0ºC 및 above' 그리고 하나 이상 의 following physical scenarios 선택 in 열 'Scenario used': - 'Customized 공개되어 있음 climate physical scenario, 직접 입력' - 'Bespoke physical climate scenario' iii) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2050' - '2060' - '2070' - '2080' - '2090' - '2100' iv) 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 either '급성 물리적 리스크' 또는 '만성 물리적 리스크' have been 선택 in 열 'Risk types considered in scenario' 그리고 하나 이상 의 following options 선택 in 열 'Timeframes covered' for 최소 one 행 여기서 '법적 책임', 'Market', '정책', '평판', 또는 '기술' have been 선택 in 열 'Risk types considered in scenario' - 0.5 점: - '2025' - '2030' - '2040' 이 경로에서 획득 가능한 최고점은 4/4점입니다. Best 행(s) scored. (Please note: 최소 2 행 해야 합니다 be 공개 in order to meet all 의 above 기준.) 또는 NOT APPLICABLE 경로) '기후변화' NOT 선택 in 열 'Environmental issue this scenario has been used to analyze' in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     }
   ],
   "change": {
     "location": "PPT",
-    "question_ko": "귀사의 시나리오 분석에 사용한 시나리오에 대한 세부 정보를 입력하십시오 . M5. Business Strategy",
+    "question_ko": "귀사의 시나리오 분석에 사용한 시나리오에 대한 세부 정보를 입력하십시오",
     "q2025": "Q5.1.1",
     "q2025_text": "Provide details of the scenarios used in your organization's scenario analysis.",
     "change_status": "No question-level change; detail changes",
@@ -1411,17 +1411,17 @@
     "daml_summary": "General: D 5.5/5.5 | A 3/3 | M 4/4 | L 4/4",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "문항 수준 변경 없음; 세부 변경 있음",
-    "detail_change_typesKo": "열 제목 수정",
-    "change_summaryKo": "Correction of 열 header to remove \" Scenario used\".",
-    "scoring_change_summaryKo": "CC 전 섹터 제외 금융 서비스 리더십 • 삭제 wording \"만약 criterion (i)/(ii) is met additional 점수가 부여됩니다 에 대한 following one criterion:\". Wording has been 삭제 as 기준 referred to is no longer present.",
-    "daml_summaryKo": "일반: D 5.5/5.5 | A 3/3 | M 4/4 | L 4/4",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정성 PPT",
+    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "detail_change_typesKo": "열명 변경",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "daml_summaryKo": "일반: D 5.5/5.5 | 3/3 | M 4/4 | L 4/4",
+    "reflectedKo": "",
+    "locationKo": "정성적",
     "locationEn": "Qualitative PPT",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "the scenarios used in 귀사의 시나리오 분석.에 대한 세부 정보를 입력하십시오."
+    "q2025_textKo": "귀사의 시나리오 분석에 사용한 시나리오에 대한 세부 정보를 입력하십시오"
   },
   "defaultPoints": {
     "D": "5.5/5.5",
@@ -1451,16 +1451,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
   "moduleTitleKo": "사업전략",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "수자원, Climate Change, 산림",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "시나리오 분석 is considered a valuable tool to inform an 조직의 사업전략 의 일부로 transitioning to a sustainable economy. Your response to this 문항 provides 데이터 사용자 with an indication 의 extent to which 귀사 is considering a range of possible 및 probable futures 경우 considering environmental challenges 및 기회 in your 사업전략.",
+  "issueTagsKo": "수자원, 기후 변경, 산림",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '귀사의 시나리오 분석에 사용한 시나리오에 대한 세부 정보를 입력하십시오. M5. 사업 전략'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

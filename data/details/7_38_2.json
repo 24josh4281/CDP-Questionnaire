@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Disclose your estimated total net reserves and resource base (million boe), including the total associated with subsidiaries and equity-accounted entities.",
-  "questionKo": "Disclose your estimated total net reserves 및 resource base (million boe), including the total associated with subsidiaries 및 equity-accounted entities.",
+  "questionKo": "자회사 및 지분 회계 법인 관련 합계를 포함하여 추정 총 순 매장량 및 자원 기반(백만 배럴)을 공개하세요",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -27,7 +27,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Estimated total net proved + probable reserves (2P) (million BOE)",
+      "textKo": "추정 총 + 매장량 (2P) (백만)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -42,7 +42,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Estimated total net proved + probable + possible reserves (3P) (million BOE)",
+      "textKo": "추정 총 + + 가능한 매장량 (3P) (백만)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -57,7 +57,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Estimated net total resource base (million BOE)",
+      "textKo": "추정 총 자원 기반 (백만)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -72,7 +72,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Comment",
+      "textKo": "의견",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -90,26 +90,26 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Upstream\" in response to 1.19.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Upstream\" in response to 1.19."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"업스트림\" 응답 1.19."
     },
     {
       "type": "Requested Content",
       "text": "General \nEnter your 2P and 3P reserves, as well as your estimated net total resource base, in units of million barrels of oil equivalents (BOE). BOE is a unit of energy based on the approximate energy released by burning one barrel (42 US gallons or 158.9873 liters) of crude oil and is necessarily approximate as various grades of oil have different calorific values. \nPlease note that CDP have not asked for proved reserve numbers in this question in recognition that these figures are already rigorously reported in company reports / filings. \nEstimated total net proved + probable reserves (2P) (million BOE) (column 1) \nThis is proved reserves plus probable reserves (often referred to as P50). Probable reserves are additional reserves less certain to be recovered, and in sum with proved reserves there is a 50% chance that actual quantities produced will equal or exceed this estimate. \nEstimated total net proved + probable + possible reserves (3P) (million BOE) (column 2) \nThis is proved reserves plus probable reserves plus possible reserves. Possible reserves are less certain than probable. There is a 10% chance that actual quantities produced will equal or exceed 3P (hence the term P10). \nEstimated net total resource base (million BOE) (column 3) \nNet total resource base includes the total for reserves, contingent resources and prospective resources.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Enter your 2P 및 3P reserves, as well as your estimated net total resource base, in units of million barrels of oil equivalents (BOE). BOE is a unit of energy based on the approximate energy released by burning one barrel (42 US gallons 또는 158.9873 liters) of crude oil 및 is necessarily approximate as various grades of oil have different calorific values. Please note that CDP have not asked for proved reserve numbers in this 문항 in recognition that these figures are already rigorously 보고 in company reports / filings. Estimated total net proved + probable reserves (2P) (million BOE) (열 1) This is proved reserves plus probable reserves (often referred to as P50). Probable reserves are additional reserves less certain to be recovered, 및 in sum with proved reserves there is a 50% chance that actual quantities produced will equal 또는 exceed this estimate. Estimated total net proved + probable + possible reserves (3P) (million BOE) (열 2) This is proved reserves plus probable reserves plus possible reserves. Possible reserves are less certain than probable. There is a 10% chance that actual quantities produced will equal 또는 exceed 3P (hence the term P10). Estimated net total resource base (million BOE) (열 3) Net total resource base includes the total for reserves, contingent resources 및 prospective resources."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
       "text": "Defining reserves and resources classification: The Oil and Gas Reserves Committee (OGRC) of the Society of Petroleum Engineers (SPE) found in their Comparison of Selected Reserves and Resource Classifications and Associated Definitions report from 2005 that \"Most [reserves] classifications recognize three deterministic scenarios with decreasing technical certainty: a low estimate, best estimate and high estimate. While probabilistic assessments are not commonly applied, it is generally accepted that the equivalent estimates on a cumulative probability distribution would be greater than or equal to P90, P50 and P10 respectively. For discovered and commercial volume estimates, the discrete (incremental) volumes within these bounds are generally referred to as proved, probable and possible reserves. The Russian [Ministry of Natural Resources], UNFC [United Nations Framework Classification] and USGS [United States Geological Survey] recognize similar certainty classes but use alternative terminology.\"",
       "typeKo": "추가 정보",
-      "textKo": "Defining reserves 및 resources classification: The Oil 및 Gas Reserves 위원회 (OGRC) 의 Society of Petroleum Engineers (SPE) found in their Comparison of 선택됨 Reserves 및 Resource Classifications 및 Associated Definitions report from 2005 that \"Most [reserves] classifications recognize three deterministic scenarios with decreasing technical certainty: a low estimate, best estimate 및 high estimate. While probabilistic assessments are not commonly applied, it is generally accepted that the equivalent estimates on a cumulative probability distribution would be 초과 또는 equal to P90, P50 및 P10 respectively. For discovered 및 commercial volume estimates, the discrete (incremental) volumes within these bounds are generally referred to as proved, probable 및 possible reserves. The Russian [Ministry of Natural Resources], UNFC [United Nations Framework Classification] 및 USGS [United States Geological Survey] recognize similar certainty classes but use alternative terminology.\""
+      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "BOE (or boe): BOE is the symbol for barrel of oil equivalent. The BOE is a unit of energy based on the approximate energy released by burning one barrel (42 US gallons or 158.9873 liters) of crude oil and is necessarily approximate as various grades of oil have different calorific values.",
-      "typeKo": "설명 of Terms",
-      "textKo": "BOE (or boe): BOE is the symbol for barrel of oil equivalent. The BOE is a unit of energy based on the approximate energy released by burning one barrel (42 US gallons 또는 158.9873 liters) of crude oil 및 is necessarily approximate as various grades of oil have different calorific values."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -133,7 +133,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 6/6점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -143,7 +143,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -153,7 +153,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -163,12 +163,12 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Disclose your estimated total net reserves and resource base (million boe), including the total associated with subsidiaries and equity-accounted entities.",
+    "question_ko": "자회사 및 지분 회계 법인 관련 합계를 포함하여 추정 총 순 매장량 및 자원 기반(백만 배럴)을 공개하세요",
     "q2025": "Q7.38.2",
     "q2025_text": "Disclose your estimated total net reserves and resource base (million boe), including the total associated with subsidiaries and equity-accounted entities.",
     "change_status": "No change - 2026 source verified",
@@ -187,13 +187,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Oil & Gas: D 6/6 | A 0/0 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "석유 및 가스: D 6/6 | 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "Disclose your estimated total net reserves 및 resource base (million boe), 포함 the total associated with subsidiaries 및 equity-accounted entities."
+    "q2025_textKo": "자회사 및 지분 회계 법인 관련 합계를 포함하여 추정 총 순 매장량 및 자원 기반(백만 배럴)을 공개하세요"
   },
   "defaultPoints": {
     "D": "6/6",
@@ -223,16 +223,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "석유 및 가스",
-  "simpleHelpKo": "The transition to a low-carbon economy may affect the value of resources 또는 long-lived 자산. Robust data on proved, probable 및 total resource base is valuable information for 데이터 사용자 및 investors. Providing insight into 조직의 reserves 및 resource base can help to inform investors about the potential impacts of regulatory measures 및 demand changes on earning capacity.",
+  "simpleHelpKo": "이 문항은 '자회사 및 지분 회계 법인 관련 합계를 포함하여 추정 총 순 매장량 및 자원 기반(백만 배럴)을 공개하세요'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

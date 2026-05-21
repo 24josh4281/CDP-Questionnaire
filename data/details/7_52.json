@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide any additional climate-related metrics relevant to your business.",
-  "questionKo": "귀사와 관련 있는 추가적인 기후변화 관련 지표가 있다면, 이에 대한 내용을 입력하십시오.",
+  "questionKo": "귀하의 사업과 관련된 추가적인 기후 관련 지표를 제공해 주세요",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "행 1"
+      "titleKo": "1행"
     }
   ],
   "columns": [
@@ -32,13 +32,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "지표설명",
+      "textKo": "설명",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Waste",
-        "Energy usage",
-        "Land use",
+        "",
+        "에너지",
+        "사용",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -52,7 +52,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "수량",
+      "textKo": "지표 가치",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -67,7 +67,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "분자값",
+      "textKo": "지표",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -82,7 +82,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "분모값(원단위 지표만 해당)",
+      "textKo": "지표 (집약도 지표 만)",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -97,7 +97,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "전년대비 변동 비율(%)",
+      "textKo": "% 변경 에서 이전 연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -116,12 +116,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "변동 방향",
+      "textKo": "의 변경",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "증가",
-        "Decreased",
+        "",
+        "",
         "변경 없음"
       ],
       "simple_helpKo": "",
@@ -135,7 +135,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "설명",
+      "textKo": "설명하십시오",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -154,13 +154,13 @@
       "type": "Requested Content",
       "text": "General \nComplete the table to report any additional climate-related metrics your business tracks beyond emissions reductions and renewable energy-related activities. \nIf you track more than one additional climate-related metric, describe them each in a separate row. \nDescription (column 1) \nSelect the type of metric applicable to your business. If none of the listed drop-downs apply, select \"Other, please specify\" and provide a label for the \"Description\". \nMetric value (column 2) \nEnter the quantity of the unit tracked and reported in column 3. E.g. if your company tracks kilograms of waste, enter the kilograms measured during the reporting year. \nWhen providing an intensity metric, provide the value of the intensity. E.g. if your companies tracks kilograms of waste per FTE, enter the kilograms measured during the reporting year normalized to the number of FTE in the reporting year. \nMetric numerator (column 3) \nEnter the unit of the metric that your company tracks. This unit corresponds to the value entered in column 2. \nMetric denominator (column 4) \nThis column is only applicable for companies tracking an intensity metric (e.g., kilograms of waste per FTE). If you do not track an intensity metric, leave this column blank. \n% Change from previous year (column 5) \nIf you have experienced no change, please enter 0 (zero) in this column. \nThe previous year compared should apply to the 12-month period directly prior to the reporting period, even if it does not completely overlap with the period previously reported to CDP. It is understood that this metric has not been reported to CDP before and thus the reporting year for this metric may not directly overlap with other metrics reported to CDP. \nLeave the column blank if this is the first year you have tracked this metric. \nDirection of change (column 6) \nUse this column to outline the direction of change from the previous year. \nA declining intensity ratio reflects a positive direction of change. E.g. your waste last reporting year was 10 metric tons/FTE and this year is 5 metric tons/FTE. This indicates a 50% decrease compared to the previous year. \nIf the percentage change from last year is 0 (zero) or you do not have sufficient data to calculate the change then select \"no change.\" \nPlease explain (column 7) \nUse this column to provide any additional context relevant to the metric you are reporting and to the direction of change. Additional information could include projects or initiatives implemented to achieve progress on this metric, or any timeframes included in these goals. \nNote for agricultural sectors: \nYou should report data associated with the business activity areas that are relevant to your organization, as indicated in 1.11. Note that these metrics should be in addition to what you have reported previously in module 7 (Emissions data/Emissions breakdown). For example, if agricultural/forestry activities are relevant to your disclosure, you could report here the area of land use change associated with your own farm or production unit. Other examples of relevant metrics are: the volume of fertilizers used for production; the consumption of water per unit of product during production, processing and/or manufacturing; the waste volume associated with the production of raw materials or the manufacture of goods; and the volume of biofuels used in the fleet.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Complete the table to report 하나 이상 additional climate-related metrics your business tracks beyond emissions reductions 및 재생에너지-related activities. 만약 you track more than one additional climate-related metric, 설명 them each in a separate 행. 지표설명 (열 1) Select the type of metric 해당되는 경우 to your business. 만약 none 의 listed drop-downs apply, select \"Other, 직접 입력\" 및 provide a label 에 대한 \"지표설명\". 수량 (열 2) Enter the quantity 의 unit tracked 및 보고 in 열 3. E.g. 만약 your company tracks kilograms of waste, enter the kilograms measured during the 보고연도. 경우 providing an intensity metric, provide the value 의 intensity. E.g. 만약 your companies tracks kilograms of waste per FTE, enter the kilograms measured during the 보고연도 normalized to the number of FTE in the 보고연도. 분자값 (열 3) Enter the unit 의 metric that your company tracks. This unit corresponds to the value entered in 열 2. Metric denominator (열 4) This 열 is only 해당되는 경우 for companies tracking an intensity metric (e.g., kilograms of waste per FTE). 만약 you do not track an intensity metric, leave this 열 blank. 전년대비 변동 비율(%) (열 5) 만약 you have experienced 변경 없음, please enter 0 (zero) in this 열. The previous year compared 해야 합니다 apply to the 12-month period directly prior to the reporting period, even 만약 it does not completely overlap with the period previously 보고 to CDP. It is understood that this metric has not been 보고 to CDP before 및 thus the 보고연도 for this metric may not directly overlap with other metrics 보고 to CDP. Leave the 열 blank 만약 this is the first year you have tracked this metric. 변동 방향 (열 6) Use this 열 to outline the 변동 방향 from the previous year. A declining intensity ratio reflects a positive 변동 방향. E.g. your waste last 보고연도 was 10 metric tons/FTE 및 this year is 5 metric tons/FTE. This indicates a 50% decrease compared to the previous year. 만약 the percentage change from last year is 0 (zero) 또는 you do not have sufficient data to calculate the change then select \"변경 없음.\" 설명 (열 7) Use this 열 to provide 하나 이상 additional context 관련 to the metric you are reporting 및 to the 변동 방향. Additional information could include projects 또는 이니셔티브 implemented to achieve progress on this metric, 또는 하나 이상 timeframes included in these goals. Note for agricultural sectors: You 해야 합니다 report data associated with the business activity areas that are 관련 to 귀사, as indicated in 1.11. Note that these metrics 해야 합니다 be in addition to what you have 보고 previously in module 7 (배출량 데이터/Emissions breakdown). For example, 만약 agricultural/forestry activities are 관련 to your 공시, you could report here the area of land use change associated with your own farm 또는 production unit. Other examples of 관련 metrics are: the volume of fertilizers used for production; the consumption of water per unit of product during production, 프로세스ing 및/또는 manufacturing; the waste volume associated with the production of raw materials 또는 the manufacture of goods; 및 the volume of biofuels used in the fleet."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Land use: Land use is based on the functional dimension of land for different human purposes or economic activities. Typical categories for land use are dwellings, industrial use, transport, recreational use or nature protection areas. Additional land use metrics can relate to the climate-related arrangements, activities, and inputs regarding these categories that organizations engage in, and can include land use change and land use management metrics.",
-      "typeKo": "설명 of Terms",
-      "textKo": "Land use: Land use is based on the functional dimension of land for different human purposes 또는 economic activities. Typical categories for land use are dwellings, industrial use, transport, recreational use 또는 nature protection areas. Additional land use metrics can relate to the climate-related arrangements, activities, 및 inputs regarding these categories that organizations engage in, 및 can include land use change 및 land use 관리 metrics."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -364,7 +364,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "General",
@@ -374,7 +374,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "General",
@@ -384,7 +384,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "General",
@@ -394,7 +394,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -404,7 +404,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -414,7 +414,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -424,7 +424,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -434,7 +434,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -444,7 +444,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -454,7 +454,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -464,7 +464,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -474,7 +474,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -484,7 +484,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -494,7 +494,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -504,7 +504,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -514,7 +514,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -524,7 +524,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -534,7 +534,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -544,7 +544,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -554,7 +554,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -564,7 +564,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -574,7 +574,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -584,7 +584,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -594,7 +594,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -604,7 +604,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -614,7 +614,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -624,7 +624,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -634,7 +634,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Construction",
@@ -644,7 +644,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Construction",
@@ -654,7 +654,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Construction",
@@ -664,7 +664,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Construction",
@@ -674,7 +674,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -684,7 +684,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -694,7 +694,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -704,7 +704,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -714,7 +714,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -724,7 +724,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -734,7 +734,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -744,7 +744,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -754,7 +754,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -764,7 +764,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -774,7 +774,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -784,7 +784,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -794,7 +794,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -804,7 +804,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -814,7 +814,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -824,7 +824,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -834,7 +834,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -844,7 +844,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -854,7 +854,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -864,7 +864,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -874,7 +874,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -884,7 +884,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -894,7 +894,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -904,7 +904,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -914,7 +914,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -924,7 +924,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -934,7 +934,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -944,7 +944,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -954,7 +954,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -964,7 +964,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -974,7 +974,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -984,7 +984,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -994,7 +994,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -1004,7 +1004,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -1014,7 +1014,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -1024,7 +1024,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -1034,7 +1034,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1044,7 +1044,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1054,7 +1054,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1064,7 +1064,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1074,7 +1074,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -1084,7 +1084,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -1094,7 +1094,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -1104,7 +1104,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -1114,12 +1114,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "귀사의 사업과 관련된 추가 기후 관련 지표를 입력하십시오 .. ` M7. Environmental Performance - Climate Change 설명 지표 수치 지표 분자 지표 분모 전년도 대비 변화율 변화 방향 관련 설명 폐기물 에너지 사용 토지 사용 기타 , 직접입력 숫자 입력 소수점 최대 2 자리 입력 최대 50 자 작성 최대 50 자 작성 숫자 입력 소수점 최대 2 자리 입력 증가 감소 변화 없음 최대 2,400 자 작성",
+    "question_ko": "귀하의 사업과 관련된 추가적인 기후 관련 지표를 제공해 주세요",
     "q2025": "Q7.52",
     "q2025_text": "Provide any additional climate-related metrics relevant to your business.",
     "change_status": "No change - 2026 source verified",
@@ -1138,13 +1138,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "일반: D 0/0 | A 0/0 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "일반: D 0/0 | 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "하나 이상 additional climate-related metrics 관련 to your business.을/를 입력하십시오."
+    "q2025_textKo": "귀하의 사업과 관련된 추가적인 기후 관련 지표를 제공해 주세요"
   },
   "defaultPoints": {
     "D": "0/0",
@@ -1174,16 +1174,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "CDP 데이터 사용자 seek to understand in which areas, beyond 온실가스 배출량, companies are trying to reduce their environmental impacts.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '귀하의 사업과 관련된 추가적인 기후 관련 지표를 제공해 주세요'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

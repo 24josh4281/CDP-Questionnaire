@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Select the name of the standard, protocol, or methodology you have used to collect activity data and calculate emissions.",
-  "questionKo": "Scope 1 & 2 & 3 배출량 데이터를 수집 및 산정에 이용한 기준, 프로토콜, 방법론의 명칭을 입력하십시오.",
+  "questionKo": "활동 데이터를 수집하고 배출량을 계산하는 데 사용한 표준, 프로토콜 또는 방법론의 이름을 선택하십시오. `",
   "questionType": "MULTI_SELECT",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -76,13 +76,13 @@
       "type": "Change From Last Year",
       "text": "Minor change",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "Minor change"
+      "textKo": "경미한 변경"
     },
     {
       "type": "Requested Content",
       "text": "General \nThere are a variety of standards, methodologies, and protocols available for collecting and reporting GHG data, but the large majority of companies refer to the GHG Protocol.\nThe appropriateness of an emissions calculation methodology should be determined on a case-by-case basis, and it is good practice for the methods used to estimate emissions and the underlying data to be externally verified.\nCDP makes no judgments on standards, protocols or methodologies applied by companies to produce their inventories. However, we expect that any tool used will follow the best practice and observe important aspects such as the accuracy and completeness principles of standards similar to the GHG Protocol. CDP encourages companies to use the GHG Protocol Standards when national standards are not specified, including both the Corporate Standard and the Corporate Value Chain (Scope 3) Standard.\nIf the metholology(ies) you have used is not listed, select \"Other, please specify;\" and indicate the methodology(ies) used.",
       "typeKo": "요청 내용",
-      "textKo": "일반 There are a variety of 기준, methodologies, 및 protocols available for collecting 및 reporting GHG data, but the large majority of companies refer to the GHG Protocol. The appropriateness of an emissions 계산 방법론 해야 합니다 be determined on a case-by-case basis, 및 it is good practice 에 대한 methods used to estimate emissions 및 the underlying data to be externally verified. CDP makes no judgments on 기준, protocols 또는 methodologies applied by companies to produce their inventories. However, we expect that 하나 이상 tool used will follow the best practice 및 observe important aspects such as the accuracy 및 completeness principles of 기준 similar to the GHG Protocol. CDP encourages companies to use the GHG Protocol 기준 경우 national 기준 are not specified, 포함 both the Corporate Standard 및 the Corporate 가치사슬 (Scope 3) Standard. 만약 the metholology(ies) you have used is not listed, select \"Other, 직접 입력;\" 및 indicate the 방법론(ies) used."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -286,7 +286,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -296,7 +296,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -306,7 +306,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -316,7 +316,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -326,7 +326,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -336,7 +336,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -346,7 +346,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -356,7 +356,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -366,7 +366,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -376,7 +376,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -386,7 +386,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -396,7 +396,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -406,7 +406,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -416,7 +416,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -426,7 +426,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -436,7 +436,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -446,7 +446,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -456,7 +456,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -466,7 +466,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -476,7 +476,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -486,7 +486,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -496,7 +496,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -506,7 +506,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -516,7 +516,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -526,7 +526,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -536,7 +536,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -546,7 +546,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -556,7 +556,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -566,7 +566,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -576,7 +576,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -586,7 +586,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -596,7 +596,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -606,7 +606,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -616,7 +616,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -626,7 +626,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -636,7 +636,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -646,7 +646,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -656,7 +656,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -666,7 +666,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -676,7 +676,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -686,7 +686,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -696,7 +696,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -706,7 +706,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -716,7 +716,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -726,7 +726,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -736,7 +736,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -746,7 +746,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -756,7 +756,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -766,7 +766,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -776,7 +776,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -786,7 +786,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -796,7 +796,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -806,7 +806,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -816,7 +816,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -826,7 +826,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -836,7 +836,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -846,7 +846,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -856,7 +856,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -866,7 +866,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -876,7 +876,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -886,7 +886,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -896,7 +896,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -906,7 +906,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -916,7 +916,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -926,7 +926,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -936,7 +936,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -946,7 +946,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -956,7 +956,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -966,7 +966,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -976,7 +976,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -986,7 +986,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -996,7 +996,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1006,7 +1006,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "하나 이상 선택지 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -1016,7 +1016,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1026,7 +1026,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1036,12 +1036,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "Scope 1 & 2 & 3 배출량 데이터를 수집 및 산정에 이용한 기준, 프로토콜, 방법론의 명칭을 입력하십시오.",
+    "question_ko": "활동 데이터를 수집하고 배출량을 계산하는 데 사용한 표준, 프로토콜 또는 방법론의 이름을 선택하십시오. `",
     "q2025": "Q7.2",
     "q2025_text": "Select the name of the standard, protocol, or methodology you have used to collect activity data and calculate emissions.",
     "change_status": "Minor change",
@@ -1058,15 +1058,15 @@
     "review_status": "변경 반영",
     "change_statusKo": "경미한 변경",
     "detail_change_typesKo": "신규 드롭다운 선택지",
-    "change_summaryKo": "Added 드롭다운 선택지 \"(Korea) Guidelines for Reporting 및 Certification of Emissions in the 온실가스 배출량 Trading Scheme\" 및 \"The Greenhouse Gas Protocol: Land Sector 및 Removals Guidance\".",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "일반: D 1/1 | A 0/0 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 드롭다운/응답 선택지 연결\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "일반: D 1/1 | 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "the name 의 standard, protocol, 또는 방법론 you have used to collect activity data 및 calculate emissions.을/를 선택하십시오."
+    "q2025_textKo": "활동 데이터를 수집하고 배출량을 계산하는 데 사용한 표준, 프로토콜 또는 방법론의 이름을 선택하십시오. `"
   },
   "defaultPoints": {
     "D": "1/1",
@@ -1078,92 +1078,93 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "복수 선택",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "CDP 데이터 사용자 need to understand what methods have been used to calculate emissions.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '활동 데이터를 수집하고 배출량을 계산하는 데 사용한 표준, 프로토콜 또는 방법론의 이름을 선택하십시오. `'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [
     "ABI Energia Linee Guida",
-    "Act on the Rational Use of Energy",
-    "American Petroleum Institute Compendium of 온실가스 배출량 Methodologies 에 대한 Oil 및 Natural Gas Industry, 2009",
-    "Australia - National Greenhouse 및 Energy Reporting Act",
+    "Act Rational Use 의 에너지",
+    "American Petroleum Institute Compendium 의 온실가스 배출량 방법론 Oil 및 Natural Gas Industry, 2009",
+    "Australia - National Greenhouse 및 에너지 보고ing Act",
     "Bilan Carbone, ABC",
-    "Defra Environmental Reporting Guidelines: Including streamlined energy 및 carbon reporting guidance, 2019",
-    "ENC또는D: Construction CO2e Measurement Protocol",
-    "Environment Canada, Sulphur hexafluoride (SF6) Emission Estimation 및 Reporting Protocol for Electric Utilities",
-    "Environment Canada, Aluminum Production, Guidance Manual for Estimating 온실가스 배출량",
-    "Environment Canada, Base Metals Smelting/Refining, Guidance Manual for Estimating 온실가스 배출량",
-    "Environment Canada, Cement Production, Guidance Manual for Estimating 온실가스 배출량",
-    "Environment Canada, Primary Iron 및 Steel Production, Guidance Manual for Estimating 온실가스 배출량",
-    "Environment Canada, Lime Production, Guidance Manual for Estimating 온실가스 배출량",
-    "Environment Canada, Primary Magnesium Production 및 Casting, Guidance Manual for Estimating 온실가스 배출량",
-    "Environment Canada, Metal Mining, Guidance Manual for Estimating 온실가스 배출량",
-    "EPRA (European 공개 Real Estate Association) guidelines, 2011",
-    "EPRA (European 공개 Real Estate Association) Sustainability Best Practice recommendations Guidelines, 2017",
-    "European Union Emission Trading System (EU ETS): The 모니터링 및 Reporting Regulation (MRR) - 일반 guidance for installations",
-    "European Union Emissions Trading System (EU ETS): The 모니터링 및 Reporting Regulation (MRR) - 일반 guidance for aircraft operators",
-    "Global GHG Accounting 및 Reporting Standard 에 대한 Financial Industry (PCAF)",
-    "Hong Kong Environmental Protection Department, Guidelines to Account for 및 Report on 온실가스 배출량 및 Removals for Buildings, 2010",
+    "Defra 환경 보고ing Guidelines: 포함 streamlined 에너지 및 carbon 보고ing 가이던스, 2019",
+    "ENCORD: 건설 CO2e Measurement Protocol",
+    "Environment Canada, Sulphur hexafluoride (SF6) 배출 Estimation 및 보고ing Protocol Electric Utilities",
+    "Environment Canada, Aluminum Production, 가이던스 Manual Estimating 온실가스 배출량",
+    "Environment Canada, Base Metals Smelting/Refining, 가이던스 Manual Estimating 온실가스 배출량",
+    "Environment Canada, 시멘트 Production, 가이던스 Manual Estimating 온실가스 배출량",
+    "Environment Canada, 주된 Iron 및 철강 Production, 가이던스 Manual Estimating 온실가스 배출량",
+    "Environment Canada, Lime Production, 가이던스 Manual Estimating 온실가스 배출량",
+    "Environment Canada, 주된 Magnesium Production 및 Casting, 가이던스 Manual Estimating 온실가스 배출량",
+    "Environment Canada, Metal Mining, 가이던스 Manual Estimating 온실가스 배출량",
+    "EPRA (European Public 부동산 Association) guidelines, 2011",
+    "EPRA (European Public 부동산 Association) Sustainability Best Practice recommendations Guidelines, 2017",
+    "European Union 배출 Trading System (EU ETS): Monitoring 및 보고ing Regulation (MRR) - 일반 가이던스 inst모든ations",
+    "European Union 배출량 Trading System (EU ETS): Monitoring 및 보고ing Regulation (MRR) - 일반 가이던스 aircraft operators",
+    "Global GHG Accounting 및 보고ing Standard 재무 Industry (PCAF)",
+    "Hong Kong 환경 Protection Department, Guidelines Account 및 보고 온실가스 배출량 및 Removals Buildings, 2010",
     "ICLEI Local Government GHG Protocol",
-    "IEA CO2 Emissions from Fuel Combustion",
-    "International Wine Industry Greenhouse Gas Protocol 및 Accounting Tool",
-    "2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories",
-    "IPIECA's Petroleum Industry Guidelines for reporting 온실가스 배출량, 2nd edition, 2011",
+    "IEA CO2 배출량 에서 연료 Combustion",
+    "International Wine Industry 온실가스 Protocol 및 Accounting Tool",
+    "2019 Refinement 2006 IPCC Guidelines National 온실가스 Inventories",
+    "IPIECA's Petroleum Industry Guidelines 보고ing GHG 배출량, 2nd edition, 2011",
     "ISO 14064-1",
-    "Japan Ministry 의 Environment, Law Concerning the Promotion 의 Measures to Cope with Global Warming, Superseded by Revision 의 Act on Promotion of Global Warming Countermeasures (2005 Amendment)",
-    "Korea GHG 및 Energy 목표 관리 System Operating Guidelines",
-    "Korea Guidelines for Reporting 및 Certification of Emissions in the 온실가스 배출량 Trading Scheme",
-    "신규 Zealand - Guidance for Voluntary, Corporate Greenhouse Gas Reporting",
-    "Regional Greenhouse Gas 이니셔티브 (RGGI) Model Rule",
-    "Smart Freight Centre: GLEC Framework for Logistics Emissions Methodologies",
+    "Japan Ministry 의 Environment, Law Concerning Promotion 의 Measures Cope Global Warming, Superseded 기준 Revision 의 Act Promotion 의 Global Warming Countermeasures (2005 Amendment)",
+    "Korea GHG 및 에너지 목표 관리 System Operating Guidelines",
+    "Korea Guidelines 보고ing 및 Certification 의 배출량 온실가스 배출량 Trading Scheme",
+    "New Zealand - 가이던스 Voluntary, Corporate 온실가스 보고ing",
+    "Regional 온실가스 Initiative (RGGI) Model Rule",
+    "Smart Freight Centre: GLEC Framework Logistics 배출량 방법론",
     "Taiwan - GHG Reduction Act",
-    "Thailand Greenhouse Gas 관리 Organization: The National Guideline Carbon Footprint for organization",
-    "The Climate Registry: Electric Power Sector (EPS) Protocol",
-    "The Climate Registry: 일반 Reporting Protocol",
-    "The Climate Registry: Local Government Operations (LGO) Protocol",
-    "The Climate Registry: Oil & Gas Protocol",
-    "The GHG Indicator: UNEP Guidelines for Calculating 온실가스 배출량 for Businesses 및 Non-Commercial Organizations",
-    "The Greenhouse Gas Protocol: A Corporate Accounting 및 Reporting Standard (Revised Edition)",
-    "The Greenhouse Gas Protocol Agricultural Guidance: Interpreting the Corporate Accounting 및 Reporting Standard 에 대한 Agricultural Sector",
-    "The Greenhouse Gas Protocol: Land Sector 및 Removals Standard 및 Guidance",
-    "The Greenhouse Gas Protocol: 공개 Sector Standard",
-    "The Greenhouse Gas Protocol: Scope 2 Guidance",
-    "The Greenhouse Gas Protocol: Corporate 가치사슬 (Scope 3) Standard",
-    "The Tokyo Cap-and Trade Program",
-    "US EPA Center for Corporate Climate 리더십: Direct Fugitive Emissions from Refrigeration, Air Conditioning, Fire Suppression, 및 Industrial Gases",
-    "US EPA Center for Corporate Climate 리더십: Indirect Emissions From Events 및 Conferences",
-    "US EPA Center for Corporate Climate 리더십: Indirect Emissions From Purchased Electricity",
-    "US EPA Center for Corporate Climate 리더십: Direct Emissions from Stationary Combustion Sources",
-    "US EPA Center for Corporate Climate 리더십: Direct Emissions from Mobile Combustion Sources",
-    "US EPA Mandatory Greenhouse Gas Reporting Rule",
-    "US EPA Emissions & Generation Resource Integrated Database (eGRID)",
+    "Thailand 온실가스 관리 조직: National Guideline Carbon Footprint 조직",
+    "기후 Registry: Electric Power 섹터 (EPS) Protocol",
+    "기후 Registry: 일반 보고ing Protocol",
+    "기후 Registry: Local Government Operations (LGO) Protocol",
+    "기후 Registry: 석유 및 가스 Protocol",
+    "GHG Indicator: UNEP Guidelines Calculating 온실가스 배출량 Businesses 및 아니요n-Commercial 조직",
+    "온실가스 Protocol: Corporate Accounting 및 보고ing Standard (Revised Edition)",
+    "온실가스 Protocol Agricultural 가이던스: Interpreting Corporate Accounting 및 보고ing Standard Agricultural 섹터",
+    "온실가스 Protocol: Land 섹터 및 Removals Standard 및 가이던스",
+    "온실가스 Protocol: Public 섹터 Standard",
+    "온실가스 Protocol: Scope 2 가이던스",
+    "온실가스 Protocol: Corporate 가치사슬 (Scope 3) Standard",
+    "Tokyo Cap-및 Trade Program",
+    "US EPA Center Corporate 기후 리더십: Direct Fugitive 배출량 에서 Refrigeration, Air Conditioning, Fire Suppression, 및 Industrial Gases",
+    "US EPA Center Corporate 기후 리더십: Indirect 배출량 에서 Events 및 Conferences",
+    "US EPA Center Corporate 기후 리더십: Indirect 배출량 에서 Purchased 전력",
+    "US EPA Center Corporate 기후 리더십: Direct 배출량 에서 Stationary Combustion Sources",
+    "US EPA Center Corporate 기후 리더십: Direct 배출량 에서 Mobile Combustion Sources",
+    "US EPA Mandatory 온실가스 보고ing Rule",
+    "US EPA 배출량 & Generation Resource Integrated 데이터base (eGRID)",
     "VfU (Verein fur Umwelt관리) Indicators Standard",
-    "World Steel Association CO2 배출량 데이터 collection guidelines",
+    "World 철강 Association CO2 배출량 데이터 collection guidelines",
     "기타, 직접 입력"
-  ]
+  ],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

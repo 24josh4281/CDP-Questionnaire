@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide, in metric tons CO2, gross masses of CO2 transferred in and out of the reporting organization (as defined by the consolidation basis).",
-  "questionKo": "CO2 총량 보고 조직으로 반입 및 반출된 (as defined by the consolidation basis).을/를 미터톤 CO2 단위로 입력하십시오.",
+  "questionKo": "(연결 기준에 따라 정의된) 보고 귀사 내외로 이동된 CO2의 총 질량을 미터톤 CO2 단위로 제공하세요",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,12 +15,12 @@
     {
       "order": 1,
       "title": "CO2 transferred in",
-      "titleKo": "CO2 transferred in"
+      "titleKo": "CO2"
     },
     {
       "order": 2,
       "title": "CO2 transferred out",
-      "titleKo": "CO2 transferred out"
+      "titleKo": "CO2"
     }
   ],
   "columns": [
@@ -32,7 +32,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "CO2 transferred in the 보고연도 (미터톤 CO2)",
+      "textKo": "CO2 보고연도 (미터톤 CO2)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -60,24 +60,24 @@
       ],
       "simple_help": "Select all that apply",
       "popup_help": "",
-      "textKo": "Types of CO2 transfer",
+      "textKo": "유형 의 CO2",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Transfer from a flue gas system",
-        "Transfer from an industrial 프로세스",
-        "Purchase from a naturally-occurring underground source",
-        "Transfer from another company under a storage agreement",
-        "Sold to the market for use in commercial products",
-        "Sold to the market as a feedstock to other chemical 또는 industrial 프로세스es",
-        "Transferred to another company for acid gas injection (CO2 및 H2S co-injected into a production reservoir)",
-        "Transferred to another company for enhanced oil recovery (E또는) operations",
-        "Transferred to another company for enhanced shale gas recovery (ESGR) operations",
-        "Transferred to another company for other enhanced gas recovery (EGR) operations",
-        "Transferred to another company for enhanced coal bed methane (ECBM) operations",
+        "에서 가스",
+        "에서 프로세스",
+        "에서 원천",
+        "에서 기업 저장",
+        "시장 사용 제품",
+        "시장 원료 기타 화학 또는 프로세스",
+        "기업 가스 (CO2 및 H2S 생산)",
+        "기업 석유 () 운영사업장",
+        "기업 가스 () 운영사업장",
+        "기업 기타 가스 () 운영사업장",
+        "기업 석탄 () 운영사업장",
         "기타, 직접 입력"
       ],
-      "simple_helpKo": "all that apply을/를 선택하십시오.",
+      "simple_helpKo": "해당하는 항목 모두 선택",
       "popup_helpKo": ""
     }
   ],
@@ -91,20 +91,20 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to 7.66.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 7.66."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" 응답 7.66."
     },
     {
       "type": "Requested Content",
       "text": "CO2 transferred in the reporting year (Column 2) \nEnter in metric tons the gross total CO2 transferred into (row 1) or out of (row 2) your organizational boundary (as defined by your answer to 6.1) in the reporting year. \nType(s) of CO2 transfer (column 3) \nSelect the reason(s) for the transfer of CO2 into (row 1) or out of (row 2) your organizational boundary from the list of transfer types provided, or use \"Other, please specify\". \nExamples of transfers of CO2 into an organization (row 1) \nTransfer from a flue gas stream - CO2 is transferred into the organizational boundary, post-combustion, from the exhaust/stack/flue gas stream of a combustion process (e.g., power station). \nTransfer from an industrial process - CO2 is transferred into the organizational boundary, often pre-combustion, from an industrial process such as ammonia manufacturing, fermentation, hydrogen production, cement manufacturing, steel manufacturing etc. \nPurchase from a naturally-occurring underground source: CO2 is purchased by the organization from naturally occurring underground CO2 deposits. \nTransfer from another company under a storage agreement: CO2 is transferred into the organizational boundary from another company for the purposes of sequestration/injection and long-term storage. \nExamples of transfers of CO2 out of an organization (row 2) \nSold to the market for use in commercial products: CO2 is sold for use in products such as carbonated beverages, dry ice, fire extinguisher agents, refrigerants, laboratory gas, grain infestation treatment, solvents etc. \nSold to the market as a feedstock to other chemical or industrial processes: CO2 is sold for use as a feedstock to processes such as urea fertilizer production, methanol production, crop cultivation in greenhouses etc. \nTransferred to another company for acid gas injection: CO2 is transferred out of the organizational boundary to be co-injected with H2S into a production reservoir. \nTransferred to another company for enhanced oil recovery (EOR) operations: CO2 is transferred out of the organizational boundary to a third party for the purpose of EOR via CO2 injection. Do not select this option for CO2 used for your organization's own EOR operations. \nTransferred to another company for enhanced shale gas recovery (ESGR) operations: CO2 is transferred out of the organizational boundary to a third party for the purpose of recovering natural gas trapped in shale formations. Do not select this option for CO2 used for your organization's own ESGR operations. \nTransferred to another company for other enhanced gas recovery (EGR) operations: CO2 is transferred out of the organizational boundary to a third party for the purpose of EOR via CO2 injection. Do not select this option for CO2 used for your organization's own EOR operations. \nTransferred to another company for enhanced coal bed methane (ECBM) operations: CO2 is transferred out of the organizational boundary to a third party for the purpose of ECBM via CO2 injection. Do not select this option for CO2 used for your organization's own ECBM operations.",
       "typeKo": "요청 내용",
-      "textKo": "CO2 transferred in the 보고연도 (열 2) Enter in metric tons the gross total CO2 transferred into (행 1) 또는 out of (행 2) your 조직경계 (as defined by your answer to 6.1) in the 보고연도. Type(s) of CO2 transfer (열 3) Select the reason(s) 에 대한 transfer of CO2 into (행 1) 또는 out of (행 2) your 조직경계 from the list of transfer types 입력, 또는 use \"Other, 직접 입력\". Examples of transfers of CO2 into an organization (행 1) Transfer from a flue gas stream - CO2 is transferred into the 조직경계, post-combustion, from the exhaust/stack/flue gas stream of a combustion 프로세스 (e.g., power station). Transfer from an industrial 프로세스 - CO2 is transferred into the 조직경계, often pre-combustion, from an industrial 프로세스 such as ammonia manufacturing, fermentation, hydrogen production, cement manufacturing, steel manufacturing etc. Purchase from a naturally-occurring underground source: CO2 is purchased by the organization from naturally occurring underground CO2 deposits. Transfer from another company under a storage agreement: CO2 is transferred into the 조직경계 from another company 에 대한 purposes of sequestration/injection 및 long-term storage. Examples of transfers of CO2 out of an organization (행 2) Sold to the market for use in commercial products: CO2 is sold for use in products such as carbonated beverages, dry ice, fire extinguisher agents, refrigerants, laboratory gas, grain infestation treatment, solvents etc. Sold to the market as a feedstock to other chemical 또는 industrial 프로세스es: CO2 is sold for use as a feedstock to 프로세스es such as urea fertilizer production, methanol production, crop cultivation in greenhouses etc. Transferred to another company for acid gas injection: CO2 is transferred out 의 조직경계 to be co-injected with H2S into a production reservoir. Transferred to another company for enhanced oil recovery (E또는) operations: CO2 is transferred out 의 조직경계 to a third party 에 대한 purpose of E또는 via CO2 injection. Do not select this option for CO2 used for 귀사의 own E또는 operations. Transferred to another company for enhanced shale gas recovery (ESGR) operations: CO2 is transferred out 의 조직경계 to a third party 에 대한 purpose of recovering natural gas trapped in shale formations. Do not select this option for CO2 used for 귀사의 own ESGR operations. Transferred to another company for other enhanced gas recovery (EGR) operations: CO2 is transferred out 의 조직경계 to a third party 에 대한 purpose of E또는 via CO2 injection. Do not select this option for CO2 used for 귀사의 own E또는 operations. Transferred to another company for enhanced coal bed methane (ECBM) operations: CO2 is transferred out 의 조직경계 to a third party 에 대한 purpose of ECBM via CO2 injection. Do not select this option for CO2 used for 귀사의 own ECBM operations."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Ambition",
       "text": "Companies are transparent about CO2 transfers in and out of their reporting boundary.",
-      "typeKo": "Ambition",
-      "textKo": "Companies are transparent about CO2 transfers in 및 out 의ir 보고경계."
+      "typeKo": "목표수준",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     }
   ],
   "points": [
@@ -128,7 +128,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -138,7 +138,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -148,7 +148,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Types of CO2 transfer' in both 행- 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -158,12 +158,12 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Provide, in metric tons CO2, gross masses of CO2 transferred in and out of the reporting organization (as defined by the consolidation basis).",
+    "question_ko": "(연결 기준에 따라 정의된) 보고 귀사 내외로 이동된 CO2의 총 질량을 미터톤 CO2 단위로 제공하세요",
     "q2025": "Q7.66.1",
     "q2025_text": "Provide, in metric tons CO2, gross masses of CO2 transferred in and out of the reporting organization (as defined by the consolidation basis).",
     "change_status": "No change - 2026 source verified",
@@ -182,13 +182,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Oil & Gas: D 4/4 | A 1/1 | M 1/1 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "석유 및 가스: D 4/4 | 1/1 | M 1/1 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "CO2 총량 보고 조직으로 반입 및 반출된 (as defined by the consolidation basis).을/를 미터톤 CO2 단위로 입력하십시오."
+    "q2025_textKo": "(연결 기준에 따라 정의된) 보고 귀사 내외로 이동된 CO2의 총 질량을 미터톤 CO2 단위로 제공하세요"
   },
   "defaultPoints": {
     "D": "4/4",
@@ -218,16 +218,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "석유 및 가스",
-  "simpleHelpKo": "CCS/U is beginning to be demonstrated across the world on a variety of sources 및 scales. Investors 및 데이터 사용자 are interested in CO2 transfers in 및 out 의 organization to make useful comparisons of CCS/U projects.",
+  "simpleHelpKo": "이 문항은 '(연결 기준에 따라 정의된) 보고 귀사 내외로 이동된 CO2의 총 질량을 미터톤 CO2 단위로 제공하세요'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

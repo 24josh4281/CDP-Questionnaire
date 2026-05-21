@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "How do your gross global emissions (Scope 1 and 2 combined) for the reporting year compare to those of the previous reporting year?",
-  "questionKo": "귀사의 보고연도의 글로벌 총 배출량(Scope 1과 Scope 2를 합산한 총량)은 지난해 배출량과 차이가 있습니까?",
+  "questionKo": "보고연도의 전 세계 총 범위 1 및 범위 2 배출량은 이전 보고연도와 비교하여 어떻게 변화했습니까?",
   "questionType": "SINGLE_SELECT",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -30,7 +30,7 @@
       "type": "Requested Content",
       "text": "General \nThis question requires you to select the option from the drop-down menu that best describes how your combined Scope 1 and 2 emissions have changed compared with the previous year.\nThe change in emissions can be calculated using the following formula: \nTotal gross Scope 1+2 emissions for the current reporting year - previous year's total gross Scope 1+2 emissions = total change in emissions \nIf the resulting figure is negative, then your company's overall emissions decreased compared to the previous year. If the resulting figure is positive, overall emissions have increased compared to the previous year. If the resulting figure is equal to zero, overall emissions have not changed compared to the previous year.\nIn this context your Scope 1 emissions are the figure supplied in response to question 7.6, and your Scope 2 emissions are the figure supplied in response to question 7.7.\nIf the previous year's figures have been restated, please refer to CDP's Technical Note on \"Restatements\" on whether to use the emissions figures originally reported to CDP or the restated figures for the calculation. The previous year compared should apply to the 12-month period directly prior to the reporting period, even if it does not completely overlap with the period previously reported to CDP.",
       "typeKo": "요청 내용",
-      "textKo": "일반 This 문항 requires you to select the option from the drop-down menu that best 설명s how your combined Scope 1 및 2 emissions have changed compared with the previous year. The change in emissions can be calculated using the following formula: Total gross Scope 1+2 emissions 에 대한 current 보고연도 - previous year's total gross Scope 1+2 emissions = total change in emissions 만약 the resulting figure is negative, then your company's overall emissions decreased compared to the previous year. 만약 the resulting figure is positive, overall emissions have 증가 compared to the previous year. 만약 the resulting figure is equal to zero, overall emissions have not changed compared to the previous year. In this context your Scope 1 배출량 are the figure supplied in response to 문항 7.6, 및 your Scope 2 배출량 are the figure supplied in response to 문항 7.7. 만약 the previous year's figures have been restated, please refer to CDP's Technical Note on \"Restatements\" on whether to use the emissions figures originally 보고 to CDP 또는 the restated figures 에 대한 계산. The previous year compared 해야 합니다 apply to the 12-month period directly prior to the reporting period, even 만약 it does not completely overlap with the period previously 보고 to CDP."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -228,7 +228,7 @@
   "criteria": [],
   "change": {
     "location": "Excel",
-    "question_ko": "보고 연도의 전 세계 총 배출량 (Scope 1 과 2 를 합친 수치 ) 은 이전 보고 연도의 배출량에 비해 어떻게 변화했습니까 ? ` M7. Environmental Performance - Climate Change 증가 감소 전반적으로 동일함 올해는 보고 첫 해이므로 작년과 비교할 수 없음 배출량 데이터가 없음",
+    "question_ko": "보고연도의 전 세계 총 범위 1 및 범위 2 배출량은 이전 보고연도와 비교하여 어떻게 변화했습니까?",
     "q2025": "Q7.10",
     "q2025_text": "How do your gross global emissions (Scope 1 and 2 combined) for the reporting year compare to those of the previous reporting year?",
     "change_status": "No change - 2026 source verified",
@@ -247,13 +247,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "일반: D 1/1 | A 1/1 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 드롭다운/응답 선택지 연결\n2026 D/A/M/L 평가 배점 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "일반: D 1/1 | 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "전 세계 총 emissions (Scope 1 및 2 combined) 에 대한 보고연도은/는 the 이전 보고연도와 비교해 어떠합니까?"
+    "q2025_textKo": "보고연도의 전 세계 총 범위 1 및 범위 2 배출량은 이전 보고연도와 비교하여 어떻게 변화했습니까?"
   },
   "defaultPoints": {
     "D": "1/1",
@@ -283,22 +283,23 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "단일 선택",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "Investors 및 데이터 사용자 are interested in understanding whether companies are successfully reducing their emissions year over year.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '보고연도의 전 세계 총 범위 1 및 범위 2 배출량은 이전 보고연도와 비교하여 어떻게 변화했습니까?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [
-    "증가",
+    "Increased",
     "Decreased",
-    "Remained the same overall",
-    "This is our first year of reporting, so we cannot compare to last year",
-    "We don't have 하나 이상 배출량 데이터"
-  ]
+    "Remained same overall",
+    "이 당사의 first 연도 의 보고, 그렇게 당사 불가 비교 최근 연도",
+    "당사 don't 해당 배출량 데이터"
+  ],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

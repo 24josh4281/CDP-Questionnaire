@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details of the embodied carbon emissions of new construction or major renovation projects completed in the last three years.",
-  "questionKo": "the embodied carbon emissions of new construction 또는 major renovation projects completed in the last three years.에 대한 세부 정보를 입력하십시오.",
+  "questionKo": "지난 3년 동안 완성된 신축 또는 주요 재건축 프로젝트의 내재된 탄소 배출량 세부 정보를 제공하십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "행 1"
+      "titleKo": "1행"
     }
   ],
   "columns": [
@@ -27,7 +27,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Year of completion",
+      "textKo": "연도 의",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -54,23 +54,23 @@
       ],
       "simple_help": "Select all that apply:",
       "popup_help": "",
-      "textKo": "Methodologies/기준/tools applied",
+      "textKo": "방법론//도구",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "BBCA Label (Bâtiment Bas Carbone)",
-        "E+C- Label (Énergie Positive & Réduction Carbone)",
-        "내재탄소 in Construction Calculator (EC3) Tool",
+        "(Bâtiment)",
+        "E+C- (Énergie & Réduction)",
+        "탄소 건설 (EC3) 도구",
         "EN 15978",
         "EN 15804",
-        "GHG Protocol - Product Life Cycle Accounting 및 Reporting Standard",
+        "프로토콜 - 회계처리 및 보고 기준",
         "ISO 14040/44",
         "ISO 14025",
-        "One Click LCA",
-        "Whole life carbon assessment 에 대한 built environment (RICS)",
+        "1개",
+        "전체 탄소 평가 환경 ()",
         "기타, 직접 입력"
       ],
-      "simple_helpKo": "all that apply:을/를 선택하십시오.",
+      "simple_helpKo": "선택 모든 적용:",
       "popup_helpKo": ""
     },
     {
@@ -81,7 +81,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Comment",
+      "textKo": "의견",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -108,20 +108,20 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Property sector",
+      "textKo": "섹터",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Retail",
-        "Office",
-        "Industrial",
-        "Residential",
-        "Hotel",
-        "Lodging, Leisure & Recreation",
-        "Education",
-        "기술/Science",
-        "Healthcare",
-        "Mixed use",
+        "소매",
+        "",
+        "",
+        "",
+        "",
+        ", &",
+        "",
+        "기술/",
+        "",
+        "사용",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -138,12 +138,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Type of project",
+      "textKo": "유형 의 프로젝트",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "신규 construction",
-        "Major renovation"
+        "신규 건설",
+        ""
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -156,7 +156,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Project name/ID (optional)",
+      "textKo": "프로젝트 /ID (선택)",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -179,16 +179,16 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Life cycle stage(s) covered",
+      "textKo": "(s) 포함된",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Cradle-to-gate",
-        "Cradle-to-practical completion/handover",
-        "Use stage",
-        "End-of-life stage",
-        "Cradle-to-grave",
-        "Whole life",
+        "- -",
+        "/",
+        "사용",
+        "의-",
+        "- -",
+        "전체",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -219,25 +219,25 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Normalization factor (denominator)",
+      "textKo": "()",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "IPMS 1",
-        "IPMS 2 - Office",
-        "IPMS 2 - Industrial",
-        "IPMS 2 - Residential",
-        "IPMS 2 - Retail",
-        "IPMS 3 - Office",
-        "IPMS 3A - Industrial",
-        "IPMS 3A - Residential",
-        "IPMS 3A - Retail",
-        "IPMS 3B - Industrial",
-        "IPMS 3B - Residential",
-        "IPMS 3B - Retail",
-        "IPMS 3C - Residential",
-        "IPMS 3C - Retail",
-        "Internal building volume",
+        "1",
+        "2 -",
+        "2 -",
+        "2 -",
+        "2 - 소매",
+        "3 -",
+        "3A -",
+        "3A -",
+        "3A - 소매",
+        "3B -",
+        "3B -",
+        "3B - 소매",
+        "3C -",
+        "3C - 소매",
+        "내부",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -256,14 +256,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Denominator unit",
+      "textKo": "단위",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "square foot",
-        "square meter",
-        "cubic foot",
-        "cubic meter"
+        "",
+        "",
+        "",
+        ""
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -276,7 +276,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "내재탄소 (kg/CO2e per the denominator unit)",
+      "textKo": "탄소 (kg/CO2e 마다 단위)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -291,7 +291,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "% of 신규 construction/major renovation projects in the last three years covered by this metric (by floor area)",
+      "textKo": "% 의 신규 건설/ 프로젝트 최근 3개 년 포함된 기준 이 지표 (기준)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -309,20 +309,20 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to 7.72.2.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 7.72.2."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"예\" 응답 7.72.2."
     },
     {
       "type": "Requested Content",
       "text": "Year of completion (column 1) Provide the year of project completion. You are requested to disclose the data for your new construction or major renovation projects completed in the last 3 years.\nProject name/ID (optional) (column 4) You may use this column to identify the project you are supplying data for. This is optional.\nNormalization factor (denominator) (column 6) Select the normalization factor - area or volume - for your embodied carbon data. \nFor the data reported by area, you are encouraged to use floor area measurements in line with the International Property Measurement Standards (IPMS).\n% of new construction/major renovation projects in the last three years covered by this metric (by floor area) (column 9) Indicate the percentage that this project contributes (by floor area) to the new construction and major renovation projects completed in the last three years.\nThe sum of all rows for this column should give the total proportion of the company's completed projects in the last three years where embodied carbon is evaluated (i.e. the total of 100% will indicate that embodied carbon was evaluated for all projects completed in the last three years).\nComment (column 11) (optional) You may provide further details on your assumptions, spatial boundaries, life cycle stages included, reference study periods and any other relevant information to help contextualize the provided embodied carbon figure.",
       "typeKo": "요청 내용",
-      "textKo": "Year of completion (열 1) Provide the year of project completion. You are requested to disclose the data 귀사의 신축 또는 주요 개보수 프로젝트 완성 in the last 3 years. Project name/ID (optional) (열 4) You may use this 열 to identify the project you are supplying data for. This is optional. Normalization factor (denominator) (열 6) Select the normalization factor - area 또는 volume - 귀사의 내재탄소 data. 에 대한 data 보고 by area, you are encouraged to use floor area measurements in line with the International Property Measurement 기준 (IPMS). % of 신규 construction/major renovation projects in the last three years covered by this metric (by floor area) (열 9) Indicate the percentage that this project contributes (by floor area) to the 신규 construction 및 major renovation projects 최근 3년 내 완료된. The sum of all 행 for this 열 해야 합니다 give the total proportion 의 company's 완성 projects in the last three years 여기서 내재탄소 is evaluated (i.e. the total of 100% will indicate that 내재탄소 was evaluated for all projects 최근 3년 내 완료된). Comment (열 11) (optional) You may provide further details on your assumptions, spatial boundaries, life cycle stages included, reference study periods 및 하나 이상 other 관련 information to help contextualize the 입력 내재탄소 figure."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Property sectors (in line with 2020 GRESB Real Estate Assessment)\nRetail: Includes the following property types:\nRetail, High street : retail buildings located on the high street in a particular area, usually terraced properties located in the city center or other high-traffic pedestrian zones. \nRetail centers : shopping centers, strip malls, lifestyle centers and warehouses.\nRestaurants/Bars : buildings used primarily for social/entertainment purposes and characterized by most of the revenue being generated from the sale of beverages or food.\nOther : other retail properties that do not fit in the aforementioned property types.\nOffice: Includes the following property types:\nCorporate : low-rise, mid-rise and high-rise office properties.\nMedical office : examples may include but are not limited to offices specifically used for the purpose of medical administration, secondary research or other purposes, exclusive of the property types specified for Healthcare center. \nBusiness park : a group of office properties being classified as a single financial asset and for which individual property consumption data is not available.\nOther : other office properties that do not fit in the aforementioned property types.\nIndustrial \n: Includes the following property types:\nDistribution warehouses : industrial buildings used for the purpose of storing, processing and distribution of goods to wholesalers, retailers and/or consumers.\nManufacturing: industrial buildings used for the purpose of manufacturing. Otherwise known as a factory or manufacturing plant.\nIndustrial parks : areas zoned for the purpose of industrial development, where (lightweight) industrial buildings are grouped together with offices. Examples may include, but are not limited to: industrial estates, trading estates and enterprise zones.\nOther : other industrial properties that do not fit in the aforementioned property types.\nResidential: Includes the following property types:\nResidential Multi-family : multiple residential dwelling spaces contained within one building. This includes low-, mid- and high-rise multi-family residential buildings.\nFamily homes : includes both single-family homes and multi-dwelling units not including apartment blocks. A single-family home is a separate, free-standing residential building. A multi-dwelling family home includes those such as two-flats, duplex, semi-detached, and townhouses. Synonyms include: single-family home, single-detached dwelling, detached house, single-family residence, separate house, free-standing house, townhouse, duplex, condo, semidetached, villa.\nStudent housing : residential buildings used for the purpose of housing students, otherwise known as student apartments, student houses, student residences, student quarters, and student accommodations.\nRetirement living: otherwise known as retirement villages - communities comprised of people at a similar stage in life who are seeking a specific lifestyle. Retirement villages are made up of private homes and usually offer a range of shared facilities.\nOther : other residential properties that do not fit in the aforementioned property types.\nHotel \n: includes hotels, motels, youth hostels and resorts.\nLodging, leisure & recreation: indoor center used for the purpose of leisure and recreation. Examples include but not limited to: indoor arenas, fitness centers, performing arts centers, swimming centers and museums/galleries.\nEducation: includes schools, universities, libraries and other education properties.\nTechnology/Science: includes data centers, laboratory/life sciences properties and other specifically designed and equipped technology/science properties.\nHealthcare: Includes the following property types:\nHealthcare center : buildings used for the purpose of primary healthcare. Examples may include, but are not limited to: hospitals, clinics, physical therapy centers and mental health centers. \nSenior homes : healthcare properties used for the purpose of housing seniors, otherwise known as senior assisted living homes, old-age homes, or aged care.\nOther : other healthcare properties that do not fit in the aforementioned property types.\nMixed use \n: Mixed-use buildings that lack data availability by individual property type components.\nOther \n: includes parking (indoors), self-storage, and other properties that do not fit in the aforementioned property types.\nIPMS \n: The International Property Measurement Standard (IPMS) is a high-level and over-arching standard which aims to establish a globally consistent methodology for property measurement. CDP encourages using IMPS for reporting floor areas to ensure comparability of data. Detailed definitions and guidance are available on the IPMS website .",
-      "typeKo": "설명 of Terms",
-      "textKo": "Property sectors (in line with 2020 GRESB Real Estate Assessment) Retail: Includes the following property types: Retail, High street: retail buildings located on the high street in a particular area, usually terraced properties located in the city center 또는 other high-traffic pedestrian zones. Retail centers: shopping centers, strip malls, lifestyle centers 및 warehouses. Restaurants/Bars: buildings used primarily for social/entertainment purposes 및 characterized by most 의 매출 being generated from the sale of beverages 또는 food. Other: other retail properties that do not fit in the aforementioned property types. Office: Includes the following property types: Corporate: low-rise, mid-rise 및 high-rise office properties. Medical office: examples may include but are not limited to offices specifically used 에 대한 purpose of medical administration, secondary research 또는 other purposes, exclusive 의 property types specified for Healthcare center. Business park: a group of office properties being classified as a single financial asset 및 for which individual property consumption data is not available. Other: other office properties that do not fit in the aforementioned property types. Industrial: Includes the following property types: Distribution warehouses: industrial buildings used 에 대한 purpose of storing, 프로세스ing 및 distribution of goods to wholesalers, retailers 및/또는 consumers. Manufacturing: industrial buildings used 에 대한 purpose of manufacturing. Otherwise known as a factory 또는 manufacturing plant. Industrial parks: areas zoned 에 대한 purpose of industrial development, 여기서 (lightweight) industrial buildings are grouped together with offices. Examples may include, but are not limited to: industrial estates, trading estates 및 enterprise zones. Other: other industrial properties that do not fit in the aforementioned property types. Residential: Includes the following property types: Residential Multi-family: multiple residential dwelling spaces contained within one building. This includes low-, mid- 및 high-rise multi-family residential buildings. Family homes: includes both single-family homes 및 multi-dwelling units not 포함 apartment blocks. A single-family home is a separate, free-standing residential building. A multi-dwelling family home includes those such as two-flats, duplex, semi-detached, 및 townhouses. Synonyms include: single-family home, single-detached dwelling, detached house, single-family residence, separate house, free-standing house, townhouse, duplex, condo, semidetached, villa. Student housing: residential buildings used 에 대한 purpose of housing students, otherwise known as student apartments, student houses, student residences, student quarters, 및 student accommodations. Retirement living: otherwise known as retirement villages - communities comprised of people at a similar stage in life who are seeking a specific lifestyle. Retirement villages are made up of private homes 및 usually offer a range of shared facilities. Other: other residential properties that do not fit in the aforementioned property types. Hotel: includes hotels, motels, youth hostels 및 resorts. Lodging, leisure & recreation: indoor center used 에 대한 purpose of leisure 및 recreation. Examples include but not limited to: indoor arenas, fitness centers, performing arts centers, swimming centers 및 museums/galleries. Education: includes schools, universities, libraries 및 other education properties. 기술/Science: includes data centers, laboratory/life sciences properties 및 other specifically designed 및 equipped 기술/science properties. Healthcare: Includes the following property types: Healthcare center: buildings used 에 대한 purpose of primary healthcare. Examples may include, but are not limited to: hospitals, clinics, physical therapy centers 및 mental health centers. Senior homes: healthcare properties used 에 대한 purpose of housing seniors, otherwise known as senior assisted living homes, old-age homes, 또는 aged care. Other: other healthcare properties that do not fit in the aforementioned property types. Mixed use: Mixed-use buildings that lack data availability by individual property type components. Other: includes parking (indoors), self-storage, 및 other properties that do not fit in the aforementioned property types. IPMS: The International Property Measurement Standard (IPMS) is a high-level 및 over-arching standard which aims to establish a globally consistent 방법론 for property measurement. CDP encourages using IMPS for reporting floor areas to ensure comparability of data. Detailed definitions 및 guidance are available on the IPMS website."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -356,7 +356,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개 (제외 열 'Project name/ID (optional)'). 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 9/9점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -366,7 +366,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 제외 열 'Project name/ID (optional)' 그리고 year 입력 in 열 'Year of completion' is between 0 및 3 years before year 입력 in 열 'End date of 보고연도' in 문항 1.4 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -376,7 +376,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. Either 'Cradle-to-grave' 또는 'Whole life' 선택 in 열 'Life cycle stage(s) covered' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Methodologies/기준/tools applied' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -386,7 +386,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -396,7 +396,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개 (제외 열 'Project name/ID (optional)'). 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 9/9점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -406,7 +406,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 제외 열 'Project name/ID (optional)' 그리고 year 입력 in 열 'Year of completion' is between 0 및 3 years before year 입력 in 열 'End date of 보고연도' in 문항 1.4 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -416,7 +416,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. Either 'Cradle-to-grave' 또는 'Whole life' 선택 in 열 'Life cycle stage(s) covered' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Methodologies/기준/tools applied' - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -426,12 +426,12 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Provide details of the embodied carbon emissions of new construction or major renovation projects completed in the last three years.",
+    "question_ko": "지난 3년 동안 완성된 신축 또는 주요 재건축 프로젝트의 내재된 탄소 배출량 세부 정보를 제공하십시오",
     "q2025": "Q7.72.3",
     "q2025_text": "Provide details of the embodied carbon emissions of new construction or major renovation projects completed in the last three years.",
     "change_status": "No change - 2026 source verified",
@@ -450,13 +450,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Construction: D 9/9 | A 1/1 | M 1/1 | L 0/0 Real estate: D 9/9 | A 1/1 | M 1/1 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "건설: D 9/9 | 1/1 | M 1/1 | L 0/0 부동산: D 9/9 | 1/1 | M 1/1 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "the 내재탄소 emissions of 신축 또는 주요 개보수 프로젝트 최근 3년 내 완료된.에 대한 세부 정보를 입력하십시오."
+    "q2025_textKo": "지난 3년 동안 완성된 신축 또는 주요 재건축 프로젝트의 내재된 탄소 배출량 세부 정보를 제공하십시오"
   },
   "defaultPoints": {
     "D": "9/9",
@@ -486,16 +486,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "부동산, 건설",
-  "simpleHelpKo": "Consideration of 내재탄소 at the initial design 및 construction stages is necessary in order to achieve the required GHG reductions. The relative significance of 내재탄소 is increasing, due to the decarbonization 의 grid 및 증가 operational efficiency of buildings. This 문항 provides investors 및 데이터 사용자 with information on the 내재탄소 of buildings that you 최근 3년 내 완료된 또는 the reasons you are not able to calculate 또는 disclose these data.",
+  "simpleHelpKo": "이 문항은 '지난 3년 동안 완성된 신축 또는 주요 재건축 프로젝트의 내재된 탄소 배출량 세부 정보를 제공하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details on the electricity and heat your organization has generated and consumed for cement production activities.",
-  "questionKo": "details on the electricity 및 heat 귀사 has generated 및 consumed for 시멘트 생산 활동.을/를 입력하십시오.",
+  "questionKo": "시멘트 생산 활동을 위해 귀사가 생산 및 소비한 전력과 열에 대한 세부 정보를 제공하십시오.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,17 +15,17 @@
     {
       "order": 1,
       "title": "Electricity",
-      "titleKo": "Electricity"
+      "titleKo": "전력"
     },
     {
       "order": 2,
       "title": "Heat",
-      "titleKo": "Heat"
+      "titleKo": "열"
     },
     {
       "order": 3,
       "title": "Steam",
-      "titleKo": "Steam"
+      "titleKo": "스팀"
     }
   ],
   "columns": [
@@ -37,7 +37,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Total gross generation (MWh) inside the cement sector boundary",
+      "textKo": "총 총 발전 () 시멘트 섹터",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -52,7 +52,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Generation that is consumed (MWh) inside the cement sector boundary",
+      "textKo": "발전 소비한 () 시멘트 섹터",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -70,20 +70,20 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Generation of electricity, heat, steam, or cooling\" in response to 7.30.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Generation of electricity, heat, steam, 또는 cooling\" in response to 7.30."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"발전 의 전력, 열, 스팀, 또는 냉방\" 응답 7.30."
     },
     {
       "type": "Requested Content",
       "text": "General \nThis question is based on question 7.30.9 but is sector specific. Energy carriers generated from outside the cement sector should not be reported here.\nThe boundary surrounding your organization in the cement sector shall hereby be referred to as the organizational/sector boundary. The sector boundary for energy consumption should align with the sector boundary for emissions, which is described in the guidance to question 7.19.\nFigures you provide should be for the reporting year only (as defined by your answer to 1.4).\nGuidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh \".\nNuclear power generation should not be included for this question, as nuclear power is covered in more detail in questions for electric utilities.\nYou should only account for heat generated in transferable mediums, i.e. the forms of heat that may also be purchased or acquired from third parties (as listed in question 7.30.1).\nThis is because the proportion of fuel combustion heat made available for use in applications after losses (e.g. direct heating for industrial process plant and equipment) may be difficult to measure or would require detailed process monitoring equipment readings.\nTotal gross generation inside the cement sector boundary (column 2) \nGross generation should be reported, where ‘Gross' covers the total output from all generating installations or facilities without deducting for electricity, steam, heat or cooling used by the generating plant or facility for the purpose of generation. This includes both the energy you produced and did not consume, as well as the amount you did consume.\nGeneration that is consumed inside the cement sector boundary (column 3) \nThis column is a subset of column 2; the amount entered cannot be higher than the amount entered in column 2. If the entered amount is equal to the amount in column 2, then your organization consumed in the cement sector all of the electricity, steam, and/or heat that your organization generated in the cement sector.",
       "typeKo": "요청 내용",
-      "textKo": "일반 This 문항 is based on 문항 7.30.9 but is sector specific. Energy carriers generated from outside the cement sector 해야 합니다 not be 보고 here. The boundary surrounding 귀사 in the cement sector shall hereby be referred to as the organizational/sector boundary. The sector boundary for 에너지 소비량 해야 합니다 align with the sector boundary for emissions, which is 설명d in the guidance to 문항 7.19. Figures you provide 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). Guidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh \". Nuclear 발전 해야 합니다 not be included for this 문항, as nuclear power is covered in more detail in 문항 for electric utilities. You 해야 합니다 only account for heat generated in transferable mediums, i.e. the forms of heat that may also be purchased 또는 acquired from third parties (as listed in 문항 7.30.1). This is because the proportion of fuel combustion heat made available for use in applications after losses (e.g. direct heating for industrial 프로세스 plant 및 equipment) may be difficult to measure 또는 would require detailed 프로세스 모니터링 equipment readings. Total gross generation inside the cement sector boundary (열 2) Gross generation 해야 합니다 be 보고, 여기서 ‘Gross' covers the total output from all generating installations 또는 facilities without deducting for electricity, steam, heat 또는 cooling used by the generating plant 또는 facility 에 대한 purpose of generation. This includes both the energy you produced 및 did not consume, as well as the amount you did consume. Generation that is consumed inside the cement sector boundary (열 3) This 열 is a subset of 열 2; the amount entered cannot be higher than the amount entered in 열 2. 만약 the entered amount is equal to the amount in 열 2, then 귀사 consumed in the cement sector all 의 electricity, steam, 및/또는 heat that 귀사 generated in the cement sector."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Gross generation : covers the total output from all generating installations or facilities without deducting for amount of generated electricity, steam, heat or cooling used by those installations or facilities for the purpose of generation. Deducting this self-consumption of output gives the net generation. To avoid double-counting, consumption of one energy carrier (i.e. electricity, heat, steam, or cooling) to produce another (i.e. electricity, heat, steam, or cooling) within the same installation should not be included. For example, the generation of steam which is consumed in a steam turbine for the generation of electricity should not be included.",
-      "typeKo": "설명 of Terms",
-      "textKo": "Gross generation: covers the total output from all generating installations 또는 facilities without deducting for amount of generated electricity, steam, heat 또는 cooling used by those installations 또는 facilities 에 대한 purpose of generation. Deducting this self-consumption of output gives the net generation. To avoid double-counting, consumption of one energy carrier (i.e. electricity, heat, steam, 또는 cooling) to produce another (i.e. electricity, heat, steam, 또는 cooling) within the same installation 해야 합니다 not be included. For example, the generation of steam which is consumed in a steam turbine 에 대한 generation of electricity 해야 합니다 not be included."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -107,7 +107,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 6/6점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -117,7 +117,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -127,7 +127,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -137,12 +137,12 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Provide details on the electricity and heat your organization has generated and consumed for cement production activities.",
+    "question_ko": "시멘트 생산 활동을 위해 귀사가 생산 및 소비한 전력과 열에 대한 세부 정보를 제공하십시오.",
     "q2025": "Q7.30.10",
     "q2025_text": "Provide details on the electricity and heat your organization has generated and consumed for cement production activities.",
     "change_status": "No change - 2026 source verified",
@@ -161,13 +161,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Cement: D 6/6 | A 1/1 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "시멘트: D 6/6 | 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "details on the electricity 및 heat 귀사 has generated 및 consumed for 시멘트 생산 활동.을/를 입력하십시오."
+    "q2025_textKo": "시멘트 생산 활동을 위해 귀사가 생산 및 소비한 전력과 열에 대한 세부 정보를 제공하십시오."
   },
   "defaultPoints": {
     "D": "6/6",
@@ -197,16 +197,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "시멘트",
-  "simpleHelpKo": "문항 7.30.9 has been 수정 및 represented here 에 대한 cement sector. This enables consistency of reporting across organizations with varying coverage over activities that may be separate from the cement sector 또는 independent 의 production activities defining the cement sector.",
+  "simpleHelpKo": "이 문항은 '시멘트 생산 활동을 위해 귀사가 생산 및 소비한 전력과 열에 대한 세부 정보를 제공하십시오.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

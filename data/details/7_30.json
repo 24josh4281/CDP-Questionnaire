@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Select which energy-related activities your organization has undertaken.",
-  "questionKo": "귀사에 해당하는 에너지 관련 활동을 선택하십시오.",
+  "questionKo": "귀사에 해당하는 에너지 관련 활동을 선택하십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,32 +15,32 @@
     {
       "order": 1,
       "title": "Consumption of fuel (excluding feedstocks)",
-      "titleKo": "Consumption of fuel (제외 feedstocks)"
+      "titleKo": "소비 의 연료 (제외 원료)"
     },
     {
       "order": 2,
       "title": "Consumption of purchased or acquired electricity",
-      "titleKo": "Consumption of purchased 또는 acquired electricity"
+      "titleKo": "소비 의 또는 전력"
     },
     {
       "order": 3,
       "title": "Consumption of purchased or acquired heat",
-      "titleKo": "Consumption of purchased 또는 acquired heat"
+      "titleKo": "소비 의 또는 열"
     },
     {
       "order": 4,
       "title": "Consumption of purchased or acquired steam",
-      "titleKo": "Consumption of purchased 또는 acquired steam"
+      "titleKo": "소비 의 또는 스팀"
     },
     {
       "order": 5,
       "title": "Consumption of purchased or acquired cooling",
-      "titleKo": "Consumption of purchased 또는 acquired cooling"
+      "titleKo": "소비 의 또는 냉방"
     },
     {
       "order": 6,
       "title": "Generation of electricity, heat, steam, or cooling",
-      "titleKo": "Generation of electricity, heat, steam, 또는 cooling"
+      "titleKo": "발전 의 전력, 열, 스팀, 또는 냉방"
     }
   ],
   "columns": [
@@ -55,7 +55,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "활동",
+      "textKo": "표시 여부 귀사 이 에너지-관련 활동 보고연도",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -76,20 +76,20 @@
     {
       "type": "Question Dependencies",
       "text": "The energy-related activities that you select in response to 7.30 determine which energy breakdowns you will be prompted to respond to in the proceeding questions. Please note, if your response to 7.30 is amended, data in dependent questions may be erased.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "The energy-related activities that you select in response to 7.30 determine which energy breakdowns you will be prompted to respond to in the proceeding 문항. Please note, 만약 your response to 7.30 is amended, data in dependent 문항 may be erased."
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "Consumption of fuel (excluding feedstocks) (Row 1) \nYou should select ‘Yes' in row 1 ‘Consumption of fuel (excluding feedstocks)' if fuel was consumed inside your organizational boundary in the reporting year. All fuels accounted for in the calculation of Scope 1 emissions (7.6) and fuels accounted for in the calculation of emissions from biogenic carbon (7.12.1) are included. Consumption of nuclear fuel is not included.\nConsumption of purchased or acquired electricity heat, steam and/or cooling (Rows 2-5) \nYou should select ‘Yes' in rows 2-5 according to whether your organization has consumed electricity, heat, steam, and/or cooling that was purchased or acquired, i.e. brought into the organizational boundary. This excludes consumption of electricity, heat, steam or cooling that was produced by the organization, i.e. from inside the organizational boundary. It also excludes purchased or acquired electricity, heat, steam or cooling that is not consumed inside the organizational boundary.\nPurchased or acquired electricity, heat, steam or cooling that is wasted should still be counted as consumption.\nThe activities of rows 2-5 are aligned with the boundary for Scope 2 emissions.\nGeneration of electricity, heat, steam, or cooling (Row 6) \nYou should select ‘Yes' in row 6 if your organization generated electricity, heat, steam, or cooling in the reporting year, regardless of whether this generation was consumed, exported, or wasted.",
       "typeKo": "요청 내용",
-      "textKo": "Consumption of fuel (제외 feedstocks) (행 1) You 해야 합니다 select ‘예' in 행 1 ‘Consumption of fuel (제외 feedstocks)' 만약 fuel was consumed inside your 조직경계 in the 보고연도. All fuels accounted for in the 계산 of Scope 1 배출량 (7.6) 및 fuels accounted for in the 계산 of emissions from 생물기원 탄소 (7.12.1) are included. Consumption of nuclear fuel is not included. Consumption of purchased 또는 acquired electricity heat, steam 및/또는 cooling (행 2-5) You 해야 합니다 select ‘예' in 행 2-5 according to whether 귀사 has consumed electricity, heat, steam, 및/또는 cooling that was purchased 또는 acquired, i.e. brought into the 조직경계. This excludes consumption of electricity, heat, steam 또는 cooling that was produced by the organization, i.e. from inside the 조직경계. It also excludes purchased 또는 acquired electricity, heat, steam 또는 cooling that is not consumed inside the 조직경계. Purchased 또는 acquired electricity, heat, steam 또는 cooling that is wasted 해야 합니다 still be counted as consumption. The activities of 행 2-5 are aligned with the boundary for Scope 2 배출량. Generation of electricity, heat, steam, 또는 cooling (행 6) You 해야 합니다 select ‘예' in 행 6 만약 귀사 generated electricity, heat, steam, 또는 cooling in the 보고연도, regardless of whether this generation was consumed, exported, 또는 wasted."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Excluding feedstocks: Fuels consumed as feedstocks are fuels that are not combusted for energy purposes. For example, naphtha and ethane are feedstocks that may be converted into petrochemical products such as ethylene, and should not be included. The steel industry is a special case because coke and fuel injectants consumed at the blast furnace serve as feedstocks and a source of energy. These fuels are considered feedstocks and should not be counted. However, all fuels consumed that are derived from fuel feedstocks, e.g. blast furnace gas, coke oven gas, and smelting reduction gas, should be counted. Companies that consume fuel as feedstocks will have the opportunity to disclose these fuels in sector specific questions.\nPurchased or acquired electricity, steam, heat, cooling: Specific information on these energy carriers can be found in section 5.3.1 and Appendix A of the GHG Protocol Scope 2 Guidance . The terms ‘purchased' and ‘acquired' are used when your organization has received the energy from a third party. This rules out energy that is sourced from within the organizational/sector boundary. It should be noted that purchased or acquired heat does not include the heat content, or calorific value, of fuels that are purchased or acquired by the organization. This is accounted for at the point of fuel consumption, which falls inside the Scope 1 boundary. You should also be aware that steam, heat or cooling received via direct line as ‘waste' from an industrial process, should still be accounted for if it is consumed.",
-      "typeKo": "설명 of Terms",
-      "textKo": "Excluding feedstocks: Fuels consumed as feedstocks are fuels that are not combusted for energy purposes. For example, naphtha 및 ethane are feedstocks that may be converted into petrochemical products such as ethylene, 및 해야 합니다 not be included. The steel industry is a special case because coke 및 fuel injectants consumed at the blast furnace serve as feedstocks 및 a source of energy. These fuels are considered feedstocks 및 해야 합니다 not be counted. However, all fuels consumed that are derived from fuel feedstocks, e.g. blast furnace gas, coke oven gas, 및 smelting reduction gas, 해야 합니다 be counted. Companies that consume fuel as feedstocks will have the opportunity to disclose these fuels in sector specific 문항. Purchased 또는 acquired electricity, steam, heat, cooling: Specific information on these energy carriers can be found in section 5.3.1 및 Appendix A 의 GHG Protocol Scope 2 Guidance. The terms ‘purchased' 및 ‘acquired' are used 경우 귀사 has received the energy from a third party. This rules out energy that is sourced from within the organizational/sector boundary. It 해야 합니다 be noted that purchased 또는 acquired heat does not include the heat content, 또는 calorific value, of fuels that are purchased 또는 acquired by the organization. This is accounted for at the 점 of 연료 소비량, which falls inside the Scope 1 boundary. You 해야 합니다 also be aware that steam, heat 또는 cooling received via direct line as ‘waste' from an industrial 프로세스, 해야 합니다 still be accounted for 만약 it is consumed."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -293,7 +293,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -303,7 +303,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -313,7 +313,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -323,7 +323,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -333,7 +333,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -343,7 +343,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -353,7 +353,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -363,7 +363,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -373,7 +373,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -383,7 +383,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -393,7 +393,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -403,7 +403,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -413,7 +413,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -423,7 +423,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -433,7 +433,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -443,7 +443,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -453,7 +453,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -463,7 +463,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -473,7 +473,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -483,7 +483,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -493,7 +493,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -503,7 +503,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -513,7 +513,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -523,7 +523,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -533,7 +533,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -543,7 +543,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -553,7 +553,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -563,7 +563,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -573,7 +573,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -583,7 +583,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -593,7 +593,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -603,7 +603,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -613,7 +613,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -623,7 +623,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -633,7 +633,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -643,7 +643,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -653,7 +653,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -663,7 +663,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -673,7 +673,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -683,7 +683,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -693,7 +693,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -703,7 +703,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -713,7 +713,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -723,7 +723,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -733,7 +733,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -743,7 +743,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -753,7 +753,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -763,7 +763,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -773,7 +773,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -783,7 +783,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -793,7 +793,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -803,7 +803,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -813,7 +813,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -823,7 +823,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -833,7 +833,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -843,7 +843,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -853,7 +853,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -863,7 +863,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -873,7 +873,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -883,7 +883,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -893,7 +893,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -903,7 +903,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -913,7 +913,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -923,7 +923,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -933,7 +933,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -943,7 +943,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -953,7 +953,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -963,7 +963,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -973,7 +973,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -983,7 +983,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -993,7 +993,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1003,7 +1003,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -1013,7 +1013,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) 점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/13 점 이 경로에서 획득 가능한 최고점은 0/13점입니다."
+      "criteriaKo": "경로) 점 부여됨 마다 완료 행 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 경로에서 최대 6/6점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/13 점 이 경로에서 최대 0/13점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -1023,7 +1023,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -1033,7 +1033,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사…' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/2 점 이 경로에서 획득 가능한 최고점은 0/2점입니다."
+      "criteriaKo": "경로) 열 '표시 여부 귀사…' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/2 점 이 경로에서 최대 0/2점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -1043,12 +1043,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) 열 'Indicate whether 귀사...' 완성 in 하나 이상 행 - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다. 또는 비공개 경로) 열 'Indicate whether 귀사...' NOT 완성 in all 행 - 0/1.5 점 A 최고 of 0/1.5 점 is available for this 경로."
+      "criteriaKo": "경로) 열 '표시 여부 귀사...' 완료 해당 행 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 열 '표시 여부 귀사...' 미완료 모든 행 - 0/1.5 점 이 경로에서 최대 0/1.5점을 받을 수 있습니다."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "귀사 에서 수행한 에너지 관련 활동을 선택하십시오 . ` M7. Environmental Performance - Climate Change 활동 보고 연도에 귀 조직이 이 에너지 관련 활동을 수행했는지 여부를 표시하십시오 . 연료 소비량 ( 공급 원료 제외 ) 예 아니오 구매 또는 획득한 전기 소비량 구매 또는 획득한 열의 소비량 구매 또는 획득한 증기의 소비량 구매 또는 획득한 냉각 소비량 전기 , 열 , 증기 또는 냉각의 발생량",
+    "question_ko": "귀사에 해당하는 에너지 관련 활동을 선택하십시오",
     "q2025": "Q7.30",
     "q2025_text": "Select which energy-related activities your organization has undertaken.",
     "change_status": "No change - 2026 source verified",
@@ -1067,13 +1067,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "일반: D 6/6 | A 0/0 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "일반: D 6/6 | 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "which energy-related activities 귀사 has undertaken.을/를 선택하십시오."
+    "q2025_textKo": "귀사에 해당하는 에너지 관련 활동을 선택하십시오"
   },
   "defaultPoints": {
     "D": "6/6",
@@ -1103,16 +1103,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "This 문항 provides 데이터 사용자 with information on the 조직의 consumption of energy forms relating to Scope 1 및 Scope 2 배출량, 및 transparency on the generation of energy.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항 제공함 데이터 사용자 정보 조직의 소비 의 에너지 양식 관련된 범위 1 및 범위 2 배출량, 및 투명성 발전 의 에너지.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

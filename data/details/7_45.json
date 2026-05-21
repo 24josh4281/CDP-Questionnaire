@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Describe your gross global combined Scope 1 and 2 emissions for the reporting year in metric tons CO2e per unit currency total revenue and provide any additional intensity metrics that are appropriate to your business operations.",
-  "questionKo": "보고연도 글로벌 Scope 1 & 2 온실가스 총 배출량을 총 매출액 단위 및 귀사에 적용 가능한 단위를 사용해서 아래 표를 작성해 주십시오.",
+  "questionKo": "보고연도 글로벌 범위 1 & 2 온실가스 총 배출량을 총 매출액 단위 및 귀사에 적용 가능한 단위를 사용해서 아래 표를 작성해 주십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "행 1"
+      "titleKo": "1행"
     }
   ],
   "columns": [
@@ -27,7 +27,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "원단위 배출량",
+      "textKo": "집약도 수치",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -42,7 +42,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "분자단위 (글로벌 Scope 1 & Scope 2 배출량 총량)",
+      "textKo": "지표 (총 전 세계 범위 1 및 2 배출량, 미터톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -84,35 +84,35 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "분모단위",
+      "textKo": "지표",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "unit total 매출",
-        "barrel of oil equivalent (BOE)",
-        "billion (currency) funds under 관리",
-        "full time equivalent (FTE) employee",
-        "kilometer",
-        "liter of product",
-        "megawatt hour generated (MWh)",
-        "megawatt hour transmitted (MWh)",
-        "megawatt hour purchased (MWh)",
-        "metric ton of product",
-        "ounce of gold",
-        "ounce of platinum",
-        "passenger kilometer",
-        "room night produced",
-        "square foot",
-        "square meter",
-        "metric ton of aggregate",
-        "metric ton of aluminum",
-        "metric ton of coal",
-        "metric ton of ore 프로세스ed",
-        "metric ton of steel",
-        "unit hour worked",
-        "unit of production",
-        "unit of service 입력",
-        "vehicle produced",
+        "단위 총 매출",
+        "의 석유 ()",
+        "(통화) 자금 관리",
+        "전체 ()",
+        "",
+        "의",
+        "생산한 ()",
+        "()",
+        "()",
+        "지표 의",
+        "의",
+        "의",
+        "",
+        "생산량",
+        "",
+        "",
+        "지표 의",
+        "지표 의",
+        "지표 의 석탄",
+        "지표 의",
+        "지표 의 철강",
+        "단위",
+        "단위 의 생산",
+        "단위 의 제공된",
+        "생산량",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -126,7 +126,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "분모값: Unit total",
+      "textKo": "지표: 단위 총",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -144,12 +144,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "사용한 Scope 2 배출량",
+      "textKo": "범위 2 수치 사용됨",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "지역기반",
-        "시장기반"
+        "기준",
+        "시장-기준"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -162,7 +162,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "전년 대비 변동률(%)",
+      "textKo": "% 변경 에서 이전 연도",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -181,12 +181,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "전년 대비 변동 방향",
+      "textKo": "의 변경",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "증가",
-        "Decreased",
+        "",
+        "",
         "변경 없음"
       ],
       "simple_helpKo": "",
@@ -213,25 +213,25 @@
       ],
       "simple_help": "",
       "popup_help": "Please note, \"Unidentified\" cannot be selected together with any other dropdown.",
-      "textKo": "변동 원인",
+      "textKo": "이유 변경",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Change in re신규able 에너지 소비량",
-        "Other emissions reduction activities",
-        "Divestment",
-        "Acquisitions",
-        "Mergers",
-        "Change in output",
-        "Change in 매출",
-        "Change in 방법론",
-        "Change in boundary",
-        "Change in physical operating conditions",
-        "Unidentified",
+        "변경 에너지 소비",
+        "기타 배출량 활동",
+        "매각",
+        "",
+        "",
+        "변경",
+        "변경 매출",
+        "변경 방법론",
+        "변경",
+        "변경",
+        "",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
-      "popup_helpKo": "Please note, \"Unidentified\" cannot be 선택 together with 하나 이상 other dropdown."
+      "popup_helpKo": "이 문항은 '보고연도 글로벌 범위 1 & 2 온실가스 총 배출량을 총 매출액 단위 및 귀사에 적용 가능한 단위를 사용해서 아래 표를 작성해 주십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
     },
     {
       "code": "7.45.9",
@@ -241,7 +241,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "설명",
+      "textKo": "설명하십시오",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -260,19 +260,19 @@
       "type": "Requested Content",
       "text": "General \nIt is requested that you first report your emissions intensity figure per unit of currency total revenue and if applicable provide any additional intensity metrics that are appropriate to your business operations. The currency reported here should be the same one selected in 1.2. Emissions intensity per unit of revenue is one the most common and easy means to calculate emissions intensity, which is why it is requested that you provide this figure. However, this is not necessarily always the most appropriate to individual businesses and therefore you can also report an additional intensity or normalized metric that is most appropriate to your organization's own operations. \nIf you are a privately held organization, you may report whichever intensity is relevant for you. Please note that per unit of revenue is the preferred disclosure. \nIf you did not disclose to CDP last year, or did not use this data point, please use last year's inventory and financial data to provide a calculation of percentage change. If you did not measure your emissions last year, complete column 1 and explain why you do not have the data available in column 9. \nIf your change in emissions intensity is attributed to a decline or an increase in your business output (products or services) due to the COVID-19 pandemic, please select \"Change in output\" in column 8 \"Reason for change\" and provide further details of how your output was affected in the \"Please explain\" column. \nIntensity figure (column 1) \nIntensity ratios express GHG impact per unit of physical activity or unit of economic output. \nYour intensity figure per unit of currency total revenue is calculated by dividing total Scope 1 and 2 emissions by unit revenue, making sure that the revenue figure used applies to the same organizational boundary as your emissions data. \nImportant points to remember when calculating intensity are: \nIntensity = Emissions (metric tons CO2e) (Numerator) / Business metric (e.g. revenue) (Denominator) \nNumerator units: the intensity metrics requested in this question should have emissions in metric tons CO2e as the numerator. They should include Scope 1 and Scope 2 emissions combined. This figure can be obtained by summing the figures given in answer to questions 7.6 and 7.7. \nDenominator units: When calculating your intensity, you should ensure that the units of your data match those specified in the intensity metric. For example, this question requests for intensity in metric tons CO2e per unit currency revenue. This means that your revenue figure (the denominator) should be in the currency you specified in 1.2 and in single units, i.e. if your revenue is 5 Million US$ your unit revenue is 5000000. Another example would be metric tons CO2e per MWh - if your data is in kWh you must convert it to MWh before using it in the calculation. \nBoundary and Exclusions: You should ensure that the organizational boundary and any exclusions specified for your numerator is the same as for your denominator. For example, when entering your emissions per FTE employee you should ensure that you only include those FTE employees that are within the sections of the organization covered by the organizational boundary of your emissions and take into account any exclusions (as specified in question 7.4.1). \nMetric denominator (column 3) \nTo report your organization's emissions intensity per unit currency total revenue, select \"unit total revenue\" in column 3 (metric denominator) for this column. \nPlease note that the denominator in the selection \"unit total revenue\" is per single unit (1) of the currency specified in question 1.2. Please do not report your revenue emissions intensity based on multiples of your selected currency (e.g. do not report in multiples of Yen). It is understood that this will likely result in your intensity figure being quite small (less than 0.01). \nMetric denominator: Unit total (column 4) \nEnsure that the metric denominator figure provided in this column is the same unit that was chosen in column 3. \nFor example, if your chosen metric in the previous column was FTE, you should input here how many FTE you had during the reporting year. \nScope 2 figure used (column 5) \nThis column only appears if you select \"We are reporting a Scope 2, market-based figure\" in column \"Scope 2, market-based\" of 7.3.\n% change from previous year (column 6) \nIf you have experienced no change, please enter 0 (zero) in this column. \nIf the previous year's figure has been reported but recalculated since, please use the recalculated figure for the calculation of percentage change and note this in the last column. The previous year compared should apply to the 12-month period directly prior to the reporting period, even if it does not completely overlap with the period previously reported to CDP. \nDirection of change (column 7) \nA declining intensity ratio reflects a positive performance (improvement), while an increasing intensity ratio reflects a negative performance (decline). \nIf the percentage change from last year is 0 (zero) select \"No change\". \nReason(s) for change (column 8). \nFurther details on each of the options are provided below: \nChange in renewable energy consumption  - a change in your organization's emissions intensity due to any consumption of self-generated or purchased renewable energy that was additional in the reporting year. Note that if your emissions intensity has changed due to changing Scope 2 accounting method (i.e., from Scope 2 location-based to Scope 2 market-based or vice versa), you should not select this option, but select \"Change in methodology\" (see below). \nOther emissions reduction activities  - a change in your organization's emissions intensity because of proactive emissions reduction initiatives or activities, for example those listed in question 7.55.2, other than those caused by a change in renewable energy consumption. \nDivestment  - a change that occurred due to selling off certain aspects of the businesses. \nAcquisitions  - a change that occurred due to purchasing or obtaining another company/subsidiary/facility. \nMergers  - a change that occurred due to business mergers. \nChange in output  - a change that occurred as a result of changes (increases or decreases) in your business output (i.e. a product or service); this could be, for example, organic growth, purchase of additional facilities due to business expansion, declines in sales due to a global recession, or release of a new product. \nChange in revenue  - a change that occurred due to changes (increases or decreases) in your organization's revenue (irrespective of business output); this could be, for example, due to an increase in price of products or services sold. \nChange in methodology  - a change that occurred due to modifications in the way that the inventory is calculated, for example, changes in emissions factors used or changes in methodology protocol followed. If your Scope 1+2 emissions intensity has changed as a result a change in Scope 2 accounting practices for low-carbon energy, you should select this option. \nChange in boundary  - a change in your organization's emissions intensity due to a change in the boundary used for your inventory calculation, i.e. changing from financial control to operational control. This option could also apply if you have incorporated facilities into your inventory that were excluded in previous years. \nChange in physical operating conditions  - a change that occurred due to changes in the weather that cannot be accounted for under the other options available, e.g. increased production of hydroelectricity because of increased rainfall. \nUnidentified  - select this option if you are not able to identify the reason for the change in your Scope 1+2 emissions intensity from the previous year. \nPlease explain (column 9) \nExpand on the reason(s) selected in column 8, providing regional, sectoral and/or operational context. \nExplain the degree to which different factors influenced the change in your intensity figure. \nIf you selected \"Other emissions reduction initiatives\" in column 8, specify the initiatives that contributed to the change, including those reported in 7.55.2. \nYou may also use this column to provide any additional explanation that is relevant to capture the full complexity of the emissions intensity change.\nNote for coal sector companies: \nCoal sector companies are requested to provide an emissions intensity figure per unit of currency total revenue and in addition, per metric ton of coal. \nNote for electric utility sector companies: \nElectric utility sector organizations are requested to provide an emissions intensity figure per unit of currency total revenue and in addition, report your organization's gross global combined Scope 1 and 2 emissions intensity per MWh of gross power generated and/or per MWh of power transmitted and/or per MWh of power purchased - make sure to select megawatt hour generated (MWh) and/or megawatt hour transmitted (MWh) and/or megawatt hour purchased (MWh). \nNote for oil and gas sector companies: \nOil and gas sector organizations are requested to provide an emissions intensity figure per unit of currency total revenue. \nPlease note that question 7.48 asks oil and gas organizations to provide the intensity figures for Scope 1 emissions (metric tons CO2e) per unit of hydrocarbon category. \nNote for transport OEMs, transport services and aviation sector companies: \nTransport OEMs, transport services and aviation sector organizations are requested to provide an emissions intensity figure per unit of currency total revenue. \nPlease note that, dependent on the extent you are able to disaggregate your emissions intensity for each transport mode between Scopes 1, 2, and 3: Category 4 upstream transportation and distribution, transport services and aviation organizations are asked to provide primary intensity (activity-based) metrics that are appropriate to emissions from transport activities in Scope 1, 2, and 3 in question 7.51. \nNote for real estate sector companies: \nIn addition to reporting emissions intensity figure per unit of currency total revenue, real estate companies should consider reporting emissions intensity by occupants or square area. \nNote for capital goods sector companies: \nIn addition to reporting an emissions intensity figure per unit of currency total revenue, capital goods companies should consider reporting emissions intensity by unit of production or unit of service provided. \nIf you measure the emissions intensity of specific products or product ranges, you will have the opportunity to provide this information in questions 7.34 and 7.34.1.",
       "typeKo": "요청 내용",
-      "textKo": "일반 It is requested that you first report your 배출집약도 figure per unit of currency total 매출 및 만약 해당되는 경우 provide 하나 이상 additional intensity metrics that are appropriate to your business operations. The currency 보고 here 해야 합니다 be the same one 선택 in 1.2. 배출집약도 per unit of 매출 is one the most common 및 easy means to calculate 배출집약도, which is why it is requested that you provide this figure. However, this is not necessarily always the most appropriate to individual businesses 및 therefore you can also report an additional intensity 또는 normalized metric that is most appropriate to 귀사의 own operations. 만약 you are a privately held organization, you may report whichever intensity is 관련 for you. Please note that per unit of 매출 is the preferred 공시. 만약 you did not disclose to CDP last year, 또는 did not use this data 점, please use last year's inventory 및 financial data to provide a 계산 of percentage change. 만약 you did not measure your emissions last year, complete 열 1 및 그 이유를 설명 you do not have the data available in 열 9. 만약 your change in 배출집약도 is attributed to a decline 또는 an increase in your business output (products 또는 services) due to the COVID-19 pandemic, please select \"Change in output\" in 열 8 \"Reason for change\" 및 provide further details of how your output was affected in the \"설명\" 열. 원단위 배출량 (열 1) Intensity ratios express GHG impact per unit of physical activity 또는 unit of economic output. Your 원단위 배출량 per unit of currency total 매출 is calculated by dividing total Scope 1 및 2 emissions by unit 매출, making sure that the 매출 figure used applies to the same 조직경계 as your 배출량 데이터. Important 점 to remember 경우 calculating intensity are: Intensity = Emissions (미터톤 CO2e) (Numerator) / Business metric (e.g. 매출) (Denominator) Numerator units: the intensity metrics requested in this 문항 해야 합니다 have emissions in 미터톤 CO2e as the numerator. They 해야 합니다 include Scope 1 및 Scope 2 배출량 combined. This figure can be obtained by summing the figures given in answer to 문항 7.6 및 7.7. Denominator units: 경우 calculating your intensity, you 해야 합니다 ensure that the units of your data match those specified in the intensity metric. For example, this 문항 requests for intensity in 미터톤 CO2e per unit currency 매출. This means that your 매출 figure (the denominator) 해야 합니다 be in the currency you specified in 1.2 및 in single units, i.e. 만약 your 매출 is 5 Million US$ your unit 매출 is 5000000. Another example would be 미터톤 CO2e per MWh - 만약 your data is in kWh you 해야 합니다 convert it to MWh before using it in the 계산. Boundary 및 제외사항: You 해야 합니다 ensure that the 조직경계 및 제외사항 specified 귀사의 numerator is the same as 귀사의 denominator. For example, 경우 entering your emissions per FTE employee you 해야 합니다 ensure that you only include those FTE employees that are within the sections 의 organization covered by the 조직경계 of your emissions 및 take into account 제외사항 (as specified in 문항 7.4.1). 분모단위 (열 3) To report 귀사의 배출집약도 per unit currency total 매출, select \"unit total 매출\" in 열 3 (분모단위) for this 열. Please note that the denominator in the 선택 \"unit total 매출\" is per single unit (1) 의 currency specified in 문항 1.2. Please do not report your 매출 배출집약도 based on multiples of your 선택 currency (e.g. do not report in multiples of Yen). It is understood that this will likely result in your 원단위 배출량 being quite small (미만 0.01). 분모값: Unit total (열 4) Ensure that the 분모단위 figure 입력 in this 열 is the same unit that was chosen in 열 3. For example, 만약 your chosen metric in the previous 열 was FTE, you 해야 합니다 input here how many FTE you had during the 보고연도. 사용한 Scope 2 배출량 (열 5) This 열 only appears 만약 you select \"We are reporting a Scope 2, 시장기반 figure\" in 열 \"Scope 2, 시장기반\" of 7.3. 전년 대비 변동률(%) (열 6) 만약 you have experienced 변경 없음, please enter 0 (zero) in this 열. 만약 the previous year's figure has been 보고 but recalculated since, please use the recalculated figure 에 대한 계산 of percentage change 및 note this in the last 열. The previous year compared 해야 합니다 apply to the 12-month period directly prior to the reporting period, even 만약 it does not completely overlap with the period previously 보고 to CDP. 전년 대비 변동 방향 (열 7) A declining intensity ratio reflects a positive performance (improvement), while an increasing intensity ratio reflects a negative performance (decline). 만약 the percentage change from last year is 0 (zero) select \"변경 없음\". Reason(s) for change (열 8). Further details on each 의 options are 입력 below: Change in re신규able 에너지 소비량 - a change in 귀사의 배출집약도 due to 하나 이상 consumption of self-generated 또는 purchased 재생에너지 that was additional in the 보고연도. Note that 만약 your 배출집약도 has changed due to changing Scope 2 accounting method (i.e., from Scope 2 지역기반 to Scope 2 시장기반 또는 vice versa), you 해야 합니다 not select this option, but select \"Change in 방법론\" (see below). Other emissions reduction activities - a change in 귀사의 배출집약도 because of proactive emissions reduction 이니셔티브 또는 activities, for example those listed in 문항 7.55.2, other than those caused by a change in re신규able 에너지 소비량. Divestment - a change that occurred due to selling off certain aspects 의 businesses. Acquisitions - a change that occurred due to purchasing 또는 obtaining another company/subsidiary/facility. Mergers - a change that occurred due to business mergers. Change in output - a change that occurred as a result of changes (increases 또는 decreases) in your business output (i.e. a product 또는 service); this could be, for example, organic g행th, purchase of additional facilities due to business expansion, declines in sales due to a global recession, 또는 release of a 신규 product. Change in 매출 - a change that occurred due to changes (increases 또는 decreases) in 귀사의 매출 (irrespective of business output); this could be, for example, due to an increase in price of products 또는 services sold. Change in 방법론 - a change that occurred due to modifications in the way that the inventory is calculated, for example, changes in emissions factors used 또는 changes in 방법론 protocol followed. 만약 your Scope 1+2 배출집약도 has changed as a result a change in Scope 2 accounting practices for low-carbon energy, you 해야 합니다 select this option. Change in boundary - a change in 귀사의 배출집약도 due to a change in the boundary used 귀사의 inventory 계산, i.e. changing from financial control to operational control. This option could also apply 만약 you have incorporated facilities into your inventory that were excluded in previous years. Change in physical operating conditions - a change that occurred due to changes in the weather that cannot be accounted for under the other options available, e.g. 증가 production of hydroelectricity because of 증가 rainfall. Unidentified - select this option 만약 you are not able to identify the reason 에 대한 change in your Scope 1+2 배출집약도 from the previous year. 설명 (열 9) Expand on the reason(s) 선택 in 열 8, providing regional, sectoral 및/또는 operational context. Explain the degree to which different factors influenced the change in your 원단위 배출량. 만약 you 선택 \"Other emissions reduction 이니셔티브\" in 열 8, specify the 이니셔티브 that contributed to the change, 포함 those 보고 in 7.55.2. You may also use this 열 to provide 하나 이상 additional 설명 that is 관련 to capture the full complexity 의 배출집약도 change. Note for coal sector companies: Coal sector companies are requested to provide an 배출집약도 figure per unit of currency total 매출 및 in addition, per metric ton of coal. Note for electric utility sector companies: Electric utility sector organizations are requested to provide an 배출집약도 figure per unit of currency total 매출 및 in addition, report 귀사의 전 세계 총 combined Scope 1 및 2 배출집약도 per MWh of gross power generated 및/또는 per MWh of power transmitted 및/또는 per MWh of power purchased - make sure to select megawatt hour generated (MWh) 및/또는 megawatt hour transmitted (MWh) 및/또는 megawatt hour purchased (MWh). Note for oil 및 gas sector companies: Oil 및 gas sector organizations are requested to provide an 배출집약도 figure per unit of currency total 매출. Please note that 문항 7.48 asks oil 및 gas organizations to provide the 원단위 배출량s for Scope 1 배출량 (미터톤 CO2e) per unit of hydrocarbon category. Note for transport OEMs, transport services 및 aviation sector companies: Transport OEMs, transport services 및 aviation sector organizations are requested to provide an 배출집약도 figure per unit of currency total 매출. Please note that, dependent on the extent you are able to disaggregate your 배출집약도 for each transport mode between Scopes 1, 2, 및 3: Category 4 upstream transportation 및 distribution, transport services 및 aviation organizations are asked to provide primary intensity (activity-based) metrics that are appropriate to emissions from transport activities in Scope 1, 2, 및 3 in 문항 7.51. Note for real estate sector companies: In addition to reporting 배출집약도 figure per unit of currency total 매출, real estate companies 해야 합니다 consider reporting 배출집약도 by occupants 또는 square area. Note for capital goods sector companies: In addition to reporting an 배출집약도 figure per unit of currency total 매출, capital goods companies 해야 합니다 consider reporting 배출집약도 by unit of production 또는 unit of service 입력. 만약 you measure the 배출집약도 of specific products 또는 product ranges, you will have the opportunity to provide this information in 문항 7.34 및 7.34.1."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Example Response",
       "text": "Worked example of calculating emissions intensities figures \nA reporting organization has gross total combined Scope 1 and 2 emissions of 300,000 metric tons CO2e, revenue of 5 Million US$ and 3,000 FTE employees. In this case, the company could calculate and report its emission intensity figures by revenue and by FTE as follows:\n1. Emissions intensity in metric tons CO2e per unit currency total revenue \nIntensity = 300,000 (metric tons CO2e)/5,000,000 (US$)= 0.06\n2. Emissions intensity in metric tons CO2e per FTE employee \nIntensity = 300,000 (metric tons CO2e)/3,000 (FTE employee)= 100\nIntensity figure\nMetric numerator (Gross global combined Scope 1 and 2 emissions)\nMetric denominator\nMetric denominator: Unit total\nScope 2 figure used\n% change from previous year\nDirection of change\nReason(s) for change\nPlease explain\n0.06 \n300,000 \nunit total revenue \n5,000,000 \nMarket-based \n3 \nDecreased \nChange in renewable energy consumption \nWe have been making progress on our initiative to increase our renewable energy consumption. Our additional renewable electricity procurement directly from an off-site wind farm has increased our share of RE by 10% this year, leading to a decrease in emissions intensity. We have reported details of this initiative in 7.55.2. \n100 \n300,000 \nfull time equivalent (FTE) \n3,000 \nMarket-based \n4 \nDecreased \nOther emissions reduction activities \nIn addition to reducing our emissions by shifting to electric vehicles we have hired more full time employees in the reporting year. We have an ongoing initiative to shift our company fleet to electric vehicles which we have detailed in 7.55.2.",
-      "typeKo": "Example Response",
-      "textKo": "Worked example of calculating emissions intensities figures A reporting organization has gross total combined Scope 1 및 2 emissions of 300,000 미터톤 CO2e, 매출 of 5 Million US$ 및 3,000 FTE employees. In this case, the company could calculate 및 report its emission 원단위 배출량s by 매출 및 by FTE as follows: 1. 배출집약도 in 미터톤 CO2e per unit currency total 매출 Intensity = 300,000 (미터톤 CO2e)/5,000,000 (US$)= 0.06 2. 배출집약도 in 미터톤 CO2e per FTE employee Intensity = 300,000 (미터톤 CO2e)/3,000 (FTE employee)= 100 원단위 배출량 Metric numerator (전 세계 총 combined Scope 1 및 2 emissions) 분모단위 분모값: Unit total 사용한 Scope 2 배출량 전년 대비 변동률(%) 전년 대비 변동 방향 Reason(s) for change 설명 0.06 300,000 unit total 매출 5,000,000 시장기반 3 Decreased Change in re신규able 에너지 소비량 We have been making progress on our 이니셔티브 to increase our re신규able 에너지 소비량. Our additional re신규able electricity procurement directly from an off-site wind farm has 증가 our share of RE by 10% this year, leading to a decrease in 배출집약도. We have 보고 details of this 이니셔티브 in 7.55.2. 100 300,000 full time equivalent (FTE) 3,000 시장기반 4 Decreased Other emissions reduction activities In addition to reducing our emissions by shifting to electric vehicles we have hired more full time employees in the 보고연도. We have an ongoing 이니셔티브 to shift our company fleet to electric vehicles which we have detailed in 7.55.2."
+      "typeKo": "Example 응답",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Intensity metrics: Intensity metrics describe an organization's CO2e emissions in the context of another business metric. In this way, the emissions are normalized to account for growth. Intensity is calculated by dividing the CO2e emissions figure (the numerator) by an alternative business metric (the denominator), such as the number of full-time equivalent employees, the revenue or tons of aggregate produced.\nRevenue: gross income arising from the operations of an organization over a period of time.",
-      "typeKo": "설명 of Terms",
-      "textKo": "Intensity metrics: Intensity metrics 설명 an 조직의 CO2e emissions in the context of another business metric. In this way, the emissions are normalized to account for g행th. Intensity is calculated by dividing the CO2e emissions figure (the numerator) by an alternative business metric (the denominator), such as the number of full-time equivalent employees, the 매출 또는 tons of aggregate produced. 매출: gross income arising from the operations of an organization over a period of time."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -486,7 +486,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -496,7 +496,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -506,7 +506,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -516,7 +516,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -526,7 +526,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -536,7 +536,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -546,7 +546,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) i) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. ii) Either 'metric ton of product' 또는 'liter of product' 선택 in 열 '분모단위' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. (Please note: A 최소 of two 행 해야 합니다 be 공개 to be awarded full 관리 점.) 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -556,7 +556,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인' 그리고 Either 'metric ton of product' 또는 'liter of product' 선택 in 열 '분모단위'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -566,7 +566,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -576,7 +576,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -586,7 +586,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -596,7 +596,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -606,7 +606,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -616,7 +616,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -626,7 +626,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) i) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. ii) Either 'Unit of production' 또는 'Unit of service 입력' 선택 in 열 '분모단위' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. (Please note: A 최소 of two 행 해야 합니다 be 공개 to be awarded full 관리 점.) 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -636,7 +636,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인' 그리고 Either 'Unit of production' 또는 'Unit of service 입력' 선택 in 열 '분모단위'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -646,7 +646,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -656,7 +656,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -666,7 +666,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -676,7 +676,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -686,7 +686,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -696,7 +696,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -706,7 +706,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) i) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. ii) Either 'metric ton of product' 또는 'liter of product' 선택 in 열 '분모단위' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. (Please note: A 최소 of two 행 해야 합니다 be 공개 to be awarded full 관리 점.) 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -716,7 +716,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인' 그리고 Either 'metric ton of product' 또는 'liter of product' 선택 in 열 '분모단위'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -726,7 +726,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -736,7 +736,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -746,7 +746,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) i) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. ii) 'metric ton of coal' 선택 in 열 '분모단위' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. (Please note: A 최소 of two 행 해야 합니다 be 공개 to be awarded full 관리 점.) 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -756,7 +756,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'metric ton of coal' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -766,7 +766,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -776,7 +776,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -786,7 +786,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) i) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. ii) Either 'square foot' 또는 'square meter' 선택 in 열 '분모단위' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. (Please note: A 최소 of two 행 해야 합니다 be 공개 to be awarded full 관리 점.) 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -796,7 +796,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인' 그리고 Either 'square foot' 또는 'square meter' 선택 in 열 '분모단위'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -806,7 +806,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -816,7 +816,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -826,7 +826,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) i) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인' ii) 하나 이상 의 following 선택 in 열 '분모단위' - 1 점 'megawatt hour generated (MWh)' 'megawatt hour transmitted (MWh)' 'megawatt hour purchased (MWh)' 이 경로에서 획득 가능한 최고점은 2/2점입니다. (Please note: A 최소 of two 행 해야 합니다 be 공개 to be awarded full 관리 점.) 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -836,7 +836,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emission reduction activities' 선택 in 열 '변동 원인' 그리고 최소 one 의 following 선택 in 열 '분모단위': - 'megawatt hour generated (MWh)​' - 'megawatt hour transmitted (MWh)' - 'megawatt hour purchased (MWh)' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -846,7 +846,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -856,7 +856,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -866,7 +866,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -876,7 +876,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -886,7 +886,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -896,7 +896,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -906,7 +906,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) i) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. ii) Either 'metric ton of product' 또는 'liter of product' 선택 in 열 '분모단위' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. (Please note: A 최소 of two 행 해야 합니다 be 공개 to be awarded full 관리 점.) 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -916,7 +916,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인' 그리고 Either 'metric ton of product' 또는 'liter of product' 선택 in 열 '분모단위'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -926,7 +926,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -936,7 +936,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -946,7 +946,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) i) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. ii) 하나 이상 의 following 선택 in 열 '분모단위' - 1 점 'metric ton of product' 'ounce of gold' 'ounce of platinum' 'metric ton of aluminum' 'metric ton of ore 프로세스ed' 이 경로에서 획득 가능한 최고점은 2/2점입니다. (Please note: A 최소 of two 행 해야 합니다 be 공개 to be awarded full 관리 점.) 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -956,7 +956,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인' 그리고 최소 one 의 following 선택 in 열 '분모단위': - 'metric ton of product' - 'ounce of gold' - 'ounce of platinum' - 'metric ton of aluminum' - 'metric ton of ore 프로세스ed' 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -966,7 +966,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -976,7 +976,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -986,7 +986,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -996,7 +996,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -1006,7 +1006,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -1016,7 +1016,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1026,7 +1026,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) i) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. ii) Either 'metric ton of product' 또는 'liter of product' 선택 in 열 '분모단위' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. (Please note: A 최소 of two 행 해야 합니다 be 공개 to be awarded full 관리 점.) 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1036,7 +1036,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인' 그리고 Either 'metric ton of product' 또는 'liter of product' 선택 in 열 '분모단위'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1046,7 +1046,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -1056,7 +1056,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1066,7 +1066,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) i) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. ii) Either 'square foot' 또는 'square meter' 선택 in 열 '분모단위' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. (Please note: A 최소 of two 행 해야 합니다 be 공개 to be awarded full 관리 점.) 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1076,7 +1076,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인' 그리고 Either 'square foot' 또는 'square meter' 선택 in 열 '분모단위'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1086,7 +1086,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -1096,7 +1096,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1106,7 +1106,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1116,7 +1116,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -1126,7 +1126,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -1136,7 +1136,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -1146,7 +1146,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1156,7 +1156,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1166,7 +1166,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1176,7 +1176,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) i) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. ii) 'vehicle produced' 선택 in 열 '분모단위' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. (Please note: A 최소 of two 행 해야 합니다 be 공개 to be awarded full 관리 점.) 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/2점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1186,7 +1186,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -1196,7 +1196,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인' 그리고 'vehicle produced' 선택 in 열 '분모단위'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1206,7 +1206,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1216,7 +1216,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1226,7 +1226,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1236,7 +1236,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -1246,7 +1246,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -1256,7 +1256,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "인지 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure 초과 0 입력 in 열 '전년 대비 변동률(%)' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1 배출량 (미터톤 CO2e)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' is 0 in 문항 7.7. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1266,7 +1266,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) All 의 following met - 1 점 'Decreased' 선택 in 열 '전년 대비 변동 방향' 그리고 'unit total 매출' 선택 in 열 '분모단위' 그리고 Either 'Change in re신규able 에너지 소비량' 또는 'Other emissions reduction activities' 선택 in 열 '변동 원인'. 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) All 의 following met - 1 점 '변경 없음' 선택 in 열 '전년 대비 변동 방향' 그리고 Figure of 0 입력 in 열 '전년 대비 변동률(%)' 그리고 Figure of 0 입력 in 열 '전 세계 총 Scope 1...' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.6 그리고 Sum of figures 입력 in both 열 '전 세계 총 Scope 2, 지역기반 emissions (미터톤 CO2e)' 그리고 '전 세계 총 Scope 2, 시장기반 emissions (미터톤 CO2e) (만약 해당되는 경우)' in both 행 '보고연도' 그리고 'Past year 1' in 문항 7.7 is 0. 이 경로에서 획득 가능한 최고점은 1/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1276,12 +1276,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "보고 연도의 전 세계 총 Scope 1 및 2 배출량을 단위 통화 총 매출당 미터톤 CO2e 로 설명하고 비즈니스 운영에 적합한 추가 원단위 지표를 제공하십시오 . M7. Environmental Performance - Climate Change",
+    "question_ko": "보고연도 글로벌 범위 1 & 2 온실가스 총 배출량을 총 매출액 단위 및 귀사에 적용 가능한 단위를 사용해서 아래 표를 작성해 주십시오",
     "q2025": "Q7.45",
     "q2025_text": "Describe your gross global combined Scope 1 and 2 emissions for the reporting year in metric tons CO2e per unit currency total revenue and provide any additional intensity metrics that are appropriate to your business operations.",
     "change_status": "No change - 2026 source verified",
@@ -1300,13 +1300,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "일반: D 8/8 | A 1/1 | M 1/1 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "일반: D 8/8 | 1/1 | M 1/1 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "your 전 세계 총 combined Scope 1 및 2 emissions 에 대한 보고연도 in 미터톤 CO2e per unit currency total 매출 및 provide 하나 이상 additional intensity metrics that are appropriate to your business operations.을/를 설명하십시오."
+    "q2025_textKo": "보고연도 글로벌 범위 1 & 2 온실가스 총 배출량을 총 매출액 단위 및 귀사에 적용 가능한 단위를 사용해서 아래 표를 작성해 주십시오"
   },
   "defaultPoints": {
     "D": "8/8",
@@ -1336,16 +1336,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "Intensity measures 설명 an 조직의 CO2e emissions in the context of another business metric. In this way, the emissions are normalized to account for g행th 및 other factors. Many organizations 및 investors have historically tracked environmental performance with intensity ratios.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '보고연도 글로벌 범위 1 & 2 온실가스 총 배출량을 총 매출액 단위 및 귀사에 적용 가능한 단위를 사용해서 아래 표를 작성해 주십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

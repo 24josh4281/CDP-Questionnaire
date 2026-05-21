@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Break down your total gross global Scope 1 emissions by business facility.",
-  "questionKo": "귀사의 글로벌 총 Scope 1 배출량을 시설(facility) 단위로 구분하여 입력하십시오.",
+  "questionKo": "사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "행 1"
+      "titleKo": "1행"
     }
   ],
   "columns": [
@@ -42,7 +42,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Scope 1 배출량(metric tons CO2e)",
+      "textKo": "범위 1 배출량 (미터톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -57,12 +57,12 @@
       "options": [],
       "simple_help": "Enter a number from 0 to +/-90.000000 using a maximum of 6 decimal places.",
       "popup_help": "Enter a number from 0 to +/-90.000000 using a maximum of 6 decimal places.",
-      "textKo": "위도",
+      "textKo": "",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
-      "simple_helpKo": "Enter a number from 0 to +/-90.000000 using a 최고 of 6 decimal places.",
-      "popup_helpKo": "Enter a number from 0 to +/-90.000000 using a 최고 of 6 decimal places."
+      "simple_helpKo": "이 문항은 '사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+      "popup_helpKo": "이 문항은 '사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
     },
     {
       "code": "7.17.2.4",
@@ -72,12 +72,12 @@
       "options": [],
       "simple_help": "Enter a number from 0 to +/-90.000000 using a maximum of 6 decimal places.",
       "popup_help": "Enter a number from 0 to +/-180.000000 using a maximum of 6 decimal places.",
-      "textKo": "경도",
+      "textKo": "",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
-      "simple_helpKo": "Enter a number from 0 to +/-90.000000 using a 최고 of 6 decimal places.",
-      "popup_helpKo": "Enter a number from 0 to +/-180.000000 using a 최고 of 6 decimal places."
+      "simple_helpKo": "이 문항은 '사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
+      "popup_helpKo": "이 문항은 '사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
     }
   ],
   "guidance": [
@@ -90,20 +90,20 @@
     {
       "type": "Question Dependencies",
       "text": "Question dependencies\nThis question only appears if you select \"By facility\" in response to 7.17.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "문항 dependencies This 문항 only appears 만약 you select \"By 시설\" in response to 7.17."
+      "typeKo": "문항 의존성",
+      "textKo": "문항 의존도 이 문항 만 표시됨 만약 귀사 선택 \"기준 시설\" 응답 7.17."
     },
     {
       "type": "Requested Content",
       "text": "General \nCDP provides a place for companies to provide basic data for the geo-location of their facilities. This information will be useful to link CDP data with other sources of information and can help investors assess physical risks of climate change and exposure of assets. It will also help CDP to link the information requested by investors to cities preparing their inventory for CDP.\nIf your organization has Scope 1 emissions from non-stationary sources (i.e. transportation vehicles) that cannot be attributed to a specific facility, then you can report the emissions from these sources collectively in one row. You can identify these emissions by inputting \"Non-stationary sources\" in column 1 \"Facility\", and entering 0 in both column 3 \"Latitude\" and column 4 \"Longitude\".\nIf using the Export/Import functionality, it is essential that you check that data has entered correctly into each field in a question.\nFacility (column 1) \nUsing no more than 500 characters, identify the facility you are disclosing Scope 1 emissions for.\nFor more details on reporting your facilities, see guidance to 7.17.\nScope 1 emissions (metric tons CO2e) (column 2) \nReport your organization's greenhouse gas emissions in CO2-equivalent for the facility identified in column 1.\nNegative numbers are not allowed as organizations are to report gross, not net figures.\nEmissions figures should be for the reporting year only (as defined by your answer to 1.4).\nLatitude (column 3) \nUsing standard geographic coordinates specify the north-south position (+90° to -90°) of the facility that you are reporting Scope 1 emissions for in column 2.\nLongitude (column 4) \nUsing standard geographic coordinates specify the east-west position (+180° to -180°) of the facility that you are reporting Scope 1 emissions for in column 2.",
       "typeKo": "요청 내용",
-      "textKo": "일반 CDP provides a place for companies to provide basic data 에 대한 geo-location 의ir facilities. This information will be useful to link CDP data with other sources of information 및 can help investors assess physical 리스크 of climate change 및 exposure of 자산. It will also help CDP to link the information requested by investors to cities preparing their inventory for CDP. 만약 귀사 has Scope 1 배출량 from non-stationary sources (i.e. transportation vehicles) that cannot be attributed to a specific 시설, then you can report the emissions from these sources collectively in one 행. You can identify these emissions by inputting \"Non-stationary sources\" in 열 1 \"시설\", 및 entering 0 in both 열 3 \"위도\" 및 열 4 \"경도\". 만약 using the Export/Import functionality, it is essential that you check that data has entered correctly into each field in a 문항. 시설 (열 1) Using no more than 500 characters, identify the 시설 you are disclosing Scope 1 배출량 for. For more details on reporting your facilities, see guidance to 7.17. Scope 1 배출량 (미터톤 CO2e) (열 2) Report 귀사의 온실가스 배출량 in CO2-equivalent 에 대한 시설 identified in 열 1. Negative numbers are not allowed as organizations are to report gross, not net figures. Emissions figures 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). 위도 (열 3) Using standard geographic coordinates specify the north-south position (+90° to -90°) 의 시설 that you are reporting Scope 1 배출량 for in 열 2. 경도 (열 4) Using standard geographic coordinates specify the east-west position (+180° to -180°) 의 시설 that you are reporting Scope 1 배출량 for in 열 2."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
       "text": "Latitude and longitude: Latitude and longitude are geographic coordinates that specify, respectively, the north-south and east-west position, of a point on the Earth's surface. They are expressed as angular measures and thus, latitude can vary from +90° to -90° and longitude from +180° to -180°.\nThe geodetic system that should be used is the WGS 84, which is the system used by GPS (Global Positioning System), Google Maps, Google Earth, and all major web applications providing coordinates to users. If you want to report information to CDP but have the coordinates in another geodetic system (or datum) we ask you to please attach the information to this question.\nIf you don't have this information and want to locate your facilities using the internet, there are various web tools available to assist companies getting latitude and longitude coordinates according to WGS84. For example, Google Maps allows you to find the latitude and longitude of any point. When you are in Google Maps, if you right-click anywhere, you will find an option \"What's here?\" which will display the latitude and longitude.",
       "typeKo": "추가 정보",
-      "textKo": "위도 및 경도: 위도 및 경도 are geographic coordinates that specify, respectively, the north-south 및 east-west position, of a 점 on the Earth's surface. They are expressed as angular measures 및 thus, 위도 can vary from +90° to -90° 및 경도 from +180° to -180°. The geodetic system that 해야 합니다 be used is the WGS 84, which is the system used by GPS (Global Positioning System), Google Maps, Google Earth, 및 all major web applications providing coordinates to users. 만약 you want to report information to CDP but have the coordinates in another geodetic system (or datum) we ask you to please attach the information to this 문항. 만약 you don't have this information 및 want to locate your facilities using the internet, there are various web tools available to assist companies getting 위도 및 경도 coordinates according to WGS84. For example, Google Maps allows you to find the 위도 및 경도 of 하나 이상 점. 경우 you are in Google Maps, 만약 you right-click anywhere, you will find an option \"What's here?\" which will display the 위도 및 경도."
+      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
     }
   ],
   "points": [
@@ -291,7 +291,7 @@
   "criteria": [],
   "change": {
     "location": "Excel",
-    "question_ko": "사업장 별로 총 글로벌 Scope 1 배출량을 세분화하십시오 . ` M7. Environmental Performance - Climate Change 사업장 Scope 1 배출량 (CO2e 미터톤 ) 위도 경도 사업부문별을 최대 500 자로 작성 숫자 입력 소수점 최대 3 자리 입력",
+    "question_ko": "사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `",
     "q2025": "Q7.17.2",
     "q2025_text": "Break down your total gross global Scope 1 emissions by business facility.",
     "change_status": "No change - 2026 source verified",
@@ -310,13 +310,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "일반: D 4/4 | A 0 또는 1/1 또는 3 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "일반: D 4/4 | 0 또는 1/1 또는 3 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "your total 전 세계 총 Scope 1 배출량 by business facility.을/를 세분화하여 입력하십시오."
+    "q2025_textKo": "사업장 별로 총 글로벌 범위 1 배출량을 세분화하십시오. `"
   },
   "defaultPoints": {
     "D": "4/4",
@@ -346,16 +346,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "Providing facility-level emission figures may give 데이터 사용자 insight into 귀사의 current/potential exposure to regulation in this area. Reporting at this level can provide a useful indicator for making comparisons between facilities.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '귀사의 글로벌 총 범위 1 배출량을 시설(사업장) 단위로 구분하여 입력하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

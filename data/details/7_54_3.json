@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details of your net-zero target(s).",
-  "questionKo": "귀사의 넷제로(net-zero) 목표의 세부 사항을 입력하십시오",
+  "questionKo": "귀사의 넷제로 목표의 세부 사항을 입력하십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "행 1"
+      "titleKo": "1행"
     }
   ],
   "columns": [
@@ -128,7 +128,7 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표 식별번호",
+      "textKo": "목표 숫자 입력",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -244,7 +244,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표 수립 일자",
+      "textKo": "설명 목표 범위 및 식별 해당 제외사항",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -259,7 +259,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표 대상 범위",
+      "textKo": "목표",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -278,13 +278,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "이 넷제로 목표와 연결된 감축목표",
+      "textKo": "귀사 해당 배출량 탄소 제거 에서 의 목표?",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "예",
         "아니요",
-        "Unsure"
+        ""
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -302,14 +302,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "넷제로 달성 목표 종료일자",
+      "textKo": "귀사 계획 완화 배출량 귀사의 가치사슬?",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Yes, 및 we have already acted on this in the 보고연도",
-        "No, but we plan to within the next two years",
-        "No, 및 we do not plan to within the next two years",
-        "No, we do not plan to mitigate emissions beyond our 가치사슬"
+        "예, 당사 이 보고연도",
+        "아니요, 하지만 향후 2년 이내에 진행할 계획입니다",
+        "아니요, 향후 2년 이내에 진행할 계획이 없습니다",
+        "아니요, 당사 아님 계획 완화 배출량 귀사의 가치사슬"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -327,17 +327,17 @@
       ],
       "simple_help": "",
       "popup_help": "Please note, \"No...\" cannot be selected alongside any other option.",
-      "textKo": "과학기반감축목표(SBTi) 여부",
+      "textKo": "귀사 및 탄소 및/또는 가치사슬 완화?",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Yes, we are currently purchasing 및 cancelling carbon credits for beyond 가치사슬 mitigation",
-        "Yes, we plan to purchase 및 cancel carbon credits for beyond 가치사슬 mitigation",
-        "Yes, we plan to purchase 및 cancel carbon credits for neutralization at the end 의 목표",
-        "No, we do not plan to purchase 및 cancel carbon credits for neutralization 및/또는 beyond 가치사슬 mitigation"
+        "예, 당사 및 탄소 가치사슬 완화",
+        "예, 당사 계획 및 탄소 가치사슬 완화",
+        "예, 당사 계획 및 탄소 에서 의 목표",
+        "아니요, 당사 아님 계획 및 탄소 및/또는 가치사슬 완화"
       ],
       "simple_helpKo": "",
-      "popup_helpKo": "Please note, \"No...\" cannot be 선택 alongside 하나 이상 other option."
+      "popup_helpKo": "이 문항은 '귀사의 넷제로 목표의 세부 사항을 입력하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
     },
     {
       "code": "7.54.3.15",
@@ -347,7 +347,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "SBTi 공식 검증 레터",
+      "textKo": "계획된 및/또는 기간 투자 에서 의 목표",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -362,7 +362,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표에 포함되는 온실가스",
+      "textKo": "설명 완화 배출량 귀사의 가치사슬",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -385,17 +385,17 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표대상 범위 및 제외사항 설명",
+      "textKo": "목표 보고연도",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "신규",
-        "Underway",
-        "Achieved",
-        "Expired",
-        "Revised",
-        "Replaced",
-        "Retired"
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -408,7 +408,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표 목적",
+      "textKo": "설명 이유,, 또는 의 목표",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -423,7 +423,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표연도 탄소중립 달성을 위해 잔여배출량에 대한 (영구적) 탄소제거 수단을 사용할 의향이 있습니까?",
+      "textKo": "프로세스 목표",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -438,7 +438,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "가치사슬 밖 배출량 에 대한 감축 계획",
+      "textKo": "날짜 입력 목표",
       "typeKo": "날짜 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -466,21 +466,21 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "탄소중립 및/또는 가치사슬 밖 배출량 감축(완화)를 위해 탄소 크레딧 구매 및 사용 계획이 있습니까?",
+      "textKo": "목표 범위",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Organization-wide",
-        "Organization-wide 제외 포트폴리오",
-        "Business division",
-        "Business activity",
-        "Site/facility",
-        "Country/area/region",
-        "Banking (Bank)",
-        "Investing (Asset manager)",
-        "Investing (Asset owner)",
-        "Insurance underwriting (Insurance company)",
-        "Product-level",
+        "전사",
+        "포트폴리오 제외 전사",
+        "사업 부문",
+        "사업 활동",
+        "/시설",
+        "국가/지역/",
+        "은행(은행)",
+        "투자(자산운용사)",
+        "투자(자산소유자)",
+        "보험 인수(보험사)",
+        "제품 단위",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -896,7 +896,7 @@
       ],
       "simple_help": "Select all that apply",
       "popup_help": "Please note, \"Not applicable\" cannot be selected alongside any other option.",
-      "textKo": "탄소중립 달성을 위한 주요 일정 및/또는 단기 투자 계획",
+      "textKo": "목표 이 목표",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
@@ -1302,8 +1302,8 @@
         "Low100",
         "해당 없음"
       ],
-      "simple_helpKo": "all that apply을/를 선택하십시오.",
-      "popup_helpKo": "Please note, \"Not 해당되는 경우\" cannot be 선택 alongside 하나 이상 other option."
+      "simple_helpKo": "해당하는 항목 모두 선택",
+      "popup_helpKo": "이 문항은 '귀사의 넷제로 목표의 세부 사항을 입력하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다."
     },
     {
       "code": "7.54.3.5",
@@ -1313,7 +1313,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "가치사슬 밖 배출량 감축(완화)를 위한 조치 설명",
+      "textKo": "종료일 의 목표",
       "typeKo": "날짜 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -1336,17 +1336,17 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "보고연도 목표 상태",
+      "textKo": "이 기준 목표?",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Yes, 및 this 목표 has been approved by the Science Based 목표 이니셔티브",
-        "Yes, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브",
-        "Yes, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 in the next two years",
-        "Yes, we consider this a science-based 목표, but we have not committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next two years",
-        "No, but we are reporting another 목표 that is science-based",
-        "No, but we anticipate setting one in the next two years",
-        "No, 및 we do not anticipate setting one in the next two years"
+        "예, 이 목표 기준 기준 목표",
+        "예, 당사 고려 이 기준 목표, 및 목표 기준 기준 목표",
+        "예, 당사 고려 이 기준 목표, 및 당사 의 이 목표 기준 기준 목표 향후 2년",
+        "예, 당사 고려 이 기준 목표, 하지만 당사 아님 의 이 목표 기준 기준 목표 내 향후 2년",
+        "아니요, 하지만 당사 보고 목표 기준",
+        "아니요, 하지만 당사 1개 향후 2년",
+        "아니요, 당사 아님 1개 향후 2년"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -1359,8 +1359,8 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표의 수정, 대체 또는 폐기 사유 설명",
-      "typeKo": "파일 첨부",
+      "textKo": "기준 목표",
+      "typeKo": "첨부파일",
       "mandatoryKo": "아니요",
       "optionsKo": [],
       "simple_helpKo": "",
@@ -1378,13 +1378,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "목표 검토 프로세스",
+      "textKo": "",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Scope 1",
-        "Scope 2",
-        "Scope 3"
+        "범위 1",
+        "범위 2",
+        "범위 3"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -1405,17 +1405,17 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Greenhouse gases covered by 목표",
+      "textKo": "온실가스 포함된 기준 목표",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Carbon dioxide (CO2)",
-        "Methane (CH4)",
-        "Nitrous oxide (N2O)",
-        "Hydrofluorocarbons (HFCs)",
-        "Perfluorocarbons (PFCs)",
-        "Sulphur hexafluoride (SF6)",
-        "Nitrogen trifluoride (NF3)"
+        "탄소 (CO2)",
+        "(CH4)",
+        "(N2O)",
+        "()",
+        "()",
+        "(SF6)",
+        "(NF3)"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -1431,32 +1431,32 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Net-zero target(s)\" in response to 7.54.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Net-zero 목표(s)\" in response to 7.54."
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "Target reference number (column 1) \nSelect a unique target reference from the drop-down menu provided to track progress against this target in subsequent reporting years. \nDate target was set (column 2) \nEnter the date on which your company has set the target. \nThis must be either before or during the reporting year, but cannot be after the reporting year. It also cannot be after the target year. \nFor year-on-year rolling targets, enter the date that you first set the target. This can be before the base year. \nIf the target was set based on financial years, enter the date that applies to the end of your financial year and specify this in column 18 \"Explain target coverage and identify any exclusions\". \nIf you do not know the exact date on which your company set the target, enter the end of the year that your target was set. \nTarget coverage (column 3) \nIf the target applies to the whole company, select \"-Organization wide\". Note that \" organization\" in this context refers collectively to all the companies, businesses, organizations, other entities or groups that are included in your consolidation boundary in 6.1.\nNote for Financial Services companies: \nSelect \"Organization-wide\" if the target covers all of your operational AND portfolio emissions, including Scope 3 category 15 Investments. \nSelect \"Organization-wide excluding portfolio\" if the target only covers your operational Scope 1, Scope 2 and Scope 3 Categories 1 to 14 emissions, excluding emissions associated with your portfolios (the target does not cover emissions associated with your lending, investing and insurance activities) \nSome of the target coverage options shown are driven by the organizational activities you selected in 1.10. \nIf the target does not apply to the whole company, select the option that best describes the coverage of the target, and provide further details in column 10 \"Please explain target coverage and identify any exclusions\" column; for example, if your target applies only to your European operations, select \"Country/area/region\" in this column and specify the country/area/region in the column \"Please explain target coverage and identify any exclusions\" \nTargets linked to this net zero target (column 4) \nIf the target is linked to an emission reduction targets(s) reported in 7.53.1, 7.53.2 or 7.54.2, select the relevant target reference numbers here. \nIf you are a financial services discloser, and if the target is linked to a portfolio targets reported in 7.53.4, select the relevant target reference numbers here. \nYou should generally be reporting at least one near term and one long-term absolute/intensity emission target linked to your net-zero target. Ambitious near-term emissions reductions are the most important component of any net-zero target, but setting and reporting long-term emission reductions targets is also important as these targets will specify the amount of abatement (emission reductions) that your company intends to reach (with the remainder to be neutralized) to reach a state of net-zero. If you have not reported any emission reduction targets in 7.53.1 or 7.53.2 that are linked to this net-zero target, please select \"Not applicable\" and explain why you are not reporting any linked emission targets in the column 10 \" Explain target coverage and identify any exclusions\". \nSupplier engagement targets and renewable energy targets reported in 7.54.2 may link to your net-zero targets. Only include these targets if they are contributing to your net zero target. \nEnd date of target year for achieving net zero (column 5) \nIf you have a target based on financial years, enter the date that applies to the end of your financial year and specify in column 10 \"Explain target coverage and identify any exclusions\". \nIs this a science-based target? (column 6) \nPlease refer to the SBTi's Net-Zero Standard for what qualifies as a science-based net-zero target and how to assess your target against the SBTi's Net-Zero Standard Criteria. \nYes, and this target has been approved by the Science Based Targets initiative - Companies are very strongly encouraged to have their net-zero targets officially evaluated by the Science Based Targets initiative (SBTi). CDP considers net-zero targets approved by the initiative to reflect best practice in science-based net-zero target setting. Select this option only if the net-zero target has been officially approved by the SBTi by the CDP scoring deadline.\nYes, we consider this a science-based target, and the target is currently being reviewed by the Science Based Targets initiative - If your company has set a net-zero target and has self-assessed it to be science-based, and it has been submitted it to the SBTi for validation and is currently being reviewed by the SBTi, you should select this option. You should use the column 10 \"Explain target coverage and identify any exclusions\" column to explain why you consider your net-zero target to be science-based. \nYes, we consider this a science-based target, and we have committed to seek validation of this target by the Science Based Targets initiative in the next two years - If your company has set a net-zero target, has self-assessed it to be science-based and intends to submit it to the SBTi for validation in the next two years, you should select this option. You should use the column 10 \"Explain target coverage and identify any exclusions\" Column to explain why you consider your net-zero target to be science-based. If you are currently in the process of revising your net-zero target to meet the SBTi's Net-Zero Standard Criteria, indicate this by selecting \"No, but we anticipate setting one in the next 2 years\". \nYes, we consider this a science-based target, but we have not committed to seek validation of this target by the Science Based Targets initiative within the next two years - Not all companies intend to have their target assessed by the SBTi. If your company has set a target and has self-assessed it to be science-based but has not committed to submit it to the SBTi for validation, you should select this option. You should use the column 10 \"Explain target coverage and identify any exclusions\" column to explain why you consider your target to be science-based. \nNo, but we are reporting another target that is science-based - Another net-zero target disclosed in a different row in this table is science-based. \nNo, but we anticipate setting one in the next 2 years - It is recommended that your company publicly states this by making a commitment via the SBTi Services Validation Portal. \nNo, and we do not anticipate setting one in the next 2 years - No science-based net-zero targets have been set and there are no plans in place to set one in the next 2 years. \nScience Based Targets initiative official validation letter (column 7) \nThis column only appears if you select \"Yes, and this target has been approved by the Science Based Targets initiative \" in column 6 \"Is this a science-based target?\". \nAttach your SBTi validation letter. \nScopes (column 8) \nThis refers to the Scopes of emissions to which the target relates. Note that all three scopes must be included for science-based targets following SBTi Net Zero guidance. \nGreenhouse gases covered by target (column 9) \nSelect all the greenhouse gases which are relevant to your organization and included in the target.\nThis column includes the seven greenhouse gases covered by the Kyoto Protocol. For further information on the different greenhouse gases, see the GHG Protocol Corporate Standard Amendment. \nIf the target has been approved by the SBTi, the gases reported should match those which were reported to the SBTi.\nExplain target coverage and identify any exclusions (column 10) \nIf the target does not apply to the whole organization (i.e. the target coverage is not \"Organization-wide\"), provide further details of your target coverage in this column; for example, if you have selected \"Country/area/region\" in column 2, please specify which countries/areas/regions your target covers.\nDescribe how the latest international agreement on climate change, including jurisdictional commitments that arise from that agreement, has informed the target. \nIf there is a difference between your inventory base year emissions and this target's base year emissions, explain why. \nIf you have self-assessed your net-zero target to be science-based but it has not been approved by the SBTi, please explain why you consider your target to be science-based. \nIf you have not reported any emission reduction targets that are linked to this net-zero target, please explain why not. \nTarget objective (column 11) \nDescribe the strategic objective for the target and how it links to your strategy. E.g. the objective of the target may be to meet a regulatory target or reduce the costs of compliance with an emissions trading scheme. \nDo you intend to neutralize any residual emissions with permanent carbon removals at the end of the target? (column 12) \nAlthough most companies will reduce emissions by at least 90% through their emissions reduction targets, some residual emissions may remain at the target date.\nIndicate whether your organization intends to neutralize these residual emissions through the permanent removal and storage of carbon from the atmosphere when the net-zero target date is reached. See \"Explanation of terms\" for more information.\nDo you plan to mitigate emissions beyond your value chain? (column 13) \nBeyond value chain mitigation (BVCM) covers emissions mitigation actions falling outside of your company's value chain. \nSee the Explanation of Terms, and the SBTi BVCM guidance for more details. \nDo you intend to purchase and cancel carbon credits for neutralization and/or beyond value chain mitigation (column 14) \nThis column is only presented if \"Yes\" is selected in column 12 \"Do you intend to neutralize any residual emissions with permanent carbon removals at the end of the target?\" or a \"Yes\" option is selected in column 13 \"Do you plan to mitigate emissions beyond your value chain?\". \nPlanned milestones and/or near-term investments for neutralization at the end of the target (column 15 ) \nThis column is only presented if \"Yes\" is selected in column 12 \"Do you intend to neutralize any residual emissions with permanent carbon removals at the end of the target?\". \nIndicate the magnitude of emissions that you plan to neutralize at the net-zero target date, and describe any planned milestones and/or near-term investments that demonstrate the integrity of your commitment to neutralize residual emissions at in the end date of the target year. \nFor example, you may be investing or planning to invest into carbon dioxide removal and storage technologies (e.g. Direct Air Capture) in the near-term. \nIf your target includes the use of carbon credits, include details on: \nThe extent to which and how carbon credits are planned to be used at the target date; \nThe type of credit, if available; \nWhich scheme will certify credits bought, if planned; and \nPlanned use of credits at the target date, if available. \nDescribe the actions to mitigate emissions beyond your value chain (column 16) \nIn addition to any neutralization actions described in column 8 15 \"Planned milestones and/or near-term investments for neutralization at the end of the target\" (if applicable), describe any actions your organization has taken in the reporting year, or plans to take between the reporting year and net-zero target date, to accelerate the global net-zero transition beyond your organization's value chain. See \"Explanation of terms\" for more information. \nFor example, your organization may be purchasing high quality REDD+ carbon credits that will support countries to achieve or enhance their Nationally Determined Contributions (NDCs).\nDescribe how carbon credits are used or planned to be used. In line with SBTi recommendations, if carbon credits are to be used as the mechanism for BVCM they should be verified by an independent third-party. \nDescribe the method used to determine the nature and scale of commitment for BVCM e.g. ton-for-ton, money-for ton, or money-for-money and the approach take to identify BVCM activities to support. \nProvide details of the BVCM your organization has supported or funded in the reporting year, you may indicate any BVCM target reference numbers from 7.54.2. \nTarget status in reporting year (column 17) \nNew - Select this option for targets that have been set in the reporting year and are still in progress. \nUnderway - Select this option for targets that were set before the reporting year, with an end date in the future, that have not been achieved and continue to be pursued. \nAchieved - Select this option for targets that have been achieved or exceeded in the reporting year. \nExpired - Select this option for targets with an end date within the reporting year, that have not been achieved and have therefore expired in the reporting year. \nRevised - Select this option for targets that were set before the reporting year but a revision has been made to any of the elements in columns 2 to 79 in the reporting year, for example due to a recalculation of the base year emissions intensity or a change to the end date of the target. \nReplaced - Select this option for previously reported targets that have been replaced with another target in the reporting year, for example where a facility target has been incorporated into an organization-wide target. \nRetired - Select this option for targets with a target year in the future, that have not been achieved, but will no longer be pursued. Provide more information as to why this target was retired in the \"Explain target coverage and identify any exclusions\" column. \nExplain the reasons for the revision, retirement, or replacement to the target (column 18) \nThis column is only presented if you select \"Revised\", \"Replaced\", or \"Retired\" in response to column 17 \"Target status in reporting year\". \nProvide details of the revisions, retirement or replacement of the target in the reporting year and the reasons for making these changes. \nFor SBTi-approved targets, reasons for revisions may include: \nRevisions to target data (e.g. recalculation of base year emissions due to divestment, acquisition, mergers, change in boundary, including changes in consolidation approach). \nSignificant changes to the target data (that could compromise relevance and consistency), triggering a mandatory target recalculation (SBTi criteria 26 and 27). \nUpdates to the target due to 1) triggered recalculation of the target; 2) revalidation process when submitting new targets when a company has other targets in place (e.g. due to increasing ambition, achievement of target ahead of time).",
       "typeKo": "요청 내용",
-      "textKo": "목표 reference number (열 1) Select a unique 목표 reference from the drop-down menu 입력 to track progress against this 목표 in subsequent 보고연도s. Date 목표 was set (열 2) Enter the date on which your company has set the 목표. This 해야 합니다 be either before 또는 during the 보고연도, but cannot be after the 보고연도. It also cannot be after the 목표 year. For year-on-year rolling 목표, enter the date that you first set the 목표. This can be before the 기준연도. 만약 the 목표 was set based on 재무연도s, enter the date that applies to the end of your 재무연도 및 specify this in 열 18 \"Explain 목표 coverage 및 identify 제외사항\". 만약 you do not know the exact date on which your company set the 목표, enter the end 의 year that your 목표 was set. 목표 coverage (열 3) 만약 the 목표 applies to the whole company, select \"-Organization wide\". Note that \" organization\" in this context refers collectively to all the companies, businesses, organizations, other entities 또는 groups that are included in your consolidation boundary in 6.1. Note for 금융 서비스 companies: Select \"Organization-wide\" 만약 the 목표 covers all of your operational 그리고 포트폴리오 emissions, 포함 Scope 3 category 15 Investments. Select \"Organization-wide 제외 포트폴리오\" 만약 the 목표 only covers your operational Scope 1, Scope 2 및 Scope 3 Categories 1 to 14 emissions, 제외 emissions associated with your 포트폴리오s (the 목표 does not cover emissions associated with your lending, investing 및 insurance activities) Some 의 목표 coverage options shown are driven by the organizational activities you 선택 in 1.10. 만약 the 목표 does not apply to the whole company, select the option that best 설명s the coverage 의 목표, 및 provide further details in 열 10 \"Please explain 목표 coverage 및 identify 제외사항\" 열; for example, 만약 your 목표 applies only to your European operations, select \"Country/area/region\" in this 열 및 specify the country/area/region in the 열 \"Please explain 목표 coverage 및 identify 제외사항\" 목표 linked to this net zero 목표 (열 4) 만약 the 목표 is linked to an emission reduction 목표(s) 보고 in 7.53.1, 7.53.2 또는 7.54.2, select the 관련 목표 reference numbers here. 만약 you are a 금융 서비스 discloser, 및 만약 the 목표 is linked to a 포트폴리오 목표 보고 in 7.53.4, select the 관련 목표 reference numbers here. You 해야 합니다 generally be reporting 최소 one near term 및 one long-term absolute/intensity emission 목표 linked to your net-zero 목표. Ambitious near-term emissions reductions are the most important component of 하나 이상 net-zero 목표, but setting 및 reporting long-term emission reductions 목표 is also important as these 목표 will specify the amount of abatement (emission reductions) that your company intends to reach (with the remainder to be neutralized) to reach a state of net-zero. 만약 you have not 보고 하나 이상 emission reduction 목표 in 7.53.1 또는 7.53.2 that are linked to this net-zero 목표, please select \"Not 해당되는 경우\" 및 그 이유를 설명 you are not reporting 하나 이상 linked emission 목표 in the 열 10 \" Explain 목표 coverage 및 identify 제외사항\". Supplier 참여 목표 및 재생에너지 목표 보고 in 7.54.2 may link to your net-zero 목표. Only include these 목표 만약 they are contributing to your net zero 목표. End date of 목표 year for achieving net zero (열 5) 만약 you have a 목표 based on 재무연도s, enter the date that applies to the end of your 재무연도 및 specify in 열 10 \"Explain 목표 coverage 및 identify 제외사항\". Is this a science-based 목표? (열 6) Please refer to the SBTi's Net-Zero Standard for what qualifies as a science-based net-zero 목표 및 how to assess your 목표 against the SBTi's Net-Zero Standard 기준. 예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브 - Companies are very strongly encouraged to have their net-zero 목표 officially evaluated by the Science Based 목표 이니셔티브 (SBTi). CDP considers net-zero 목표 approved by the 이니셔티브 to reflect best practice in science-based net-zero 목표 setting. Select this option only 만약 the net-zero 목표 has been officially approved by the SBTi by the CDP scoring deadline. 예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브 - 만약 your company has set a net-zero 목표 및 has self-assessed it to be science-based, 및 it has been submitted it to the SBTi for validation 및 is currently being reviewed by the SBTi, you 해야 합니다 select this option. You 해야 합니다 use the 열 10 \"Explain 목표 coverage 및 identify 제외사항\" 열 to 그 이유를 설명 you consider your net-zero 목표 to be science-based. 예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 in the next two years - 만약 your company has set a net-zero 목표, has self-assessed it to be science-based 및 intends to submit it to the SBTi for validation in the next two years, you 해야 합니다 select this option. You 해야 합니다 use the 열 10 \"Explain 목표 coverage 및 identify 제외사항\" 열 to 그 이유를 설명 you consider your net-zero 목표 to be science-based. 만약 you are currently in the 프로세스 of revising your net-zero 목표 to meet the SBTi's Net-Zero Standard 기준, indicate this by selecting \"No, but we anticipate setting one in the next 2 years\". 예, we consider this a science-based 목표, but we have not committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next two years - Not all companies intend to have their 목표 assessed by the SBTi. 만약 your company has set a 목표 및 has self-assessed it to be science-based but has not committed to submit it to the SBTi for validation, you 해야 합니다 select this option. You 해야 합니다 use the 열 10 \"Explain 목표 coverage 및 identify 제외사항\" 열 to 그 이유를 설명 you consider your 목표 to be science-based. No, but we are reporting another 목표 that is science-based - Another net-zero 목표 공개 in a different 행 in this table is science-based. No, but we anticipate setting one in the next 2 years - It is recommended that your company 공개ly states this by making a commitment via the SBTi Services Validation Portal. No, 및 we do not anticipate setting one in the next 2 years - No science-based net-zero 목표 have been set 및 there are no plans in place to set one in the next 2 years. Science Based 목표 이니셔티브 official validation letter (열 7) This 열 only appears 만약 you select \"예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브 \" in 열 6 \"Is this a science-based 목표?\". Attach your SBTi validation letter. 목표 검토 프로세스 (열 8) This refers to the 목표 검토 프로세스 of emissions to which the 목표 relates. Note that all three 목표 검토 프로세스 해야 합니다 be included for science-based 목표 following SBTi Net Zero guidance. Greenhouse gases covered by 목표 (열 9) Select all the greenhouse gases which are 관련 to 귀사 및 included in the 목표. This 열 includes the seven greenhouse gases covered by the Kyoto Protocol. For further information on the different greenhouse gases, see the GHG Protocol Corporate Standard Amendment. 만약 the 목표 has been approved by the SBTi, the gases 보고 해야 합니다 match those which were 보고 to the SBTi. Explain 목표 coverage 및 identify 제외사항 (열 10) 만약 the 목표 does not apply to the whole organization (i.e. the 목표 coverage is not \"Organization-wide\"), provide further details of your 목표 coverage in this 열; for example, 만약 you have 선택 \"Country/area/region\" in 열 2, 직접 입력 which countries/areas/regions your 목표 covers. 설명 how the latest international agreement on climate change, 포함 jurisdictional commitments that arise from that agreement, has informed the 목표. 만약 there is a difference between your inventory 기준연도 emissions 및 this 목표's 기준연도 emissions, 그 이유를 설명. 만약 you have self-assessed your net-zero 목표 to be science-based but it has not been approved by the SBTi, please 그 이유를 설명 you consider your 목표 to be science-based. 만약 you have not 보고 하나 이상 emission reduction 목표 that are linked to this net-zero 목표, please 그 이유를 설명 not. 목표 objective (열 11) 설명 the strategic objective 에 대한 목표 및 how it links to your 전략. E.g. the objective 의 목표 may be to meet a regulatory 목표 또는 reduce the costs of compliance with an emissions trading scheme. Do you intend to neutralize 하나 이상 residual emissions with permanent carbon removals at the end 의 목표? (열 12) Although most companies will reduce emissions by 최소 90% through their emissions reduction 목표, some residual emissions may remain at the 목표 date. Indicate whether 귀사 intends to neutralize these residual emissions through the permanent removal 및 storage of carbon from the atmosphere 경우 the net-zero 목표 date is reached. See \"설명 of terms\" for more information. Do you plan to mitigate emissions beyond your 가치사슬? (열 13) Beyond 가치사슬 mitigation (BVCM) covers emissions mitigation actions falling outside of your company's 가치사슬. See the 설명 of Terms, 및 the SBTi BVCM guidance for more details. Do you intend to purchase 및 cancel carbon credits for neutralization 및/또는 beyond 가치사슬 mitigation (열 14) This 열 is only presented 만약 \"예\" is 선택 in 열 12 \"Do you intend to neutralize 하나 이상 residual emissions with permanent carbon removals at the end 의 목표?\" 또는 a \"예\" option is 선택 in 열 13 \"Do you plan to mitigate emissions beyond your 가치사슬?\". Planned milestones 및/또는 near-term investments for neutralization at the end 의 목표 (열 15) This 열 is only presented 만약 \"예\" is 선택 in 열 12 \"Do you intend to neutralize 하나 이상 residual emissions with permanent carbon removals at the end 의 목표?\". Indicate the magnitude of emissions that you plan to neutralize at the net-zero 목표 date, 및 설명 하나 이상 planned milestones 및/또는 near-term investments that demonstrate the integrity of your commitment to neutralize residual emissions at in the end date 의 목표 year. For example, you may be investing 또는 planning to invest into carbon dioxide removal 및 storage technologies (e.g. Direct Air Capture) in the near-term. 만약 your 목표 includes the use of carbon credits, include details on: The extent to which 및 how carbon credits are planned to be used at the 목표 date; The type of credit, 만약 available; Which scheme will certify credits bought, 만약 planned; 및 Planned use of credits at the 목표 date, 만약 available. 설명 the actions to mitigate emissions beyond your 가치사슬 (열 16) In addition to 하나 이상 neutralization actions 설명d in 열 8 15 \"Planned milestones 및/또는 near-term investments for neutralization at the end 의 목표\" (만약 해당되는 경우), 설명 하나 이상 actions 귀사 has taken in the 보고연도, 또는 plans to take between the 보고연도 및 net-zero 목표 date, to accelerate the global net-zero transition beyond 귀사의 가치사슬. See \"설명 of terms\" for more information. For example, 귀사 may be purchasing high quality REDD+ carbon credits that will support countries to achieve 또는 enhance their Nationally Determined Contributions (NDCs). 설명 how carbon credits are used 또는 planned to be used. In line with SBTi recommendations, 만약 carbon credits are to be used as the mechanism for BVCM they 해야 합니다 be verified by an independent third-party. 설명 the method used to determine the nature 및 scale of commitment for BVCM e.g. ton-for-ton, money-for ton, 또는 money-for-money 및 the approach take to identify BVCM activities to support. 세부 정보를 입력 의 BVCM 귀사 has supported 또는 funded in the 보고연도, you may indicate 하나 이상 BVCM 목표 reference numbers from 7.54.2. 목표 status in 보고연도 (열 17) 신규 - Select this option for 목표 that have been set in the 보고연도 및 are still in progress. Underway - Select this option for 목표 that were set before the 보고연도, with an end date in the future, that have not been achieved 및 continue to be pursued. Achieved - Select this option for 목표 that have been achieved 또는 exceeded in the 보고연도. Expired - Select this option for 목표 with an end date within the 보고연도, that have not been achieved 및 have therefore expired in the 보고연도. Revised - Select this option for 목표 that were set before the 보고연도 but a revision has been made to 하나 이상 의 elements in 열 2 to 79 in the 보고연도, for example due to a re계산 의 기준연도 배출집약도 또는 a change to the end date 의 목표. Replaced - Select this option for previously 보고 목표 that have been replaced with another 목표 in the 보고연도, for example 여기서 a facility 목표 has been incorporated into an organization-wide 목표. Retired - Select this option for 목표 with a 목표 year in the future, that have not been achieved, but will no longer be pursued. Provide more information as to why this 목표 was retired in the \"Explain 목표 coverage 및 identify 제외사항\" 열. Explain the reasons 에 대한 revision, retirement, 또는 replacement to the 목표 (열 18) This 열 is only presented 만약 you select \"Revised\", \"Replaced\", 또는 \"Retired\" in response to 열 17 \"목표 status in 보고연도\". 세부 정보를 입력 의 revisions, retirement 또는 replacement 의 목표 in the 보고연도 및 the reasons for making these changes. For SBTi-approved 목표, reasons for revisions may include: Revisions to 목표 data (e.g. re계산 of 기준연도 emissions due to divestment, acquisition, mergers, change in boundary, 포함 changes in consolidation approach). Significant changes to the 목표 data (that could compromise relevance 및 consistency), triggering a mandatory 목표 re계산 (SBTi 기준 26 및 27). Updates to the 목표 due to 1) triggered re계산 의 목표; 2) revalidation 프로세스 경우 submitting 신규 목표 경우 a company has other 목표 in place (e.g. due to increasing ambition, achievement of 목표 ahead of time)."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
       "text": "The Science Based Targets initiative has developed a standard for corporate net-zero targets, to ensure that companies' net-zero targets translate into action that is consistent with achieving a net-zero world by no later than 2050.",
       "typeKo": "추가 정보",
-      "textKo": "The Science Based 목표 이니셔티브 has developed a standard for corporate net-zero 목표, to ensure that companies' net-zero 목표 translate into action that is consistent with achieving a net-zero world by no later than 2050."
+      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
     },
     {
       "type": "Ambition",
       "text": "Companies make progress against net-zero targets that are in line with the Science Based Targets initiative (SBTi) criteria.",
-      "typeKo": "Ambition",
-      "textKo": "Companies make progress against net-zero 목표 that are in line with the Science Based 목표 이니셔티브 (SBTi) 기준."
+      "typeKo": "목표수준",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Beyond value chain mitigation: Mitigation action or investments that fall outside of a company's value chain. This includes activities that avoid or reduce greenhouse gas emissions, and those that remove and store greenhouse gases from the atmosphere. Examples include purchasing high quality, jurisdictional REDD+ carbon credits that support countries in raising the ambition on and, in the long-term, achieving their nationally determined contributions, or investing in carbon dioxide removal (CDR) technologies such as direct air capture (DAC) with geological carbon storage. (Adapted from the SBTi Beyond Value Chain Mitigation FAQ )\nNet-zero target: the SBTi Net-Zero Standard defines corporate net-zero as:\nreducing Scope 1, 2 and 3 emissions to zero or to a residual level that is consistent with reaching net-zero emissions at the global or sector level in eligible 1.5°C scenarios or sector pathways and;\nneutralizing any residual emissions at the net-zero target date and any GHG emissions released into the atmosphere thereafter.\nNeutralization: Measures that companies take to remove carbon from the atmosphere and permanently store it to counterbalance the impact of emissions that remain unabated. Neutralization can occur using removals within or beyond the value chain. (Adapted from the SBTi Beyond Value Chain Mitigation FAQ ).",
-      "typeKo": "설명 of Terms",
-      "textKo": "Beyond 가치사슬 mitigation: Mitigation action 또는 investments that fall outside of a company's 가치사슬. This includes activities that avoid 또는 reduce 온실가스 배출량, 및 those that remove 및 store greenhouse gases from the atmosphere. Examples include purchasing high quality, jurisdictional REDD+ carbon credits that support countries in raising the ambition on and, in the long-term, achieving their nationally determined contributions, 또는 investing in carbon dioxide removal (CDR) technologies such as direct air capture (DAC) with geological carbon storage. (Adapted from the SBTi Beyond 가치사슬 Mitigation FAQ) Net-zero 목표: the SBTi Net-Zero Standard defines corporate net-zero as: reducing Scope 1, 2 및 3 emissions to zero 또는 to a residual level that is consistent with reaching net-zero emissions at the global 또는 sector level in 획득 가능 1.5°C scenarios 또는 sector pathways and; neutralizing 하나 이상 residual emissions at the net-zero 목표 date 및 하나 이상 온실가스 배출량 released into the atmosphere thereafter. Neutralization: Measures that companies take to remove carbon from the atmosphere 및 permanently store it to counterbalance the impact of emissions that remain unabated. Neutralization can occur using removals within 또는 beyond the 가치사슬. (Adapted from the SBTi Beyond 가치사슬 Mitigation FAQ)."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -1660,7 +1660,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -1670,7 +1670,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -1680,7 +1680,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -1690,7 +1690,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -1700,7 +1700,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -1710,7 +1710,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -1720,7 +1720,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -1730,7 +1730,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -1740,7 +1740,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -1750,7 +1750,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -1760,7 +1760,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -1770,7 +1770,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -1780,7 +1780,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -1790,7 +1790,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -1800,7 +1800,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -1810,7 +1810,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -1820,7 +1820,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -1830,7 +1830,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -1840,7 +1840,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -1850,7 +1850,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -1860,7 +1860,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -1870,7 +1870,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -1880,7 +1880,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -1890,7 +1890,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -1900,7 +1900,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -1910,7 +1910,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -1920,7 +1920,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -1930,7 +1930,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -1940,7 +1940,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -1950,7 +1950,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -1960,7 +1960,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -1970,7 +1970,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -1980,7 +1980,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -1990,7 +1990,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "경로 A) 만약 'Electricity generation' 선택 in 문항 1.16, 점수가 부여됩니다 as follows: i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2041 - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored. 또는 경로 B) 만약 하나 이상 option 제외 'Electricity generation' 선택 in 문항 1.16, 점수가 부여됩니다 as follows: i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -2000,7 +2000,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -2010,7 +2010,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -2020,7 +2020,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -2030,7 +2030,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 year 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -2040,7 +2040,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -2050,7 +2050,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -2060,7 +2060,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -2070,7 +2070,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -2080,7 +2080,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -2090,7 +2090,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -2100,7 +2100,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -2110,7 +2110,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -2120,7 +2120,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -2130,7 +2130,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -2140,7 +2140,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -2150,7 +2150,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -2160,7 +2160,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -2170,7 +2170,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -2180,7 +2180,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -2190,7 +2190,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -2200,7 +2200,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -2210,7 +2210,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -2220,7 +2220,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -2230,7 +2230,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -2240,7 +2240,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -2250,7 +2250,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -2260,7 +2260,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -2270,7 +2270,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -2280,7 +2280,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -2290,7 +2290,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -2300,7 +2300,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -2310,7 +2310,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -2320,7 +2320,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -2330,7 +2330,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -2340,7 +2340,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -2350,7 +2350,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -2360,7 +2360,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -2370,7 +2370,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -2380,7 +2380,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 8/8점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 8/8점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -2390,7 +2390,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "i) All options 선택 in 열 '목표 검토 프로세스' - 1 점 ii) '예' 선택 in 열 'Do you intend to neutralize…' - 1 점 iii) 'Organization-wide' 선택 in 열 '목표 coverage' 그리고 date 입력 in 열 'End date of 목표 for achieving net zero' is before 1st July 2051 - 1 점 이 문항에서 획득 가능한 최고점은 3/3점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -2400,7 +2400,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 관리에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 전체 관리 점수수수 부여됨 둘 중 하나 문항 7.53.1 또는 7.53.2 둘 중 하나 [CDP 경로] 또는 [SBTi 경로] - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -2410,12 +2410,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "The following conditions 해야 합니다 be met to be 획득 가능 for 리더십 점: 관리에서 최고점 획득 그리고 리더십에서 최고점 획득 in either 문항 7.53.1 또는 7.53.2 on either [CDP 경로] 또는 [SBTi 경로]. 또는 최소 2.25 점 awarded at 리더십 level in 문항 7.53.1 또는 7.53.2 그리고 Date 입력 in 열 'Date 목표 was set' is within the 보고연도 indicated by 열 'End date of 보고연도' in 문항 1.4 그리고 '신규' 선택 in 열 '목표 Status in 보고연도' in 문항 7.53.1 또는 7.53.2. 하나 이상 의 following 선택 in 열 'Is this a science-based 목표?' - 1 점 - '예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 the 목표 is currently being reviewed by the Science Based 목표 이니셔티브' - '예, we consider this a science-based 목표, 및 we have committed to seek validation of this 목표 by the Science Based 목표 이니셔티브 within the next 2 years' 이 문항에서 획득 가능한 최고점은 1/1점입니다. Best 행(s) scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "귀사 넷제로 목표의 세부 사항을 입력하십시오 . (2) C4.2 에서 \" 넷제로 목표\"를 선택한 경우에만 응답 M7. Environmental Performance - Climate Change",
+    "question_ko": "귀사의 넷제로 목표의 세부 사항을 입력하십시오",
     "q2025": "Q7.54.3",
     "q2025_text": "Provide details of your net-zero target(s).",
     "change_status": "No question-level change; detail changes",
@@ -2430,17 +2430,17 @@
     "daml_summary": "General: D 8/8 | A 3/3 | M 1/1 | L 1/1",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "문항 수준 변경 없음; 세부 변경 있음",
-    "detail_change_typesKo": "가이던스 수정",
-    "change_summaryKo": "Added a sentence to clarify it refers to the consolidation boundary in 6.1. Added guidance for option \"예, 및 this 목표 has been approved by the Science Based 목표 이니셔티브\" to clarify SBTs can be approved by the scoring deadline. Added guidance for option \"No, but we anticipate setting one in the next two years \" updating disclosers to state their commitment in the SBTi portal 및 not through a letter as this is not being used anymore.",
+    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "detail_change_typesKo": "가이던스 변경",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "일반: D 8/8 | A 3/3 | M 1/1 | L 1/1",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "일반: D 8/8 | 3/3 | M 1/1 | L 1/1",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "your net-zero 목표(s).에 대한 세부 정보를 입력하십시오."
+    "q2025_textKo": "귀사의 넷제로 목표의 세부 사항을 입력하십시오"
   },
   "defaultPoints": {
     "D": "8/8",
@@ -2470,16 +2470,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "Reaching net-zero emissions at the global level is a central goal 의 climate action movement. Corporate net-zero 목표 are a powerful opportunity for organizations to reduce their emissions along a 1.5C aligned pathway 및 counterbalance 하나 이상 residual emissions at 목표 year with permanent carbon removals (i.e. neutralization). By setting net-zero 목표, companies can also accelerate climate action outside their 가치사슬s 및 contribute to reaching the global net-zero goal. This 문항 provides 데이터 사용자 with transparency on 귀사의 commitment to achieving net-zero emissions.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '귀사의 넷제로 목표의 세부 사항을 입력하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

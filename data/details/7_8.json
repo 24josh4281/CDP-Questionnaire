@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Account for your organization's gross global Scope 3 emissions, disclosing and explaining any exclusions.",
-  "questionKo": "귀사의 글로벌 총 Scope 3 배출량 및 관련 정보를 입력하십시오. 산정에서 제외한 배출원이 있다면 이유를 입력하십시오.",
+  "questionKo": "귀사의 글로벌 범위 3 총 배출량을 계산하여 예외 사항을 공개하고 설명하십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,87 +15,87 @@
     {
       "order": 1,
       "title": "Purchased goods and services",
-      "titleKo": "Purchased goods 및 services"
+      "titleKo": "및 서비스"
     },
     {
       "order": 2,
       "title": "Capital goods",
-      "titleKo": "Capital goods"
+      "titleKo": "자본재"
     },
     {
       "order": 3,
       "title": "Fuel-and-energy-related activities (not included in Scope 1 or 2)",
-      "titleKo": "Fuel-and-energy-related activities (not included in Scope 1 또는 2)"
+      "titleKo": "연료-및-에너지-관련 활동 (아니요t 포함된 범위 1 또는 2)"
     },
     {
       "order": 4,
       "title": "Upstream transportation and distribution",
-      "titleKo": "Upstream transportation 및 distribution"
+      "titleKo": "업스트림 및"
     },
     {
       "order": 5,
       "title": "Waste generated in operations",
-      "titleKo": "Waste generated in operations"
+      "titleKo": "생산한 운영사업장"
     },
     {
       "order": 6,
       "title": "Business travel",
-      "titleKo": "Business travel"
+      "titleKo": "사업"
     },
     {
       "order": 7,
       "title": "Employee commuting",
-      "titleKo": "Employee commuting"
+      "titleKo": ""
     },
     {
       "order": 8,
       "title": "Upstream leased assets",
-      "titleKo": "Upstream leased 자산"
+      "titleKo": "업스트림 자산"
     },
     {
       "order": 9,
       "title": "Downstream transportation and distribution",
-      "titleKo": "Downstream transportation 및 distribution"
+      "titleKo": "다운스트림 및"
     },
     {
       "order": 10,
       "title": "Processing of sold products",
-      "titleKo": "프로세스ing of sold products"
+      "titleKo": "프로세스ing 의"
     },
     {
       "order": 11,
       "title": "Use of sold products",
-      "titleKo": "Use of sold products"
+      "titleKo": "사용 의"
     },
     {
       "order": 12,
       "title": "End of life treatment of sold products",
-      "titleKo": "End of life treatment of sold products"
+      "titleKo": "의 의"
     },
     {
       "order": 13,
       "title": "Downstream leased assets",
-      "titleKo": "Downstream leased 자산"
+      "titleKo": "다운스트림 자산"
     },
     {
       "order": 14,
       "title": "Franchises",
-      "titleKo": "Franchises"
+      "titleKo": ""
     },
     {
       "order": 15,
       "title": "Investments",
-      "titleKo": "Investments"
+      "titleKo": "투자"
     },
     {
       "order": 16,
       "title": "Other (upstream)",
-      "titleKo": "Other (upstream)"
+      "titleKo": "기타 (업스트림)"
     },
     {
       "order": 17,
       "title": "Other (downstream)",
-      "titleKo": "Other (downstream)"
+      "titleKo": "기타 (다운스트림)"
     }
   ],
   "columns": [
@@ -113,15 +113,15 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Scope 3 카테고리",
+      "textKo": "",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "관련, calculated",
-        "관련, not yet calculated",
-        "Not 관련, calculated",
-        "Not 관련, 설명 입력",
-        "Not evaluated"
+        "관련성 있음, 산정d",
+        "관련성 있음, 아니요t 산정d",
+        "관련 없음, 산정d",
+        "관련 없음, 제공된",
+        "아니요t 평가된"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -134,7 +134,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "평가",
+      "textKo": "배출량 보고연도 (미터톤 CO2e)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -167,29 +167,29 @@
       ],
       "simple_help": "Select all that apply",
       "popup_help": "",
-      "textKo": "보고연도 배출량(metric tons CO2e)",
+      "textKo": "배출량 산정 방법론",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Asset-specific method",
-        "Average data method",
-        "Average product method",
-        "Average spend-based method",
-        "Distance-based method",
-        "Franchise-specific method",
-        "Fuel-based method",
-        "Hybrid method",
-        "Investment-specific method",
-        "Lessor-specific method",
-        "Site-specific method",
-        "Spend-based method",
-        "Supplier-specific method",
-        "Waste-type-specific method",
-        "방법론 for direct use phase emissions, 직접 입력",
-        "방법론 for indirect use phase emissions, 직접 입력",
+        "자산-",
+        "평균 데이터",
+        "평균 제품",
+        "평균",
+        "",
+        "",
+        "연료-",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "공급업체-",
+        "",
+        "방법론 직접 사용 배출량, 직접 입력",
+        "방법론 사용 배출량, 직접 입력",
         "기타, 직접 입력"
       ],
-      "simple_helpKo": "all that apply을/를 선택하십시오.",
+      "simple_helpKo": "해당하는 항목 모두 선택",
       "popup_helpKo": ""
     },
     {
@@ -200,7 +200,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "배출량 산정 방법론",
+      "textKo": "의 배출량 산정d 사용 데이터 에서 공급업체 또는 가치사슬",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -223,16 +223,16 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "공급망 또는 가치사슬 파트너로부터 획득한 데이터를 사용하여 산정한 배출량 비율(%)",
+      "textKo": "이유 이 아니요t 관련성 있음",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Not 해당되는 경우 to our 조직의 activities",
-        "Emissions covered under scope 1 또는 2",
-        "Emissions covered under another scope 3 category, 직접 입력",
-        "Emissions not 관련 to the sector that our organization operates in according to 방법론 specified in 문항 7.2",
-        "Emissions are from intermediary products 여기서 end-use is unknown",
-        "Emissions estimated to be insignificant",
+        "해당 없음 귀사의 조직's 활동",
+        "배출량 포함된 범위 1 또는 2",
+        "배출량 포함된 an기타 범위 3, 직접 입력",
+        "배출량 관련 없음 섹터 귀사의 조직 방법론 문항 7.2",
+        "배출량 에서 경우 사용 알 수 없음",
+        "배출량 추정",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -246,7 +246,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "설명",
+      "textKo": "설명하십시오",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -259,31 +259,31 @@
       "type": "Change From Last Year",
       "text": "Modified question",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "수정 문항"
+      "textKo": "전년 대비 변경사항은 2026 CDP 원문 및 변경 추적표 기준으로 확인하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nAccording to the GHG Protocol's Corporate Value Chain (Scope 3) Accounting and Reporting Standard (page 107): \" Any estimates of avoided emissions must be reported separately from a company's Scope 1, Scope 2, and Scope 3 emissions, rather than included or deducted from the Scope 3 inventory \". In the context of your CDP response, you can provide information on actions you take to reduce your Scope 3 emissions in question 7.55.2 on emissions reduction initiatives.\nYou should complete every \nrow of the table (with the exception of the last two rows \"Other (upstream)\" and \"Other (downstream)\" which are optional).\nThe columns that appear will depend on the selection made in the \"Evaluation status\" column.\nNote that the exclusion of specific sources of Scope 3 emissions should not be reported in this question, but instead in question 7.4.1. E.g. if you are excluding emissions from suppliers in a specific country/area, this should be reported in 7.4.1.\nScope 3 category (column 0) \nThe categories of Scope 3 emissions have been taken from the Greenhouse Gas Protocol's Corporate Value Chain (Scope 3) Accounting and Reporting Standard , published in September 2011. Refer to the standard for information on the emissions sources that each category comprises and additional information on how to calculate these emissions.\nEvaluation status (column 1) \nThis column should be completed for all Scope 3 categories, with the exception of \"Other (upstream)\" and \"Other (downstream)\" - these two rows should only be used if organizations have a source of Scope 3 emissions that is not provided in the categories above.\nThe evaluation status includes two components: whether a Scope 3 category is relevant to your business and whether you have calculated the emissions in that category. Relevance should be determined with reference to the GHG Protocol Scope 3 standard and CDP's Technical Note on the relevance of Scope 3 categories by sector - \nsee Additional Information for the Scope 3 relevance criteria . Select from:\nRelevant, calculated - Select this option if the Scope 3 category is relevant to your business and you have calculated the emissions associated with at least part of it.\nRelevant, not yet calculated - Select this option if you are aware that the Scope 3 category is relevant to your business but you have not yet calculated the emissions associated with it.\nNot relevant, calculated - Select this option if you know that this Scope 3 category is not one of the most important for your business but as part of your Scope 3 work, you have been able to calculate the emissions associated with it.\nNot relevant, explanation provided - Select this option if you have investigated this Scope 3 category and have been able to determine that it is not relevant. This could be based on quantitative or qualitative investigations.\nNot evaluated - Select this option if you have not yet investigated this Scope 3 category and therefore do not know whether or not it is relevant for your business.\nEmissions in reporting year (metric tons CO2e) (column 2) \nThis column is only presented if \"Relevant, calculated\" or \"Not relevant, calculated\" is selected in column 1 \"Evaluation status\".\nNegative numbers are not allowed as reporting needs to be gross, not net figures. Emission figures should be for the reporting year only.\nEntering 0 implies that you have calculated the emissions associated with this category and they are equal to zero.\nEmissions calculation methodology (column 3) \nThis column is only presented if \"Relevant, calculated\" or \"Not relevant, calculated\" is selected in column 1 \"Evaluation status\".\nSelect the calculation methodologies used to calculate the emissions associated with this Scope 3 category.\nConsult the GHG Protocol's Technical Guidance for Calculating Scope 3 Emissions for details of which emissions calculations methodologies are relevant to each Scope 3 category.\nPercentage of emissions calculated using data obtained from suppliers or value chain partners (column 4) \nThis column is only presented if \"Relevant, calculated\" or \"Not relevant, calculated\" is selected in column 1 \"Evaluation status\".\nOrganizations should apply the same reporting period to data obtained from suppliers or value chain partners. However, this can be challenging, therefore you may use information from different reporting periods provided the following conditions are met:\nYour organization uses the most recent data available from suppliers or value chain partners without undue cost or effort to measure and disclose its greenhouse gas emissions;\nThe length of the reporting periods is the same; and\nYour organization discloses the effects of significant events and changes in circumstances (relevant to your greenhouse gas emissions) that occur between the reporting dates of suppliers or value chain partners and your organization's reporting period.\nSuch data obtained from suppliers or value chain partners may take the form of primary activity data, or emissions data calculated by suppliers that are specific to suppliers' activities. More information on this can be found in Chapter 7, Collecting Data, of the GHG Protocol's Corporate Value Chain (Scope 3) Accounting and Reporting Standard .\nReason for this category not being relevant (column 5) \nSelect the option that best describes the reason for the category not being relevant. Provide details of how you have reached the conclusion that the source is not relevant and include any qualitative or quantitative reasoning in column 6 \"Please explain\". \nNote that the Scope 3 category \"Investments\" should be considered relevant if you have emissions in the reporting year associated with any ongoing equity or debt investments made in previous years, even if no new investments were allocated during the reporting year. This differs from project finance investments, for which the total projected lifetime emissions should be reported only in the initial year when the investment is financed, and not in subsequent years.\nNot applicable to our organization's activities:\nSelect this option if there are no emissions to report. If you do have activities under this category but they are insignificant, select \"Emissions estimated to be insignificant\".\nFor example;\nif your organization has no franchises, category \"Franchises\" is not applicable. The same applies to leasing.\nIf your organization does not produce physical goods, a number of categories may not be applicable.\nEmissions covered under scope 1 or 2:\nSelect this option if you have no other emissions for this category that are not already included under scope 1 and 2.\nFor example, this could be applicable to categories including leased assets, transportation, or fuel.\nEmissions covered under another scope 3 category, please specify:\nSelect this option if you have no other emissions for this category that are not already included under another scope 3 category.\nFor example, you may categorize capital goods purchased under category 1, depending on your calculation method.\nEmissions not relevant to the sector that our organization operates in according to methodology specified in question 7.2\nIf you have used a methodology to determine that a category is not relevant to your organization, include this methodology in question 7.2. \nIf this methodology is not listed in question 7.2, include it by using \"Other, please specify...\".\nEmissions are from intermediary products where end-use is unknown \nOnly select this option if all of your products are intermediary products with end use unknown.\nEmissions estimated to be insignificant \nEmissions estimated to be insignificant from all categories should add up to no more than 5% of total scope 3 emissions.\nExplain the basis of your estimation in column 6 \"Please explain\"\nPlease explain (column 6) \nFor all Scope 3 categories that you have identified as \"Relevant, calculated\" or \"Not relevant, calculated\" in the \"Evaluation status\" column, provide a short description of the types and sources of data used to calculate emissions (e.g. activity data, emission factors and GWP values), and any further details of the emissions calculation methodologies selected in column 3 \"Emissions calculation methodology\" such the assumptions and allocation methods used. Include information about the extent to which the data is verified.\nProvide details regarding any other inputs or assumptions made in the measurement of Scope 3 emissions as well as the rationale for the chosen measurement approach, inputs and assumptions used.\nIf you have used data from suppliers or value chain partners with different reporting periods, specify the period this data covers and why more recent data was not available. Also specify any relevant changes which have occurred since the data was collected.\nState the extent of the boundary of your calculation - see pages 34-38 of the GHG Protocol's Corporate Value Chain (Scope 3) Accounting and Reporting Standard for information on the minimum and, where applicable, optional boundary of each Scope 3 category.\nFor all transport-related emissions (i.e., those in Scope 3 category 4: \"Upstream transportation and distribution\", category 6: \"Business travel\", category 7 \"Employee commuting\" and category 9: \"Downstream transportation and distribution\"), indicate the life cycle stages covered in your calculation (e.g., Well-to-Wheel etc.). See the Explanation of Terms for more information.\nIf you wish to provide additional context to any of the rows in the table, such as to explain why emissions have decreased or increased, you can also do that in this column.\nNote for all high-impact sector organizations: \nOrganizations in one of CDP's high impact sectors (see here for more information) should refer to CDP's Technical Note on the relevance of Scope 3 categories by sector , which identifies the relevant and most significant Scope 3 categories for each sector based on a review of literature and analysis of CDP 2021 data.\nNote for oil & gas and coal sector organizations: \nCDP has produced sector-specific guidance for estimating Scope 3 category 11 (use of sold products) emissions for the Oil & Gas and Coal sectors.\nNote for financial services sector companies: \nFor financial services sector companies responding to the full version of the questionnaire, Scope 3 Category 15 \"Investments\" emissions has been pulled out of question 7.8 and is requested to be disclosed in 12.1.1. As the majority of emissions occur in relation to financial products and services and/or investments, financed emissions, or Scope 3 Category 15 \"Investments\" emissions as defined by the GHG Protocol is the most relevant category to financial services organizations.\nThus, Row 15 \"Investments\" is hidden in this question, please disclose this in 12.1.1.\nNote for organizations responsible for the transportation (including maritime), storage, transmission and distribution of fossil fuels: \nScope 3 emissions from the handling of fossil fuels can be significant, as highlighted by the IEEFA . Therefore, organizations responsible for the transportation (including maritime), storage, transmission and distribution of fossil fuels should disclose emissions from the final use of these products as Scope 3 category 11 \"Use of Sold Products\".\nScope 3 category 11 emissions from fossil fuels should be calculated based on the throughput of fossil fuel products in your operations during the reporting year.\nAs per the ACT initiative's O&G Sector methodology , these emissions are a consequence of organizations' activities even though the fossil fuels may not be owned by the organization and thus are included in Scope 3.\nPlease refer to the CDP Technical Note \" Guidance methodology for the estimation of Scope 3 category 11 emissions for oil and gas companies \" for further guidance.",
       "typeKo": "요청 내용",
-      "textKo": "일반 According to the GHG Protocol's Corporate 가치사슬 (Scope 3) Accounting 및 Reporting Standard (page 107): \" 하나 이상 estimates of avoided emissions 해야 합니다 be 보고 separately from a company's Scope 1, Scope 2, 및 Scope 3 배출량, rather than included 또는 deducted from the Scope 3 inventory \". In the context of your CDP response, you can provide information on actions you take to reduce your Scope 3 배출량 in 문항 7.55.2 on emissions reduction 이니셔티브. You 해야 합니다 complete every 행 의 table (with the exception 의 last two 행 \"Other (upstream)\" 및 \"Other (downstream)\" which are optional). The 열 that appear will depend on the 선택 made in the \"Scope 3 카테고리\" 열. Note that the exclusion of specific sources of Scope 3 배출량 해야 합니다 not be 보고 in this 문항, but instead in 문항 7.4.1. E.g. 만약 you are 제외 emissions from 공급업체 in a specific country/area, this 해야 합니다 be 보고 in 7.4.1. Scope 3 category (열 0) The categories of Scope 3 배출량 have been taken from the Greenhouse Gas Protocol's Corporate 가치사슬 (Scope 3) Accounting 및 Reporting Standard, published in September 2011. Refer to the standard for information on the emissions sources that each category comprises 및 additional information on how to calculate these emissions. Scope 3 카테고리 (열 1) This 열 해야 합니다 be 완성 for all Scope 3 categories, with the exception of \"Other (upstream)\" 및 \"Other (downstream)\" - these two 행 해야 합니다 only be used 만약 organizations have a source of Scope 3 배출량 that is not 입력 in the categories above. The Scope 3 카테고리 includes two components: whether a Scope 3 category is 관련 to your business 및 whether you have calculated the emissions in that category. Relevance 해야 합니다 be determined with reference to the GHG Protocol Scope 3 standard 및 CDP's Technical Note on the relevance of Scope 3 categories by sector - see Additional Information 에 대한 Scope 3 relevance 기준. Select from: 관련, calculated - Select this option 만약 the Scope 3 category is 관련 to your business 및 you have calculated the emissions associated with 최소 part of it. 관련, not yet calculated - Select this option 만약 you are aware that the Scope 3 category is 관련 to your business but you have not yet calculated the emissions associated with it. Not 관련, calculated - Select this option 만약 you know that this Scope 3 category is not one 의 most important 귀사의 business but 의 일부로 your Scope 3 work, you have been able to calculate the emissions associated with it. Not 관련, 설명 입력 - Select this option 만약 you have investigated this Scope 3 category 및 have been able to determine that it is not 관련. This could be based on quantitative 또는 qualitative investigations. Not evaluated - Select this option 만약 you have not yet investigated this Scope 3 category 및 therefore do not know whether 또는 not it is 관련 귀사의 business. Emissions in 보고연도 (미터톤 CO2e) (열 2) This 열 is only presented 만약 \"관련, calculated\" 또는 \"Not 관련, calculated\" is 선택 in 열 1 \"Scope 3 카테고리\". Negative numbers are not allowed as reporting needs to be gross, not net figures. Emission figures 해야 합니다 be 에 대한 보고연도 only. Entering 0 implies that you have calculated the emissions associated with this category 및 they are equal to zero. Emissions 계산 방법론 (열 3) This 열 is only presented 만약 \"관련, calculated\" 또는 \"Not 관련, calculated\" is 선택 in 열 1 \"Scope 3 카테고리\". Select the 계산 methodologies used to calculate the emissions associated with this Scope 3 category. Consult the GHG Protocol's Technical Guidance for Calculating Scope 3 배출량 for details of which emissions 계산s methodologies are 관련 to each Scope 3 category. Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners (열 4) This 열 is only presented 만약 \"관련, calculated\" 또는 \"Not 관련, calculated\" is 선택 in 열 1 \"Scope 3 카테고리\". Organizations 해야 합니다 apply the same reporting period to data obtained from 공급업체 또는 가치사슬 partners. However, this can be challenging, therefore you may use information from different reporting periods 입력 the following conditions are met: 귀사 uses the most recent data available from 공급업체 또는 가치사슬 partners without undue cost 또는 effort to measure 및 disclose its 온실가스 배출량; The length 의 reporting periods is the same; 및 귀사 discloses the effects of significant events 및 changes in circumstances (관련 to your 온실가스 배출량) that occur between the reporting dates of 공급업체 또는 가치사슬 partners 및 귀사의 reporting period. Such data obtained from 공급업체 또는 가치사슬 partners may take the form of primary activity data, 또는 배출량 데이터 calculated by 공급업체 that are specific to 공급업체' activities. More information on this can be found in Chapter 7, Collecting Data, 의 GHG Protocol's Corporate 가치사슬 (Scope 3) Accounting 및 Reporting Standard. Reason for this category not being 관련 (열 5) Select the option that best 설명s the reason 에 대한 category not being 관련. 세부 정보를 입력 of how you have reached the conclusion that the source is not 관련 및 include 하나 이상 qualitative 또는 quantitative reasoning in 열 6 \"설명\". Note that the Scope 3 category \"Investments\" 해야 합니다 be considered 관련 만약 you have emissions in the 보고연도 associated with 하나 이상 ongoing equity 또는 debt investments made in previous years, even 만약 no 신규 investments were allocated during the 보고연도. This differs from project finance investments, for which the total projected lifetime emissions 해야 합니다 be 보고 only in the initial year 경우 the investment is financed, 및 not in subsequent years. Not 해당되는 경우 to our 조직의 activities: Select this option 만약 there are no emissions to report. 만약 you do have activities under this category but they are insignificant, select \"Emissions estimated to be insignificant\". For example; 만약 귀사 has no franchises, category \"Franchises\" is not 해당되는 경우. The same applies to leasing. 만약 귀사 does not produce physical goods, a number of categories may not be 해당되는 경우. Emissions covered under scope 1 또는 2: Select this option 만약 you have no other emissions for this category that are not already included under scope 1 및 2. For example, this could be 해당되는 경우 to categories 포함 leased 자산, transportation, 또는 fuel. Emissions covered under another scope 3 category, 직접 입력: Select this option 만약 you have no other emissions for this category that are not already included under another scope 3 category. For example, you may categorize capital goods purchased under category 1, depending on your 계산 method. Emissions not 관련 to the sector that our organization operates in according to 방법론 specified in 문항 7.2 만약 you have used a 방법론 to determine that a category is not 관련 to 귀사, include this 방법론 in 문항 7.2. 만약 this 방법론 is not listed in 문항 7.2, include it by using \"Other, 직접 입력...\". Emissions are from intermediary products 여기서 end-use is unknown Only select this option 만약 all of your products are intermediary products with end use unknown. Emissions estimated to be insignificant Emissions estimated to be insignificant from all categories 해야 합니다 add up to no more than 5% of total Scope 3 배출량. Explain the basis of your estimation in 열 6 \"설명\" 설명 (열 6) For all Scope 3 categories that you have identified as \"관련, calculated\" 또는 \"Not 관련, calculated\" in the \"Scope 3 카테고리\" 열, provide a short description 의 types 및 sources of data used to calculate emissions (e.g. activity data, emission factors 및 GWP values), 및 하나 이상 further details 의 emissions 계산 methodologies 선택 in 열 3 \"Emissions 계산 방법론\" such the assumptions 및 allocation methods used. Include information about the extent to which the data is verified. 세부 정보를 입력 regarding 하나 이상 other inputs 또는 assumptions made in the measurement of Scope 3 배출량 as well as the rationale 에 대한 chosen measurement approach, inputs 및 assumptions used. 만약 you have used data from 공급업체 또는 가치사슬 partners with different reporting periods, specify the period this data covers 및 why more recent data was not available. Also specify 하나 이상 관련 changes which have occurred since the data was collected. State the extent 의 boundary of your 계산 - see pages 34-38 의 GHG Protocol's Corporate 가치사슬 (Scope 3) Accounting 및 Reporting Standard for information on the 최소 and, 여기서 해당되는 경우, optional boundary of each Scope 3 category. For all transport-related emissions (i.e., those in Scope 3 category 4: \"Upstream transportation 및 distribution\", category 6: \"Business travel\", category 7 \"Employee commuting\" 및 category 9: \"Downstream transportation 및 distribution\"), indicate the life cycle stages covered in your 계산 (e.g., Well-to-Wheel etc.). See the 설명 of Terms for more information. 만약 you wish to provide additional context to 하나 이상 의 행 in the table, such as to 그 이유를 설명 emissions have decreased 또는 증가, you can also do that in this 열. Note for all high-impact sector organizations: Organizations in one of CDP's high impact sectors (see here for more information) 해야 합니다 refer to CDP's Technical Note on the relevance of Scope 3 categories by sector, which identifies the 관련 및 most significant Scope 3 categories for each sector based on a review of literature 및 analysis of CDP 2021 data. Note for oil & gas 및 coal sector organizations: CDP has produced sector-specific guidance for estimating Scope 3 category 11 (use of sold products) emissions 에 대한 Oil & Gas 및 Coal sectors. Note for 금융 서비스 sector companies: For 금융 서비스 sector companies responding to the full version 의 질문서, Scope 3 Category 15 \"Investments\" emissions has been pulled out of 문항 7.8 및 is requested to be 공개 in 12.1.1. As the majority of emissions occur in relation to financial 제품 및 서비스 및/또는 investments, 금융배출량, 또는 Scope 3 Category 15 \"Investments\" emissions as defined by the GHG Protocol is the most 관련 category to 금융 서비스 organizations. Thus, 행 15 \"Investments\" is hidden in this 문항, please disclose this in 12.1.1. Note for organizations responsible 에 대한 transportation (포함 maritime), storage, transmission 및 distribution of fossil fuels: Scope 3 배출량 from the handling of fossil fuels can be significant, as highlighted by the IEEFA. Therefore, organizations responsible 에 대한 transportation (포함 maritime), storage, transmission 및 distribution of fossil fuels 해야 합니다 disclose emissions from the final use 의se products as Scope 3 category 11 \"Use of Sold Products\". Scope 3 category 11 emissions from fossil fuels 해야 합니다 be calculated based on the throughput of fossil fuel products in your operations during the 보고연도. As per the ACT 이니셔티브's O&G Sector 방법론, these emissions are a consequence of organizations' activities even though the fossil fuels may not be owned by the organization 및 thus are included in Scope 3. Please refer to the CDP Technical Note \" Guidance 방법론 에 대한 estimation of Scope 3 category 11 emissions for oil 및 gas companies \" for further guidance."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
       "text": "Relevance criteria for Scope 3 emissions sources:  Companies should not exclude any activity that would compromise the relevance of the reported inventory. The  Corporate Value Chain (Scope 3) Accounting and Reporting Standard  provides a list of criteria for determining relevance (Table 6.1, p.61). Companies in one of CDP's high-impact sectors should also refer to  CDP's Technical Note on the relevance of Scope 3 categories by sector , which identifies the relevant and most significant Scope 3 categories for each sector based on a review of literature and analysis of CDP 2021 data. \nFor further guidance on measuring and reporting Scope 3 emissions in line with the GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard, refer to the GHG Protocol Scope 3 FAQs .",
       "typeKo": "추가 정보",
-      "textKo": "Relevance 기준 for Scope 3 배출량 sources: Companies 해야 합니다 not exclude 하나 이상 activity that would compromise the relevance 의 보고 inventory. The Corporate 가치사슬 (Scope 3) Accounting 및 Reporting Standard provides a list 기준의 for determining relevance (Table 6.1, p.61). Companies in one of CDP's high-impact sectors 해야 합니다 also refer to CDP's Technical Note on the relevance of Scope 3 categories by sector, which identifies the 관련 및 most significant Scope 3 categories for each sector based on a review of literature 및 analysis of CDP 2021 data. For further guidance on measuring 및 reporting Scope 3 배출량 in line with the GHG Protocol Corporate 가치사슬 (Scope 3) Accounting 및 Reporting Standard, refer to the GHG Protocol Scope 3 FAQs."
+      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
     },
     {
       "type": "Example Response",
       "text": "Example Response\nExample response for the selection of \"Relevant, calculated\" in column 2. \nScope 3 category\nEvaluation status\nEmissions in reporting year (metric tons CO2e)\nEmissions calculation methodology\nPercentage of emissions calculated using data obtained from suppliers or value chain partners\nReason for this category not being relevant \nPlease explain\nDownstream transportation and distribution \nRelevant, calculated \n486,000 \nDistance-based method \n80 \nN/A \nTo calculate upstream product transportation and distribution we used shipping weight and distance data provided by our logistics division based on fiscal year 2021 shipment data, which provides resolution to final destinations at the UK county level. \nEmissions were calculated using UK Government GHG Conversion Factors for Company Reporting, using a kgCO2e per tonne.km emission factor for an average-laden HGV. \nWhere data was not available, final truck shipment from distribution centers to final destinations was estimated as 200 kilometers. \nExample response for the selection of \"Not relevant, explanation provided\" in column 2. \nScope 3 category\nEvaluation status\nEmissions in reporting year (metric tons CO2e)\nEmissions calculation methodology\nPercentage of emissions calculated using data obtained from suppliers or value chain partners\nReason for this category not being relevant \nPlease explain\nFranchises \nNot relevant, explanation provided \nN/A \nN/A \nN/A \nNot applicable to our organization's activities \nWe do not have any franchises, so this category is not relevant to our organization.",
-      "typeKo": "Example Response",
-      "textKo": "Example Response Example response 에 대한 선택 of \"관련, calculated\" in 열 2. Scope 3 category Scope 3 카테고리 Emissions in 보고연도 (미터톤 CO2e) Emissions 계산 방법론 Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners Reason for this category not being 관련 설명 Downstream transportation 및 distribution 관련, calculated 486,000 Distance-based method 80 N/A To calculate upstream product transportation 및 distribution we used shipping weight 및 distance data 입력 by our logistics division based on fiscal year 2021 shipment data, which provides resolution to final destinations at the UK county level. Emissions were calculated using UK Government GHG Conversion Factors for Company Reporting, using a kgCO2e per tonne.km emission factor for an average-laden HGV. 여기서 data was not available, final truck shipment from distribution centers to final destinations was estimated as 200 kilometers. Example response 에 대한 선택 of \"Not 관련, 설명 입력\" in 열 2. Scope 3 category Scope 3 카테고리 Emissions in 보고연도 (미터톤 CO2e) Emissions 계산 방법론 Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners Reason for this category not being 관련 설명 Franchises Not 관련, 설명 입력 N/A N/A N/A Not 해당되는 경우 to our 조직의 activities We do not have 하나 이상 franchises, so this category is not 관련 to our organization."
+      "typeKo": "Example 응답",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Well-to-Wheel (WTW) : A Well-to-Wheel analysis considers both the emissions from the vehicle itself, but also the emissions from the process of extracting the fuel used to power the vehicle's engine. It can be subdivided into the Well-to-Tank (WTT) (energy provision) analysis and the Tank-to-Wheel (TTW) (vehicle efficiency) analysis. Compared to a full emissions Life Cycle Assessment (LCA), the production, maintenance, and disposal of the vehicle are not assessed.",
-      "typeKo": "설명 of Terms",
-      "textKo": "Well-to-Wheel (WTW): A Well-to-Wheel analysis considers both the emissions from the vehicle itself, but also the emissions from the 프로세스 of extracting the fuel used to power the vehicle's engine. It can be subdivided into the Well-to-Tank (WTT) (energy provision) analysis 및 the Tank-to-Wheel (TTW) (vehicle efficiency) analysis. Compared to a full emissions Life Cycle Assessment (LCA), the production, maintenance, 및 disposal 의 vehicle are not assessed."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -487,7 +487,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -497,7 +497,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -507,7 +507,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream) 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -517,7 +517,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -527,7 +527,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -537,7 +537,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -547,7 +547,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Purchased goods 및 services' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Purchased goods 및 services' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Purchased goods 및 services' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Purchased goods 및 services' 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -557,7 +557,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -567,7 +567,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -577,7 +577,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -587,7 +587,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Fuel-and-energy-related activities (not included in Scope 1 또는 2)' - 'Upstream transportation 및 distribution' - 'Purchased goods 및 services' - 'Capital goods' - 'Use of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Fuel-and-energy-related activities (not included in Scope 1 또는 2)' - 'Upstream transportation 및 distribution' - 'Purchased goods 및 services' - 'Capital goods' - 'Use of sold products' 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -597,7 +597,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -607,7 +607,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -617,7 +617,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -627,7 +627,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products'. 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -637,7 +637,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -647,7 +647,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -657,7 +657,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -667,7 +667,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream) 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -677,7 +677,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -687,7 +687,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -697,7 +697,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -707,7 +707,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Use of sold products' - 'End of life treatment of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Use of sold products' - 'End of life treatment of sold products' 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -717,7 +717,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -727,7 +727,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -737,7 +737,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -747,7 +747,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products'. 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -757,7 +757,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -767,7 +767,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -777,7 +777,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -787,7 +787,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Use of sold products' - 'Capital goods' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Use of sold products' - 'Capital goods' 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -797,7 +797,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -807,7 +807,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -817,7 +817,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -827,7 +827,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream) 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -837,7 +837,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -847,7 +847,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 14/14점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -857,7 +857,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 7점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -867,7 +867,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 하나 이상 의 following 행: -'Other (upstream)' -'Other (downstream)' -'Investments' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 in 하나 이상 의 following 행: -'Other (upstream)' - 'Other (downstream)' -'Investments' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. 이 경로에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -877,7 +877,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -887,7 +887,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -897,7 +897,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -907,7 +907,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Purchased goods 및 services' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Purchased goods 및 services' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Purchased goods 및 services' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Purchased goods 및 services' 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -917,7 +917,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -927,7 +927,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -937,7 +937,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -947,7 +947,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in either 행 'Purchased goods 및 services' 또는 '프로세스ing of sold products' - 1 점 iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in either 행 'Purchased goods 및 services' 또는 '프로세스ing of sold products' - 1 점 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -957,7 +957,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -967,7 +967,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -977,7 +977,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -987,7 +987,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products'. 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -997,7 +997,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1007,7 +1007,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1017,7 +1017,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1027,7 +1027,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream) 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1037,7 +1037,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1047,7 +1047,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1057,7 +1057,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1067,7 +1067,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Capital goods' - 'Investments' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Capital goods' - 'Investments' 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1077,7 +1077,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1087,7 +1087,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1097,7 +1097,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1107,7 +1107,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream) 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1117,7 +1117,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1127,7 +1127,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1137,7 +1137,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1147,7 +1147,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products'. 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1157,7 +1157,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1167,7 +1167,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1177,7 +1177,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1187,7 +1187,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either 의 following are met - 1 점 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products' 또는 Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure of 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 행 'Use of sold products'. 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1197,7 +1197,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1207,7 +1207,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) Either ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 both 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 ‘Emissions 계산 방법론' 완성 그리고 Text answer 입력 in 열 '설명' - 1/1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 선택지가 하나라도 선택된 경우 in 열 ‘Reason for this category not being 관련' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 C) Either ‘관련, not yet calculated' 또는 ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/1 점 is available for this 경로. 이 문항에서 획득 가능한 최고점은 15/15점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1217,7 +1217,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "행별로 점수가 부여됩니다 제외 both 행 ‘Other (upstream)' 그리고 ‘Other (downstream)': 경로 A) ‘관련, calculated' 또는 ‘Not 관련, calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Figure 입력 in 열 ‘Emissions in 보고연도 (미터톤 CO2e)' 그리고 하나 이상 option 제외 ‘Other, 직접 입력' 선택 in 열 ‘Emissions 계산 방법론' 그리고 Text answer 입력 in 열 '설명' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 B) ‘Not 관련, 설명 입력' 선택 in 열 ‘Scope 3 카테고리' 그리고 text answer 입력 in 열 ‘설명' 그리고 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' - 0.5 점 A 최고 of 0.5/0.5 점 is available for this 경로. 또는 경로 C) ‘관련, not yet calculated' 선택 in 열 ‘Scope 3 카테고리' 그리고 Text answer 입력 in 열 '설명' - 0.25 점 A 최고 of 0.25/0.5 점 is available for this 경로. 또는 경로 D) ‘Not evaluated' 선택 in 열 ‘Scope 3 카테고리' - 0 점 A 최고 of 0/0.5 점 is available for this 경로. A 최고 of 7.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1227,7 +1227,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "점수가 부여됩니다 for all 행 (제외 both 행 'Other (upstream)' 그리고 'Other (downstream)'): 경로 A) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in 하나 이상 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Fuel-and-energy-related activities (not included in Scope 1 또는 2)' - 'Upstream transportation 및 distribution' - 'Purchased goods 및 services' - 'Capital goods' - 'Use of sold products' iii) For all 행 여기서 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리': 하나 이상 option 제외 ‘Other, 직접 입력...' 선택 in 열 ‘Reason for this category not being 관련' 그리고 text answer 입력 in 열 ‘설명' - 1 점 이 경로에서 획득 가능한 최고점은 3/3점입니다. 또는 경로 B) The following conditions 해야 합니다 be met to be 획득 가능 for 관리 점: 하나 이상 option 제외 'Not 관련, 설명 입력' 선택 in 열 'Scope 3 카테고리' in all 행 제외 both 행 'Other (upstream)' 그리고 'Other (downstream)' 그리고 열 '기준연도 emissions (미터톤 CO2e)' 완료해야 합니다 in all corresponding 행 in 문항 7.5 여기서 either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' in 문항 7.8. i) Sum of all figures 입력 in 열 '기준연도 emissions (미터톤 CO2e)' in 문항 7.5 is 초과 the sum of all 의 following - 1 점 Figure 입력 in 열 '전 세계 총 Scope 1 배출량...' in 행 '보고연도' in 문항 7.6 그리고 Figure 입력 in either 열 'Scope 2, 지역기반' 또는 'Scope 2, 시장기반 (만약 해당되는 경우)' in 행 '보고연도' in 문항 7.7 그리고 Figure 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 문항 7.8. ii) Either '관련, calculated' 또는 'Not 관련, calculated' 선택 in 열 'Scope 3 카테고리' 그리고 Figure 초과 0 입력 in 열 'Emissions in 보고연도 (미터톤 CO2e)' in 하나 이상 의 following 행 - 1 점 - 'Fuel-and-energy-related activities (not included in Scope 1 또는 2)' - 'Upstream transportation 및 distribution' - 'Purchased goods 및 services' - 'Capital goods' - 'Use of sold products' 이 경로에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1237,12 +1237,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Full 인지 그리고 관리 점수를 획득해야 합니다 to be 획득 가능 for 리더십 점. Figure 초과 0 입력 in 열 'Percentage of emissions calculated using data obtained from 공급업체 또는 가치사슬 partners' in 하나 이상 의 following 행 - 0.5 점 - 'Purchased goods 및 services' - 'Capital goods' - 'Upstream transportation 및 distribution' - 'Downstream transportation 및 distribution' - '프로세스ing of sold products' - 'Use of sold products' - 'End of life treatment of sold products' - 'Downstream leased 자산' - 'Investments' A 최고 of 0.5/0.5 점 is available for this 문항."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "귀사의 글로벌 Scope 3 총 배출량을 계산하여 예외 사항을 공개하고 설명하십시오 . M7. Environmental Performance - Climate Change",
+    "question_ko": "귀사의 글로벌 범위 3 총 배출량을 계산하여 예외 사항을 공개하고 설명하십시오",
     "q2025": "Q7.8",
     "q2025_text": "Account for your organization's gross global Scope 3 emissions, disclosing and explaining any exclusions.",
     "change_status": "Modified question",
@@ -1257,17 +1257,17 @@
     "daml_summary": "General: D 15/15 | A 7.5/7.5 | M 2 or 3/2 or 3 | L 0.5/0.5",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "문항 수정",
-    "detail_change_typesKo": "드롭다운 선택지 태그 추가, 드롭다운 선택지 태그 제거, 신규 열, 신규 가이던스, 가이던스 수정",
-    "change_summaryKo": "드롭다운 선택지 \"Average data method\" will now appear for 행 \"Employee commuting\" 및 option \"Average spend based method\" will no longer appear 에 대한 same 행. 신규 열 added 및 additional guidance added clarifying reporting of category 15 \"Investments\". Guidance on 'Not 관련, explained' integrated into 열 \"Reason for this cateogry not being 관련\"",
-    "scoring_change_summaryKo": "CC 전 섹터 공시 • All 경로s updated 요구하기 위해 '설명' 완성되도록. • Additionally, 경로 B now requires a drop-down option 선택 in 신규 열 'Reason for this category not being 관련'. Scoring updated to account for changes to 열 ‘Emissions 계산 방법론' 및 the addition of 신규 열 ‘Reason for this category not being 관련'. CC 전 섹터 인지 • 경로 A scoring for 열 ‘Emissions 계산 방법론' 및 열 ‘설명' updated. • 경로 B now requires 하나 이상 option 제외 Other, 직접 입력 in 열 'Reason for this category...'. • 경로 C now requires completion of 열 ‘설명'. Scoring updated to account 에 대한 changes to 열 ‘Emissions 계산 방법론' aligning with requirements 의 GHG Protocol for 관련 Scope 3 배출량 categories. Scoring also added 에 대한 신규 열 ‘Reason for this category…'. CC 전 섹터 관리 • Scoring for a description in the free text in 열 ‘설명' has been replaced with scoring on the 신규 열 ‘Reason for this Scoring adapted to increase the quality 의 scored data 점 by utilising the 신규 열 ‘Reason for this category…'. category…'. 열 ‘설명' is still checked for completion.",
-    "daml_summaryKo": "일반: D 15/15 | A 7.5/7.5 | M 2 또는 3/2 또는 3 | L 0.5/0.5",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "daml_summaryKo": "일반: D 15/15 | 7.5/7.5 | M 2 또는 3/2 또는 3 | L 0.5/0.5",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "귀사의 전 세계 총 Scope 3 배출량, disclosing 및 explaining 제외사항.에 대해 설명하십시오."
+    "q2025_textKo": "귀사의 글로벌 범위 3 총 배출량을 계산하여 예외 사항을 공개하고 설명하십시오"
   },
   "defaultPoints": {
     "D": "15/15",
@@ -1279,34 +1279,35 @@
     {
       "name": "CDP Full Corporate Questionnaire and Reporting Guidance 2026",
       "version": "Released April 22, 2026",
-      "nameKo": "CDP 2026 전체 기업 문항 및 보고 가이던스",
-      "versionKo": "2026년 4월 22일 공개"
+      "nameKo": "CDP Full Corporate 문항naire 및 보고ing 가이던스 2026",
+      "versionKo": "Released April 22, 2026"
     },
     {
       "name": "CDP Questionnaire Changes Tracker 2026",
       "version": "Version 3, revised May 8, 2026",
-      "nameKo": "CDP 2026 문항 변경 추적표",
-      "versionKo": "버전 3, 2026년 5월 8일 개정"
+      "nameKo": "CDP 문항naire Changes Tracker 2026",
+      "versionKo": "Version 3, revised 할 수 있습니다 8, 2026"
     },
     {
       "name": "CDP Full Corporate Scoring Changes 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 전체 기업 평가방법론 변경사항",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP Full Corporate Scoring Changes 2026",
+      "versionKo": "Released April 30, 2026"
     },
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
-      "versionKo": "2026년 4월 30일 공개"
+      "nameKo": "CDP 기후변화 Scoring Essential 기준 2026",
+      "versionKo": "Released April 30, 2026"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "For most organizations, the majority of emissions occur in stages 의 가치사슬 beyond their 직접 운영사업장. This 문항 allows 데이터 사용자 to gauge the thoroughness of organizations' accounting 프로세스es 및 to understand how organizations are analyzing their emissions footprints.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '귀사의 글로벌 범위 3 총 배출량을 계산하여 예외 사항을 공개하고 설명하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Report your methane emissions as percentages of natural gas and hydrocarbon production or throughput.",
-  "questionKo": "Report your methane emissions as percentages of natural gas 및 hydrocarbon production 또는 throughput.",
+  "questionKo": "메탄 배출량을 천연가스 및 탄화수소 생산량 또는 처리량 대비 비율로 보고하십시오.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "행 1"
+      "titleKo": "1행"
     }
   ],
   "columns": [
@@ -33,14 +33,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Oil 및 gas business division",
+      "textKo": "석유 및 가스 사업 부문",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Upstream",
-        "Midstream",
-        "Downstream",
-        "Chemicals",
+        "업스트림",
+        "",
+        "다운스트림",
+        "화학",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -54,7 +54,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Estimated total methane emitted expressed as % of natural gas production 또는 throughput at given division",
+      "textKo": "추정 총 배출됨 표현됨 % 의 가스 생산 또는 에서",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -69,7 +69,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Estimated total methane emitted expressed as % of total hydrocarbon production 또는 throughput at given division",
+      "textKo": "추정 총 배출됨 표현됨 % 의 총 탄화수소 생산 또는 에서",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -88,13 +88,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "whether your methane emissions figure is based on observational data을/를 표시하십시오.",
+      "textKo": "표시 여부 귀사의 배출량 수치 기준 데이터",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Observational data only",
-        "Both observational data 및 estimated 또는 modelled data",
-        "Estimated 또는 modelled data only"
+        "데이터 만",
+        "데이터 및 추정 또는 데이터",
+        "추정 또는 데이터 만"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -107,7 +107,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Details of 방법론",
+      "textKo": "세부 정보 의 방법론",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -126,19 +126,19 @@
       "type": "Requested Content",
       "text": "General \nThe values to be reported are the total combined gross Scope 1 methane emissions determined for the given business division(s) (including vents, leaks, etc.,) expressed as a percentage of the aggregated production or throughput of natural gas and total hydrocarbons, respectively, at the given business divisions. \nIf you select \"Other, please specify,\" provide a label for the oil and gas business division.\nEstimated total methane emitted expressed as % of natural gas production or throughput at given division (column 2) \nPlease report your total methane emissions rate as a percentage of natural gas production or throughput for the selected business divisions.\nEstimated total methane emitted expressed as % of total hydrocarbon production or throughput at given division (column 3) \nPlease report your total methane emissions rate as a percentage of total hydrocarbon production or throughput for the selected business divisions.\nDetails of methodology (column 5) \nProvide details of the methodology used to estimate the figures provided in column 2 and 3 for the selected business divisions. \nProvide an explanation of your data sources, indicating which (if any) were used in estimation or modelling and describing how these were used.",
       "typeKo": "요청 내용",
-      "textKo": "일반 The values to be 보고 are the total combined gross Scope 1 methane emissions determined 에 대한 given business division(s) (포함 vents, leaks, etc.,) expressed as a percentage 의 aggregated production 또는 throughput of natural gas 및 total hydrocarbons, respectively, at the given business divisions. 만약 you select \"Other, 직접 입력,\" provide a label 에 대한 oil 및 gas business division. Estimated total methane emitted expressed as % of natural gas production 또는 throughput at given division (열 2) Please report your total methane emissions rate as a percentage of natural gas production 또는 throughput 에 대한 선택 business divisions. Estimated total methane emitted expressed as % of total hydrocarbon production 또는 throughput at given division (열 3) Please report your total methane emissions rate as a percentage of total hydrocarbon production 또는 throughput 에 대한 선택 business divisions. Details of 방법론 (열 5) 세부 정보를 입력 의 방법론 used to estimate the figures 입력 in 열 2 및 3 에 대한 선택 business divisions. Provide an 설명 of your data sources, indicating which (만약 하나 이상) were used in estimation 또는 modelling 및 describing how these were used."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
       "text": "Methane emissions from the oil and gas sector: Methane metrics, which include emissions rates, will make data more actionable and aid in the assessment of methane performance. Emission rate refers to the percentage of total methane volume which is being lost as a function of production or throughput.\nThe latest scientific studies on methane emissions from the natural gas and oil industries suggest that, in order to maximize the climate benefits of a transition from both diesel and coal to natural gas on all time scales, methane emissions from the industry must be limited to an emissions rate of 0.8%. This means that each individual segment throughout the natural gas value chain, from well site to burner tip, must contribute much less than 0.8%. (Adapted from EDF's report Rising Risk, January 2016)",
       "typeKo": "추가 정보",
-      "textKo": "Methane emissions from the oil 및 gas sector: Methane metrics, which include emissions rates, will make data more actionable 및 aid in the assessment of methane performance. Emission rate refers to the percentage of total methane volume which is being lost as a function of production 또는 throughput. The latest scientific studies on methane emissions from the natural gas 및 oil industries suggest that, in order to maximize the climate benefits of a transition from both diesel 및 coal to natural gas on all time scales, methane emissions from the industry 해야 합니다 be limited to an emissions rate of 0.8%. This means that each individual segment throughout the natural gas 가치사슬, from well site to burner tip, 해야 합니다 contribute much 미만 0.8%. (Adapted from EDF's report Rising Risk, January 2016)"
+      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Estimated/modelled data: Data based on bottom-up calculation approaches, such as multiplying activity data by standardized emission factors.\nObservational data: Data based on top-down methods, such as using airborne or satellite sensors.",
-      "typeKo": "설명 of Terms",
-      "textKo": "Estimated/modelled data: Data based on bottom-up 계산 approaches, such as multiplying activity data by standardized emission factors. Observational data: Data based on top-down methods, such as using airborne 또는 satellite sensors."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -162,7 +162,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 행 공개. 부분적으로 완성된 행은 최고점을 받을 수 없습니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "점 부여됨 마다 완료 셀 비례 숫자 입력 의 행 공시된. 부분적으로 완료된 행은 최고점을 받을 수 없습니다. 이 문항에서 최대 6/6점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -172,7 +172,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -182,7 +182,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -192,12 +192,12 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) 'Observational data only' 선택 in 열 'Indicate whether your methane emissions figure…' - 1 점 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Both observational data 및 estimated 또는 modelled data' 선택 in 열 'Indicate whether your methane emissions figure…' - 0.5/1 점 A 최고 of 0.5/1 점 is available for this 경로. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Report your methane emissions as percentages of natural gas and hydrocarbon production or throughput.",
+    "question_ko": "메탄 배출량을 천연가스 및 탄화수소 생산량 또는 처리량 대비 비율로 보고하십시오.",
     "q2025": "Q7.24",
     "q2025_text": "Report your methane emissions as percentages of natural gas and hydrocarbon production or throughput.",
     "change_status": "No change - 2026 source verified",
@@ -216,13 +216,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Oil & Gas: D 6/6 | A 1/1 | M 0/0 | L 0.5 또는 1/1",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "석유 및 가스: D 6/6 | 1/1 | M 0/0 | L 0.5 또는 1/1",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "Report your methane emissions as percentages of natural gas 및 hydrocarbon production 또는 throughput."
+    "q2025_textKo": "메탄 배출량을 천연가스 및 탄화수소 생산량 또는 처리량 대비 비율로 보고하십시오."
   },
   "defaultPoints": {
     "D": "6/6",
@@ -252,16 +252,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "석유 및 가스",
-  "simpleHelpKo": "Emissions of methane, the main component of natural gas, represent a 손실 resources that directly impact topline 매출 for oil 및 gas organizations. 데이터 사용자 need rigorous, accurate, 및 comparable information to assess organizations' emissions of methane. By reporting emissions as a percentage of production 또는 throughput, the resulting data becomes comparable between companies, regardless of size, 및 over time, as a given company's operations evolve.",
+  "simpleHelpKo": "이 문항은 '메탄 배출량을 천연가스 및 탄화수소 생산량 또는 처리량 대비 비율로 보고하십시오.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

@@ -3,7 +3,7 @@
   "module": "1",
   "moduleTitle": "Introduction",
   "questionText": "In which part of the coal value chain does your organization operate?",
-  "questionKo": "귀사는 coal 가치사슬의 어느 단계에서 운영합니까?",
+  "questionKo": "일부 석탄 가치 사슬 조직 운영?",
   "questionType": "GROUPED_OPTIONS",
   "mandatory": "False",
   "issueTags": "Water, Climate Change",
@@ -31,7 +31,7 @@
       "type": "Requested Content",
       "text": "General \nSelect all aspects of the coal value chain and/or other divisions that your organization operates in. In the context of this question, \"operates\" refers only to the production activities.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Select all aspects 의 석탄 가치사슬 및/또는 other divisions that 귀사 operates in. In the context of this 문항, \"operates\" refers only to the production activities."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -55,7 +55,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "선택지가 하나라도 선택된 경우 - 4 점 이 문항에서 획득 가능한 최고점은 4/4점입니다."
+      "criteriaKo": "해당 선택지 선택됨 - 4 점 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -65,7 +65,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -75,7 +75,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -85,12 +85,12 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "PPT",
-    "question_ko": "[국문 번역 검토 필요] In which part of the coal value chain does your organization operate?",
+    "question_ko": "일부 석탄 가치 사슬 조직 운영?",
     "q2025": "Q1.13",
     "q2025_text": "In which part of the coal value chain does your organization operate?",
     "change_status": "No change - 2026 source verified",
@@ -109,13 +109,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Coal: D / | A / | M / | L /",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 드롭다운/응답 선택지 연결\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정성 PPT",
+    "daml_summaryKo": "석탄: D / | / | M / | L /",
+    "reflectedKo": "",
+    "locationKo": "정성적",
     "locationEn": "Qualitative PPT",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "귀사는 coal 가치사슬의 어느 단계에서 운영합니까?"
+    "q2025_textKo": "일환 의 석탄 가치사슬 귀사 운영?"
   },
   "defaultPoints": {
     "D": "/",
@@ -145,23 +145,24 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
   "moduleTitleKo": "소개",
   "questionTypeKo": "GROUPED_OPTIONS",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "수자원, Climate Change",
+  "issueTagsKo": "수자원, 기후 변경",
   "sectorTagsKo": "석탄",
-  "simpleHelpKo": "Business activities within the coal sector are directly related to 온실가스 배출량 및 water usage. Disclosing the activities that these organizations engage in provides 데이터 사용자 with the contextual information necessary to understand 및 evaluate how they assess 및 manage climate- 및 water-related dependencies, impacts, 리스크, 및 기회. This also enables 데이터 사용자 to make more accurate cross-organizational 및 cross-industry comparisons.",
+  "simpleHelpKo": "이 문항은 '일부 석탄 가치 사슬 조직 운영?'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
   "baseOptionsKo": [
-    "석탄 가치사슬 | Coal derived fuels 및 chemical feedstocks",
-    "석탄 가치사슬 | Grid electricity generation from coal",
-    "석탄 가치사슬 | Surface coal mining",
-    "석탄 가치사슬 | Underground coal mining",
-    "Other divisions | Metal ore mining",
-    "Other divisions | Other minerals mining"
-  ]
+    "석탄 가치사슬 | 석탄 derived 연료 및 chemical 원료",
+    "석탄 가치사슬 | Grid 전력 발전 에서 석탄",
+    "석탄 가치사슬 | Surface 석탄 광업",
+    "석탄 가치사슬 | Underground 석탄 광업",
+    "기타 divisions | Metal ore 광업",
+    "기타 divisions | 기타 minerals 광업"
+  ],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

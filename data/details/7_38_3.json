@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide an indicative percentage split for 2P, 3P reserves, and total resource base by hydrocarbon categories.",
-  "questionKo": "an indicative percentage split for 2P, 3P reserves, 및 total resource base by hydrocarbon categories.을/를 입력하십시오.",
+  "questionKo": "탄화수소 범주별로 2P, 3P 매장량 및 총 자원 기반에 대한 표시 비율을 제공하세요",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,17 +15,17 @@
     {
       "order": 1,
       "title": "Crude oil/ condensate/ natural gas liquids",
-      "titleKo": "Crude oil/ condensate/ natural gas liquids"
+      "titleKo": "석유/ / 가스"
     },
     {
       "order": 2,
       "title": "Natural gas",
-      "titleKo": "Natural gas"
+      "titleKo": "가스"
     },
     {
       "order": 3,
       "title": "Oil sands (includes bitumen and synthetic crude)",
-      "titleKo": "Oil sands (includes bitumen 및 synthetic crude)"
+      "titleKo": "석유 (포함함 및)"
     }
   ],
   "columns": [
@@ -37,7 +37,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Net proved + probable reserves (2P) (%)",
+      "textKo": "+ 매장량 (2P) (%)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -52,7 +52,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Net proved + probable + possible reserves (3P) (%)",
+      "textKo": "+ + 가능한 매장량 (3P) (%)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -67,7 +67,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Net total resource base (%)",
+      "textKo": "총 자원 기반 (%)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -82,7 +82,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Comment",
+      "textKo": "의견",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -100,20 +100,20 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Upstream\" in response to 1.19.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Upstream\" in response to 1.19."
+      "typeKo": "문항 의존성",
+      "textKo": "이 문항 만 표시됨 만약 귀사 선택 \"업스트림\" 응답 1.19."
     },
     {
       "type": "Requested Content",
       "text": "General \nEnter the percentage that the three hydrocarbon groupings comprise of your 2P reserves, 3P reserves, and your net total resource base, respectively.\nFurther information on the hydrocarbon categories is provided in the explanation of terms.\nCrude oil/condensate have been grouped together with natural gas liquids to ease the reporting effort.\nNet proved + probable reserves (2P) (%) (column 2) This is proved reserves plus probable reserves (often referred to as P50). Probable reserves are additional reserves less certain to be recovered, and in sum with proved reserves there is a 50% chance that actual quantities produced will equal or exceed this estimate.\nNet proved + probable + possible reserves (3P) (%) (column 3) This is proved reserves plus probable reserves plus possible reserves. Possible reserves are less certain than probable. There is a 10% chance that actual quantities produced will equal or exceed 3P (hence the term P10).\nNet total resource base (%) (column 4) Net total resource base includes the total for reserves, contingent resources and prospective resources.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Enter the percentage that the three hydrocarbon groupings comprise of your 2P reserves, 3P reserves, 및 your net total resource base, respectively. Further information on the hydrocarbon categories is 입력 in the 설명 of terms. Crude oil/condensate have been grouped together with natural gas liquids to ease the reporting effort. Net proved + probable reserves (2P) (%) (열 2) This is proved reserves plus probable reserves (often referred to as P50). Probable reserves are additional reserves less certain to be recovered, 및 in sum with proved reserves there is a 50% chance that actual quantities produced will equal 또는 exceed this estimate. Net proved + probable + possible reserves (3P) (%) (열 3) This is proved reserves plus probable reserves plus possible reserves. Possible reserves are less certain than probable. There is a 10% chance that actual quantities produced will equal 또는 exceed 3P (hence the term P10). Net total resource base (%) (열 4) Net total resource base includes the total for reserves, contingent resources 및 prospective resources."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Additional Information",
       "text": "Explanations of the hydrocarbon categories listed are available in the following Technical Note: \" Fuel Definitions \".",
       "typeKo": "추가 정보",
-      "textKo": "설명s 의 hydrocarbon categories listed are available in the following Technical Note: \" Fuel Definitions \"."
+      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료를 근거로 활용하십시오."
     }
   ],
   "points": [
@@ -137,7 +137,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "열 'Net proved + probable reserves (2P) (%)' 완성 in all 행 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -147,7 +147,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -157,7 +157,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -167,12 +167,12 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Provide an indicative percentage split for 2P, 3P reserves, and total resource base by hydrocarbon categories.",
+    "question_ko": "탄화수소 범주별로 2P, 3P 매장량 및 총 자원 기반에 대한 표시 비율을 제공하세요",
     "q2025": "Q7.38.3",
     "q2025_text": "Provide an indicative percentage split for 2P, 3P reserves, and total resource base by hydrocarbon categories.",
     "change_status": "No change - 2026 source verified",
@@ -191,13 +191,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Oil & Gas: D 1/1 | A 0/0 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "석유 및 가스: D 1/1 | 0/0 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "an indicative percentage split for 2P, 3P reserves, 및 total resource base by hydrocarbon categories.을/를 입력하십시오."
+    "q2025_textKo": "탄화수소 범주별로 2P, 3P 매장량 및 총 자원 기반에 대한 표시 비율을 제공하세요"
   },
   "defaultPoints": {
     "D": "1/1",
@@ -227,16 +227,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "석유 및 가스",
-  "simpleHelpKo": "A breakdown of reserves 및 resource base by hydrocarbon category provides insight into potential future emissions. With better insight on future project inventories, split by hydrocarbon category, 데이터 사용자 및 investors will be in a better position to assess organizations' readiness for a low-carbon transition.",
+  "simpleHelpKo": "이 문항은 '탄화수소 범주별로 2P, 3P 매장량 및 총 자원 기반에 대한 표시 비율을 제공하세요'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

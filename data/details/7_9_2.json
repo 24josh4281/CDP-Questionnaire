@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide further details of the verification/assurance undertaken for your Scope 2 emissions and attach the relevant statements.",
-  "questionKo": "Scope 2 배출량 검증/보증에 대한 세부사항을 입력하고, 관련 문서를 첨부하십시오.",
+  "questionKo": "범위 2 배출량 검증/보증에 대한 세부사항을 입력하고, 관련 문서를 첨부하십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,7 +15,7 @@
     {
       "order": 1,
       "title": "Row 1",
-      "titleKo": "행 1"
+      "titleKo": "1행"
     }
   ],
   "columns": [
@@ -30,12 +30,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Scope 2 산정기준",
+      "textKo": "범위 2 접근방식",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Scope 2 지역기반",
-        "Scope 2 시장기반"
+        "범위 2 기준",
+        "범위 2 시장-기준"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -52,13 +52,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "현 검증주기",
+      "textKo": "또는",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Annual 프로세스",
-        "Biennial 프로세스",
-        "Triennial 프로세스"
+        "프로세스",
+        "프로세스",
+        "프로세스"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -76,14 +76,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "현 보고연도 검증 상황",
+      "textKo": "현재 보고연도",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "No 검증 또는 검증 of current 보고연도",
-        "Underway but not complete for current 보고연도 - first year it has taken place",
-        "Underway but not complete for 보고연도 - previous statement of 프로세스 attached",
-        "Complete"
+        "아니요 또는 의 현재 보고연도",
+        "하지만 미완료 현재 보고연도 - 연도 it",
+        "하지만 미완료 보고연도 - 이전 의 프로세스",
+        "완료"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -103,16 +103,16 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "검증 또는 보증 유형",
+      "textKo": "유형 의 또는",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "해당 없음",
-        "Limited 검증",
-        "Moderate 검증",
-        "Reasonable 검증",
-        "High 검증",
-        "Third party 검증/검증 underway"
+        "",
+        "",
+        "",
+        "",
+        "/"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -125,8 +125,8 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "관련 문건 첨부",
-      "typeKo": "파일 첨부",
+      "textKo": "",
+      "typeKo": "첨부파일",
       "mandatoryKo": "아니요",
       "optionsKo": [],
       "simple_helpKo": "",
@@ -140,7 +140,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "페이지/섹션 참조",
+      "textKo": "/",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -206,60 +206,60 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "검증 기준",
+      "textKo": "관련성 있음 기준",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
         "AA1000AS",
-        "ABNT NBR ISO 14064-3:2007 (Associação Brasileira de Normas Técnicas)",
-        "Advanced technologies promotion Subsidy Scheme with Emission reduction 목표 (ASSET)",
-        "Airport Carbon Accreditation (ACA) des Airports Council International Europe",
-        "Alberta 기술 Innovation 및 Emissions Reduction (TIER)",
+        "14064-3:2007 (Associação de Técnicas)",
+        "배출 목표 (자산)",
+        "탄소 ()",
+        "기술 및 배출량 ()",
         "ASAE3000",
-        "Attestation 기준 established by AICPA (AT105)",
-        "Australian National GHG emission regulation (NGER)",
-        "Australian Standard on Sustainability 검증 (ASSA 5000)",
-        "California Mandatory GHG Reporting Regulations (CARB)",
-        "Canadian Institute of Chartered Accountants (CICA) Handbook: 검증 Section 5025",
-        "Carbon Trust Standard",
-        "Chicago Climate Exchange (CCX) 검증 standard",
-        "Canadian Standard on 검증 참여s (CSAE) 3000",
-        "Canadian Standard on 검증 참여s (CSAE) 3410",
-        "The Climate Registry's 일반 검증 Protocol (also known as California Climate Action Registry (CCAR))",
-        "Compagnie Nationale des Commissaires aux Comptes (CNCC)",
-        "Corporate GHG 검증 guidelines from ERT",
-        "DNV VeriSustain Protocol/ 검증 Protocol for Sustainability Reporting",
-        "Dutch Standard 3000A",
-        "Earthcheck Certification",
-        "ERM GHG Performance Data 검증 방법론",
-        "European Union Emissions Trading System (EU ETS)",
-        "IDW PS 821: IDW Prüfungsstandard: Grundsätze ordnungsmäßiger Prüfung oder prüferischer Durchsicht von Berichtenim Bereich der Nachhaltigkeit",
-        "IDW AsS 821: IDW 검증 Standard: Generally Accepted 검증 Principles 에 대한 Audit 또는 Review of Reports on Sustainability Issues",
-        "European Sustainability Reporting 기준 (ESRS)",
+        "기준 (AT105)",
+        "배출 규제 ()",
+        "기준 (5000)",
+        "보고 규제 ()",
+        "의 (): 5025",
+        "탄소 기준",
+        "기후 () 기준",
+        "기준 () 3000",
+        "기준 () 3410",
+        "기후 's 일반 프로토콜 (또한 기후 ())",
+        "()",
+        "기업 에서",
+        "프로토콜/ 프로토콜 보고",
+        "기준 3000A",
+        "",
+        "데이터 방법론",
+        "배출량 (EU)",
+        "PS 821: Prüfungsstandard: Grundsätze ordnungsmäßiger Prüfung prüferischer",
+        "821: 기준: 또는 의",
+        "보고 ()",
         "ISAE3000",
-        "ISAE 3410",
+        "3410",
         "ISO14064-1",
         "ISO14064-3",
-        "Japan voluntary emissions trading scheme (JVETS) guideline for 검증",
-        "Korean GHG 및 energy 목표 관리 system",
-        "NMX-SAA-14064-3-IMNC: Instituto Mexicano de Normalización y Certificación A.C",
-        "RevR6 절차 for 검증 of sustainability report",
-        "ISSA 5000",
-        "Saitama Prefecture 목표-Setting Emissions Trading Program",
-        "SGS Sustainability Report 검증cou",
-        "Spanish Institute of Registered Auditors (ICJCE)",
-        "SSAE 3000",
-        "Philippine Standard on 검증 참여s 3000 (Revised) (PSAE 3000)",
-        "Standard 3810N 검증 참여s relating to sustainability reports 의 Royal Netherlands Institute of Registered Accountants",
-        "of Israel Ministry of Environmental Protection, 검증 of GHG 및 emissions reduction in Israel Guidance Document을/를 입력하십시오.",
-        "Swiss Climate CO2 Label for Businesses",
-        "Thai Greenhouse Gas 관리 Organisation (TGO) Greenhouse Gas (GHG) 검증 Protocol",
-        "Toitū Envirocare's carbonreduce certification standard",
-        "Tokyo Emissions Trading Scheme",
+        "배출량 ()",
+        "및 에너지 목표 관리",
+        "14064-3-: de Normalización y Certificación.C",
+        "RevR6 절차 의 보고",
+        "5000",
+        "목표- 배출량",
+        "보고",
+        "의 ()",
+        "3000",
+        "기준 3000 () (3000)",
+        "기준 3810N 의 의",
+        "명시 의 의 환경, 의 및 배출량 가이던스",
+        "기후 CO2 기업",
+        "온실가스 관리 () 온실가스 () 프로토콜",
+        "Toitū 's 기준",
+        "배출량",
         "기타, 직접 입력",
-        "Toitū climate positive",
-        "Toitū net carbonzero",
-        "검증 under the Korean Emissions Trading System (K-ETS)"
+        "Toitū 기후",
+        "Toitū",
+        "배출량 ()"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -272,7 +272,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "보고한 배출량 중 검증받은 비율(%)",
+      "textKo": "비례 의 보고된 배출량 (%)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -285,19 +285,19 @@
       "type": "Change From Last Year",
       "text": "Minor change",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "Minor change"
+      "textKo": "경미한 변경"
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Third-party verification or assurance process in place\" for Scope 2 emissions in response to 7.9.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Third-party 검증 또는 검증 프로세스 in place\" for Scope 2 배출량 in response to 7.9."
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nIf you are reporting third party verification or assurance underway, your entries into the table should reflect the emissions that are being subject to verification/assurance for the current reporting year, with the exception of the attached statement, which will relate to a previous year. \nCDP understands that you may seek verification for reasons other than reporting to CDP and that confidential information may be included within your detailed verification statement. In this case, it is sufficient for your verifier/assurer to attest to the Scope and level of assurance/verification through correspondence such as an abbreviated statement as long as this covers the data points outlined below (see guidance for column 5 \"Attach your statement here\"). \nScope 2 approach (column 1) \nThe \"Scope 2 market based\" dropdown only appears if you select \"We are reporting a Scope 2, market-based figure\" in column \"Scope 2, market-based\" of 7.3.\nIf you operate in a region where you need to calculate both a location-based and a market-based figure to meet Scope 2 requirements, at this stage CDP only requires for you to verify one of these figures. \nHowever, in the interest of transparency, you are asked to disclose which of the two figures you have verified. \nVerification or assurance cycle in place (column 2) \nA biennial verification/assurance process is where emissions are verified once every two years and a triennial verification/assurance process is where emissions are verified once every three years. \nYou may refer to the further information in 7.9 on annual, biennial and triennial processes for further information on annual, biennial and triennial processes. \nStatus in the current reporting year (column 3) \nPlease select the option most appropriate to your company. \nType of verification or assurance (column 4) \nThis column relates to the type of verification or assurance that has been awarded. \nThe option that is relevant will depend on the verification standard to which the verification process has been completed and the level of assurance agreed between the verifier and the company. \nCompanies can select from the following options: \nNot applicable - In very few cases, usually in program based compliance, the verification standard does not include a level of assurance; in this case select this option. \nLimited assurance - This is one of the most common levels of assurance and, for e.g., is appropriate to verification undertaken in accordance with ISO14064-3, ISAE3000, ASAE3000 and The Climate Registry. \nModerate assurance - For example, this level of assurance is appropriate to verification undertaken in accordance with AA1000AS and attestation standards established by AICPA. \nReasonable assurance - For example, this is appropriate to verification undertaken under ISO14064-3, ISAE3000, ASAE3000 and The Climate Registry; all verification undertaken for EU ETS compliance is to a level of \"reasonable assurance\" (according to the requirements of EA-6/03). \nHigh assurance - For example, this is appropriate to verification undertaken in accordance with AA1000AS and attestation standards established by AICPA. \nThird party verification/assurance underway - Select this option if verification/assurance is underway and you do not yet know the level of assurance that you are intending to achieve. \nAttach the statement (column 5) \nNote the requirements for the statement detailed below and the option to use the CDP template . \nAll companies should attach a verification statement here unless they have selected \"No verification or assurance of current reporting year\" or \"Underway but not complete for current reporting year - first year it has taken place\" in column 3 ‘Status in the current reporting year'. The statement should: \nClearly state that GHG emissions have been verified or assured as part of the process. If the statement refers to other documents that have been verified (such as Sustainability Report, Financial Report, GRI etc.) where items verified are specified, please attach those to the question as well; \nRelate to the relevant Scope; \nClearly state the opinion and type of verification/assurance that has been given and the verification standard used; and \nCover the current reporting year, or covers the 12-months prior if \"Underway but not complete for reporting year - previous statement of process attached\" is selected in \"Status in the current reporting year\" column. \nPage/section reference (column 6) \nPlease identify the page and the section that contains details of your verification/assurance of Scope 2 emissions. \nRelevant standard (column 7) \nThis column captures the verification standard against which the verification process has been undertaken. It does not refer to the reporting or calculation standard. \nCDP has produced criteria for what constitutes an acceptable verification standard. All accepted verification standards, and exceptions to their use, are listed here . \nThe verification standard reported in this column should be consistent with the standard stated in the verification statement. If the response is submitted before the official CDP deadline, CDP will then review the standard used and add it to the website under \"accepted\" or \"not accepted\" depending on the outcome of the standard review. \nIf the response is submitted after the official deadline, CDP cannot commit to review the standard used in time for scoring. \nSelect from the accepted standards listed or use \"Other, please specify\". \nStandards that have been approved by EU Member States for ESRS verification (e.g. H2A in France, SSAE in Italy or other such standards) should be reported by selecting the option \"European Sustainability Reporting Standards (ESRS)\".\nThe verification standards reported in this column should be consistent with the standards stated in the verification statement. \nProportion of reported emissions verified (%) (column 8) \nIt may be the case that only a sub-section of your emissions has been verified/assured due to, for e.g., regulatory requirements. \nPlease identify what proportion of your total reported emissions for Scope 2 has been subject to the verification/assurance process described.",
       "typeKo": "요청 내용",
-      "textKo": "일반 만약 you are reporting third party 검증 또는 검증 underway, your entries into the table 해야 합니다 reflect the emissions that are being subject to 검증/검증 에 대한 current 보고연도, with the exception 의 attached statement, which will relate to a previous year. CDP understands that you may seek 검증 for reasons other than reporting to CDP 및 that confidential information may be included within your detailed 검증 statement. In this case, it is sufficient 귀사의 verifier/assurer to attest to the Scope 및 level of 검증/검증 through correspondence such as an abbreviated statement as long as this covers the data 점 outlined below (see guidance for 열 5 \"Attach your statement here\"). Scope 2 산정기준 (열 1) The \"Scope 2 market based\" dropdown only appears 만약 you select \"We are reporting a Scope 2, 시장기반 figure\" in 열 \"Scope 2, 시장기반\" of 7.3. 만약 you operate in a region 여기서 you need to calculate both a 지역기반 및 a 시장기반 figure to meet Scope 2 requirements, at this stage CDP only requires for you to verify one 의se figures. However, in the interest of transparency, you are asked to disclose which 의 two figures you have verified. 검증 또는 검증 cycle in place (열 2) A biennial 검증/검증 프로세스 is 여기서 emissions are verified once every two years 및 a triennial 검증/검증 프로세스 is 여기서 emissions are verified once every three years. You may refer to the further information in 7.9 on annual, biennial 및 triennial 프로세스es for further information on annual, biennial 및 triennial 프로세스es. Status in the current 보고연도 (열 3) Please select the option most appropriate to your company. Type of 검증 또는 검증 (열 4) This 열 relates to the type of 검증 또는 검증 that has been awarded. The option that is 관련 will depend on the 검증 standard to which the 검증 프로세스 has been 완성 및 the level of 검증 agreed between the verifier 및 the company. Companies can select from the following options: Not 해당되는 경우 - In very few cases, usually in program based compliance, the 검증 standard does not include a level of 검증; in this case select this option. Limited 검증 - This is one 의 most common levels of 검증 and, for e.g., is appropriate to 검증 undertaken in accordance with ISO14064-3, ISAE3000, ASAE3000 및 The Climate Registry. Moderate 검증 - For example, this level of 검증 is appropriate to 검증 undertaken in accordance with AA1000AS 및 attestation 기준 established by AICPA. Reasonable 검증 - For example, this is appropriate to 검증 undertaken under ISO14064-3, ISAE3000, ASAE3000 및 The Climate Registry; all 검증 undertaken for EU ETS compliance is to a level of \"reasonable 검증\" (according to the requirements of EA-6/03). High 검증 - For example, this is appropriate to 검증 undertaken in accordance with AA1000AS 및 attestation 기준 established by AICPA. Third party 검증/검증 underway - Select this option 만약 검증/검증 is underway 및 you do not yet know the level of 검증 that you are intending to achieve. 관련 문건 첨부 (열 5) Note the requirements 에 대한 statement detailed below 및 the option to use the CDP template. All companies 해야 합니다 attach a 검증 statement here unless they have 선택 \"No 검증 또는 검증 of current 보고연도\" 또는 \"Underway but not complete for current 보고연도 - first year it has taken place\" in 열 3 ‘Status in the current 보고연도'. The statement 해야 합니다: Clearly state that 온실가스 배출량 have been verified 또는 assured 의 일부로 the 프로세스. 만약 the statement refers to other documents that have been verified (such as Sustainability Report, Financial Report, GRI etc.) 여기서 items verified are specified, please attach those to the 문항 as well; Relate to the 관련 Scope; Clearly state the opinion 및 type of 검증/검증 that has been given 및 the 검증 standard used; 및 Cover the current 보고연도, 또는 covers the 12-months prior 만약 \"Underway but not complete for 보고연도 - previous statement of 프로세스 attached\" is 선택 in \"Status in the current 보고연도\" 열. Page/section reference (열 6) Please identify the page 및 the section that contains details of your 검증/검증 of Scope 2 배출량. 관련 standard (열 7) This 열 captures the 검증 standard against which the 검증 프로세스 has been undertaken. It does not refer to the reporting 또는 계산 standard. CDP has produced 기준 for what constitutes an acceptable 검증 standard. All accepted 검증 기준, 및 exceptions to their use, are listed here. The 검증 standard 보고 in this 열 해야 합니다 be consistent with the standard stated in the 검증 statement. 만약 the response is submitted before the official CDP deadline, CDP will then review the standard used 및 add it to the website under \"accepted\" 또는 \"not accepted\" depending on the outcome 의 standard review. 만약 the response is submitted after the official deadline, CDP cannot commit to review the standard used in time for scoring. Select from the accepted 기준 listed 또는 use \"Other, 직접 입력\". 기준 that have been approved by EU Member States for ESRS 검증 (e.g. H2A in France, SSAE in Italy 또는 other such 기준) 해야 합니다 be 보고 by selecting the option \"European Sustainability Reporting 기준 (ESRS)\". The 검증 기준 보고 in this 열 해야 합니다 be consistent with the 기준 stated in the 검증 statement. Proportion of 보고 emissions verified (%) (열 8) It may be the case that only a sub-section of your emissions has been verified/assured due to, for e.g., 규제 요구사항. Please identify what proportion of your total 보고 emissions for Scope 2 has been subject to the 검증/검증 프로세스 설명d."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -501,7 +501,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -511,7 +511,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "General",
@@ -521,7 +521,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -531,7 +531,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -541,7 +541,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -551,7 +551,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Agricultural commodities",
@@ -561,7 +561,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -571,7 +571,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -581,7 +581,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -591,7 +591,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Aviation",
@@ -601,7 +601,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -611,7 +611,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -621,7 +621,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -631,7 +631,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Capital goods",
@@ -641,7 +641,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -651,7 +651,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -661,7 +661,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -671,7 +671,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -681,7 +681,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -691,7 +691,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -701,7 +701,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -711,7 +711,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -721,7 +721,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -731,7 +731,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -741,7 +741,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -751,7 +751,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -761,7 +761,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -771,7 +771,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -781,7 +781,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -791,7 +791,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Construction",
@@ -801,7 +801,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -811,7 +811,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -821,7 +821,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -831,7 +831,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -841,7 +841,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -851,7 +851,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -861,7 +861,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -871,7 +871,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -881,7 +881,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -891,7 +891,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -901,7 +901,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -911,7 +911,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -921,7 +921,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -931,7 +931,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -941,7 +941,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -951,7 +951,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Metals & mining",
@@ -961,7 +961,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -971,7 +971,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -981,7 +981,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -991,7 +991,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -1001,7 +1001,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -1011,7 +1011,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1021,7 +1021,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1031,7 +1031,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Paper & forestry",
@@ -1041,7 +1041,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -1051,7 +1051,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1061,7 +1061,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1071,7 +1071,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -1081,7 +1081,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -1091,7 +1091,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1101,7 +1101,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1111,7 +1111,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -1121,7 +1121,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -1131,7 +1131,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1141,7 +1141,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1151,7 +1151,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -1161,7 +1161,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1171,7 +1171,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1181,7 +1181,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1191,7 +1191,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1201,7 +1201,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1211,7 +1211,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1221,7 +1221,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "경로 A) Either 'Complete' 또는 'Underway but not complete for 보고연도 - previous statement of 프로세스 attached' 선택 in 열 'Status in current 보고연도'. i) All 의 following 열 완성 - 3.5 점 - '검증 또는 검증 cycle in place' - 'Type of 검증 또는 검증' - '관련 문건 첨부' ii) 열 'Page/section reference' 완성 - 0.5 점 iii) 열 '관련 standard' 완성 - 1 점 iv) 열 'Proportion of 보고 emissions verified (%)' 완성 - 1 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in current 보고연도' - 6 점 이 경로에서 획득 가능한 최고점은 6/6점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1231,7 +1231,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport services",
@@ -1241,7 +1241,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 공시에서 최고점을 획득해야 합니다. 경로 A) Document(s) in 열 '관련 문건 첨부' meet all 의 following 기준 - 4 점 i) The statement relates to Scope 2 greenhouse gas (GHG) emissions 또는 it is clear that Scope 2 온실가스 배출량 were the subject 의 검증 참여. 그리고 ii) The statement relates to the correct 보고연도 입력 in 문항 1.4 그리고 'Complete' is 선택 in 열 'Status in the 보고연도'. 또는 'Annual 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 12-month period prior to the 보고연도 입력 in 문항 1.4. 또는 'Biennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 2-year period prior to the 보고연도 입력 in 문항 1.4. 또는 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' 그리고 'Underway...previous statement attached' 선택 in 열 'Status in the current 보고연도' 그리고 Document attached refers to a 3-year period prior to the 보고연도 입력 in 문항 1.4. 그리고 iii) The 검증 standard referenced in the document is accepted by CDP. 그리고 iv) The statement contains an opinion 또는 finding which confirms 검증. 이 경로에서 획득 가능한 최고점은 4/4점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고 year' - 3 점 이 경로에서 획득 가능한 최고점은 3/4점입니다. 또는 경로 C) ‘No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 A 최고 of 0/4 점 is available for this 경로 One 행 scored. (Please note: Only documents 입력 in 문항 7.9.2 will be scored for this 문항. All 검증 또는 검증 statements attached in one 행 are subject to the 관리 level 기준. Please see the CDP 검증 page 에 대한 full list of accepted 검증 기준. 만약 multiple 기준 are 선택 in 열 ‘관련 standard', the statements attached 해야 합니다 collectively reference all 기준 선택.)"
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1251,12 +1251,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Both 의 following 기준 are met - 1 점 i) 'No' 선택 in 문항 7.4 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 그리고 'Scope 2 (시장기반)' NOT 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in all 행 문항 7.4.1. 또는 'Yes' 선택 in 문항 7.4 그리고 'Scope 2 (지역기반)' 또는 'Scope 2 (시장기반)' 선택 in 열 'Scope(s) 또는 Scope 3 category(ies)' in some/all 행 in 문항 7.4.1 그리고 Either 'Emissions are not 관련' 또는 'Emissions excluded due to recent acquisition' 선택 in 열 'Relevance of 지역기반 Scope 2 배출량 from this source' 또는 'Relevance of 시장기반 Scope 2 배출량 from this source' in all 해당되는 경우 행 in 문항 7.4.1. ii) The following is met for all 행 여기서 ‘Scope 2 지역기반' is 선택 in ‘Scope 2 산정기준' 또는 for all 행 여기서 ‘Scope 2 시장기반' is 선택 in ‘Scope 2 산정기준': For all 행 여기서 'Annual 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Biennial 프로세스' is 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 'Proportion of 보고 emissions verified (%)' is 100. 또는 For all 행 여기서 'Triennial 프로세스' 선택 in 열 '검증 또는 검증 cycle in place' the following 해야 합니다 be met: All 관련 statement(s) attached meet all 관리 기준 in 경로 A) 그리고 sum of figures 입력 in 열 'Proportion of 보고 emissions verified (%)' is 100. (Please note: For criterion ii) in 열 'Scope 2 산정기준', ‘Scope 2 지역기반' 그리고 ‘Scope 2 시장기반' 행 will NOT be combined in the sum of figures.) 이 경로에서 획득 가능한 최고점은 1/1점입니다. 또는 경로 B) 'Underway but not complete for current 보고연도 - first year it has taken place' 선택 in 열 'Status in the current 보고연도' in all 행 - 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. 또는 경로 C) 'No 검증 또는 검증 of current 보고연도' 선택 in 열 'Status in the current 보고 year'- 0 점 이 경로에서 획득 가능한 최고점은 0/1점입니다. One 행 scored."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "Scope 2 배출량에 대해 수행한 검증 / 보증에 대한 자세한 내용을 제공하고 관련 명세서를 첨부하십시오 . M7. Environmental Performance - Climate Change",
+    "question_ko": "범위 2 배출량 검증/보증에 대한 세부사항을 입력하고, 관련 문서를 첨부하십시오",
     "q2025": "Q7.9.2",
     "q2025_text": "Provide further details of the verification/assurance undertaken for your Scope 2 emissions and attach the relevant statements.",
     "change_status": "Minor change",
@@ -1272,16 +1272,16 @@
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
     "change_statusKo": "경미한 변경",
-    "detail_change_typesKo": "신규 드롭다운 선택지, 열 입력 유형 변경",
-    "change_summaryKo": "Updated the standard dropdown list 및 수정 guidance to reflect this. Change of 열 type from 'select from' to '해당하는 항목 모두 선택'.",
-    "scoring_change_summaryKo": "CC 전 섹터 관리 • Pre-requisite added 요구하기 위해 full 공시 점. • Additional check on 열 '관련 standard' for organizations who report multiple 기준 in one 행. • 경로 C for organizations who have 선택 ‘No 검증'. Scoring updated to account for updated functionality in 열 ‘관련 기준'. Clarification that 만약 multiple statements are attached then they will all be checked. As well as clarification to what scoring applied to organizations who select ‘No 검증'. CC 전 섹터 리더십 • Restructuring 기준의 및 경로 C added for organizations who select ‘No 검증'. Clarification to which 평가기준 applies to organizations who select ‘No 검증'.",
-    "daml_summaryKo": "일반: D 6/6 | A 0/0 | M 3 또는 4/4 | L 0 또는 1/1",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "detail_change_typesKo": "신규 드롭다운 선택지, 변경 열 유형",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "daml_summaryKo": "일반: D 6/6 | 0/0 | M 3 또는 4/4 | L 0 또는 1/1",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "further details 의 검증/검증 undertaken 귀사의 Scope 2 배출량 및 attach the 관련 statements.을/를 입력하십시오."
+    "q2025_textKo": "범위 2 배출량 검증/보증에 대한 세부사항을 입력하고, 관련 문서를 첨부하십시오"
   },
   "defaultPoints": {
     "D": "6/6",
@@ -1311,16 +1311,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "CDP supports 검증 및 검증 as good practice in environmental reporting. This 문항 gives 데이터 사용자 further confidence in the accuracy 의 data 보고.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '범위 2 배출량 검증/보증에 대한 세부사항을 입력하고, 관련 문서를 첨부하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Indicate which targets reported in 7.53.1/2 incorporate methane emissions, or if you do not have a methane-specific emissions reduction target for your fossil fuel activities, please explain why not and forecast how your methane emissions will change over the next five years.",
-  "questionKo": "Indicate which 목표 reported in 7.53.1/2 incorporate methane emissions, 또는 if you do not have a methane-specific emissions reduction 목표 for your fossil fuel activities, please 그 이유를 설명 not 및 forecast how your methane emissions will change over the next five years.",
+  "questionKo": "(M7.53.1/2)에서 보고한 목표 중 메탄 배출량을 포함하는 목표를 표시하거나, 석유 및 가스 활동에 대한 메탄 관련 배출 감축 목표가 없는 경우, 없는 이유를 설명하고 향후 5년간 메탄 배출량이 어떻게 변화할지 예측해 주세요",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -30,12 +30,12 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Methane emissions reduction 목표",
+      "textKo": "배출량 목표",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Methane emissions included in 목표 보고 in 문항 7.53.1 또는 7.53.2",
-        "No methane emissions reduction 목표 have been set for our fossil fuel activities"
+        "배출량 포함된 목표 보고된 문항 7.53.1 또는 7.53.2",
+        "아니요 배출량 목표 귀사의 화석 연료 활동"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -57,17 +57,17 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "주된 이유 for no methane emissions reduction 목표",
+      "textKo": "주된 이유 아니요 배출량 목표",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Evaluation in progress",
-        "Important but not an immediate business priority",
-        "Judged to be unimportant, 설명 입력",
-        "부족 internal resources",
-        "Insufficient data on operations",
-        "No instruction from 관리",
-        "Methane is not 해당되는 경우",
+        "평가 진행 중",
+        "중요 하지만 아님 사업 우선순위",
+        "판단됨 중요하지 않음, 설명 제공된",
+        "내부 자원 부족",
+        "데이터 부족 운영사업장",
+        "아니요 에서 관리",
+        "해당 없음",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -86,14 +86,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Anticipated direction of change in methane emissions",
+      "textKo": "의 변경 배출량",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Increase",
-        "Decrease",
+        "",
+        "",
         "변경 없음",
-        "Unknown"
+        "알 수 없음"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -118,11 +118,11 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Anticipated methane emissions change in %",
+      "textKo": "배출량 변경 %",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "미만 1 %",
+        "보다 1 %",
         "1-10%",
         "11-20%",
         "21-30%",
@@ -145,7 +145,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Please explain",
+      "textKo": "설명하십시오",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -158,19 +158,19 @@
       "type": "Change From Last Year",
       "text": "Modified question",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "수정 문항"
+      "textKo": "전년 대비 변경사항은 2026 CDP 원문 및 변경 추적표 기준으로 확인하십시오."
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you did not select \"Target(s) to reduce methane emissions\" in response to 7.54.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you did not select \"목표(s) to reduce methane emissions\" in response to 7.54."
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nA methane-specific target is any target to reduce specifically methane (CH4) emissions e.g. reduction of leakage, venting or flaring of methane. Consider both methane only targets and those which incorporate methane emissions.\nIf you select \"Methane emissions included in targets reported in questions 7.53.1 or 7.53.2\", ensure that you have selected \"Methane (CH4)\" in column \"Greenhouse gases covered by target\" and explained the methane component of that target in column \"Explain target coverage and identify any exclusions\" in at least one target reported in 7.53.1 or 7.53.2.\nFossil fuel activities here refer to any oil & gas and coal activities. \nPlease explain (column 5) \nIf you select \"Methane is not applicable\" in column \"Primary reason for no methane emissions reduction target\", explain the reasons why it is not applicable to your organization's fossil fuel activities.\nIf you select \"No methane emissions reduction targets have been set for our fossil fuel activities\" in column \"Methane emissions reduction targets\", provide a company specific description of why no targets have been set and give further details on how you forecast your methane emissions will change over the next five years.",
       "typeKo": "요청 내용",
-      "textKo": "일반 A methane-specific 목표 is 하나 이상 목표 to reduce specifically methane (CH4) emissions e.g. reduction of leakage, venting 또는 flaring of methane. Consider both methane only 목표 및 those which incorporate methane emissions. 만약 you select \"Methane emissions included in 목표 보고 in 문항 7.53.1 또는 7.53.2\", ensure that you have 선택 \"Methane (CH4)\" in 열 \"Greenhouse gases covered by 목표\" 및 explained the methane component of that 목표 in 열 \"Explain 목표 coverage 및 identify 제외사항\" in 최소 one 목표 보고 in 7.53.1 또는 7.53.2. Fossil fuel activities here refer to 하나 이상 oil & gas 및 coal activities. Please explain (열 5) 만약 you select \"Methane is not 해당되는 경우\" in 열 \"주된 이유 for no methane emissions reduction 목표\", explain the reasons why it is not 해당되는 경우 to 귀사의 fossil fuel activities. 만약 you select \"No methane emissions reduction 목표 have been set for our fossil fuel activities\" in 열 \"Methane emissions reduction 목표\", provide a company specific description of why no 목표 have been set 및 give further details on how you forecast your methane emissions will change over the next five years."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -204,7 +204,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -214,7 +214,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -224,7 +224,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 'Methane emissions included in 목표 보고 in 문항 7.53.1 또는 7.53.2' 선택 in 열 'Methane emissions reduction 목표' 그리고 'Methane' 선택 in 열 'Greenhouse gases covered by 목표' in 하나 이상 행 in either 7.53.1 또는 7.53.2 - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No methane emissions reduction 목표 have been set' 선택 in 열 'Methane emissions reduction 목표' 그리고 하나 이상 option 제외 'Unknown' 선택 in 열 'Anticipated direction of change in methane emissions' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No methane emissions reduction 목표 have been set' 선택 in 열 'Methane emissions reduction 목표' 그리고 'Methane not 해당되는 경우' 선택 in 열 '주된 이유' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -234,7 +234,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -244,7 +244,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -254,7 +254,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Oil & Gas",
@@ -264,7 +264,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로 A) 'Methane emissions included in 목표 보고 in 문항 7.53.1 또는 7.53.2' 선택 in 열 'Methane emissions reduction 목표' 그리고 'Methane' 선택 in 열 'Greenhouse gases covered by 목표' in 하나 이상 행 in either 7.53.1 또는 7.53.2 - 2/2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) 'No methane emissions reduction 목표 have been set' 선택 in 열 'Methane emissions reduction 목표' 그리고 하나 이상 option 제외 'Unknown' 선택 in 열 'Anticipated direction of change in methane emissions' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다. 또는 경로 C) 'No methane emissions reduction 목표 have been set' 선택 in 열 'Methane emissions reduction 목표' 그리고 'Methane not 해당되는 경우' 선택 in 열 '주된 이유' - 0/0 점 이 경로에서 획득 가능한 최고점은 0/0점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -274,12 +274,12 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Indicate which targets reported in 7.53.1/2 incorporate methane emissions, or if you do not have a methane-specific emissions reduction target for your fossil fuel activities, please explain why not and forecast how your methane emissions will change over t...",
+    "question_ko": "(M7.53.1/2)에서 보고한 목표 중 메탄 배출량을 포함하는 목표를 표시하거나, 석유 및 가스 활동에 대한 메탄 관련 배출 감축 목표가 없는 경우, 없는 이유를 설명하고 향후 5년간 메탄 배출량이 어떻게 변화할지 예측해 주세요",
     "q2025": "Q7.54.4",
     "q2025_text": "Indicate which targets reported in 7.53.1/2 incorporate methane emissions, or if you do not have a methane-specific emissions reduction target for your oil and gas activities, please explain why not and forecast how your methane emissions will change over the next five years.",
     "change_status": "Modified question",
@@ -294,17 +294,17 @@
     "daml_summary": "Coal: D 2/2 | A 0/0 | M 0, 1 or 2/0 or 2 | L 0/0\nOil & Gas: D 2/2 | A 0/0 | M 0, 1 or 2/0 or 2 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "문항 수정",
-    "detail_change_typesKo": "문항 문구 변경, 신규 열/행, 신규/수정 가이던스",
-    "change_summaryKo": "문항 text updated to remove \"Oil & Gas\" 및 replace with \"fossil fuel\". 신규 열 - appears for 'Oil & Gas' 및 'Coal' sectors.",
-    "scoring_change_summaryKo": "CC Coal 및 Oil 및 gas 공시 • 공시 level is now scored proportionally. Scoring adapted to changes in the 문항 structure. CC Coal 및 Oil 및 gas 관리 • Scoring of 문항 7.54.4 has been merged with 문항 7.54.5 및 now focuses on what has been 공개 in 열 ‘Methane emissions reduction 목표'. Scoring adapted to changes in the 문항 structure.",
-    "daml_summaryKo": "Coal: D 2/2 | A 0/0 | M 0, 1 또는 2/0 또는 2 | L 0/0 Oil & Gas: D 2/2 | A 0/0 | M 0, 1 또는 2/0 또는 2 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "daml_summaryKo": "석탄: D 2/2 | 0/0 | M 0, 1 또는 2/0 또는 2 | L 0/0 석유 및 가스: D 2/2 | 0/0 | M 0, 1 또는 2/0 또는 2 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "which 목표 보고 in 7.53.1/2 incorporate methane emissions, 또는 만약 you do not have a methane-specific emissions reduction 목표 귀사의 oil 및 gas activities, please 그 이유를 설명 not 및 forecast how your methane emissions will change over the next five years.을/를 표시하십시오."
+    "q2025_textKo": "(M7.53.1/2)에서 보고한 목표 중 메탄 배출량을 포함하는 목표를 표시하거나, 석유 및 가스 활동에 대한 메탄 관련 배출 감축 목표가 없는 경우, 없는 이유를 설명하고 향후 5년간 메탄 배출량이 어떻게 변화할지 예측해 주세요"
   },
   "defaultPoints": {
     "D": "2/2",
@@ -334,16 +334,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "석유 및 가스, 석탄",
-  "simpleHelpKo": "Methane emissions from the fossil fuel sector are increasingly viewed as a financial, regulatory, 및 평판al issue for companies. Investors are therefore interested in increasing the transparency of methane reduction efforts. This can be achieved by organizations reporting the methane 목표 they have in place 및 how they forecast that their methane emissions will change.",
+  "simpleHelpKo": "이 문항은 '(M7.53.1/2)에서 보고한 목표 중 메탄 배출량을 포함하는 목표를 표시하거나, 석유 및 가스 활동에 대한 메탄 관련 배출 감축 목표가 없는 경우, 없는 이유를 설명하고 향후 5년간 메탄 배출량이 어떻게 변화할지 예측해 주세요'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

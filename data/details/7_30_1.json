@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Report your organization's energy consumption totals (excluding feedstocks) in MWh.",
-  "questionKo": "원료용(feedstock)을 제외한 귀사의 총 에너지 소비량을 입력하십시오. (단위: MWh)",
+  "questionKo": "귀사의 에너지 소비 총량 (공급 원료 제외) 을 MWh 단위로 보고하십시오. `",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,37 +15,37 @@
     {
       "order": 1,
       "title": "Consumption of fuel (excluding feedstock)",
-      "titleKo": "Consumption of fuel (제외 feedstock)"
+      "titleKo": "소비 의 연료 (제외 원료)"
     },
     {
       "order": 2,
       "title": "Consumption of purchased or acquired electricity",
-      "titleKo": "Consumption of purchased 또는 acquired electricity"
+      "titleKo": "소비 의 또는 전력"
     },
     {
       "order": 3,
       "title": "Consumption of purchased or acquired heat",
-      "titleKo": "Consumption of purchased 또는 acquired heat"
+      "titleKo": "소비 의 또는 열"
     },
     {
       "order": 4,
       "title": "Consumption of purchased or acquired steam",
-      "titleKo": "Consumption of purchased 또는 acquired steam"
+      "titleKo": "소비 의 또는 스팀"
     },
     {
       "order": 5,
       "title": "Consumption of purchased or acquired cooling",
-      "titleKo": "Consumption of purchased 또는 acquired cooling"
+      "titleKo": "소비 의 또는 냉방"
     },
     {
       "order": 6,
       "title": "Consumption of self-generated non-fuel renewable energy",
-      "titleKo": "Consumption of self-generated non-fuel 재생에너지"
+      "titleKo": "소비 의 생산한 비-연료 에너지"
     },
     {
       "order": 7,
       "title": "Total energy consumption",
-      "titleKo": "Total 에너지 소비량"
+      "titleKo": "총 에너지 소비"
     }
   ],
   "columns": [
@@ -61,13 +61,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "활동",
+      "textKo": "가치",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "LHV (lower heating value)",
-        "HHV (higher heating value)",
-        "Unable to confirm heating value"
+        "(가치)",
+        "(가치)",
+        "가치"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -80,7 +80,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "발열량",
+      "textKo": "에서 조달함",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -95,7 +95,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "재생에너지 사용량 MWh",
+      "textKo": "에서 비- 조달함",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -110,7 +110,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "재생에너지 외 사용량 MWh",
+      "textKo": "에서 비- 또는 배출 조달함",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -125,7 +125,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "전체 사용량 MWh",
+      "textKo": "총 (+ 비-)",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -138,25 +138,25 @@
       "type": "Change From Last Year",
       "text": "Modified question",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "수정 문항"
+      "textKo": "전년 대비 변경사항은 2026 CDP 원문 및 변경 추적표 기준으로 확인하십시오."
     },
     {
       "type": "Question Dependencies",
       "text": "This question appears if you selected \"Yes\" to any of the activities listed in 7.30. A row will appear in this table for each energy-related activity selected in 7.30. The \"Total energy consumption\" row will always appear.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 appears 만약 you 선택 \"Yes\" to 하나 이상 의 activities listed in 7.30. A 행 will appear in this table for each energy-related activity 선택 in 7.30. The \"Total 에너지 소비량\" 행 will always appear."
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nFigures you provide should be for the reporting year only (as defined by your answer to 1.4).\nThe calculation of energy consumed from renewable sources and non-renewable sources that generate zero or near-zero emissions should be based on the same data sources as your applied emission factors used in the calculation of scope 2 emissions figure reported in 7.7 and should be consistent with the market-based scope 2 emission factor hierarchy. For example, if you purchased Energy Attribute Certificates (EACs) to claim half of your electricity consumption as renewable, you will need to use the relevant data source(s) from the emission factor hierarchy (e.g. residual mix data) to work out the share of renewables in the remaining half.\nThis table is for gross energy consumption data only. You should not provide net consumption nor deduct for energy produced or exported from the organizational boundary. Because feedstock fuels are excluded from this question, this approach should not lead to double counting.\nGuidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh \".\n\"Total (renewable + non-renewable) MWh [Auto-calculated]\" will be calculated using column \"MWh from renewable sources\" and column \"MWh from non-renewable sources\" only (not column \"MWh from non-renewable zero or near-zero emission sources\"). \nActivity (column 0) \nYou will be presented with a row for each activity selected in 7.30.\nConsumption of fuel (excluding feedstock) \nAll fuel consumed for energy purposes inside the organizational boundary should be included, regardless of whether the fuel was purchased or produced by the organization. Fuel consumed as a feedstock (used for the production of another fuel) should not be included. The produced fuel should still be included if it is consumed within the organizational boundary.\nIf you do not have exact consumption data, you may alternatively estimate your company's consumption by reviewing fuel and energy purchasing orders.\nConsumption of self-generated non-fuel renewable energy \nIf your organization produces renewable energy that is not based on fuel (such as solar, wind, hydro, geothermal, marine), then any consumption of this energy should be entered here.\nConsumption of renewable fuels (such as solid and liquid biofuels and biogas) should be excluded because these are accounted for in the row \"Consumption of fuel (excluding feedstock)\".\nAll forms of non-fuel renewable energy - electricity, heat, steam, or cooling - shall be included.\nTotal energy consumption \nThe data entered in each column of this row should equal the sum of all the above rows (if the above rows have been fully disclosed for).\nIf you do not disclose data for specific energy carriers in the rows above, but you are able to enter the total energy consumed by your organization, then you should do so.\nHeating value (column 1) \nThis column is only applicable to the consumption of fuels because it is a measure of combustion energy. In the other rows you should select \"Unable to confirm heating value\".\nFuel energy data in HHV is typically used in the United States and Canada, whereas LHV is more commonly the unit used in other countries/areas and by international bodies. If you do not know the unit applicable to your raw data, you may wish to infer it based on the location from which the data is sourced, i.e. if the fuel related data is sourced from outside of the United States and Canada, then it is likely that LHV is applicable.\nMWh from renewable sources (column 2) \nWaste energy should not be included if it is derived from fossil fuels. \nHydrogen should not be included if it is derived from fossil fuels.\nBlended fuels deriving from both renewable and non-renewable sources should be split by the proportion contained from each source. For municipal waste and refuse-derived fuel, only the fraction of the fuel that is derived from biomass can be included as renewable energy, when calculating renewable energy consumption totals. Further explanations of municipal waste and a glossary of fuel definitions is provided in the CDP Technical Note: \" Fuel Definitions \".\nMWh from non-renewable sources (column 3) \nAll energy not identified as deriving from renewable sources should be entered, e.g. coal, oil, natural gas, etc.\nDirect consumption of nuclear fuel should not be included, as this is covered in more detail in questions for electric utilities. Consumption of purchased or acquired electricity, steam, heat and/or cooling from nuclear sources, however, should be included.\nFigures reported in this column should be inclusive of figures reported in column \"MWh from non-renewable zero or near-zero emission sources\".\nMWh from non-renewable zero or near-zero emission sources (column 4) \nThis figure should be a subset of the figure reported in column \"MWh from non-renewable sources\".\nInclude electricity consumption from nuclear plants and fossil fuel plants fitted with carbon capture and storage which generate zero or near-zero emissions.\nDo not include electricity consumption from fossil-fuel plants fitted with carbon capture and storage if the emissions associated with its generation are higher than near-zero.\nDo not include natural gas, combined cycle gas turbine or fossil fuel-based combined heat and power (cogeneration). Although these sources are less carbon intensive than other means of electricity production like coal, they should not be reported in this column as they do not generate zero or near-zero emissions.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Figures you provide 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). The 계산 of energy consumed from re신규able sources 및 non-re신규able sources that generate zero 또는 near-zero emissions 해야 합니다 be based on the same data sources as your applied emission factors used in the 계산 of Scope 2 배출량 figure 보고 in 7.7 및 해야 합니다 be consistent with the 시장기반 scope 2 emission factor hierarchy. For example, 만약 you purchased Energy Attribute Certificates (EACs) to claim half of your 전력 소비량 as re신규able, you will need to use the 관련 data source(s) from the emission factor hierarchy (e.g. residual mix data) to work out the share of re신규ables in the remaining half. This table is for gross 에너지 소비량 data only. You 해야 합니다 not provide net consumption nor deduct for energy produced 또는 exported from the 조직경계. Because feedstock fuels are excluded from this 문항, this approach 해야 합니다 not lead to double counting. Guidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh \". \"Total (re신규able + non-re신규able) MWh [Auto-calculated]\" will be calculated using 열 \"MWh from re신규able sources\" 및 열 \"MWh from non-re신규able sources\" only (not 열 \"MWh from non-re신규able zero 또는 near-zero emission sources\"). Activity (열 0) You will be presented with a 행 for each activity 선택 in 7.30. Consumption of fuel (제외 feedstock) All fuel consumed for energy purposes inside the 조직경계 해야 합니다 be included, regardless of whether the fuel was purchased 또는 produced by the organization. Fuel consumed as a feedstock (used 에 대한 production of another fuel) 해야 합니다 not be included. The produced fuel 해야 합니다 still be included 만약 it is consumed within the 조직경계. 만약 you do not have exact consumption data, you may alternatively estimate your company's consumption by reviewing fuel 및 energy purchasing orders. Consumption of self-generated non-fuel 재생에너지 만약 귀사 produces 재생에너지 that is not based on fuel (such as solar, wind, hydro, geothermal, marine), then 하나 이상 consumption of this energy 해야 합니다 be entered here. Consumption of re신규able fuels (such as solid 및 liquid biofuels 및 biogas) 해야 합니다 be excluded because these are accounted for in the 행 \"Consumption of fuel (제외 feedstock)\". All forms of non-fuel 재생에너지 - electricity, heat, steam, 또는 cooling - shall be included. Total 에너지 소비량 The data entered in each 열 of this 행 해야 합니다 equal the sum of all the above 행 (만약 the above 행 have been fully 공개 for). 만약 you do not disclose data for specific energy carriers in the 행 above, but you are able to enter the total energy consumed by 귀사, then you 해야 합니다 do so. 활동 (열 1) This 열 is only 해당되는 경우 to the consumption of fuels because it is a measure of combustion energy. In the other 행 you 해야 합니다 select \"Unable to confirm 활동\". Fuel energy data in HHV is typically used in the United States 및 Canada, whereas LHV is more commonly the unit used in other countries/areas 및 by international bodies. 만약 you do not know the unit 해당되는 경우 to your raw data, you may wish to infer it based on the location from which the data is sourced, i.e. 만약 the fuel related data is sourced from outside 의 United States 및 Canada, then it is likely that LHV is 해당되는 경우. MWh from re신규able sources (열 2) Waste energy 해야 합니다 not be included 만약 it is derived from fossil fuels. Hydrogen 해야 합니다 not be included 만약 it is derived from fossil fuels. Blended fuels deriving from both re신규able 및 non-re신규able sources 해야 합니다 be split by the proportion contained from each source. For municipal waste 및 refuse-derived fuel, only the fraction 의 fuel that is derived from biomass can be included as 재생에너지, 경우 calculating re신규able 에너지 소비량 totals. Further 설명s of municipal waste 및 a glossary of fuel definitions is 입력 in the CDP Technical Note: \" Fuel Definitions \". MWh from non-re신규able sources (열 3) All energy not identified as deriving from re신규able sources 해야 합니다 be entered, e.g. coal, oil, natural gas, etc. Direct consumption of nuclear fuel 해야 합니다 not be included, as this is covered in more detail in 문항 for electric utilities. Consumption of purchased 또는 acquired electricity, steam, heat 및/또는 cooling from nuclear sources, however, 해야 합니다 be included. Figures 보고 in this 열 해야 합니다 be inclusive of figures 보고 in 열 \"MWh from non-re신규able zero 또는 near-zero emission sources\". MWh from non-re신규able zero 또는 near-zero emission sources (열 4) This figure 해야 합니다 be a subset 의 figure 보고 in 열 \"MWh from non-re신규able sources\". Include 전력 소비량 from nuclear plants 및 fossil fuel plants fitted with carbon capture 및 storage which generate zero 또는 near-zero emissions. Do not include 전력 소비량 from fossil-fuel plants fitted with carbon capture 및 storage 만약 the emissions associated with its generation are higher than near-zero. Do not include natural gas, combined cycle gas turbine 또는 fossil fuel-based combined heat 및 power (cogeneration). Although these sources are less carbon intensive than other means of electricity production like coal, they 해야 합니다 not be 보고 in this 열 as they do not generate zero 또는 near-zero emissions."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Heating Value: Lower heating value (LHV) and Higher heating value (HHV), also known as net calorific value (NCV) and gross calorific value (GCV) respectively, are different measures of heat energy released from fuel combustion. Figures measured in HHV are larger because HHV includes the latent heat of water vaporization from combustion, whereas LHV does not. The difference between LHV and HHV is related to the fuel's hydrogen content.\nRenewable energy:  energy taken from sources that are inexhaustible, e.g. wind, water, solar, geothermal energy and sustainable biofuels (adapted from the GHG protocol, 2004 ).\nLow-carbon energy: in line with the IEA definition, low-carbon technologies are technologies that produce low - or zero - greenhouse-gas emissions while operating. In the power sector this includes fossil-fuel plants fitted with carbon capture and storage, nuclear plants and renewable-based generation technologies. Natural gas, combined cycle gas turbine and fossil fuel-based combined heat and power (cogeneration), despite being less carbon intensive than other means of electricity production like coal, are not considered low-carbon.",
-      "typeKo": "설명 of Terms",
-      "textKo": "활동: Lower 활동 (LHV) 및 Higher 활동 (HHV), also known as net calorific value (NCV) 및 gross calorific value (GCV) respectively, are different measures of heat energy released from fuel combustion. Figures measured in HHV are larger because HHV includes the latent heat of water vaporization from combustion, whereas LHV does not. The difference between LHV 및 HHV is related to the fuel's hydrogen content. 재생에너지: energy taken from sources that are inexhaustible, e.g. wind, water, solar, geothermal energy 및 sustainable biofuels (adapted from the GHG protocol, 2004). Low-carbon energy: in line with the IEA definition, low-carbon technologies are technologies that produce low - 또는 zero - greenhouse-gas emissions while operating. In the power sector this includes fossil-fuel plants fitted with carbon capture 및 storage, nuclear plants 및 re신규able-based generation technologies. Natural gas, combined cycle gas turbine 및 fossil fuel-based combined heat 및 power (cogeneration), despite being less carbon intensive than other means of electricity production like coal, are not considered low-carbon."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -360,7 +360,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -370,7 +370,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -380,7 +380,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -390,7 +390,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -400,7 +400,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -410,7 +410,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -420,7 +420,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -430,7 +430,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -440,7 +440,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -450,7 +450,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -460,7 +460,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -470,7 +470,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -480,7 +480,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -490,7 +490,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -500,7 +500,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -510,7 +510,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -520,7 +520,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -530,7 +530,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -540,7 +540,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -550,7 +550,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -560,7 +560,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -570,7 +570,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -580,7 +580,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Chemicals",
@@ -590,7 +590,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Coal",
@@ -600,7 +600,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -610,7 +610,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -620,7 +620,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -630,7 +630,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -640,7 +640,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -650,7 +650,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -660,7 +660,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -670,7 +670,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -680,7 +680,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -690,7 +690,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -700,7 +700,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -710,7 +710,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Financial services",
@@ -720,7 +720,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -730,7 +730,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -740,7 +740,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -750,7 +750,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -760,7 +760,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -770,7 +770,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -780,7 +780,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -790,7 +790,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -800,7 +800,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -810,7 +810,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -820,7 +820,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -830,7 +830,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -840,7 +840,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -850,7 +850,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -860,7 +860,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -870,7 +870,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -880,7 +880,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -890,7 +890,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -900,7 +900,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -910,7 +910,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -920,7 +920,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -930,7 +930,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -940,7 +940,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -950,7 +950,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -960,7 +960,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -970,7 +970,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -980,7 +980,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Steel",
@@ -990,7 +990,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Transport OEMS",
@@ -1000,7 +1000,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1010,7 +1010,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1020,7 +1020,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -1030,7 +1030,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1040,7 +1040,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1050,7 +1050,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1060,7 +1060,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1070,7 +1070,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1080,7 +1080,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점수가 부여됩니다 per 완성된 칸(셀) in proportion to the number of 표시된 칸(셀) (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1090,7 +1090,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "점수가 부여됩니다 per 완성 행 in proportion to the number of 행 공개 (제외 열 'Total (re신규able 및 non-re신규able) MWh'). 이 문항에서 획득 가능한 최고점은 3/3점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1100,7 +1100,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 25% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 10% 또는 more 의 figure 입력 in 열 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1110,12 +1110,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "리더십 점수를 획득하려면 관리에서 최고점을 획득해야 합니다. 경로 A) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 99% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 75% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1.5/2 점 A 최고 of 1.5/2 점 is available for this 경로. 또는 경로 C) Sum of Figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near-zero emission sources' accounts for 50% 또는 more 의 figure 입력 in 'Total (re신규able 및 non-re신규able) MWh' in 행 'Total 에너지 소비량' - 1/2 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "귀사의 에너지 소비 총량 ( 공급 원료 제외 ) 을 MWh 단위로 보고하십시오 . ` M7. Environmental Performance - Climate Change 활동 발열량 재생에너지 사용량 MWh 재생에너지 외 사용량 MWh 전체 사용량 MWh 연료 소비량 ( 공급 원료 제외 ) 각 항목마다 선택 LHV( 낮은 발열량 ) HHV( 높은 발열량 ) 발열량 확인 불가 구매 또는 획득한 전기 소비량 구매 또는 획득한 열의 소비량 구매 또는 획득한 증기의 소비량 구매 또는 획득한 냉각 소비량 자가 발전 비연료 재생 에너지 소비량 총 에너지 소비량",
+    "question_ko": "귀사의 에너지 소비 총량 (공급 원료 제외) 을 MWh 단위로 보고하십시오. `",
     "q2025": "Q7.30.1",
     "q2025_text": "Report your organization's energy consumption totals (excluding feedstocks) in MWh.",
     "change_status": "Modified question",
@@ -1130,17 +1130,17 @@
     "daml_summary": "General: D 6/6 | A 3/3 | M 1 or 2/2 | L 1, 1.5 or 2/2",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "문항 수정",
-    "detail_change_typesKo": "가이던스 수정, 신규 열, 자동계산 수정",
-    "change_summaryKo": "Guidance 수정 to reflect the 문항 now asks about 재생에너지 및 other low carbon electricity. Additional guidance added to clarify the 계산 의 Total 열. Clarification of which energy sources 해야 합니다 be included in the 계산. 신규 열 - appears only for electricity 및 total 행. 열 now autocalculated",
-    "scoring_change_summaryKo": "CC All 제외 Chemicals, Energy utilities 및 power generators 및 Steel 관리 & 리더십 • 관리 및 리더십 updated to check the sum of figures 입력 in both 열 'MWh from re신규able sources' 그리고 ‘MWh from non-re신규able zero 또는 near- zero emission sources'. Adjustment at 관리 및 리더십 scoring from % of re신규able to % of re신규able 및 other low carbon. This is a part of changes across energy 문항 to capture data from low carbon but non-re신규able emission sources aligning with a more tech- agnostic approach but still incentivizing low carbon emissions energy sources.",
-    "daml_summaryKo": "일반: D 6/6 | A 3/3 | M 1 또는 2/2 | L 1, 1.5 또는 2/2",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "scoring_change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "daml_summaryKo": "일반: D 6/6 | 3/3 | M 1 또는 2/2 | L 1, 1.5 또는 2/2",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "Report 귀사의 에너지 소비량 totals (제외 feedstocks) in MWh."
+    "q2025_textKo": "귀사의 에너지 소비 총량 (공급 원료 제외) 을 MWh 단위로 보고하십시오. `"
   },
   "defaultPoints": {
     "D": "6/6",
@@ -1170,16 +1170,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "Given the importance of 에너지 소비량 in 배출량 회계, this 문항 attempts to provide transparency to 데이터 사용자 on the consumption of energy by the organization. The 문항 provides the opportunity for organizations to disclose their total 에너지 소비량 및 distinguish re신규able 및 non-re신규able forms of energy.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '원료용(원료)을 제외한 귀사의 총 에너지 소비량을 입력하십시오. (단위: MWh)'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

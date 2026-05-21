@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Identify the total number of initiatives at each stage of development, and for those in the implementation stages, the estimated CO2e savings.",
-  "questionKo": "각 진행단계별 감축활동의 수를 입력하십시오. 만약, 감축활동이 이행단계에 있을 경우, 예상 감축량을 입력하십시오.",
+  "questionKo": "각 개발 단계의 총 이니셔티브 수와 구현 단계에 있는 계획의 예상 CO2e 절감량을 확인하십시오. 이 질문은",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,27 +15,27 @@
     {
       "order": 1,
       "title": "Under investigation",
-      "titleKo": "Under investigation"
+      "titleKo": ""
     },
     {
       "order": 2,
       "title": "To be implemented",
-      "titleKo": "To be implemented"
+      "titleKo": ""
     },
     {
       "order": 3,
       "title": "Implementation commenced",
-      "titleKo": "이행 commenced"
+      "titleKo": ""
     },
     {
       "order": 4,
       "title": "Implemented",
-      "titleKo": "Implemented"
+      "titleKo": ""
     },
     {
       "order": 5,
       "title": "Not to be implemented",
-      "titleKo": "Not to be implemented"
+      "titleKo": "아님"
     }
   ],
   "columns": [
@@ -47,7 +47,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "진행 단계",
+      "textKo": "숫자 입력 의",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -62,7 +62,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "감축활동 수",
+      "textKo": "총 추정 CO2e 지표 CO2e",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -75,19 +75,19 @@
       "type": "Change From Last Year",
       "text": "Revised question dependency",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "Revised 문항 dependency"
+      "textKo": "전년 대비 변경사항은 2026 CDP 원문 및 변경 추적표 기준으로 확인하십시오."
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to column 1 \"Emissions reduction initiatives that were active within the reporting year\" in 7.55",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Yes\" in response to 열 1 \"Emissions reduction 이니셔티브 that were active within the 보고연도\" in 7.55"
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nOnly initiatives to reduce CO2e emissions within your organization's value chain (i.e. Scope 1, Scope 2 and/or Scope 3) should be reported here.\nStage of development \n(column 1) \nReport the initiatives in the following stages of development: \nUnder investigation: A potential initiative to reduce emissions that is being evaluated but not yet approved by your company during the reporting year. \nTo be implemented: An initiative to reduce emissions that has been approved for implementation by your company but its implementation has not yet commenced during the reporting year. \nImplementation commenced: An initiative to reduce emissions was started/activated in the reporting year, but by the end of the reporting period it was not yet fully active/functional in realizing emissions reductions. \nImplemented: An initiative that has fully come into effect in the reporting year e.g. it has become fully operational/functional in realizing CO2e savings. \nNot to be implemented: A potential initiative to reduce emissions that was evaluated but not pursued by your company during the reporting year. \nCompanies should report on these stages of development in the context of the reporting year. Unless the project was new to one of the stages of development in the reporting year, it should not be reported. \nNumber of initiatives \n(column 2) \nWhere there are no projects in a stage of development, state 0 (zero). This column should be completed for all rows. \nTotal estimated annual CO2e savings in metric tons CO2e \n(column 3) \nIt is acknowledged that the CO2e savings will be an estimate. More detail is requested on individual initiatives (or programs of activity) that have been implemented in the reporting year in 7.55.2. Initiatives do not need to relate to specific targets disclosed in the questionnaire.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Only 이니셔티브 to reduce CO2e emissions within 귀사의 가치사슬 (i.e. Scope 1, Scope 2 및/또는 Scope 3) 해야 합니다 be 보고 here. Stage of development (열 1) Report the 이니셔티브 in the following stages of development: Under investigation: A potential 이니셔티브 to reduce emissions that is being evaluated but not yet approved by your company during the 보고연도. To be implemented: An 이니셔티브 to reduce emissions that has been approved for 이행 by your company but its 이행 has not yet commenced during the 보고연도. 이행 commenced: An 이니셔티브 to reduce emissions was started/activated in the 보고연도, but by the 보고기간 말 it was not yet fully active/functional in realizing emissions reductions. Implemented: An 이니셔티브 that has fully come into effect in the 보고연도 e.g. it has become fully operational/functional in realizing CO2e savings. Not to be implemented: A potential 이니셔티브 to reduce emissions that was evaluated but not pursued by your company during the 보고연도. Companies 해야 합니다 report on these stages of development in the context 의 보고연도. Unless the project was 신규 to one 의 stages of development in the 보고연도, it 해야 합니다 not be 보고. Number of 이니셔티브 (열 2) 여기서 there are no projects in a stage of development, state 0 (zero). This 열 해야 합니다 be 완성 for all 행. Total estimated annual CO2e savings in 미터톤 CO2e (열 3) It is acknowledged that the CO2e savings will be an estimate. More detail is requested on individual 이니셔티브 (or programs of activity) that have been implemented in the 보고연도 in 7.55.2. 이니셔티브 do not need to relate to specific 목표 공개 in the 질문서."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -291,7 +291,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -301,7 +301,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "General",
@@ -311,7 +311,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "General",
@@ -321,7 +321,7 @@
       "sectorKo": "일반",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -331,7 +331,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -341,7 +341,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -351,7 +351,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Agricultural commodities",
@@ -361,7 +361,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -371,7 +371,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -381,7 +381,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Aviation",
@@ -391,7 +391,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Aviation",
@@ -401,7 +401,7 @@
       "sectorKo": "항공",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -411,7 +411,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -421,7 +421,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Capital goods",
@@ -431,7 +431,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -441,7 +441,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -451,7 +451,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -461,7 +461,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -471,7 +471,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Cement",
@@ -481,7 +481,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -491,7 +491,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -501,7 +501,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Chemicals",
@@ -511,7 +511,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Chemicals",
@@ -521,7 +521,7 @@
       "sectorKo": "화학",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -531,7 +531,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -541,7 +541,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Coal",
@@ -551,7 +551,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -561,7 +561,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -571,7 +571,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -581,7 +581,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -591,7 +591,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -601,7 +601,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -611,7 +611,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -621,7 +621,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -631,7 +631,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -641,7 +641,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -651,7 +651,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -661,7 +661,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Financial services",
@@ -671,7 +671,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Financial services",
@@ -681,7 +681,7 @@
       "sectorKo": "금융 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -691,7 +691,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -701,7 +701,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -711,7 +711,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -721,7 +721,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -731,7 +731,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -741,7 +741,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Metals & mining",
@@ -751,7 +751,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Metals & mining",
@@ -761,7 +761,7 @@
       "sectorKo": "금속 및 광업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -771,7 +771,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -781,7 +781,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -791,7 +791,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -801,7 +801,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -811,7 +811,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -821,7 +821,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -831,7 +831,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Paper & forestry",
@@ -841,7 +841,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -851,7 +851,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -861,7 +861,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -871,7 +871,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -881,7 +881,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -891,7 +891,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -901,7 +901,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Steel",
@@ -911,7 +911,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Steel",
@@ -921,7 +921,7 @@
       "sectorKo": "철강",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -931,7 +931,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -941,7 +941,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS",
@@ -951,7 +951,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS",
@@ -961,7 +961,7 @@
       "sectorKo": "운송 OEM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -971,7 +971,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -981,7 +981,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -991,7 +991,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport OEMS - EPM",
@@ -1001,7 +1001,7 @@
       "sectorKo": "운송 OEM - EPM",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -1011,7 +1011,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "i) 열 'Number of 이니셔티브' 완성 - 1 점 ii) Figure 입력 in 열 'Total estimated annual CO2e savings in 미터톤 CO2e' in each 의 following 행 - 1 점 - 'To be implemented' - '이행 commenced' - 'Implemented' 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1021,7 +1021,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "공시에서 최고점 획득 - 2 점 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "전체 공시 점수수수 부여됨 - 2 점 이 문항에서 최대 2/2점을 받을 수 있습니다."
     },
     {
       "sector": "Transport services",
@@ -1031,7 +1031,7 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. 경로 A) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 'Implemented' - 2 점 이 경로에서 획득 가능한 최고점은 2/2점입니다. 또는 경로 B) Figure 초과 0 입력 in both 열 'Number of 이니셔티브' 그리고 'Total estimated…' in 행 '이행 commenced' - 1 점 이 경로에서 획득 가능한 최고점은 1/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Transport services",
@@ -1041,12 +1041,12 @@
       "sectorKo": "운송 서비스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "관리에서 최고점 획득 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "전체 관리 점수수수 부여됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "각 개발 단계의 총 이니셔티브 수와 구현 단계에 있는 계획의 예상 CO2e 절감량을 확인하십시오 . 이 질문은 M7.55 에 대한 응답으로 \" 예 \" 를 선택한 경우에만 나타납니다 . ` M7. Environmental Performance - Climate Change 진행 단계 이니셔티브 수 연간 총 온실가스 예상 감축량 ( 별표 (*) 로 표시된 행만 ) 검토중 이행예정* 이행중 * 이행완료* 이행되지 않음",
+    "question_ko": "각 개발 단계의 총 이니셔티브 수와 구현 단계에 있는 계획의 예상 CO2e 절감량을 확인하십시오. 이 질문은",
     "q2025": "Q7.55.1",
     "q2025_text": "Identify the total number of initiatives at each stage of development, and for those in the implementation stages, the estimated CO2e savings.",
     "change_status": "Revised question dependency",
@@ -1061,17 +1061,17 @@
     "daml_summary": "General: D 2/2 | A 2/2 | M 1 or 2/2 | L 1/1",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "문항 의존성 수정",
-    "detail_change_typesKo": "신규/수정 가이던스, 문항 의존성 수정",
-    "change_summaryKo": "Guidance added to specify only 이니셔티브 to reduce emissions in the 조직의 가치사슬 are 관련 및 문항 dependency updated to reflect the changes to 7.55.",
+    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "일반: D 2/2 | A 2/2 | M 1 또는 2/2 | L 1/1",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "일반: D 2/2 | 2/2 | M 1 또는 2/2 | L 1/1",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "the total number of 이니셔티브 at each stage of development, 및 for those in the 이행 stages, the estimated CO2e savings.을/를 식별하십시오."
+    "q2025_textKo": "각 개발 단계의 총 이니셔티브 수와 구현 단계에 있는 계획의 예상 CO2e 절감량을 확인하십시오. 이 질문은"
   },
   "defaultPoints": {
     "D": "2/2",
@@ -1101,16 +1101,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
-  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, Food, beverage & tobacco, 제지 및 임업, 부동산, 건설",
-  "simpleHelpKo": "This 문항 demonstrates to CDP 데이터 사용자 귀사의 progress towards reducing emissions through implementing emissions reduction 이니셔티브.",
+  "issueTagsKo": "기후 변경",
+  "sectorTagsKo": "금융 서비스, 석유 및 가스, 석탄, 일반, 항공, 자본재, 운송 OEM - EPM, 화학, 금속 및 광업, 운송 서비스, 철강, 농산물 원자재, 운송 OEM, 에너지 유틸리티 및 발전, 시멘트, 식품, 음료 & 담배, 제지 및 임업, 부동산, 건설",
+  "simpleHelpKo": "이 문항은 '각 개발 단계의 총 이니셔티브 수와 구현 단계에 있는 계획의 예상 CO2e 절감량을 확인하십시오. 이 질문은'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

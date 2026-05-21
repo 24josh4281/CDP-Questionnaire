@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Report your organization's energy consumption totals (excluding feedstocks) for cement production activities in MWh.",
-  "questionKo": "Report 귀사의 에너지 소비량 totals (excluding feedstocks) for 시멘트 생산 활동 in MWh.",
+  "questionKo": "보고 조직의 에너지 소비량 (제외 원료) 시멘트 생산 활동 MWh.",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -15,22 +15,22 @@
     {
       "order": 1,
       "title": "Consumption of fuel (excluding feedstocks)",
-      "titleKo": "Consumption of fuel (제외 feedstocks)"
+      "titleKo": "소비 의 연료 (제외 원료)"
     },
     {
       "order": 2,
       "title": "Consumption of purchased or acquired electricity",
-      "titleKo": "Consumption of purchased 또는 acquired electricity"
+      "titleKo": "소비 의 또는 전력"
     },
     {
       "order": 3,
       "title": "Consumption of other purchased or acquired energy (heat, steam and/or cooling)",
-      "titleKo": "Consumption of other purchased 또는 acquired energy (heat, steam 및/또는 cooling)"
+      "titleKo": "소비 의 기타 또는 에너지 (열, 스팀 및/또는 냉방)"
     },
     {
       "order": 4,
       "title": "Total energy consumption",
-      "titleKo": "Total 에너지 소비량"
+      "titleKo": "총 에너지 소비"
     }
   ],
   "columns": [
@@ -42,7 +42,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "MWh consumed from re신규able sources inside cement sector boundary",
+      "textKo": "소비한 에서 조달함 시멘트 섹터",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -57,7 +57,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "MWh consumed from non-re신규able sources inside cement sector boundary",
+      "textKo": "소비한 에서 비- 조달함 시멘트 섹터",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -72,7 +72,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "MWh consumed from non-re신규able zero 또는 near-zero emission sources inside cement sector boundary",
+      "textKo": "소비한 에서 비- 또는 배출 조달함 시멘트 섹터",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -87,7 +87,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Total MWh",
+      "textKo": "총 MWh",
       "typeKo": "숫자 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -100,19 +100,19 @@
       "type": "Change From Last Year",
       "text": "Modified question",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "수정 문항"
+      "textKo": "전년 대비 변경사항은 2026 CDP 원문 및 변경 추적표 기준으로 확인하십시오."
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" to any of the activities listed in 7.30. A row will appear in this table for each energy-related activity selected in 7.30. The \"Total energy consumption\" row will always appear.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Yes\" to 하나 이상 의 activities listed in 7.30. A 행 will appear in this table for each energy-related activity 선택 in 7.30. The \"Total 에너지 소비량\" 행 will always appear."
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nThis question is based on question 7.30.1 but is sector specific. Energy consumed outside the cement sector should not be reported here.\nThe boundary surrounding your organization in the cement sector shall hereby be referred to as the organizational/sector boundary. The sector boundary for energy consumption should align with the sector boundary for emissions, which is described in the guidance to question 7.19.\nFigures you provide should be for the reporting year only (as defined by your answer to 1.4).\nGuidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh \".\nReport all of your fuel data consistently using the same heating value as selected in 7.30.1.\n\"Total MWh\" will be calculated using column \"MWh consumed from renewable sources inside cement sector boundary\" and column \"MWh consumed from non-renewable sources inside cement sector boundary\" only (not column \"MWh consumed from non-renewable zero or near-zero emission sources inside cement sector boundary\"). \nActivity (column 0) \nYou will be presented with a row for each activity selected in 7.30.\nConsumption of fuel (excluding feedstock) \nAll fuel consumed for energy purposes inside the organizational/sector boundary should be included, regardless of whether the fuel was purchased or produced by the organization. This includes the combustion of alternative fuels, such as biomass, waste, waste tires and hazardous wastes in co-incineration practices. Fuel consumed as a feedstock (used for the production of another fuel) should not be included. The produced fuel should still be included if it is consumed within the organizational boundary.\nIf you do not have exact consumption data, you may alternatively estimate your company's consumption by reviewing fuel and energy purchasing orders.\nTotal energy consumption \nThe data entered in this row should equal the sum of all the above rows (if the above rows have been fully disclosed for).\nIf you do not disclose data for specific energy carriers in the rows above, but you are able to enter the total energy consumed by your organization inside the cement sector boundary, then you should do so.\nMWh consumed from renewable sources inside cement sector boundary (column 1) \nWaste energy should not be included if it is derived from fossil fuels. \nHydrogen should not be included if it is derived from fossil fuels. \nBlended fuels deriving from both renewable and non-renewable sources should be split by the proportion contained from each source. For municipal waste and refuse-derived fuel, only the fraction of the fuel that is derived from biomass can be included as renewable energy, when calculating renewable energy consumption totals. Further explanations of municipal waste and a glossary of fuel definitions is provided in the CDP Technical Note: \"Fuel Definitions\".\nMWh consumed from non-renewable sources inside cement sector boundary (column 2) \nAll energy not identified as deriving from renewable sources should be entered, e.g. coal, oil, natural gas, etc. \nIn the \"Consumption of purchased or acquired electricity\" row, the figure reported in this column should be inclusive of the figure reported in column \"MWh consumed from non-renewable zero or near-zero emission sources inside cement sector boundary\".\nMWh consumed from non-renewable zero or near-zero emission sources inside cement sector boundary (column 3) \nThis figure should be a subset of the figure reported in column \"MWh consumed from non-renewable sources inside cement sector boundary\".\nInclude electricity consumption from nuclear plants and fossil fuel plants fitted with carbon capture and storage which generate zero or near-zero emissions.\nDo not include electricity consumption from fossil-fuel plants fitted with carbon capture and storage if the emissions associated with its generation are higher than near-zero.\nDo not include natural gas, combined cycle gas turbine or fossil fuel-based combined heat and power (cogeneration). Although these sources are less carbon intensive than other means of electricity production like coal, they should not be reported in this column as they do not generate zero or near-zero emissions.",
       "typeKo": "요청 내용",
-      "textKo": "일반 This 문항 is based on 문항 7.30.1 but is sector specific. Energy consumed outside the cement sector 해야 합니다 not be 보고 here. The boundary surrounding 귀사 in the cement sector shall hereby be referred to as the organizational/sector boundary. The sector boundary for 에너지 소비량 해야 합니다 align with the sector boundary for emissions, which is 설명d in the guidance to 문항 7.19. Figures you provide 해야 합니다 be 에 대한 보고연도 only (as defined by your answer to 1.4). Guidance on unit conversion is available in the following Technical Note: \" Conversion of fuel data to MWh \". Report all of your fuel data consistently using the same heating value as 선택 in 7.30.1. \"Total MWh\" will be calculated using 열 \"MWh consumed from re신규able sources inside cement sector boundary\" 및 열 \"MWh consumed from non-re신규able sources inside cement sector boundary\" only (not 열 \"MWh consumed from non-re신규able zero 또는 near-zero emission sources inside cement sector boundary\"). Activity (열 0) You will be presented with a 행 for each activity 선택 in 7.30. Consumption of fuel (제외 feedstock) All fuel consumed for energy purposes inside the organizational/sector boundary 해야 합니다 be included, regardless of whether the fuel was purchased 또는 produced by the organization. This includes the combustion of alternative fuels, such as biomass, waste, waste tires 및 hazardous wastes in co-incineration practices. Fuel consumed as a feedstock (used 에 대한 production of another fuel) 해야 합니다 not be included. The produced fuel 해야 합니다 still be included 만약 it is consumed within the 조직경계. 만약 you do not have exact consumption data, you may alternatively estimate your company's consumption by reviewing fuel 및 energy purchasing orders. Total 에너지 소비량 The data entered in this 행 해야 합니다 equal the sum of all the above 행 (만약 the above 행 have been fully 공개 for). 만약 you do not disclose data for specific energy carriers in the 행 above, but you are able to enter the total energy consumed by 귀사 inside the cement sector boundary, then you 해야 합니다 do so. MWh consumed from re신규able sources inside cement sector boundary (열 1) Waste energy 해야 합니다 not be included 만약 it is derived from fossil fuels. Hydrogen 해야 합니다 not be included 만약 it is derived from fossil fuels. Blended fuels deriving from both re신규able 및 non-re신규able sources 해야 합니다 be split by the proportion contained from each source. For municipal waste 및 refuse-derived fuel, only the fraction 의 fuel that is derived from biomass can be included as 재생에너지, 경우 calculating re신규able 에너지 소비량 totals. Further 설명s of municipal waste 및 a glossary of fuel definitions is 입력 in the CDP Technical Note: \"Fuel Definitions\". MWh consumed from non-re신규able sources inside cement sector boundary (열 2) All energy not identified as deriving from re신규able sources 해야 합니다 be entered, e.g. coal, oil, natural gas, etc. In the \"Consumption of purchased 또는 acquired electricity\" 행, the figure 보고 in this 열 해야 합니다 be inclusive 의 figure 보고 in 열 \"MWh consumed from non-re신규able zero 또는 near-zero emission sources inside cement sector boundary\". MWh consumed from non-re신규able zero 또는 near-zero emission sources inside cement sector boundary (열 3) This figure 해야 합니다 be a subset 의 figure 보고 in 열 \"MWh consumed from non-re신규able sources inside cement sector boundary\". Include 전력 소비량 from nuclear plants 및 fossil fuel plants fitted with carbon capture 및 storage which generate zero 또는 near-zero emissions. Do not include 전력 소비량 from fossil-fuel plants fitted with carbon capture 및 storage 만약 the emissions associated with its generation are higher than near-zero. Do not include natural gas, combined cycle gas turbine 또는 fossil fuel-based combined heat 및 power (cogeneration). Although these sources are less carbon intensive than other means of electricity production like coal, they 해야 합니다 not be 보고 in this 열 as they do not generate zero 또는 near-zero emissions."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     }
   ],
   "points": [
@@ -136,7 +136,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. 이 문항에서 획득 가능한 최고점은 6/6점입니다."
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 6/6점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -146,7 +146,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Cement",
@@ -156,7 +156,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Cement",
@@ -166,12 +166,12 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Report your organization's energy consumption totals (excluding feedstocks) for cement production activities in MWh.",
+    "question_ko": "보고 조직의 에너지 소비량 (제외 원료) 시멘트 생산 활동 MWh.",
     "q2025": "Q7.30.2",
     "q2025_text": "Report your organization's energy consumption totals (excluding feedstocks) for cement production activities in MWh.",
     "change_status": "Modified question",
@@ -186,17 +186,17 @@
     "daml_summary": "Cement: D 6/6 | A 1/1 | M 0/0 | L 0/0",
     "reflected": "2026 question text applied\n2026 response type/columns applied\n2026 D/A/M/L point allocation linked\n2026 scoring criteria linked\n2025-to-2026 change summary linked",
     "review_status": "변경 반영",
-    "change_statusKo": "문항 수정",
-    "detail_change_typesKo": "신규 가이던스, 신규 열, 자동계산 수정",
-    "change_summaryKo": "일반 guidance added that heating value 해야 합니다 be consistent with heating value 보고 in 7.30.1. Additional guidance added to clarify the 계산 의 Total 열. 신규 열. 신규 열 - appears only for electricity 및 total 행. Auto계산 added",
+    "change_statusKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "detail_change_typesKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
+    "change_summaryKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오.",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Cement: D 6/6 | A 1/1 | M 0/0 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결\n2025 대비 2026 변경요약 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "시멘트: D 6/6 | 1/1 | M 0/0 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 반영",
+    "review_statusKo": "변경됨 및",
     "review_statusEn": "Changed and reflected",
-    "q2025_textKo": "Report 귀사의 에너지 소비량 totals (제외 feedstocks) for 시멘트 생산 활동 in MWh."
+    "q2025_textKo": "보고 귀사의 에너지 소비 총량 (제외 원료) 시멘트 생산 활동 MWh."
   },
   "defaultPoints": {
     "D": "6/6",
@@ -226,16 +226,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "시멘트",
-  "simpleHelpKo": "문항 7.30 has been 수정 및 represented here 에 대한 cement sector. This is to enable consistency of reporting across organizations with varying coverage over activities that may be separate from the cement sector 또는 independent 의 production activities defining the cement sector. Cement is also one 의 most energy intensive sectors of industry, so it is important to represent the sector separately from outside activities.",
+  "simpleHelpKo": "이 문항은 '보고 조직의 에너지 소비량 (제외 원료) 시멘트 생산 활동 MWh.'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }

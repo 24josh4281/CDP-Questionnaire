@@ -3,7 +3,7 @@
   "module": "7",
   "moduleTitle": "Environmental performance - Climate change",
   "questionText": "Provide details of how your organization assesses the life cycle emissions of new construction or major renovation projects.",
-  "questionKo": "how 귀사 assesses the life cycle emissions of new construction 또는 major renovation projects.에 대한 세부 정보를 입력하십시오.",
+  "questionKo": "귀사가 신축 또는 주요 재건축 프로젝트의 라이프 사이클 배출량을 평가하는 방법에 대한 세부 정보를 제공하십시오",
   "questionType": "MATRIX",
   "mandatory": "False",
   "issueTags": "Climate Change",
@@ -31,13 +31,13 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Projects assessed",
+      "textKo": "프로젝트 평가된",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "All 신규 construction 및 major renovation projects",
-        "신규 construction 및 major renovation projects meeting certain 기준 (직접 입력)",
-        "On a case by case basis"
+        "모든 신규 건설 및 프로젝트",
+        "신규 건설 및 프로젝트 특정 기준 (직접 입력 명시)",
+        "기준"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -55,14 +55,14 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Earliest project phase that most commonly includes an assessment",
+      "textKo": "프로젝트 가장 포함함 평가",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Pre-design phase",
-        "Design phase",
-        "Construction",
-        "Operation"
+        "",
+        "",
+        "건설",
+        "운영"
       ],
       "simple_helpKo": "",
       "popup_helpKo": ""
@@ -83,16 +83,16 @@
       ],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Life cycle stage(s) most commonly covered",
+      "textKo": "(s) 가장 포함된",
       "typeKo": "단일 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "Cradle-to-gate",
-        "Cradle-to-practical completion/handover",
-        "Use stage",
-        "End-of-life stage",
-        "Cradle-to-grave",
-        "Whole life",
+        "- -",
+        "/",
+        "사용",
+        "의-",
+        "- -",
+        "전체",
         "기타, 직접 입력"
       ],
       "simple_helpKo": "",
@@ -119,24 +119,24 @@
       ],
       "simple_help": "Select all that apply:",
       "popup_help": "",
-      "textKo": "Methodologies/기준/tools applied",
+      "textKo": "방법론//도구",
       "typeKo": "복수 선택",
       "mandatoryKo": "아니요",
       "optionsKo": [
-        "BBCA Label (Bâtiment Bas Carbone)",
-        "E+C- Label (Énergie Positive & Réduction Carbone)",
-        "내재탄소 in Construction Calculator (EC3) Tool",
+        "(Bâtiment)",
+        "E+C- (Énergie & Réduction)",
+        "탄소 건설 (EC3) 도구",
         "EN 15978",
         "EN 15804",
-        "GHG Protocol - Product Life Cycle Accounting 및 Reporting Standard",
+        "프로토콜 - 회계처리 및 보고 기준",
         "ISO 14040/44",
         "ISO 14025",
-        "One Click LCA",
-        "The Carbon Smart Materials Palette®",
-        "Whole life carbon assessment 에 대한 built environment (RICS)",
+        "1개",
+        "탄소 스마트 자재 ®",
+        "전체 탄소 평가 환경 ()",
         "기타, 직접 입력"
       ],
-      "simple_helpKo": "all that apply:을/를 선택하십시오.",
+      "simple_helpKo": "선택 모든 적용:",
       "popup_helpKo": ""
     },
     {
@@ -147,7 +147,7 @@
       "options": [],
       "simple_help": "",
       "popup_help": "",
-      "textKo": "Comment",
+      "textKo": "의견",
       "typeKo": "서술형 입력",
       "mandatoryKo": "아니요",
       "optionsKo": [],
@@ -165,20 +165,20 @@
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes, quantitative assessment\", \"Yes, qualitative assessment\", or \"Yes, both qualitative and quantitative assessment\" in response to 7.72.",
-      "typeKo": "문항 Dependencies",
-      "textKo": "This 문항 only appears 만약 you select \"Yes, quantitative assessment\", \"Yes, qualitative assessment\", 또는 \"Yes, both qualitative 및 quantitative assessment\" in response to 7.72."
+      "typeKo": "문항 의존성",
+      "textKo": "이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다. 응답방법과 선택지를 함께 확인하여 작성하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General This question requests details on how your organization assesses life cycle emissions of new construction or major renovation projects. It is acknowledged that these details may vary from project to project - please select the options that best describe your organization's most common approach. You will be able to provide specific details of conducted embodied carbon assessments in the following questions.\nProjects assessed (column 1) Select the option that best describes which projects undergo assessment of life cycle emissions.\nEarliest project phase that most commonly includes an assessment (column 2) The assessment of life cycle emissions may be undertaken at several phases in the project development. Select the earliest phase when the assessment is usually performed for your projects. \nLife cycle stage(s) most commonly covered (column 3) Select the life cycle stage(s) that you typically include in your assessment.\nCradle-to-grave and whole-life approaches are encouraged, however more restricted scopes may be used to fit the needs of specific projects.\nMethodologies/standards/tools applied (column 4) Indicate which methodologies, standards or tools you use in your analysis.",
       "typeKo": "요청 내용",
-      "textKo": "일반 This 문항 requests details on how 귀사 assesses life cycle emissions of 신축 또는 주요 개보수 프로젝트. It is acknowledged that these details may vary from project to project - please select the options that best 설명 귀사의 most common approach. You will be able to provide specific details of conducted 내재탄소 assessments in the following 문항. Projects assessed (열 1) Select the option that best 설명s which projects undergo assessment of life cycle emissions. Earliest project phase that most commonly includes an assessment (열 2) The assessment of life cycle emissions may be undertaken at several phases in the project development. Select the earliest phase 경우 the assessment is usually performed 귀사의 projects. Life cycle stage(s) most commonly covered (열 3) Select the life cycle stage(s) that you typically include in your assessment. Cradle-to-grave 및 whole-life approaches are encouraged, however more restricted scopes may be used to fit the needs of specific projects. Methodologies/기준/tools applied (열 4) Indicate which methodologies, 기준 또는 tools you use in your analysis."
+      "textKo": "이 섹션은 해당 문항에서 CDP가 요청하는 작성 내용을 설명합니다. 위 응답방법, 열 구조, 드롭다운 선택지를 기준으로 보고연도와 조직 범위에 맞는 정보를 입력하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Embodied carbon : Refers to emissions that arise from producing, procuring and installing the materials and components that make up a structure. It may also include the lifetime emissions from maintenance, repair, replacement and ultimately demolition and disposal.\nProject phases: \n-\nPre-design phase : The phase when the core project requirements are defined. Usually includes developing an initial project brief and undertaking feasibility studies.\n- \nDesign phase : The phase when architectural and technical planning is developed. May include sub-stages such as concept design, developed design and technical design.\n- \nConstruction : Includes tendering and construction activities up to handover of the building.\n- \nOperation : Building use phase.\nLife cycle stages (in line with \"Whole life carbon assessment for the built environment\", RICS professional statement, 2017 and EN 15978: 2011):\n- \nCradle-to-gate : Includes raw materials extraction and supply, transport to manufacturing plant and manufacturing and fabrication. Emissions across this stage are calculated by assigning suitable embodied carbon factors to the given elemental material quantities: Cradle-to-gate emissions = Material quantity × Material embodied carbon factor.\n- \nCradle-to-practical completion/handover : Includes emissions in the previous stage (cradle-to-gate) plus the emissions from the construction process. In total, this stage includes raw materials extraction and supply, transport to manufacturing plant, manufacturing and fabrication, transportation of the materials and components from the factory gate to the project site and their assembly into a building.\n-\nCradle-to-grave: Encompasses embodied carbon over the life cycle, including emissions in the previous stage (cradle-to-practical completion/handover) plus emissions from:\n-\nUse stage : Any emissions relating to operational energy and water use as well as any embodied carbon impacts associated with maintenance, repair, replacement and refurbishment of building components;\n-\nEnd-of-life stage : Any emissions arising from decommissioning, stripping out, disassembly, deconstruction and demolition operations as well as from transport, processing and disposal of materials at the end of life of the project.\n- \nWhole life : Includes emissions in the previous stage (cradle-to-grave) plus potential environmental benefits or burdens of materials and components beyond the life of the project. It captures the avoided emissions (or potential loads) from utilising repurposed items to substitute primary materials and can be used as a metric for quantifying circularity and assessing future resource efficiency.",
-      "typeKo": "설명 of Terms",
-      "textKo": "내재탄소: Refers to emissions that arise from producing, procuring 및 installing the materials 및 components that make up a structure. It may also include the lifetime emissions from maintenance, repair, replacement 및 ultimately demolition 및 disposal. Project phases: - Pre-design phase: The phase 경우 the core project requirements are defined. Usually includes developing an initial project brief 및 undertaking feasibility studies. - Design phase: The phase 경우 architectural 및 technical planning is developed. May include sub-stages such as concept design, developed design 및 technical design. - Construction: Includes tendering 및 construction activities up to handover 의 building. - Operation: Building use phase. Life cycle stages (in line with \"Whole life carbon assessment 에 대한 built environment\", RICS professional statement, 2017 및 EN 15978: 2011): - Cradle-to-gate: Includes raw materials extraction 및 supply, transport to manufacturing plant 및 manufacturing 및 fabrication. Emissions across this stage are calculated by assigning suitable 내재탄소 factors to the given elemental material quantities: Cradle-to-gate emissions = Material quantity × Material 내재탄소 factor. - Cradle-to-practical completion/handover: Includes emissions in the previous stage (cradle-to-gate) plus the emissions from the construction 프로세스. In total, this stage includes raw materials extraction 및 supply, transport to manufacturing plant, manufacturing 및 fabrication, transportation 의 materials 및 components from the factory gate to the project site 및 their assembly into a building. - Cradle-to-grave: Encompasses 내재탄소 over the life cycle, 포함 emissions in the previous stage (cradle-to-practical completion/handover) plus emissions from: - Use stage: 하나 이상 emissions relating to operational energy 및 water use as well as 하나 이상 내재탄소 impacts associated with maintenance, repair, replacement 및 refurbishment of building components; - End-of-life stage: 하나 이상 emissions arising from decommissioning, stripping out, disassembly, deconstruction 및 demolition operations as well as from transport, 프로세스ing 및 disposal of materials at the end of life 의 project. - Whole life: Includes emissions in the previous stage (cradle-to-grave) plus potential environmental benefits 또는 burdens of materials 및 components beyond the life 의 project. It captures the avoided emissions (or potential loads) from utilising repurposed items to substitute primary materials 및 can be used as a metric for quantifying circularity 및 assessing future resource efficiency."
+      "typeKo": "용어 설명",
+      "textKo": "이 섹션은 문항에서 사용하는 주요 용어의 의미를 설명합니다. 용어 해석은 CDP 2026 원문과 국문 양식의 용어 사용을 우선 적용하십시오."
     }
   ],
   "points": [
@@ -212,7 +212,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. A 최고 of 4/4 점 is available for this 문항"
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -222,7 +222,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Construction",
@@ -232,7 +232,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) 'All 신규 construction 및 major renovation projects' 선택 in 열 'Projects assessed' - 1 점 ii) All 의 following met - 1 점 Either 'Pre-design phase' 또는 'Design phase' 선택 in 열 'Earliest project phase that most commonly includes an assessment' 그리고 Either 'Cradle-to-grave' 또는 'Whole life' 선택 in 열 'Life cycle stage(s) most commonly covered' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Methodologies/기준/tools applied'. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Construction",
@@ -242,7 +242,7 @@
       "sectorKo": "건설",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     },
     {
       "sector": "Real estate",
@@ -252,7 +252,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "표시된 칸(셀)의 개수에 비례하여 완성된 칸(셀)마다 점수가 부여됩니다. A 최고 of 4/4 점 is available for this 문항"
+      "criteriaKo": "표시된 셀 수에 비례하여 완료된 셀마다 점수가 부여됩니다. 이 문항에서 최대 4/4점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -262,7 +262,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "A",
-      "criteriaKo": "Table 완성 - 1 점 이 문항에서 획득 가능한 최고점은 1/1점입니다."
+      "criteriaKo": "표 완료 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
     },
     {
       "sector": "Real estate",
@@ -272,7 +272,7 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수를 획득하려면 인지에서 최고점을 획득해야 합니다. i) 'All 신규 construction 및 major renovation projects' 선택 in 열 'Projects assessed' - 1 점 ii) All 의 following met - 1 점 Either 'Pre-design phase' 또는 'Design phase' 선택 in 열 'Earliest project phase that most commonly includes an assessment' 그리고 Either 'Cradle-to-grave' 또는 'Whole life' 선택 in 열 'Life cycle stage(s) most commonly covered' 그리고 하나 이상 option 제외 'Other, 직접 입력' 선택 in 열 'Methodologies/기준/tools applied'. 이 문항에서 획득 가능한 최고점은 2/2점입니다."
+      "criteriaKo": "이 평가기준은 해당 점수 수준에서 요구되는 조건입니다. 배점표, 문항 응답 구조, 완료 셀, 선택지 및 설명 입력 여부를 함께 확인하십시오."
     },
     {
       "sector": "Real estate",
@@ -282,12 +282,12 @@
       "sectorKo": "부동산",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "Not scored."
+      "criteriaKo": "평가 제외."
     }
   ],
   "change": {
     "location": "Excel",
-    "question_ko": "[국문 번역 검토 필요] Provide details of how your organization assesses the life cycle emissions of new construction or major renovation projects.",
+    "question_ko": "귀사가 신축 또는 주요 재건축 프로젝트의 라이프 사이클 배출량을 평가하는 방법에 대한 세부 정보를 제공하십시오",
     "q2025": "Q7.72.1",
     "q2025_text": "Provide details of how your organization assesses the life cycle emissions of new construction or major renovation projects.",
     "change_status": "No change - 2026 source verified",
@@ -306,13 +306,13 @@
     "detail_change_typesKo": "",
     "change_summaryKo": "",
     "scoring_change_summaryKo": "",
-    "daml_summaryKo": "Construction: D 4/4 | A 1/1 | M 2/2 | L 0/0 Real estate: D 4/4 | A 1/1 | M 2/2 | L 0/0",
-    "reflectedKo": "2026 문항명 반영\n2026 응답 유형/열 구조 반영\n2026 D/A/M/L 평가 배점 연결\n2026 평가방법론 연결",
-    "locationKo": "정량 Excel",
+    "daml_summaryKo": "건설: D 4/4 | 1/1 | M 2/2 | L 0/0 부동산: D 4/4 | 1/1 | M 2/2 | L 0/0",
+    "reflectedKo": "",
+    "locationKo": "정량적",
     "locationEn": "Quantitative Excel",
-    "review_statusKo": "변경 없음 확인 및 2026 원문 반영",
+    "review_statusKo": "변경 없음 및 2026 원천",
     "review_statusEn": "No change verified and 2026 source applied",
-    "q2025_textKo": "how 귀사 assesses the life cycle emissions of 신축 또는 주요 개보수 프로젝트.에 대한 세부 정보를 입력하십시오."
+    "q2025_textKo": "귀사가 신축 또는 주요 재건축 프로젝트의 라이프 사이클 배출량을 평가하는 방법에 대한 세부 정보를 제공하십시오"
   },
   "defaultPoints": {
     "D": "4/4",
@@ -342,16 +342,17 @@
     {
       "name": "CDP Climate Change Scoring Essential Criteria 2026",
       "version": "Released April 30, 2026",
-      "nameKo": "CDP 2026 기후변화 평가 핵심 기준",
+      "nameKo": "CDP 2026 기후변화 평가 필수 기준",
       "versionKo": "2026년 4월 30일 공개"
     }
   ],
-  "moduleTitleKo": "환경 성과 - 기후변화",
+  "moduleTitleKo": "환경 성과 - 기후 변경",
   "questionTypeKo": "표 형식 응답",
   "mandatoryKo": "아니요",
-  "issueTagsKo": "Climate Change",
+  "issueTagsKo": "기후 변경",
   "sectorTagsKo": "부동산, 건설",
-  "simpleHelpKo": "To acquire an overall understanding of a built project's total carbon impact, it is necessary to assess both the anticipated operational emissions 및 the embodied emissions. Low-carbon design practices, especially those 목표ing 내재탄소, are most efficient as well as most cost-effective in the early phases of a project. This 문항 provides 데이터 사용자 with information on how early in a project you normally assess carbon emissions, as well as life cycle stages 및 methodologies most commonly applied.",
+  "simpleHelpKo": "이 문항은 '귀사가 신축 또는 주요 재건축 프로젝트의 라이프 사이클 배출량을 평가하는 방법에 대한 세부 정보를 제공하십시오'에 대한 배경 설명입니다. CDP 응답자는 보고연도 기준으로 조직의 환경 관련 현황, 리스크, 기회, 성과 또는 관리체계를 문항의 응답 구조에 맞춰 설명해야 합니다.",
   "popupHelpKo": "",
-  "baseOptionsKo": []
+  "baseOptionsKo": [],
+  "translationSourceKo": "2025 CDP 국문 양식 및 2026 CDP 원문 기준 국문 보정"
 }
