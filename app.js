@@ -60,8 +60,8 @@ const UI = {
     scoringCriteria: "평가방법론",
     reportingGuidance: "공시 가이던스",
     sources: "출처",
-    changedYes: "변경 있음",
-    changedNo: "변경 없음",
+    changedYes: "O",
+    changedNo: "X",
     questionName: "문항명",
     responseChanged: "응답방법",
     optionsChanged: "드롭다운/선택지",
@@ -154,8 +154,8 @@ const UI = {
     scoringCriteria: "Scoring Methodology",
     reportingGuidance: "Reporting Guidance",
     sources: "Sources",
-    changedYes: "Changed",
-    changedNo: "No change",
+    changedYes: "O",
+    changedNo: "X",
     questionName: "Question title",
     responseChanged: "Response method",
     optionsChanged: "Dropdown/options",
@@ -202,7 +202,7 @@ const UI = {
 };
 
 const PUBLIC_BASE_URL = "https://24josh4281.github.io/CDP-Questionnaire/";
-const URL_STATE_VERSION = "list-title-v7";
+const URL_STATE_VERSION = "change-summary-v8";
 const FAVORITES_STORAGE_KEY = "cdpQuestionDbFavorites";
 
 const SECTOR_KO = {
@@ -1389,6 +1389,95 @@ function questionListTitle(question) {
   return questionTitleOnly(textBy(question, "questionText", "questionKo"));
 }
 
+function isGenericChangeText(value) {
+  const text = String(value ?? "").trim();
+  return (
+    !text ||
+    text === "-" ||
+    text.includes("이 섹션은 문항 응답에 필요한 추가 작성 기준") ||
+    text.includes("응답방법과 선택지를 함께 확인")
+  );
+}
+
+function isUntranslatedKoreanChangeText(value) {
+  const text = String(value ?? "").trim();
+  return Boolean(text && !/[가-힣]/.test(text) && /[A-Za-z]{3,}/.test(text));
+}
+
+function changeFlagLabels(change) {
+  const labels = state.lang === "ko"
+    ? [
+        ["문항명", change.changed_question],
+        ["응답방법", change.changed_response],
+        ["드롭다운/선택지", change.changed_options],
+        ["가이던스", change.changed_guidance],
+        ["평가방법론", change.changed_scoring],
+      ]
+    : [
+        ["Question title", change.changed_question],
+        ["Response method", change.changed_response],
+        ["Dropdown/options", change.changed_options],
+        ["Guidance", change.changed_guidance],
+        ["Scoring methodology", change.changed_scoring],
+      ];
+  return labels.filter(([, active]) => active).map(([label]) => label);
+}
+
+function sentenceJoin(parts) {
+  return parts.filter(Boolean).join(state.lang === "ko" ? " " : " ");
+}
+
+function summarizeScoringChange(change) {
+  const source = String(change.scoring_change_summary || change.scoring_change_summaryKo || "").toLowerCase();
+  if (!change.changed_scoring) {
+    return state.lang === "ko" ? "평가방법론 변경은 확인되지 않았습니다." : "No scoring methodology change was identified.";
+  }
+  if (state.lang !== "ko") {
+    return change.scoring_change_summary || "Scoring methodology was updated for the 2026 questionnaire.";
+  }
+
+  const parts = [];
+  if (source.includes("non-disclosure route")) parts.push("비공개 경로 배점이 조정되었습니다.");
+  if (source.includes("point allocation")) parts.push("D/A/M/L 배점이 2026 기준에 맞춰 조정되었습니다.");
+  if (source.includes("child question")) parts.push("하위 문항 변경사항이 평가 배점에 반영되었습니다.");
+  if (source.includes("eligibility")) parts.push("평가 적용 또는 적격성 기준이 변경되었습니다.");
+  if (source.includes("criteria")) parts.push("평가기준 문구 또는 판단 기준이 조정되었습니다.");
+  return parts.length ? sentenceJoin(parts) : "평가방법론 또는 배점 기준이 2026 문항 구조에 맞춰 변경되었습니다.";
+}
+
+function summarizeGeneralChange(change) {
+  const active = changeFlagLabels(change);
+  if (!active.length) {
+    return state.lang === "ko"
+      ? "2026 원문 확인 결과 주요 변경사항은 확인되지 않았습니다."
+      : "No major changes were identified in the 2026 source.";
+  }
+  if (state.lang !== "ko") {
+    return `${active.join(", ")} changed.`;
+  }
+  if (active.length === 1) {
+    const particle = ["문항명", "응답방법", "가이던스", "평가방법론"].includes(active[0]) ? "이" : "가";
+    return `${active[0]}${particle} 변경되었습니다.`;
+  }
+  return `${active.join(", ")} 항목이 변경되었습니다.`;
+}
+
+function changeDisplayValue(change, enKey, koKey, kind) {
+  const preferred = state.lang === "ko" ? change[koKey] : change[enKey];
+  const alternate = state.lang === "ko" ? change[enKey] : change[koKey];
+  const preferredUsable = !isGenericChangeText(preferred) && !(state.lang === "ko" && isUntranslatedKoreanChangeText(preferred));
+  if (preferredUsable) return state.lang === "ko" ? displayText(preferred) : preferred;
+  if (state.lang !== "ko" && !isGenericChangeText(alternate) && kind !== "scoring") return alternate;
+
+  if (kind === "type") {
+    const active = changeFlagLabels(change);
+    if (active.length) return active.join(state.lang === "ko" ? " / " : " / ");
+    return state.lang === "ko" ? "변경 없음" : "No change";
+  }
+  if (kind === "scoring") return summarizeScoringChange(change);
+  return summarizeGeneralChange(change);
+}
+
 function chip(text, className = "") {
   if (!text) return "";
   return `<span class="chip ${className}">${escapeHtml(text)}</span>`;
@@ -1895,9 +1984,9 @@ function renderDetail(detail) {
       </div>
       ${renderInfoLines([
         [t("changeState"), textBy(change, "change_status", "change_statusKo") || "-"],
-        [t("detailChangeType"), textBy(change, "detail_change_types", "detail_change_typesKo") || "-"],
-        [t("changeSummary"), textBy(change, "change_summary", "change_summaryKo") || "-"],
-        [t("scoringChangeSummary"), textBy(change, "scoring_change_summary", "scoring_change_summaryKo") || "-"],
+        [t("detailChangeType"), changeDisplayValue(change, "detail_change_types", "detail_change_typesKo", "type")],
+        [t("changeSummary"), changeDisplayValue(change, "change_summary", "change_summaryKo", "summary")],
+        [t("scoringChangeSummary"), changeDisplayValue(change, "scoring_change_summary", "scoring_change_summaryKo", "scoring")],
       ])}
     </section>
 
