@@ -202,7 +202,7 @@ const UI = {
 };
 
 const PUBLIC_BASE_URL = "https://24josh4281.github.io/CDP-Questionnaire/";
-const URL_STATE_VERSION = "change-summary-v9";
+const URL_STATE_VERSION = "title-sync-v10";
 const FAVORITES_STORAGE_KEY = "cdpQuestionDbFavorites";
 
 const SECTOR_KO = {
@@ -1387,7 +1387,13 @@ function questionTitleOnly(value) {
 }
 
 function questionListTitle(question) {
-  return questionTitleOnly(textBy(question, "questionText", "questionKo"));
+  if (state.lang === "ko") return questionTitleOnly(question.listTitleKo || displayText(question.questionKo || question.questionText));
+  return questionTitleOnly(question.listTitleEn || question.questionText || question.questionKo);
+}
+
+function detailTitle(detail) {
+  if (state.lang === "ko") return questionTitleOnly(detail.listTitleKo || displayText(detail.questionKo || detail.questionText));
+  return questionTitleOnly(detail.listTitleEn || detail.questionText || detail.questionKo);
 }
 
 const CHANGE_TEXT_REPLACEMENTS = [
@@ -1889,7 +1895,7 @@ function exportFilteredCsv() {
   const rows = state.filtered.map((question) => [
     `M${question.code}`,
     textBy(question, "moduleTitle", "moduleTitleKo"),
-    textBy(question, "questionText", "questionKo"),
+    questionListTitle(question),
     locationLabel(question.location),
     textBy(question, "questionType", "questionTypeKo"),
     question.isChanged ? t("changedApplied") : t("noChangeVerified"),
@@ -2198,7 +2204,7 @@ function chooseInitialLevel(detail) {
 
 function renderDetail(detail) {
   const change = detail.change || {};
-  const title = textBy(detail, "questionText", "questionKo");
+  const title = detailTitle(detail);
   const statusText = reviewStatus(change);
   const isFavorite = state.favorites.has(detail.code);
   const flagCells = [
