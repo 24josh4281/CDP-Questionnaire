@@ -242,6 +242,7 @@ h1 {
   color: var(--muted);
   padding: 0 10px;
   font-size: 12px;
+  white-space: nowrap;
 }
 
 .field {
@@ -309,7 +310,13 @@ button:focus {
 .list-actions {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 8px;
+}
+
+.copy-view-button {
+  min-width: 76px;
 }
 
 .export-button {

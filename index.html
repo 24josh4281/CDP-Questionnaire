@@ -4,6 +4,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>2026 CDP CC Question DB</title>
+    <meta
+      name="description"
+      content="2026 CDP Climate Change 문항, 응답방법, 드롭다운, D/A/M/L 평가방법론을 국문과 영문으로 조회하는 공개 DB입니다."
+    />
+    <meta property="og:title" content="2026 CDP Climate Change Question DB" />
+    <meta
+      property="og:description"
+      content="문항명, 응답 방법, 선택지, 평가방법론, 2025 대비 변경사항을 한 화면에서 검색하고 공유하세요."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://24josh4281.github.io/CDP-Questionnaire/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="theme-color" content="#0f3157" />
+    <link rel="canonical" href="https://24josh4281.github.io/CDP-Questionnaire/" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -114,6 +128,7 @@
               <p id="resultCount">-</p>
             </div>
             <div class="list-actions">
+              <button class="text-button copy-view-button" id="copyViewLinkButton" type="button">필터 링크</button>
               <button class="text-button export-button" id="exportCsvButton" type="button">필터 결과 CSV</button>
               <div class="density-toggle" aria-label="list density">
                 <button class="seg active" data-density="comfortable" type="button" id="densityComfortable">표준</button>
@@ -133,6 +148,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260521-export-v4"></script>
+    <script src="./app.js?v=20260521-filters-v5"></script>
   </body>
 </html>

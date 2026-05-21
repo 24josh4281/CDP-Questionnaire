@@ -93,6 +93,8 @@ const UI = {
     noGuidance: "가이던스 데이터가 없습니다.",
     copyLink: "공유 링크",
     copied: "복사됨",
+    copyViewLink: "필터 링크",
+    viewLinkCopied: "필터 링크 복사됨",
     sectionJump: "상세 바로가기",
     sector: "섹터",
     level: "레벨",
@@ -181,6 +183,8 @@ const UI = {
     noGuidance: "No guidance data.",
     copyLink: "Copy link",
     copied: "Copied",
+    copyViewLink: "Copy view",
+    viewLinkCopied: "View copied",
     sectionJump: "Jump to section",
     sector: "Sector",
     level: "Level",
@@ -189,6 +193,7 @@ const UI = {
 };
 
 const PUBLIC_BASE_URL = "https://24josh4281.github.io/CDP-Questionnaire/";
+const URL_STATE_VERSION = "filters-v5";
 
 const SECTOR_KO = {
   General: "일반",
@@ -1314,19 +1319,120 @@ function compareCode(a, b) {
   return 0;
 }
 
-function setQuestionUrl(code) {
+function setUrlParam(url, key, value) {
+  if (value) {
+    url.searchParams.set(key, value);
+  } else {
+    url.searchParams.delete(key);
+  }
+}
+
+function readFilterState() {
+  return {
+    search: $("searchInput")?.value.trim() || "",
+    module: $("moduleFilter")?.value || "",
+    location: $("locationFilter")?.value || "",
+    type: $("typeFilter")?.value || "",
+    flag: $("flagFilter")?.value || "",
+    sector: $("sectorFilter")?.value || "",
+    changed: $("changedOnly")?.checked || false,
+    density: state.density,
+  };
+}
+
+function writeFilterParams(url, filters = readFilterState()) {
+  setUrlParam(url, "search", filters.search || "");
+  setUrlParam(url, "module", filters.module || "");
+  setUrlParam(url, "location", filters.location || "");
+  setUrlParam(url, "type", filters.type || "");
+  setUrlParam(url, "flag", filters.flag || "");
+  setUrlParam(url, "sector", filters.sector || "");
+  setUrlParam(url, "changed", filters.changed ? "1" : "");
+  setUrlParam(url, "density", filters.density === "compact" ? "compact" : "");
+}
+
+function updateDensityButtons() {
+  for (const item of document.querySelectorAll(".seg")) {
+    item.classList.toggle("active", item.dataset.density === state.density);
+  }
+}
+
+function setSelectValue(id, value) {
+  const node = $(id);
+  if (!node) return;
+  node.value = value || "";
+  if (value && node.value !== value) node.value = "";
+}
+
+function applyFilterState(filters) {
+  if ($("searchInput")) $("searchInput").value = filters.search || "";
+  setSelectValue("moduleFilter", filters.module);
+  setSelectValue("locationFilter", filters.location);
+  setSelectValue("typeFilter", filters.type);
+  setSelectValue("flagFilter", filters.flag);
+  setSelectValue("sectorFilter", filters.sector);
+  if ($("changedOnly")) $("changedOnly").checked = Boolean(filters.changed);
+  state.density = filters.density === "compact" ? "compact" : "comfortable";
+  updateDensityButtons();
+}
+
+function urlFilterState() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    search: params.get("search") || "",
+    module: params.get("module") || "",
+    location: params.get("location") || "",
+    type: params.get("type") || "",
+    flag: params.get("flag") || "",
+    sector: params.get("sector") || "",
+    changed: params.get("changed") === "1",
+    density: params.get("density") === "compact" ? "compact" : "comfortable",
+  };
+}
+
+function syncUrl(code = state.selectedCode) {
   const nextUrl = new URL(window.location.href);
   nextUrl.searchParams.set("lang", state.lang);
-  nextUrl.searchParams.set("q", code);
+  setUrlParam(nextUrl, "q", code || "");
+  writeFilterParams(nextUrl);
+  nextUrl.searchParams.delete("refresh");
   window.history.replaceState({}, "", nextUrl);
+}
+
+function setQuestionUrl(code) {
+  syncUrl(code);
 }
 
 function publicQuestionUrl(code) {
   const url = new URL(PUBLIC_BASE_URL);
   url.searchParams.set("lang", state.lang);
   url.searchParams.set("q", code);
-  url.searchParams.set("refresh", "export-v4");
+  writeFilterParams(url);
+  url.searchParams.set("refresh", URL_STATE_VERSION);
   return url.toString();
+}
+
+async function copyCurrentViewLink() {
+  syncUrl();
+  const current = new URL(window.location.href);
+  const url = new URL(PUBLIC_BASE_URL);
+  for (const [key, value] of current.searchParams.entries()) {
+    url.searchParams.set(key, value);
+  }
+  url.searchParams.set("refresh", URL_STATE_VERSION);
+  const link = url.toString();
+  try {
+    await navigator.clipboard.writeText(link);
+  } catch {
+    window.prompt("Copy this link", link);
+  }
+  const button = $("copyViewLinkButton");
+  if (button) {
+    button.textContent = t("viewLinkCopied");
+    window.setTimeout(() => {
+      button.textContent = t("copyViewLink");
+    }, 1400);
+  }
 }
 
 function csvValue(value) {
@@ -1458,6 +1564,7 @@ function updateStaticLabels() {
   setText("labelSector", t("sector"));
   setText("labelChangedOnly", t("changedOnly"));
   setText("labelQuestionList", t("questionList"));
+  setText("copyViewLinkButton", t("copyViewLink"));
   setText("exportCsvButton", t("exportCsv"));
   setText("densityComfortable", t("comfortable"));
   setText("densityCompact", t("compact"));
@@ -1548,6 +1655,7 @@ function applyFilters() {
     state.selectedCode = state.filtered[0]?.code || "";
   }
 
+  syncUrl();
   renderModules();
   renderQuestionList();
   if (state.selectedCode) {
@@ -2009,28 +2117,25 @@ function bindEvents() {
     $("changedOnly").checked = false;
     applyFilters();
   });
+  $("copyViewLinkButton").addEventListener("click", copyCurrentViewLink);
   $("exportCsvButton").addEventListener("click", exportFilteredCsv);
   for (const button of document.querySelectorAll(".seg")) {
     button.addEventListener("click", () => {
       state.density = button.dataset.density;
-      for (const item of document.querySelectorAll(".seg")) item.classList.toggle("active", item === button);
+      updateDensityButtons();
+      syncUrl();
       renderQuestionList();
     });
   }
   for (const button of document.querySelectorAll(".lang-button")) {
     button.addEventListener("click", () => {
+      const filters = readFilterState();
       state.lang = button.dataset.lang;
-      const nextUrl = new URL(window.location.href);
-      nextUrl.searchParams.set("lang", state.lang);
-      window.history.replaceState({}, "", nextUrl);
       updateStaticLabels();
       populateFilters();
+      applyFilterState(filters);
       renderMetrics();
-      renderModules();
-      renderQuestionList();
-      if (state.selectedCode) {
-        loadDetail(state.selectedCode).then(renderDetail);
-      }
+      applyFilters();
     });
   }
 }
@@ -2046,6 +2151,7 @@ async function init() {
     }
     updateStaticLabels();
     populateFilters();
+    applyFilterState(urlFilterState());
     renderMetrics();
     renderModules();
     bindEvents();
