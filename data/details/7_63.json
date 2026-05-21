@@ -165,13 +165,13 @@
       "type": "Change From Last Year",
       "text": "Modified question",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "Modified 문항"
+      "textKo": "New 열"
     },
     {
       "type": "Requested Content",
       "text": "General \nFlaring can occur in the coal industry for many reasons, ranging from initial start-up testing of a facility to unplanned equipment malfunctions.\nFlaring includes emissions of CO2, CH4, and N2O from elevated flares, ground flares, emergency flares, well-testing and well work-over.\nPlease explain (column 6) \nIf you select \"No, we do not use flaring\" or \"Yes, only emergency flaring\" in column 1, give further details confirming no use of non-emergency (also known as ‘routine') flaring in this column.\nIf you select \"No flaring targets have been set\" in column 2, give further organization-specific details on the reasons in this column.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Flaring 할 수 있습니다 occur 석탄 industry m하나 이상 이유s, ranging 에서 initial start-up testing 의 시설 unplanned equipment malfunctions. Flaring includes 배출량 의 CO2, CH4, 및 N2O 에서 elevated flares, ground flares, emergency flares, well-testing 및 well work-over. 설명하십시오 (열 6) 만약 귀사 선택 \"아니요, 당사 do 아니요t use flaring\" 또는 \"예, only emergency flaring\" 열 1, give further 세부 정보 confirming 아니요 use 의 아니요n-emergency (also k아니요wn ‘routine') flaring 이 열. 만약 귀사 선택 \"아니요 flaring 목표 have set\" 열 2, give further 조직-specific 세부 정보 이유s 이 열."
+      "textKo": "- 응답방법과 열 구조에 따라 해당 배출량, 에너지, 목표 또는 성과 지표를 입력하십시오. - 수치는 문항에서 요구하는 단위와 보고연도 기준을 일관되게 적용하십시오. - 산정에 사용한 방법론, 배출계수, 제외 범위 또는 추정 기준이 있다면 설명 입력란에 근거를 남기십시오."
     }
   ],
   "points": [
@@ -205,7 +205,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Coal",
@@ -215,7 +215,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로) ‘예, 모두 아니요n-emergency 및 emergency flaring'열에서 선택 ‘Occurrence 의 flaring production 및/또는 프로세스ing 활동' 및 다음을 제외한 선택지 중 하나 ‘아니요…'열에서 선택 ‘Efforts reduce flaring' 및 다음을 제외한 선택지 중 하나 ‘아니요…'열에서 선택 ‘Involvement voluntary flaring reduction programmes' - 1/1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) ‘예, emergency flaring only'선택됨 ‘Occurrence 의 flaring production 및/또는 프로세스ing 활동' - 1/1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 C) ‘아니요, 당사 do 아니요t use flaring'선택됨 ‘Occurrence 의 flaring production 및/또는 프로세스ing 활동' - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
+      "criteriaKo": "관리 점수는 인지 점수 요건을 충족한 뒤, 관리 체계, 정량 수치, 적용 범위 또는 실행 조건을 충족하는 경우 부여됩니다. 배점표 기준 M 배점은 0 또는 1/0 또는 1입니다. 비공개 경로, 미응답 셀, 필수 선택지 누락 여부에 따라 점수가 제한될 수 있으므로 위 응답방법과 D/A/M/L 배점표를 함께 확인하십시오."
     },
     {
       "sector": "Coal",
@@ -225,7 +225,7 @@
       "sectorKo": "석탄",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     }
   ],
   "change": {
@@ -295,10 +295,14 @@
   "mandatoryKo": "아니요",
   "issueTagsKo": "기후변화",
   "sectorTagsKo": "석탄",
-  "simpleHelpKo": "Flaring 의 gas contributes 기후변화 및 영향 environment through 배출량 의 CO2 및 기타 pollutants while wasting valuable 에너지 resource, hence investors interested learning about 조직' efforts reduce flaring.",
+  "simpleHelpKo": "이 문항은 기후변화 관련 배출량, 에너지 사용, 목표, 감축활동 및 성과 지표를 확인하는 항목입니다. 응답 시 단위, 산정범위, 배출계수, 보고연도 및 검증 여부를 일관되게 작성하십시오. 문항명: 관련된 석탄 광업 운영사업장, 조직의 감축, 포함.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
   "translationSourceKo": "2025 Korean form + CDP glossary repair",
   "listTitleEn": "If flaring is relevant to your coal mining operations, describe your organization's efforts to reduce flaring, including any flaring reduction targets.",
-  "listTitleKo": "관련된 석탄 광업 운영사업장, 조직의 감축, 포함."
+  "listTitleKo": "관련된 석탄 광업 운영사업장, 조직의 감축, 포함.",
+  "bodyReadabilityKo": {
+    "updatedAt": "2026-05-21T14:41:51.841Z",
+    "scope": "simpleHelpKo, guidance.textKo, criteria.criteriaKo"
+  }
 }

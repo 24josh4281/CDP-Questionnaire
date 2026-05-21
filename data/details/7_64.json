@@ -51,25 +51,25 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select ‘Clinker Production' in 1.12",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 only appears 만약 귀사 선택 ‘Clinker Production' 1.12"
+      "textKo": "- 이 문항은 선행 문항의 응답에 따라 표시 여부 또는 입력 범위가 달라질 수 있습니다. - 선행 문항의 응답을 수정하면 이 문항 또는 후속 문항의 기존 입력값이 초기화될 수 있으므로 제출 전 함께 확인하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nComplete this table for each of the techniques in column 1.\nThese technologies apply to clinker production from cement kilns.\nTotal production capacity coverage (%) (column 2) \nUsing this numerical field, enter the percentage of your total kiln capacity that utilizes the technique listed in column 1, using a value between 0-100, and no more than 2 decimal places.\nAll kiln capacity should be recognized, including kilns for which these technologies cannot be installed. For example, if your organization owns 5 Mt of wet kiln clinker capacity and 5 Mt of dry kiln clinker capacity, of which 50% has cyclone preheating of 4 or more stages, then you should enter 25 in the first row.\nThese two technologies are not mutually exclusive, i.e. the sum of both figures provided can be over 100.",
       "typeKo": "요청 내용",
-      "textKo": "일반 완료 이 table each 의 techniques 열 1. 이 tech아니요logies apply clinker production 에서 시멘트 kilns. Total production capacity 범위 (%) (열 2) Using 이 숫자 입력, enter percentage 의 귀사의 total kiln capacity utilizes technique listed 열 1, using 가치 between 0-100, 및 아니요 more than 2 decimal places. 모든 kiln capacity 해야 합니다 recognized, 포함 kilns 이 tech아니요logies can아니요t inst모든ed. example, 만약 귀사 owns 5 Mt 의 wet kiln clinker capacity 및 5 Mt 의 dry kiln clinker capacity, 의 50% has cyclone preheating 의 4 또는 more stages, then 귀사 해야 합니다 enter 25 first 행. 이 two tech아니요logies 아니요t mutu모든y exclusive, i.e. sum 의 모두 수치 제공된 할 수 있습니다 over 100."
+      "textKo": "- 응답방법과 열 구조에 따라 해당 배출량, 에너지, 목표 또는 성과 지표를 입력하십시오. - 수치는 문항에서 요구하는 단위와 보고연도 기준을 일관되게 적용하십시오. - 산정에 사용한 방법론, 배출계수, 제외 범위 또는 추정 기준이 있다면 설명 입력란에 근거를 남기십시오."
     },
     {
       "type": "Additional Information",
       "text": "Further information on BAT for the cement sector can be found in EIPPCB's BAT Reference Document for the Production of Cement, Lime and Magnesium Oxide and from the European Cement Research Academy for Cement Sustainability Initiative .",
       "typeKo": "추가 정보",
-      "textKo": "Further 정보 BAT 시멘트 섹터 할 수 있습니다 found EIPPCB's BAT Reference Document Production 의 시멘트, Lime 및 Magnesium Oxide 및 에서 European 시멘트 Research Academy 시멘트 Sustainability Initiative."
+      "textKo": "이 섹션은 응답 작성 시 참고할 수 있는 추가 설명입니다. 필요한 경우 관련 기준, 방법론, 내부 검토 자료 또는 외부 근거자료를 함께 확인하십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Best available technique (BAT): Best available technique (BAT) refers to the available techniques which are the best for preventing or minimizing emissions and impacts on the environment. BAT include both the technology used, and the way your installation is designed, built, maintained, operated and decommissioned.",
       "typeKo": "용어 설명",
-      "textKo": "Best 사용 가능 technique (BAT): Best 사용 가능 technique (BAT) refers 사용 가능 techniques best preventing 또는 minimizing 배출량 및 영향 environment. BAT include 모두 기술 used, 및 way 귀사의 inst모든ation designed, built, maintained, operated 및 decommissioned."
+      "textKo": "이 섹션은 문항 작성에 사용되는 주요 용어의 의미를 설명합니다. 동일한 용어는 문항 전반에서 같은 의미로 적용하고, 내부 기준과 다르게 사용하는 경우 설명 입력란에 근거를 남기십시오."
     }
   ],
   "points": [
@@ -103,7 +103,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Cement",
@@ -113,7 +113,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Cement",
@@ -123,7 +123,7 @@
       "sectorKo": "시멘트",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     }
   ],
   "change": {
@@ -193,10 +193,14 @@
   "mandatoryKo": "아니요",
   "issueTagsKo": "기후변화",
   "sectorTagsKo": "시멘트",
-  "simpleHelpKo": "purpose 의 이 문항 achieve 이유able indication 의 level 의 ad선택지 의 Best 사용 가능 Techniques (BAT) 섹터. CDP recognizes 이 해야 합니다 아니요t taken proxy over모든 efficiency 및 productivity 조직. 아니요netheless, 이 정보 useful understanding 일반 ad선택지 status 의 BAT 조직 및 across 섹터.",
+  "simpleHelpKo": "이 문항은 기후변화 관련 배출량, 에너지 사용, 목표, 감축활동 및 성과 지표를 확인하는 항목입니다. 응답 시 단위, 산정범위, 배출계수, 보고연도 및 검증 여부를 일관되게 작성하십시오. 문항명: 공시 조직의 사용 가능 시멘트 생산 용량.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
   "translationSourceKo": "2025 Korean form + CDP glossary repair",
   "listTitleEn": "Disclose your organization's best available techniques as a percentage of Portland cement clinker production capacity.",
-  "listTitleKo": "공시 조직의 사용 가능 시멘트 생산 용량."
+  "listTitleKo": "공시 조직의 사용 가능 시멘트 생산 용량.",
+  "bodyReadabilityKo": {
+    "updatedAt": "2026-05-21T14:41:51.845Z",
+    "scope": "simpleHelpKo, guidance.textKo, criteria.criteriaKo"
+  }
 }

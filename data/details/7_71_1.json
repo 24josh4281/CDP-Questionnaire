@@ -143,19 +143,19 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to 7.71.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 only appears 만약 귀사 선택 \"예\" response 7.71."
+      "textKo": "- 이 문항은 선행 문항의 응답에 따라 표시 여부 또는 입력 범위가 달라질 수 있습니다. - 선행 문항의 응답을 수정하면 이 문항 또는 후속 문항의 기존 입력값이 초기화될 수 있으므로 제출 전 함께 확인하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nIt is acknowledged that your organization's approach to assessing the life cycle emissions of products or services may vary - please select the options that best describe your most common approach. \nProducts/services assessed (column 1) \nSelect the option that best describes your organization's approach to selecting products or services for assessment. If you wish to provide further details, you may do so in the \"Comment\" column.\nLife cycle stage(s) most commonly covered (column 2) \nSelect the life cycle stage(s) that you most commonly cover in your assessments. Refer to the explanation of terms below for definitions. \nComment (column 4) (optional) \nYou may use this column to provide further details of your organization's approach to assessing life cycle emissions.",
       "typeKo": "요청 내용",
-      "textKo": "일반 It ack아니요wledged 귀사의 approach 평가ing life cycle 배출량 의 products 또는 서비스 할 수 있습니다 vary - please 선택 선택지 best 설명 귀사의 most common approach. Products/서비스 평가된 (열 1) 선택 선택지 best 설명s 귀사의 approach 선택ing products 또는 서비스 평가ment. 만약 귀사 wish 제공 further 세부 정보, 귀사 할 수 있습니다 do so \"의견\" 열. Life cycle stage(s) most commonly 포함된 (열 2) 선택 life cycle stage(s) 귀사 most commonly cover 귀사의 평가ments. Refer 용어 설명 below definitions. 의견 (열 4) (선택지al) 귀사 할 수 있습니다 use 이 열 제공 further 세부 정보 의 귀사의 approach 평가ing life cycle 배출량."
+      "textKo": "- 응답방법과 열 구조에 따라 해당 배출량, 에너지, 목표 또는 성과 지표를 입력하십시오. - 수치는 문항에서 요구하는 단위와 보고연도 기준을 일관되게 적용하십시오. - 산정에 사용한 방법론, 배출계수, 제외 범위 또는 추정 기준이 있다면 설명 입력란에 근거를 남기십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Gate-to-gate : The emissions and removals attributed to a studied product while it is under the ownership or control of the reporting company.\nCradle-to-gate : A partial life cycle assessment from material acquisition (cradle) through to when the product leaves the reporting company's gate (i.e. immediately following the product's production). Includes the material acquisition & pre-processing stage and the production stage.\nCradle-to-grave : A full life cycle assessment of emissions and removals attributed to a studied product from material acquisition through to the material or product end-of-life (grave). Includes the material acquisition & pre-processing stage, production stage, use stage and end-of-life stage.\nCradle-to-cradle/closed loop production : A full life cycle assessment from material acquisition though to end-of-life material or product recycling (i.e. cradle-to-grave + recycling). \nLife cycle stages (in line with the GHG Protocol Product Life Cycle Accounting and Reporting Standard ):\n- \nMaterial acquisition & pre-processing stage : A life cycle stage that begins when resources are extracted from nature and ends when the product components enter the gate of the studied product's production facility.\n-\nProduction stage : A life cycle stage that begins when the product components enter the production site for the studied product and ends when the finished studied product leaves the production gate.\n- \nUse stage : A life cycle stage that begins when the consumer takes possession of the product and ends when the used product is discarded.\n- \nEnd-of-life stage: A life cycle stage that begins when the used product is discarded by the consumer and ends when the product is returned to nature (e.g. incinerated) or allocated to another product's life cycle.",
       "typeKo": "용어 설명",
-      "textKo": "Gate--gate: 배출량 및 removals attributed studied product while it under ownership 또는 control 의 보고ing comp하나 이상. Cradle--gate: partial life cycle 평가ment 에서 material acquisition (cradle) through 경우 product leaves 보고ing comp하나 이상's gate (i.e. immediately 다음 product's production). Includes material acquisition & pre-프로세스ing stage 및 production stage. Cradle--grave: full life cycle 평가ment 의 배출량 및 removals attributed studied product 에서 material acquisition through material 또는 product end-의-life (grave). Includes material acquisition & pre-프로세스ing stage, production stage, use stage 및 end-의-life stage. Cradle--cradle/closed loop production: full life cycle 평가ment 에서 material acquisition though end-의-life material 또는 product recycling (i.e. cradle--grave + recycling). Life cycle stages (line GHG Protocol Product Life Cycle Accounting 및 보고ing Standard): - Material acquisition & pre-프로세스ing stage: life cycle stage begins 경우 자원 extracted 에서 nature 및 ends 경우 product components enter gate 의 studied product's production 시설. - Production stage: life cycle stage begins 경우 product components enter production site studied product 및 ends 경우 finished studied product leaves production gate. - Use stage: life cycle stage begins 경우 consumer takes possession 의 product 및 ends 경우 used product discarded. - End-의-life stage: life cycle stage begins 경우 used product discarded 기준 consumer 및 ends 경우 product returned nature (e.g. incinerated) 또는 모든ocated an기타 product's life cycle."
+      "textKo": "이 섹션은 문항 작성에 사용되는 주요 용어의 의미를 설명합니다. 동일한 용어는 문항 전반에서 같은 의미로 적용하고, 내부 기준과 다르게 사용하는 경우 설명 입력란에 근거를 남기십시오."
     }
   ],
   "points": [
@@ -199,7 +199,7 @@
       "sectorKo": "자본재",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "관리 점수수수 대상이 되려면 인지 점수수수를 모두 획득해야 합니다. 다음 조건을 모두 충족 - 1 점 다음 중 하나 이상 선택 열 'Products/서비스 평가된': - '모든 existing products/서비스' - '모든 new products/서비스 under development' - '모든 existing 및 new products/서비스' - 'Representative 선택ion 의 products/서비스' 및 다음 중 하나 이상 선택 열 'Life cycle stage(s) most commonly 포함된' - 'Cradle--grave' - 'Cradle--cradle/closed loop production' - 'Cradle--gate + end-의-life stage' - 'Use stage' 및 다음을 제외한 선택지 중 하나 '기타, 직접 입력' 열에서 선택 '방법론/standards/tools applied'. 이 문항에서 최대 1/1점을 받을 수 있습니다."
+      "criteriaKo": "관리 점수는 인지 점수 요건을 충족한 뒤, 관리 체계, 정량 수치, 적용 범위 또는 실행 조건을 충족하는 경우 부여됩니다. 배점표 기준 M 배점은 1/1입니다. 비공개 경로, 미응답 셀, 필수 선택지 누락 여부에 따라 점수가 제한될 수 있으므로 위 응답방법과 D/A/M/L 배점표를 함께 확인하십시오."
     },
     {
       "sector": "Capital goods",
@@ -279,10 +279,14 @@
   "mandatoryKo": "아니요",
   "issueTagsKo": "기후변화",
   "sectorTagsKo": "자본재",
-  "simpleHelpKo": "acquire over모든 understanding 의 total carbon 영향 의 product 또는 service, it necessary 평가 배출량 에서 production 프로세스 및 use phase, but also 배출량 associated acquisition 및 disposal 의 materials make up product. 이 문항 제공s 데이터 users 정보 귀사의 approach 평가ing product life cycle 배출량, 포함 life cycle stages 포함된 및 방법론 used.",
+  "simpleHelpKo": "이 문항은 기후변화 관련 배출량, 에너지 사용, 목표, 감축활동 및 성과 지표를 확인하는 항목입니다. 응답 시 단위, 산정범위, 배출계수, 보고연도 및 검증 여부를 일관되게 작성하십시오. 문항명: 제공 세부 정보 조직 배출량.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
   "translationSourceKo": "2025 Korean form + CDP glossary repair",
   "listTitleEn": "Provide details of how your organization assesses the life cycle emissions of its products or services.",
-  "listTitleKo": "제공 세부 정보 조직 배출량."
+  "listTitleKo": "제공 세부 정보 조직 배출량.",
+  "bodyReadabilityKo": {
+    "updatedAt": "2026-05-21T14:41:51.924Z",
+    "scope": "simpleHelpKo, guidance.textKo, criteria.criteriaKo"
+  }
 }

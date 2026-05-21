@@ -202,7 +202,7 @@ const UI = {
 };
 
 const PUBLIC_BASE_URL = "https://24josh4281.github.io/CDP-Questionnaire/";
-const URL_STATE_VERSION = "title-sync-v10";
+const URL_STATE_VERSION = "body-ko-v11";
 const FAVORITES_STORAGE_KEY = "cdpQuestionDbFavorites";
 
 const SECTOR_KO = {
@@ -1271,6 +1271,34 @@ function exactKoDisplay(value) {
   return getKoRegionNameMap().get(text) || "";
 }
 
+const KO_VISIBLE_ARTIFACT_REPLACEMENTS = [
+  [/Changed\s+및\s+reflected/gi, "변경 반영"],
+  [/Changed and reflected/gi, "변경 반영"],
+  [/Modified\s+문항/gi, "문항 수정"],
+  [/Taxo아니요my/gi, "택소노미"],
+  [/taxo아니요my/gi, "택소노미"],
+  [/environment모든y/gi, "환경적으로"],
+  [/eco아니요mic/gi, "경제"],
+  [/Extern모든y classified/gi, "외부 분류"],
+  [/Intern모든y classified/gi, "내부 분류"],
+  [/used\s+식별\s+product characteristics/gi, "제품 특성 식별에 사용"],
+  [/product characteristics/gi, "제품 특성"],
+  [/please specify/gi, "직접 입력"],
+  [/low-탄소/gi, "저탄소"],
+  [/낮음-탄소/gi, "저탄소"],
+  [/carbon-reducing/gi, "탄소 감축"],
+  [/aligned\s+택소노미\s+또는\s+방법론\s+relation\s+total\s+포트폴리오\s+가치/gi, "총 포트폴리오 가치 대비 택소노미 또는 방법론 부합"],
+  [/%\s+의\s+포트폴리오\s+부합하는\s+택소노미\s+또는\s+방법론\s+관계\s+총\s+포트폴리오\s+가치/gi, "총 포트폴리오 가치 대비 택소노미 또는 방법론 부합 비율"],
+];
+
+function cleanVisibleKoArtifacts(value) {
+  let out = String(value ?? "");
+  for (const [pattern, replacement] of KO_VISIBLE_ARTIFACT_REPLACEMENTS) {
+    out = out.replace(pattern, replacement);
+  }
+  return out;
+}
+
 function displayText(value) {
   let out = String(value ?? "");
   if (state.lang !== "ko" || !out) return out;
@@ -1279,6 +1307,7 @@ function displayText(value) {
   for (const [pattern, replacement] of KO_DISPLAY_REPLACEMENTS) {
     out = out.replace(pattern, replacement);
   }
+  out = cleanVisibleKoArtifacts(out);
   out = exactKoDisplay(out) || out;
   return out
     .replace(/\s+([,.;:])/g, "$1")
@@ -1307,14 +1336,19 @@ function richText(value) {
   const normalized = raw
     .replace(/\r\n/g, "\n")
     .replace(/\s*•\s*/g, "\n• ")
+    .replace(/\s+-\s+/g, "\n- ")
+    .replace(/([.!?])\s+(?=[가-힣A-Z0-9'"])/g, "$1\n")
     .replace(/\n{3,}/g, "\n\n")
     .trim();
   const lines = normalized
     .split(/\n+/)
     .map((line) => line.trim())
     .filter(Boolean);
-  const bulletCount = lines.filter((line) => /^•\s+/.test(line)).length;
-  if (bulletCount < 2) return nl(normalized);
+  const bulletCount = lines.filter((line) => /^[•\-*]\s+/.test(line)).length;
+  if (bulletCount < 2 && lines.length < 2) return nl(normalized);
+  if (bulletCount < 2) {
+    return `<div class="rich-text">${lines.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}</div>`;
+  }
 
   const blocks = [];
   let list = [];
@@ -1325,8 +1359,8 @@ function richText(value) {
   };
 
   for (const line of lines) {
-    if (/^•\s+/.test(line)) {
-      list.push(line.replace(/^•\s+/, ""));
+    if (/^[•\-*]\s+/.test(line)) {
+      list.push(line.replace(/^[•\-*]\s+/, ""));
     } else {
       flushList();
       blocks.push(`<p>${escapeHtml(line)}</p>`);
@@ -1946,7 +1980,7 @@ function sectorLabel(sector) {
 function reviewStatus(change) {
   const value = state.lang === "ko" ? change?.review_statusKo || change?.review_status || "" : change?.review_statusEn || change?.review_status || "";
   if (state.lang === "ko" && (value === "변경됨 및" || value === "Changed and reflected")) return "변경 반영";
-  return value;
+  return state.lang === "ko" ? displayText(value) : value;
 }
 
 function boolKo(value) {

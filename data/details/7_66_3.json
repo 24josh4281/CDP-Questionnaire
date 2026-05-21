@@ -24,13 +24,13 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to C7.66.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 only appears 만약 귀사 선택 \"예\" response C7.66."
+      "textKo": "- 이 문항은 선행 문항의 응답에 따라 표시 여부 또는 입력 범위가 달라질 수 있습니다. - 선행 문항의 응답을 수정하면 이 문항 또는 후속 문항의 기존 입력값이 초기화될 수 있으므로 제출 전 함께 확인하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nConsolidation basis \nIndicate the consolidation basis (financial control, operational control, equity share) used to report transfers and sequestration of CO 2 emissions.\nProvide clarification for cases in which different consolidation bases have been used (e.g. for a given activity, capture, injection or storage pathway).\nProvide clarification on whether any oil reservoirs and/or sequestration system (geological or oceanic) have been included within the organizational boundary of the reporting organization.\nProvide details, including degrees to which reservoirs are shared with other entities.\nOwnership of transferred emissions \nExplain who (e.g. the reporting organization) owns the transferred emissions and what potential liabilities are attached.\nIn the case of sequestered emissions, please clarify whether the reporting organization or one or more third parties owns the sequestered emissions and who has potential liability for them.\nRisk management \nProvide details of risk management performed by the reporting organization and/or third party in relation to its CCS/U activities.\nThis should cover pre-operational evaluation of the storage (e.g. site characterization), operational monitoring, closure monitoring, remediation for CO 2 leakage, and results of third party verification.",
       "typeKo": "요청 내용",
-      "textKo": "일반 Consolidation basis Indicate consolidation basis (재무 control, operational control, equity share) used 보고 transfers 및 sequestration 의 CO 2 배출량. 제공 clarification cases different consolidation bases have used (e.g. given 활동, capture, injection 또는 storage pathway). 제공 clarification whether 하나 이상 oil reservoirs 및/또는 sequestration system (geological 또는 해양ic) have 포함된 내 organizational boundary 의 보고ing 조직. 제공 세부 정보, 포함 degrees reservoirs shared 기타 entities. Ownership 의 transferred 배출량 설명 who (e.g. 보고ing 조직) owns transferred 배출량 및 what potential liabilities attached. case 의 sequestered 배출량, please clarify whether 보고ing 조직 또는 one 또는 more third parties owns sequestered 배출량 및 who has potential 법적 책임 them. 리스크 관리 제공 세부 정보 의 리스크 관리 performed 기준 보고ing 조직 및/또는 third party relation its CCS/U 활동. 이 해야 합니다 cover pre-operational evaluation 의 storage (e.g. site characterization), operational monitoring, closure monitoring, remediation CO 2 leakage, 및 results 의 third party verification."
+      "textKo": "- 응답방법과 열 구조에 따라 해당 배출량, 에너지, 목표 또는 성과 지표를 입력하십시오. - 수치는 문항에서 요구하는 단위와 보고연도 기준을 일관되게 적용하십시오. - 산정에 사용한 방법론, 배출계수, 제외 범위 또는 추정 기준이 있다면 설명 입력란에 근거를 남기십시오."
     }
   ],
   "points": [
@@ -64,7 +64,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -74,7 +74,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -84,7 +84,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     }
   ],
   "change": {
@@ -154,10 +154,14 @@
   "mandatoryKo": "아니요",
   "issueTagsKo": "기후변화",
   "sectorTagsKo": "석유 및 가스",
-  "simpleHelpKo": "Investors looking invest range 의 기업 have developed 및 utilized in아니요vative 및 commerci모든y viable CCS/U tech아니요logies. 이 문항 designed capture additional 관련성 있음 정보 relating transfer 및 sequestration 의 CO2. It requests 정보 consolidation basis used 보고 transfers 및 sequestration 의 CO2 배출량, who owns transferred 배출량 및 리스크 관리 프로세스 place.",
+  "simpleHelpKo": "이 문항은 기후변화 관련 배출량, 에너지 사용, 목표, 감축활동 및 성과 지표를 확인하는 항목입니다. 응답 시 단위, 산정범위, 배출계수, 보고연도 및 검증 여부를 일관되게 작성하십시오. 문항명: CO2의 이전 및 격리와 관련된 활동과 관련된 기타 관련 정보를 명확히 설명하세요",
   "popupHelpKo": "",
   "baseOptionsKo": [],
   "translationSourceKo": "2025 Korean form + CDP glossary repair",
   "listTitleEn": "Provide clarification on any other relevant information pertaining to your activities related to transfer and sequestration of CO2.",
-  "listTitleKo": "CO2의 이전 및 격리와 관련된 활동과 관련된 기타 관련 정보를 명확히 설명하세요"
+  "listTitleKo": "CO2의 이전 및 격리와 관련된 활동과 관련된 기타 관련 정보를 명확히 설명하세요",
+  "bodyReadabilityKo": {
+    "updatedAt": "2026-05-21T14:41:51.871Z",
+    "scope": "simpleHelpKo, guidance.textKo, criteria.criteriaKo"
+  }
 }

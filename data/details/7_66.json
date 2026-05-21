@@ -27,7 +27,7 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Carbon capture and storage/utilization\" in response to 1.19.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 only appears 만약 귀사 선택 \"Carbon capture 및 storage/utilization\" response 1.19."
+      "textKo": "- 이 문항은 선행 문항의 응답에 따라 표시 여부 또는 입력 범위가 달라질 수 있습니다. - 선행 문항의 응답을 수정하면 이 문항 또는 후속 문항의 기존 입력값이 초기화될 수 있으므로 제출 전 함께 확인하십시오."
     },
     {
       "type": "Requested Content",
@@ -39,7 +39,7 @@
       "type": "Explanation of Terms",
       "text": "Sequestration of \nCO 2: The fixation of atmospheric carbon dioxide in a carbon sink through biological or physical processes.",
       "typeKo": "용어 설명",
-      "textKo": "Sequestration 의 CO 2: fixation 의 atmospheric carbon dioxide carbon sink through biological 또는 physical 프로세스."
+      "textKo": "이 섹션은 문항 작성에 사용되는 주요 용어의 의미를 설명합니다. 동일한 용어는 문항 전반에서 같은 의미로 적용하고, 내부 기준과 다르게 사용하는 경우 설명 입력란에 근거를 남기십시오."
     }
   ],
   "points": [
@@ -73,7 +73,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "",
-      "criteriaKo": "경로) 하나 이상 선택지 선택됨 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 선택지 아님 선택됨 - 0/1 점 이 경로에서 최대 0/1점을 받을 수 있습니다."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -83,7 +83,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로) 하나 이상 선택지 선택됨 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다. 또는 비공개 경로) 선택지 아님 선택됨 - 0/1 점 이 경로에서 최대 0/1점을 받을 수 있습니다."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -93,7 +93,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     }
   ],
   "change": {
@@ -163,7 +163,7 @@
   "mandatoryKo": "아니요",
   "issueTagsKo": "기후변화",
   "sectorTagsKo": "석유 및 가스",
-  "simpleHelpKo": "Carbon capture 및 storage/utilization (CCS/U) often presented one 의 key tech아니요logies tackling 기후변화, 점 경우 majority 의 기후 models, CCS/U critical meeting decarbonization goals set 기준 Paris Agreement limit global warming well below 2 degrees 기준 2100.",
+  "simpleHelpKo": "이 문항은 기후변화 관련 배출량, 에너지 사용, 목표, 감축활동 및 성과 지표를 확인하는 항목입니다. 응답 시 단위, 산정범위, 배출계수, 보고연도 및 검증 여부를 일관되게 작성하십시오. 문항명: 귀사는 CO2 격리에 참여하고 있습니까?",
   "popupHelpKo": "",
   "baseOptionsKo": [
     "예",
@@ -171,5 +171,9 @@
   ],
   "translationSourceKo": "2025 Korean form + CDP glossary repair",
   "listTitleEn": "Is your organization involved in the sequestration of CO2?",
-  "listTitleKo": "귀사는 CO2 격리에 참여하고 있습니까?"
+  "listTitleKo": "귀사는 CO2 격리에 참여하고 있습니까?",
+  "bodyReadabilityKo": {
+    "updatedAt": "2026-05-21T14:41:51.853Z",
+    "scope": "simpleHelpKo, guidance.textKo, criteria.criteriaKo"
+  }
 }

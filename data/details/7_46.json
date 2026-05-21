@@ -186,25 +186,25 @@
       "type": "Change From Last Year",
       "text": "Modified question",
       "typeKo": "전년 대비 변경사항",
-      "textKo": "Modified 문항"
+      "textKo": "변경 반영"
     },
     {
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Electricity generation\" in response to question 1.16.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 only appears 만약 귀사 선택 \"전력 generation\" response 문항 1.16."
+      "textKo": "- 이 문항은 선행 문항의 응답에 따라 표시 여부 또는 입력 범위가 달라질 수 있습니다. - 선행 문항의 응답을 수정하면 이 문항 또는 후속 문항의 기존 입력값이 초기화될 수 있으므로 제출 전 함께 확인하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nRows will appear in this question where \"Yes\" was selected in column 1 \"Power generation source\" of 1.16.1\nReport absolute Scope 1 emissions and Scope 1 emissions intensity for the primary power generation sources owned or controlled by the company, as reported in 1.16.1.\nGross electricity generation is the total amount of electric energy produced by generating units and measured at the generating terminal.\nNet electricity generation is the amount of gross generation less the electrical energy consumed at the generating stations for station service or auxiliaries.\nRefer to the CDP Technical note on Biofuels for guidance on biomass/biofuel sustainability.\nEmissions intensity is provided in metric tons CO2e per GWh, which is equivalent to kgCO2e per MWh, or grams CO2e per kWh. For thermal generation from fossil fuels, emissions intensity typically falls inside the range 300-1200 metric tons CO2e per GWh.\nIf fully disclosed, the figures you report in the bottom row \"Total\" of column 1 should equal the sum of all above rows.\nPower generation source (column 0) \nSee guidance for specific power generation sources below. The examples are illustrative and are not meant to be exhaustive:\n\"Coal - Hard\": report emissions from coal generation using anthracite and/or bituminous coal.\n\"Coal - Brown\": report emissions from coal generation using sub-bituminous coal and/or lignite.\n\"Sustainable biomass\" and\n\"Other biomass\" : biomass may be combusted on its own or co-fired with other fuels. Provide aggregated data for the biomass that you combust on its own and biomass that you co-combust with other fuel sources. \n\"Waste (non-biomass)\" : waste can include tire-derived fuels and other refuse-derived fuels. When reporting in this category, only report emissions from the non-biomass fraction. The biomass fraction should be reported under either biomass option. \n\"Hydropower\" : hydropower does not include pumped storage operations for the reporting of emissions from hydropower generation. CDP regards it as a form of managing or storing energy rather than primary generation.\n\"\nWave \": wave energy can include technologies such as point absorbers, hinge rafts/attenuators, oscillating wave surge converters or water columns.\n\"\nTidal \": tidal technology can include energy generation from rise and fall tides, ebb and flood currents, as well as the use of horizontal or vertical-axis turbines.\nIf you are using hydrogen for power generation:\nReport emissions from generation using renewably derived hydrogen in row \n\"Other renewable\". \nReport emissions from generation using hydrogen derived from fossil fuels in row \n\"Other non-renewable\". \nReport emissions from generation using hydrogen produced from fossil fuels using carbon capture and storage technology (i.e. blue hydrogen) in row \n\"Fossil-fuel plants fitted with carbon capture and storage\" .\nIf part of your organization's power plant capacity is composed of multiple mixed small-scale generation technologies that are difficult to report by specific power generation source, then these can be aggregated by renewable and non-renewable sources. Report the emissions from the aggregated renewable sources under \"Other renewable\" and the emissions from the aggregated non-renewable sources under \"Other non-renewable\".\nEmissions intensity based on gross or net electricity generation (column 2) \nThis column only appears for rows where a value greater than zero is entered in the corresponding row in column \"Gross electricity generation (GWh)\" (column 3) or \"Net electricity generation\" (column 4) in 1.16.1.\nScope 1 emissions intensity (Gross generation) (column 3) \nThis column only appears if \"Gross\" is selected in column \"Emissions intensity based on gross or net electricity generation\" (column 2)\nThis column will be auto-calculated in the platform using the column \"Gross electricity generation (GWh)\" in 1.16.1 and column 1, \"Absolute Scope 1 emissions (metric tons CO2e)\" for the corresponding row. \nEnsure that you have entered data into these columns \n((7.46) column 1 \"Absolute Scope 1 emissions (metric tons CO2e)\")/((1.16.1) column 3 \"Gross electricity generation (GWh)\")\nScope 1 emissions intensity (Net generation) (column 4) \nThis column only appears if \"Net\" is selected in column \"Emissions intensity based on gross or net electricity generation\" (column 2)\nThis column will be auto-calculated in the platform using the column \"Net electricity generation (GWh)\" in 1.16.1 and column 1, \"Absolute Scope 1 emissions (metric tons CO2e)\" for the corresponding row. \nEnsure that you have entered data into these columns \n((7.46) column 1 \"Absolute Scope 1 emissions (metric tons CO2e)\")/((1.16.1) column 4 \"Net electricity generation (GWh)\")",
       "typeKo": "요청 내용",
-      "textKo": "일반 행 appear 이 문항 경우 \"예\" was 열에서 선택 1 \"Power generation source\" 의 1.16.1 보고 absolute Scope 1 배출량 및 Scope 1 배출집약도 주된 power generation sources owned 또는 controlled 기준 comp하나 이상, 보고된 1.16.1. Gross 전력 generation total amount 의 electric 에너지 produced 기준 generating units 및 measured at generating terminal. Net 전력 generation amount 의 gross generation less electrical 에너지 consumed at generating stations station service 또는 auxiliaries. Refer CDP Technical 아니요te Biofuels 가이던스 biomass/biofuel sustainability. 배출집약도 제공된 미터톤 CO2e per GWh, equivalent kgCO2e per MWh, 또는 grams CO2e per kWh. thermal generation 에서 fossil 연료, 배출집약도 typic모든y f모든s inside range 300-1200 미터톤 CO2e per GWh. 만약 fully 공시된, 수치 귀사 보고 bottom 행 \"Total\" 의 열 1 해야 합니다 equal sum 의 모든 above 행. Power generation source (열 0) See 가이던스 specific power generation sources below. examples illustrative 및 아니요t meant exhaustive: \"석탄 - Hard\": 보고 배출량 에서 석탄 generation using anthracite 및/또는 bitumi아니요us 석탄. \"석탄 - B행n\": 보고 배출량 에서 석탄 generation using sub-bitumi아니요us 석탄 및/또는 lignite. \"Sustainable biomass\" 및 \"기타 biomass\": biomass 할 수 있습니다 combusted its own 또는 co-fired 기타 연료. 제공 aggregated 데이터 biomass 귀사 combust its own 및 biomass 귀사 co-combust 기타 연료 sources. \"Waste (아니요n-biomass)\": waste 할 수 있습니다 include tire-derived 연료 및 기타 refuse-derived 연료. 경우 보고ing 이 category, only 보고 배출량 에서 아니요n-biomass fraction. biomass fraction 해야 합니다 보고된 under 둘 중 하나 biomass 선택지. \"Hydropower\": hydropower does 아니요t include pumped storage operations 보고ing 의 배출량 에서 hydropower generation. CDP regards it form 의 managing 또는 storing 에너지 rather than 주된 generation. \" Wave \": wave 에너지 할 수 있습니다 include tech아니요logies such 점 absorbers, hinge rafts/attenuators, oscillating wave surge converters 또는 수자원 열. \" Tidal \": tidal 기술 할 수 있습니다 include 에너지 generation 에서 rise 및 f모든 tides, ebb 및 flood 현재s, well use 의 horizontal 또는 vertical-axis turbines. 만약 귀사 using hydrogen power generation: 보고 배출량 에서 generation using renewably derived hydrogen 행 \"기타 renewable\". 보고 배출량 에서 generation using hydrogen derived 에서 fossil 연료 행 \"기타 아니요n-renewable\". 보고 배출량 에서 generation using hydrogen produced 에서 fossil 연료 using carbon capture 및 storage 기술 (i.e. blue hydrogen) 행 \"Fossil-연료 plants fitted carbon capture 및 storage\". 만약 part 의 귀사의 power plant capacity composed 의 multiple mixed sm모든-scale generation tech아니요logies difficult 보고 기준 specific power generation source, then 이 할 수 있습니다 aggregated 기준 renewable 및 아니요n-renewable sources. 보고 배출량 에서 aggregated renewable sources under \"기타 renewable\" 및 배출량 에서 aggregated 아니요n-renewable sources under \"기타 아니요n-renewable\". 배출집약도 based gross 또는 net 전력 generation (열 2) 이 열 only appears 행 경우 가치 greater than zero entered corresponding 행 열 \"Gross 전력 generation (GWh)\" (열 3) 또는 \"Net 전력 generation\" (열 4) 1.16.1. Scope 1 배출집약도 (Gross generation) (열 3) 이 열 only appears 만약 \"Gross\" 열에서 선택 \"배출집약도 based gross 또는 net 전력 generation\" (열 2) 이 열 auto-산정d platform using 열 \"Gross 전력 generation (GWh)\" 1.16.1 및 열 1, \"Absolute Scope 1 배출량 (미터톤 CO2e)\" corresponding 행. Ensure 귀사 have entered 데이터 into 이 열 ((7.46) 열 1 \"Absolute Scope 1 배출량 (미터톤 CO2e)\")/((1.16.1) 열 3 \"Gross 전력 generation (GWh)\") Scope 1 배출집약도 (Net generation) (열 4) 이 열 only appears 만약 \"Net\" 열에서 선택 \"배출집약도 based gross 또는 net 전력 generation\" (열 2) 이 열 auto-산정d platform using 열 \"Net 전력 generation (GWh)\" 1.16.1 및 열 1, \"Absolute Scope 1 배출량 (미터톤 CO2e)\" corresponding 행. Ensure 귀사 have entered 데이터 into 이 열 ((7.46) 열 1 \"Absolute Scope 1 배출량 (미터톤 CO2e)\")/((1.16.1) 열 4 \"Net 전력 generation (GWh)\")"
+      "textKo": "- 응답방법과 열 구조에 따라 해당 배출량, 에너지, 목표 또는 성과 지표를 입력하십시오. - 수치는 문항에서 요구하는 단위와 보고연도 기준을 일관되게 적용하십시오. - 산정에 사용한 방법론, 배출계수, 제외 범위 또는 추정 기준이 있다면 설명 입력란에 근거를 남기십시오."
     },
     {
       "type": "Explanation of Terms",
       "text": "Renewable energy: energy taken from sources that are inexhaustible, e.g. wind, water, solar, geothermal energy and sustainable biofuels (adapted from the GHG protocol, 2004 ).\nBiomass: any organic matter, i.e. biological material, available on a renewable basis. Includes feedstock derived from animals or plants, such as wood and agricultural crops, and organic waste from municipal and industrial sources. Biomass fuels should be sustainably sourced and certified where possible, and include:\nSolid biofuels - solid fuels derived from biomass. Includes feedstock derived from animals or plants, such as wood and agricultural crops, and organic waste from municipal and industrial sources.\nBiogas - a mixture of methane (CH4) and carbon dioxide (CO2) used as fuel and produced by bacterial degradation of organic matter or through gasification of biomass.\nLiquid biofuels - liquid fuels derived from biomass such as ethanol and biodiesel.",
       "typeKo": "용어 설명",
-      "textKo": "Renewable 에너지: 에너지 taken 에서 sources inexhaustible, e.g. wind, 수자원, solar, ge기타mal 에너지 및 sustainable biofuels (adapted 에서 GHG protocol, 2004). Biomass: 하나 이상 organic matter, i.e. biological material, 사용 가능 renewable basis. Includes feedstock derived 에서 animals 또는 plants, such wood 및 agricultural crops, 및 organic waste 에서 municipal 및 industrial sources. Biomass 연료 해야 합니다 sustainably sourced 및 certified 경우 possible, 및 include: Solid biofuels - solid 연료 derived 에서 biomass. Includes feedstock derived 에서 animals 또는 plants, such wood 및 agricultural crops, 및 organic waste 에서 municipal 및 industrial sources. Biogas - mixture 의 methane (CH4) 및 carbon dioxide (CO2) used 연료 및 produced 기준 bacterial degradation 의 organic matter 또는 through gasification 의 biomass. Liquid biofuels - liquid 연료 derived 에서 biomass such etha아니요l 및 biodiesel."
+      "textKo": "이 섹션은 문항 작성에 사용되는 주요 용어의 의미를 설명합니다. 동일한 용어는 문항 전반에서 같은 의미로 적용하고, 내부 기준과 다르게 사용하는 경우 설명 입력란에 근거를 남기십시오."
     }
   ],
   "points": [
@@ -228,7 +228,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "D",
-      "criteriaKo": "점 부여됨 per 완료 행 proportion 숫자 입력 의 행 공시된 (제외 모두 행 '기타 renewable' 및 '기타 아니요n-renewable'). Parti모든y 완료 행 아니요t receive full 점. 이 문항에서 최대 15/15점을 받을 수 있습니다."
+      "criteriaKo": "공시 점수는 해당 문항에서 요구하는 필수 셀, 행 또는 설명 입력을 완료한 정도에 따라 부여됩니다. 배점표 기준 D 배점은 15/15입니다. 비공개 경로, 미응답 셀, 필수 선택지 누락 여부에 따라 점수가 제한될 수 있으므로 위 응답방법과 D/A/M/L 배점표를 함께 확인하십시오."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -248,7 +248,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Energy utilities & power generators",
@@ -258,7 +258,7 @@
       "sectorKo": "에너지 유틸리티 및 발전",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     }
   ],
   "change": {
@@ -328,10 +328,14 @@
   "mandatoryKo": "아니요",
   "issueTagsKo": "기후변화",
   "sectorTagsKo": "에너지 유틸리티 및 발전",
-  "simpleHelpKo": "이 문항 제공s 데이터 users more transparency regarding 조직' active sourcing 의 low-carbon 에너지.",
+  "simpleHelpKo": "이 문항은 기후변화 관련 배출량, 에너지 사용, 목표, 감축활동 및 성과 지표를 확인하는 항목입니다. 응답 시 단위, 산정범위, 배출계수, 보고연도 및 검증 여부를 일관되게 작성하십시오. 문항명: 활동, 제공 범위 1 배출량 배출량 집약도 관련된 공장 용량 보고연도.",
   "popupHelpKo": "",
   "baseOptionsKo": [],
   "translationSourceKo": "2025 Korean form + CDP glossary repair",
   "listTitleEn": "For your electric utility activities, provide a breakdown of your Scope 1 emissions and emissions intensity relating to your total power plant capacity and generation during the reporting year by source.",
-  "listTitleKo": "활동, 제공 범위 1 배출량 배출량 집약도 관련된 공장 용량 보고연도."
+  "listTitleKo": "활동, 제공 범위 1 배출량 배출량 집약도 관련된 공장 용량 보고연도.",
+  "bodyReadabilityKo": {
+    "updatedAt": "2026-05-21T14:41:51.639Z",
+    "scope": "simpleHelpKo, guidance.textKo, criteria.criteriaKo"
+  }
 }

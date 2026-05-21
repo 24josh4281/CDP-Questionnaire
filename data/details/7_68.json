@@ -27,13 +27,13 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to Suppliers in column 2 of 5.11 AND if you select \"Value chain (excluding own land)\" or \"Value chain (including own land)\" in response to column \"Emissions and/or water-related impacts\" for \"Production\" row of 1.11.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 only appears 만약 귀사 선택 \"예\" response 공급업체 열 2 의 5.11 및 만약 귀사 선택 \"가치사슬 (제외 own land)\" 또는 \"가치사슬 (포함 own land)\" response 열 \"배출량 및/또는 수자원-related 영향\" \"Production\" 행 의 1.11."
+      "textKo": "- 이 문항은 선행 문항의 응답에 따라 표시 여부 또는 입력 범위가 달라질 수 있습니다. - 선행 문항의 응답을 수정하면 이 문항 또는 후속 문항의 기존 입력값이 초기화될 수 있으므로 제출 전 함께 확인하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nSelect ‘Yes' if you have encouraged /are in the process of encouraging your suppliers to adopt actions or management practices with direct or indirect climate change benefits. These may refer to preventing, reducing, controlling and/or adapting to effects of climate change.\nThere is a wide variety of agricultural/forestry management practices that have either direct or indirect climate change mitigation and/or adaptation benefits. A list of common examples can be found in Appendix A of this document.",
       "typeKo": "요청 내용",
-      "textKo": "일반 선택 ‘예' 만약 귀사 have encouraged / 프로세스 의 encouraging 귀사의 공급업체 adopt actions 또는 관리 practices direct 또는 indirect 기후변화 benefits. 이 할 수 있습니다 refer preventing, reducing, controlling 및/또는 adapting effects 의 기후변화. There wide variety 의 agricultural/산림ry 관리 practices have 둘 중 하나 direct 또는 indirect 기후변화 완화 및/또는 적응 benefits. list 의 common examples 할 수 있습니다 found Appendix 의 이 document."
+      "textKo": "- 응답방법과 열 구조에 따라 해당 배출량, 에너지, 목표 또는 성과 지표를 입력하십시오. - 수치는 문항에서 요구하는 단위와 보고연도 기준을 일관되게 적용하십시오. - 산정에 사용한 방법론, 배출계수, 제외 범위 또는 추정 기준이 있다면 설명 입력란에 근거를 남기십시오."
     }
   ],
   "points": [
@@ -87,7 +87,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Agricultural commodities",
@@ -107,7 +107,7 @@
       "sectorKo": "농산물 원자재",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -127,7 +127,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Food, beverage & tobacco",
@@ -147,7 +147,7 @@
       "sectorKo": "식음료 및 담배",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -167,7 +167,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Paper & forestry",
@@ -187,7 +187,7 @@
       "sectorKo": "제지 및 임업",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     }
   ],
   "change": {
@@ -257,7 +257,7 @@
   "mandatoryKo": "아니요",
   "issueTagsKo": "기후변화",
   "sectorTagsKo": "농산물 원자재, Food, beverage & tobacco, 제지 및 임업",
-  "simpleHelpKo": "이 문항 gathers 정보 whether 귀사 encourage 귀사의 공급업체 undertake 하나 이상 관리 practice 기후변화 benefits. 이 demonstrates 데이터 users 귀사 acting 둘 중 하나 preventing, reducing, controlling, 및/또는 adapting effects 의 기후변화 its 공급망. 기준 encouraging 귀사의 공급업체 adopt such 관리 practices their land, 귀사 promote 인지 의 sustainable production practices 및 ultimately contribute reducing 기후-related 리스크 귀사의 공급망.",
+  "simpleHelpKo": "이 문항은 기후변화 관련 배출량, 에너지 사용, 목표, 감축활동 및 성과 지표를 확인하는 항목입니다. 응답 시 단위, 산정범위, 배출계수, 보고연도 및 검증 여부를 일관되게 작성하십시오. 문항명: 농업 산림 관리 기후 변경 /?",
   "popupHelpKo": "",
   "baseOptionsKo": [
     "예",
@@ -265,5 +265,9 @@
   ],
   "translationSourceKo": "2025 Korean form + CDP glossary repair",
   "listTitleEn": "Do you encourage your suppliers to undertake any agricultural or forest management practices with climate change mitigation and/or adaptation benefits?",
-  "listTitleKo": "농업 산림 관리 기후 변경 /?"
+  "listTitleKo": "농업 산림 관리 기후 변경 /?",
+  "bodyReadabilityKo": {
+    "updatedAt": "2026-05-21T14:41:51.883Z",
+    "scope": "simpleHelpKo, guidance.textKo, criteria.criteriaKo"
+  }
 }

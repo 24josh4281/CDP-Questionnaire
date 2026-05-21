@@ -56,7 +56,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "",
-      "criteriaKo": "다음을 제외한 선택지 중 하나 '아니요, 당사 do 아니요t have program place' 선택됨 - 1 점 이 문항에서 최대 1/1점을 받을 수 있습니다."
+      "criteriaKo": "인지 점수는 공시 점수 요건을 충족한 뒤, 해당 선택지 또는 조건을 만족하는 경우 부여됩니다. 배점표 기준 A 배점은 1/1입니다. 비공개 경로, 미응답 셀, 필수 선택지 누락 여부에 따라 점수가 제한될 수 있으므로 위 응답방법과 D/A/M/L 배점표를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -66,7 +66,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "경로) Full 인지 점수수수 부여됨 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) '아니요, 당사 do 아니요t have program place' 선택됨 - 0/1 점 이 경로에서 최대 0/1점을 받을 수 있습니다. 또는 비공개 경로) 선택지 아님 선택됨 - 0/3 점 이 경로에서 최대 0/3점을 받을 수 있습니다."
+      "criteriaKo": "관리 점수는 인지 점수 요건을 충족한 뒤, 관리 체계, 정량 수치, 적용 범위 또는 실행 조건을 충족하는 경우 부여됩니다. 배점표 기준 M 배점은 0 또는 1/1입니다. 비공개 경로, 미응답 셀, 필수 선택지 누락 여부에 따라 점수가 제한될 수 있으므로 위 응답방법과 D/A/M/L 배점표를 함께 확인하십시오."
     },
     {
       "sector": "Oil & Gas",
@@ -76,7 +76,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     }
   ],
   "change": {
@@ -146,7 +146,7 @@
   "mandatoryKo": "아니요",
   "issueTagsKo": "기후변화",
   "sectorTagsKo": "석유 및 가스",
-  "simpleHelpKo": "Investors interested understand how 기업 approach methane leak detection 및 repair (LDAR) 또는 기타 methane leak detection methods, order gauge how effectively methane 배출량 reduced.",
+  "simpleHelpKo": "이 문항은 기후변화 관련 배출량, 에너지 사용, 목표, 감축활동 및 성과 지표를 확인하는 항목입니다. 응답 시 단위, 산정범위, 배출계수, 보고연도 및 검증 여부를 일관되게 작성하십시오. 문항명: 귀사는 석유 및 가스 생산 활동에서 발생하는 비산 메탄 배출을 찾아내고 해결하기 위해 누출 탐지 및 수리(LDAR)를 수행하거나 다른 방법을 사용합니까?",
   "popupHelpKo": "",
   "baseOptionsKo": [
     "예",
@@ -155,5 +155,9 @@
   ],
   "translationSourceKo": "2025 Korean form + CDP glossary repair",
   "listTitleEn": "Does your organization conduct leak detection and repair (LDAR) or use other methods to find and fix fugitive methane emissions from oil and gas production activities?",
-  "listTitleKo": "귀사는 석유 및 가스 생산 활동에서 발생하는 비산 메탄 배출을 찾아내고 해결하기 위해 누출 탐지 및 수리(LDAR)를 수행하거나 다른 방법을 사용합니까?"
+  "listTitleKo": "귀사는 석유 및 가스 생산 활동에서 발생하는 비산 메탄 배출을 찾아내고 해결하기 위해 누출 탐지 및 수리(LDAR)를 수행하거나 다른 방법을 사용합니까?",
+  "bodyReadabilityKo": {
+    "updatedAt": "2026-05-21T14:41:51.826Z",
+    "scope": "simpleHelpKo, guidance.textKo, criteria.criteriaKo"
+  }
 }

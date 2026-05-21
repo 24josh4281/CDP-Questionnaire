@@ -24,13 +24,13 @@
       "type": "Question Dependencies",
       "text": "This question only appears if you select \"Yes\" in response to 7.61.",
       "typeKo": "문항 의존성",
-      "textKo": "이 문항 only appears 만약 귀사 선택 \"예\" response 7.61."
+      "textKo": "- 이 문항은 선행 문항의 응답에 따라 표시 여부 또는 입력 범위가 달라질 수 있습니다. - 선행 문항의 응답을 수정하면 이 문항 또는 후속 문항의 기존 입력값이 초기화될 수 있으므로 제출 전 함께 확인하십시오."
     },
     {
       "type": "Requested Content",
       "text": "General \nPlease describe, providing a company specific description and using examples, the frequency, the methodology, and the scope of your LDAR programs or other methane leak detection methods you employ:\n- Frequency refers to how often a company observes its assets for leaks (e.g. monthly, quarterly, annually). \n- Methodology is the process that the company uses to detect methane leaks, for example:\n- Optimal gas imaging (OGI) cameras \n- Handheld \"sniffer\" gas detectors \n- Infrared thermal imaging (FLIR) camera\n- Drone-based monitors \n- Predictive analytics \n- Audio, Visual, Olfactory (AVO) inspections \n- US EPA's Method 21 \n- Colorado Regulation 7 \n- Canadian Council of Ministers of Environment (CCME) Environmental Code of Practice for Measurement and Control of Fugitive VOC Emissions from Equipment Leaks (Oct 1993) \n- Canadian Association of Petroleum Producers (CAPP) Best Management Practice: \n- Management of Fugitive Emissions at Upstream Oil and Gas Facilities \n- EU Commission IPPC Directive (2008/1/EC) and Industrial Emissions Directive (IED, 2010/75/EU)\n- Scope is the percentage of the company's assets that are inspected under an LDAR or other methane leak detection program.\nIf your organization can, then please explain:\n- What is the incidence rate of leaks? \n- What are the main causes of leaks? \n- How quickly are the leaks fixed?\nFor more information and recommendations for oil and gas operators on how they can improve the state of methane disclosure please see the Environmental Defense Fund's report Rising Risk: Improving Methane Disclosure in the Oil and Gas Industry , and the follow-up report Disclosure Divide .",
       "typeKo": "요청 내용",
-      "textKo": "일반 Please 설명, providing comp하나 이상 specific description 및 using examples, 빈도, 방법론, 및 scope 의 귀사의 LDAR programs 또는 기타 methane leak detection methods 귀사 employ: - 빈도 refers how often comp하나 이상 observes its assets leaks (e.g. monthly, quarterly, 매년). - 방법론 프로세스 comp하나 이상 uses detect methane leaks, example: - Optimal gas imaging (OGI) cameras - Handheld \"sniffer\" gas detectors - Infrared thermal imaging (FLIR) camera - Drone-based monitors - Predictive analytics - Audio, Visual, Olfactory (AVO) inspections - US EPA's Method 21 - Colorado Regulation 7 - Canadian Council 의 Ministers 의 Environment (CCME) 환경 Code 의 Practice Measurement 및 Control 의 Fugitive VOC 배출량 에서 Equipment Leaks (Oct 1993) - Canadian Association 의 Petroleum Producers (CAPP) Best 관리 Practice: - 관리 의 Fugitive 배출량 at Upstream Oil 및 Gas 시설 - EU Commission IPPC Directive (2008/1/EC) 및 Industrial 배출량 Directive (IED, 2010/75/EU) - Scope percentage 의 comp하나 이상's assets inspected under LDAR 또는 기타 methane leak detection program. 만약 귀사 할 수 있습니다, then 설명하십시오: - What incidence rate 의 leaks? - What main causes 의 leaks? - How quickly leaks fixed? more 정보 및 recommendations oil 및 gas operators how they 할 수 있습니다 improve 명시 의 methane 공시 please see 환경 Defense Fund's 보고 Rising 리스크: Improving Methane 공시 Oil 및 Gas Industry, 및 follow-up 보고 공시 Divide."
+      "textKo": "- 응답방법과 열 구조에 따라 해당 배출량, 에너지, 목표 또는 성과 지표를 입력하십시오. - 수치는 문항에서 요구하는 단위와 보고연도 기준을 일관되게 적용하십시오. - 산정에 사용한 방법론, 배출계수, 제외 범위 또는 추정 기준이 있다면 설명 입력란에 근거를 남기십시오."
     }
   ],
   "points": [
@@ -64,7 +64,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -74,7 +74,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "M",
-      "criteriaKo": "Full 공시 점수수수 해야 합니다 부여됨 대상 관리 점수수수. 경로) '예' 선택됨 문항 7.61 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) '아니요, 이 관련 없음 당사의 operations' 문항 7.61 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
+      "criteriaKo": "Full 공시 점수 해야 합니다 부여됨 대상 관리 점수. 경로) '예' 선택됨 문항 7.61 - 1 점 이 경로에서 최대 1/1점을 받을 수 있습니다. 또는 경로 B) '아니요, 이 관련 없음 당사의 operations' 문항 7.61 - 0/0 점 이 경로에서 최대 0/0점을 받을 수 있습니다."
     },
     {
       "sector": "Oil & Gas",
@@ -84,7 +84,7 @@
       "sectorKo": "석유 및 가스",
       "issueKo": "기후변화",
       "levelKo": "L",
-      "criteriaKo": "아니요t scored."
+      "criteriaKo": "채점하지 않습니다."
     }
   ],
   "change": {
@@ -154,10 +154,14 @@
   "mandatoryKo": "아니요",
   "issueTagsKo": "기후변화",
   "sectorTagsKo": "석유 및 가스",
-  "simpleHelpKo": "Investors interested understand how 기업 approach methane leak detection 및 repair (LDAR) 또는 기타 methane leak detection methods, order gauge how effectively methane 배출량 reduced.",
+  "simpleHelpKo": "이 문항은 기후변화 관련 배출량, 에너지 사용, 목표, 감축활동 및 성과 지표를 확인하는 항목입니다. 응답 시 단위, 산정범위, 배출계수, 보고연도 및 검증 여부를 일관되게 작성하십시오. 문항명: 석유 및 가스 생산 활동에 대해 메탄 누출 탐지 및 수리 또는 기타 누출 탐지 방법을 수행하는 프로토콜을 설명하며, 주요 검사 빈도, 대상 자산 추정치, 사용된 방법론을 포함해야 합니다",
   "popupHelpKo": "",
   "baseOptionsKo": [],
   "translationSourceKo": "2025 Korean form + CDP glossary repair",
   "listTitleEn": "Describe the protocol through which methane leak detection and repair or other leak detection methods, are conducted for oil and gas production activities, including predominant frequency of inspections, estimates of assets covered, and methodologies employed.",
-  "listTitleKo": "석유 및 가스 생산 활동에 대해 메탄 누출 탐지 및 수리 또는 기타 누출 탐지 방법을 수행하는 프로토콜을 설명하며, 주요 검사 빈도, 대상 자산 추정치, 사용된 방법론을 포함해야 합니다"
+  "listTitleKo": "석유 및 가스 생산 활동에 대해 메탄 누출 탐지 및 수리 또는 기타 누출 탐지 방법을 수행하는 프로토콜을 설명하며, 주요 검사 빈도, 대상 자산 추정치, 사용된 방법론을 포함해야 합니다",
+  "bodyReadabilityKo": {
+    "updatedAt": "2026-05-21T14:41:51.830Z",
+    "scope": "simpleHelpKo, guidance.textKo, criteria.criteriaKo"
+  }
 }
