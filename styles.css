@@ -127,7 +127,7 @@ h1 {
 
 .overview {
   display: grid;
-  grid-template-columns: repeat(5, minmax(150px, 1fr));
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
   gap: 10px;
   margin-bottom: 12px;
 }
@@ -154,13 +154,16 @@ h1 {
 }
 
 .module-nav {
-  display: grid;
-  grid-template-columns: repeat(9, minmax(96px, 1fr));
+  display: flex;
+  flex-wrap: nowrap;
   gap: 6px;
   margin-bottom: 12px;
+  overflow-x: auto;
+  scrollbar-width: thin;
 }
 
 .module-button {
+  flex: 0 0 176px;
   min-height: 62px;
   border: 1px solid var(--line);
   background: var(--surface);
@@ -233,6 +236,7 @@ h1 {
 .filter-head h2,
 .list-head h2 {
   font-size: 17px;
+  white-space: nowrap;
 }
 
 .text-button {
@@ -391,9 +395,8 @@ button:focus {
   font-size: 13px;
   font-weight: 700;
   line-height: 1.35;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   overflow: hidden;
 }
 

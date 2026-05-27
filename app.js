@@ -12,13 +12,13 @@ const state = {
 
 const UI = {
   ko: {
-    appTitle: "문항명·응답방법·드롭다운·평가방법론 DB",
+    appTitle: "2026 CDP CC DB",
     sourcePrefix: "변경 추적표",
     metricQuestions: "전체 문항",
-    metricChanged: "변경 반영",
+    metricChanged: "변경 문항",
     metricPpt: "정성 PPT",
     metricExcel: "정량 Excel",
-    metricNoChange: "변경 없음 확인",
+    metricNoChange: "동일 문항",
     searchTitle: "검색",
     reset: "초기화",
     searchInput: "문항번호 / 키워드",
@@ -106,13 +106,13 @@ const UI = {
     route: "구분",
   },
   en: {
-    appTitle: "Question, Response Method, Dropdown, and Scoring DB",
+    appTitle: "2026 CDP CC DB",
     sourcePrefix: "Changes Tracker",
     metricQuestions: "All questions",
-    metricChanged: "Changed",
+    metricChanged: "Changed questions",
     metricPpt: "Qualitative PPT",
     metricExcel: "Quantitative Excel",
-    metricNoChange: "Verified no change",
+    metricNoChange: "Unchanged questions",
     searchTitle: "Search",
     reset: "Reset",
     searchInput: "Question code / keyword",
@@ -290,6 +290,45 @@ function saveFavorites() {
 
 const KO_DISPLAY_REPLACEMENTS = [
   [/이 섹션은 문항 응답에 필요한 추가 작성 기준을 설명합니다\. 응답방법과 선택지를 함께 확인하여 작성하십시오\./g, "문항 의존성 및 표시 조건은 응답방법과 선택지 조건을 함께 확인하여 작성하십시오."],
+  [/Lack(?: of)? internal resources, capabilities, or expertise \(e\.g\., due to organization size\)/gi, "내부 자원, 역량 또는 전문성 부족(예: 조직 규모로 인해)"],
+  [/Lack internal resources, capabilities, 또는 expertise \(e\.g\., 때문에 조직 size\)/gi, "내부 자원, 역량 또는 전문성 부족(예: 조직 규모로 인해)"],
+  [/Lack of internal resources, capabilities, 또는 expertise \(e\.g\., due to 조직 size\)/gi, "내부 자원, 역량 또는 전문성 부족(예: 조직 규모로 인해)"],
+  [/기후 변경/g, "기후변화"],
+  [/environmental outcomes/gi, "환경 결과"],
+  [/환경 outcomes/gi, "환경 결과"],
+  [/scenario analysis/gi, "시나리오 분석"],
+  [/Scenario analysis/gi, "시나리오 분석"],
+  [/decision makers/gi, "의사결정자"],
+  [/potential outcomes/gi, "잠재적 결과"],
+  [/a variety of scenarios/gi, "다양한 시나리오"],
+  [/a variety scenarios/gi, "다양한 시나리오"],
+  [/outcomes/gi, "결과"],
+  [/implications/gi, "영향"],
+  [/governance/gi, "거버넌스"],
+  [/wider business strategy/gi, "보다 넓은 사업전략"],
+  [/wider/gi, "보다 넓은"],
+  [/a scenario describes a potential path/gi, "시나리오는 잠재적 경로를 설명합니다"],
+  [/a particular outcome/gi, "특정 결과"],
+  [/highlighting central elements/gi, "핵심 요소를 강조"],
+  [/critical uncertainties/gi, "핵심 불확실성"],
+  [/enhance critical strategic thinking/gi, "비판적 전략 사고를 강화"],
+  [/business-as-usual/gi, "기존 사업 관행"],
+  [/assumptions/gi, "가정"],
+  [/explore alternatives/gi, "대안을 검토"],
+  [/relative and absolute impact/gi, "상대적 및 절대적 영향"],
+  [/likelihood occurrence/gi, "발생 가능성"],
+  [/forecasts/gi, "예측"],
+  [/predictions/gi, "예측"],
+  [/tools describe potential pathways/gi, "잠재적 경로를 설명하는 도구"],
+  [/potential pathways/gi, "잠재적 경로"],
+  [/themselves/gi, "그 자체"],
+  [/\blead\b/gi, "이어지는"],
+  [/a possible 미래/gi, "가능한 미래"],
+  [/drawing attention key factors/gi, "핵심 요인에 주목"],
+  [/It a 도구/gi, "이는 도구입니다"],
+  [/challenging/gi, "도전적으로 검토하여"],
+  [/Scenarios/gi, "시나리오"],
+  [/tools describe/gi, "설명하는 도구"],
   [/We measure the impact of our 포트폴리오 on the climate/gi, "포트폴리오가 기후에 미치는 영향을 측정함"],
   [/We measure the impact of our 포트폴리오 on 수자원/gi, "포트폴리오가 수자원에 미치는 영향을 측정함"],
   [/Explain why 귀사 does not measure its 포트폴리오 영향 on 기후변화/gi, "포트폴리오의 기후 영향 측정하지 않는 이유 설명"],
@@ -1317,6 +1356,21 @@ function displayText(value) {
     .trim();
 }
 
+function isPoorKoreanText(value) {
+  const text = String(value ?? "").trim();
+  if (!text) return true;
+  if (/^[-,.;:/()\s]+$/.test(text)) return true;
+  if (/,,|,\s*,|:\s*,|^\W{1,4}\s*(또는|및|와|과)/.test(text)) return true;
+  const hangulCount = (text.match(/[가-힣]/g) || []).length;
+  const latinWords = text.match(/[A-Za-z]{3,}/g) || [];
+  if (!hangulCount && /[A-Za-z]/.test(text)) return true;
+  if (latinWords.length >= 4 && hangulCount < 10) return true;
+  if (/\b(use|used|available|relevant|specific|analysis|frequency|scenario|environmental|organization|business|question|response|method|option)\b/i.test(text) && hangulCount < text.length / 3) {
+    return true;
+  }
+  return false;
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -1437,6 +1491,7 @@ const CHANGE_TEXT_REPLACEMENTS = [
   [/Energy utilities and power generators/gi, "에너지 유틸리티 및 발전"],
   [/Forests and Water/gi, "산림 및 수자원"],
   [/Climate Change/gi, "기후변화"],
+  [/기후 변경/g, "기후변화"],
   [/portfolio/gi, "포트폴리오"],
   [/taxonomy/gi, "택소노미"],
   [/methodology/gi, "방법론"],
@@ -1745,7 +1800,6 @@ function changeDisplayValue(change, enKey, koKey, kind) {
   }
   const preferredUsable = !isGenericChangeText(preferred) && !(state.lang === "ko" && isUntranslatedKoreanChangeText(preferred));
   if (preferredUsable) return state.lang === "ko" ? displayText(preferred) : preferred;
-  if (state.lang !== "ko" && !isGenericChangeText(alternate) && kind !== "scoring") return alternate;
 
   if (kind === "type") {
     const active = changeFlagLabels(change);
@@ -1960,8 +2014,17 @@ function levelOrder(level) {
 
 function textBy(item, enKey, koKey) {
   if (!item) return "";
-  const value = state.lang === "ko" ? item[koKey] || item[enKey] || "" : item[enKey] || item[koKey] || "";
-  return state.lang === "ko" ? displayText(value) : value;
+  if (state.lang !== "ko") return item[enKey] || "";
+  const koValue = displayText(item[koKey] || "");
+  if (!isPoorKoreanText(koValue)) return koValue;
+  return displayText(item[enKey] || koValue || "");
+}
+
+function optionText(original, translated) {
+  if (state.lang !== "ko") return original || "";
+  const koValue = displayText(translated || "");
+  if (!isPoorKoreanText(koValue)) return koValue;
+  return displayText(original || koValue || "");
 }
 
 function altTextBy(item, enKey, koKey) {
@@ -2267,32 +2330,12 @@ function renderDetail(detail) {
       ${renderSectionNav()}
     </div>
 
-    <section class="detail-section" id="section-change">
-      <h3>${t("changeStatus")}</h3>
-      <div class="status-grid">
-        ${flagCells
-          .map(
-            ([label, active]) => `<div class="status-cell">
-              <strong>${escapeHtml(label)}</strong>
-              <span>${active ? t("changedYes") : t("changedNo")}</span>
-            </div>`,
-          )
-          .join("")}
-      </div>
-      ${renderInfoLines([
-        [t("changeState"), changeStatusDisplay(change) || "-"],
-        [t("detailChangeType"), changeDisplayValue(change, "detail_change_types", "detail_change_typesKo", "type")],
-        [t("changeSummary"), changeDisplayValue(change, "change_summary", "change_summaryKo", "summary")],
-        [t("scoringChangeSummary"), changeDisplayValue(change, "scoring_change_summary", "scoring_change_summaryKo", "scoring")],
-      ])}
-    </section>
-
     <section class="detail-section" id="section-basic">
       <h3>${t("basicInfo")}</h3>
       <div class="two-col">
         <div>
           ${renderInfoLines([
-            [t("reflectionPlace"), textBy(change, "locationEn", "locationKo") || locationLabel(change.location || (detail.module === "7" || detail.module === "12" ? "Excel" : "PPT"))],
+            [t("reflectionPlace"), locationLabel(change.location || (detail.module === "7" || detail.module === "12" ? "Excel" : "PPT"))],
             [t("responseType"), textBy(detail, "questionType", "questionTypeKo") || "-"],
             [t("mandatory"), boolKo(detail.mandatory)],
             [t("issue"), textBy(detail, "issueTags", "issueTagsKo") || "-"],
@@ -2312,6 +2355,26 @@ function renderDetail(detail) {
     <section class="detail-section" id="section-response">
       <h3>${t("responseMethod")}</h3>
       ${renderResponseMethod(detail)}
+    </section>
+
+    <section class="detail-section" id="section-change">
+      <h3>${t("changeStatus")}</h3>
+      <div class="status-grid">
+        ${flagCells
+          .map(
+            ([label, active]) => `<div class="status-cell">
+              <strong>${escapeHtml(label)}</strong>
+              <span>${active ? t("changedYes") : t("changedNo")}</span>
+            </div>`,
+          )
+          .join("")}
+      </div>
+      ${renderInfoLines([
+        [t("changeState"), changeStatusDisplay(change) || "-"],
+        [t("detailChangeType"), changeDisplayValue(change, "detail_change_types", "detail_change_typesKo", "type")],
+        [t("changeSummary"), changeDisplayValue(change, "change_summary", "change_summaryKo", "summary")],
+        [t("scoringChangeSummary"), changeDisplayValue(change, "scoring_change_summary", "scoring_change_summaryKo", "scoring")],
+      ])}
     </section>
 
     <section class="detail-section" id="section-dropdown">
@@ -2349,9 +2412,9 @@ function renderDetail(detail) {
 
 function renderSectionNav() {
   const sections = [
-    ["section-change", t("changeStatus")],
     ["section-basic", t("basicInfo")],
     ["section-response", t("responseMethod")],
+    ["section-change", t("changeStatus")],
     ["section-dropdown", t("dropdownOptions")],
     ["section-table", t("tableStructure")],
     ["section-points", t("pointAllocation")],
@@ -2464,12 +2527,13 @@ function renderDropdowns(detail) {
   if (!groups.length) return `<p class="text-block muted">${t("noDropdown")}</p>`;
   return groups
     .map((group) => {
-      const options = state.lang === "ko" ? group.optionsKo?.length ? group.optionsKo : group.options : group.options;
+      const options = group.options || [];
+      const optionsKo = group.optionsKo || [];
       return `<div class="option-group">
         <h4>${escapeHtml(displayText(group.title))}</h4>
         <ul>
           ${options
-            .map((option) => `<li><span>${escapeHtml(displayText(option))}</span></li>`)
+            .map((option, index) => `<li><span>${escapeHtml(optionText(option, optionsKo[index]))}</span></li>`)
             .join("")}
         </ul>
       </div>`;
