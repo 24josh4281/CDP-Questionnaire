@@ -626,10 +626,12 @@ button:focus {
   display: grid;
   gap: 8px;
   white-space: normal;
+  max-width: 1120px;
 }
 
 .rich-text p {
   margin: 0;
+  line-height: 1.65;
 }
 
 .bullet-list {
@@ -690,6 +692,12 @@ button:focus {
   font-size: 13px;
 }
 
+.info-line-block {
+  grid-template-columns: 1fr;
+  gap: 6px;
+  padding: 11px 0;
+}
+
 .info-line:last-child {
   border-bottom: 0;
 }
@@ -700,6 +708,7 @@ button:focus {
 
 .info-value {
   min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .table-wrap {
@@ -744,6 +753,29 @@ tr:last-child td {
   margin-bottom: 10px;
 }
 
+.changed-group {
+  border-color: rgba(215, 25, 74, 0.45);
+}
+
+.changed-text,
+.changed-option span:first-child {
+  color: var(--red);
+}
+
+.change-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 18px;
+  margin-left: 6px;
+  border: 1px solid rgba(215, 25, 74, 0.35);
+  background: var(--red-soft);
+  color: var(--red);
+  padding: 1px 6px;
+  font-size: 11px;
+  font-weight: 900;
+  vertical-align: middle;
+}
+
 .option-group h4,
 .criteria-card h4,
 .guidance-block h4 {
@@ -757,6 +789,22 @@ tr:last-child td {
   margin: 0;
   padding: 10px 22px 12px 28px;
   font-size: 12px;
+}
+
+.option-summary {
+  margin: 10px 11px 0;
+  border: 1px solid var(--line);
+  background: var(--blue-soft);
+  color: var(--navy);
+  padding: 7px 9px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.option-list-scroll {
+  max-height: 360px;
+  overflow: auto;
+  border-top: 1px solid var(--line);
 }
 
 .option-group li {
