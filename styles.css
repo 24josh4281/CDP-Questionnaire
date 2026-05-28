@@ -873,6 +873,53 @@ tr:last-child td {
   background: #fff3cc;
 }
 
+.best-guide-card.confidence-card h4 {
+  background: #eef6ff;
+}
+
+.confidence-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+}
+
+.confidence-box strong {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 86px;
+  min-height: 32px;
+  border: 1px solid var(--line);
+  background: var(--surface-soft);
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.confidence-box.high strong {
+  border-color: #b8dfb1;
+  background: var(--green-soft);
+  color: #2f7d2e;
+}
+
+.confidence-box.medium strong {
+  border-color: #ead18b;
+  background: var(--yellow-soft);
+  color: #8b6400;
+}
+
+.confidence-box.review strong {
+  border-color: #f4b8c7;
+  background: var(--red-soft);
+  color: var(--red);
+}
+
+.confidence-box p {
+  font-size: 13px;
+  line-height: 1.55;
+}
+
 .best-score-strip {
   display: grid;
   grid-template-columns: minmax(180px, 1fr) repeat(4, minmax(70px, 110px));
@@ -914,6 +961,64 @@ tr:last-child td {
 .best-guide-list li {
   margin: 7px 0;
   line-height: 1.55;
+}
+
+.best-checklist-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 8px;
+  padding: 10px;
+}
+
+.checklist-panel {
+  border: 1px solid var(--line);
+  background: #fbfcfd;
+}
+
+.checklist-panel.wide {
+  grid-column: 1 / -1;
+}
+
+.checklist-panel h5,
+.answer-box h5 {
+  margin: 0;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-soft);
+  color: var(--navy);
+  padding: 8px 10px;
+  font-size: 12px;
+}
+
+.checklist-panel .best-guide-list {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.answer-box {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+.answer-box > div {
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.keyword-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 10px;
+}
+
+.keyword-list span {
+  border: 1px solid #beddf1;
+  background: var(--blue-soft);
+  color: var(--navy);
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 800;
 }
 
 .best-template {

@@ -216,7 +216,7 @@ const UI = {
 };
 
 const PUBLIC_BASE_URL = "https://24josh4281.github.io/CDP-Questionnaire/";
-const URL_STATE_VERSION = "ui-v23-best-answer";
+const URL_STATE_VERSION = "ui-v24-best-guide";
 const FAVORITES_STORAGE_KEY = "cdpQuestionDbFavorites";
 
 const BEST_GUIDE_LABELS = {
@@ -239,6 +239,23 @@ const BEST_GUIDE_LABELS = {
     column: "응답 열",
     selection: "선택 권장값",
     points: "관련 점수",
+    confidence: "자동 해석 신뢰도",
+    confidenceHigh: "높음",
+    confidenceMedium: "중간",
+    confidenceReview: "검토 필요",
+    confidenceHighNote: "평가방법론에서 특정 선택지와 점수를 직접 추출했습니다.",
+    confidenceMediumNote: "완료 셀/행, 최소 작성 조건 중심으로 자동 해석했습니다.",
+    confidenceReviewNote: "상위/하위 문항 또는 복합 조건이 있어 수동 확인이 필요합니다.",
+    mustSelect: "선택해야 할 값",
+    rowsColumns: "작성해야 할 행/열",
+    minimums: "몇 개 이상",
+    exclusions: "제외 가능한 행/열",
+    dependencies: "상위/하위 문항 조건",
+    writingStructure: "작성 구조",
+    requiredKeywords: "필수 포함 키워드",
+    exampleResponse: "예시 문장",
+    evidenceExamples: "증빙자료 예시",
+    noChecklistItems: "자동으로 식별된 항목이 없습니다. 평가방법론 원문을 함께 확인하십시오.",
     noNarrative:
       "서술형 입력 열이 없는 문항입니다. 드롭다운/수치/첨부 등 표시된 입력값을 빠짐없이 작성하는 것이 핵심입니다.",
   },
@@ -261,6 +278,23 @@ const BEST_GUIDE_LABELS = {
     column: "Response column",
     selection: "Recommended value",
     points: "Related points",
+    confidence: "Auto-interpretation confidence",
+    confidenceHigh: "High",
+    confidenceMedium: "Medium",
+    confidenceReview: "Needs review",
+    confidenceHighNote: "Specific options and scoring points were directly extracted from the methodology.",
+    confidenceMediumNote: "The guide is mainly based on completion, minimum-row, or cell-completion rules.",
+    confidenceReviewNote: "Parent/child questions or complex conditions require manual confirmation.",
+    mustSelect: "Values to select",
+    rowsColumns: "Rows/columns to complete",
+    minimums: "Minimum quantity",
+    exclusions: "Rows/columns that may be excluded",
+    dependencies: "Parent/child question conditions",
+    writingStructure: "Writing structure",
+    requiredKeywords: "Required keywords",
+    exampleResponse: "Example wording",
+    evidenceExamples: "Evidence examples",
+    noChecklistItems: "No item was identified automatically. Review the original scoring criteria as well.",
     noNarrative:
       "This question has no narrative text column. The key is to complete all displayed dropdown, numeric, and attachment inputs accurately.",
   },
@@ -4400,9 +4434,29 @@ function findColumnByScoringName(detail, columnName) {
 
 function guideColumnLabel(detail, columnName) {
   const column = findColumnByScoringName(detail, columnName);
-  if (!column) return columnName || bestGuideText("anyOption");
-  const label = textBy(column, "text", "textKo") || column.text || columnName;
+  if (!column) return guideTermLabel(columnName) || bestGuideText("anyOption");
+  const label = state.lang === "ko" ? guideTermLabel(column.text || column.textKo || columnName) : textBy(column, "text", "textKo") || column.text || columnName;
   return `${column.code} · ${label}`;
+}
+
+function guideTermLabel(value) {
+  const text = String(value || "");
+  if (!text) return "";
+  if (state.lang !== "ko") return text;
+  const exact = exactFieldTranslation(text);
+  if (exact) return exact;
+  const local = {
+    "Banking (Bank)": "은행(은행업)",
+    "Investing (Asset manager)": "투자(자산운용사)",
+    "Investing (Asset owner)": "투자(자산소유자)",
+    "Insurance underwriting (Insurance company)": "보험 인수(보험사)",
+    "% of portfolio covered in relation to total portfolio value": "전체 포트폴리오 가치 대비 포함 포트폴리오 비율(%)",
+  }[text];
+  return local || displayText(text);
+}
+
+function guideTermList(items) {
+  return uniqueItems(items).map((item) => guideTermLabel(item)).join(", ");
 }
 
 function guideOptionLabel(detail, columnName, option) {
@@ -4466,6 +4520,154 @@ function parseCriteriaSelections(detail, rows) {
   }
 
   return [...grouped.values()].sort((a, b) => levelOrder(a.levels[0]) - levelOrder(b.levels[0]));
+}
+
+function positiveRouteSegments(criteriaText) {
+  const normalized = String(criteriaText || "").replace(/[‘’]/g, "'").replace(/[“”]/g, '"');
+  const parts = normalized.split(/\n(?=ROUTE\s+[A-Z]\)|NON-DISCLOSURE ROUTE\)|NOT APPLICABLE ROUTE\))/i);
+  return parts.filter((part) => {
+    if (/NON-DISCLOSURE ROUTE|NOT APPLICABLE ROUTE/i.test(part)) return false;
+    const maxMatch = part.match(/A maximum of\s+([0-9]+(?:\.[0-9]+)?)\s*\/\s*([0-9]+(?:\.[0-9]+)?)\s+points?/i);
+    const inlineMatch = part.match(/-\s*([0-9]+(?:\.[0-9]+)?)(?:\s*\/\s*[0-9]+(?:\.[0-9]+)?)?\s+points?/i);
+    const score = maxMatch ? Number(maxMatch[1]) : inlineMatch ? Number(inlineMatch[1]) : 0;
+    return score > 0;
+  });
+}
+
+function quotedListFromBlock(block) {
+  return uniqueItems([...String(block || "").matchAll(/-\s*'([^']+)'/g)].map((match) => match[1]));
+}
+
+function bestGuideDisplayCondition(detail, columnName, option) {
+  return `${guideColumnLabel(detail, columnName)} = ${guideOptionLabel(detail, columnName, option)}`;
+}
+
+function extractBestGuideChecklist(detail, rows, suggestions) {
+  const isKo = state.lang === "ko";
+  const selectedValues = [];
+  const rowsColumns = [];
+  const minimums = [];
+  const exclusions = [];
+  const dependencies = [];
+  const sourceText = rows.map((row) => row.criteria || "").join("\n");
+  const hasDirectSpecificSuggestion = suggestions.some((suggestion) => suggestion.type !== "any");
+
+  for (const suggestion of suggestions) {
+    selectedValues.push(suggestion.type === "any" ? uniqueItems(suggestion.options).join(" / ") : `${suggestion.columnLabel}: ${uniqueItems(suggestion.options).join(" / ")}`);
+  }
+
+  for (const row of rows) {
+    for (const segment of positiveRouteSegments(row.criteria)) {
+      const selectionRegex = /'([^']+)'\s+(?:selected\s+)?in column\s+'([^']+)'/gi;
+      let selectionMatch;
+      while ((selectionMatch = selectionRegex.exec(segment))) {
+        const before = segment.slice(Math.max(0, selectionMatch.index - 25), selectionMatch.index);
+        if (/excluding\s*$/i.test(before)) continue;
+        if (!hasDirectSpecificSuggestion) selectedValues.push(bestGuideDisplayCondition(detail, selectionMatch[2], selectionMatch[1]));
+      }
+
+      const anyFollowingRegex = /in any of the following rows in question\s+([0-9.]+):?\s*([\s\S]*?)(?=\n(?:Points|Table|A maximum|OR|AND|ROUTE|$))/gi;
+      const allFollowingRegex = /in all of the following rows in question\s+([0-9.]+):?\s*([\s\S]*?)(?=\n(?:Points|Table|A maximum|OR|AND|ROUTE|$))/gi;
+      const singleRowRegex = /in row\s+'([^']+)'.{0,80}?question\s+([0-9.]+)/gi;
+      let match;
+      while ((match = anyFollowingRegex.exec(segment))) {
+        const names = quotedListFromBlock(match[2]);
+        dependencies.push(
+          isKo
+            ? `상위 문항 ${match[1]}에서 다음 행 중 하나 이상 조건 충족: ${guideTermList(names)}`
+            : `In parent question ${match[1]}, meet the condition for at least one of these rows: ${names.join(", ")}`,
+        );
+        minimums.push(isKo ? `상위 문항 ${match[1]} 관련 행 최소 1개 이상` : `At least one relevant row in parent question ${match[1]}`);
+      }
+      while ((match = allFollowingRegex.exec(segment))) {
+        const names = quotedListFromBlock(match[2]);
+        dependencies.push(
+          isKo
+            ? `상위 문항 ${match[1]}에서 다음 모든 행 조건 확인: ${guideTermList(names)}`
+            : `In parent question ${match[1]}, check all of these rows: ${names.join(", ")}`,
+        );
+        minimums.push(isKo ? `상위 문항 ${match[1]} 관련 행 전체` : `All relevant rows in parent question ${match[1]}`);
+      }
+      while ((match = singleRowRegex.exec(segment))) {
+        dependencies.push(isKo ? `상위 문항 ${match[2]}의 '${guideTermLabel(match[1])}' 행 조건 확인` : `Check row '${match[1]}' in parent question ${match[2]}`);
+      }
+
+      for (const exclusion of segment.matchAll(/excluding column\s+'([^']+)'/gi)) {
+        exclusions.push(isKo ? `열 제외 가능: ${guideColumnLabel(detail, exclusion[1])}` : `Column may be excluded: ${guideColumnLabel(detail, exclusion[1])}`);
+      }
+      for (const exclusion of segment.matchAll(/excluding row\s+'([^']+)'/gi)) {
+        exclusions.push(isKo ? `행 제외 가능: ${guideTermLabel(exclusion[1])}` : `Row may be excluded: ${exclusion[1]}`);
+      }
+
+      for (const gt of segment.matchAll(/(?:Figure\s+)?greater than\s+([0-9]+(?:\.[0-9]+)?%?)\s+provided in column\s+'([^']+)'/gi)) {
+        minimums.push(isKo ? `${guideColumnLabel(detail, gt[2])}: ${gt[1]} 초과` : `${guideColumnLabel(detail, gt[2])}: greater than ${gt[1]}`);
+      }
+      for (const atLeast of segment.matchAll(/at least\s+(one|[0-9]+)\s+([A-Za-z ]+)/gi)) {
+        const count = atLeast[1].toLowerCase() === "one" ? "1" : atLeast[1];
+        const subject = atLeast[2].trim();
+        const subjectKo = /row for each environmental issue/i.test(subject) ? "각 환경 이슈별 행" : subject;
+        minimums.push(isKo ? `최소 ${count}개 이상: ${subjectKo}` : `At least ${count}: ${subject}`);
+      }
+
+      if (/Table completed/i.test(segment)) {
+        rowsColumns.push(isKo ? "표 전체 작성 완료" : "Complete the full table.");
+      }
+      if (/completed cell|number of cells displayed/i.test(segment)) {
+        rowsColumns.push(isKo ? "표시된 모든 셀 작성" : "Complete every displayed cell.");
+      }
+      if (/completed in all rows/i.test(segment)) {
+        rowsColumns.push(isKo ? "해당되는 모든 행에서 요구 열 작성" : "Complete the required column(s) in all applicable rows.");
+      }
+      if (/Partially completed rows will not receive full points/i.test(segment)) {
+        rowsColumns.push(isKo ? "부분 작성 행은 최고점 불가: 행 단위로 끝까지 작성" : "Partially completed rows cannot receive full points; complete each row end to end.");
+      }
+    }
+  }
+
+  if ((detail.columns || []).length) {
+    rowsColumns.push(isKo ? `현재 문항 응답 열 ${detail.columns.length}개 검토` : `Review ${detail.columns.length} response columns in this question.`);
+  }
+  if ((detail.rows || []).length) {
+    rowsColumns.push(isKo ? `현재 문항 표시 행 ${detail.rows.length}개 확인` : `Check ${detail.rows.length} displayed rows in this question.`);
+  }
+  const requestedSource = requestedGuidanceText(detail);
+  for (const atLeast of requestedSource.matchAll(/at least\s+(one|[0-9]+)\s+([A-Za-z ]+)/gi)) {
+    const count = atLeast[1].toLowerCase() === "one" ? "1" : atLeast[1];
+    const subject = atLeast[2].trim();
+    const subjectKo = /row for each environmental issue/i.test(subject) ? "각 환경 이슈별 행" : subject;
+    minimums.push(isKo ? `최소 ${count}개 이상: ${subjectKo}` : `At least ${count}: ${subject}`);
+  }
+  const narrativeColumns = narrativeColumnsForGuide(detail);
+  if (narrativeColumns.some((column) => /financial figures|financial metric|explanation/i.test(`${column.text || ""} ${column.textKo || ""}`))) {
+    rowsColumns.push(isKo ? "재무수치 설명 열 필수 작성" : "Complete the financial-figures explanation column.");
+  }
+  if (/Full Disclosure points must be awarded/i.test(sourceText)) dependencies.push(isKo ? "Awareness 점수 전 Disclosure 만점 필요" : "Full Disclosure points are required before Awareness scoring.");
+  if (/Full Awareness points must be awarded/i.test(sourceText)) dependencies.push(isKo ? "Management 점수 전 Awareness 만점 필요" : "Full Awareness points are required before Management scoring.");
+  if (/Full Management points must be awarded/i.test(sourceText)) dependencies.push(isKo ? "Leadership 점수 전 Management 만점 필요" : "Full Management points are required before Leadership scoring.");
+
+  return {
+    selectedValues: uniqueItems(selectedValues),
+    rowsColumns: uniqueItems(rowsColumns),
+    minimums: uniqueItems(minimums),
+    exclusions: uniqueItems(exclusions),
+    dependencies: uniqueItems(dependencies),
+  };
+}
+
+function confidenceForBestGuide(rows, suggestions, checklist) {
+  const source = rows.map((row) => row.criteria || "").join("\n");
+  const hasParentQuestion = /question\s+[0-9]+\.[0-9]+|child question/i.test(source);
+  const hasComplexLogic = /excluding|all of the following rows|any of the following rows/i.test(source);
+  if (hasParentQuestion || (hasComplexLogic && checklist.dependencies.length)) {
+    return { level: "review", label: bestGuideText("confidenceReview"), note: bestGuideText("confidenceReviewNote") };
+  }
+  if (suggestions.some((item) => item.type !== "any")) {
+    return { level: "high", label: bestGuideText("confidenceHigh"), note: bestGuideText("confidenceHighNote") };
+  }
+  if (checklist.rowsColumns.length || checklist.minimums.length || suggestions.length) {
+    return { level: "medium", label: bestGuideText("confidenceMedium"), note: bestGuideText("confidenceMediumNote") };
+  }
+  return { level: "review", label: bestGuideText("confidenceReview"), note: bestGuideText("confidenceReviewNote") };
 }
 
 function requestedGuidanceText(detail) {
@@ -4552,7 +4754,61 @@ function narrativeChecklistForGuide(detail, rows) {
 
 function narrativeTemplateForGuide(detail) {
   const isKo = state.lang === "ko";
+  const source = `${detail.title || ""}\n${detail.titleKo || ""}\n${(detail.columns || []).map((column) => column.text || "").join("\n")}\n${requestedGuidanceText(detail)}`;
+  const lower = source.toLowerCase();
+  const hasFinancialRisk = /financial metric|vulnerable|capex|physical risk|transition risk/.test(lower);
+  const hasScenario = /scenario analysis|time horizon/.test(lower);
+  const hasFinancedEmissions = /financed emissions|portfolio|pcaf|asset classes/.test(lower);
+
+  if (isKo && hasFinancialRisk) {
+    return [
+      "1. 적용한 재무지표와 해당 환경 이슈를 먼저 명시합니다.",
+      "2. 전환 리스크와 물리적 리스크에 취약한 금액 및 비율을 구분해 설명합니다.",
+      "3. 보고연도에 해당 리스크 대응을 위해 집행한 CAPEX가 있다면 산정 기준과 금액을 설명합니다.",
+      "4. 사용 데이터, 계산 방식, 주요 가정, 제외 범위를 함께 기재합니다.",
+    ];
+  }
+  if (isKo && hasScenario) {
+    return [
+      "1. 시나리오 분석 사용 여부와 분석 빈도를 명확히 기재합니다.",
+      "2. 사용한 시나리오 유형, 시간범위, 주요 가정을 설명합니다.",
+      "3. 분석 결과가 사업전략, 재무계획, 리스크 관리에 어떻게 반영됐는지 연결합니다.",
+      "4. 향후 보완 계획이 있다면 담당 조직, 일정, 적용 범위를 함께 적습니다.",
+    ];
+  }
+  if (isKo && hasFinancedEmissions) {
+    return [
+      "1. 산정 대상 자산군과 포트폴리오 포함 범위를 명확히 기재합니다.",
+      "2. 금융배출량 산정 방법론, 활동자료, 배출계수, 데이터 품질을 설명합니다.",
+      "3. 보고연도 값, 기준연도 값, 포트폴리오 커버리지 비율을 일관되게 제시합니다.",
+      "4. 고객/투자대상 데이터 사용 여부와 주요 가정, 제외 범위를 설명합니다.",
+    ];
+  }
   if (!isKo) {
+    if (hasFinancialRisk) {
+      return [
+        "1. State the financial metric and environmental issue assessed.",
+        "2. Separate the amount and percentage vulnerable to transition and physical risks.",
+        "3. Explain any CAPEX deployed in the reporting year toward the relevant risks.",
+        "4. Describe data sources, calculation approach, key assumptions, and exclusions.",
+      ];
+    }
+    if (hasScenario) {
+      return [
+        "1. State whether scenario analysis is used and how frequently it is performed.",
+        "2. Describe scenario type, time horizons, and key assumptions.",
+        "3. Explain how outputs inform business strategy, financial planning, and risk management.",
+        "4. If not yet used, explain the plan, timeline, owner, and expected coverage.",
+      ];
+    }
+    if (hasFinancedEmissions) {
+      return [
+        "1. State covered asset classes and portfolio coverage.",
+        "2. Explain financed emissions methodology, activity data, emission factors, and data quality.",
+        "3. Report current-year and base-year figures consistently with portfolio coverage.",
+        "4. Explain client/investee data use, assumptions, and exclusions.",
+      ];
+    }
     return [
       "Our organization [has implemented/uses/assesses] [process or analysis] for [environmental issue] during [reporting year/period].",
       "The scope covers [own operations/value chain/portfolio], and the methodology is based on [methodology/data source].",
@@ -4568,6 +4824,87 @@ function narrativeTemplateForGuide(detail) {
   ];
 }
 
+function narrativeKeywordsForGuide(detail) {
+  const isKo = state.lang === "ko";
+  const source = `${detail.title || ""}\n${(detail.columns || []).map((column) => column.text || "").join("\n")}\n${requestedGuidanceText(detail)}`.toLowerCase();
+  const candidates = [
+    [/financial metric|revenue|assets|liabilities/i, ["재무지표", "Financial metric"]],
+    [/transition risk/i, ["전환 리스크", "Transition risks"]],
+    [/physical risk/i, ["물리적 리스크", "Physical risks"]],
+    [/capex/i, ["CAPEX", "CAPEX"]],
+    [/scenario analysis/i, ["시나리오 분석", "Scenario analysis"]],
+    [/frequency/i, ["분석 빈도", "Frequency"]],
+    [/strategic|financial planning|business strategy/i, ["전략/재무계획 연계", "Strategic/financial planning link"]],
+    [/portfolio/i, ["포트폴리오", "Portfolio"]],
+    [/financed emissions/i, ["금융배출량", "Financed emissions"]],
+    [/methodolog|calculation/i, ["산정 방법론", "Methodology"]],
+    [/data quality|pcaf/i, ["데이터 품질", "Data quality"]],
+    [/assumption/i, ["주요 가정", "Key assumptions"]],
+    [/coverage|scope/i, ["적용 범위", "Coverage"]],
+    [/evidence|verification|validated/i, ["증빙/검증", "Evidence/verification"]],
+  ];
+  return uniqueItems(candidates.filter(([pattern]) => pattern.test(source)).map(([, labels]) => (isKo ? labels[0] : labels[1]))).slice(0, 12);
+}
+
+function exampleResponseForGuide(detail) {
+  const isKo = state.lang === "ko";
+  const source = `${detail.title || ""}\n${(detail.columns || []).map((column) => column.text || "").join("\n")}\n${requestedGuidanceText(detail)}`.toLowerCase();
+  if (/financial metric|vulnerable|capex|physical risk|transition risk/.test(source)) {
+    return isKo
+      ? [
+          "당사는 보고연도 기준 [재무지표] 중 [환경 이슈] 관련 전환 리스크에 취약한 금액을 [금액]으로, 물리적 리스크에 취약한 금액을 [금액]으로 산정했습니다.",
+          "산정에는 [데이터 출처]와 [방법론]을 사용했으며, 주요 가정은 [가정]입니다. 보고연도 중 관련 리스크 대응 CAPEX는 [금액/없음]입니다.",
+        ]
+      : [
+          "In the reporting year, we assessed [financial metric] vulnerable to transition risks related to [environmental issue] as [amount] and vulnerable to physical risks as [amount].",
+          "The calculation used [data source] and [methodology], with key assumptions of [assumptions]. CAPEX deployed toward these risks was [amount/none].",
+        ];
+  }
+  if (/scenario analysis|time horizon/.test(source)) {
+    return isKo
+      ? [
+          "당사는 [분석 주기]로 [기후변화/수자원/산림] 관련 시나리오 분석을 수행하며, [시나리오명/출처]와 [시간범위]를 적용했습니다.",
+          "분석 결과는 [사업전략/재무계획/리스크 관리]에 반영되며, 주요 가정과 한계는 [내용]입니다.",
+        ]
+      : [
+          "We conduct scenario analysis for [environmental issue] [frequency], using [scenario/source] and [time horizons].",
+          "The outputs inform [business strategy/financial planning/risk management], with key assumptions and limitations of [details].",
+        ];
+  }
+  if (/financed emissions|portfolio|pcaf|asset classes/.test(source)) {
+    return isKo
+      ? [
+          "당사는 [자산군]을 대상으로 보고연도 금융배출량을 [tCO2e]로 산정했으며, 전체 포트폴리오 가치 대비 커버리지는 [%]입니다.",
+          "산정 방법론은 [PCAF/기타 방법론]이며, 데이터 품질 점수와 주요 가정은 [내용]입니다.",
+        ]
+      : [
+          "We calculated financed emissions for [asset classes] as [tCO2e] in the reporting year, covering [%] of total portfolio value.",
+          "The methodology used was [PCAF/other methodology], with data quality score and key assumptions of [details].",
+        ];
+  }
+  return narrativeTemplateForGuide(detail);
+}
+
+function evidenceExamplesForGuide(detail) {
+  const isKo = state.lang === "ko";
+  const source = `${detail.title || ""}\n${(detail.columns || []).map((column) => column.text || "").join("\n")}\n${requestedGuidanceText(detail)}`.toLowerCase();
+  const items = [];
+  if (/scenario analysis/.test(source)) {
+    items.push(isKo ? "시나리오 분석 보고서 또는 내부 검토자료" : "Scenario analysis report or internal review material");
+    items.push(isKo ? "전략/재무계획 반영 내역" : "Evidence of integration into strategy/financial planning");
+  }
+  if (/financial metric|capex|revenue|assets|liabilities/.test(source)) {
+    items.push(isKo ? "재무지표 산정 파일 및 회계/재무 데이터 출처" : "Financial metric calculation file and finance/accounting data source");
+    items.push(isKo ? "CAPEX 집행 내역 또는 투자 승인 문서" : "CAPEX expenditure records or investment approval document");
+  }
+  if (/financed emissions|pcaf|portfolio/.test(source)) {
+    items.push(isKo ? "금융배출량 산정 파일, PCAF 매핑표, 포트폴리오 데이터" : "Financed emissions workbook, PCAF mapping, and portfolio data");
+    items.push(isKo ? "고객/투자대상 데이터 수집 근거 및 데이터 품질 산정 근거" : "Client/investee data evidence and data-quality basis");
+  }
+  items.push(isKo ? "담당 부서 검토 이력 및 제출 전 QA 체크리스트" : "Owner review record and pre-submission QA checklist");
+  return uniqueItems(items).slice(0, 6);
+}
+
 function renderBestGuideCard(title, bodyHtml, className = "") {
   return `<article class="best-guide-card ${className}">
     <h4>${escapeHtml(title)}</h4>
@@ -4581,9 +4918,14 @@ function renderBestAnswerGuide(detail) {
   if (!rows.length && !pointRow) return `<p class="text-block muted">${escapeHtml(bestGuideText("noCriteria"))}</p>`;
 
   const suggestions = parseCriteriaSelections(detail, rows);
+  const checklist = extractBestGuideChecklist(detail, rows, suggestions);
+  const confidence = confidenceForBestGuide(rows, suggestions, checklist);
   const completionRules = completionRulesForGuide(detail, rows);
   const narrativeChecklist = narrativeChecklistForGuide(detail, rows);
-  const templateLines = narrativeTemplateForGuide(detail);
+  const structureLines = narrativeTemplateForGuide(detail);
+  const keywordItems = narrativeKeywordsForGuide(detail);
+  const exampleLines = exampleResponseForGuide(detail);
+  const evidenceItems = evidenceExamplesForGuide(detail);
   const hasNarrative = narrativeColumnsForGuide(detail).length > 0;
   const sectorLabelText = pointRow ? textBy(pointRow, "sector", "sectorKo") : textBy(rows[0], "sector", "sectorKo");
 
@@ -4617,11 +4959,69 @@ function renderBestAnswerGuide(detail) {
           </tbody>
         </table>
       </div>`
-    : `<p class="text-block muted">${escapeHtml(bestGuideText("noSpecificOption"))}</p>`;
+    : checklist.selectedValues.length
+      ? `<div class="table-wrap best-guide-table">
+        <table>
+          <thead>
+            <tr><th>${escapeHtml(bestGuideText("level"))}</th><th>${escapeHtml(bestGuideText("column"))}</th><th>${escapeHtml(bestGuideText("selection"))}</th><th>${escapeHtml(bestGuideText("points"))}</th></tr>
+          </thead>
+          <tbody>
+            ${checklist.selectedValues
+              .map(
+                (item) => `<tr>
+                  <td><strong>${escapeHtml(state.lang === "ko" ? "조건" : "Condition")}</strong></td>
+                  <td>${escapeHtml(state.lang === "ko" ? "평가방법론 조건" : "Scoring condition")}</td>
+                  <td>${escapeHtml(item)}</td>
+                  <td>${escapeHtml(state.lang === "ko" ? "상위 경로 조건" : "Route condition")}</td>
+                </tr>`,
+              )
+              .join("")}
+          </tbody>
+        </table>
+      </div>`
+      : `<p class="text-block muted">${escapeHtml(bestGuideText("noSpecificOption"))}</p>`;
 
-  const listHtml = (items) => `<ul class="best-guide-list">${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
+  const listHtml = (items) => {
+    const values = items?.length ? items : [bestGuideText("noChecklistItems")];
+    return `<ul class="best-guide-list">${values.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
+  };
+  const keywordHtml = keywordItems.length
+    ? `<div class="keyword-list">${keywordItems.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div>`
+    : `<p class="text-block muted">${escapeHtml(bestGuideText("noChecklistItems"))}</p>`;
+  const confidenceHtml = `<div class="confidence-box ${escapeHtml(confidence.level)}">
+    <strong>${escapeHtml(confidence.label)}</strong>
+    <p>${escapeHtml(confidence.note)}</p>
+  </div>`;
+  const checklistPanel = (title, items, className = "") => `<div class="checklist-panel ${className}">
+    <h5>${escapeHtml(title)}</h5>
+    ${listHtml(items)}
+  </div>`;
+  const checklistHtml = `<div class="best-checklist-grid">
+    ${checklistPanel(bestGuideText("mustSelect"), checklist.selectedValues)}
+    ${checklistPanel(bestGuideText("rowsColumns"), checklist.rowsColumns)}
+    ${checklistPanel(bestGuideText("minimums"), checklist.minimums)}
+    ${checklistPanel(bestGuideText("exclusions"), checklist.exclusions)}
+    ${checklistPanel(bestGuideText("dependencies"), checklist.dependencies, "wide")}
+  </div>`;
   const templateHtml = hasNarrative
-    ? `<div class="best-template">${templateLines.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}</div>`
+    ? `<div class="answer-box">
+        <div>
+          <h5>${escapeHtml(bestGuideText("writingStructure"))}</h5>
+          ${listHtml(structureLines)}
+        </div>
+        <div>
+          <h5>${escapeHtml(bestGuideText("requiredKeywords"))}</h5>
+          ${keywordHtml}
+        </div>
+        <div>
+          <h5>${escapeHtml(bestGuideText("exampleResponse"))}</h5>
+          <div class="best-template">${exampleLines.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}</div>
+        </div>
+        <div>
+          <h5>${escapeHtml(bestGuideText("evidenceExamples"))}</h5>
+          ${listHtml(evidenceItems)}
+        </div>
+      </div>`
     : `<p class="text-block muted">${escapeHtml(bestGuideText("noNarrative"))}</p>`;
   const caution =
     state.lang === "ko"
@@ -4634,8 +5034,10 @@ function renderBestAnswerGuide(detail) {
       <p>${escapeHtml(bestGuideText("notice"))}</p>
     </div>
     <div class="best-guide-grid">
+      ${renderBestGuideCard(bestGuideText("confidence"), confidenceHtml, `wide confidence-card ${confidence.level}`)}
       ${renderBestGuideCard(bestGuideText("pointSummary"), pointHtml, "wide")}
       ${renderBestGuideCard(bestGuideText("recommendedOptions"), suggestionHtml, "wide")}
+      ${renderBestGuideCard(state.lang === "ko" ? "최고점 체크리스트" : "Best-score checklist", checklistHtml, "wide checklist-card")}
       ${renderBestGuideCard(bestGuideText("completionRules"), listHtml(completionRules))}
       ${renderBestGuideCard(bestGuideText("narrativeChecklist"), listHtml(narrativeChecklist))}
       ${renderBestGuideCard(bestGuideText("template"), templateHtml, "wide")}
