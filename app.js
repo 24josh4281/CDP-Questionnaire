@@ -216,7 +216,7 @@ const UI = {
 };
 
 const PUBLIC_BASE_URL = "https://24josh4281.github.io/CDP-Questionnaire/";
-const URL_STATE_VERSION = "ui-v21";
+const URL_STATE_VERSION = "ui-v22-guidance-ko";
 const FAVORITES_STORAGE_KEY = "cdpQuestionDbFavorites";
 
 const SECTOR_KO = {
@@ -1421,8 +1421,8 @@ function nl(value) {
   return escapeHtml(value).replaceAll("\n", "<br>");
 }
 
-function richText(value) {
-  const raw = displayText(value).trim();
+function richText(value, options = {}) {
+  const raw = (options.preserveKo ? String(value ?? "") : displayText(value)).trim();
   if (!raw) return "";
   const normalized = raw
     .replace(/\r\n/g, "\n")
@@ -1461,6 +1461,29 @@ function richText(value) {
   }
   flushList();
   return `<div class="rich-text">${blocks.join("")}</div>`;
+}
+
+const GUIDANCE_TYPE_LABELS_KO = {
+  "Change From Last Year": "전년 대비 변경사항",
+  "Question Dependencies": "문항 의존성",
+  "Requested Content": "요청 내용",
+  "Requested Content - continued": "요청 내용 - 계속",
+  "Additional Information": "추가 정보",
+  "Ambition": "목표수준",
+  "Explanation of Terms": "용어 설명",
+  "Example Response": "예시 응답",
+};
+
+function guidanceTypeText(block) {
+  if (state.lang !== "ko") return block?.type || "Guidance";
+  return GUIDANCE_TYPE_LABELS_KO[block?.type] || displayText(block?.typeKo || block?.type || "가이던스");
+}
+
+function guidanceBodyText(block) {
+  if (state.lang !== "ko") return block?.text || "";
+  const ko = String(block?.textKo || "").trim();
+  if (ko) return ko;
+  return displayText(block?.text || "");
 }
 
 function compact(value, max = 180) {
@@ -4280,8 +4303,8 @@ function renderGuidance(detail) {
   return detail.guidance
     .map(
       (block) => `<article class="guidance-block">
-        <h4>${escapeHtml(textBy(block, "type", "typeKo") || "Guidance")}</h4>
-        <div class="text-block">${richText(textBy(block, "text", "textKo"))}</div>
+        <h4>${escapeHtml(guidanceTypeText(block))}</h4>
+        <div class="text-block">${richText(guidanceBodyText(block), { preserveKo: state.lang === "ko" })}</div>
       </article>`,
     )
     .join("");
