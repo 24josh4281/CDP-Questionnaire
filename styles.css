@@ -748,7 +748,8 @@ tr:last-child td {
 
 .option-group,
 .criteria-card,
-.guidance-block {
+.guidance-block,
+.best-guide-card {
   border: 1px solid var(--line);
   margin-bottom: 10px;
 }
@@ -778,7 +779,8 @@ tr:last-child td {
 
 .option-group h4,
 .criteria-card h4,
-.guidance-block h4 {
+.guidance-block h4,
+.best-guide-card h4 {
   padding: 9px 11px;
   border-bottom: 1px solid var(--line);
   background: var(--surface-soft);
@@ -819,8 +821,114 @@ tr:last-child td {
 }
 
 .criteria-card .text-block,
-.guidance-block .text-block {
+.guidance-block .text-block,
+.best-guide-card .text-block {
   padding: 12px 14px;
+}
+
+.best-guide {
+  display: grid;
+  gap: 10px;
+}
+
+.best-guide-notice {
+  border: 1px solid #beddf1;
+  background: var(--blue-soft);
+  padding: 11px 13px;
+}
+
+.best-guide-notice strong {
+  display: block;
+  color: var(--navy);
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.best-guide-notice p {
+  color: #31465a;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.best-guide-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 10px;
+}
+
+.best-guide-card {
+  background: #fff;
+}
+
+.best-guide-card.wide {
+  grid-column: 1 / -1;
+}
+
+.best-guide-card.caution {
+  border-color: #ead18b;
+  background: var(--yellow-soft);
+}
+
+.best-guide-card.caution h4 {
+  background: #fff3cc;
+}
+
+.best-score-strip {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) repeat(4, minmax(70px, 110px));
+  gap: 8px;
+  padding: 11px;
+}
+
+.best-score-strip span {
+  display: grid;
+  gap: 3px;
+  border: 1px solid var(--line);
+  background: var(--surface-soft);
+  padding: 8px 10px;
+  min-height: 50px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.best-score-strip b {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.best-guide-table {
+  border: 0;
+  margin: 0;
+}
+
+.best-guide-table table {
+  font-size: 12px;
+}
+
+.best-guide-list {
+  margin: 0;
+  padding: 12px 18px 12px 28px;
+  font-size: 13px;
+}
+
+.best-guide-list li {
+  margin: 7px 0;
+  line-height: 1.55;
+}
+
+.best-template {
+  display: grid;
+  gap: 7px;
+  padding: 12px 14px;
+  background: #fbfcfd;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.best-template p {
+  margin: 0;
+  padding-left: 12px;
+  border-left: 3px solid var(--blue);
 }
 
 .original-details {

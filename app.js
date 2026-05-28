@@ -216,8 +216,55 @@ const UI = {
 };
 
 const PUBLIC_BASE_URL = "https://24josh4281.github.io/CDP-Questionnaire/";
-const URL_STATE_VERSION = "ui-v22-guidance-ko";
+const URL_STATE_VERSION = "ui-v23-best-answer";
 const FAVORITES_STORAGE_KEY = "cdpQuestionDbFavorites";
+
+const BEST_GUIDE_LABELS = {
+  ko: {
+    title: "최고득점 가이드",
+    noticeTitle: "평가방법론 기반 자동 가이드",
+    notice:
+      "아래 내용은 D/A/M/L 평가방법론, 응답 열, 드롭다운 선택지를 조합해 자동 정리한 작성 방향입니다. 실제 사실과 증빙에 맞는 선택지만 사용하십시오.",
+    pointSummary: "선택 섹터 기준 배점",
+    recommendedOptions: "추천 드롭다운 선택",
+    completionRules: "필수 작성 범위",
+    narrativeChecklist: "서술형 작성 체크리스트",
+    template: "복붙용 서술형 골격",
+    evidence: "주의 및 증빙",
+    noCriteria: "이 문항은 평가방법론 데이터가 없어 최고득점 가이드를 자동 산출하기 어렵습니다.",
+    noSpecificOption:
+      "평가방법론에서 특정 최고점 선택지를 명확히 자동 식별하지 못했습니다. 표시되는 모든 필수 셀을 작성하고, 실제 상태에 맞는 선택지를 고른 뒤 근거를 충분히 설명하십시오.",
+    anyOption: "제시된 선택지 중 실제에 맞는 항목 선택",
+    level: "평가단계",
+    column: "응답 열",
+    selection: "선택 권장값",
+    points: "관련 점수",
+    noNarrative:
+      "서술형 입력 열이 없는 문항입니다. 드롭다운/수치/첨부 등 표시된 입력값을 빠짐없이 작성하는 것이 핵심입니다.",
+  },
+  en: {
+    title: "Best-Score Guide",
+    noticeTitle: "Auto guide based on scoring methodology",
+    notice:
+      "This guide is automatically derived from the D/A/M/L scoring criteria, response columns, and dropdown options. Use only selections that are true and supportable with evidence.",
+    pointSummary: "Point allocation for selected sector",
+    recommendedOptions: "Recommended dropdown selections",
+    completionRules: "Required completion scope",
+    narrativeChecklist: "Narrative response checklist",
+    template: "Copy-ready narrative outline",
+    evidence: "Caution and evidence",
+    noCriteria: "No scoring methodology data is available, so a best-score guide cannot be generated automatically.",
+    noSpecificOption:
+      "No specific highest-scoring option could be identified automatically. Complete every displayed required cell, select the option that reflects the actual situation, and explain the evidence clearly.",
+    anyOption: "Select any applicable option shown in the questionnaire",
+    level: "Level",
+    column: "Response column",
+    selection: "Recommended value",
+    points: "Related points",
+    noNarrative:
+      "This question has no narrative text column. The key is to complete all displayed dropdown, numeric, and attachment inputs accurately.",
+  },
+};
 
 const SECTOR_KO = {
   General: "일반",
@@ -4061,6 +4108,11 @@ function renderDetail(detail) {
       ${renderCriteria(detail)}
     </section>
 
+    <section class="detail-section" id="section-best-guide">
+      <h3>${bestGuideText("title")}</h3>
+      ${renderBestAnswerGuide(detail)}
+    </section>
+
     <section class="detail-section" id="section-guidance">
       <h3>${t("reportingGuidance")}</h3>
       ${renderGuidance(detail)}
@@ -4083,6 +4135,7 @@ function renderSectionNav() {
     ["section-table", t("tableStructure")],
     ["section-points", t("pointAllocation")],
     ["section-criteria", t("scoringCriteria")],
+    ["section-best-guide", bestGuideText("title")],
     ["section-guidance", t("reportingGuidance")],
   ];
   return `<div class="section-nav" aria-label="${escapeHtml(t("sectionJump"))}">
@@ -4296,6 +4349,299 @@ function renderCriteria(detail) {
           .join("")
       : `<p class="text-block muted">${t("noCriteriaSelection")}</p>`
   }`;
+}
+
+function bestGuideText(key) {
+  const dict = BEST_GUIDE_LABELS[state.lang] || BEST_GUIDE_LABELS.en;
+  return dict[key] || BEST_GUIDE_LABELS.en[key] || key;
+}
+
+function bestGuideNormalize(value) {
+  return String(value ?? "")
+    .replace(/[‘’]/g, "'")
+    .replace(/[“”]/g, '"')
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function awardedPointValue(value) {
+  const match = String(value ?? "")
+    .replaceAll(",", "")
+    .match(/([0-9]+(?:\.[0-9]+)?)(?:\s*\/\s*[0-9]+(?:\.[0-9]+)?)?/);
+  return match ? Number(match[1]) : 0;
+}
+
+function pointRowForGuide(detail) {
+  const points = detail.points || [];
+  if (!points.length) return null;
+  const active = state.activeSector || chooseInitialSector(detail);
+  return points.find((row) => row.sector === active) || points.find((row) => row.sector === "General") || points[0];
+}
+
+function criteriaRowsForGuide(detail) {
+  const rows = detail.criteria || [];
+  if (!rows.length) return [];
+  const active = state.activeSector || chooseInitialSector(detail);
+  const activeRows = rows.filter((row) => row.sector === active);
+  if (activeRows.length) return activeRows;
+  const generalRows = rows.filter((row) => row.sector === "General");
+  return generalRows.length ? generalRows : rows;
+}
+
+function findColumnByScoringName(detail, columnName) {
+  const target = bestGuideNormalize(columnName);
+  if (!target) return null;
+  return (detail.columns || []).find((column) => {
+    const candidates = [column.text, column.textKo, column.code].map(bestGuideNormalize).filter(Boolean);
+    return candidates.some((candidate) => candidate === target || candidate.includes(target) || target.includes(candidate));
+  });
+}
+
+function guideColumnLabel(detail, columnName) {
+  const column = findColumnByScoringName(detail, columnName);
+  if (!column) return columnName || bestGuideText("anyOption");
+  const label = textBy(column, "text", "textKo") || column.text || columnName;
+  return `${column.code} · ${label}`;
+}
+
+function guideOptionLabel(detail, columnName, option) {
+  if (!option) return bestGuideText("anyOption");
+  const column = findColumnByScoringName(detail, columnName);
+  const index = column?.options?.findIndex((item) => bestGuideNormalize(item) === bestGuideNormalize(option)) ?? -1;
+  return optionText(option, index >= 0 ? column.optionsKo?.[index] : "");
+}
+
+function parseCriteriaSelections(detail, rows) {
+  const rawSuggestions = [];
+  const pushSuggestion = (row, columnName, options, pointText, type = "specific") => {
+    const score = awardedPointValue(pointText);
+    if (pointText && score <= 0) return;
+    const normalizedOptions = options.filter(Boolean);
+    rawSuggestions.push({
+      level: row.level,
+      columnName,
+      columnLabel: type === "any" ? bestGuideText("anyOption") : guideColumnLabel(detail, columnName),
+      options: type === "any" ? [bestGuideText("anyOption")] : normalizedOptions.map((option) => guideOptionLabel(detail, columnName, option)),
+      pointText,
+      score,
+      type,
+    });
+  };
+
+  for (const row of rows) {
+    const text = String(row.criteria || "").replace(/[‘’]/g, "'").replace(/[“”]/g, '"');
+    const eitherRegex = /Either\s+'([^']+)'\s+or\s+'([^']+)'\s+selected in column\s+'([^']+)'\s*-\s*([0-9]+(?:\.[0-9]+)?(?:\s*\/\s*[0-9]+(?:\.[0-9]+)?)?)\s*points?/gi;
+    const singleRegex = /'([^']+)'\s+selected in column\s+'([^']+)'\s*-\s*([0-9]+(?:\.[0-9]+)?(?:\s*\/\s*[0-9]+(?:\.[0-9]+)?)?)\s*points?/gi;
+    const anyRegex = /Any option selected\s*-\s*([0-9]+(?:\.[0-9]+)?(?:\s*\/\s*[0-9]+(?:\.[0-9]+)?)?)\s*points?/gi;
+    let match;
+    while ((match = eitherRegex.exec(text))) {
+      pushSuggestion(row, match[3], [match[1], match[2]], match[4]);
+    }
+    while ((match = singleRegex.exec(text))) {
+      pushSuggestion(row, match[2], [match[1]], match[3]);
+    }
+    while ((match = anyRegex.exec(text))) {
+      pushSuggestion(row, "", [], match[1], "any");
+    }
+  }
+
+  const bestByLevelColumn = new Map();
+  for (const suggestion of rawSuggestions) {
+    const key = `${suggestion.level}|${bestGuideNormalize(suggestion.columnLabel)}`;
+    const existing = bestByLevelColumn.get(key);
+    if (!existing || suggestion.score > existing.score) {
+      bestByLevelColumn.set(key, suggestion);
+    }
+  }
+
+  const grouped = new Map();
+  for (const suggestion of bestByLevelColumn.values()) {
+    const optionLabel = suggestion.options.join(" / ");
+    const key = `${suggestion.columnLabel}|${optionLabel}`;
+    const existing = grouped.get(key) || { ...suggestion, levels: [], points: [] };
+    existing.levels.push(suggestion.level);
+    existing.points.push(suggestion.pointText);
+    grouped.set(key, existing);
+  }
+
+  return [...grouped.values()].sort((a, b) => levelOrder(a.levels[0]) - levelOrder(b.levels[0]));
+}
+
+function requestedGuidanceText(detail) {
+  return (detail.guidance || [])
+    .filter((block) => /Requested Content/i.test(block.type || ""))
+    .map((block) => `${block.text || ""}\n${block.textKo || ""}`)
+    .join("\n");
+}
+
+function uniqueItems(items) {
+  return [...new Set(items.filter(Boolean).map((item) => String(item).trim()).filter(Boolean))];
+}
+
+function completionRulesForGuide(detail, rows) {
+  const source = `${rows.map((row) => row.criteria || "").join("\n")}\n${requestedGuidanceText(detail)}`;
+  const rules = [];
+  const isKo = state.lang === "ko";
+  if (/Full Disclosure points must be awarded/i.test(source)) {
+    rules.push(isKo ? "Awareness 점수 대상이 되려면 Disclosure 조건을 먼저 모두 충족해야 합니다." : "Earn full Disclosure points first to be eligible for Awareness points.");
+  }
+  if (/Full Awareness points must be awarded/i.test(source)) {
+    rules.push(isKo ? "Management 점수 대상이 되려면 Awareness 조건을 먼저 모두 충족해야 합니다." : "Earn full Awareness points first to be eligible for Management points.");
+  }
+  if (/Full Management points must be awarded/i.test(source)) {
+    rules.push(isKo ? "Leadership 점수 대상이 되려면 Management 조건을 먼저 모두 충족해야 합니다." : "Earn full Management points first to be eligible for Leadership points.");
+  }
+  if (/completed cell|number of cells displayed/i.test(source)) {
+    rules.push(isKo ? "표시되는 모든 셀을 빠짐없이 작성해야 셀 비례 배점에서 감점 위험이 줄어듭니다." : "Complete every displayed cell to avoid losing proportional cell-completion points.");
+  }
+  if (/completed row|Partially completed rows will not receive full points/i.test(source)) {
+    rules.push(isKo ? "일부만 작성한 행은 최고점을 받기 어렵습니다. 표시된 행은 끝까지 완성하십시오." : "Partially completed rows may not receive full points. Complete each displayed row end to end.");
+  }
+  if (/at least one row/i.test(source)) {
+    rules.push(isKo ? "평가방법론 또는 작성안내상 최소 1개 행 이상 작성이 요구됩니다." : "The scoring/guidance indicates that at least one row should be reported.");
+  }
+  if ((detail.columns || []).length) {
+    rules.push(
+      isKo
+        ? `응답 열 ${detail.columns.length}개를 기준으로 조건부 표시 열까지 확인하고, 해당되는 열은 모두 작성하십시오.`
+        : `Review all ${detail.columns.length} response columns, including conditionally displayed columns, and complete every applicable one.`,
+    );
+  }
+  if ((detail.rows || []).length > 1) {
+    rules.push(
+      isKo
+        ? `고정 행/환경 이슈 행이 있는 문항입니다. 표시되는 ${detail.rows.length}개 행 중 귀사에 해당되는 행을 누락하지 마십시오.`
+        : `This question has fixed rows/environmental issue rows. Do not omit applicable rows from the ${detail.rows.length} displayed rows.`,
+    );
+  }
+  if (/NON-DISCLOSURE ROUTE/i.test(source)) {
+    rules.push(isKo ? "미응답 또는 미완료 선택지는 비공개 경로로 처리되어 큰 감점이 발생할 수 있습니다." : "Missing or incomplete responses may fall into a non-disclosure route and lose significant points.");
+  }
+  if (!rules.length) {
+    rules.push(isKo ? "표시된 입력 항목을 모두 작성하고, 선택한 값의 근거를 공시 가이던스에 맞춰 설명하십시오." : "Complete all displayed inputs and explain the evidence for selected values in line with the reporting guidance.");
+  }
+  return uniqueItems(rules);
+}
+
+function narrativeColumnsForGuide(detail) {
+  return (detail.columns || []).filter((column) => /RICH_TEXT|TEXT|COMMENT|EXPLAIN/i.test(column.type || ""));
+}
+
+function narrativeChecklistForGuide(detail, rows) {
+  const isKo = state.lang === "ko";
+  const narrativeColumns = narrativeColumnsForGuide(detail);
+  const source = `${requestedGuidanceText(detail)}\n${rows.map((row) => row.criteria || "").join("\n")}`;
+  const items = [];
+  if (!narrativeColumns.length) return [bestGuideText("noNarrative")];
+  const columnNames = narrativeColumns.map((column) => `${column.code} ${textBy(column, "text", "textKo") || column.text}`).join(", ");
+  items.push(isKo ? `서술형 입력 열이 표시되는 경우(${columnNames}), 조직 고유의 사실, 범위, 기간, 근거를 구체적으로 작성하십시오.` : `When narrative column(s) are displayed (${columnNames}), provide organization-specific facts, scope, period, and evidence.`);
+  if (/methodolog|calculation|approach/i.test(source)) items.push(isKo ? "산정 방법론, 사용 데이터, 계산 방식, 주요 가정을 함께 설명하십시오." : "Explain the methodology, data used, calculation approach, and key assumptions.");
+  if (/financial|CAPEX|OPEX|revenue|assets|liabilities/i.test(source)) items.push(isKo ? "재무지표, 금액, 비율을 기재할 때 산정 기준과 포함/제외 범위를 같이 설명하십시오." : "For financial metrics, amounts, or percentages, explain the calculation basis and included/excluded scope.");
+  if (/risk|opportunit/i.test(source)) items.push(isKo ? "리스크/기회의 영향, 발생 시점, 가치사슬 위치, 대응 조치를 연결해 설명하십시오." : "Connect risks/opportunities to impact, timing, value-chain location, and response actions.");
+  if (/target|plan|progress|transition/i.test(source)) items.push(isKo ? "목표 또는 계획이 있다면 기준연도, 목표연도, 적용 범위, 현재 진행률을 포함하십시오." : "For targets or plans, include base year, target year, coverage, and current progress.");
+  if (/time horizon|short-term|medium-term|long-term/i.test(source)) items.push(isKo ? "단기/중기/장기 기간 정의와 해당 기간을 사용한 이유를 설명하십시오." : "Define short-, medium-, and long-term horizons and explain why those horizons are used.");
+  if (/value chain|upstream|downstream|portfolio/i.test(source)) items.push(isKo ? "직접 운영사업장, 업스트림/다운스트림 가치사슬, 포트폴리오 중 적용 범위를 명확히 구분하십시오." : "Clearly distinguish own operations, upstream/downstream value chain, and portfolio coverage.");
+  items.push(
+    isKo
+      ? "영문 글자 수 제한은 원천 DB에 별도 수치가 없으면 CDP 포털 제출 화면에서 최종 확인하십시오."
+      : "If the source DB does not state an English character limit, confirm the limit in the CDP portal before submission.",
+  );
+  return uniqueItems(items).slice(0, 8);
+}
+
+function narrativeTemplateForGuide(detail) {
+  const isKo = state.lang === "ko";
+  if (!isKo) {
+    return [
+      "Our organization [has implemented/uses/assesses] [process or analysis] for [environmental issue] during [reporting year/period].",
+      "The scope covers [own operations/value chain/portfolio], and the methodology is based on [methodology/data source].",
+      "Key results are [quantitative result/amount/percentage], with key assumptions including [assumptions and limitations].",
+      "We manage this through [governance/process/action plan], and next steps include [improvement plan and timeline].",
+    ];
+  }
+  return [
+    "당사는 [보고연도/기간] 기준으로 [환경 이슈]에 대한 [프로세스/분석/관리활동]을 수행했습니다.",
+    "적용 범위는 [직접 운영사업장/가치사슬/포트폴리오]이며, [방법론/데이터 출처]를 기준으로 산정했습니다.",
+    "주요 결과는 [정량값/금액/비율]이며, 주요 가정과 한계는 [가정 및 제외 범위]입니다.",
+    "관련 리스크 또는 기회는 [거버넌스/관리 프로세스/이행계획]을 통해 관리하며, 향후 [개선계획 및 일정]을 추진할 예정입니다.",
+  ];
+}
+
+function renderBestGuideCard(title, bodyHtml, className = "") {
+  return `<article class="best-guide-card ${className}">
+    <h4>${escapeHtml(title)}</h4>
+    ${bodyHtml}
+  </article>`;
+}
+
+function renderBestAnswerGuide(detail) {
+  const rows = criteriaRowsForGuide(detail);
+  const pointRow = pointRowForGuide(detail);
+  if (!rows.length && !pointRow) return `<p class="text-block muted">${escapeHtml(bestGuideText("noCriteria"))}</p>`;
+
+  const suggestions = parseCriteriaSelections(detail, rows);
+  const completionRules = completionRulesForGuide(detail, rows);
+  const narrativeChecklist = narrativeChecklistForGuide(detail, rows);
+  const templateLines = narrativeTemplateForGuide(detail);
+  const hasNarrative = narrativeColumnsForGuide(detail).length > 0;
+  const sectorLabelText = pointRow ? textBy(pointRow, "sector", "sectorKo") : textBy(rows[0], "sector", "sectorKo");
+
+  const pointHtml = pointRow
+    ? `<div class="best-score-strip">
+        <span><b>${escapeHtml(t("sector"))}</b>${escapeHtml(sectorLabelText || "-")}</span>
+        <span><b>D</b>${escapeHtml(pointRow.D || "-")}</span>
+        <span><b>A</b>${escapeHtml(pointRow.A || "-")}</span>
+        <span><b>M</b>${escapeHtml(pointRow.M || "-")}</span>
+        <span><b>L</b>${escapeHtml(pointRow.L || "-")}</span>
+      </div>`
+    : `<p class="text-block muted">${escapeHtml(t("noPoints"))}</p>`;
+
+  const suggestionHtml = suggestions.length
+    ? `<div class="table-wrap best-guide-table">
+        <table>
+          <thead>
+            <tr><th>${escapeHtml(bestGuideText("level"))}</th><th>${escapeHtml(bestGuideText("column"))}</th><th>${escapeHtml(bestGuideText("selection"))}</th><th>${escapeHtml(bestGuideText("points"))}</th></tr>
+          </thead>
+          <tbody>
+            ${suggestions
+              .map(
+                (item) => `<tr>
+                  <td><strong>${escapeHtml(uniqueItems(item.levels).join(", "))}</strong></td>
+                  <td>${escapeHtml(item.columnLabel)}</td>
+                  <td>${escapeHtml(uniqueItems(item.options).join(" / "))}</td>
+                  <td>${escapeHtml(uniqueItems(item.points).join(", "))}</td>
+                </tr>`,
+              )
+              .join("")}
+          </tbody>
+        </table>
+      </div>`
+    : `<p class="text-block muted">${escapeHtml(bestGuideText("noSpecificOption"))}</p>`;
+
+  const listHtml = (items) => `<ul class="best-guide-list">${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
+  const templateHtml = hasNarrative
+    ? `<div class="best-template">${templateLines.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}</div>`
+    : `<p class="text-block muted">${escapeHtml(bestGuideText("noNarrative"))}</p>`;
+  const caution =
+    state.lang === "ko"
+      ? "최고점에 유리한 선택지라도 실제 수행 사실, 내부 문서, 산정 파일, 검증 자료가 없으면 선택하지 마십시오. CDP 평가는 선택값과 설명의 일관성, 증빙 가능성을 함께 봅니다."
+      : "Do not select a high-scoring option unless it is true and supported by internal documents, calculation files, or verification evidence. CDP scoring depends on consistency between selections, explanations, and evidence.";
+
+  return `<div class="best-guide">
+    <div class="best-guide-notice">
+      <strong>${escapeHtml(bestGuideText("noticeTitle"))}</strong>
+      <p>${escapeHtml(bestGuideText("notice"))}</p>
+    </div>
+    <div class="best-guide-grid">
+      ${renderBestGuideCard(bestGuideText("pointSummary"), pointHtml, "wide")}
+      ${renderBestGuideCard(bestGuideText("recommendedOptions"), suggestionHtml, "wide")}
+      ${renderBestGuideCard(bestGuideText("completionRules"), listHtml(completionRules))}
+      ${renderBestGuideCard(bestGuideText("narrativeChecklist"), listHtml(narrativeChecklist))}
+      ${renderBestGuideCard(bestGuideText("template"), templateHtml, "wide")}
+      ${renderBestGuideCard(bestGuideText("evidence"), `<p class="text-block">${escapeHtml(caution)}</p>`, "wide caution")}
+    </div>
+  </div>`;
 }
 
 function renderGuidance(detail) {
